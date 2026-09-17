@@ -1,0 +1,19 @@
+The short version, in the words a practitioner is actually shown.
+
+Kept deliberately to WhatsApp length: nobody reads three pages in a chat window,
+and terms that were not read were not agreed to. It is hashed together with the
+full text, so this summary cannot drift away from what it summarises without
+producing a version nobody has accepted.
+
+---
+Your records stay yours. You can export them or delete them whenever you want,
+and nothing leaves Sanko's own machines without asking you first.
+
+Sanko may use your corrections to improve how well it understands you, and count
+your records in totals with no names, plants or places in them.
+
+Anything beyond that — research, licensing, publication, a dataset — is a
+separate question each time. You are told who is asking and what for, you can
+say no and keep using Sanko, and what you get in return is written down.
+
+Full terms: sanko.africa/terms

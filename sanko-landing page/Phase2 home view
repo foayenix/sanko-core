@@ -1,0 +1,68 @@
+# SANKO VISION DEMO — PHASE 2: Home View
+
+## Context
+Phase 1 created the project, data layer (src/data.js), and app shell (src/App.jsx) with navigation. The app runs with placeholder views.
+
+## What to build now
+Create src/views/HomeView.jsx and import it into App.jsx, replacing the home placeholder.
+
+## HomeView.jsx specification
+
+The home view has 3 sections stacked vertically, centered, max-width 720px.
+
+### Section A: Journey Timeline
+Title: "The journey — from today to what you're about to see" (gold, uppercase, 11px, centered)
+
+4 phases in a horizontal row connected by a gradient line (green → blue → purple → coral):
+
+1. **Today** (green #1B6B3A): 💬 icon in green rounded square, "WhatsApp MVP", "Voice + photo documentation, 20 practitioners piloting, HTSN network"
+2. **6 months** (blue #2D4B8E): 📱 icon, "Mobile app + tracking", "Outcome tracking live, 1,000 practitioners, 3 languages"
+3. **18 months** (purple #7F77DD): 🔬 icon, "Research data layer", "Anonymised datasets, University partnerships, First revenue"
+4. **3+ years** (coral #D85A30): 🌍 icon, "Pan-African platform", "15+ countries, WHO engagement, What you're about to see ↓"
+
+Each phase: icon in 56px rounded square → date label (bold, 12px) → phase name (coloured, 11px, bold) → description (10px, very muted, line breaks)
+
+### Section B: Data Flywheel
+Inside a card (rgba(255,255,255,0.02) background, border, 14px radius, 24px padding):
+
+Title: "Why this compounds — the data flywheel" (forest green, uppercase, 11px, centered)
+
+4 nodes in a row with arrows between them:
+1. 🌿 "More practitioners" → "document formulations" (green circle border)
+2. 📊 "More outcome data" → "linked to formulations" (gold circle border)
+3. 🔬 "Research interest" → "universities + pharma" (indigo circle border)
+4. ✅ "Validated medicines" → "credibility + trust" (purple circle border)
+
+Below the nodes, a return arrow pill: "↩ Validated medicines attract **more practitioners** — the cycle accelerates"
+
+Below that, muted text: "Each practitioner who joins makes the platform more valuable for every other practitioner, researcher, and regulator. This is why Sanko compounds — and why no one can replicate the dataset once it reaches scale."
+
+### Section C: Role Selector
+Title: "Experience the 2030 platform" (muted, uppercase, 11px, centered)
+
+2x2 grid of clickable cards. Each card has:
+- Icon (20px)
+- Title (14px, bold)
+- Description (11px, muted)
+- Hover: border turns green, subtle background change
+- onClick: calls the parent's setView function
+
+Cards:
+1. 🌿 Practitioner — "Practice dashboard, vault with outcome data, community view, research interest notifications."
+2. 🔬 Researcher — "Search anonymised formulations, explore compound frequency, request Nagoya-compliant collaboration."
+3. 🏛️ Regulator — "Population-level intelligence, pharmacovigilance signals, formulations of regulatory interest."
+4. 🌍 Public data portal — "Aggregate numbers across 15 countries, key evidence findings, annual state of African TM report."
+
+### Badge at top
+Before everything, show: "🔮 Vision demo — Sanko 2030" in a gold badge (gold background 8%, gold border 15%, gold text, 11px, pill shape)
+
+## Integration
+In App.jsx:
+- Import HomeView from './views/HomeView'
+- Pass `onNavigate={setView}` as a prop
+- Replace the home placeholder with `<HomeView onNavigate={setView} />`
+
+## Commit message
+"Phase 2: Home view with journey timeline and data flywheel"
+
+Do NOT modify any other views. Only build HomeView.

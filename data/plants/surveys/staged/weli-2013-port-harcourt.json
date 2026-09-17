@@ -1,0 +1,2746 @@
+[
+  {
+    "source_id": "weli-2013-port-harcourt",
+    "source_row": 1,
+    "serial_as_published": "1",
+    "botanical_as_published": "Zingiber officinale (Rose)",
+    "family_as_published": "Zingiberaceae",
+    "common_english_as_published": "Ginger",
+    "vernacular_as_published": {
+      "yo": "Jinga",
+      "ig": "Chita",
+      "ha": "Ata-ile"
+    },
+    "vernacular_names": [
+      {
+        "local_name": "Jinga",
+        "language": "yo"
+      },
+      {
+        "local_name": "Chita",
+        "language": "ig"
+      },
+      {
+        "local_name": "Ata-ile",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "corm"
+    ],
+    "traditional_use_as_published": "Detoxify liver, bronchitis",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "weli-2013-port-harcourt",
+    "source_row": 2,
+    "serial_as_published": "2",
+    "botanical_as_published": "Cissus quadrangularis (L.)",
+    "family_as_published": "Vitaceae",
+    "common_english_as_published": "Edible-stemmed vine",
+    "vernacular_as_published": {
+      "yo": "Ogbakiiki",
+      "ig": "—",
+      "ha": "Daddor"
+    },
+    "vernacular_names": [
+      {
+        "local_name": "Ogbakiiki",
+        "language": "yo"
+      },
+      {
+        "local_name": "Daddor",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "tuber",
+      "stem"
+    ],
+    "traditional_use_as_published": "Caries, dysmenorrhoea, urinary disorders",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "weli-2013-port-harcourt",
+    "source_row": 3,
+    "serial_as_published": "3",
+    "botanical_as_published": "Hibiscus acetosella",
+    "family_as_published": "Malvaceae",
+    "common_english_as_published": "Hibiscus",
+    "vernacular_as_published": {
+      "yo": null,
+      "ig": null,
+      "ha": "Akese"
+    },
+    "vernacular_names": [
+      {
+        "local_name": "Akese",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "leaves"
+    ],
+    "traditional_use_as_published": "Dysentery",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "weli-2013-port-harcourt",
+    "source_row": 4,
+    "serial_as_published": "4",
+    "botanical_as_published": "Triumfetta rhomboidea (Jacaq.)",
+    "family_as_published": "Tilaceae",
+    "common_english_as_published": "Chinese pur/Burweed",
+    "vernacular_as_published": {
+      "yo": "Odo",
+      "ig": "Yanka-dafi",
+      "ha": "Molanganrsn/ako bolobolo"
+    },
+    "vernacular_names": [
+      {
+        "local_name": "Odo",
+        "language": "yo"
+      },
+      {
+        "local_name": "Yanka-dafi",
+        "language": "ig"
+      },
+      {
+        "local_name": "Molanganrsn/ako bolobolo",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "flower fruit"
+    ],
+    "traditional_use_as_published": "Gonorrhea",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "weli-2013-port-harcourt",
+    "source_row": 5,
+    "serial_as_published": "5",
+    "botanical_as_published": "Corchorus olitorius",
+    "family_as_published": "Titiaceae",
+    "common_english_as_published": "Bush okra/Jew fiber telteria/Jews Mallow",
+    "vernacular_as_published": {
+      "yo": "Ewedu",
+      "ig": "Ariraa/ulogburu",
+      "ha": "Lalo"
+    },
+    "vernacular_names": [
+      {
+        "local_name": "Ewedu",
+        "language": "yo"
+      },
+      {
+        "local_name": "Ariraa/ulogburu",
+        "language": "ig"
+      },
+      {
+        "local_name": "Lalo",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "traditional_use_as_published": "Vegetable, blood purifier",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "weli-2013-port-harcourt",
+    "source_row": 6,
+    "serial_as_published": "6",
+    "botanical_as_published": "Chrysophyllum albidum (G. Don)",
+    "family_as_published": "Sapotaceae",
+    "common_english_as_published": "African star apple",
+    "vernacular_as_published": {
+      "yo": "Odara/udala",
+      "ig": "Agbalumo",
+      "ha": "Agwaliba"
+    },
+    "vernacular_names": [
+      {
+        "local_name": "Odara/udala",
+        "language": "yo"
+      },
+      {
+        "local_name": "Agbalumo",
+        "language": "ig"
+      },
+      {
+        "local_name": "Agwaliba",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "fruit"
+    ],
+    "traditional_use_as_published": "Delicacy, antinausea",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "weli-2013-port-harcourt",
+    "source_row": 7,
+    "serial_as_published": "7",
+    "botanical_as_published": "Coccinia barteri",
+    "family_as_published": "Cucurbitaceae",
+    "common_english_as_published": "Fruited gourd",
+    "vernacular_as_published": {
+      "yo": null,
+      "ig": null,
+      "ha": "Ewe-oju"
+    },
+    "vernacular_names": [
+      {
+        "local_name": "Ewe-oju",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "whole plant"
+    ],
+    "traditional_use_as_published": "Venereal diseases, skin infections, earache",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "weli-2013-port-harcourt",
+    "source_row": 8,
+    "serial_as_published": "8",
+    "botanical_as_published": "Solanum lycopersicum",
+    "family_as_published": "Solanaceae",
+    "common_english_as_published": "Tomatoes",
+    "vernacular_as_published": {
+      "yo": "Tomati",
+      "ig": "Tomato",
+      "ha": "Tomati"
+    },
+    "vernacular_names": [
+      {
+        "local_name": "Tomati",
+        "language": "yo"
+      },
+      {
+        "local_name": "Tomato",
+        "language": "ig"
+      },
+      {
+        "local_name": "Tomati",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "fruit"
+    ],
+    "traditional_use_as_published": "Vegetable, Vitamin C",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "weli-2013-port-harcourt",
+    "source_row": 9,
+    "serial_as_published": "9",
+    "botanical_as_published": "Capsicum annuum L.",
+    "family_as_published": "Solanaceae",
+    "common_english_as_published": "Pepper, Chili",
+    "vernacular_as_published": {
+      "yo": "Ata wewe",
+      "ig": "Ose",
+      "ha": "Tatashi"
+    },
+    "vernacular_names": [
+      {
+        "local_name": "Ata wewe",
+        "language": "yo"
+      },
+      {
+        "local_name": "Ose",
+        "language": "ig"
+      },
+      {
+        "local_name": "Tatashi",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "fruit"
+    ],
+    "traditional_use_as_published": "Delicacy, seasoning",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "weli-2013-port-harcourt",
+    "source_row": 10,
+    "serial_as_published": "10",
+    "botanical_as_published": "Thymus vulgaris",
+    "family_as_published": "Lamiaceae",
+    "common_english_as_published": "Curry leaf",
+    "vernacular_as_published": {
+      "yo": "Efinrin wewe",
+      "ig": "Nch-anwu",
+      "ha": null
+    },
+    "vernacular_names": [
+      {
+        "local_name": "Efinrin wewe",
+        "language": "yo"
+      },
+      {
+        "local_name": "Nch-anwu",
+        "language": "ig"
+      }
+    ],
+    "parts_reported": [
+      "leaves"
+    ],
+    "traditional_use_as_published": "Antibiotic, carminative",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "weli-2013-port-harcourt",
+    "source_row": 11,
+    "serial_as_published": "11",
+    "botanical_as_published": "Citrus sinensis (Linn.)",
+    "family_as_published": "Rutaceae",
+    "common_english_as_published": "Orange, Sweet",
+    "vernacular_as_published": {
+      "yo": "Osan",
+      "ig": "Or-oma",
+      "ha": "Lmu"
+    },
+    "vernacular_names": [
+      {
+        "local_name": "Osan",
+        "language": "yo"
+      },
+      {
+        "local_name": "Or-oma",
+        "language": "ig"
+      },
+      {
+        "local_name": "Lmu",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "twigs",
+      "stem bark",
+      "fruits",
+      "peel"
+    ],
+    "traditional_use_as_published": "Dysentery, fever, headache, antimicrobial agent, anthelmintics, toothache, antiscorbutic",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "weli-2013-port-harcourt",
+    "source_row": 12,
+    "serial_as_published": "12",
+    "botanical_as_published": "Morinda lucida (Benth.)",
+    "family_as_published": "Rubiaceae",
+    "common_english_as_published": "Brimstone tree",
+    "vernacular_as_published": {
+      "yo": "Oruwo",
+      "ig": "Eze-ogu",
+      "ha": "—"
+    },
+    "vernacular_names": [
+      {
+        "local_name": "Oruwo",
+        "language": "yo"
+      },
+      {
+        "local_name": "Eze-ogu",
+        "language": "ig"
+      }
+    ],
+    "parts_reported": [
+      "leaves"
+    ],
+    "traditional_use_as_published": "Fever",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "weli-2013-port-harcourt",
+    "source_row": 13,
+    "serial_as_published": "13",
+    "botanical_as_published": "Daniellia oliveri",
+    "family_as_published": "Leguminosae",
+    "common_english_as_published": "African copaiba, balsam tree, niger-opal, maaje",
+    "vernacular_as_published": {
+      "yo": "Iya,",
+      "ig": "Kadaura,",
+      "ha": "Ozabwa, Maje"
+    },
+    "vernacular_names": [
+      {
+        "local_name": "Iya",
+        "language": "yo"
+      },
+      {
+        "local_name": "Kadaura",
+        "language": "ig"
+      },
+      {
+        "local_name": "Ozabwa",
+        "language": "ha"
+      },
+      {
+        "local_name": "Maje",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "gum",
+      "bark"
+    ],
+    "traditional_use_as_published": "Dysentery, diarrhoea, toothache, urinary infection, astringent, tooth ache",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "weli-2013-port-harcourt",
+    "source_row": 14,
+    "serial_as_published": "14",
+    "botanical_as_published": "Talinum triangulare (Willd.)",
+    "family_as_published": "Portulacaceae",
+    "common_english_as_published": "Water leaf",
+    "vernacular_as_published": {
+      "yo": "Gbure",
+      "ig": "Nte-oka/inene",
+      "ha": "Alenyruw-a"
+    },
+    "vernacular_names": [
+      {
+        "local_name": "Gbure",
+        "language": "yo"
+      },
+      {
+        "local_name": "Nte-oka/inene",
+        "language": "ig"
+      },
+      {
+        "local_name": "Alenyruw-a",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "traditional_use_as_published": "Vegetable",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "weli-2013-port-harcourt",
+    "source_row": 15,
+    "serial_as_published": "15",
+    "botanical_as_published": "Cymbopogon citratus",
+    "family_as_published": "Poaceae",
+    "common_english_as_published": "Lemon grass",
+    "vernacular_as_published": {
+      "yo": "Koriko-oba",
+      "ig": "Nch-anwu",
+      "ha": "—"
+    },
+    "vernacular_names": [
+      {
+        "local_name": "Koriko-oba",
+        "language": "yo"
+      },
+      {
+        "local_name": "Nch-anwu",
+        "language": "ig"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "traditional_use_as_published": "Malaria",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "weli-2013-port-harcourt",
+    "source_row": 16,
+    "serial_as_published": "16",
+    "botanical_as_published": "Spondias mombin L.",
+    "family_as_published": "Anacardiaceae",
+    "common_english_as_published": "Hog plum",
+    "vernacular_as_published": {
+      "yo": "Iyeye",
+      "ig": "Ngu-lung-wu",
+      "ha": "Isada"
+    },
+    "vernacular_names": [
+      {
+        "local_name": "Iyeye",
+        "language": "yo"
+      },
+      {
+        "local_name": "Ngu-lung-wu",
+        "language": "ig"
+      },
+      {
+        "local_name": "Isada",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "fruit"
+    ],
+    "traditional_use_as_published": "Infertility",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "weli-2013-port-harcourt",
+    "source_row": 17,
+    "serial_as_published": "17",
+    "botanical_as_published": "Anacardium occidentale L.",
+    "family_as_published": "Anacardiaceae",
+    "common_english_as_published": "Cashew nut",
+    "vernacular_as_published": {
+      "yo": "Kaju",
+      "ig": "Sas-hu",
+      "ha": "Kanju"
+    },
+    "vernacular_names": [
+      {
+        "local_name": "Kaju",
+        "language": "yo"
+      },
+      {
+        "local_name": "Sas-hu",
+        "language": "ig"
+      },
+      {
+        "local_name": "Kanju",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "bark",
+      "fruit"
+    ],
+    "traditional_use_as_published": "Cough",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "weli-2013-port-harcourt",
+    "source_row": 18,
+    "serial_as_published": "18",
+    "botanical_as_published": "Mangifera indica L",
+    "family_as_published": "Anacardiaceae",
+    "common_english_as_published": "Mango",
+    "vernacular_as_published": {
+      "yo": "Mongora",
+      "ig": null,
+      "ha": "Mango"
+    },
+    "vernacular_names": [
+      {
+        "local_name": "Mongora",
+        "language": "yo"
+      },
+      {
+        "local_name": "Mango",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "bark"
+    ],
+    "traditional_use_as_published": "Malaria",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "weli-2013-port-harcourt",
+    "source_row": 19,
+    "serial_as_published": "19",
+    "botanical_as_published": "Colocasia esculentum (L.) Schott",
+    "family_as_published": "Araceae",
+    "common_english_as_published": "Cocoyam, Wild taro",
+    "vernacular_as_published": {
+      "yo": "Koko, kokof-un, kokoibile,",
+      "ig": "Ede",
+      "ha": "Gwamba"
+    },
+    "vernacular_names": [
+      {
+        "local_name": "Koko",
+        "language": "yo"
+      },
+      {
+        "local_name": "kokof-un",
+        "language": "yo"
+      },
+      {
+        "local_name": "kokoibile",
+        "language": "yo"
+      },
+      {
+        "local_name": "Ede",
+        "language": "ig"
+      },
+      {
+        "local_name": "Gwamba",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "tuber",
+      "leaves"
+    ],
+    "traditional_use_as_published": "Anaemia, wounds, rheumatism, poison antidote",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "weli-2013-port-harcourt",
+    "source_row": 20,
+    "serial_as_published": "20",
+    "botanical_as_published": "Calotropis procera",
+    "family_as_published": "Asclepeceae",
+    "common_english_as_published": "Giant milk weed/sodom apple",
+    "vernacular_as_published": {
+      "yo": "Bom-ubomu",
+      "ig": null,
+      "ha": "Tumifafiya"
+    },
+    "vernacular_names": [
+      {
+        "local_name": "Bom-ubomu",
+        "language": "yo"
+      },
+      {
+        "local_name": "Tumifafiya",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "traditional_use_as_published": "Measles",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "weli-2013-port-harcourt",
+    "source_row": 21,
+    "serial_as_published": "21",
+    "botanical_as_published": "Vernonia amygdalina (Del.)",
+    "family_as_published": "Asteraceae",
+    "common_english_as_published": "Bitter leaf",
+    "vernacular_as_published": {
+      "yo": "Ewuro",
+      "ig": "Onu-gbu, olug-bu",
+      "ha": "Shiwaka"
+    },
+    "vernacular_names": [
+      {
+        "local_name": "Ewuro",
+        "language": "yo"
+      },
+      {
+        "local_name": "Onu-gbu",
+        "language": "ig"
+      },
+      {
+        "local_name": "olug-bu",
+        "language": "ig"
+      },
+      {
+        "local_name": "Shiwaka",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "traditional_use_as_published": "Pile, lower sugar, vegetable",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "weli-2013-port-harcourt",
+    "source_row": 22,
+    "serial_as_published": "22",
+    "botanical_as_published": "Ageratum conyzoides L.",
+    "family_as_published": "Compositae",
+    "common_english_as_published": "Goat weed, floss flower",
+    "vernacular_as_published": {
+      "yo": "Imi-esu",
+      "ig": "ula ujula,",
+      "ha": "Ahenhen"
+    },
+    "vernacular_names": [
+      {
+        "local_name": "Imi-esu",
+        "language": "yo"
+      },
+      {
+        "local_name": "ula ujula",
+        "language": "ig"
+      },
+      {
+        "local_name": "Ahenhen",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "whole plant",
+      "leaves",
+      "root"
+    ],
+    "traditional_use_as_published": "Wounds, ulcers, craw-craw, digestive disturbance, diarrhoea, emetic, skin diseases, antipyretic, gonorrhoea, sleeping sickness, eye wash",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "weli-2013-port-harcourt",
+    "source_row": 23,
+    "serial_as_published": "23",
+    "botanical_as_published": "Chromolaena odorata (Linn.)",
+    "family_as_published": "Compositae",
+    "common_english_as_published": "Siam weed",
+    "vernacular_as_published": {
+      "yo": "Akintola",
+      "ig": "Awo-lowo,",
+      "ha": "Obiarakara"
+    },
+    "vernacular_names": [
+      {
+        "local_name": "Akintola",
+        "language": "yo"
+      },
+      {
+        "local_name": "Awo-lowo",
+        "language": "ig"
+      },
+      {
+        "local_name": "Obiarakara",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "leaves",
+      "stem-twigs"
+    ],
+    "traditional_use_as_published": "Antimicrobial, dysentery, headache, malaria fever, toothache, haemostatic, skin diseases",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "weli-2013-port-harcourt",
+    "source_row": 24,
+    "serial_as_published": "24",
+    "botanical_as_published": "Cocos nucifera",
+    "family_as_published": "Arecaceae",
+    "common_english_as_published": "Coconut",
+    "vernacular_as_published": {
+      "yo": "Agbon",
+      "ig": "Aku-beke",
+      "ha": "Mosara"
+    },
+    "vernacular_names": [
+      {
+        "local_name": "Agbon",
+        "language": "yo"
+      },
+      {
+        "local_name": "Aku-beke",
+        "language": "ig"
+      },
+      {
+        "local_name": "Mosara",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "nut"
+    ],
+    "traditional_use_as_published": "The water neutralizes poison/drug",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "weli-2013-port-harcourt",
+    "source_row": 25,
+    "serial_as_published": "25",
+    "botanical_as_published": "Dennettia tripetala",
+    "family_as_published": "Annonaceae",
+    "common_english_as_published": "Pepper fruit",
+    "vernacular_as_published": {
+      "yo": "Igbere,",
+      "ig": "Nmi-mi",
+      "ha": "—"
+    },
+    "vernacular_names": [
+      {
+        "local_name": "Igbere",
+        "language": "yo"
+      },
+      {
+        "local_name": "Nmi-mi",
+        "language": "ig"
+      }
+    ],
+    "parts_reported": [
+      "fruit",
+      "leaves",
+      "stem",
+      "twigs"
+    ],
+    "traditional_use_as_published": "Insect repellant, fever, cough, toothache, stimulant",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "weli-2013-port-harcourt",
+    "source_row": 26,
+    "serial_as_published": null,
+    "botanical_as_published": "Acanthus montanus",
+    "family_as_published": "Acanthaceae",
+    "common_english_as_published": "False thistle, leopard’s tongue Bear′s breech, white′s ginger,",
+    "vernacular_as_published": {
+      "yo": "Ahon-ekun, irunmuarugbo,",
+      "ig": "Nyin-yiog-wu",
+      "ha": null
+    },
+    "vernacular_names": [
+      {
+        "local_name": "Ahon-ekun",
+        "language": "yo"
+      },
+      {
+        "local_name": "irunmuarugbo",
+        "language": "yo"
+      },
+      {
+        "local_name": "Nyin-yiog-wu",
+        "language": "ig"
+      }
+    ],
+    "parts_reported": [
+      "stem-twig",
+      "leaves",
+      "roots"
+    ],
+    "traditional_use_as_published": "Syphilis, cough, emetic, urethral discharge, purgative, boils, anaemia, anthelmintics",
+    "data_quality_flags": [
+      "unnumbered_source_row"
+    ],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "weli-2013-port-harcourt",
+    "source_row": 27,
+    "serial_as_published": "26",
+    "botanical_as_published": "Bryophyllum pinnatum",
+    "family_as_published": "Crassulaceae",
+    "common_english_as_published": "Resurrection plant, life plant",
+    "vernacular_as_published": {
+      "yo": "Eru-odundun,",
+      "ig": "—",
+      "ha": "Abomoda"
+    },
+    "vernacular_names": [
+      {
+        "local_name": "Eru-odundun",
+        "language": "yo"
+      },
+      {
+        "local_name": "Abomoda",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "leaves",
+      "roots",
+      "leaf sap"
+    ],
+    "traditional_use_as_published": "Cough, diarrhoea, dysentery, wounds, fever, sedatives, diuretic, absc-esses, antifungal, epilepsy, antimicrobial, anticancer",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "weli-2013-port-harcourt",
+    "source_row": 28,
+    "serial_as_published": "27",
+    "botanical_as_published": "Newbouldia laevis",
+    "family_as_published": "Bignoniaceae",
+    "common_english_as_published": "Fertility tree, tree of life",
+    "vernacular_as_published": {
+      "yo": "Akoko",
+      "ig": "Ogirisi",
+      "ha": "Aduruku"
+    },
+    "vernacular_names": [
+      {
+        "local_name": "Akoko",
+        "language": "yo"
+      },
+      {
+        "local_name": "Ogirisi",
+        "language": "ig"
+      },
+      {
+        "local_name": "Aduruku",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "bark",
+      "leaves",
+      "root"
+    ],
+    "traditional_use_as_published": "Round worms, elephantiasis, dysentery, malaria, convulsions, migraine, cough, yellow fever, stomachache, hernia, infertility, earache",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "weli-2013-port-harcourt",
+    "source_row": 29,
+    "serial_as_published": "28",
+    "botanical_as_published": "Spathodea campanulata (P. Beauv.)",
+    "family_as_published": "Bignoniaceae",
+    "common_english_as_published": "African tulip",
+    "vernacular_as_published": {
+      "yo": "Akoko",
+      "ig": "Ogili-si, ogirisi",
+      "ha": "Aduruku"
+    },
+    "vernacular_names": [
+      {
+        "local_name": "Akoko",
+        "language": "yo"
+      },
+      {
+        "local_name": "Ogili-si",
+        "language": "ig"
+      },
+      {
+        "local_name": "ogirisi",
+        "language": "ig"
+      },
+      {
+        "local_name": "Aduruku",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "leaves"
+    ],
+    "traditional_use_as_published": "Asthma",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "weli-2013-port-harcourt",
+    "source_row": 30,
+    "serial_as_published": "29",
+    "botanical_as_published": "Ananas comosus",
+    "family_as_published": "Bromeliaceae",
+    "common_english_as_published": "Pineapple",
+    "vernacular_as_published": {
+      "yo": "Ope oyinbo",
+      "ig": "Nkw-aba",
+      "ha": "—"
+    },
+    "vernacular_names": [
+      {
+        "local_name": "Ope oyinbo",
+        "language": "yo"
+      },
+      {
+        "local_name": "Nkw-aba",
+        "language": "ig"
+      }
+    ],
+    "parts_reported": [
+      "unripe fruit"
+    ],
+    "traditional_use_as_published": "Antihypertension constipation",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "weli-2013-port-harcourt",
+    "source_row": 31,
+    "serial_as_published": "30",
+    "botanical_as_published": "Heliotropium indicum L",
+    "family_as_published": "Boraginaceae",
+    "common_english_as_published": "Cock’s comb, Heliotrope",
+    "vernacular_as_published": {
+      "yo": "Agogo-igun, Apari- Igun,",
+      "ig": "Ogb-eria-kuko",
+      "ha": "Kalkashin korama"
+    },
+    "vernacular_names": [
+      {
+        "local_name": "Agogo-igun",
+        "language": "yo"
+      },
+      {
+        "local_name": "Apari- Igun",
+        "language": "yo"
+      },
+      {
+        "local_name": "Ogb-eria-kuko",
+        "language": "ig"
+      },
+      {
+        "local_name": "Kalkashin korama",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "whole plant"
+    ],
+    "traditional_use_as_published": "Convulsions, cancer, worms, rectal enema, mouth-wash",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "weli-2013-port-harcourt",
+    "source_row": 32,
+    "serial_as_published": "31",
+    "botanical_as_published": "Momordica charantia L.",
+    "family_as_published": "Cucurbitaceae",
+    "common_english_as_published": "African cucumber, bitter gourd, balsam pear",
+    "vernacular_as_published": {
+      "yo": "Ejinrinw",
+      "ig": "Alo-ose",
+      "ha": "Kakayi"
+    },
+    "vernacular_names": [
+      {
+        "local_name": "Ejinrinw",
+        "language": "yo"
+      },
+      {
+        "local_name": "Alo-ose",
+        "language": "ig"
+      },
+      {
+        "local_name": "Kakayi",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "whole plant",
+      "seeds",
+      "fruit root"
+    ],
+    "traditional_use_as_published": "Diabetes, piles, convulsions, jaundice, sore, nervous disorders, diabetic recipe, emetic, night blindness, aphrodisiac, dysmenorrhoea, anthelmintic, antimicrobials",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "weli-2013-port-harcourt",
+    "source_row": 33,
+    "serial_as_published": "32",
+    "botanical_as_published": "Telfaria occidentalis Hook. F.",
+    "family_as_published": "Cucurbitaceae",
+    "common_english_as_published": "Fluted pumpkin",
+    "vernacular_as_published": {
+      "yo": null,
+      "ig": "Ugu",
+      "ha": null
+    },
+    "vernacular_names": [
+      {
+        "local_name": "Ugu",
+        "language": "ig"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "traditional_use_as_published": "Antianaemic, blood tonic",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "weli-2013-port-harcourt",
+    "source_row": 34,
+    "serial_as_published": "33",
+    "botanical_as_published": "Citrullus colocynthis (L.)",
+    "family_as_published": "Cucurbitaceae",
+    "common_english_as_published": "Colocynth, wild gourd.",
+    "vernacular_as_published": {
+      "yo": "Egunsi",
+      "ig": "Elili/egwusi",
+      "ha": "Egbsi/guna"
+    },
+    "vernacular_names": [
+      {
+        "local_name": "Egunsi",
+        "language": "yo"
+      },
+      {
+        "local_name": "Elili/egwusi",
+        "language": "ig"
+      },
+      {
+        "local_name": "Egbsi/guna",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "fruit"
+    ],
+    "traditional_use_as_published": "Laxative digestion",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "weli-2013-port-harcourt",
+    "source_row": 35,
+    "serial_as_published": "34",
+    "botanical_as_published": "Carica papaya (Linn.)",
+    "family_as_published": "Caricaceae",
+    "common_english_as_published": "Paw paw",
+    "vernacular_as_published": {
+      "yo": "Ibepe",
+      "ig": "Okworo-gbogbo",
+      "ha": "Gwanda"
+    },
+    "vernacular_names": [
+      {
+        "local_name": "Ibepe",
+        "language": "yo"
+      },
+      {
+        "local_name": "Okworo-gbogbo",
+        "language": "ig"
+      },
+      {
+        "local_name": "Gwanda",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "latex fruit"
+    ],
+    "traditional_use_as_published": "Boil, purgative",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "weli-2013-port-harcourt",
+    "source_row": 36,
+    "serial_as_published": "35",
+    "botanical_as_published": "Dialium guineense (Wild)",
+    "family_as_published": "Leguminosae",
+    "common_english_as_published": "Velvet, black tamarid, tumble tree",
+    "vernacular_as_published": {
+      "yo": "Awin,",
+      "ig": "Icheku,",
+      "ha": "Tsamiyar kurmi"
+    },
+    "vernacular_names": [
+      {
+        "local_name": "Awin",
+        "language": "yo"
+      },
+      {
+        "local_name": "Icheku",
+        "language": "ig"
+      },
+      {
+        "local_name": "Tsamiyar kurmi",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "leaves",
+      "fruit",
+      "bark",
+      "twigs"
+    ],
+    "traditional_use_as_published": "Fever, coughs, bronchitis, toothache, astringent, diuretic",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "weli-2013-port-harcourt",
+    "source_row": 37,
+    "serial_as_published": "36",
+    "botanical_as_published": "Dioscoreae cayennensis",
+    "family_as_published": "Dioscoreaceae danzaria",
+    "common_english_as_published": "White yam",
+    "vernacular_as_published": {
+      "yo": "Ako isu",
+      "ig": "Ji-ocha",
+      "ha": "Doya"
+    },
+    "vernacular_names": [
+      {
+        "local_name": "Ako isu",
+        "language": "yo"
+      },
+      {
+        "local_name": "Ji-ocha",
+        "language": "ig"
+      },
+      {
+        "local_name": "Doya",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "tubers"
+    ],
+    "traditional_use_as_published": "Antidiarrhea",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "weli-2013-port-harcourt",
+    "source_row": 38,
+    "serial_as_published": "37",
+    "botanical_as_published": "Jatropha curcas L.",
+    "family_as_published": "Euphorbiaceae",
+    "common_english_as_published": "Physic nut",
+    "vernacular_as_published": {
+      "yo": "Botuje,",
+      "ig": "Olulu-idu",
+      "ha": "lapalapa, Zugu, Ol"
+    },
+    "vernacular_names": [
+      {
+        "local_name": "Botuje",
+        "language": "yo"
+      },
+      {
+        "local_name": "Olulu-idu",
+        "language": "ig"
+      },
+      {
+        "local_name": "lapalapa",
+        "language": "ha"
+      },
+      {
+        "local_name": "Zugu",
+        "language": "ha"
+      },
+      {
+        "local_name": "Ol",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "seed",
+      "leaves",
+      "stem",
+      "roots",
+      "sap"
+    ],
+    "traditional_use_as_published": "Ringworm, eczema, scabies, fever, guinea worms, herpes, rectal enema, black tongue, whitlow, impotence, irregular menses, convulsion, smallpox",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "weli-2013-port-harcourt",
+    "source_row": 39,
+    "serial_as_published": "38",
+    "botanical_as_published": "Capparis thonningii",
+    "family_as_published": "Capparaceae",
+    "common_english_as_published": "Caper bush",
+    "vernacular_as_published": {
+      "yo": "Eka-nawodi",
+      "ig": null,
+      "ha": "ewon ekiri"
+    },
+    "vernacular_names": [
+      {
+        "local_name": "Eka-nawodi",
+        "language": "yo"
+      },
+      {
+        "local_name": "ewon ekiri",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "root"
+    ],
+    "traditional_use_as_published": "Fever, headache, mental disorder, aphrodisiac, cough.",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "weli-2013-port-harcourt",
+    "source_row": 40,
+    "serial_as_published": "39",
+    "botanical_as_published": "Tetracarpidium conophorum",
+    "family_as_published": "Euophorbiaceae",
+    "common_english_as_published": "African Walnut",
+    "vernacular_as_published": {
+      "yo": "Awusa, asal",
+      "ig": "Ukpa",
+      "ha": "Hawuusa"
+    },
+    "vernacular_names": [
+      {
+        "local_name": "Awusa",
+        "language": "yo"
+      },
+      {
+        "local_name": "asal",
+        "language": "yo"
+      },
+      {
+        "local_name": "Ukpa",
+        "language": "ig"
+      },
+      {
+        "local_name": "Hawuusa",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "fruit"
+    ],
+    "traditional_use_as_published": "Aphrodisiac",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "weli-2013-port-harcourt",
+    "source_row": 41,
+    "serial_as_published": "40",
+    "botanical_as_published": "Glycine max",
+    "family_as_published": "Leguminosae",
+    "common_english_as_published": "Soya bean",
+    "vernacular_as_published": {
+      "yo": "Ewa",
+      "ig": null,
+      "ha": null
+    },
+    "vernacular_names": [
+      {
+        "local_name": "Ewa",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "seeds"
+    ],
+    "traditional_use_as_published": "Laxative",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "weli-2013-port-harcourt",
+    "source_row": 42,
+    "serial_as_published": "41",
+    "botanical_as_published": "Grewia sp",
+    "family_as_published": "Tiliaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": {
+      "yo": "Ila-oko, lakolako",
+      "ig": null,
+      "ha": null
+    },
+    "vernacular_names": [
+      {
+        "local_name": "Ila-oko",
+        "language": "yo"
+      },
+      {
+        "local_name": "lakolako",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "fruits"
+    ],
+    "traditional_use_as_published": "Religious purpose, mystic, soup with okra-like taste",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "weli-2013-port-harcourt",
+    "source_row": 43,
+    "serial_as_published": "42",
+    "botanical_as_published": "Irvingia gabonensis",
+    "family_as_published": "Irvingiaceae",
+    "common_english_as_published": "African/Native/Bush mango",
+    "vernacular_as_published": {
+      "yo": "Oro mopa",
+      "ig": "Ogb-ono",
+      "ha": "Mamujigoro"
+    },
+    "vernacular_names": [
+      {
+        "local_name": "Oro mopa",
+        "language": "yo"
+      },
+      {
+        "local_name": "Ogb-ono",
+        "language": "ig"
+      },
+      {
+        "local_name": "Mamujigoro",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "seed"
+    ],
+    "traditional_use_as_published": "Condiment",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "weli-2013-port-harcourt",
+    "source_row": 44,
+    "serial_as_published": "43",
+    "botanical_as_published": "Allium sativum L.",
+    "family_as_published": "Alliaceae",
+    "common_english_as_published": "Garlic",
+    "vernacular_as_published": {
+      "yo": "Aayu",
+      "ig": "Ayo-ishi",
+      "ha": "Tafarunua"
+    },
+    "vernacular_names": [
+      {
+        "local_name": "Aayu",
+        "language": "yo"
+      },
+      {
+        "local_name": "Ayo-ishi",
+        "language": "ig"
+      },
+      {
+        "local_name": "Tafarunua",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "bulb"
+    ],
+    "traditional_use_as_published": "Antibiotic antidiabetic Anti-hypertension",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "weli-2013-port-harcourt",
+    "source_row": 45,
+    "serial_as_published": "44",
+    "botanical_as_published": "Allium cepa Alabasa",
+    "family_as_published": "Alliaceae",
+    "common_english_as_published": "Onion",
+    "vernacular_as_published": {
+      "yo": "Alubosa",
+      "ig": "Alu-bosa",
+      "ha": "Yabasi"
+    },
+    "vernacular_names": [
+      {
+        "local_name": "Alubosa",
+        "language": "yo"
+      },
+      {
+        "local_name": "Alu-bosa",
+        "language": "ig"
+      },
+      {
+        "local_name": "Yabasi",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "bulb"
+    ],
+    "traditional_use_as_published": "Antidiabetic",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "weli-2013-port-harcourt",
+    "source_row": 46,
+    "serial_as_published": "45",
+    "botanical_as_published": "Aloe barteri",
+    "family_as_published": "Liliaceae",
+    "common_english_as_published": "Aloe, West African aloe",
+    "vernacular_as_published": {
+      "yo": null,
+      "ig": "Aloe",
+      "ha": null
+    },
+    "vernacular_names": [
+      {
+        "local_name": "Aloe",
+        "language": "ig"
+      }
+    ],
+    "parts_reported": [
+      "leaves"
+    ],
+    "traditional_use_as_published": "Ringworm, anthelmintics, aphrodisiac, amenorrhoea, cough, skin infections, astringent, antitumour, pile, fruits for preventing snake bite",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "weli-2013-port-harcourt",
+    "source_row": 47,
+    "serial_as_published": "46",
+    "botanical_as_published": "Ocimum gratissimum",
+    "family_as_published": "Lamiaceae",
+    "common_english_as_published": "Scent leaf, mint",
+    "vernacular_as_published": {
+      "yo": "Efinrin nla",
+      "ig": "Nchanwu",
+      "ha": "Dadoya"
+    },
+    "vernacular_names": [
+      {
+        "local_name": "Efinrin nla",
+        "language": "yo"
+      },
+      {
+        "local_name": "Nchanwu",
+        "language": "ig"
+      },
+      {
+        "local_name": "Dadoya",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "traditional_use_as_published": "Stomach ache",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "weli-2013-port-harcourt",
+    "source_row": 48,
+    "serial_as_published": "47",
+    "botanical_as_published": "Neem tree",
+    "family_as_published": "Meliaceae",
+    "common_english_as_published": "Azadirachta indica (A. Juss.)",
+    "vernacular_as_published": {
+      "yo": "Dongoyaro",
+      "ig": "Og-wu akom",
+      "ha": "Maina"
+    },
+    "vernacular_names": [
+      {
+        "local_name": "Dongoyaro",
+        "language": "yo"
+      },
+      {
+        "local_name": "Og-wu akom",
+        "language": "ig"
+      },
+      {
+        "local_name": "Maina",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "bark"
+    ],
+    "traditional_use_as_published": "Boils, antimalaria",
+    "data_quality_flags": [
+      "common_and_botanical_columns_appear_swapped"
+    ],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "weli-2013-port-harcourt",
+    "source_row": 49,
+    "serial_as_published": "48",
+    "botanical_as_published": "Horse radish tree, Moringa tree, “Never Die,” drumstick tree",
+    "family_as_published": "Moringaceae",
+    "common_english_as_published": "Moringa oleifera Lam.",
+    "vernacular_as_published": {
+      "yo": "Ewe-ile, Eweigbale,",
+      "ig": "Okweoyeibe,",
+      "ha": "zogale, Bagaaruwar makka"
+    },
+    "vernacular_names": [
+      {
+        "local_name": "Ewe-ile",
+        "language": "yo"
+      },
+      {
+        "local_name": "Eweigbale",
+        "language": "yo"
+      },
+      {
+        "local_name": "Okweoyeibe",
+        "language": "ig"
+      },
+      {
+        "local_name": "zogale",
+        "language": "ha"
+      },
+      {
+        "local_name": "Bagaaruwar makka",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "leaves",
+      "roots",
+      "stem bark",
+      "fruit"
+    ],
+    "traditional_use_as_published": "Inflammatory diseases, asthma, antipyretic, cough, earache, liver and pancreas diseases, venereal diseases, anthelmintic, hysteria, diarrhoea, diuretic diseases",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "weli-2013-port-harcourt",
+    "source_row": 50,
+    "serial_as_published": "49",
+    "botanical_as_published": "Avocado pear",
+    "family_as_published": "Lauraceae",
+    "common_english_as_published": "Persea americana (Mill)",
+    "vernacular_as_published": {
+      "yo": "Igba/apoka",
+      "ig": "Ube-beke",
+      "ha": null
+    },
+    "vernacular_names": [
+      {
+        "local_name": "Igba/apoka",
+        "language": "yo"
+      },
+      {
+        "local_name": "Ube-beke",
+        "language": "ig"
+      }
+    ],
+    "parts_reported": [
+      "fruit"
+    ],
+    "traditional_use_as_published": "Antihypertension stomach ulcer",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "weli-2013-port-harcourt",
+    "source_row": 51,
+    "serial_as_published": "50",
+    "botanical_as_published": "Musa paradisiaca L.",
+    "family_as_published": "Musaceae",
+    "common_english_as_published": "Plantain",
+    "vernacular_as_published": {
+      "yo": "Ogede agagba",
+      "ig": "Abrika/Okirima",
+      "ha": "Okamu/ayaba"
+    },
+    "vernacular_names": [
+      {
+        "local_name": "Ogede agagba",
+        "language": "yo"
+      },
+      {
+        "local_name": "Abrika/Okirima",
+        "language": "ig"
+      },
+      {
+        "local_name": "Okamu/ayaba",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "unripe fruit"
+    ],
+    "traditional_use_as_published": "Potent astringent high iron",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "weli-2013-port-harcourt",
+    "source_row": 52,
+    "serial_as_published": "51",
+    "botanical_as_published": "Psidium guajava L",
+    "family_as_published": "Myrtaceae",
+    "common_english_as_published": "Guava",
+    "vernacular_as_published": {
+      "yo": "Gurofa",
+      "ig": "Gova",
+      "ha": "Gwaabaa"
+    },
+    "vernacular_names": [
+      {
+        "local_name": "Gurofa",
+        "language": "yo"
+      },
+      {
+        "local_name": "Gova",
+        "language": "ig"
+      },
+      {
+        "local_name": "Gwaabaa",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "traditional_use_as_published": "Malaria",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "weli-2013-port-harcourt",
+    "source_row": 53,
+    "serial_as_published": "52",
+    "botanical_as_published": "Arachis hypogaea",
+    "family_as_published": "Fabaceae",
+    "common_english_as_published": "Groundnut, peanut",
+    "vernacular_as_published": {
+      "yo": "Egpa",
+      "ig": null,
+      "ha": "Gedda"
+    },
+    "vernacular_names": [
+      {
+        "local_name": "Egpa",
+        "language": "yo"
+      },
+      {
+        "local_name": "Gedda",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "nuts"
+    ],
+    "traditional_use_as_published": "Oil as solvent, antimicrobials, insomnia",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "weli-2013-port-harcourt",
+    "source_row": 54,
+    "serial_as_published": "53",
+    "botanical_as_published": "Abrus precatorius",
+    "family_as_published": "Papilionaceae",
+    "common_english_as_published": "Crab’s eye",
+    "vernacular_as_published": {
+      "yo": "Iwerejeje/ojuologbo",
+      "ig": "Anya nnunu",
+      "ha": "Da marzaya"
+    },
+    "vernacular_names": [
+      {
+        "local_name": "Iwerejeje/ojuologbo",
+        "language": "yo"
+      },
+      {
+        "local_name": "Anya nnunu",
+        "language": "ig"
+      },
+      {
+        "local_name": "Da marzaya",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "traditional_use_as_published": "Cough",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "weli-2013-port-harcourt",
+    "source_row": 55,
+    "serial_as_published": "54",
+    "botanical_as_published": "Baphia nitida",
+    "family_as_published": "Sterculiaceae",
+    "common_english_as_published": "Cam wood",
+    "vernacular_as_published": {
+      "yo": null,
+      "ig": "Uri",
+      "ha": null
+    },
+    "vernacular_names": [
+      {
+        "local_name": "Uri",
+        "language": "ig"
+      }
+    ],
+    "parts_reported": [
+      "latex"
+    ],
+    "traditional_use_as_published": "Decoration",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "weli-2013-port-harcourt",
+    "source_row": 56,
+    "serial_as_published": "55",
+    "botanical_as_published": "Bambusa vulgaris L.",
+    "family_as_published": "Poaceae",
+    "common_english_as_published": "Bamboo",
+    "vernacular_as_published": {
+      "yo": "Oparun",
+      "ig": "Atosi",
+      "ha": null
+    },
+    "vernacular_names": [
+      {
+        "local_name": "Oparun",
+        "language": "yo"
+      },
+      {
+        "local_name": "Atosi",
+        "language": "ig"
+      }
+    ],
+    "parts_reported": [
+      "leaves",
+      "young shoots"
+    ],
+    "traditional_use_as_published": "Gonorrhoea, abortifacient, anthelmintics, emmenagogue, skin rashes of HIV/AIDS",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "weli-2013-port-harcourt",
+    "source_row": 57,
+    "serial_as_published": "56",
+    "botanical_as_published": "Deinbollia pinnata",
+    "family_as_published": "Sapindaceae",
+    "common_english_as_published": "Water willow",
+    "vernacular_as_published": {
+      "yo": "Ogiri-egba,",
+      "ig": null,
+      "ha": "Ekusi-Oloko"
+    },
+    "vernacular_names": [
+      {
+        "local_name": "Ogiri-egba",
+        "language": "yo"
+      },
+      {
+        "local_name": "Ekusi-Oloko",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "leaves",
+      "root"
+    ],
+    "traditional_use_as_published": "Cough, bronchial asthma, aphrodisiac",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "weli-2013-port-harcourt",
+    "source_row": 58,
+    "serial_as_published": "57",
+    "botanical_as_published": "Cymbopogon citratus",
+    "family_as_published": "Poaceae",
+    "common_english_as_published": "Lemon grass",
+    "vernacular_as_published": {
+      "yo": "Koriko-oba",
+      "ig": "Nche awula",
+      "ha": null
+    },
+    "vernacular_names": [
+      {
+        "local_name": "Koriko-oba",
+        "language": "yo"
+      },
+      {
+        "local_name": "Nche awula",
+        "language": "ig"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "traditional_use_as_published": "Malaria",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "weli-2013-port-harcourt",
+    "source_row": 59,
+    "serial_as_published": "58",
+    "botanical_as_published": "Talinum triangulare",
+    "family_as_published": "Portulacaceae",
+    "common_english_as_published": "Water leaf",
+    "vernacular_as_published": {
+      "yo": "Gbure",
+      "ig": "Nte-oka/inene",
+      "ha": "Alenyruwa"
+    },
+    "vernacular_names": [
+      {
+        "local_name": "Gbure",
+        "language": "yo"
+      },
+      {
+        "local_name": "Nte-oka/inene",
+        "language": "ig"
+      },
+      {
+        "local_name": "Alenyruwa",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "root leaf"
+    ],
+    "traditional_use_as_published": "Rat poison, vegetable",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "weli-2013-port-harcourt",
+    "source_row": 60,
+    "serial_as_published": "59",
+    "botanical_as_published": "Capsicum annuum L.",
+    "family_as_published": "Solanaceae",
+    "common_english_as_published": "Pepper, chili",
+    "vernacular_as_published": {
+      "yo": "Ata wewe",
+      "ig": "Ose/totashi",
+      "ha": "Barkono"
+    },
+    "vernacular_names": [
+      {
+        "local_name": "Ata wewe",
+        "language": "yo"
+      },
+      {
+        "local_name": "Ose/totashi",
+        "language": "ig"
+      },
+      {
+        "local_name": "Barkono",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "fruit"
+    ],
+    "traditional_use_as_published": "Stimulant",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "weli-2013-port-harcourt",
+    "source_row": 61,
+    "serial_as_published": "60",
+    "botanical_as_published": "Annona muricata",
+    "family_as_published": "Annonaceae",
+    "common_english_as_published": "Soursop,",
+    "vernacular_as_published": {
+      "yo": null,
+      "ig": "Sawamsop",
+      "ha": null
+    },
+    "vernacular_names": [
+      {
+        "local_name": "Sawamsop",
+        "language": "ig"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "traditional_use_as_published": "Relaxing nerves",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "weli-2013-port-harcourt",
+    "source_row": 62,
+    "serial_as_published": "61",
+    "botanical_as_published": "Jatropha gossypifolia",
+    "family_as_published": "Euphorbiaceae",
+    "common_english_as_published": "Wild Cassava",
+    "vernacular_as_published": {
+      "yo": "Botuje pupa, Binidi zugu",
+      "ig": "Ake mbogho",
+      "ha": null
+    },
+    "vernacular_names": [
+      {
+        "local_name": "Botuje pupa",
+        "language": "yo"
+      },
+      {
+        "local_name": "Binidi zugu",
+        "language": "yo"
+      },
+      {
+        "local_name": "Ake mbogho",
+        "language": "ig"
+      }
+    ],
+    "parts_reported": [
+      "stem latex"
+    ],
+    "traditional_use_as_published": "Ringworm, ascaris, antitumour, malaria, dysentery, dysmenorrhoea",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "weli-2013-port-harcourt",
+    "source_row": 63,
+    "serial_as_published": "62",
+    "botanical_as_published": "Avicennia africana",
+    "family_as_published": "Avicenniaceae",
+    "common_english_as_published": "Black Mangrove",
+    "vernacular_as_published": {
+      "yo": "Ogbun,",
+      "ig": "Ofun",
+      "ha": null
+    },
+    "vernacular_names": [
+      {
+        "local_name": "Ogbun",
+        "language": "yo"
+      },
+      {
+        "local_name": "Ofun",
+        "language": "ig"
+      }
+    ],
+    "parts_reported": [
+      "leaves",
+      "stem",
+      "twigs"
+    ],
+    "traditional_use_as_published": "Abortifacient, detergent",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "weli-2013-port-harcourt",
+    "source_row": 64,
+    "serial_as_published": "63",
+    "botanical_as_published": "Adansonia digitata",
+    "family_as_published": "Bombacaceae",
+    "common_english_as_published": "Baobab",
+    "vernacular_as_published": {
+      "yo": "Ose,",
+      "ig": "Igiose,",
+      "ha": "kukaa, kulambali"
+    },
+    "vernacular_names": [
+      {
+        "local_name": "Ose",
+        "language": "yo"
+      },
+      {
+        "local_name": "Igiose",
+        "language": "ig"
+      },
+      {
+        "local_name": "kukaa",
+        "language": "ha"
+      },
+      {
+        "local_name": "kulambali",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "leaves",
+      "fruit pulp",
+      "bark"
+    ],
+    "traditional_use_as_published": "Malaria, asthma, diarrhoea, kidney and bladder diseases, demulcent, prophylactic, antihistaminic, skin diseases, caries, antimicrobial",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "weli-2013-port-harcourt",
+    "source_row": 65,
+    "serial_as_published": "64",
+    "botanical_as_published": "Ipomoea mauritiana",
+    "family_as_published": "Convolvulaceae",
+    "common_english_as_published": "Morning glory",
+    "vernacular_as_published": {
+      "yo": "Atewogba, Tanpopo",
+      "ig": null,
+      "ha": null
+    },
+    "vernacular_names": [
+      {
+        "local_name": "Atewogba",
+        "language": "yo"
+      },
+      {
+        "local_name": "Tanpopo",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "whole plant"
+    ],
+    "traditional_use_as_published": "Rheumatism, asthma, dropsy.",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "weli-2013-port-harcourt",
+    "source_row": 66,
+    "serial_as_published": "65",
+    "botanical_as_published": "Aerva lanata",
+    "family_as_published": "Amaranthaceae",
+    "common_english_as_published": "Bhadram, cherula",
+    "vernacular_as_published": {
+      "yo": "Aje, Efunile",
+      "ig": "Eweowo,",
+      "ha": "Alhaji, Furfurata, fatumi"
+    },
+    "vernacular_names": [
+      {
+        "local_name": "Aje",
+        "language": "yo"
+      },
+      {
+        "local_name": "Efunile",
+        "language": "yo"
+      },
+      {
+        "local_name": "Eweowo",
+        "language": "ig"
+      },
+      {
+        "local_name": "Alhaji",
+        "language": "ha"
+      },
+      {
+        "local_name": "Furfurata",
+        "language": "ha"
+      },
+      {
+        "local_name": "fatumi",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "whole plant"
+    ],
+    "traditional_use_as_published": "Ulcers, wounds, snake bite, diuretic, purgative, anthelmintic, sore throat, kidney and bladder stones",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "weli-2013-port-harcourt",
+    "source_row": 67,
+    "serial_as_published": "66",
+    "botanical_as_published": "Acalypha fimbriata",
+    "family_as_published": "Euphorbiaceae",
+    "common_english_as_published": "Acalypha",
+    "vernacular_as_published": {
+      "yo": "Jinwinini,",
+      "ig": null,
+      "ha": "kandiri"
+    },
+    "vernacular_names": [
+      {
+        "local_name": "Jinwinini",
+        "language": "yo"
+      },
+      {
+        "local_name": "kandiri",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "leaves"
+    ],
+    "traditional_use_as_published": "Syphilis, asthma, anthelmintics, ulcers, rheumatism, antimicrobial and antifungal",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "weli-2013-port-harcourt",
+    "source_row": 68,
+    "serial_as_published": "67",
+    "botanical_as_published": "Acalypha godseffiana",
+    "family_as_published": "Euphorbiaceae",
+    "common_english_as_published": "Acalypha",
+    "vernacular_as_published": {
+      "yo": "Jinwinini",
+      "ig": null,
+      "ha": null
+    },
+    "vernacular_names": [
+      {
+        "local_name": "Jinwinini",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaves",
+      "twigs"
+    ],
+    "traditional_use_as_published": "Skin infection, Antimicrobials",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "weli-2013-port-harcourt",
+    "source_row": 69,
+    "serial_as_published": "68",
+    "botanical_as_published": "Lawsonia inermis",
+    "family_as_published": "Lythraceae",
+    "common_english_as_published": "Hennaplant",
+    "vernacular_as_published": {
+      "yo": "Lali,",
+      "ig": "Laali.",
+      "ha": "Lallee"
+    },
+    "vernacular_names": [
+      {
+        "local_name": "Lali",
+        "language": "yo"
+      },
+      {
+        "local_name": "Laali.",
+        "language": "ig"
+      },
+      {
+        "local_name": "Lallee",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "leaves",
+      "flowers",
+      "bark"
+    ],
+    "traditional_use_as_published": "Spermatorrhoea, jaundice, gonorrhoea, leucorrhoea, ulcers, menorrhagia, astringent, skin diseases, malaria",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "weli-2013-port-harcourt",
+    "source_row": 70,
+    "serial_as_published": "69",
+    "botanical_as_published": "Launaea taraxacifolia",
+    "family_as_published": "Compositae",
+    "common_english_as_published": "Wild lettuce",
+    "vernacular_as_published": {
+      "yo": "Yanrin,",
+      "ig": null,
+      "ha": "Yamurin, Nonanbarya"
+    },
+    "vernacular_names": [
+      {
+        "local_name": "Yanrin",
+        "language": "yo"
+      },
+      {
+        "local_name": "Yamurin",
+        "language": "ha"
+      },
+      {
+        "local_name": "Nonanbarya",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "leaves"
+    ],
+    "traditional_use_as_published": "Yaws, fracture management",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "weli-2013-port-harcourt",
+    "source_row": 71,
+    "serial_as_published": "70",
+    "botanical_as_published": "Mucuna sloanei",
+    "family_as_published": "Leguminosae",
+    "common_english_as_published": "Stinging bean",
+    "vernacular_as_published": {
+      "yo": "Ewe-ina,",
+      "ig": "yerepe werepe",
+      "ha": "Kakara, osese"
+    },
+    "vernacular_names": [
+      {
+        "local_name": "Ewe-ina",
+        "language": "yo"
+      },
+      {
+        "local_name": "yerepe werepe",
+        "language": "ig"
+      },
+      {
+        "local_name": "Kakara",
+        "language": "ha"
+      },
+      {
+        "local_name": "osese",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "seeds",
+      "roots"
+    ],
+    "traditional_use_as_published": "Haemorrhoids, diuretics, micturition problems in children, skin diseases",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "weli-2013-port-harcourt",
+    "source_row": 72,
+    "serial_as_published": "71",
+    "botanical_as_published": "Mucuna pruriens",
+    "family_as_published": "Leguminosae",
+    "common_english_as_published": "Cow-hage, cow-itch plant, velvet bean",
+    "vernacular_as_published": {
+      "yo": "Esisi,",
+      "ig": "Werepe",
+      "ha": "Abbala, Kakara"
+    },
+    "vernacular_names": [
+      {
+        "local_name": "Esisi",
+        "language": "yo"
+      },
+      {
+        "local_name": "Werepe",
+        "language": "ig"
+      },
+      {
+        "local_name": "Abbala",
+        "language": "ha"
+      },
+      {
+        "local_name": "Kakara",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "hairs on the pods"
+    ],
+    "traditional_use_as_published": "Intestinal worms, genitourinary diseases.",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "weli-2013-port-harcourt",
+    "source_row": 73,
+    "serial_as_published": "72",
+    "botanical_as_published": "Cassytha filiformis",
+    "family_as_published": "Lauraceae",
+    "common_english_as_published": "Devil′s gut, parasitic vine",
+    "vernacular_as_published": {
+      "yo": "Omoniginigini",
+      "ig": "omonigelegele,",
+      "ha": "sulunwahi."
+    },
+    "vernacular_names": [
+      {
+        "local_name": "Omoniginigini",
+        "language": "yo"
+      },
+      {
+        "local_name": "omonigelegele",
+        "language": "ig"
+      },
+      {
+        "local_name": "sulunwahi.",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "stem twigs"
+    ],
+    "traditional_use_as_published": "Anthelmintics, antimicrobials, antifungal",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "weli-2013-port-harcourt",
+    "source_row": 74,
+    "serial_as_published": "73",
+    "botanical_as_published": "Morinda morindoides",
+    "family_as_published": "Rubiaceae",
+    "common_english_as_published": "Morinda",
+    "vernacular_as_published": {
+      "yo": null,
+      "ig": "Oju-Ologbo",
+      "ha": null
+    },
+    "vernacular_names": [
+      {
+        "local_name": "Oju-Ologbo",
+        "language": "ig"
+      }
+    ],
+    "parts_reported": [
+      "root",
+      "bark",
+      "leaves",
+      "fruit"
+    ],
+    "traditional_use_as_published": "Fever, jaundice, asthma, dysentery, colic, emmenagogue, vermifuge, constipation",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "weli-2013-port-harcourt",
+    "source_row": 75,
+    "serial_as_published": "74",
+    "botanical_as_published": "Millettia thonningii",
+    "family_as_published": "Leguminosae",
+    "common_english_as_published": "Millet",
+    "vernacular_as_published": {
+      "yo": "Ito,",
+      "ig": "okeokpa",
+      "ha": "Tuburku, Ajukwu"
+    },
+    "vernacular_names": [
+      {
+        "local_name": "Ito",
+        "language": "yo"
+      },
+      {
+        "local_name": "okeokpa",
+        "language": "ig"
+      },
+      {
+        "local_name": "Tuburku",
+        "language": "ha"
+      },
+      {
+        "local_name": "Ajukwu",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "roots",
+      "bark"
+    ],
+    "traditional_use_as_published": "Fever, cough, respiratory ailment, anthelmintic, ophthalmia",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "weli-2013-port-harcourt",
+    "source_row": 76,
+    "serial_as_published": "75",
+    "botanical_as_published": "Mitragyna inermis",
+    "family_as_published": "Rubiaceae",
+    "common_english_as_published": "African Linden",
+    "vernacular_as_published": {
+      "yo": null,
+      "ig": "Okobo,",
+      "ha": "Giyeya"
+    },
+    "vernacular_names": [
+      {
+        "local_name": "Okobo",
+        "language": "ig"
+      },
+      {
+        "local_name": "Giyeya",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "bark"
+    ],
+    "traditional_use_as_published": "Dysentery, leprosy, antipyretic, diuretic, gonorrhoea",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "weli-2013-port-harcourt",
+    "source_row": 77,
+    "serial_as_published": "76",
+    "botanical_as_published": "Mimosa pudica",
+    "family_as_published": "Mimosaceae",
+    "common_english_as_published": "Sensitive plant",
+    "vernacular_as_published": {
+      "yo": "aluro",
+      "ig": null,
+      "ha": "Patanmo,"
+    },
+    "vernacular_names": [
+      {
+        "local_name": "aluro",
+        "language": "yo"
+      },
+      {
+        "local_name": "Patanmo",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "leaves"
+    ],
+    "traditional_use_as_published": "Guinea worms piles, kidney disease, fistula, boils",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "weli-2013-port-harcourt",
+    "source_row": 78,
+    "serial_as_published": "77",
+    "botanical_as_published": "Mimusops kummel",
+    "family_as_published": "Sapotaceae",
+    "common_english_as_published": "Bullet wood",
+    "vernacular_as_published": {
+      "yo": null,
+      "ig": "Uku",
+      "ha": "Emido"
+    },
+    "vernacular_names": [
+      {
+        "local_name": "Uku",
+        "language": "ig"
+      },
+      {
+        "local_name": "Emido",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "stem bark",
+      "seeds"
+    ],
+    "traditional_use_as_published": "Antipyretic, astringent, mouth wash, stomachic",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "weli-2013-port-harcourt",
+    "source_row": 79,
+    "serial_as_published": "78",
+    "botanical_as_published": "Canavalia ensiformis",
+    "family_as_published": "Leguminosae",
+    "common_english_as_published": "Sword bean, horse bean",
+    "vernacular_as_published": {
+      "yo": null,
+      "ig": "Ponpondo,",
+      "ha": "sese-nla"
+    },
+    "vernacular_names": [
+      {
+        "local_name": "Ponpondo",
+        "language": "ig"
+      },
+      {
+        "local_name": "sese-nla",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "seed"
+    ],
+    "traditional_use_as_published": "Antibiotic, antiseptic",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "weli-2013-port-harcourt",
+    "source_row": 80,
+    "serial_as_published": "79",
+    "botanical_as_published": "Celosia laxa",
+    "family_as_published": "Amaranthaceae",
+    "common_english_as_published": "Celosia",
+    "vernacular_as_published": {
+      "yo": "Marugbo sanyantan,",
+      "ig": "Ajemawofo,",
+      "ha": "Mannafaa, sanyantan,"
+    },
+    "vernacular_names": [
+      {
+        "local_name": "Marugbo sanyantan",
+        "language": "yo"
+      },
+      {
+        "local_name": "Ajemawofo",
+        "language": "ig"
+      },
+      {
+        "local_name": "Mannafaa",
+        "language": "ha"
+      },
+      {
+        "local_name": "sanyantan",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "leaves"
+    ],
+    "traditional_use_as_published": "Antiscorbutic, purgative",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "weli-2013-port-harcourt",
+    "source_row": 81,
+    "serial_as_published": "80",
+    "botanical_as_published": "Chrysanthellum indicum",
+    "family_as_published": "Compositae",
+    "common_english_as_published": "Indian chrysanthemum",
+    "vernacular_as_published": {
+      "yo": null,
+      "ig": null,
+      "ha": "Abilere, Oyigi"
+    },
+    "vernacular_names": [
+      {
+        "local_name": "Abilere",
+        "language": "ha"
+      },
+      {
+        "local_name": "Oyigi",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "whole plant"
+    ],
+    "traditional_use_as_published": "Boils, fever, gonorrhoea, jaundice, heart-trouble, insecticide",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "weli-2013-port-harcourt",
+    "source_row": 82,
+    "serial_as_published": "81",
+    "botanical_as_published": "Crotalaria retusa",
+    "family_as_published": "Leguminosae",
+    "common_english_as_published": "Rattle box, rattle pea",
+    "vernacular_as_published": {
+      "yo": "Koropo",
+      "ig": "Akidimuo",
+      "ha": "saworo, Yara,"
+    },
+    "vernacular_names": [
+      {
+        "local_name": "Koropo",
+        "language": "yo"
+      },
+      {
+        "local_name": "Akidimuo",
+        "language": "ig"
+      },
+      {
+        "local_name": "saworo",
+        "language": "ha"
+      },
+      {
+        "local_name": "Yara",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "root",
+      "seeds",
+      "juice of pods",
+      "leaves"
+    ],
+    "traditional_use_as_published": "Fever, cirrhosis, liver lesions, dysentery, colic, vermifuge",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "weli-2013-port-harcourt",
+    "source_row": 83,
+    "serial_as_published": "82",
+    "botanical_as_published": "Cucurbita maxima",
+    "family_as_published": "Cucurbitaceae",
+    "common_english_as_published": "Melon-pumpkin",
+    "vernacular_as_published": {
+      "yo": "Elegede,",
+      "ig": "Apala,",
+      "ha": "Kabeewaa"
+    },
+    "vernacular_names": [
+      {
+        "local_name": "Elegede",
+        "language": "yo"
+      },
+      {
+        "local_name": "Apala",
+        "language": "ig"
+      },
+      {
+        "local_name": "Kabeewaa",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "seeds",
+      "fruits"
+    ],
+    "traditional_use_as_published": "Tapeworm, diuretic, taenicide, otitis, utensils",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "weli-2013-port-harcourt",
+    "source_row": 84,
+    "serial_as_published": "83",
+    "botanical_as_published": "Delonix regia",
+    "family_as_published": "Leguminosae",
+    "common_english_as_published": "Flame of the forest",
+    "vernacular_as_published": {
+      "yo": "Seke",
+      "ig": "seke,",
+      "ha": "ayin."
+    },
+    "vernacular_names": [
+      {
+        "local_name": "Seke",
+        "language": "yo"
+      },
+      {
+        "local_name": "seke",
+        "language": "ig"
+      },
+      {
+        "local_name": "ayin.",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "leaves",
+      "bark",
+      "seeds",
+      "flower"
+    ],
+    "traditional_use_as_published": "Diuretic, anthelmintics, astringent, leucorrhoea",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  }
+]

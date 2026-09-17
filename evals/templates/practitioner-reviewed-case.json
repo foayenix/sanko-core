@@ -1,0 +1,32 @@
+{
+  "id": "NN-language-scenario",
+  "description": "A short description of the behaviour this case tests.",
+  "practitioner": {
+    "display_name": "Pseudonymous practitioner",
+    "preferred_language": "en"
+  },
+  "turns": [
+    "De-identified practitioner message.",
+    "Practitioner confirmation, when the workflow requires one."
+  ],
+  "expect": {
+    "tools": [
+      "save_formulation"
+    ],
+    "forbidden_tools": [],
+    "plants_include": [],
+    "botanicals": {},
+    "fields": {},
+    "confidence_between": [
+      0,
+      1
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewer_role": "practitioner",
+    "reviewer_ref": "PR-PSEUDONYM",
+    "reviewed_at": "2026-08-13T00:00:00Z",
+    "rubric_version": "practitioner-v1"
+  }
+}

@@ -1,0 +1,213 @@
+# SANKO VISION DEMO — PHASE 3: Practitioner View
+
+## Context
+Phases 1-2 built the project, data layer, shell, and Home view. Now build the Practitioner view — this is the most complex view with sidebar navigation and multiple sub-views.
+
+## What to build
+Create src/views/PractitionerView.jsx and import it into App.jsx, replacing the practitioner placeholder.
+
+## Architecture
+PractitionerView has internal state managing which sub-view is shown in the main content area. The sidebar is always visible on the left.
+
+```jsx
+const [subView, setSubView] = useState('dashboard');
+const [selectedFormulation, setSelectedFormulation] = useState(null);
+const [selectedPatient, setSelectedPatient] = useState(null);
+```
+
+When selectedFormulation is set, show FormulationDetail instead of the current sub-view.
+When selectedPatient is set, show PatientTimeline instead of the current sub-view.
+
+## Layout
+Use CSS grid: `grid-template-columns: 260px 1fr` with 20px gap. Max-width 1200px, centered, padding 24px.
+
+On mobile (< 900px), stack vertically.
+
+## LEFT SIDEBAR
+Fixed within the practitioner view. Contains:
+
+**User section** (top):
+- Green circle (40px, rounded 12px) with white text "BA"
+- "Baba Adeyemi" (14px, bold)
+- "Lagos, Nigeria · HTSN Member" (11px, muted)
+
+**Nav items** (below, 2px gap):
+Each item: icon + label, 8px 10px padding, rounded 8px. Active item gets green background (rgba(27,107,58,0.08)) and green text.
+
+Items:
+- 📊 Dashboard (default)
+- 🌿 My vault — show badge "43" on the right
+- 👥 Patients
+- 📈 Outcomes
+- 👨‍👩‍👧 Community
+- 📄 Practice reports
+- ⚙️ Settings
+
+Clicking any item sets subView and clears selectedFormulation/selectedPatient.
+
+## MAIN CONTENT: Dashboard (subView === 'dashboard')
+
+**Notifications** (3 stacked cards with left icon):
+1. Green tint: ✅ "**Patient #47** — Day 7 check-in: fever broke, appetite returned. Agbo Iba." Time: "2 hours ago". Clickable → setSelectedPatient('p47')
+2. Gold tint: 🔬 "**Research interest:** University of Ibadan flagged Omi Isu Diabetis. 2 researchers interested." Time: "Yesterday". Clickable → setSelectedFormulation('f2')
+3. Neutral: 📋 "3 patients due for follow-up today. **Patient #51** (Day 3), **#44** (Day 7), **#39** (Day 14 final)." Time: "Scheduled". Clickable → setSubView('patients')
+
+**Stat cards** (4 in a grid row):
+- 43 formulations, "+3 this month" (green value)
+- 284 patients tracked, "+18 this month"
+- 87% effectiveness (green value)
+- 4.1 avg days to recovery (gold value)
+
+Each stat: serif font for the number (28px), 11px label, 11px green change text.
+
+**Top formulations list** (use FORMULATIONS from data.js, show all 6):
+Each item is a clickable row:
+- Left: Coloured icon circle (36px) with 🌿 or 🍯
+- Middle: name (14px bold), conditions + ingredient count (11px muted)
+- Right: effectiveness % (large, green), tracked count (11px muted)
+
+Below each item, show the **outcome bar**: a horizontal stacked bar using the outcomes data (recovered=forest, improved=#4ADE80, noChange=gold, worsened=terra). With a small legend row below.
+
+Clicking any formulation → setSelectedFormulation(formulation.id)
+
+**Community card** at bottom:
+HTSN Lagos chapter: 214 practitioners, 8,420 formulations, 84% avg effectiveness.
+Small note: "Individual formulations remain private. These numbers can be shown to regulators."
+
+## MAIN CONTENT: My Vault (subView === 'vault')
+
+**Search bar** at top:
+- Magnifying glass icon + input field
+- Filters FORMULATIONS array as you type by matching name, conditions, or ingredient names (case-insensitive)
+- Show result count: "6 formulations" or "2 results for 'fever'"
+
+**Formulation grid/list**:
+Show the 6 real formulations from data.js as cards. Each card:
+- Name (14px bold)
+- Condition tags (small green pills)
+- "X ingredients" label
+- Effectiveness % with colour coding
+- 🔒 Private badge
+- Click → setSelectedFormulation(id)
+
+Below the 6 real ones, show 5-6 "ghost" cards (faded, 30% opacity) with placeholder names like "Agbo Ẹjẹ", "Omi Ara", "Aseje Omo" etc. to suggest 43 total. These are not clickable.
+
+## FORMULATION DETAIL VIEW (selectedFormulation !== null)
+
+Show when any formulation is clicked (from dashboard, vault, or notifications).
+
+Look up the formulation from FORMULATIONS by id.
+
+**Header:**
+- "← Back" button (clears selectedFormulation, returns to previous subView)
+- Name in serif font (24px)
+- "Documented {date} · 🔒 Private"
+
+**Conditions:** Row of green tag pills
+
+**Ingredients:** List, each with:
+- Local name (bold)
+- English name
+- Botanical name (italic, muted)
+
+**Preparation:**
+- Text description
+- "🎤 Play original voice recording" button → shows a fake waveform (CSS bars animating) when clicked, with a "Playing... 1:12" label. Click again to "stop".
+
+**Dosing:** Text
+
+**Warnings:** Terra/red tag pills with ⚠️
+
+**Expected outcome:**
+- Timeline badge: "⏱️ {timeline}"
+- Success indicator tags (green pills)
+
+**📊 Outcomes section:**
+- Large effectiveness % (48px, serif, green)
+- Stacked outcome bar (same as dashboard but bigger, 28px height)
+- Legend below
+- Stats row (3 columns): Avg days to improvement | Compliance rate (make up ~90%) | Side effects count
+- Confidence badge: "High" if tracked > 100, "Medium" if 50-100, "Low" if < 50
+- **Monthly trend chart**: CSS bar chart showing monthlyOutcomes data. Each bar: month label below, efficiency % as bar height (max 120px), tracked count above.
+
+**Research interest** (if researchInterest > 0):
+Card with indigo tint: "🔬 {n} researchers have expressed interest in this formulation." Button: "View requests →"
+
+**Actions:** "✏️ Edit" and "📤 Share" buttons at bottom.
+
+## MAIN CONTENT: Patients (subView === 'patients')
+
+List of PATIENTS from data.js. Each row:
+- Patient reference (bold)
+- Age range, sex
+- Condition
+- Formulation name (look up by formulationId)
+- Status badge: recovered (green), improved (gold), tracking (blue)
+- Date
+- Clickable → setSelectedPatient(patient.id)
+
+## PATIENT TIMELINE VIEW (selectedPatient !== null)
+
+Look up patient from PATIENTS by id. Look up their formulation.
+
+**Header:**
+- "← Back" button
+- Patient ref (large)
+- Age, sex, date
+
+**Timeline:** Vertical timeline with dots and lines connecting events.
+Each event from patient.timeline:
+- Day indicator (bold, left)
+- Type icon: consultation=📋, prescribed=💊, checkin=🗓️, final=✅
+- Description text
+- Date (muted)
+- If sideEffect exists, show in terra pill
+- If type is 'final', show the outcome badge
+
+## MAIN CONTENT: Outcomes (subView === 'outcomes')
+
+**Overall effectiveness by month** — CSS bar chart using an aggregated mock:
+```
+Sep: 82% | Oct: 83% | Nov: 85% | Dec: 86% | Jan: 87% | Feb: 88%
+```
+
+**By condition** — horizontal bars:
+Fever/Malaria: 87% | Tonic: 91% | Pile: 84% | Diabetes: 82% | Body heat: 78% | Cough: 76%
+
+**By formulation** — same FORMULATIONS sorted by effectiveness, shown as horizontal bars.
+
+## MAIN CONTENT: Community (subView === 'community')
+
+Card with HTSN stats. 3 stat boxes: 214 members, 8,420 formulations, 84% effectiveness.
+
+Top conditions across community (bar chart or list): Malaria/Fever 39%, Diabetes 17%, Cough 14%, Hypertension 11%, Other 19%.
+
+Privacy note card: "🔒 Individual practitioner data is never shared. Community statistics are aggregated and anonymised."
+
+## MAIN CONTENT: Practice Reports (subView === 'reports')
+
+Mock report preview card:
+- Title: "Practice Report — February 2030"
+- Practitioner: Baba Adeyemi
+- Sections shown as a preview:
+  - Consultations this month: 18
+  - Top conditions: Fever (7), Cough (4), Diabetes (3)
+  - Medicines used: Agbo Iba (7), Agbo Ikọ́ (4), Omi Isu Diabetis (3)
+  - Outcomes tracked: 12 | Effectiveness: 92%
+- "📄 Download PDF" button (shows toast "Demo — PDF not available in preview")
+
+## MAIN CONTENT: Settings (subView === 'settings')
+
+Simple placeholder: "⚙️ Settings" with mock toggles for Language, Privacy defaults, Notification preferences. None need to actually work.
+
+## Flywheel footer
+At the bottom of the practitioner view, show a subtle horizontal flywheel bar:
+🌿 Practitioners → 📊 Outcome data → 🔬 Research → ✅ Validation → ↩ cycle accelerates
+
+## Integration
+Import PractitionerView into App.jsx. No props needed (it manages its own state).
+
+## Commit message
+"Phase 3: Complete practitioner view with dashboard, vault, detail, patients, outcomes"
+
+Do NOT modify HomeView or other views.

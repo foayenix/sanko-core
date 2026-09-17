@@ -1,0 +1,38 @@
+{
+  "id": "21-cinnamon-clove-infusion",
+  "description": "English two-spice infusion with exact steeping time.",
+  "practitioner": {
+    "display_name": "Efe",
+    "preferred_language": "en"
+  },
+  "turns": [
+    "For feeling cold, steep one piece of cinnamon bark and two cloves in hot water for seven minutes. Drink one cup once. Save it.",
+    "Yes, that is accurate. Save exactly that and do not add anything."
+  ],
+  "expect": {
+    "tools": [
+      "save_formulation"
+    ],
+    "plants_include": [
+      "cinnamon",
+      "clove"
+    ],
+    "botanicals": {
+      "cinnamon": "Cinnamomum verum",
+      "clove": "Syzygium aromaticum"
+    },
+    "fields": {
+      "preparation.method": "infusion",
+      "preparation.duration_minutes": "7",
+      "dosage.amount": "one cup"
+    }
+  },
+  "editorial_review": {
+    "status": "complete",
+    "reviewer_role": "model_editorial",
+    "reviewer_ref": "codex-2026-08-13",
+    "reviewed_at": "2026-08-13T00:00:00Z",
+    "rubric_version": "editorial-v1",
+    "practitioner_review": "pending"
+  }
+}

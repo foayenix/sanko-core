@@ -1,0 +1,98 @@
+# SANKO VISION DEMO — PHASE 4: Researcher View
+
+## Context
+Phases 1-3 built the project, data layer, Home view, and complete Practitioner view. Now build the Researcher view.
+
+## What to build
+Create src/views/ResearcherView.jsx and import it into App.jsx.
+
+## Layout
+Single column, max-width 1000px, centered, padding 24px.
+
+## Components
+
+### Header
+- Gold badge: "🔬 Sanko Research Portal"
+- Title (serif, 24px): "Explore Africa's traditional medicine evidence"
+- Subtitle (13px, muted): "Search anonymised formulation data with consent-gated access. No recipes without practitioner approval."
+
+### Search Bar
+- Large input with 🔍 icon
+- Pre-filled with: "anti-inflammatory, Yoruba, Southwest Nigeria"
+- **MUST WORK**: as user types, filter FORMULATIONS from data.js by matching the search text against: formulation name, any condition name, any ingredient local name, any ingredient english name, any ingredient botanical name (all case-insensitive, split search into words and match any)
+- Below search, show result count: "{n} formulations found · {n with outcomes > 0} with outcome data · {n with effectiveness >= 80} high research readiness"
+
+### State management
+```jsx
+const [search, setSearch] = useState('anti-inflammatory, Yoruba, Southwest Nigeria');
+const [selectedFormulation, setSelectedFormulation] = useState(null);
+const [collaborationStep, setCollaborationStep] = useState(null); // null, 1, 2, 3, 'sent'
+const [expandedCompound, setExpandedCompound] = useState(null);
+```
+
+### Search Results
+Map over filtered FORMULATIONS. Each result is a card showing:
+- Formulation anonId (e.g. "F-2847A") — bold, 16px
+- Region: "Southwest Nigeria" + preparation type (derive from preparation text: if contains "boil" → "Decoction", "grind" → "Powder", "soak" → "Maceration", else "Mixed") + "{n} ingredients"
+- Condition tags (green pills)
+- Ingredient tags (gold pills, showing botanical names)
+- Stats row: "{tracked} outcomes · {effectiveness}% effectiveness · {timeline} avg recovery · {sideEffects.count} side effects ({(sideEffects.count/tracked*100).toFixed(1)}% rate)"
+- Outcome bar (same stacked bar as practitioner view)
+- Research readiness badge: effectiveness >= 80 → "High" (green), 60-79 → "Medium" (gold), <60 → "Low" (grey)
+- Two buttons: "Request collaboration →" (green) and "View full profile" (outline)
+
+### View Full Profile (selectedFormulation !== null)
+When "View full profile" is clicked, expand the card (or replace the list) to show:
+- All the above data plus:
+- **Demographics** (mock): "Age distribution: 18-35 (24%), 35-50 (41%), 50+ (35%). Sex: Male 38%, Female 62%."
+- **Monthly outcome trend**: CSS bar chart from monthlyOutcomes data
+- **Ingredient analysis**: list each ingredient with its COMPOUNDS data (how many other formulations use it, what conditions it's associated with)
+- **Note**: "This formulation has been documented by a practitioner with 40+ years of experience. Nagoya Protocol-compliant collaboration terms are available."
+- "← Back to results" button at top
+
+### Request Collaboration Flow (collaborationStep !== null)
+When "Request collaboration" is clicked, show a modal/overlay with 3 steps:
+
+**Step 1** (collaborationStep === 1):
+- Title: "Request collaboration"
+- Text: "Your request will be sent to the practitioner in their preferred language (Yoruba). They will receive a clear explanation of your research interest and what data you're requesting."
+- "Next →" button → step 2
+
+**Step 2** (collaborationStep === 2):
+- Title: "Benefit-sharing terms"
+- 3 items with checkmarks:
+  - "✓ Co-authorship on all publications using this formulation's data"
+  - "✓ Intellectual property protection — full recipe remains with practitioner"
+  - "✓ Compensation framework — terms agreed before any data sharing"
+- Text: "These terms comply with the Nagoya Protocol on Access and Benefit-Sharing."
+- "Next →" button → step 3
+
+**Step 3** (collaborationStep === 3):
+- Title: "The practitioner decides"
+- Text: "Your request will be reviewed by the practitioner. Average response time: 5 days. You'll be notified by email when they respond."
+- "Send request →" button (green) → sets collaborationStep to 'sent'
+
+**Sent** (collaborationStep === 'sent'):
+- Green checkmark icon
+- "Request sent successfully"
+- "You'll be notified when the practitioner responds."
+- "Close" button → resets collaborationStep to null
+
+### Compound Explorer (below search results, always visible)
+Card with header: "Compound frequency explorer" + "Export dataset →" link
+
+Table using COMPOUNDS from data.js:
+- Columns: Botanical name (bold), Local name(s), Formulations (count), Top conditions (tag pills), Avg effectiveness (coloured)
+- Each row is clickable → toggles expandedCompound
+- When expanded, show: "This ingredient appears in {count} formulations across the Sanko database, primarily for {conditions}. Average effectiveness in formulations containing this compound: {eff}%."
+
+### Flywheel footer
+Same as practitioner view — subtle horizontal bar at bottom.
+
+## Integration
+Import ResearcherView into App.jsx.
+
+## Commit message
+"Phase 4: Researcher view with working search, profiles, collaboration flow, compound explorer"
+
+Do NOT modify other views.

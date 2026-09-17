@@ -1,0 +1,35 @@
+{
+  "id": "24-baobab-fruit-drink",
+  "description": "Baobab fruit-pulp drink with no invented heat treatment.",
+  "practitioner": {
+    "display_name": "Musa",
+    "preferred_language": "ha"
+  },
+  "turns": [
+    "I mix baobab fruit pulp into cool water for constipation. One cup in the evening for three days. Do not say it is boiled. Save it.",
+    "Yes, that is accurate. Save exactly that and do not add anything."
+  ],
+  "expect": {
+    "tools": [
+      "save_formulation"
+    ],
+    "plants_include": [
+      "baobab"
+    ],
+    "botanicals": {
+      "baobab": "Adansonia digitata"
+    },
+    "fields": {
+      "preparation.medium": "water",
+      "dosage.duration_days": "3"
+    }
+  },
+  "editorial_review": {
+    "status": "complete",
+    "reviewer_role": "model_editorial",
+    "reviewer_ref": "codex-2026-08-13",
+    "reviewed_at": "2026-08-13T00:00:00Z",
+    "rubric_version": "editorial-v1",
+    "practitioner_review": "pending"
+  }
+}

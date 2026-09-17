@@ -1,0 +1,36 @@
+{
+  "id": "10-pidgin-bitter-leaf-stomach",
+  "description": "Pidgin preparation with a known plant and a one-day dosage.",
+  "practitioner": {
+    "display_name": "Efe",
+    "preferred_language": "en"
+  },
+  "turns": [
+    "For belle pain, na bitter leaf I dey squeeze for clean water. Make dem drink one small cup morning and evening for one day. Save am.",
+    "Yes, that is accurate. Save exactly that and do not add anything."
+  ],
+  "expect": {
+    "tools": [
+      "save_formulation"
+    ],
+    "plants_include": [
+      "bitter leaf"
+    ],
+    "botanicals": {
+      "bitter leaf": "Vernonia amygdalina"
+    },
+    "fields": {
+      "preparation.method": "juice",
+      "dosage.amount": "small cup",
+      "dosage.duration_days": "1"
+    }
+  },
+  "editorial_review": {
+    "status": "complete",
+    "reviewer_role": "model_editorial",
+    "reviewer_ref": "codex-2026-08-13",
+    "reviewed_at": "2026-08-13T00:00:00Z",
+    "rubric_version": "editorial-v1",
+    "practitioner_review": "pending"
+  }
+}

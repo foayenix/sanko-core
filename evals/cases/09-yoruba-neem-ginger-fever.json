@@ -1,0 +1,42 @@
+{
+  "id": "09-yoruba-neem-ginger-fever",
+  "description": "Yoruba code-switching with two known plants, exact duration, and dosage.",
+  "practitioner": {
+    "display_name": "Aderonke",
+    "preferred_language": "yo"
+  },
+  "turns": [
+    "Fun iba, mo n lo ewe dongoyaro ati atale. I boil one handful of each in water for twenty minutes. Half cup twice daily for three days. Please save it.",
+    "Yes, that is accurate. Save exactly that and do not add anything."
+  ],
+  "expect": {
+    "tools": [
+      "save_formulation"
+    ],
+    "plants_include": [
+      "dongoyaro",
+      "atale"
+    ],
+    "botanicals": {
+      "dongoyaro": "Azadirachta indica",
+      "atale": "Zingiber officinale"
+    },
+    "fields": {
+      "preparation.method": "decoction",
+      "preparation.duration_minutes": "20",
+      "dosage.frequency": "twice"
+    },
+    "confidence_between": [
+      0.75,
+      1
+    ]
+  },
+  "editorial_review": {
+    "status": "complete",
+    "reviewer_role": "model_editorial",
+    "reviewer_ref": "codex-2026-08-13",
+    "reviewed_at": "2026-08-13T00:00:00Z",
+    "rubric_version": "editorial-v1",
+    "practitioner_review": "pending"
+  }
+}

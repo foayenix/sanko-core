@@ -1,0 +1,2566 @@
+{
+  "source_id": "wikidata-vernacular-candidates",
+  "runtime_export_eligible": false,
+  "generated_at": "2026-09-12",
+  "licence": "CC0-1.0 (Wikidata)",
+  "taxa_queried": 281,
+  "languages_queried": [
+    "yo",
+    "ha",
+    "ig",
+    "pcm",
+    "ff",
+    "efi",
+    "ibb",
+    "tiv",
+    "kr",
+    "bin",
+    "nup",
+    "idu",
+    "igl",
+    "urh",
+    "ijc"
+  ],
+  "summary": {
+    "candidates": 118,
+    "by_language": {
+      "ff": 33,
+      "ha": 63,
+      "ig": 6,
+      "nup": 1,
+      "pcm": 1,
+      "yo": 14
+    },
+    "by_index_status": {
+      "new": 99,
+      "agrees_with_index": 18,
+      "ambiguous_in_index": 1
+    },
+    "corroborates_legacy_unverified": 10,
+    "non_ascii_after_normalisation": 14,
+    "rejected_labels": {
+      "echo_of_botanical_or_english": 81,
+      "unknown_taxon": 0,
+      "duplicate": 0
+    }
+  },
+  "candidates": [
+    {
+      "local_name": "Aalali",
+      "normalized_name": "aalali",
+      "language": "ff",
+      "accepted_botanical": "Securidaca longepedunculata",
+      "plant_id": "plant-securidaca-longepedunculata-adc8155d91",
+      "common_english": null,
+      "index_status": "new",
+      "ascii_after_normalisation": true,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q104375799",
+        "url": "https://www.wikidata.org/wiki/Q104375799",
+        "taxon_name_matched": "Securidaca longepedunculata",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Asurahi",
+      "normalized_name": "asurahi",
+      "language": "ff",
+      "accepted_botanical": "Syzygium guineense",
+      "plant_id": "plant-syzygium-guineense-2b1c42dc6b",
+      "common_english": null,
+      "index_status": "new",
+      "ascii_after_normalisation": true,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q3644516",
+        "url": "https://www.wikidata.org/wiki/Q3644516",
+        "taxon_name_matched": "Syzygium guineense",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Baba huum",
+      "normalized_name": "baba huum",
+      "language": "ff",
+      "accepted_botanical": "Crassocephalum rubens",
+      "plant_id": "plant-crassocephalum-rubens-ec7e778b6a",
+      "common_english": null,
+      "index_status": "new",
+      "ascii_after_normalisation": true,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q5182508",
+        "url": "https://www.wikidata.org/wiki/Q5182508",
+        "taxon_name_matched": "Crassocephalum rubens",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Bugulli",
+      "normalized_name": "bugulli",
+      "language": "ff",
+      "accepted_botanical": "Anchomanes difformis",
+      "plant_id": "plant-anchomanes-difformis-511132126b",
+      "common_english": null,
+      "index_status": "new",
+      "ascii_after_normalisation": true,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q4067772",
+        "url": "https://www.wikidata.org/wiki/Q4067772",
+        "taxon_name_matched": "Anchomanes difformis",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Ɓowre",
+      "normalized_name": "ɓowre",
+      "language": "ff",
+      "accepted_botanical": "Adansonia digitata",
+      "plant_id": "plant-adansonia-digitata-de5778c4db",
+      "common_english": "Baobab",
+      "index_status": "new",
+      "ascii_after_normalisation": false,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q158742",
+        "url": "https://www.wikidata.org/wiki/Q158742",
+        "taxon_name_matched": "Adansonia digitata",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Caɓɓulli Makka",
+      "normalized_name": "caɓɓulli makka",
+      "language": "ff",
+      "accepted_botanical": "Spondias mombin",
+      "plant_id": "plant-spondias-mombin-e4158596a0",
+      "common_english": "Yellow Mombin",
+      "index_status": "new",
+      "ascii_after_normalisation": false,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q794969",
+        "url": "https://www.wikidata.org/wiki/Q794969",
+        "taxon_name_matched": "Spondias mombin",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Ceekeehi",
+      "normalized_name": "ceekeehi",
+      "language": "ff",
+      "accepted_botanical": "Ficus ingens",
+      "plant_id": "plant-ficus-ingens-6f81ea1403",
+      "common_english": "Red-leaved fig",
+      "index_status": "new",
+      "ascii_after_normalisation": true,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q3071413",
+        "url": "https://www.wikidata.org/wiki/Q3071413",
+        "taxon_name_matched": "Ficus ingens",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Citta Afo",
+      "normalized_name": "citta afo",
+      "language": "ff",
+      "accepted_botanical": "Zingiber officinale",
+      "plant_id": "plant-zingiber-officinale-8932efc2ae",
+      "common_english": "Ginger",
+      "index_status": "new",
+      "ascii_after_normalisation": true,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q35625",
+        "url": "https://www.wikidata.org/wiki/Q35625",
+        "taxon_name_matched": "Zingiber officinale",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Citta boɗeeje",
+      "normalized_name": "citta boɗeeje",
+      "language": "ff",
+      "accepted_botanical": "Aframomum melegueta",
+      "plant_id": "plant-aframomum-melegueta-5379374059",
+      "common_english": "Grains of Paradise",
+      "index_status": "new",
+      "ascii_after_normalisation": false,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q1503476",
+        "url": "https://www.wikidata.org/wiki/Q1503476",
+        "taxon_name_matched": "Aframomum melegueta",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Citta mosooro",
+      "normalized_name": "citta mosooro",
+      "language": "ff",
+      "accepted_botanical": "Piper guineense",
+      "plant_id": "plant-piper-guineense-b925235b59",
+      "common_english": "Ashanti Pepper",
+      "index_status": "new",
+      "ascii_after_normalisation": true,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q5687643",
+        "url": "https://www.wikidata.org/wiki/Q5687643",
+        "taxon_name_matched": "Piper guineense",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Dundeehi",
+      "normalized_name": "dundeehi",
+      "language": "ff",
+      "accepted_botanical": "Ficus platyphylla",
+      "plant_id": "plant-ficus-platyphylla-2387ece047",
+      "common_english": "Flake/Red Kano rubber tree",
+      "index_status": "new",
+      "ascii_after_normalisation": true,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q15475926",
+        "url": "https://www.wikidata.org/wiki/Q15475926",
+        "taxon_name_matched": "Ficus platyphylla",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Dupuhi",
+      "normalized_name": "dupuhi",
+      "language": "ff",
+      "accepted_botanical": "Schwenckia americana",
+      "plant_id": "plant-schwenckia-americana-9db4a121c1",
+      "common_english": null,
+      "index_status": "agrees_with_index",
+      "ascii_after_normalisation": true,
+      "corroborates": [
+        "taxonomy_checked"
+      ],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q17401871",
+        "url": "https://www.wikidata.org/wiki/Q17401871",
+        "taxon_name_matched": "Schwenckia americana",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Ganjanji",
+      "normalized_name": "ganjanji",
+      "language": "ff",
+      "accepted_botanical": "Mimosa pigra",
+      "plant_id": "plant-mimosa-pigra-5ec752cb81",
+      "common_english": null,
+      "index_status": "new",
+      "ascii_after_normalisation": true,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q2235813",
+        "url": "https://www.wikidata.org/wiki/Q2235813",
+        "taxon_name_matched": "Mimosa pigra",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Ganyi",
+      "normalized_name": "ganyi",
+      "language": "ff",
+      "accepted_botanical": "Azadirachta indica",
+      "plant_id": "plant-azadirachta-indica-602368d8f9",
+      "common_english": "Neem",
+      "index_status": "new",
+      "ascii_after_normalisation": true,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q170461",
+        "url": "https://www.wikidata.org/wiki/Q170461",
+        "taxon_name_matched": "Azadirachta indica",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Gillaahi",
+      "normalized_name": "gillaahi",
+      "language": "ff",
+      "accepted_botanical": "Kigelia africana",
+      "plant_id": "plant-kigelia-africana-46d315983f",
+      "common_english": "Cucumber or Sausage tree",
+      "index_status": "new",
+      "ascii_after_normalisation": true,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q522883",
+        "url": "https://www.wikidata.org/wiki/Q522883",
+        "taxon_name_matched": "Kigelia africana",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Gurumbal",
+      "normalized_name": "gurumbal",
+      "language": "ff",
+      "accepted_botanical": "Syzygium aromaticum",
+      "plant_id": "plant-syzygium-aromaticum-6c0a708906",
+      "common_english": "Clove",
+      "index_status": "new",
+      "ascii_after_normalisation": true,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q26736",
+        "url": "https://www.wikidata.org/wiki/Q26736",
+        "taxon_name_matched": "Syzygium aromaticum",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Kacuke",
+      "normalized_name": "kacuke",
+      "language": "ff",
+      "accepted_botanical": "Ocimum gratissimum",
+      "plant_id": "plant-ocimum-gratissimum-db8de35590",
+      "common_english": "African Basil",
+      "index_status": "new",
+      "ascii_after_normalisation": true,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q2355390",
+        "url": "https://www.wikidata.org/wiki/Q2355390",
+        "taxon_name_matched": "Ocimum gratissimum",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Kayarlaahi",
+      "normalized_name": "kayarlaahi",
+      "language": "ff",
+      "accepted_botanical": "Daniellia oliveri",
+      "plant_id": "plant-daniellia-oliveri-fb159d05dd",
+      "common_english": "African Copaiba Balsam",
+      "index_status": "new",
+      "ascii_after_normalisation": true,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q15532332",
+        "url": "https://www.wikidata.org/wiki/Q15532332",
+        "taxon_name_matched": "Daniellia oliveri",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Kewal",
+      "normalized_name": "kewal",
+      "language": "ff",
+      "accepted_botanical": "Oxytenanthera abyssinica",
+      "plant_id": "plant-oxytenanthera-abyssinica-0e95f7d332",
+      "common_english": null,
+      "index_status": "new",
+      "ascii_after_normalisation": true,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q641048",
+        "url": "https://www.wikidata.org/wiki/Q641048",
+        "taxon_name_matched": "Oxytenanthera abyssinica",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Kimbaare",
+      "normalized_name": "kimbaare",
+      "language": "ff",
+      "accepted_botanical": "Xylopia aethiopica",
+      "plant_id": "plant-xylopia-aethiopica-d5773119a0",
+      "common_english": "Ethiopian Pepper",
+      "index_status": "new",
+      "ascii_after_normalisation": true,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q2717116",
+        "url": "https://www.wikidata.org/wiki/Q2717116",
+        "taxon_name_matched": "Xylopia aethiopica",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Koko",
+      "normalized_name": "koko",
+      "language": "ff",
+      "accepted_botanical": "Elaeis guineensis",
+      "plant_id": "plant-elaeis-guineensis-dfe692912b",
+      "common_english": null,
+      "index_status": "new",
+      "ascii_after_normalisation": true,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q165403",
+        "url": "https://www.wikidata.org/wiki/Q165403",
+        "taxon_name_matched": "Elaeis guineensis",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Kokobi",
+      "normalized_name": "kokobi",
+      "language": "ff",
+      "accepted_botanical": "Burkea africana",
+      "plant_id": "plant-burkea-africana-f601c2cf64",
+      "common_english": "Wild seringa, Rhodesian ash, seringa tree",
+      "index_status": "new",
+      "ascii_after_normalisation": true,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q149739",
+        "url": "https://www.wikidata.org/wiki/Q149739",
+        "taxon_name_matched": "Burkea africana",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Korle jigaahi",
+      "normalized_name": "korle jigaahi",
+      "language": "ff",
+      "accepted_botanical": "Clerodendrum capitatum",
+      "plant_id": "plant-clerodendrum-capitatum-62e50f389c",
+      "common_english": null,
+      "index_status": "new",
+      "ascii_after_normalisation": true,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q15349534",
+        "url": "https://www.wikidata.org/wiki/Q15349534",
+        "taxon_name_matched": "Clerodendrum capitatum",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Magiraahi",
+      "normalized_name": "magiraahi",
+      "language": "ff",
+      "accepted_botanical": "Cissampelos owariensis",
+      "plant_id": "plant-cissampelos-owariensis-20083a9733",
+      "common_english": null,
+      "index_status": "new",
+      "ascii_after_normalisation": true,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q15330637",
+        "url": "https://www.wikidata.org/wiki/Q15330637",
+        "taxon_name_matched": "Cissampelos owariensis",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Mijingooro",
+      "normalized_name": "mijingooro",
+      "language": "ff",
+      "accepted_botanical": "Garcinia kola",
+      "plant_id": "plant-garcinia-kola-b2da88781b",
+      "common_english": "Bitter Kola",
+      "index_status": "new",
+      "ascii_after_normalisation": true,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q5233099",
+        "url": "https://www.wikidata.org/wiki/Q5233099",
+        "taxon_name_matched": "Garcinia kola",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Nammaareehi",
+      "normalized_name": "nammaareehi",
+      "language": "ff",
+      "accepted_botanical": "Bauhinia rufescens",
+      "plant_id": "plant-bauhinia-rufescens-e46fce049d",
+      "common_english": "Bauhinia",
+      "index_status": "new",
+      "ascii_after_normalisation": true,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q4873509",
+        "url": "https://www.wikidata.org/wiki/Q4873509",
+        "taxon_name_matched": "Bauhinia rufescens",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Nareehi",
+      "normalized_name": "nareehi",
+      "language": "ff",
+      "accepted_botanical": "Parkia biglobosa",
+      "plant_id": "plant-parkia-biglobosa-776ff1d28f",
+      "common_english": "African Locust Bean",
+      "index_status": "new",
+      "ascii_after_normalisation": true,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q1975323",
+        "url": "https://www.wikidata.org/wiki/Q1975323",
+        "taxon_name_matched": "Parkia biglobosa",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Ngalbiihi",
+      "normalized_name": "ngalbiihi",
+      "language": "ff",
+      "accepted_botanical": "Vitex doniana",
+      "plant_id": "plant-vitex-doniana-a62b4d1dc8",
+      "common_english": "black plum",
+      "index_status": "new",
+      "ascii_after_normalisation": true,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q15375017",
+        "url": "https://www.wikidata.org/wiki/Q15375017",
+        "taxon_name_matched": "Vitex doniana",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Noomeeri",
+      "normalized_name": "noomeeri",
+      "language": "ff",
+      "accepted_botanical": "Sesamum indicum",
+      "plant_id": "plant-sesamum-indicum-1bfebea0d6",
+      "common_english": "Sesame",
+      "index_status": "new",
+      "ascii_after_normalisation": true,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q2763698",
+        "url": "https://www.wikidata.org/wiki/Q2763698",
+        "taxon_name_matched": "Sesamum indicum",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Noomeeri baroɗe",
+      "normalized_name": "noomeeri baroɗe",
+      "language": "ff",
+      "accepted_botanical": "Sesamum radiatum",
+      "plant_id": "plant-sesamum-radiatum-29b8be3680",
+      "common_english": null,
+      "index_status": "new",
+      "ascii_after_normalisation": false,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q7456020",
+        "url": "https://www.wikidata.org/wiki/Q7456020",
+        "taxon_name_matched": "Sesamum radiatum",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Nyarki",
+      "normalized_name": "nyarki",
+      "language": "ff",
+      "accepted_botanical": "Aspilia africana",
+      "plant_id": "plant-aspilia-africana-c7a6527671",
+      "common_english": null,
+      "index_status": "new",
+      "ascii_after_normalisation": true,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q15587293",
+        "url": "https://www.wikidata.org/wiki/Q15587293",
+        "taxon_name_matched": "Aspilia africana",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Ubulo",
+      "normalized_name": "ubulo",
+      "language": "ff",
+      "accepted_botanical": "Senna obtusifolia",
+      "plant_id": "plant-senna-obtusifolia-07bfdf80af",
+      "common_english": null,
+      "index_status": "new",
+      "ascii_after_normalisation": true,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q1378803",
+        "url": "https://www.wikidata.org/wiki/Q1378803",
+        "taxon_name_matched": "Senna obtusifolia",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Urngol",
+      "normalized_name": "urngol",
+      "language": "ff",
+      "accepted_botanical": "Ocimum basilicum",
+      "plant_id": "plant-ocimum-basilicum-aea107c25b",
+      "common_english": "Sweet Basil",
+      "index_status": "new",
+      "ascii_after_normalisation": true,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q38859",
+        "url": "https://www.wikidata.org/wiki/Q38859",
+        "taxon_name_matched": "Ocimum basilicum",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Agwaluma",
+      "normalized_name": "agwaluma",
+      "language": "ha",
+      "accepted_botanical": "Gambeya albida",
+      "plant_id": "plant-gambeya-albida-99898dfcc8",
+      "common_english": null,
+      "index_status": "new",
+      "ascii_after_normalisation": true,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q81735476",
+        "url": "https://www.wikidata.org/wiki/Q81735476",
+        "taxon_name_matched": "Gambeya albida",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Albasa",
+      "normalized_name": "albasa",
+      "language": "ha",
+      "accepted_botanical": "Allium cepa",
+      "plant_id": "plant-allium-cepa-68b96f0db9",
+      "common_english": "Onion",
+      "index_status": "agrees_with_index",
+      "ascii_after_normalisation": true,
+      "corroborates": [
+        "legacy_unverified"
+      ],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q23485",
+        "url": "https://www.wikidata.org/wiki/Q23485",
+        "taxon_name_matched": "Allium cepa",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Alillibar rafi",
+      "normalized_name": "alillibar rafi",
+      "language": "ha",
+      "accepted_botanical": "Harungana madagascariensis",
+      "plant_id": "plant-harungana-madagascariensis-210b6b89a5",
+      "common_english": null,
+      "index_status": "new",
+      "ascii_after_normalisation": true,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q17566166",
+        "url": "https://www.wikidata.org/wiki/Q17566166",
+        "taxon_name_matched": "Harungana madagascariensis",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Attagara",
+      "normalized_name": "attagara",
+      "language": "ha",
+      "accepted_botanical": "Cocos nucifera",
+      "plant_id": "plant-cocos-nucifera-20f1d857c6",
+      "common_english": "Coconut",
+      "index_status": "new",
+      "ascii_after_normalisation": true,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q13187",
+        "url": "https://www.wikidata.org/wiki/Q13187",
+        "taxon_name_matched": "Cocos nucifera",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Avocado",
+      "normalized_name": "avocado",
+      "language": "ha",
+      "accepted_botanical": "Persea americana",
+      "plant_id": "plant-persea-americana-4797acba26",
+      "common_english": null,
+      "index_status": "new",
+      "ascii_after_normalisation": true,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q37153",
+        "url": "https://www.wikidata.org/wiki/Q37153",
+        "taxon_name_matched": "Persea americana",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "barkono",
+      "normalized_name": "barkono",
+      "language": "ha",
+      "accepted_botanical": "Capsicum annuum",
+      "plant_id": "plant-capsicum-annuum-0276c03fe6",
+      "common_english": "Red Pepper",
+      "index_status": "new",
+      "ascii_after_normalisation": true,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q1380",
+        "url": "https://www.wikidata.org/wiki/Q1380",
+        "taxon_name_matched": "Capsicum annuum",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Baushen giwa",
+      "normalized_name": "baushen giwa",
+      "language": "ha",
+      "accepted_botanical": "Terminalia mollis",
+      "plant_id": "plant-terminalia-mollis-6f2b90214c",
+      "common_english": "Large-leaved terminalia",
+      "index_status": "new",
+      "ascii_after_normalisation": true,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q15575673",
+        "url": "https://www.wikidata.org/wiki/Q15575673",
+        "taxon_name_matched": "Terminalia mollis",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Berefut",
+      "normalized_name": "berefut",
+      "language": "ha",
+      "accepted_botanical": "Artocarpus altilis",
+      "plant_id": "plant-artocarpus-altilis-0846570e26",
+      "common_english": null,
+      "index_status": "new",
+      "ascii_after_normalisation": true,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q14677",
+        "url": "https://www.wikidata.org/wiki/Q14677",
+        "taxon_name_matched": "Artocarpus altilis",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Cakara",
+      "normalized_name": "cakara",
+      "language": "ha",
+      "accepted_botanical": "Anchomanes difformis",
+      "plant_id": "plant-anchomanes-difformis-511132126b",
+      "common_english": null,
+      "index_status": "new",
+      "ascii_after_normalisation": true,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q4067772",
+        "url": "https://www.wikidata.org/wiki/Q4067772",
+        "taxon_name_matched": "Anchomanes difformis",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Cancali",
+      "normalized_name": "cancali",
+      "language": "ha",
+      "accepted_botanical": "Piliostigma thonningii",
+      "plant_id": "plant-piliostigma-thonningii-54038cc24e",
+      "common_english": "camel's foot, monkey bread, Rhodesian bauhinia",
+      "index_status": "new",
+      "ascii_after_normalisation": true,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q50853074",
+        "url": "https://www.wikidata.org/wiki/Q50853074",
+        "taxon_name_matched": "Piliostigma thonningii",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Citta",
+      "normalized_name": "citta",
+      "language": "ha",
+      "accepted_botanical": "Zingiber officinale",
+      "plant_id": "plant-zingiber-officinale-8932efc2ae",
+      "common_english": "Ginger",
+      "index_status": "new",
+      "ascii_after_normalisation": true,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q35625",
+        "url": "https://www.wikidata.org/wiki/Q35625",
+        "taxon_name_matched": "Zingiber officinale",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Corawa",
+      "normalized_name": "corawa",
+      "language": "ha",
+      "accepted_botanical": "Parkia biglobosa",
+      "plant_id": "plant-parkia-biglobosa-776ff1d28f",
+      "common_english": "African Locust Bean",
+      "index_status": "new",
+      "ascii_after_normalisation": true,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q1975323",
+        "url": "https://www.wikidata.org/wiki/Q1975323",
+        "taxon_name_matched": "Parkia biglobosa",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Dawa",
+      "normalized_name": "dawa",
+      "language": "ha",
+      "accepted_botanical": "Sorghum bicolor",
+      "plant_id": "plant-sorghum-bicolor-43dce6dca3",
+      "common_english": null,
+      "index_status": "new",
+      "ascii_after_normalisation": true,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q332062",
+        "url": "https://www.wikidata.org/wiki/Q332062",
+        "taxon_name_matched": "Sorghum bicolor",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Dawo",
+      "normalized_name": "dawo",
+      "language": "ha",
+      "accepted_botanical": "Tetrapleura tetraptera",
+      "plant_id": "plant-tetrapleura-tetraptera-fe165781bd",
+      "common_english": "Aridan",
+      "index_status": "new",
+      "ascii_after_normalisation": true,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q7706672",
+        "url": "https://www.wikidata.org/wiki/Q7706672",
+        "taxon_name_matched": "Tetrapleura tetraptera",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Duman kwaɗi",
+      "normalized_name": "duman kwaɗi",
+      "language": "ha",
+      "accepted_botanical": "Ipomoea involucrata",
+      "plant_id": "plant-ipomoea-involucrata-fe66b623b6",
+      "common_english": null,
+      "index_status": "new",
+      "ascii_after_normalisation": false,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q17398823",
+        "url": "https://www.wikidata.org/wiki/Q17398823",
+        "taxon_name_matched": "Ipomoea involucrata",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Ɗaɗɗoya",
+      "normalized_name": "ɗaɗɗoya",
+      "language": "ha",
+      "accepted_botanical": "Ocimum basilicum",
+      "plant_id": "plant-ocimum-basilicum-aea107c25b",
+      "common_english": "Sweet Basil",
+      "index_status": "new",
+      "ascii_after_normalisation": false,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q38859",
+        "url": "https://www.wikidata.org/wiki/Q38859",
+        "taxon_name_matched": "Ocimum basilicum",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Fasa kwari",
+      "normalized_name": "fasa kwari",
+      "language": "ha",
+      "accepted_botanical": "Zanthoxylum zanthoxyloides",
+      "plant_id": "plant-zanthoxylum-zanthoxyloides-35bfd45a11",
+      "common_english": "Senegal Prickly Ash",
+      "index_status": "new",
+      "ascii_after_normalisation": true,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q9097481",
+        "url": "https://www.wikidata.org/wiki/Q9097481",
+        "taxon_name_matched": "Zanthoxylum zanthoxyloides",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Gasayar barewa",
+      "normalized_name": "gasayar barewa",
+      "language": "ha",
+      "accepted_botanical": "Astraea lobata",
+      "plant_id": "plant-astraea-lobata-d2c1a53b33",
+      "common_english": null,
+      "index_status": "new",
+      "ascii_after_normalisation": true,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q15385020",
+        "url": "https://www.wikidata.org/wiki/Q15385020",
+        "taxon_name_matched": "Astraea lobata",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Gautan bacarmi",
+      "normalized_name": "gautan bacarmi",
+      "language": "ha",
+      "accepted_botanical": "Solanum dasyphyllum",
+      "plant_id": "plant-solanum-dasyphyllum-0ddb2e118d",
+      "common_english": null,
+      "index_status": "new",
+      "ascii_after_normalisation": true,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q17400754",
+        "url": "https://www.wikidata.org/wiki/Q17400754",
+        "taxon_name_matched": "Solanum dasyphyllum",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Goradi",
+      "normalized_name": "goradi",
+      "language": "ha",
+      "accepted_botanical": "Oxytenanthera abyssinica",
+      "plant_id": "plant-oxytenanthera-abyssinica-0e95f7d332",
+      "common_english": null,
+      "index_status": "new",
+      "ascii_after_normalisation": true,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q641048",
+        "url": "https://www.wikidata.org/wiki/Q641048",
+        "taxon_name_matched": "Oxytenanthera abyssinica",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Goro",
+      "normalized_name": "goro",
+      "language": "ha",
+      "accepted_botanical": "Cola acuminata",
+      "plant_id": "plant-cola-acuminata-0e4353fc78",
+      "common_english": "Abata Kola",
+      "index_status": "new",
+      "ascii_after_normalisation": true,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q522881",
+        "url": "https://www.wikidata.org/wiki/Q522881",
+        "taxon_name_matched": "Cola acuminata",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Gwanda",
+      "normalized_name": "gwanda",
+      "language": "ha",
+      "accepted_botanical": "Carica papaya",
+      "plant_id": "plant-carica-papaya-d45ff84fbe",
+      "common_english": "Papaya",
+      "index_status": "agrees_with_index",
+      "ascii_after_normalisation": true,
+      "corroborates": [
+        "taxonomy_checked"
+      ],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q34887",
+        "url": "https://www.wikidata.org/wiki/Q34887",
+        "taxon_name_matched": "Carica papaya",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Gwaza",
+      "normalized_name": "gwaza",
+      "language": "ha",
+      "accepted_botanical": "Colocasia esculenta",
+      "plant_id": "plant-colocasia-esculenta-2b3f1683db",
+      "common_english": null,
+      "index_status": "new",
+      "ascii_after_normalisation": true,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q227997",
+        "url": "https://www.wikidata.org/wiki/Q227997",
+        "taxon_name_matched": "Colocasia esculenta",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Gweba",
+      "normalized_name": "gweba",
+      "language": "ha",
+      "accepted_botanical": "Psidium guajava",
+      "plant_id": "plant-psidium-guajava-ef93129072",
+      "common_english": "Guava",
+      "index_status": "new",
+      "ascii_after_normalisation": true,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q166843",
+        "url": "https://www.wikidata.org/wiki/Q166843",
+        "taxon_name_matched": "Psidium guajava",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Gyaɗa",
+      "normalized_name": "gyaɗa",
+      "language": "ha",
+      "accepted_botanical": "Arachis hypogaea",
+      "plant_id": "plant-arachis-hypogaea-6c43bcbd7f",
+      "common_english": "Groundnut",
+      "index_status": "new",
+      "ascii_after_normalisation": false,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q37383",
+        "url": "https://www.wikidata.org/wiki/Q37383",
+        "taxon_name_matched": "Arachis hypogaea",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Habbatus Sauda",
+      "normalized_name": "habbatus sauda",
+      "language": "ha",
+      "accepted_botanical": "Nigella sativa",
+      "plant_id": "plant-nigella-sativa-dcaa9396e3",
+      "common_english": "Black Seed",
+      "index_status": "agrees_with_index",
+      "ascii_after_normalisation": true,
+      "corroborates": [
+        "legacy_unverified"
+      ],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q160575",
+        "url": "https://www.wikidata.org/wiki/Q160575",
+        "taxon_name_matched": "Nigella sativa",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Hudar Alayyahu",
+      "normalized_name": "hudar alayyahu",
+      "language": "ha",
+      "accepted_botanical": "Amaranthus hybridus",
+      "plant_id": "plant-amaranthus-hybridus-37046c1389",
+      "common_english": "Green Amaranth",
+      "index_status": "new",
+      "ascii_after_normalisation": true,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q1021182",
+        "url": "https://www.wikidata.org/wiki/Q1021182",
+        "taxon_name_matched": "Amaranthus hybridus",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Icen Dalbejiya (Azadirachta Indica)",
+      "normalized_name": "icen dalbejiya azadirachta indica",
+      "language": "ha",
+      "accepted_botanical": "Azadirachta indica",
+      "plant_id": "plant-azadirachta-indica-602368d8f9",
+      "common_english": "Neem",
+      "index_status": "new",
+      "ascii_after_normalisation": true,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q170461",
+        "url": "https://www.wikidata.org/wiki/Q170461",
+        "taxon_name_matched": "Azadirachta indica",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Igiya",
+      "normalized_name": "igiya",
+      "language": "ha",
+      "accepted_botanical": "Nauclea latifolia",
+      "plant_id": "plant-nauclea-latifolia-53fa5cb38c",
+      "common_english": "African peach, Pin cushion tree",
+      "index_status": "new",
+      "ascii_after_normalisation": true,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q39822881",
+        "url": "https://www.wikidata.org/wiki/Q39822881",
+        "taxon_name_matched": "Nauclea latifolia",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Jan tsu",
+      "normalized_name": "jan tsu",
+      "language": "ha",
+      "accepted_botanical": "Urena lobata",
+      "plant_id": "plant-urena-lobata-2de6de90f9",
+      "common_english": null,
+      "index_status": "new",
+      "ascii_after_normalisation": true,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q1496720",
+        "url": "https://www.wikidata.org/wiki/Q1496720",
+        "taxon_name_matched": "Urena lobata",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "kaɗe",
+      "normalized_name": "kaɗe",
+      "language": "ha",
+      "accepted_botanical": "Vitellaria paradoxa",
+      "plant_id": "plant-vitellaria-paradoxa-de73616dac",
+      "common_english": "Shea Butter Tree",
+      "index_status": "new",
+      "ascii_after_normalisation": false,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q1348567",
+        "url": "https://www.wikidata.org/wiki/Q1348567",
+        "taxon_name_matched": "Vitellaria paradoxa",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Kafar mutuwa",
+      "normalized_name": "kafar mutuwa",
+      "language": "ha",
+      "accepted_botanical": "Mallotus oppositifolius",
+      "plant_id": "plant-mallotus-oppositifolius-1fb198eab3",
+      "common_english": null,
+      "index_status": "new",
+      "ascii_after_normalisation": true,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q13931115",
+        "url": "https://www.wikidata.org/wiki/Q13931115",
+        "taxon_name_matched": "Mallotus oppositifolius",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Kaninfari",
+      "normalized_name": "kaninfari",
+      "language": "ha",
+      "accepted_botanical": "Syzygium aromaticum",
+      "plant_id": "plant-syzygium-aromaticum-6c0a708906",
+      "common_english": "Clove",
+      "index_status": "new",
+      "ascii_after_normalisation": true,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q26736",
+        "url": "https://www.wikidata.org/wiki/Q26736",
+        "taxon_name_matched": "Syzygium aromaticum",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Kantakara",
+      "normalized_name": "kantakara",
+      "language": "ha",
+      "accepted_botanical": "Combretum glutinosum",
+      "plant_id": "plant-combretum-glutinosum-87aa708dd8",
+      "common_english": null,
+      "index_status": "agrees_with_index",
+      "ascii_after_normalisation": true,
+      "corroborates": [
+        "taxonomy_checked"
+      ],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q1113729",
+        "url": "https://www.wikidata.org/wiki/Q1113729",
+        "taxon_name_matched": "Combretum glutinosum",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Kashin yawo",
+      "normalized_name": "kashin yawo",
+      "language": "ha",
+      "accepted_botanical": "Acanthospermum hispidum",
+      "plant_id": "plant-acanthospermum-hispidum-b89fb1d865",
+      "common_english": null,
+      "index_status": "new",
+      "ascii_after_normalisation": true,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q4672044",
+        "url": "https://www.wikidata.org/wiki/Q4672044",
+        "taxon_name_matched": "Acanthospermum hispidum",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Kawo",
+      "normalized_name": "kawo",
+      "language": "ha",
+      "accepted_botanical": "Afzelia africana",
+      "plant_id": "plant-afzelia-africana-8f4808386e",
+      "common_english": "African Mahogany Pod",
+      "index_status": "new",
+      "ascii_after_normalisation": true,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q146260",
+        "url": "https://www.wikidata.org/wiki/Q146260",
+        "taxon_name_matched": "Afzelia africana",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Kimba",
+      "normalized_name": "kimba",
+      "language": "ha",
+      "accepted_botanical": "Xylopia aethiopica",
+      "plant_id": "plant-xylopia-aethiopica-d5773119a0",
+      "common_english": "Ethiopian Pepper",
+      "index_status": "new",
+      "ascii_after_normalisation": true,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q2717116",
+        "url": "https://www.wikidata.org/wiki/Q2717116",
+        "taxon_name_matched": "Xylopia aethiopica",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Kuka",
+      "normalized_name": "kuka",
+      "language": "ha",
+      "accepted_botanical": "Adansonia digitata",
+      "plant_id": "plant-adansonia-digitata-de5778c4db",
+      "common_english": "Baobab",
+      "index_status": "agrees_with_index",
+      "ascii_after_normalisation": true,
+      "corroborates": [
+        "taxonomy_checked"
+      ],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q158742",
+        "url": "https://www.wikidata.org/wiki/Q158742",
+        "taxon_name_matched": "Adansonia digitata",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Ƙafar kaza",
+      "normalized_name": "ƙafar kaza",
+      "language": "ha",
+      "accepted_botanical": "Merremia pterygocaulos",
+      "plant_id": "plant-merremia-pterygocaulos-6ee3a368fd",
+      "common_english": null,
+      "index_status": "new",
+      "ascii_after_normalisation": false,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q15486994",
+        "url": "https://www.wikidata.org/wiki/Q15486994",
+        "taxon_name_matched": "Merremia pterygocaulos",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Ƙawuri",
+      "normalized_name": "ƙawuri",
+      "language": "ha",
+      "accepted_botanical": "Ficus ingens",
+      "plant_id": "plant-ficus-ingens-6f81ea1403",
+      "common_english": "Red-leaved fig",
+      "index_status": "new",
+      "ascii_after_normalisation": false,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q3071413",
+        "url": "https://www.wikidata.org/wiki/Q3071413",
+        "taxon_name_matched": "Ficus ingens",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Ƙwarya",
+      "normalized_name": "ƙwarya",
+      "language": "ha",
+      "accepted_botanical": "Lagenaria siceraria",
+      "plant_id": "plant-lagenaria-siceraria-c6a3028c63",
+      "common_english": "Bottle Gourd",
+      "index_status": "new",
+      "ascii_after_normalisation": false,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q1277255",
+        "url": "https://www.wikidata.org/wiki/Q1277255",
+        "taxon_name_matched": "Lagenaria siceraria",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Loko",
+      "normalized_name": "loko",
+      "language": "ha",
+      "accepted_botanical": "Milicia excelsa",
+      "plant_id": "plant-milicia-excelsa-113df15e5a",
+      "common_english": "Iroko",
+      "index_status": "new",
+      "ascii_after_normalisation": true,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q3018022",
+        "url": "https://www.wikidata.org/wiki/Q3018022",
+        "taxon_name_matched": "Milicia excelsa",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Madobiyar rafi",
+      "normalized_name": "madobiyar rafi",
+      "language": "ha",
+      "accepted_botanical": "Albizia zygia",
+      "plant_id": "plant-albizia-zygia-4a9ee7035e",
+      "common_english": null,
+      "index_status": "new",
+      "ascii_after_normalisation": true,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q15494310",
+        "url": "https://www.wikidata.org/wiki/Q15494310",
+        "taxon_name_matched": "Albizia zygia",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Maɗaci",
+      "normalized_name": "maɗaci",
+      "language": "ha",
+      "accepted_botanical": "Khaya senegalensis",
+      "plant_id": "plant-khaya-senegalensis-f69ad4fed5",
+      "common_english": "African Mahogany",
+      "index_status": "new",
+      "ascii_after_normalisation": false,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q927609",
+        "url": "https://www.wikidata.org/wiki/Q927609",
+        "taxon_name_matched": "Khaya senegalensis",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Mai kai dubu",
+      "normalized_name": "mai kai dubu",
+      "language": "ha",
+      "accepted_botanical": "Alternanthera sessilis",
+      "plant_id": "plant-alternanthera-sessilis-733109d64b",
+      "common_english": null,
+      "index_status": "new",
+      "ascii_after_normalisation": true,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q3534965",
+        "url": "https://www.wikidata.org/wiki/Q3534965",
+        "taxon_name_matched": "Alternanthera sessilis",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Maje",
+      "normalized_name": "maje",
+      "language": "ha",
+      "accepted_botanical": "Daniellia oliveri",
+      "plant_id": "plant-daniellia-oliveri-fb159d05dd",
+      "common_english": "African Copaiba Balsam",
+      "index_status": "agrees_with_index",
+      "ascii_after_normalisation": true,
+      "corroborates": [
+        "taxonomy_checked"
+      ],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q15532332",
+        "url": "https://www.wikidata.org/wiki/Q15532332",
+        "taxon_name_matched": "Daniellia oliveri",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Malmo",
+      "normalized_name": "malmo",
+      "language": "ha",
+      "accepted_botanical": "Syzygium guineense",
+      "plant_id": "plant-syzygium-guineense-2b1c42dc6b",
+      "common_english": null,
+      "index_status": "new",
+      "ascii_after_normalisation": true,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q3644516",
+        "url": "https://www.wikidata.org/wiki/Q3644516",
+        "taxon_name_matched": "Syzygium guineense",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Masoro",
+      "normalized_name": "masoro",
+      "language": "ha",
+      "accepted_botanical": "Piper guineense",
+      "plant_id": "plant-piper-guineense-b925235b59",
+      "common_english": "Ashanti Pepper",
+      "index_status": "new",
+      "ascii_after_normalisation": true,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q5687643",
+        "url": "https://www.wikidata.org/wiki/Q5687643",
+        "taxon_name_matched": "Piper guineense",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "rake",
+      "normalized_name": "rake",
+      "language": "ha",
+      "accepted_botanical": "Saccharum officinarum",
+      "plant_id": "plant-saccharum-officinarum-4ace7f3083",
+      "common_english": null,
+      "index_status": "new",
+      "ascii_after_normalisation": true,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q3391243",
+        "url": "https://www.wikidata.org/wiki/Q3391243",
+        "taxon_name_matched": "Saccharum officinarum",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Riɗi",
+      "normalized_name": "riɗi",
+      "language": "ha",
+      "accepted_botanical": "Sesamum indicum",
+      "plant_id": "plant-sesamum-indicum-1bfebea0d6",
+      "common_english": "Sesame",
+      "index_status": "new",
+      "ascii_after_normalisation": false,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q2763698",
+        "url": "https://www.wikidata.org/wiki/Q2763698",
+        "taxon_name_matched": "Sesamum indicum",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Rukuɓu",
+      "normalized_name": "rukuɓu",
+      "language": "ha",
+      "accepted_botanical": "Amaranthus viridis",
+      "plant_id": "plant-amaranthus-viridis-ded50f4b7b",
+      "common_english": null,
+      "index_status": "new",
+      "ascii_after_normalisation": false,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q3245265",
+        "url": "https://www.wikidata.org/wiki/Q3245265",
+        "taxon_name_matched": "Amaranthus viridis",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Ruwan Ruwan Ruwa",
+      "normalized_name": "ruwan ruwan ruwa",
+      "language": "ha",
+      "accepted_botanical": "Citrullus lanatus",
+      "plant_id": "plant-citrullus-lanatus-93ead4239e",
+      "common_english": "Watermelon Seed",
+      "index_status": "new",
+      "ascii_after_normalisation": true,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q17507129",
+        "url": "https://www.wikidata.org/wiki/Q17507129",
+        "taxon_name_matched": "Citrullus lanatus",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Shuwaka",
+      "normalized_name": "shuwaka",
+      "language": "ha",
+      "accepted_botanical": "Vernonia amygdalina",
+      "plant_id": "plant-vernonia-amygdalina-618f450494",
+      "common_english": "Bitter Leaf",
+      "index_status": "new",
+      "ascii_after_normalisation": true,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q3744526",
+        "url": "https://www.wikidata.org/wiki/Q3744526",
+        "taxon_name_matched": "Vernonia amygdalina",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Ta ga rana",
+      "normalized_name": "ta ga rana",
+      "language": "ha",
+      "accepted_botanical": "Abrus precatorius",
+      "plant_id": "plant-abrus-precatorius-15b67329f2",
+      "common_english": null,
+      "index_status": "new",
+      "ascii_after_normalisation": true,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q190887",
+        "url": "https://www.wikidata.org/wiki/Q190887",
+        "taxon_name_matched": "Abrus precatorius",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Tafarnuwa",
+      "normalized_name": "tafarnuwa",
+      "language": "ha",
+      "accepted_botanical": "Allium sativum",
+      "plant_id": "plant-allium-sativum-49429a58d8",
+      "common_english": "Garlic",
+      "index_status": "agrees_with_index",
+      "ascii_after_normalisation": true,
+      "corroborates": [
+        "legacy_unverified"
+      ],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q23400",
+        "url": "https://www.wikidata.org/wiki/Q23400",
+        "taxon_name_matched": "Allium sativum",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Tafasa",
+      "normalized_name": "tafasa",
+      "language": "ha",
+      "accepted_botanical": "Senna tora",
+      "plant_id": "plant-senna-tora-9d1ced746e",
+      "common_english": null,
+      "index_status": "new",
+      "ascii_after_normalisation": true,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q2739004",
+        "url": "https://www.wikidata.org/wiki/Q2739004",
+        "taxon_name_matched": "Senna tora",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Tsamiya",
+      "normalized_name": "tsamiya",
+      "language": "ha",
+      "accepted_botanical": "Tamarindus indica",
+      "plant_id": "plant-tamarindus-indica-47fff9bcb1",
+      "common_english": "Tamarind",
+      "index_status": "new",
+      "ascii_after_normalisation": true,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q80235",
+        "url": "https://www.wikidata.org/wiki/Q80235",
+        "taxon_name_matched": "Tamarindus indica",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Tsamiyar biri",
+      "normalized_name": "tsamiyar biri",
+      "language": "ha",
+      "accepted_botanical": "Dialium guineense",
+      "plant_id": "plant-dialium-guineense-2d704aeaf1",
+      "common_english": "Velvet Tamarind",
+      "index_status": "new",
+      "ascii_after_normalisation": true,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q3489570",
+        "url": "https://www.wikidata.org/wiki/Q3489570",
+        "taxon_name_matched": "Dialium guineense",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Tuji",
+      "normalized_name": "tuji",
+      "language": "ha",
+      "accepted_botanical": "Eleusine indica",
+      "plant_id": "plant-eleusine-indica-8202987ea8",
+      "common_english": null,
+      "index_status": "new",
+      "ascii_after_normalisation": true,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q1148930",
+        "url": "https://www.wikidata.org/wiki/Q1148930",
+        "taxon_name_matched": "Eleusine indica",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Tumfafiya",
+      "normalized_name": "tumfafiya",
+      "language": "ha",
+      "accepted_botanical": "Calotropis procera",
+      "plant_id": "plant-calotropis-procera-0e4f7994f4",
+      "common_english": "Sodom Apple",
+      "index_status": "new",
+      "ascii_after_normalisation": true,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q948690",
+        "url": "https://www.wikidata.org/wiki/Q948690",
+        "taxon_name_matched": "Calotropis procera",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "zirman",
+      "normalized_name": "zirman",
+      "language": "ha",
+      "accepted_botanical": "Ricinus communis",
+      "plant_id": "plant-ricinus-communis-deda1fad54",
+      "common_english": null,
+      "index_status": "new",
+      "ascii_after_normalisation": true,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q155867",
+        "url": "https://www.wikidata.org/wiki/Q155867",
+        "taxon_name_matched": "Ricinus communis",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Zobo",
+      "normalized_name": "zobo",
+      "language": "ha",
+      "accepted_botanical": "Hibiscus sabdariffa",
+      "plant_id": "plant-hibiscus-sabdariffa-868f3a61df",
+      "common_english": "Roselle",
+      "index_status": "agrees_with_index",
+      "ascii_after_normalisation": true,
+      "corroborates": [
+        "legacy_unverified"
+      ],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q319390",
+        "url": "https://www.wikidata.org/wiki/Q319390",
+        "taxon_name_matched": "Hibiscus sabdariffa",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Zogale",
+      "normalized_name": "zogale",
+      "language": "ha",
+      "accepted_botanical": "Moringa oleifera",
+      "plant_id": "plant-moringa-oleifera-6a8b6f1fb2",
+      "common_english": "Drumstick Tree",
+      "index_status": "agrees_with_index",
+      "ascii_after_normalisation": true,
+      "corroborates": [
+        "legacy_unverified",
+        "taxonomy_checked"
+      ],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q234193",
+        "url": "https://www.wikidata.org/wiki/Q234193",
+        "taxon_name_matched": "Moringa oleifera",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Anyụ mmiri",
+      "normalized_name": "anyu mmiri",
+      "language": "ig",
+      "accepted_botanical": "Citrullus lanatus",
+      "plant_id": "plant-citrullus-lanatus-93ead4239e",
+      "common_english": "Watermelon Seed",
+      "index_status": "new",
+      "ascii_after_normalisation": true,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q17507129",
+        "url": "https://www.wikidata.org/wiki/Q17507129",
+        "taxon_name_matched": "Citrullus lanatus",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Ede",
+      "normalized_name": "ede",
+      "language": "ig",
+      "accepted_botanical": "Colocasia esculenta",
+      "plant_id": "plant-colocasia-esculenta-2b3f1683db",
+      "common_english": null,
+      "index_status": "new",
+      "ascii_after_normalisation": true,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q227997",
+        "url": "https://www.wikidata.org/wiki/Q227997",
+        "taxon_name_matched": "Colocasia esculenta",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "ube oyibo",
+      "normalized_name": "ube oyibo",
+      "language": "ig",
+      "accepted_botanical": "Persea americana",
+      "plant_id": "plant-persea-americana-4797acba26",
+      "common_english": null,
+      "index_status": "new",
+      "ascii_after_normalisation": true,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q37153",
+        "url": "https://www.wikidata.org/wiki/Q37153",
+        "taxon_name_matched": "Persea americana",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "ukwa",
+      "normalized_name": "ukwa",
+      "language": "ig",
+      "accepted_botanical": "Artocarpus altilis",
+      "plant_id": "plant-artocarpus-altilis-0846570e26",
+      "common_english": null,
+      "index_status": "new",
+      "ascii_after_normalisation": true,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q14677",
+        "url": "https://www.wikidata.org/wiki/Q14677",
+        "taxon_name_matched": "Artocarpus altilis",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Ukwu ukwa",
+      "normalized_name": "ukwu ukwa",
+      "language": "ig",
+      "accepted_botanical": "Artocarpus altilis",
+      "plant_id": "plant-artocarpus-altilis-0846570e26",
+      "common_english": null,
+      "index_status": "new",
+      "ascii_after_normalisation": true,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q14677",
+        "url": "https://www.wikidata.org/wiki/Q14677",
+        "taxon_name_matched": "Artocarpus altilis",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "yabasị osisi",
+      "normalized_name": "yabasi osisi",
+      "language": "ig",
+      "accepted_botanical": "Allium cepa",
+      "plant_id": "plant-allium-cepa-68b96f0db9",
+      "common_english": "Onion",
+      "index_status": "new",
+      "ascii_after_normalisation": true,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q23485",
+        "url": "https://www.wikidata.org/wiki/Q23485",
+        "taxon_name_matched": "Allium cepa",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Bàbò",
+      "normalized_name": "babo",
+      "language": "nup",
+      "accepted_botanical": "Lagenaria siceraria",
+      "plant_id": "plant-lagenaria-siceraria-c6a3028c63",
+      "common_english": "Bottle Gourd",
+      "index_status": "new",
+      "ascii_after_normalisation": true,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q1277255",
+        "url": "https://www.wikidata.org/wiki/Q1277255",
+        "taxon_name_matched": "Lagenaria siceraria",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "kokonut",
+      "normalized_name": "kokonut",
+      "language": "pcm",
+      "accepted_botanical": "Cocos nucifera",
+      "plant_id": "plant-cocos-nucifera-20f1d857c6",
+      "common_english": "Coconut",
+      "index_status": "new",
+      "ascii_after_normalisation": true,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q13187",
+        "url": "https://www.wikidata.org/wiki/Q13187",
+        "taxon_name_matched": "Cocos nucifera",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "agbon",
+      "normalized_name": "agbon",
+      "language": "yo",
+      "accepted_botanical": "Cocos nucifera",
+      "plant_id": "plant-cocos-nucifera-20f1d857c6",
+      "common_english": "Coconut",
+      "index_status": "agrees_with_index",
+      "ascii_after_normalisation": true,
+      "corroborates": [
+        "legacy_unverified",
+        "taxonomy_checked"
+      ],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q13187",
+        "url": "https://www.wikidata.org/wiki/Q13187",
+        "taxon_name_matched": "Cocos nucifera",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "àlùbọ́sà",
+      "normalized_name": "alubosa",
+      "language": "yo",
+      "accepted_botanical": "Allium cepa",
+      "plant_id": "plant-allium-cepa-68b96f0db9",
+      "common_english": "Onion",
+      "index_status": "agrees_with_index",
+      "ascii_after_normalisation": true,
+      "corroborates": [
+        "legacy_unverified"
+      ],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q23485",
+        "url": "https://www.wikidata.org/wiki/Q23485",
+        "taxon_name_matched": "Allium cepa",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Ata ilẹ̀",
+      "normalized_name": "ata ile",
+      "language": "yo",
+      "accepted_botanical": "Zingiber officinale",
+      "plant_id": "plant-zingiber-officinale-8932efc2ae",
+      "common_english": "Ginger",
+      "index_status": "agrees_with_index",
+      "ascii_after_normalisation": true,
+      "corroborates": [
+        "legacy_unverified"
+      ],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q35625",
+        "url": "https://www.wikidata.org/wiki/Q35625",
+        "taxon_name_matched": "Zingiber officinale",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Bòtújẹ̀",
+      "normalized_name": "botuje",
+      "language": "yo",
+      "accepted_botanical": "Jatropha curcas",
+      "plant_id": "plant-jatropha-curcas-b217025a04",
+      "common_english": "Physic Nut",
+      "index_status": "agrees_with_index",
+      "ascii_after_normalisation": true,
+      "corroborates": [
+        "taxonomy_checked"
+      ],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q74644",
+        "url": "https://www.wikidata.org/wiki/Q74644",
+        "taxon_name_matched": "Jatropha curcas",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Efinrin",
+      "normalized_name": "efinrin",
+      "language": "yo",
+      "accepted_botanical": "Ocimum gratissimum",
+      "plant_id": "plant-ocimum-gratissimum-db8de35590",
+      "common_english": "African Basil",
+      "index_status": "agrees_with_index",
+      "ascii_after_normalisation": true,
+      "corroborates": [
+        "taxonomy_checked"
+      ],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q2355390",
+        "url": "https://www.wikidata.org/wiki/Q2355390",
+        "taxon_name_matched": "Ocimum gratissimum",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "ejirin weere",
+      "normalized_name": "ejirin weere",
+      "language": "yo",
+      "accepted_botanical": "Momordica charantia",
+      "plant_id": "plant-momordica-charantia-2e38e78d6e",
+      "common_english": "Bitter Melon",
+      "index_status": "new",
+      "ascii_after_normalisation": true,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q428750",
+        "url": "https://www.wikidata.org/wiki/Q428750",
+        "taxon_name_matched": "Momordica charantia",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Enu opiri",
+      "normalized_name": "enu opiri",
+      "language": "yo",
+      "accepted_botanical": "Euphorbia lateriflora",
+      "plant_id": "plant-euphorbia-lateriflora-80e9dde1c7",
+      "common_english": null,
+      "index_status": "agrees_with_index",
+      "ascii_after_normalisation": true,
+      "corroborates": [
+        "taxonomy_checked"
+      ],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q5851736",
+        "url": "https://www.wikidata.org/wiki/Q5851736",
+        "taxon_name_matched": "Euphorbia lateriflora",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Ẹ̀pà",
+      "normalized_name": "epa",
+      "language": "yo",
+      "accepted_botanical": "Arachis hypogaea",
+      "plant_id": "plant-arachis-hypogaea-6c43bcbd7f",
+      "common_english": "Groundnut",
+      "index_status": "agrees_with_index",
+      "ascii_after_normalisation": true,
+      "corroborates": [
+        "legacy_unverified"
+      ],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q37383",
+        "url": "https://www.wikidata.org/wiki/Q37383",
+        "taxon_name_matched": "Arachis hypogaea",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Èso ìbẹ́pẹ",
+      "normalized_name": "eso ibepe",
+      "language": "yo",
+      "accepted_botanical": "Carica papaya",
+      "plant_id": "plant-carica-papaya-d45ff84fbe",
+      "common_english": "Papaya",
+      "index_status": "new",
+      "ascii_after_normalisation": true,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q34887",
+        "url": "https://www.wikidata.org/wiki/Q34887",
+        "taxon_name_matched": "Carica papaya",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Ewúro",
+      "normalized_name": "ewuro",
+      "language": "yo",
+      "accepted_botanical": "Vernonia amygdalina",
+      "plant_id": "plant-vernonia-amygdalina-618f450494",
+      "common_english": "Bitter Leaf",
+      "index_status": "ambiguous_in_index",
+      "ascii_after_normalisation": true,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q3744526",
+        "url": "https://www.wikidata.org/wiki/Q3744526",
+        "taxon_name_matched": "Vernonia amygdalina",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Iwere-jeje",
+      "normalized_name": "iwere jeje",
+      "language": "yo",
+      "accepted_botanical": "Abrus precatorius",
+      "plant_id": "plant-abrus-precatorius-15b67329f2",
+      "common_english": null,
+      "index_status": "new",
+      "ascii_after_normalisation": true,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q190887",
+        "url": "https://www.wikidata.org/wiki/Q190887",
+        "taxon_name_matched": "Abrus precatorius",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Kànnáfùrù",
+      "normalized_name": "kannafuru",
+      "language": "yo",
+      "accepted_botanical": "Syzygium aromaticum",
+      "plant_id": "plant-syzygium-aromaticum-6c0a708906",
+      "common_english": "Clove",
+      "index_status": "new",
+      "ascii_after_normalisation": true,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q26736",
+        "url": "https://www.wikidata.org/wiki/Q26736",
+        "taxon_name_matched": "Syzygium aromaticum",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Làpálàpá",
+      "normalized_name": "lapalapa",
+      "language": "yo",
+      "accepted_botanical": "Jatropha curcas",
+      "plant_id": "plant-jatropha-curcas-b217025a04",
+      "common_english": "Physic Nut",
+      "index_status": "agrees_with_index",
+      "ascii_after_normalisation": true,
+      "corroborates": [
+        "legacy_unverified",
+        "taxonomy_checked"
+      ],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q74644",
+        "url": "https://www.wikidata.org/wiki/Q74644",
+        "taxon_name_matched": "Jatropha curcas",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    },
+    {
+      "local_name": "Lóbòtújè",
+      "normalized_name": "lobotuje",
+      "language": "yo",
+      "accepted_botanical": "Jatropha curcas",
+      "plant_id": "plant-jatropha-curcas-b217025a04",
+      "common_english": "Physic Nut",
+      "index_status": "new",
+      "ascii_after_normalisation": true,
+      "corroborates": [],
+      "source": {
+        "source_id": "wikidata-vernacular-candidates",
+        "wikidata_item": "Q74644",
+        "url": "https://www.wikidata.org/wiki/Q74644",
+        "taxon_name_matched": "Jatropha curcas",
+        "licence": "CC0-1.0",
+        "retrieved_at": "2026-09-12"
+      },
+      "verification_status": "unverified_candidate",
+      "export_eligible": false
+    }
+  ]
+}

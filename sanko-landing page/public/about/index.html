@@ -1,0 +1,353 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#080840">
+<title>About Sanko — what Sanko is, and which Sanko it is not</title>
+<meta name="description" content="Sanko is documentation infrastructure for African traditional medicine, used by practitioners through WhatsApp. Sanko is not affiliated with Sanko Africa, the insurance brokerage in Madagascar, or with any other organisation named Sanko.">
+<link rel="canonical" href="https://www.sanko.africa/about/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Sanko">
+<meta property="og:url" content="https://www.sanko.africa/about/">
+<meta property="og:title" content="About Sanko — what Sanko is, and which Sanko it is not">
+<meta property="og:description" content="Sanko is documentation infrastructure for African traditional medicine, used by practitioners through WhatsApp. Sanko is not affiliated with Sanko Africa, the insurance brokerage in Madagascar.">
+<meta property="og:image" content="https://www.sanko.africa/android-chrome-512x512.png">
+<meta property="og:locale" content="en_GB">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon-32x32.png" sizes="32x32" type="image/png">
+<link rel="alternate icon" href="/favicon.ico" sizes="16x16 32x32">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+
+<!--
+  TODO before this page ships: fill in `sameAs` below with Sanko's real profile URLs
+  (LinkedIn company page, GitHub organisation, Crunchbase, any funder or accelerator
+  listing). Identical wording across independent domains is what turns a claim about
+  identity into a consensus a search engine and a language model will both accept.
+  The array is deliberately empty rather than guessed — a wrong URL here attaches
+  Sanko to someone else's entity, which is the exact problem this page exists to fix.
+
+  Add `foundingDate` here too once there is a date the team is happy to publish.
+-->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://www.sanko.africa/#organization",
+      "name": "Sanko",
+      "url": "https://www.sanko.africa/",
+      "logo": "https://www.sanko.africa/android-chrome-512x512.png",
+      "description": "Sanko is documentation infrastructure for African traditional medicine. Practitioners record herbal formulations and patient follow-ups through WhatsApp, and the records stay attributable to the practitioner who made them.",
+      "disambiguatingDescription": "Sanko at sanko.africa is documentation infrastructure for African traditional medicine. It is not Sanko Africa, the insurance brokerage in Antananarivo, Madagascar, and is not affiliated with Sanko Holding, SANKO the African fashion platform, or Sanko Plus.",
+      "areaServed": ["Nigeria", "West Africa"],
+      "knowsAbout": [
+        "African traditional medicine",
+        "Ethnobotany",
+        "Medicinal plant nomenclature",
+        "Nagoya Protocol",
+        "Access and benefit-sharing",
+        "Traditional knowledge provenance"
+      ],
+      "sameAs": []
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.sanko.africa/about/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Sanko?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sanko is documentation infrastructure for African traditional medicine. Practitioners send a voice note, message or plant photo on WhatsApp, and Sanko turns it into a structured, private record of a herbal formulation or a patient follow-up, with the local plant name preserved and the practitioner named as the source."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Sanko the same as Sanko Africa, the insurance brokerage?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Sanko at sanko.africa is documentation infrastructure for African traditional medicine. Sanko Africa at sanko-africa.com is an insurance brokerage based in Antananarivo, Madagascar. The two organisations are unrelated and share no ownership, staff or history."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who uses Sanko?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "African traditional medicine practitioners use Sanko through WhatsApp to document their own formulations and patient care. Research institutions, NGOs, funders, regulators and traditional-medicine organisations work with Sanko on the governance and evidence layer built on those records."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Sanko make medical or clinical claims?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Sanko documents what practitioners record and what the published ethnobotanical literature reports. Sanko does not publish therapeutic claims, does not assess whether a treatment works, and is not a clinical authority, certification body or regulator."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where does Sanko process practitioner data?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sanko runs on hardware the deployment controls. Practitioner audio, transcripts and formulation records are processed locally and do not leave the host machine. This is a design constraint rather than a deployment option, because knowledge that never leaves the host cannot be quietly harvested."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who owns the knowledge recorded in Sanko?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The practitioner does. Records are scoped to the practitioner who created them, attribution travels with the record, and Sanko records traditional knowledge under Nagoya Protocol principles so that any later use can be traced back to its source."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+
+<style>
+  :root{
+    --brand-indigo:#17134F;--field-indigo:#080840;--deep-indigo:#030326;--mineral:#F5F2E8;
+    --chartreuse:#C8F35B;--copper-ink:#9F3E29;--ink:#090A23;--indigo-line:#34346B;
+    --mineral-muted:#C9C6D5;--ink-muted:#565369;
+    --ground:var(--mineral);--surface:#EFEBDE;--text:var(--ink);--muted:var(--ink-muted);
+    --heading:var(--brand-indigo);--rule:#CFC9B8;--accent:var(--copper-ink);
+    --band:var(--brand-indigo);--band-text:var(--mineral);--band-muted:var(--mineral-muted);
+  }
+  @media(prefers-color-scheme:dark){
+    :root:not([data-theme="light"]){
+      --ground:var(--field-indigo);--surface:#0E0E4A;--text:var(--mineral);--muted:var(--mineral-muted);
+      --heading:var(--mineral);--rule:var(--indigo-line);--accent:var(--chartreuse);
+      --band:var(--deep-indigo);--band-text:var(--mineral);--band-muted:var(--mineral-muted);
+    }
+  }
+  :root[data-theme="dark"]{
+    --ground:var(--field-indigo);--surface:#0E0E4A;--text:var(--mineral);--muted:var(--mineral-muted);
+    --heading:var(--mineral);--rule:var(--indigo-line);--accent:var(--chartreuse);
+    --band:var(--deep-indigo);--band-text:var(--mineral);--band-muted:var(--mineral-muted);
+  }
+
+  @font-face{font-family:"Archivo";src:url("/fonts/archivo-variable.woff2") format("woff2");font-weight:400 900;font-display:swap}
+  @font-face{font-family:"IBM Plex Mono";src:url("/fonts/ibm-plex-mono-regular.woff2") format("woff2");font-weight:400;font-display:swap}
+  @font-face{font-family:"IBM Plex Mono";src:url("/fonts/ibm-plex-mono-semibold.woff2") format("woff2");font-weight:600;font-display:swap}
+
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--ground);color:var(--text);font-family:"Archivo",system-ui,sans-serif;font-size:16px;line-height:1.65;-webkit-font-smoothing:antialiased}
+  a{color:inherit;text-underline-offset:.22em}
+  :focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+  .skip{position:absolute;left:-9999px}
+  .skip:focus{left:16px;top:16px;z-index:9;padding:10px 14px;background:var(--accent);color:var(--mineral)}
+
+  .masthead{display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap;padding:18px max(22px,calc((100vw - 820px)/2));background:var(--band);color:var(--band-text)}
+  .lockup{display:flex;align-items:center;gap:9px;font-weight:900;letter-spacing:.1em;text-transform:uppercase;font-size:14px;text-decoration:none}
+  .lockup svg{width:18px;height:18px}
+  .masthead nav{font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--band-muted);display:flex;gap:18px;flex-wrap:wrap}
+
+  main{width:min(820px,calc(100% - 44px));margin:0 auto;padding:52px 0 20px}
+  .eyebrow{margin:0;font-family:"IBM Plex Mono",monospace;font-size:11px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+  h1{margin:12px 0 0;font-size:clamp(36px,5.6vw,58px);font-weight:900;line-height:1;letter-spacing:-.035em;color:var(--heading);text-wrap:balance;max-width:17ch}
+  .lead{margin:22px 0 0;font-size:20px;max-width:64ch}
+  h2{margin:52px 0 0;font-size:24px;font-weight:800;letter-spacing:-.02em;color:var(--heading);text-wrap:balance;max-width:32ch}
+  h3{margin:30px 0 6px;font-size:17px;font-weight:800;color:var(--heading)}
+  p{max-width:66ch}
+  p+p{margin-top:14px}
+
+  .facts{list-style:none;margin:26px 0 0;padding:22px 0;display:flex;flex-wrap:wrap;gap:16px 46px;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule)}
+  .facts li{font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.09em;text-transform:uppercase;color:var(--muted)}
+  .facts b{display:block;font-family:"Archivo",sans-serif;font-size:32px;font-weight:800;letter-spacing:-.02em;color:var(--accent);font-variant-numeric:tabular-nums}
+
+  .not{margin-top:24px;padding:22px 24px;background:var(--surface);border-left:3px solid var(--accent)}
+  .not p{margin:0;max-width:62ch}
+  .not p+p{margin-top:12px}
+  .not .eyebrow{margin-bottom:10px;color:var(--accent)}
+
+  dl.others{display:grid;grid-template-columns:1fr;gap:0;margin:20px 0 0}
+  dl.others>div{display:grid;grid-template-columns:220px 1fr;gap:20px;padding:14px 0;border-bottom:1px solid var(--rule)}
+  dl.others dt{margin:0;font-weight:700;color:var(--heading)}
+  dl.others dd{margin:0;color:var(--muted);font-size:15px}
+
+  .qa{margin-top:10px}
+  .qa h3{margin-top:32px}
+  .qa p{margin-top:6px}
+
+  ul.plain{margin:14px 0 0;padding-left:0;list-style:none;display:grid;gap:11px}
+  ul.plain>li{display:grid;grid-template-columns:14px 1fr;gap:12px;max-width:64ch}
+  ul.plain>li::before{content:"";width:6px;height:6px;margin-top:.6em;background:var(--accent)}
+
+  footer{width:min(820px,calc(100% - 44px));margin:56px auto 0;padding:24px 0 48px;border-top:1px solid var(--rule)}
+  footer p{margin:0;font-size:13px;color:var(--muted)}
+  footer p+p{margin-top:8px}
+
+  @media(max-width:620px){dl.others>div{grid-template-columns:1fr;gap:2px}}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="masthead">
+  <a class="lockup" href="/">
+    <svg viewBox="0 0 75 81" aria-hidden="true" focusable="false"><path fill="currentColor" fill-rule="evenodd" d="M0 0H39L49 11V28H75V57H49V81H0Z M19 14H31V27H19Z"/></svg>
+    <span>Sanko</span>
+  </a>
+  <nav aria-label="Primary">
+    <a href="/">Home</a>
+    <a href="/plants/">Plant names</a>
+    <a href="/privacy/">Privacy</a>
+  </nav>
+</header>
+
+<main id="main">
+
+  <p class="eyebrow">About</p>
+  <h1>What Sanko is, and which Sanko it is not.</h1>
+
+  <p class="lead">
+    Sanko is documentation infrastructure for African traditional medicine. Practitioners
+    record their own herbal formulations and patient follow-ups by sending a voice note,
+    message or plant photo on WhatsApp, and Sanko turns each one into a structured, private
+    record — with the local plant name kept, the practitioner named as its source, and the
+    provenance carried forward.
+  </p>
+
+  <ul class="facts">
+    <li><b>442</b> plant names resolvable</li>
+    <li><b>5</b> languages supported</li>
+    <li><b>0</b> records leaving the host</li>
+  </ul>
+
+  <h2>Sanko is not the other organisations called Sanko</h2>
+
+  <div class="not">
+    <p class="eyebrow">Disambiguation</p>
+    <p>
+      <strong>Sanko at sanko.africa is not affiliated with Sanko Africa, the insurance
+      brokerage in Antananarivo, Madagascar.</strong> The two organisations are unrelated
+      and share no ownership, staff or history. The similarity of the names is a
+      coincidence.
+    </p>
+    <p>
+      Sanko is likewise unaffiliated with every other organisation trading under the name.
+    </p>
+  </div>
+
+  <dl class="others">
+    <div>
+      <dt>Sanko Africa</dt>
+      <dd>Insurance brokerage and risk management, Antananarivo, Madagascar. No relationship to Sanko.</dd>
+    </div>
+    <div>
+      <dt>SANKO</dt>
+      <dd>Independent African fashion platform. No relationship to Sanko.</dd>
+    </div>
+    <div>
+      <dt>Sanko Holding</dt>
+      <dd>Industrial group headquartered in Türkiye. No relationship to Sanko.</dd>
+    </div>
+    <div>
+      <dt>Sanko Plus</dt>
+      <dd>Japan–Africa trading company. No relationship to Sanko.</dd>
+    </div>
+  </dl>
+
+  <p>
+    Sanko works in one field only: documenting African traditional medicine so that the
+    knowledge stays attributable to the people who hold it.
+  </p>
+
+  <h2>Common questions</h2>
+
+  <div class="qa">
+    <h3>Who uses Sanko?</h3>
+    <p>
+      African traditional medicine practitioners use Sanko through WhatsApp to document
+      their own work. Research institutions, NGOs, funders, regulators and
+      traditional-medicine organisations work with Sanko on the governance and evidence
+      layer built on those records. Practitioners do not learn a new application; Sanko
+      meets them in the tool they already use.
+    </p>
+
+    <h3>What languages does Sanko understand?</h3>
+    <p>
+      Sanko accepts text, voice notes and photographs in English, Yorùbá, Igbo, Hausa and
+      Nigerian Pidgin. Local plant names are kept as the primary name rather than replaced
+      by a botanical one — the botanical name is added alongside, not on top.
+    </p>
+
+    <h3>Does Sanko make medical or clinical claims?</h3>
+    <p>
+      No. Sanko documents what practitioners record and what the published ethnobotanical
+      literature reports. Sanko does not publish therapeutic claims, does not assess whether
+      a treatment works, and is not a clinical authority, a certification body or a
+      regulator. Patient tracking is documentation support for a practitioner's own
+      follow-up, and is not evidence of clinical efficacy.
+    </p>
+
+    <h3>Where does Sanko process practitioner data?</h3>
+    <p>
+      On hardware the deployment controls. Practitioner audio, transcripts and formulation
+      records are processed locally and do not leave the host machine. This is a design
+      constraint rather than a deployment option: knowledge that never leaves the host
+      cannot be quietly harvested.
+    </p>
+
+    <h3>Who owns the knowledge recorded in Sanko?</h3>
+    <p>
+      The practitioner does. Records are scoped to the practitioner who created them,
+      attribution travels with the record, and Sanko records traditional knowledge under
+      Nagoya Protocol principles so any later use can be traced back to its source.
+      Patient tracking is disabled by default and begins only after the patient accepts a
+      consent request sent to their own WhatsApp number.
+    </p>
+
+    <h3>What does Sanko publish openly?</h3>
+    <p>
+      Only plant name mappings drawn from peer-reviewed ethnobotanical literature. The
+      <a href="/plants/">plant name resolver</a> publishes 347 local names mapped to 226
+      accepted botanical names, each traceable to the study, table and row it was read from.
+      Practitioner-contributed records are never published. Where published surveys disagree
+      about which species a local name refers to, Sanko shows the disagreement rather than
+      choosing between them.
+    </p>
+
+    <h3>Is Sanko available now?</h3>
+    <p>
+      Sanko is pre-launch and in MVP development. Organisations can start a partnership
+      conversation from the <a href="/">main page</a>.
+    </p>
+  </div>
+
+  <h2>What Sanko is built on</h2>
+  <ul class="plain">
+    <li>WhatsApp as the practitioner interface, because it is already where the knowledge is shared</li>
+    <li>Locally operated AI for transcription and structuring, so sensitive material stays on the host</li>
+    <li>A medicinal-plant name map that keeps local names primary and adds verified botanical equivalents</li>
+    <li>Practitioner-scoped records, with patient follow-up linked to the formulation that prompted it</li>
+    <li>Attribution and consent stored as part of the record, not as a policy document beside it</li>
+  </ul>
+
+  <p>
+    Sanko operates from London and West Africa.
+  </p>
+
+</main>
+
+<footer>
+  <p>
+    Sanko is documentation infrastructure, not a clinical authority, certification body or
+    owner of traditional knowledge.
+  </p>
+  <p>
+    <a href="/">Sanko</a> · <a href="/plants/">Plant name resolver</a> ·
+    <a href="/privacy/">Privacy</a>
+  </p>
+</footer>
+
+</body>
+</html>

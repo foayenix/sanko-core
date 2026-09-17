@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 222 52" role="img" aria-labelledby="title desc">
+  <title id="title">Sanko horizontal lockup on light</title>
+  <desc id="desc">The signal-indigo D1 Source Mark paired with the uppercase SANKO wordmark.</desc>
+  <style>
+    @font-face { font-family: "Archivo Brand"; src: url("../fonts/archivo-variable.woff2") format("woff2"); font-weight: 400 900; }
+    text { font-family: "Archivo Brand", "Arial Narrow", sans-serif; font-size: 38px; font-weight: 850; letter-spacing: .95px; }
+  </style>
+  <g transform="translate(0 2)">
+    <path fill="#17134F" fill-rule="evenodd" d="M4 4h20l5 5v11h15v14H29v10H4V4Zm11 7h8v8h-8v-8Z"/>
+  </g>
+  <text x="65" y="41" fill="#17134F">SANKO</text>
+</svg>

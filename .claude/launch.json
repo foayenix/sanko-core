@@ -1,0 +1,45 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "sanko",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+        "run",
+        "dev"
+      ],
+      "port": 3000,
+      "autoPort": true
+    },
+    {
+      "name": "landing",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "4173",
+        "--directory",
+        "sanko-landing page/public"
+      ],
+      "port": 4173
+    },
+    {
+      "name": "admin-preview",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+        "run",
+        "preview:admin"
+      ],
+      "port": 4174,
+      "autoPort": true
+    },
+    {
+      "name": "landing-seo",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": [
+        "scripts/seo_preview_server.py"
+      ],
+      "port": 4175
+    }
+  ]
+}

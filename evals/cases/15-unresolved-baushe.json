@@ -1,0 +1,35 @@
+{
+  "id": "15-unresolved-baushe",
+  "description": "Lookup entry with deliberately null botanical identity must stay null.",
+  "practitioner": {
+    "display_name": "Musa",
+    "preferred_language": "ha"
+  },
+  "turns": [
+    "For ciwon ciki I boil baushe leaves in water. One cup at night for two nights. The plant name is baushe; save it.",
+    "Yes, that is accurate. Save exactly that and do not add anything."
+  ],
+  "expect": {
+    "tools": [
+      "save_formulation"
+    ],
+    "plants_include": [
+      "baushe"
+    ],
+    "botanicals": {
+      "baushe": null
+    },
+    "fields": {
+      "preparation.method": "decoction",
+      "dosage.duration_days": "2"
+    }
+  },
+  "editorial_review": {
+    "status": "complete",
+    "reviewer_role": "model_editorial",
+    "reviewer_ref": "codex-2026-08-13",
+    "reviewed_at": "2026-08-13T00:00:00Z",
+    "rubric_version": "editorial-v1",
+    "practitioner_review": "pending"
+  }
+}

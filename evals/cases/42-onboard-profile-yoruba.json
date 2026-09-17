@@ -1,0 +1,25 @@
+{
+  "id": "42-onboard-profile-yoruba",
+  "description": "Anonymous practitioner supplies a name and language preference.",
+  "practitioner": {
+    "display_name": null,
+    "preferred_language": "en"
+  },
+  "input": "My name is Kemi. Please speak Yoruba with me from now on.",
+  "expect": {
+    "tools": [
+      "set_profile"
+    ],
+    "forbidden_tools": [
+      "save_formulation"
+    ]
+  },
+  "editorial_review": {
+    "status": "complete",
+    "reviewer_role": "model_editorial",
+    "reviewer_ref": "codex-2026-08-13",
+    "reviewed_at": "2026-08-13T00:00:00Z",
+    "rubric_version": "editorial-v1",
+    "practitioner_review": "pending"
+  }
+}

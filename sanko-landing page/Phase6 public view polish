@@ -1,0 +1,96 @@
+# SANKO VISION DEMO — PHASE 6: Public Data Portal + Final Polish
+
+## Context
+Phases 1-5 built everything except the Public data portal. This is the final phase.
+
+## What to build
+Create src/views/PublicView.jsx and import it into App.jsx.
+
+## Layout
+Max-width 900px, centered, padding 24px. Text-align center for headers.
+
+## State
+```jsx
+const [expandedCountry, setExpandedCountry] = useState(null);
+const [toast, setToast] = useState(null);
+```
+
+## Components
+
+### Header
+- Gold badge: "🌍 Open data"
+- Title (serif, 28px): "The state of African traditional medicine"
+- Subtitle (14px, muted, centered, max-width 520px): "Population-level data from the Sanko platform. No individual practitioners, formulations, or patients identified. Updated monthly."
+
+### Hero stats (4 column grid, large centered numbers)
+- 52,400 practitioners — "15 countries" subtitle — forest green
+- 148,000 formulations — "+4,200 this month" subtitle
+- 620,000 patient outcomes — "Tracked and linked" subtitle — #4ADE80
+- 2,100+ unique botanicals — "Mapped to Latin names" subtitle — gold
+
+Each stat: serif font, 32px number, 11px label below, 11px change/subtitle below that.
+
+### Country table
+Card with header: "Coverage by country"
+
+Table using COUNTRIES from data.js:
+- Columns: Country (flag + name), Practitioners, Formulations, Outcomes, Languages, Since
+- Numbers should be formatted with commas (e.g. 28,400)
+
+**Each row is clickable** → toggles expandedCountry:
+When expanded (below the clicked row), show a mini dashboard:
+- "Top conditions:" + topConditions as tag pills
+- "Top botanicals:" + topBotanicals as muted text list
+- "Average effectiveness: {eff}%" with colour
+- "Growth: +{growth} new practitioners/month"
+- Background slightly lighter than table
+
+Show the 7 real countries from data, then a summary row: "+ 8 more countries · 2,500 practitioners · 6,000 formulations · 17,000 outcomes" (not clickable, muted)
+
+### Key evidence findings (3 cards)
+Vertical stack of 3 cards, each with a left coloured border:
+
+1. **Green border**: "Across 48,000 tracked malaria/fever cases treated with traditional formulations in Nigeria, Ghana, and Kenya, practitioners reported an **82% improvement rate** within 5 days." Subtitle: "Based on patient-reported outcomes via WhatsApp and SMS follow-up"
+
+2. **Gold border**: "**14 formulations** have crossed 200+ tracked outcomes with effectiveness above 80% and adverse event rates below 5% — making them candidates for formal pharmacological investigation." Subtitle: "Research readiness scores available to approved research institutions"
+
+3. **Indigo border**: "**2,100+ unique botanical species** documented with local-to-Latin name mappings across 28 languages — the most comprehensive African medicinal plant nomenclature database ever assembled." Subtitle: "Contributed by practitioners across 15 countries"
+
+### Annual report download
+Dashed border card (1px dashed rgba(255,255,255,0.08)), centered:
+- Title (serif, 20px): "Annual report: The state of African traditional medicine 2030"
+- Subtitle: "The population-level data WHO has been asking for since 2002 — produced by practitioners, for the first time."
+- Green button: "Download PDF report →"
+- onClick → show toast: "Demo — report not available in preview" (auto-dismiss after 3 seconds)
+
+### Toast component
+When toast is set, show a small notification bar at the bottom of the screen:
+- Fixed position at bottom center
+- Dark background with light text
+- Auto-dismiss after 3 seconds (useEffect with setTimeout)
+- Smooth fade in/out
+
+### Flywheel footer
+Same subtle horizontal bar at bottom.
+
+## Integration
+Import PublicView into App.jsx.
+
+## Final polish (do all of these)
+
+1. **Verify all 5 views work** — clicking nav tabs switches correctly
+2. **Verify the Home view role cards** navigate to the correct views
+3. **Verify search works** in both Practitioner vault and Researcher portal
+4. **Verify formulation click** → detail → back works in Practitioner view
+5. **Verify patient click** → timeline → back works
+6. **Verify city click** → detail works in Regulator
+7. **Verify signal expand** works in Regulator
+8. **Verify country expand** works in Public portal
+9. **Verify collaboration flow** steps through correctly in Researcher
+10. **Add smooth scroll to top** when switching views (window.scrollTo(0,0) on view change)
+
+## Commit message
+"Phase 6: Public data portal + final integration and polish"
+
+## After this phase
+The app should be fully functional. Run `npm run build` to verify it compiles. The built files in dist/ can be deployed to any static hosting (Netlify, Vercel, GitHub Pages).

@@ -1,0 +1,25 @@
+{
+  "id": "35-greeting-no-tool",
+  "description": "Ordinary greeting must not cause a Vault mutation.",
+  "practitioner": {
+    "display_name": "Musa",
+    "preferred_language": "ha"
+  },
+  "input": "Sannu, ina kwana? I just wanted to greet you today.",
+  "expect": {
+    "tools": [],
+    "forbidden_tools": [
+      "save_formulation",
+      "set_profile",
+      "create_patient"
+    ]
+  },
+  "editorial_review": {
+    "status": "complete",
+    "reviewer_role": "model_editorial",
+    "reviewer_ref": "codex-2026-08-13",
+    "reviewed_at": "2026-08-13T00:00:00Z",
+    "rubric_version": "editorial-v1",
+    "practitioner_review": "pending"
+  }
+}

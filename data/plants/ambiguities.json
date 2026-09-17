@@ -1,0 +1,1795 @@
+[
+  {
+    "normalized_name": "abafe",
+    "source_spellings": [
+      "Abafe"
+    ],
+    "candidates": [
+      {
+        "botanical_as_published": "Piliostigma thonningii (Schum.) Milne-Redh. (Synonym: Bauhinia thonningii Schum.)",
+        "accepted_botanical": "Piliostigma thonningii",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": "Lagos",
+          "localities": [
+            "Alimosho",
+            "Badagry",
+            "Eti-Osa",
+            "Ijebu",
+            "Imota"
+          ]
+        },
+        "source_id": "olanipekun-2022-lagos",
+        "source_locator": {
+          "table": "Supplementary Table S1",
+          "row": 132
+        },
+        "verification_status": "taxonomy_checked"
+      },
+      {
+        "botanical_as_published": "Piliostigma reticulatum (Stapf.) Th. & H. Dur",
+        "accepted_botanical": "Piliostigma reticulatum",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": null,
+          "localities": [
+            "Ogun State",
+            "Osun State",
+            "Oyo State"
+          ]
+        },
+        "source_id": "sonibare-2008-anti-asthmatic",
+        "source_locator": {
+          "table": "Table 1",
+          "row": 36
+        },
+        "verification_status": "taxonomy_checked"
+      }
+    ]
+  },
+  {
+    "normalized_name": "abamoda",
+    "source_spellings": [
+      "abamoda",
+      "Abamoda"
+    ],
+    "candidates": [
+      {
+        "botanical_as_published": "Bryophyllum pinnatum",
+        "accepted_botanical": "Bryophyllum pinnatum",
+        "language": null,
+        "region": {
+          "country": "Nigeria",
+          "state": null,
+          "localities": []
+        },
+        "source_id": "legacy-lookup-v1",
+        "source_locator": null,
+        "verification_status": "legacy_unverified"
+      },
+      {
+        "botanical_as_published": "Bryophyllum pinnatum (Lam.) Oken",
+        "accepted_botanical": "Kalanchoe pinnata",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": "Lagos",
+          "localities": [
+            "Alimosho",
+            "Badagry",
+            "Eti-Osa",
+            "Ijebu",
+            "Imota"
+          ]
+        },
+        "source_id": "olanipekun-2022-lagos",
+        "source_locator": {
+          "table": "Supplementary Table S1",
+          "row": 31
+        },
+        "verification_status": "taxonomy_checked"
+      }
+    ]
+  },
+  {
+    "normalized_name": "afomo",
+    "source_spellings": [
+      "afomo",
+      "Afomo"
+    ],
+    "candidates": [
+      {
+        "botanical_as_published": "Loranthus micranthus",
+        "accepted_botanical": "Loranthus micranthus",
+        "language": null,
+        "region": {
+          "country": "Nigeria",
+          "state": null,
+          "localities": []
+        },
+        "source_id": "legacy-lookup-v1",
+        "source_locator": null,
+        "verification_status": "legacy_unverified"
+      },
+      {
+        "botanical_as_published": "Tapinanthus globiferus (A.Rich.) Tiegh.",
+        "accepted_botanical": "Tapinanthus globiferus",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": "Lagos",
+          "localities": [
+            "Alimosho",
+            "Badagry",
+            "Eti-Osa",
+            "Ijebu",
+            "Imota"
+          ]
+        },
+        "source_id": "olanipekun-2022-lagos",
+        "source_locator": {
+          "table": "Supplementary Table S1",
+          "row": 167
+        },
+        "verification_status": "taxonomy_checked"
+      }
+    ]
+  },
+  {
+    "normalized_name": "agbalumo",
+    "source_spellings": [
+      "agbalumo",
+      "Agbalumo"
+    ],
+    "candidates": [
+      {
+        "botanical_as_published": "Chrysophyllum albidum",
+        "accepted_botanical": "Chrysophyllum albidum",
+        "language": null,
+        "region": {
+          "country": "Nigeria",
+          "state": null,
+          "localities": []
+        },
+        "source_id": "legacy-lookup-v1",
+        "source_locator": null,
+        "verification_status": "legacy_unverified"
+      },
+      {
+        "botanical_as_published": "Chrysophyllum albidum Linn.",
+        "accepted_botanical": "Gambeya albida",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": null,
+          "localities": [
+            "Ogun State",
+            "Osun State",
+            "Oyo State"
+          ]
+        },
+        "source_id": "sonibare-2008-anti-asthmatic",
+        "source_locator": {
+          "table": "Table 1",
+          "row": 13
+        },
+        "verification_status": "taxonomy_checked"
+      }
+    ]
+  },
+  {
+    "normalized_name": "ako rere",
+    "source_spellings": [
+      "Ako rere",
+      "Ako-rere"
+    ],
+    "candidates": [
+      {
+        "botanical_as_published": "Senna obtusifolia (L.) H.S.Irwin & Barneby",
+        "accepted_botanical": "Senna obtusifolia",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": "Lagos",
+          "localities": [
+            "Alimosho",
+            "Badagry",
+            "Eti-Osa",
+            "Ijebu",
+            "Imota"
+          ]
+        },
+        "source_id": "olanipekun-2022-lagos",
+        "source_locator": {
+          "table": "Supplementary Table S1",
+          "row": 144
+        },
+        "verification_status": "taxonomy_checked"
+      },
+      {
+        "botanical_as_published": "Trichilia monadelpha (Thonn.) J.J.de Wilde",
+        "accepted_botanical": "Trichilia monadelpha",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": "Lagos",
+          "localities": [
+            "Alimosho",
+            "Badagry",
+            "Eti-Osa",
+            "Ijebu",
+            "Imota"
+          ]
+        },
+        "source_id": "olanipekun-2022-lagos",
+        "source_locator": {
+          "table": "Supplementary Table S1",
+          "row": 174
+        },
+        "verification_status": "taxonomy_checked"
+      }
+    ]
+  },
+  {
+    "normalized_name": "amuje",
+    "source_spellings": [
+      "Amuje"
+    ],
+    "candidates": [
+      {
+        "botanical_as_published": "Harungana madagascariensis Lam. ex Poir.",
+        "accepted_botanical": "Harungana madagascariensis",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": "Lagos",
+          "localities": [
+            "Alimosho",
+            "Badagry",
+            "Eti-Osa",
+            "Ijebu",
+            "Imota"
+          ]
+        },
+        "source_id": "olanipekun-2022-lagos",
+        "source_locator": {
+          "table": "Supplementary Table S1",
+          "row": 88
+        },
+        "verification_status": "taxonomy_checked"
+      },
+      {
+        "botanical_as_published": "Harungana madagascariens Lam.",
+        "accepted_botanical": null,
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": null,
+          "localities": [
+            "Ogun State",
+            "Osun State",
+            "Oyo State"
+          ]
+        },
+        "source_id": "sonibare-2008-anti-asthmatic",
+        "source_locator": {
+          "table": "Table 1",
+          "row": 24
+        },
+        "verification_status": "taxonomy_unresolved"
+      }
+    ]
+  },
+  {
+    "normalized_name": "awede",
+    "source_spellings": [
+      "Awede"
+    ],
+    "candidates": [
+      {
+        "botanical_as_published": "Borreria scabra (Schumach. & Thonn.) K.Schum. (Synonym: Spermacoce ruelliae DC.)",
+        "accepted_botanical": "Spermacoce ruelliae",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": "Lagos",
+          "localities": [
+            "Alimosho",
+            "Badagry",
+            "Eti-Osa",
+            "Ijebu",
+            "Imota"
+          ]
+        },
+        "source_id": "olanipekun-2022-lagos",
+        "source_locator": {
+          "table": "Supplementary Table S1",
+          "row": 28
+        },
+        "verification_status": "taxonomy_checked"
+      },
+      {
+        "botanical_as_published": "Borreria verticillata (L.) G.Mey. (Synonym: Spermacoce verticillata L.)",
+        "accepted_botanical": "Spermacoce verticillata",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": "Lagos",
+          "localities": [
+            "Alimosho",
+            "Badagry",
+            "Eti-Osa",
+            "Ijebu",
+            "Imota"
+          ]
+        },
+        "source_id": "olanipekun-2022-lagos",
+        "source_locator": {
+          "table": "Supplementary Table S1",
+          "row": 29
+        },
+        "verification_status": "taxonomy_checked"
+      },
+      {
+        "botanical_as_published": "Dissotis rotundifolia (Sm.) Triana (Synonym Heterotis rotundifolia (Sm.) Jacq.-Fél.)",
+        "accepted_botanical": "Heterotis rotundifolia",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": "Lagos",
+          "localities": [
+            "Alimosho",
+            "Badagry",
+            "Eti-Osa",
+            "Ijebu",
+            "Imota"
+          ]
+        },
+        "source_id": "olanipekun-2022-lagos",
+        "source_locator": {
+          "table": "Supplementary Table S1",
+          "row": 67
+        },
+        "verification_status": "taxonomy_checked"
+      }
+    ]
+  },
+  {
+    "normalized_name": "aworo ona",
+    "source_spellings": [
+      "Aworo-ona"
+    ],
+    "candidates": [
+      {
+        "botanical_as_published": "Eleutheranthera ruderalis (Swartz) Sch.-Bip.",
+        "accepted_botanical": "Eleutheranthera ruderalis",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": "Lagos",
+          "localities": [
+            "Alimosho",
+            "Badagry",
+            "Eti-Osa",
+            "Ijebu",
+            "Imota"
+          ]
+        },
+        "source_id": "olanipekun-2022-lagos",
+        "source_locator": {
+          "table": "Supplementary Table S1",
+          "row": 71
+        },
+        "verification_status": "taxonomy_checked"
+      },
+      {
+        "botanical_as_published": "Synedrella nodiflora (L.) Gaertn.",
+        "accepted_botanical": "Synedrella nodiflora",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": "Lagos",
+          "localities": [
+            "Alimosho",
+            "Badagry",
+            "Eti-Osa",
+            "Ijebu",
+            "Imota"
+          ]
+        },
+        "source_id": "olanipekun-2022-lagos",
+        "source_locator": {
+          "table": "Supplementary Table S1",
+          "row": 164
+        },
+        "verification_status": "taxonomy_checked"
+      }
+    ]
+  },
+  {
+    "normalized_name": "ayin",
+    "source_spellings": [
+      "ayin",
+      "Ayin"
+    ],
+    "candidates": [
+      {
+        "botanical_as_published": "Anogeissus leiocarpus",
+        "accepted_botanical": null,
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": "Plateau",
+          "localities": [
+            "Barkin Ladi",
+            "Bassa",
+            "Bokkos",
+            "Jos North",
+            "Jos South",
+            "Kanam",
+            "Mangu",
+            "Pankshin",
+            "Qua'an Pan",
+            "Wase"
+          ]
+        },
+        "source_id": "offiah-2011-plateau",
+        "source_locator": {
+          "table": "Table 1",
+          "row": 6
+        },
+        "verification_status": "taxonomy_unresolved"
+      },
+      {
+        "botanical_as_published": "Anogeissus leiocarpus (DC.) Guill. & Perr.",
+        "accepted_botanical": null,
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": null,
+          "localities": [
+            "Ogun State",
+            "Osun State",
+            "Oyo State"
+          ]
+        },
+        "source_id": "sonibare-2008-anti-asthmatic",
+        "source_locator": {
+          "table": "Table 1",
+          "row": 7
+        },
+        "verification_status": "taxonomy_unresolved"
+      }
+    ]
+  },
+  {
+    "normalized_name": "ayunre",
+    "source_spellings": [
+      "Ayunre"
+    ],
+    "candidates": [
+      {
+        "botanical_as_published": "Albizia ferruginea (Guill. & Perr.) Benth.",
+        "accepted_botanical": "Albizia ferruginea",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": "Lagos",
+          "localities": [
+            "Alimosho",
+            "Badagry",
+            "Eti-Osa",
+            "Ijebu",
+            "Imota"
+          ]
+        },
+        "source_id": "olanipekun-2022-lagos",
+        "source_locator": {
+          "table": "Supplementary Table S1",
+          "row": 7
+        },
+        "verification_status": "taxonomy_checked"
+      },
+      {
+        "botanical_as_published": "Albizia lebbeck (L.) Benth.",
+        "accepted_botanical": "Albizia lebbeck",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": "Lagos",
+          "localities": [
+            "Alimosho",
+            "Badagry",
+            "Eti-Osa",
+            "Ijebu",
+            "Imota"
+          ]
+        },
+        "source_id": "olanipekun-2022-lagos",
+        "source_locator": {
+          "table": "Supplementary Table S1",
+          "row": 8
+        },
+        "verification_status": "taxonomy_checked"
+      }
+    ]
+  },
+  {
+    "normalized_name": "baushe",
+    "source_spellings": [
+      "Baushe"
+    ],
+    "candidates": [
+      {
+        "botanical_as_published": "Combretum glutinosum",
+        "accepted_botanical": "Combretum glutinosum",
+        "language": "ha",
+        "region": {
+          "country": "Nigeria",
+          "state": "Plateau",
+          "localities": [
+            "Barkin Ladi",
+            "Bassa",
+            "Bokkos",
+            "Jos North",
+            "Jos South",
+            "Kanam",
+            "Mangu",
+            "Pankshin",
+            "Qua'an Pan",
+            "Wase"
+          ]
+        },
+        "source_id": "offiah-2011-plateau",
+        "source_locator": {
+          "table": "Table 1",
+          "row": 12
+        },
+        "verification_status": "taxonomy_checked"
+      },
+      {
+        "botanical_as_published": "Terminalia avicennioides",
+        "accepted_botanical": "Terminalia avicennioides",
+        "language": "ha",
+        "region": {
+          "country": "Nigeria",
+          "state": "Plateau",
+          "localities": [
+            "Barkin Ladi",
+            "Bassa",
+            "Bokkos",
+            "Jos North",
+            "Jos South",
+            "Kanam",
+            "Mangu",
+            "Pankshin",
+            "Qua'an Pan",
+            "Wase"
+          ]
+        },
+        "source_id": "offiah-2011-plateau",
+        "source_locator": {
+          "table": "Table 1",
+          "row": 51
+        },
+        "verification_status": "taxonomy_checked"
+      },
+      {
+        "botanical_as_published": "Terminalia macroptera",
+        "accepted_botanical": "Terminalia macroptera",
+        "language": "ha",
+        "region": {
+          "country": "Nigeria",
+          "state": "Plateau",
+          "localities": [
+            "Barkin Ladi",
+            "Bassa",
+            "Bokkos",
+            "Jos North",
+            "Jos South",
+            "Kanam",
+            "Mangu",
+            "Pankshin",
+            "Qua'an Pan",
+            "Wase"
+          ]
+        },
+        "source_id": "offiah-2011-plateau",
+        "source_locator": {
+          "table": "Table 1",
+          "row": 52
+        },
+        "verification_status": "taxonomy_checked"
+      }
+    ]
+  },
+  {
+    "normalized_name": "egbesi",
+    "source_spellings": [
+      "Egbesi"
+    ],
+    "candidates": [
+      {
+        "botanical_as_published": "Nauclea latifolia Sm. (Synonym: Sarcocephalus latifolius (Sm.) E.A.Bruce)",
+        "accepted_botanical": "Nauclea latifolia",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": "Lagos",
+          "localities": [
+            "Alimosho",
+            "Badagry",
+            "Eti-Osa",
+            "Ijebu",
+            "Imota"
+          ]
+        },
+        "source_id": "olanipekun-2022-lagos",
+        "source_locator": {
+          "table": "Supplementary Table S1",
+          "row": 120
+        },
+        "verification_status": "taxonomy_checked"
+      },
+      {
+        "botanical_as_published": "Nauclea africana Wild.",
+        "accepted_botanical": "Mitragyna inermis",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": null,
+          "localities": [
+            "Ogun State",
+            "Osun State",
+            "Oyo State"
+          ]
+        },
+        "source_id": "sonibare-2008-anti-asthmatic",
+        "source_locator": {
+          "table": "Table 1",
+          "row": 31
+        },
+        "verification_status": "taxonomy_checked"
+      }
+    ]
+  },
+  {
+    "normalized_name": "ekuku gogoro",
+    "source_spellings": [
+      "Ekuku gogoro",
+      "Ekuku Gogoro"
+    ],
+    "candidates": [
+      {
+        "botanical_as_published": "Sesamum indicum L.",
+        "accepted_botanical": "Sesamum indicum",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": "Lagos",
+          "localities": [
+            "Alimosho",
+            "Badagry",
+            "Eti-Osa",
+            "Ijebu",
+            "Imota"
+          ]
+        },
+        "source_id": "olanipekun-2022-lagos",
+        "source_locator": {
+          "table": "Supplementary Table S1",
+          "row": 148
+        },
+        "verification_status": "taxonomy_checked"
+      },
+      {
+        "botanical_as_published": "Sesamum radiatum Schumach. & Thonn.",
+        "accepted_botanical": "Sesamum radiatum",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": "Lagos",
+          "localities": [
+            "Alimosho",
+            "Badagry",
+            "Eti-Osa",
+            "Ijebu",
+            "Imota"
+          ]
+        },
+        "source_id": "olanipekun-2022-lagos",
+        "source_locator": {
+          "table": "Supplementary Table S1",
+          "row": 149
+        },
+        "verification_status": "taxonomy_checked"
+      }
+    ]
+  },
+  {
+    "normalized_name": "emi ile",
+    "source_spellings": [
+      "emi ile",
+      "Emi-ile"
+    ],
+    "candidates": [
+      {
+        "botanical_as_published": "Hoslundia opposita",
+        "accepted_botanical": "Hoslundia opposita",
+        "language": null,
+        "region": {
+          "country": "Nigeria",
+          "state": null,
+          "localities": []
+        },
+        "source_id": "legacy-lookup-v1",
+        "source_locator": null,
+        "verification_status": "legacy_unverified"
+      },
+      {
+        "botanical_as_published": "Euphorbia hirta Linn.",
+        "accepted_botanical": "Euphorbia hirta",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": null,
+          "localities": [
+            "Ogun State",
+            "Osun State",
+            "Oyo State"
+          ]
+        },
+        "source_id": "sonibare-2008-anti-asthmatic",
+        "source_locator": {
+          "table": "Table 1",
+          "row": 18
+        },
+        "verification_status": "taxonomy_checked"
+      }
+    ]
+  },
+  {
+    "normalized_name": "epa ikun",
+    "source_spellings": [
+      "Epa ikun",
+      "Epa-ikun"
+    ],
+    "candidates": [
+      {
+        "botanical_as_published": "Senna obtusifolia (L.) H.S.Irwin & Barneby",
+        "accepted_botanical": "Senna obtusifolia",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": "Lagos",
+          "localities": [
+            "Alimosho",
+            "Badagry",
+            "Eti-Osa",
+            "Ijebu",
+            "Imota"
+          ]
+        },
+        "source_id": "olanipekun-2022-lagos",
+        "source_locator": {
+          "table": "Supplementary Table S1",
+          "row": 144
+        },
+        "verification_status": "taxonomy_checked"
+      },
+      {
+        "botanical_as_published": "Senna tora (L.) Roxb.",
+        "accepted_botanical": "Senna tora",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": "Lagos",
+          "localities": [
+            "Alimosho",
+            "Badagry",
+            "Eti-Osa",
+            "Ijebu",
+            "Imota"
+          ]
+        },
+        "source_id": "olanipekun-2022-lagos",
+        "source_locator": {
+          "table": "Supplementary Table S1",
+          "row": 147
+        },
+        "verification_status": "taxonomy_checked"
+      }
+    ]
+  },
+  {
+    "normalized_name": "ewon agogo",
+    "source_spellings": [
+      "Ewon agogo",
+      "Ewon-agogo"
+    ],
+    "candidates": [
+      {
+        "botanical_as_published": "Lantana camara L.",
+        "accepted_botanical": "Lantana camara",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": "Lagos",
+          "localities": [
+            "Alimosho",
+            "Badagry",
+            "Eti-Osa",
+            "Ijebu",
+            "Imota"
+          ]
+        },
+        "source_id": "olanipekun-2022-lagos",
+        "source_locator": {
+          "table": "Supplementary Table S1",
+          "row": 102
+        },
+        "verification_status": "taxonomy_checked"
+      },
+      {
+        "botanical_as_published": "Mimosa pigra Linn.",
+        "accepted_botanical": "Mimosa pigra",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": null,
+          "localities": [
+            "Ogun State",
+            "Osun State",
+            "Oyo State"
+          ]
+        },
+        "source_id": "sonibare-2008-anti-asthmatic",
+        "source_locator": {
+          "table": "Table 1",
+          "row": 28
+        },
+        "verification_status": "taxonomy_checked"
+      }
+    ]
+  },
+  {
+    "normalized_name": "ewuro",
+    "source_spellings": [
+      "ewuro",
+      "Ewuro"
+    ],
+    "candidates": [
+      {
+        "botanical_as_published": "Vernonia amygdalina",
+        "accepted_botanical": "Vernonia amygdalina",
+        "language": null,
+        "region": {
+          "country": "Nigeria",
+          "state": null,
+          "localities": []
+        },
+        "source_id": "legacy-lookup-v1",
+        "source_locator": null,
+        "verification_status": "legacy_unverified"
+      },
+      {
+        "botanical_as_published": "Vernonia amygdalina Delile",
+        "accepted_botanical": "Gymnanthemum amygdalinum",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": "Lagos",
+          "localities": [
+            "Alimosho",
+            "Badagry",
+            "Eti-Osa",
+            "Ijebu",
+            "Imota"
+          ]
+        },
+        "source_id": "olanipekun-2022-lagos",
+        "source_locator": {
+          "table": "Supplementary Table S1",
+          "row": 179
+        },
+        "verification_status": "taxonomy_checked"
+      }
+    ]
+  },
+  {
+    "normalized_name": "eyin olobe",
+    "source_spellings": [
+      "Eyin olobe"
+    ],
+    "candidates": [
+      {
+        "botanical_as_published": "Phyllanthus amarus Schumach. & Thonn.",
+        "accepted_botanical": "Phyllanthus amarus",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": "Lagos",
+          "localities": [
+            "Alimosho",
+            "Badagry",
+            "Eti-Osa",
+            "Ijebu",
+            "Imota"
+          ]
+        },
+        "source_id": "olanipekun-2022-lagos",
+        "source_locator": {
+          "table": "Supplementary Table S1",
+          "row": 129
+        },
+        "verification_status": "taxonomy_checked"
+      },
+      {
+        "botanical_as_published": "Phyllanthus niruri L.",
+        "accepted_botanical": "Phyllanthus niruri",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": "Lagos",
+          "localities": [
+            "Alimosho",
+            "Badagry",
+            "Eti-Osa",
+            "Ijebu",
+            "Imota"
+          ]
+        },
+        "source_id": "olanipekun-2022-lagos",
+        "source_locator": {
+          "table": "Supplementary Table S1",
+          "row": 130
+        },
+        "verification_status": "taxonomy_checked"
+      }
+    ]
+  },
+  {
+    "normalized_name": "gbegi",
+    "source_spellings": [
+      "gbegi",
+      "Gbegi"
+    ],
+    "candidates": [
+      {
+        "botanical_as_published": "Eleusine indica (L.) Gaertn.",
+        "accepted_botanical": "Eleusine indica",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": "Lagos",
+          "localities": [
+            "Alimosho",
+            "Badagry",
+            "Eti-Osa",
+            "Ijebu",
+            "Imota"
+          ]
+        },
+        "source_id": "olanipekun-2022-lagos",
+        "source_locator": {
+          "table": "Supplementary Table S1",
+          "row": 70
+        },
+        "verification_status": "taxonomy_checked"
+      },
+      {
+        "botanical_as_published": "Sida acuta Burm.f.",
+        "accepted_botanical": "Sida acuta",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": "Lagos",
+          "localities": [
+            "Alimosho",
+            "Badagry",
+            "Eti-Osa",
+            "Ijebu",
+            "Imota"
+          ]
+        },
+        "source_id": "olanipekun-2022-lagos",
+        "source_locator": {
+          "table": "Supplementary Table S1",
+          "row": 150
+        },
+        "verification_status": "taxonomy_checked"
+      }
+    ]
+  },
+  {
+    "normalized_name": "igba",
+    "source_spellings": [
+      "igba",
+      "Igba"
+    ],
+    "candidates": [
+      {
+        "botanical_as_published": "Lagenaria siceraria",
+        "accepted_botanical": "Lagenaria siceraria",
+        "language": null,
+        "region": {
+          "country": "Nigeria",
+          "state": null,
+          "localities": []
+        },
+        "source_id": "legacy-lookup-v1",
+        "source_locator": null,
+        "verification_status": "legacy_unverified"
+      },
+      {
+        "botanical_as_published": "Solanum nigrum L. (Synonym: Solanum americanum Mill.)",
+        "accepted_botanical": "Solanum nigrum",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": "Lagos",
+          "localities": [
+            "Alimosho",
+            "Badagry",
+            "Eti-Osa",
+            "Ijebu",
+            "Imota"
+          ]
+        },
+        "source_id": "olanipekun-2022-lagos",
+        "source_locator": {
+          "table": "Supplementary Table S1",
+          "row": 154
+        },
+        "verification_status": "taxonomy_checked"
+      }
+    ]
+  },
+  {
+    "normalized_name": "ipa",
+    "source_spellings": [
+      "Ipa"
+    ],
+    "candidates": [
+      {
+        "botanical_as_published": "Alchornea cordifolia (Schumach. & Thonn.) Müll.Arg.",
+        "accepted_botanical": "Alchornea cordifolia",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": "Lagos",
+          "localities": [
+            "Alimosho",
+            "Badagry",
+            "Eti-Osa",
+            "Ijebu",
+            "Imota"
+          ]
+        },
+        "source_id": "olanipekun-2022-lagos",
+        "source_locator": {
+          "table": "Supplementary Table S1",
+          "row": 10
+        },
+        "verification_status": "taxonomy_checked"
+      },
+      {
+        "botanical_as_published": "Mallotus oppositifolius (Geiseler) Müll.Arg.",
+        "accepted_botanical": "Mallotus oppositifolius",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": "Lagos",
+          "localities": [
+            "Alimosho",
+            "Badagry",
+            "Eti-Osa",
+            "Ijebu",
+            "Imota"
+          ]
+        },
+        "source_id": "olanipekun-2022-lagos",
+        "source_locator": {
+          "table": "Supplementary Table S1",
+          "row": 108
+        },
+        "verification_status": "taxonomy_checked"
+      }
+    ]
+  },
+  {
+    "normalized_name": "isapa",
+    "source_spellings": [
+      "isapa",
+      "Isapa"
+    ],
+    "candidates": [
+      {
+        "botanical_as_published": "Hibiscus sabdariffa",
+        "accepted_botanical": "Hibiscus sabdariffa",
+        "language": null,
+        "region": {
+          "country": "Nigeria",
+          "state": null,
+          "localities": []
+        },
+        "source_id": "legacy-lookup-v1",
+        "source_locator": null,
+        "verification_status": "legacy_unverified"
+      },
+      {
+        "botanical_as_published": "Hibiscus rosa-sinensis L.",
+        "accepted_botanical": "Hibiscus rosa-sinensis",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": "Lagos",
+          "localities": [
+            "Alimosho",
+            "Badagry",
+            "Eti-Osa",
+            "Ijebu",
+            "Imota"
+          ]
+        },
+        "source_id": "olanipekun-2022-lagos",
+        "source_locator": {
+          "table": "Supplementary Table S1",
+          "row": 90
+        },
+        "verification_status": "taxonomy_checked"
+      }
+    ]
+  },
+  {
+    "normalized_name": "isedun",
+    "source_spellings": [
+      "Isedun"
+    ],
+    "candidates": [
+      {
+        "botanical_as_published": "Clerodendrum paniculatum L.",
+        "accepted_botanical": "Clerodendrum paniculatum",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": "Lagos",
+          "localities": [
+            "Alimosho",
+            "Badagry",
+            "Eti-Osa",
+            "Ijebu",
+            "Imota"
+          ]
+        },
+        "source_id": "olanipekun-2022-lagos",
+        "source_locator": {
+          "table": "Supplementary Table S1",
+          "row": 48
+        },
+        "verification_status": "taxonomy_checked"
+      },
+      {
+        "botanical_as_published": "Clerodendrum umbellatum Poir.",
+        "accepted_botanical": "Clerodendrum umbellatum",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": "Lagos",
+          "localities": [
+            "Alimosho",
+            "Badagry",
+            "Eti-Osa",
+            "Ijebu",
+            "Imota"
+          ]
+        },
+        "source_id": "olanipekun-2022-lagos",
+        "source_locator": {
+          "table": "Supplementary Table S1",
+          "row": 49
+        },
+        "verification_status": "taxonomy_checked"
+      }
+    ]
+  },
+  {
+    "normalized_name": "iyeye",
+    "source_spellings": [
+      "iyeye",
+      "Iyeye"
+    ],
+    "candidates": [
+      {
+        "botanical_as_published": "Spondias mombin",
+        "accepted_botanical": "Spondias mombin",
+        "language": null,
+        "region": {
+          "country": "Nigeria",
+          "state": null,
+          "localities": []
+        },
+        "source_id": "legacy-lookup-v1",
+        "source_locator": null,
+        "verification_status": "legacy_unverified"
+      },
+      {
+        "botanical_as_published": "Spondias mombin L.",
+        "accepted_botanical": null,
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": "Lagos",
+          "localities": [
+            "Alimosho",
+            "Badagry",
+            "Eti-Osa",
+            "Ijebu",
+            "Imota"
+          ]
+        },
+        "source_id": "olanipekun-2022-lagos",
+        "source_locator": {
+          "table": "Supplementary Table S1",
+          "row": 160
+        },
+        "verification_status": "taxonomy_unresolved"
+      }
+    ]
+  },
+  {
+    "normalized_name": "kaju",
+    "source_spellings": [
+      "Kaju"
+    ],
+    "candidates": [
+      {
+        "botanical_as_published": "Anacardium occidentale L.",
+        "accepted_botanical": "Anacardium occidentale",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": "Lagos",
+          "localities": [
+            "Alimosho",
+            "Badagry",
+            "Eti-Osa",
+            "Ijebu",
+            "Imota"
+          ]
+        },
+        "source_id": "olanipekun-2022-lagos",
+        "source_locator": {
+          "table": "Supplementary Table S1",
+          "row": 15
+        },
+        "verification_status": "taxonomy_checked"
+      },
+      {
+        "botanical_as_published": "Anacardium occidentalis Linn.",
+        "accepted_botanical": null,
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": null,
+          "localities": [
+            "Ogun State",
+            "Osun State",
+            "Oyo State"
+          ]
+        },
+        "source_id": "sonibare-2008-anti-asthmatic",
+        "source_locator": {
+          "table": "Table 1",
+          "row": 6
+        },
+        "verification_status": "taxonomy_unresolved"
+      }
+    ]
+  },
+  {
+    "normalized_name": "kalgo",
+    "source_spellings": [
+      "kalgo",
+      "Kalgo"
+    ],
+    "candidates": [
+      {
+        "botanical_as_published": "Piliostigma reticulatum",
+        "accepted_botanical": "Piliostigma reticulatum",
+        "language": "ha",
+        "region": {
+          "country": "Nigeria",
+          "state": "Plateau",
+          "localities": [
+            "Barkin Ladi",
+            "Bassa",
+            "Bokkos",
+            "Jos North",
+            "Jos South",
+            "Kanam",
+            "Mangu",
+            "Pankshin",
+            "Qua'an Pan",
+            "Wase"
+          ]
+        },
+        "source_id": "offiah-2011-plateau",
+        "source_locator": {
+          "table": "Table 1",
+          "row": 39
+        },
+        "verification_status": "taxonomy_checked"
+      },
+      {
+        "botanical_as_published": "Piliostigma thonningii",
+        "accepted_botanical": "Piliostigma thonningii",
+        "language": "ha",
+        "region": {
+          "country": "Nigeria",
+          "state": "Plateau",
+          "localities": [
+            "Barkin Ladi",
+            "Bassa",
+            "Bokkos",
+            "Jos North",
+            "Jos South",
+            "Kanam",
+            "Mangu",
+            "Pankshin",
+            "Qua'an Pan",
+            "Wase"
+          ]
+        },
+        "source_id": "offiah-2011-plateau",
+        "source_locator": {
+          "table": "Table 1",
+          "row": 40
+        },
+        "verification_status": "taxonomy_checked"
+      }
+    ]
+  },
+  {
+    "normalized_name": "kauchi",
+    "source_spellings": [
+      "Kauchi"
+    ],
+    "candidates": [
+      {
+        "botanical_as_published": "Tapinanthus dodoniefolius",
+        "accepted_botanical": null,
+        "language": "ha",
+        "region": {
+          "country": "Nigeria",
+          "state": "Plateau",
+          "localities": [
+            "Barkin Ladi",
+            "Bassa",
+            "Bokkos",
+            "Jos North",
+            "Jos South",
+            "Kanam",
+            "Mangu",
+            "Pankshin",
+            "Qua'an Pan",
+            "Wase"
+          ]
+        },
+        "source_id": "offiah-2011-plateau",
+        "source_locator": {
+          "table": "Table 1",
+          "row": 49
+        },
+        "verification_status": "taxonomy_unresolved"
+      },
+      {
+        "botanical_as_published": "Tapinanthus globiferus",
+        "accepted_botanical": "Tapinanthus globiferus",
+        "language": "ha",
+        "region": {
+          "country": "Nigeria",
+          "state": "Plateau",
+          "localities": [
+            "Barkin Ladi",
+            "Bassa",
+            "Bokkos",
+            "Jos North",
+            "Jos South",
+            "Kanam",
+            "Mangu",
+            "Pankshin",
+            "Qua'an Pan",
+            "Wase"
+          ]
+        },
+        "source_id": "offiah-2011-plateau",
+        "source_locator": {
+          "table": "Table 1",
+          "row": 50
+        },
+        "verification_status": "taxonomy_checked"
+      }
+    ]
+  },
+  {
+    "normalized_name": "odan",
+    "source_spellings": [
+      "odan",
+      "Odan"
+    ],
+    "candidates": [
+      {
+        "botanical_as_published": "Ficus thonningii",
+        "accepted_botanical": "Ficus thonningii",
+        "language": null,
+        "region": {
+          "country": "Nigeria",
+          "state": null,
+          "localities": []
+        },
+        "source_id": "legacy-lookup-v1",
+        "source_locator": null,
+        "verification_status": "legacy_unverified"
+      },
+      {
+        "botanical_as_published": "Ficus benjamina L. (Synonym:",
+        "accepted_botanical": "Ficus benjamina",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": "Lagos",
+          "localities": [
+            "Alimosho",
+            "Badagry",
+            "Eti-Osa",
+            "Ijebu",
+            "Imota"
+          ]
+        },
+        "source_id": "olanipekun-2022-lagos",
+        "source_locator": {
+          "table": "Supplementary Table S1",
+          "row": 79
+        },
+        "verification_status": "taxonomy_checked"
+      },
+      {
+        "botanical_as_published": "Ficus polita Vahl",
+        "accepted_botanical": "Ficus polita",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": "Lagos",
+          "localities": [
+            "Alimosho",
+            "Badagry",
+            "Eti-Osa",
+            "Ijebu",
+            "Imota"
+          ]
+        },
+        "source_id": "olanipekun-2022-lagos",
+        "source_locator": {
+          "table": "Supplementary Table S1",
+          "row": 82
+        },
+        "verification_status": "taxonomy_checked"
+      }
+    ]
+  },
+  {
+    "normalized_name": "oganwo",
+    "source_spellings": [
+      "oganwo",
+      "Oganwo"
+    ],
+    "candidates": [
+      {
+        "botanical_as_published": "Khaya senegalensis",
+        "accepted_botanical": "Khaya senegalensis",
+        "language": null,
+        "region": {
+          "country": "Nigeria",
+          "state": null,
+          "localities": []
+        },
+        "source_id": "legacy-lookup-v1",
+        "source_locator": null,
+        "verification_status": "legacy_unverified"
+      },
+      {
+        "botanical_as_published": "Khaya ivorensis A. Juss.",
+        "accepted_botanical": "Khaya ivorensis",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": null,
+          "localities": [
+            "Ogun State",
+            "Osun State",
+            "Oyo State"
+          ]
+        },
+        "source_id": "sonibare-2008-anti-asthmatic",
+        "source_locator": {
+          "table": "Table 1",
+          "row": 25
+        },
+        "verification_status": "taxonomy_checked"
+      }
+    ]
+  },
+  {
+    "normalized_name": "okeriri",
+    "source_spellings": [
+      "Okeriri"
+    ],
+    "candidates": [
+      {
+        "botanical_as_published": "Urena lobata L. var. glauca (Blume) Borss. Waalk.",
+        "accepted_botanical": null,
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": "Lagos",
+          "localities": [
+            "Alimosho",
+            "Badagry",
+            "Eti-Osa",
+            "Ijebu",
+            "Imota"
+          ]
+        },
+        "source_id": "olanipekun-2022-lagos",
+        "source_locator": {
+          "table": "Supplementary Table S1",
+          "row": 177
+        },
+        "verification_status": "taxonomy_unresolved"
+      },
+      {
+        "botanical_as_published": "Urena lobata L.",
+        "accepted_botanical": "Urena lobata",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": "Lagos",
+          "localities": [
+            "Alimosho",
+            "Badagry",
+            "Eti-Osa",
+            "Ijebu",
+            "Imota"
+          ]
+        },
+        "source_id": "olanipekun-2022-lagos",
+        "source_locator": {
+          "table": "Supplementary Table S1",
+          "row": 178
+        },
+        "verification_status": "taxonomy_checked"
+      }
+    ]
+  },
+  {
+    "normalized_name": "osekutu",
+    "source_spellings": [
+      "Osekutu"
+    ],
+    "candidates": [
+      {
+        "botanical_as_published": "Sida acuta Burm.f.",
+        "accepted_botanical": "Sida acuta",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": "Lagos",
+          "localities": [
+            "Alimosho",
+            "Badagry",
+            "Eti-Osa",
+            "Ijebu",
+            "Imota"
+          ]
+        },
+        "source_id": "olanipekun-2022-lagos",
+        "source_locator": {
+          "table": "Supplementary Table S1",
+          "row": 150
+        },
+        "verification_status": "taxonomy_checked"
+      },
+      {
+        "botanical_as_published": "Sida linifolia Juss. ex Cav. (Synonym:",
+        "accepted_botanical": "Sida linifolia",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": "Lagos",
+          "localities": [
+            "Alimosho",
+            "Badagry",
+            "Eti-Osa",
+            "Ijebu",
+            "Imota"
+          ]
+        },
+        "source_id": "olanipekun-2022-lagos",
+        "source_locator": {
+          "table": "Supplementary Table S1",
+          "row": 152
+        },
+        "verification_status": "taxonomy_checked"
+      }
+    ]
+  },
+  {
+    "normalized_name": "pandoro",
+    "source_spellings": [
+      "Pandoro"
+    ],
+    "candidates": [
+      {
+        "botanical_as_published": "Kigelia africana (Lam.) Benth.",
+        "accepted_botanical": "Kigelia africana",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": "Lagos",
+          "localities": [
+            "Alimosho",
+            "Badagry",
+            "Eti-Osa",
+            "Ijebu",
+            "Imota"
+          ]
+        },
+        "source_id": "olanipekun-2022-lagos",
+        "source_locator": {
+          "table": "Supplementary Table S1",
+          "row": 101
+        },
+        "verification_status": "taxonomy_checked"
+      },
+      {
+        "botanical_as_published": "Kigelia Africana (Lam.) Benth",
+        "accepted_botanical": null,
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": null,
+          "localities": [
+            "Ogun State",
+            "Osun State",
+            "Oyo State"
+          ]
+        },
+        "source_id": "sonibare-2008-anti-asthmatic",
+        "source_locator": {
+          "table": "Table 1",
+          "row": 26
+        },
+        "verification_status": "taxonomy_unresolved"
+      }
+    ]
+  },
+  {
+    "normalized_name": "sapo",
+    "source_spellings": [
+      "Sapo"
+    ],
+    "candidates": [
+      {
+        "botanical_as_published": "Anthocleista djalonensis A.Chev.",
+        "accepted_botanical": "Anthocleista djalonensis",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": "Lagos",
+          "localities": [
+            "Alimosho",
+            "Badagry",
+            "Eti-Osa",
+            "Ijebu",
+            "Imota"
+          ]
+        },
+        "source_id": "olanipekun-2022-lagos",
+        "source_locator": {
+          "table": "Supplementary Table S1",
+          "row": 18
+        },
+        "verification_status": "taxonomy_checked"
+      },
+      {
+        "botanical_as_published": "Anthocleista vogelii Planch.",
+        "accepted_botanical": "Anthocleista vogelii",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": "Lagos",
+          "localities": [
+            "Alimosho",
+            "Badagry",
+            "Eti-Osa",
+            "Ijebu",
+            "Imota"
+          ]
+        },
+        "source_id": "olanipekun-2022-lagos",
+        "source_locator": {
+          "table": "Supplementary Table S1",
+          "row": 19
+        },
+        "verification_status": "taxonomy_checked"
+      },
+      {
+        "botanical_as_published": "Anthocleista djalonensis A.Chev.",
+        "accepted_botanical": "Anthocleista djalonensis",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": null,
+          "localities": [
+            "Ogun State",
+            "Osun State",
+            "Oyo State"
+          ]
+        },
+        "source_id": "sonibare-2008-anti-asthmatic",
+        "source_locator": {
+          "table": "Table 1",
+          "row": 8
+        },
+        "verification_status": "taxonomy_checked"
+      }
+    ]
+  },
+  {
+    "normalized_name": "tete",
+    "source_spellings": [
+      "tete",
+      "Tete"
+    ],
+    "candidates": [
+      {
+        "botanical_as_published": "Amaranthus hybridus",
+        "accepted_botanical": "Amaranthus hybridus",
+        "language": null,
+        "region": {
+          "country": "Nigeria",
+          "state": null,
+          "localities": []
+        },
+        "source_id": "legacy-lookup-v1",
+        "source_locator": null,
+        "verification_status": "legacy_unverified"
+      },
+      {
+        "botanical_as_published": "Amaranthus viridis L.",
+        "accepted_botanical": "Amaranthus viridis",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": "Lagos",
+          "localities": [
+            "Alimosho",
+            "Badagry",
+            "Eti-Osa",
+            "Ijebu",
+            "Imota"
+          ]
+        },
+        "source_id": "olanipekun-2022-lagos",
+        "source_locator": {
+          "table": "Supplementary Table S1",
+          "row": 14
+        },
+        "verification_status": "taxonomy_checked"
+      }
+    ]
+  }
+]

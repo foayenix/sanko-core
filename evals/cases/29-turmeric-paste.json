@@ -1,0 +1,35 @@
+{
+  "id": "29-turmeric-paste",
+  "description": "Turmeric paste is topical and contains no oral dosage.",
+  "practitioner": {
+    "display_name": "Efe",
+    "preferred_language": "en"
+  },
+  "turns": [
+    "For a minor skin mark, mix turmeric powder with water into a paste and apply a thin layer. No oral use and no duration stated. Save it.",
+    "Yes, that is accurate. Save exactly that and do not add anything."
+  ],
+  "expect": {
+    "tools": [
+      "save_formulation"
+    ],
+    "plants_include": [
+      "turmeric"
+    ],
+    "botanicals": {
+      "turmeric": "Curcuma longa"
+    },
+    "fields": {
+      "preparation.method": "paste",
+      "dosage.duration_days": null
+    }
+  },
+  "editorial_review": {
+    "status": "complete",
+    "reviewer_role": "model_editorial",
+    "reviewer_ref": "codex-2026-08-13",
+    "reviewed_at": "2026-08-13T00:00:00Z",
+    "rubric_version": "editorial-v1",
+    "practitioner_review": "pending"
+  }
+}

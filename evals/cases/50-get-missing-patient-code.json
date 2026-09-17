@@ -1,0 +1,29 @@
+{
+  "id": "50-get-missing-patient-code",
+  "description": "Unknown patient code routes to get_patient and must not invent history.",
+  "practitioner": {
+    "display_name": "Efe",
+    "preferred_language": "en"
+  },
+  "input": "Open patient PT-99999 and show me their treatment history.",
+  "expect": {
+    "tools": [
+      "get_patient"
+    ],
+    "tools_may_refuse": [
+      "get_patient"
+    ],
+    "forbidden_tools": [
+      "create_patient",
+      "log_treatment"
+    ]
+  },
+  "editorial_review": {
+    "status": "complete",
+    "reviewer_role": "model_editorial",
+    "reviewer_ref": "codex-2026-08-13",
+    "reviewed_at": "2026-08-13T00:00:00Z",
+    "rubric_version": "editorial-v1",
+    "practitioner_review": "pending"
+  }
+}

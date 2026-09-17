@@ -1,0 +1,35 @@
+{
+  "id": "16-garbled-low-confidence-save",
+  "description": "Explicitly accepted partial record from a low-confidence voice transcript.",
+  "practitioner": {
+    "display_name": "Aderonke",
+    "preferred_language": "yo"
+  },
+  "turns": [
+    "[voice note, transcription confidence 28%] ewe... oru... bark... boil... maybe cup at night. Save only those uncertain words and mark low confidence.",
+    "Yes, that is accurate. Save exactly that and do not add anything."
+  ],
+  "expect": {
+    "tools": [
+      "save_formulation"
+    ],
+    "plants_include": [
+      "oru"
+    ],
+    "botanicals": {
+      "oru": null
+    },
+    "confidence_between": [
+      0,
+      0.6
+    ]
+  },
+  "editorial_review": {
+    "status": "complete",
+    "reviewer_role": "model_editorial",
+    "reviewer_ref": "codex-2026-08-13",
+    "reviewed_at": "2026-08-13T00:00:00Z",
+    "rubric_version": "editorial-v1",
+    "practitioner_review": "pending"
+  }
+}

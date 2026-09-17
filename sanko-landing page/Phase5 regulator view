@@ -1,0 +1,115 @@
+# SANKO VISION DEMO — PHASE 5: Regulator View
+
+## Context
+Phases 1-4 built the project, data, Home, Practitioner, and Researcher views. Now build the Regulator view.
+
+## What to build
+Create src/views/RegulatorView.jsx and import it into App.jsx.
+
+## Layout
+Max-width 1100px, centered, padding 24px.
+
+## State
+```jsx
+const [selectedCity, setSelectedCity] = useState(null);
+const [expandedSignal, setExpandedSignal] = useState(null);
+const [expandedFormulation, setExpandedFormulation] = useState(null);
+const [hoveredBar, setHoveredBar] = useState(null);
+```
+
+## Components
+
+### Header
+- Gold badge: "🏛️ Sanko Governance Dashboard"
+- Title (serif, 24px): "Traditional medicine — population-level intelligence"
+- Subtitle: "Real-time data on traditional medicine usage, outcomes, and safety signals across Nigeria."
+
+### Top-level stats (5 column grid)
+- 12,400 active practitioners (green)
+- 54,200 formulations documented
+- 186,000 patient outcomes tracked
+- 82% national avg effectiveness (green)
+- 3 active safety signals (terra/red)
+
+### Two-column layout below stats
+
+**Left column: Interactive map**
+Card titled "Usage density by state"
+
+Create an abstract dot map using CITIES from data.js. Position dots using the x,y percentages from the data as left/top percentages on a 100% × 200px container with a dark green-tinted background.
+
+Each dot:
+- 10px circle, forest green with box-shadow glow
+- Pulse animation (subtle)
+- City name label above (9px, muted)
+- **Clickable**: onClick → setSelectedCity(city)
+- If this city is selectedCity, show it larger (14px) and brighter
+
+**When a city is selected**, show a detail panel below the map (or as a slide-out):
+- City name (bold, 16px)
+- Stats: "{practitioners} practitioners · {formulations} formulations"
+- Top conditions as tag pills
+- "Close ×" button
+
+**Right column: Conditions bar chart**
+Card titled "Top conditions treated"
+
+Vertical bar chart using CSS (flexbox with items aligned to bottom):
+```
+Malaria/Fever: 32% (59,520 cases)
+Diabetes: 18% (33,480)
+Cough/Respiratory: 14% (26,040)
+Hypertension: 11% (20,460)
+Digestive: 8% (14,880)
+Pain: 6% (11,160)
+Other: 11% (20,460)
+```
+
+Each bar:
+- Height proportional to percentage (32% = full height)
+- Forest green, decreasing opacity for lower bars
+- Label below (9px)
+- Percentage above (10px)
+- **Hover**: show a tooltip with exact case count: e.g. "Malaria/Fever: 32% · 59,520 tracked cases"
+
+### Pharmacovigilance signals
+Card with header: "⚠️ Active pharmacovigilance signals" (terra coloured) + subtitle "Auto-detected from outcome data"
+
+Use SAFETY_SIGNALS from data.js. Show each as a row/card:
+- Title (bold)
+- Region | Reports count | Severity badge (Moderate=gold, Mild=grey) | Status badge (Under review=blue, Investigating=blue, Monitoring=grey)
+
+**Clickable** → toggles expandedSignal:
+When expanded, show:
+- Full detail text
+- "Ingredients involved:" + ingredient names as tags
+- "Timeline:" + timeline text
+- "Recommended action:" + action text
+- Border changes to terra colour when expanded
+
+Small note at bottom: "Signals generated when 3+ independent practitioners report similar adverse events for formulations sharing common ingredients. No individual practitioner or patient identified."
+
+### Formulations of regulatory interest
+Card with header + subtitle "Crossed statistical thresholds for evidence-based registration"
+
+Table with columns: ID | Condition | Outcomes | Effectiveness | Side effects | Readiness
+
+Show FORMULATIONS where effectiveness >= 80 (should be f1, f2, f4, f5). Use anonId for the ID column.
+
+**Clickable rows** → toggles expandedFormulation:
+When expanded, show:
+- Full ingredient list (botanical names)
+- Outcome breakdown bar
+- "Geographic distribution: primarily Southwest Nigeria" (for all in this demo)
+- Note: "This formulation meets the evidence threshold for expanded registration review under the proposed traditional medicine regulatory pathway."
+
+### Flywheel footer
+Same subtle bar at bottom.
+
+## Integration
+Import RegulatorView into App.jsx.
+
+## Commit message
+"Phase 5: Regulator view with interactive map, charts, pharmacovigilance, regulatory interest"
+
+Do NOT modify other views.

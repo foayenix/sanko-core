@@ -1,0 +1,62 @@
+{
+  "name": "sanko-core",
+  "version": "1.0.0",
+  "description": "WhatsApp bot for African traditional medicine practitioners to document herbal formulations",
+  "main": "src/index.js",
+  "engines": {
+    "node": ">=20.19.0"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "whatsapp:test": "node src/baileys.js",
+    "preview:admin": "node scripts/preview-admin.js",
+    "preview:dashboard": "node scripts/preview-dashboard.js",
+    "test": "node --test tests/*.test.js",
+    "doctor": "node scripts/doctor.js",
+    "migrate": "node scripts/migrate.js",
+    "migrate:status": "node scripts/migrate.js --status",
+    "backup": "node scripts/backup.js backup",
+    "backup:verify": "node scripts/backup.js verify",
+    "backup:status": "node scripts/backup.js status",
+    "check-secrets": "node scripts/check-secrets.js",
+    "admin:account": "node scripts/admin-account.js",
+    "governance": "node scripts/knowledge-use.js",
+    "governance:terms": "node scripts/knowledge-use.js terms",
+    "eval": "node evals/run.js",
+    "eval:reviewed": "node evals/run.js --reviewed-only --require-count 100",
+    "export-training": "node scripts/export-training-data.js",
+    "export-vision": "node scripts/export-vision-data.js",
+    "vision:compare": "node scripts/compare-vision.js",
+    "eval:draft": "node scripts/draft-eval-cases.js draft",
+    "eval:drafts": "node scripts/draft-eval-cases.js status",
+    "promote-model": "node scripts/promote-model.js",
+    "plants:build": "node scripts/build-plant-data.js",
+    "plants:pull": "node scripts/plant-review.js pull",
+    "plants:review": "node scripts/plant-review.js status",
+    "plants:promote": "node scripts/plant-review.js promote",
+    "plants:taxonomy": "node scripts/fetch-gbif-taxonomy.js",
+    "plants:discover": "node scripts/discover-sources.js",
+    "plants:wikidata": "node scripts/import-wikidata-vernaculars.js",
+    "whisper:server": "whisper-server --host 127.0.0.1 --port 8080 -m models/ggml-large-v3.bin --convert --inference-path /v1/audio/transcriptions",
+    "plants:resolver": "node \"sanko-landing page/scripts/build-resolver.mjs\"",
+    "privacy:build": "node \"sanko-landing page/scripts/build-privacy.mjs\"",
+    "pretest": "npm run plants:build",
+    "check-repository": "node scripts/check-repository.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.52.0",
+    "@hapi/boom": "^9.1.4",
+    "@supabase/supabase-js": "^2.49.8",
+    "@whiskeysockets/baileys": "^7.0.0-rc14",
+    "axios": "^1.9.0",
+    "dotenv": "^16.5.0",
+    "express": "^4.21.2",
+    "form-data": "^4.0.1",
+    "openai": "^4.100.0",
+    "qrcode-terminal": "^0.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}

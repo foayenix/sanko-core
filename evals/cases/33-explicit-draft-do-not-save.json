@@ -1,0 +1,23 @@
+{
+  "id": "33-explicit-draft-do-not-save",
+  "description": "A practitioner rehearsing a recipe explicitly forbids saving it.",
+  "practitioner": {
+    "display_name": "Efe",
+    "preferred_language": "en"
+  },
+  "input": "I am only thinking aloud: maybe neem and ginger for fever. Do not save anything yet.",
+  "expect": {
+    "tools": [],
+    "forbidden_tools": [
+      "save_formulation"
+    ]
+  },
+  "editorial_review": {
+    "status": "complete",
+    "reviewer_role": "model_editorial",
+    "reviewer_ref": "codex-2026-08-13",
+    "reviewed_at": "2026-08-13T00:00:00Z",
+    "rubric_version": "editorial-v1",
+    "practitioner_review": "pending"
+  }
+}

@@ -1,0 +1,818 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<meta name="description" content="Search and AI-answer strategy for Sanko: entity disambiguation, the verified plant-name dataset, and institutional content.">
+<style>
+  /* Skeleton the Artifact host normally supplies; kept here so the file stands alone. */
+  html { color-scheme: light dark; }
+  body { margin: 0; }
+  img { max-width: 100%; }
+  [hidden] { display: none !important; }
+</style>
+<title>Sanko Visibility Plan</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;800;900&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+  /* Tokens follow BRAND_IDENTITY.md §4. Two-Indigo Rule and Signal Rarity Rule observed:
+     chartreuse marks live quantities and actions only; copper marks risk and intervention. */
+  :root {
+    --brand-indigo:  #17134F;
+    --field-indigo:  #080840;
+    --deep-indigo:   #030326;
+    --mineral:       #F5F2E8;
+    --chartreuse:    #C8F35B;
+    --copper:        #D76545;
+    --copper-ink:    #9F3E29;
+    --ink:           #090A23;
+    --indigo-line:   #34346B;
+    --mineral-muted: #C9C6D5;
+    --ink-muted:     #565369;
+
+    --ground:      var(--mineral);
+    --surface:     #EFEBDE;
+    --surface-2:   #E7E2D2;
+    --text:        var(--ink);
+    --text-muted:  var(--ink-muted);
+    --heading:     var(--brand-indigo);
+    --rule:        #CFC9B8;
+    --rule-strong: #A9A292;
+    --accent:      var(--copper-ink);
+    --live:        #4A7A0F;
+    --live-chip-bg:#DCEFB0;
+    --live-chip-tx: #33560A;
+    --risk:        var(--copper-ink);
+    --risk-bg:     #F3DED6;
+    --band:        var(--brand-indigo);
+    --band-text:   var(--mineral);
+    --band-muted:  var(--mineral-muted);
+    --band-rule:   var(--indigo-line);
+    --focus:       var(--copper-ink);
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --ground:      var(--field-indigo);
+      --surface:     #0E0E4A;
+      --surface-2:   #141456;
+      --text:        var(--mineral);
+      --text-muted:  var(--mineral-muted);
+      --heading:     var(--mineral);
+      --rule:        var(--indigo-line);
+      --rule-strong: #4A4A85;
+      --accent:      var(--chartreuse);
+      --live:        var(--chartreuse);
+      --live-chip-bg:#1E3A0B;
+      --live-chip-tx: var(--chartreuse);
+      --risk:        var(--copper);
+      --risk-bg:     #3A1B12;
+      --band:        var(--deep-indigo);
+      --band-text:   var(--mineral);
+      --band-muted:  var(--mineral-muted);
+      --band-rule:   var(--indigo-line);
+      --focus:       var(--chartreuse);
+    }
+  }
+
+  :root[data-theme="dark"] {
+    --ground:      var(--field-indigo);
+    --surface:     #0E0E4A;
+    --surface-2:   #141456;
+    --text:        var(--mineral);
+    --text-muted:  var(--mineral-muted);
+    --heading:     var(--mineral);
+    --rule:        var(--indigo-line);
+    --rule-strong: #4A4A85;
+    --accent:      var(--chartreuse);
+    --live:        var(--chartreuse);
+    --live-chip-bg:#1E3A0B;
+    --live-chip-tx: var(--chartreuse);
+    --risk:        var(--copper);
+    --risk-bg:     #3A1B12;
+    --band:        var(--deep-indigo);
+    --band-text:   var(--mineral);
+    --band-muted:  var(--mineral-muted);
+    --band-rule:   var(--indigo-line);
+    --focus:       var(--chartreuse);
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--ground);
+    color: var(--text);
+    font-family: "Archivo", system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-size: 16px;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .wrap { width: min(1080px, calc(100% - 44px)); margin-inline: auto; }
+
+  a { color: inherit; text-underline-offset: .22em; text-decoration-thickness: 1px; }
+  :focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; }
+
+  .mono {
+    font-family: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+  }
+
+  .eyebrow {
+    font-family: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+  }
+
+  /* ---------- masthead ---------- */
+  .band {
+    background: var(--band);
+    color: var(--band-text);
+    padding: 56px 0 60px;
+  }
+  .band .eyebrow { color: var(--band-muted); }
+  .lockup {
+    display: flex; align-items: center; gap: 12px;
+    padding-bottom: 30px; margin-bottom: 34px;
+    border-bottom: 1px solid var(--band-rule);
+  }
+  .mark { width: 26px; height: 26px; flex: none; color: var(--band-text); }
+  .wordmark {
+    font-weight: 900; font-size: 19px;
+    letter-spacing: .1em; text-transform: uppercase;
+  }
+  h1 {
+    margin: 0;
+    max-width: 19ch;
+    font-size: clamp(40px, 6.2vw, 70px);
+    font-weight: 900;
+    line-height: .98;
+    letter-spacing: -.035em;
+    text-wrap: balance;
+  }
+  .standfirst {
+    max-width: 62ch;
+    margin: 26px 0 0;
+    font-size: clamp(16px, 1.7vw, 19px);
+    color: var(--band-muted);
+  }
+  .meta-row {
+    display: flex; flex-wrap: wrap; gap: 10px 30px;
+    margin-top: 34px; padding-top: 22px;
+    border-top: 1px solid var(--band-rule);
+  }
+
+  /* ---------- sections ---------- */
+  section { padding: 62px 0 4px; }
+  .sec-head {
+    display: grid; grid-template-columns: 74px 1fr; gap: 22px;
+    align-items: baseline;
+    padding-bottom: 16px; margin-bottom: 30px;
+    border-bottom: 2px solid var(--rule-strong);
+  }
+  .sec-num {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 12px; font-weight: 600; letter-spacing: .1em;
+    color: var(--accent);
+  }
+  h2 {
+    margin: 0; font-size: clamp(26px, 3.3vw, 37px);
+    font-weight: 800; line-height: 1.08; letter-spacing: -.025em;
+    color: var(--heading); text-wrap: balance;
+  }
+  .sec-body { display: grid; grid-template-columns: 74px 1fr; gap: 22px; }
+  .sec-body > .rail { }
+  .flow > * + * { margin-top: 18px; }
+  .flow p { max-width: 68ch; margin: 0; }
+  h3 {
+    margin: 38px 0 0; font-size: 19px; font-weight: 800;
+    letter-spacing: -.01em; color: var(--heading);
+  }
+  h4 {
+    margin: 26px 0 0; font-size: 15px; font-weight: 700;
+    color: var(--heading);
+  }
+  strong { font-weight: 700; }
+  em.term { font-style: normal; font-weight: 600; color: var(--accent); }
+
+  /* ---------- layer stack ---------- */
+  .layers { display: grid; gap: 2px; margin: 0; }
+  .layer {
+    display: grid; grid-template-columns: 116px 1fr; gap: 24px;
+    padding: 22px 24px; background: var(--surface);
+    align-items: start;
+  }
+  .layer-id {
+    font-family: "IBM Plex Mono", monospace; font-size: 11px;
+    letter-spacing: .11em; text-transform: uppercase; color: var(--text-muted);
+  }
+  .layer-id b { display: block; font-size: 25px; letter-spacing: -.02em; color: var(--accent); font-weight: 800; }
+  .layer h3 { margin: 0 0 6px; font-size: 17px; }
+  .layer p { margin: 0; font-size: 15px; color: var(--text-muted); max-width: 62ch; }
+  .layer-dep {
+    margin-top: 10px !important; font-family: "IBM Plex Mono", monospace;
+    font-size: 11px; letter-spacing: .06em; text-transform: uppercase;
+  }
+
+  /* ---------- tables ---------- */
+  .tbl-scroll { overflow-x: auto; margin-top: 20px; }
+  table { width: 100%; border-collapse: collapse; font-size: 14.5px; min-width: 620px; }
+  caption {
+    text-align: left; padding-bottom: 12px;
+    font-family: "IBM Plex Mono", monospace; font-size: 11px;
+    letter-spacing: .12em; text-transform: uppercase; color: var(--text-muted);
+  }
+  th, td { padding: 12px 14px 12px 0; text-align: left; vertical-align: top; border-bottom: 1px solid var(--rule); }
+  thead th {
+    font-family: "IBM Plex Mono", monospace; font-size: 10.5px; font-weight: 600;
+    letter-spacing: .1em; text-transform: uppercase; color: var(--text-muted);
+    border-bottom: 1px solid var(--rule-strong);
+  }
+  tbody th { font-weight: 600; color: var(--text); }
+  td.q { font-family: "IBM Plex Mono", monospace; font-size: 13px; color: var(--text); }
+  .num { font-variant-numeric: tabular-nums; }
+
+  .chip {
+    display: inline-block; padding: 2px 8px; border-radius: 2px;
+    font-family: "IBM Plex Mono", monospace; font-size: 10.5px;
+    font-weight: 600; letter-spacing: .07em; text-transform: uppercase;
+    white-space: nowrap;
+  }
+  .chip-live { background: var(--live-chip-bg); color: var(--live-chip-tx); }
+  .chip-flat { background: var(--surface-2); color: var(--text-muted); }
+  .chip-risk { background: var(--risk-bg); color: var(--risk); }
+
+  /* ---------- callouts ---------- */
+  .note {
+    margin-top: 22px; padding: 20px 22px;
+    background: var(--surface); border-left: 3px solid var(--accent);
+  }
+  .note.risk { border-left-color: var(--risk); background: var(--risk-bg); }
+  .note p { margin: 0; max-width: 64ch; font-size: 15px; }
+  .note p + p { margin-top: 12px; }
+  .note .eyebrow { display: block; margin-bottom: 8px; }
+  .note.risk .eyebrow { color: var(--risk); }
+
+  /* ---------- record specimen ---------- */
+  .specimen {
+    margin-top: 22px; background: var(--band); color: var(--band-text);
+    padding: 24px 26px; overflow-x: auto;
+  }
+  .specimen .eyebrow { color: var(--band-muted); }
+  .specimen-name {
+    margin: 12px 0 4px; font-size: 25px; font-weight: 800; letter-spacing: -.02em;
+  }
+  .specimen-sci { margin: 0 0 18px; font-style: italic; color: var(--chartreuse); font-size: 16px; }
+  .specimen dl {
+    display: grid; grid-template-columns: 170px 1fr; gap: 9px 20px;
+    margin: 0; padding-top: 16px; border-top: 1px solid var(--band-rule);
+    font-size: 13.5px;
+  }
+  .specimen dt {
+    font-family: "IBM Plex Mono", monospace; font-size: 10.5px;
+    letter-spacing: .09em; text-transform: uppercase; color: var(--band-muted);
+    padding-top: 3px;
+  }
+  .specimen dd { margin: 0; }
+
+  /* ---------- lists ---------- */
+  ul.plain { margin: 0; padding-left: 0; list-style: none; display: grid; gap: 13px; }
+  ul.plain > li { display: grid; grid-template-columns: 15px 1fr; gap: 13px; max-width: 68ch; }
+  ul.plain > li::before {
+    content: ""; width: 7px; height: 7px; margin-top: .58em;
+    background: var(--accent); flex: none;
+  }
+  ol.steps { margin: 0; padding-left: 0; list-style: none; counter-reset: s; display: grid; gap: 16px; }
+  ol.steps > li {
+    counter-increment: s; display: grid; grid-template-columns: 34px 1fr; gap: 16px; max-width: 70ch;
+  }
+  ol.steps > li::before {
+    content: counter(s, decimal-leading-zero);
+    font-family: "IBM Plex Mono", monospace; font-size: 12px; font-weight: 600;
+    color: var(--accent); padding-top: .25em;
+  }
+
+  /* ---------- close ---------- */
+  footer {
+    margin-top: 72px; padding: 40px 0 52px;
+    border-top: 2px solid var(--rule-strong);
+  }
+  footer p { margin: 0; font-size: 14px; color: var(--text-muted); max-width: 66ch; }
+  footer p + p { margin-top: 10px; }
+
+  @media (max-width: 720px) {
+    .sec-head, .sec-body { grid-template-columns: 1fr; gap: 8px; }
+    .sec-body > .rail { display: none; }
+    .layer { grid-template-columns: 1fr; gap: 12px; }
+    .specimen dl { grid-template-columns: 1fr; gap: 3px 0; }
+    .specimen dd { margin-bottom: 9px; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    * { animation: none !important; transition: none !important; }
+  }
+</style>
+
+</head>
+<body>
+<div class="band">
+  <div class="wrap">
+    <div class="lockup">
+      <svg class="mark" viewBox="0 0 75 81" aria-hidden="true" focusable="false">
+        <path fill="currentColor" fill-rule="evenodd" d="M0 0H39L49 11V28H75V57H49V81H0Z M19 14H31V27H19Z"/>
+      </svg>
+      <span class="wordmark">Sanko</span>
+    </div>
+
+    <p class="eyebrow">Search &amp; AI-answer strategy · Draft 1 · 11 September 2026</p>
+    <h1>Getting found when your own name belongs to someone else.</h1>
+    <p class="standfirst">
+      Sanko is absent from search because the site was never indexable, and absent from AI
+      answers because the phrase &ldquo;Sanko Africa&rdquo; already resolves to a Madagascan
+      insurance broker. This plan treats those as two different problems, because they are.
+    </p>
+
+    <div class="meta-row">
+      <span class="eyebrow">Audience — institutions, not practitioners</span>
+      <span class="eyebrow">Horizon — 6 to 12 months</span>
+      <span class="eyebrow">Status — blocked on DNS</span>
+    </div>
+  </div>
+</div>
+
+<main class="wrap">
+
+  <!-- ============ 01 ============ -->
+  <section>
+    <div class="sec-head">
+      <span class="sec-num">01</span>
+      <h2>The premise this plan rests on</h2>
+    </div>
+    <div class="sec-body">
+      <div class="rail"></div>
+      <div class="flow">
+        <p>
+          <code class="mono">PRODUCT.md</code> is explicit that the website serves
+          <strong>companies, funders, NGOs, research institutions, regulators and
+          traditional-medicine organisations</strong> evaluating Sanko. Practitioners — the people who
+          actually use the product — arrive through WhatsApp and word of mouth. They are not
+          searching Google for formulation software.
+        </p>
+        <p>
+          That single fact rewrites the keyword strategy. Most of the obvious terms
+          (&ldquo;herbal record keeping app&rdquo;, &ldquo;traditional medicine software&rdquo;) target a
+          user who will never see the site. The institutional queries that do matter are
+          specialised and low-volume — too thin, on their own, to build the authority needed to rank
+          for anything.
+        </p>
+        <p>
+          The resolution is the plant dataset. It is the only asset Sanko owns that carries real
+          search demand <em class="term">and</em> the citation structure that AI engines reward. It
+          earns the authority; the institutional pages spend it.
+        </p>
+
+        <div class="layers">
+          <div class="layer">
+            <div class="layer-id">Layer<b>A</b>Weeks 1–4</div>
+            <div>
+              <h3>Entity foundation</h3>
+              <p>Make Sanko a thing search engines and language models can identify and tell apart from
+                the other Sankos. Nothing else works until this does.</p>
+              <p class="layer-dep chip chip-risk">Blocked · apex DNS</p>
+            </div>
+          </div>
+          <div class="layer">
+            <div class="layer-id">Layer<b>B</b>Weeks 3–12</div>
+            <div>
+              <h3>The plant name resolver</h3>
+              <p>Publish the verified local-to-botanical mappings as a cited reference surface. This is
+                the authority engine and the most quotable thing Sanko owns.</p>
+              <p class="layer-dep chip chip-flat">Depends on A</p>
+            </div>
+          </div>
+          <div class="layer">
+            <div class="layer-id">Layer<b>C</b>Weeks 6–24</div>
+            <div>
+              <h3>Institutional problem-space</h3>
+              <p>Governance, provenance and standards writing aimed at the people who sign partnerships.
+                Low volume, high intent, converts.</p>
+              <p class="layer-dep chip chip-flat">Depends on B for authority</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 02 ============ -->
+  <section>
+    <div class="sec-head">
+      <span class="sec-num">02</span>
+      <h2>Layer A — becoming a distinct entity</h2>
+    </div>
+    <div class="sec-body">
+      <div class="rail"></div>
+      <div class="flow">
+        <p>
+          The AI Overview answering &ldquo;Sanko Africa&rdquo; with a Madagascan insurance broker is not a
+          ranking failure. It is an <em class="term">entity resolution</em> failure: no model has a
+          record of Sanko-the-evidence-infrastructure, so it reaches for the nearest confident match.
+          You cannot outrank your way out of this. You establish a separate entity, or you stay merged
+          with theirs.
+        </p>
+
+        <ol class="steps">
+          <li><strong>Delete the <code class="mono">192.64.119.110</code> parking record at Namecheap.</strong>
+            Everything below is wasted effort while half of all requests to the apex hang.</li>
+          <li><strong>Google Search Console</strong> — verify, submit the sitemap, request indexing.</li>
+          <li><strong>Bing Webmaster Tools</strong> — usually skipped, and a mistake to skip. Bing's index
+            is a primary retrieval source for ChatGPT search and Microsoft Copilot. For GEO this is not
+            optional; it is the cheapest single action on this page.</li>
+          <li><strong>Create a Wikidata item</strong> for Sanko, with distinct statements: instance of
+            software/organisation, field of work, country, founding date, official website. Wikidata is
+            a direct input to knowledge panels and a heavily-weighted disambiguation source for language
+            models. This is the highest-leverage GEO action available.</li>
+          <li><strong>Publish an <code class="mono">/about</code> page that says what Sanko is and is
+            not</strong> — in plain, extractable sentences. Include an explicit disambiguation line:
+            <em>&ldquo;Sanko is not affiliated with Sanko Africa, the insurance brokerage in
+            Antananarivo, Madagascar.&rdquo;</em> Models quote sentences like that verbatim.</li>
+          <li><strong>Align the entity description everywhere</strong> — LinkedIn, GitHub org, Crunchbase,
+            any funder or accelerator listing. Identical wording across independent domains is what
+            converts a claim into a consensus.</li>
+          <li><strong>Extend the Organization schema</strong> already on the homepage with
+            <code class="mono">sameAs</code> (every profile above),
+            <code class="mono">disambiguatingDescription</code>, <code class="mono">foundingDate</code>
+            and <code class="mono">areaServed</code>.</li>
+          <li><strong>Add <code class="mono">/llms.txt</code></strong> — a plain-text summary of what the
+            site covers. Cheap, increasingly respected, and nothing is lost if adoption stalls.</li>
+        </ol>
+
+        <div class="note">
+          <span class="eyebrow">Why the name collision is survivable</span>
+          <p>
+            You are not trying to win the word &ldquo;Sanko&rdquo;. You are trying to make sure that when
+            someone asks an assistant &ldquo;what is sanko.africa&rdquo; or &ldquo;who is documenting
+            African traditional medicine with AI&rdquo;, the answer is yours. Those are winnable. The bare
+            brand term, against an Axian Group subsidiary and an established fashion platform with
+            sitelinks, is not — and does not need to be.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 03 ============ -->
+  <section>
+    <div class="sec-head">
+      <span class="sec-num">03</span>
+      <h2>Layer B — the plant name resolver</h2>
+    </div>
+    <div class="sec-body">
+      <div class="rail"></div>
+      <div class="flow">
+        <p>
+          <code class="mono">data/plants/</code> holds <strong class="num">479</strong> local-name entries
+          and <strong class="num">281</strong> botanical records verified against the GBIF taxonomy
+          backbone, each traceable to a named ethnobotanical study down to the supplementary table and
+          row. Nothing comparable exists as structured, English-language, source-attributed web content.
+        </p>
+        <p>
+          Every mapping is a page. Every page answers a question somebody actually types, and answers it
+          with a citation — which is precisely the shape of content an AI engine will quote rather than
+          paraphrase away.
+        </p>
+
+        <div class="specimen">
+          <span class="eyebrow">Page template · one record per mapping</span>
+          <p class="specimen-name">Abafin</p>
+          <p class="specimen-sci">Piliostigma reticulatum</p>
+          <dl>
+            <dt>Language</dt><dd>Yoruba (yo)</dd>
+            <dt>Common English</dt><dd>Camel's foot</dd>
+            <dt>Parts commonly used</dt><dd>Bark, leaves</dd>
+            <dt>Region attested</dt><dd>Ogun, Osun and Oyo States, Nigeria</dd>
+            <dt>Taxonomy</dt><dd>GBIF usage key 5348711 · status ACCEPTED · match EXACT</dd>
+            <dt>Source</dt><dd>Sonibare (2008), anti-asthmatic survey — Supplementary Table S1, row 132</dd>
+            <dt>Verification</dt><dd>Taxonomy checked · not practitioner-confirmed</dd>
+          </dl>
+        </div>
+
+        <h3>The ambiguity pages are the differentiator</h3>
+        <p>
+          <code class="mono">ambiguities.json</code> records where published sources disagree —
+          <em>abafe</em> resolves to <em>Piliostigma thonningii</em> in the 2022 Lagos survey and
+          <em>P. reticulatum</em> in the 2008 anti-asthmatic study. Most publishers hide that. Publishing
+          the conflict, with both sources named and neither presented as settled, is the single most
+          citable thing on the site: it is genuinely useful, impossible to fabricate, and exactly what a
+          model reaches for when a user asks a question with no clean answer.
+        </p>
+
+        <h3>Hub pages that collect the long tail</h3>
+        <ul class="plain">
+          <li>Yoruba medicinal plant names, with accepted botanical equivalents — the index page</li>
+          <li>By region — plants attested in Lagos State, Plateau State, Port Harcourt, Ile-Ife</li>
+          <li>By part used — bark, leaf, root, stem-bark</li>
+          <li>By preparation — infusion, decoction, poultice, juice</li>
+          <li>The source bibliography, one page per study, linking every mapping drawn from it</li>
+        </ul>
+
+        <h4>Markup</h4>
+        <p>
+          <code class="mono">DefinedTermSet</code> for the collection and <code class="mono">DefinedTerm</code>
+          per mapping; <code class="mono">Dataset</code> on the hub with
+          <code class="mono">citation</code> pointing at each study's DOI. Taxon identifiers give
+          engines something unambiguous to bind to.
+        </p>
+
+        <div class="note risk">
+          <span class="eyebrow">Hard boundary</span>
+          <p>
+            Publish only mappings derived from the peer-reviewed literature.
+            <code class="mono">practitioner_confirmations</code> currently reads
+            <strong class="num">0</strong>; when it does not, those records must stay unpublished.
+            Practitioner-contributed knowledge behind a Nagoya-aligned consent model cannot become SEO
+            inventory — doing so would contradict the exact governance claim the institutional pages are
+            built on, and it is the exact failure mode your buyers are watching for.
+          </p>
+          <p>
+            The literature is already public. Structuring, verifying and crediting it is a contribution.
+            Extracting practitioner records would not be.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 04 ============ -->
+  <section>
+    <div class="sec-head">
+      <span class="sec-num">04</span>
+      <h2>Layer C — what institutions search for</h2>
+    </div>
+    <div class="sec-body">
+      <div class="rail"></div>
+      <div class="flow">
+        <p>
+          These queries are low-volume and will look disappointing in any keyword tool. They are also
+          the ones typed by programme officers, research leads and regulators — the people who start
+          partnership conversations. Judge this layer on enquiries, never on traffic.
+        </p>
+
+        <div class="tbl-scroll">
+          <table>
+            <caption>Institutional clusters · one pillar page each, supporting pieces beneath</caption>
+            <thead>
+              <tr><th>Cluster</th><th>Representative query</th><th>Who types it</th></tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th>Nagoya &amp; ABS in practice</th>
+                <td class="q">nagoya protocol traditional knowledge documentation</td>
+                <td>Research compliance, funders</td>
+              </tr>
+              <tr>
+                <th>Consent &amp; attribution models</th>
+                <td class="q">prior informed consent traditional knowledge database</td>
+                <td>NGOs, ethics boards</td>
+              </tr>
+              <tr>
+                <th>ICD-11 TM2</th>
+                <td class="q">icd-11 traditional medicine module 2 implementation</td>
+                <td>Regulators, health ministries</td>
+              </tr>
+              <tr>
+                <th>Health data sovereignty</th>
+                <td class="q">local-first ai health data africa</td>
+                <td>Digital health leads, funders</td>
+              </tr>
+              <tr>
+                <th>Ethnobotanical method</th>
+                <td class="q">standardising local plant names in ethnobotanical surveys</td>
+                <td>Academic researchers</td>
+              </tr>
+              <tr>
+                <th>WHO TM strategy</th>
+                <td class="q">who traditional medicine strategy documentation infrastructure</td>
+                <td>Policy, multilaterals</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="note risk">
+          <span class="eyebrow">The constraint that shapes all of this</span>
+          <p>
+            Traditional medicine is <em class="term">YMYL</em> territory — Google holds health-adjacent
+            content to a much higher evidence bar, and <code class="mono">PRODUCT.md</code> already
+            forbids inventing metrics, testimonials, customer logos or clinical claims. Those two
+            constraints point the same way. Write about <strong>documentation, governance and
+            provenance</strong>, never about what a plant treats. The moment a page reads as herbal
+            health advice it inherits a credibility test Sanko cannot pass and does not want.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 05 ============ -->
+  <section>
+    <div class="sec-head">
+      <span class="sec-num">05</span>
+      <h2>Writing for AI answers specifically</h2>
+    </div>
+    <div class="sec-body">
+      <div class="rail"></div>
+      <div class="flow">
+        <p>
+          GEO overlaps with SEO but diverges in ways that change how pages are written. Retrieval
+          systems chunk a page into passages and rank those passages independently of the document.
+          Several habits of good marketing copy actively break that.
+        </p>
+
+        <ul class="plain">
+          <li><strong>Name the subject in every claim.</strong> &ldquo;We keep records private&rdquo; is
+            useless once it is chunked away from the page — the subject is gone. &ldquo;Sanko processes
+            practitioner records locally&rdquo; survives retrieval intact. Audit the site for
+            <em>we</em> and <em>our</em> in any sentence carrying a fact.</li>
+          <li><strong>Lead with the answer.</strong> A heading phrased as the real question, answered in
+            the first sentence beneath it, then the detail. Retrieval favours self-contained passages.</li>
+          <li><strong>Numbers get cited disproportionately.</strong> &ldquo;479 local plant names mapped to
+            281 GBIF-verified botanical records across three peer-reviewed Nigerian surveys&rdquo; is
+            far more quotable than any adjective. Sanko has real figures — use them, and date them.</li>
+          <li><strong>Third-party corroboration outweighs your own site.</strong> A model trusts a claim
+            that appears across independent sources. One mention in a journal, an NGO report or a
+            reputable directory is worth more than ten pages you publish yourself.</li>
+          <li><strong>Keep facts in text, not in images or scripts.</strong> The live plant count rendered
+            by <code class="mono">plant-count.js</code> is invisible to most crawlers — emit the number
+            server-side into the HTML as well.</li>
+        </ul>
+
+        <h3>Checking whether it worked</h3>
+        <p>
+          There is no Search Console for AI answers. Test by hand, monthly, and log it: ask ChatGPT,
+          Perplexity, Claude and Google AI Mode <em>&ldquo;what is sanko.africa?&rdquo;</em>,
+          <em>&ldquo;who is building documentation infrastructure for African traditional
+          medicine?&rdquo;</em> and <em>&ldquo;what is the Yoruba name for Azadirachta indica?&rdquo;</em>
+          The first tells you whether the entity has separated from the insurance broker. The third tells
+          you whether Layer B is being cited.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 06 ============ -->
+  <section>
+    <div class="sec-head">
+      <span class="sec-num">06</span>
+      <h2>Targets, and what is not worth chasing</h2>
+    </div>
+    <div class="sec-body">
+      <div class="rail"></div>
+      <div class="flow">
+
+        <div class="note">
+          <span class="eyebrow">On the numbers that are missing here</span>
+          <p>
+            This plan deliberately carries no search-volume figures. There is no keyword tool connected to
+            this project, and inventing plausible monthly volumes would be worse than leaving them out —
+            they would get planned against. Validate the terms below in Ahrefs, Semrush or Google Keyword
+            Planner before committing to the order, and treat the priority column as reasoning to check,
+            not a finding.
+          </p>
+        </div>
+
+        <div class="tbl-scroll">
+          <table>
+            <caption>Tier 1 · Winnable within weeks of indexing</caption>
+            <thead>
+              <tr><th>Query</th><th>Why it is winnable</th><th>Lands on</th></tr>
+            </thead>
+            <tbody>
+              <tr><td class="q">sanko.africa</td><td>Exact domain, no competitor</td><td>Homepage</td></tr>
+              <tr><td class="q">sanko traditional medicine</td><td>Qualifier separates from the other Sankos</td><td>Homepage</td></tr>
+              <tr><td class="q">sanko whatsapp practitioner records</td><td>No competing page exists anywhere</td><td>How it works</td></tr>
+              <tr><td class="q">sanko nagoya provenance</td><td>Unclaimed, and qualifies the visitor</td><td>Governance</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="tbl-scroll">
+          <table>
+            <caption>Tier 2 · Layer B long tail — small individually, decisive in aggregate</caption>
+            <thead>
+              <tr><th>Query shape</th><th>Approx. pages</th><th>Competition</th></tr>
+            </thead>
+            <tbody>
+              <tr><td class="q">&ldquo;[local name] botanical name&rdquo;</td><td class="num">479</td><td><span class="chip chip-live">Thin</span></td></tr>
+              <tr><td class="q">&ldquo;yoruba name for [botanical]&rdquo;</td><td class="num">281</td><td><span class="chip chip-live">Thin</span></td></tr>
+              <tr><td class="q">&ldquo;[local name] english name&rdquo;</td><td class="num">479</td><td><span class="chip chip-live">Thin</span></td></tr>
+              <tr><td class="q">&ldquo;[botanical] parts used traditional medicine&rdquo;</td><td class="num">281</td><td><span class="chip chip-flat">Moderate</span></td></tr>
+              <tr><td class="q">&ldquo;yoruba medicinal plants list&rdquo;</td><td class="num">1</td><td><span class="chip chip-flat">Moderate</span></td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="tbl-scroll">
+          <table>
+            <caption>Tier 3 · Do not pursue</caption>
+            <thead>
+              <tr><th>Query</th><th>Holder</th><th>Reason</th></tr>
+            </thead>
+            <tbody>
+              <tr><td class="q">sanko</td><td>Sanko Holding, Sanko Gakuen</td><td><span class="chip chip-risk">Unwinnable</span> Decades of authority</td></tr>
+              <tr><td class="q">sanko africa</td><td>sanko-africa.com (Axian Group)</td><td><span class="chip chip-risk">Unwinnable</span> Holds the AI Overview</td></tr>
+              <tr><td class="q">african fashion sanko</td><td>pjmsanko.com</td><td><span class="chip chip-flat">Irrelevant</span> Wrong audience entirely</td></tr>
+              <tr><td class="q">herbal remedies for [condition]</td><td>WebMD, Healthline</td><td><span class="chip chip-risk">Off-limits</span> YMYL, and a claim Sanko must not make</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 07 ============ -->
+  <section>
+    <div class="sec-head">
+      <span class="sec-num">07</span>
+      <h2>Sequence and honest expectations</h2>
+    </div>
+    <div class="sec-body">
+      <div class="rail"></div>
+      <div class="flow">
+        <div class="tbl-scroll">
+          <table>
+            <caption>Sequencing · each phase gated on the one before</caption>
+            <thead>
+              <tr><th>Phase</th><th>Work</th><th>Expected outcome</th></tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th>Week 1</th>
+                <td>DNS record deleted · GSC and Bing WMT verified · sitemap submitted</td>
+                <td>Indexed. Ranking first for <span class="mono">sanko.africa</span>.</td>
+              </tr>
+              <tr>
+                <th>Weeks 2–4</th>
+                <td>Wikidata item · <span class="mono">/about</span> with disambiguation · schema extended · profiles aligned</td>
+                <td>Entity begins separating from the Madagascan broker.</td>
+              </tr>
+              <tr>
+                <th>Weeks 3–12</th>
+                <td>Plant resolver built and published, hubs and bibliography included</td>
+                <td>First non-brand impressions. Long tail starts to move.</td>
+              </tr>
+              <tr>
+                <th>Weeks 6–24</th>
+                <td>Institutional pillars, one cluster at a time</td>
+                <td>Low traffic, qualified enquiries.</td>
+              </tr>
+              <tr>
+                <th>Month 6+</th>
+                <td>Citation outreach · monthly AI-answer audit</td>
+                <td>Appearing in AI answers for the problem space.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="note">
+          <span class="eyebrow">What this plan will not do</span>
+          <p>
+            It will not make Sanko rank first for &ldquo;Sanko&rdquo; — that name is held by older,
+            larger organisations, and no amount of technical work changes it. It will not produce
+            meaningful traffic in the first quarter; a pre-launch domain with no backlinks earns
+            authority slowly and there is no shortcut that is not also a risk.
+          </p>
+          <p>
+            What it will do is make Sanko <strong>findable by the people who matter</strong> — the
+            programme officer researching Nagoya-aligned documentation, the researcher checking a Yoruba
+            plant name, the regulator reading about ICD-11 TM2 — and give language models a correct,
+            well-sourced account of what Sanko is when they are asked. For an institutional product with
+            no consumer funnel, that is the entire game.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>
+      Draft 1 · 11 September 2026. Counts drawn from <code class="mono">data/plants/build_report.json</code>
+      and <code class="mono">data/plant_lookup_v1.json</code> as committed on 13 August 2026; refresh them
+      before publishing anything that quotes a figure.
+    </p>
+    <p>
+      Search-volume estimates are deliberately absent and must be validated in a keyword tool before this
+      sequence is committed to.
+    </p>
+  </footer>
+
+</main>
+
+</body>
+</html>

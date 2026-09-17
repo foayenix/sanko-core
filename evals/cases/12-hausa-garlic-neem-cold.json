@@ -1,0 +1,38 @@
+{
+  "id": "12-hausa-garlic-neem-cold",
+  "description": "Hausa/English code-switching with garlic and neem aliases.",
+  "practitioner": {
+    "display_name": "Musa",
+    "preferred_language": "ha"
+  },
+  "turns": [
+    "Don mura, ina amfani da tafarnuwa biyu da ganyen darbegiya. A tafasa su cikin ruwa minti goma sha biyar. A sha kofi daya safe da dare kwana biyu. Save it.",
+    "Yes, that is accurate. Save exactly that and do not add anything."
+  ],
+  "expect": {
+    "tools": [
+      "save_formulation"
+    ],
+    "plants_include": [
+      "tafarnuwa",
+      "darbegiya"
+    ],
+    "botanicals": {
+      "tafarnuwa": "Allium sativum",
+      "darbegiya": "Azadirachta indica"
+    },
+    "fields": {
+      "preparation.method": "decoction",
+      "preparation.duration_minutes": "15",
+      "dosage.duration_days": "2"
+    }
+  },
+  "editorial_review": {
+    "status": "complete",
+    "reviewer_role": "model_editorial",
+    "reviewer_ref": "codex-2026-08-13",
+    "reviewed_at": "2026-08-13T00:00:00Z",
+    "rubric_version": "editorial-v1",
+    "practitioner_review": "pending"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "20-bitter-kola-raw",
+  "description": "Raw preparation should not be turned into a decoction.",
+  "practitioner": {
+    "display_name": "Efe",
+    "preferred_language": "en"
+  },
+  "turns": [
+    "For throat discomfort, chew one small bitter kola seed slowly. No boiling and no mixture. Once in the morning for two days. Save this.",
+    "Yes, that is accurate. Save exactly that and do not add anything."
+  ],
+  "expect": {
+    "tools": [
+      "save_formulation"
+    ],
+    "plants_include": [
+      "bitter kola"
+    ],
+    "botanicals": {
+      "bitter kola": "Garcinia kola"
+    },
+    "fields": {
+      "preparation.method": "raw",
+      "dosage.frequency": "once",
+      "dosage.duration_days": "2"
+    }
+  },
+  "editorial_review": {
+    "status": "complete",
+    "reviewer_role": "model_editorial",
+    "reviewer_ref": "codex-2026-08-13",
+    "reviewed_at": "2026-08-13T00:00:00Z",
+    "rubric_version": "editorial-v1",
+    "practitioner_review": "pending"
+  }
+}

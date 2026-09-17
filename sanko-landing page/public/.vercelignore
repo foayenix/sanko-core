@@ -1,0 +1,6 @@
+# Credentials and local tooling — never upload these to a public static site
+.env
+.env.*
+.vercel
+.gitignore
+.vercelignore

@@ -1,0 +1,25 @@
+{
+  "id": "43-rename-profile",
+  "description": "Existing practitioner requests a profile-name correction.",
+  "practitioner": {
+    "display_name": "Chika",
+    "preferred_language": "ig"
+  },
+  "input": "Please change the name you use for me from Chika to Nneka. Keep Igbo as my language.",
+  "expect": {
+    "tools": [
+      "set_profile"
+    ],
+    "forbidden_tools": [
+      "save_formulation"
+    ]
+  },
+  "editorial_review": {
+    "status": "complete",
+    "reviewer_role": "model_editorial",
+    "reviewer_ref": "codex-2026-08-13",
+    "reviewed_at": "2026-08-13T00:00:00Z",
+    "rubric_version": "editorial-v1",
+    "practitioner_review": "pending"
+  }
+}

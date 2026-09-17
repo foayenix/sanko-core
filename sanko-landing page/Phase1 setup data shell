@@ -1,0 +1,395 @@
+# SANKO VISION DEMO — PHASE 1: Project Setup + Data + Shell
+
+## What this is
+You're building a React app in phases. This is Phase 1. Do ONLY what's listed here. Do NOT try to build the full app. Future prompts will add views.
+
+## Setup
+Create a Vite + React project:
+```
+npm create vite@latest sanko-demo -- --template react
+cd sanko-demo
+npm install
+```
+
+Delete the default src/App.css, src/index.css content. Replace src/main.jsx and src/App.jsx.
+
+## Google Fonts
+In index.html, add to <head>:
+```html
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+```
+
+## Global CSS (src/index.css)
+```css
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  background: #0A0908;
+  color: rgba(255,255,255,0.85);
+  -webkit-font-smoothing: antialiased;
+}
+```
+
+## Create src/data.js
+This file contains ALL mock data used across the entire app. Every view reads from here.
+
+```js
+export const COLORS = {
+  forest: '#1B6B3A', forestD: '#145A2F', forestL: '#E8F5E9',
+  earth: '#2C2117', earthM: '#5C4B3C',
+  sand: '#F7F0E6', sandD: '#EDE3D4',
+  gold: '#B8860B', goldL: '#FBF3DC',
+  terra: '#9E4A2F',
+  indigo: '#2D4B8E',
+  cream: '#FDFAF5',
+  bg: '#0A0908',
+};
+
+export const FORMULATIONS = [
+  {
+    id: 'f1', anonId: 'F-2847A',
+    name: 'Agbo Iba',
+    conditions: ['Fever', 'Malaria', 'Body pains'],
+    ingredients: [
+      { local: 'Dongoyaro', english: 'Neem', botanical: 'Azadirachta indica' },
+      { local: 'Oganho', english: 'Lemongrass', botanical: 'Cymbopogon citratus' },
+      { local: 'Ewuro', english: 'Bitter leaf', botanical: 'Vernonia amygdalina' },
+      { local: 'Mango bark', english: 'Mango', botanical: 'Mangifera indica' },
+    ],
+    preparation: 'Wash all leaves. 5L water in large pot. Add mango bark first, boil 20 min. Add remaining leaves. Boil 1 hour on medium heat. Ready when dark brown. Sieve and cool. Store in bottle, max 5 days.',
+    dosing: 'Adults: 1 cup morning + evening. Children under 10: half cup.',
+    warnings: ['Not for pregnant women', 'Not with hospital malaria medicine'],
+    timeline: '3-5 days',
+    successIndicators: ['Fever breaks', 'Body pain stops', 'Appetite returns'],
+    effectiveness: 87,
+    tracked: 340,
+    outcomes: { recovered: 72, improved: 15, noChange: 8, worsened: 5 },
+    sideEffects: { count: 12, severity: 'mild', desc: 'Stomach upset' },
+    researchInterest: 2,
+    documented: '2026-02-22',
+    monthlyOutcomes: [
+      { month: 'Sep', tracked: 42, eff: 83 },
+      { month: 'Oct', tracked: 48, eff: 85 },
+      { month: 'Nov', tracked: 55, eff: 86 },
+      { month: 'Dec', tracked: 60, eff: 87 },
+      { month: 'Jan', tracked: 65, eff: 88 },
+      { month: 'Feb', tracked: 70, eff: 89 },
+    ],
+  },
+  {
+    id: 'f2', anonId: 'F-1104D',
+    name: 'Omi Isu Diabetis',
+    conditions: ['Diabetes management'],
+    ingredients: [
+      { local: 'Ewuro', english: 'Bitter leaf', botanical: 'Vernonia amygdalina' },
+      { local: 'Ejinrin', english: 'Bitter melon', botanical: 'Momordica charantia' },
+      { local: 'Efirin', english: 'Scent leaf', botanical: 'Ocimum gratissimum' },
+      { local: 'Ewe Igbale', english: 'Moringa', botanical: 'Moringa oleifera' },
+      { local: 'Ayu', english: 'Garlic', botanical: 'Allium sativum' },
+      { local: 'Ata-ile', english: 'Ginger', botanical: 'Zingiber officinale' },
+    ],
+    preparation: 'Dry and grind all leaves into fine powder. Mix thoroughly. Take with warm water.',
+    dosing: '1 tablespoon powder in warm water, twice daily before meals.',
+    warnings: ['Monitor blood sugar closely', 'Consult if on metformin'],
+    timeline: '14-21 days',
+    successIndicators: ['Blood sugar stabilises', 'Frequent urination reduces', 'Energy improves'],
+    effectiveness: 82,
+    tracked: 156,
+    outcomes: { recovered: 68, improved: 14, noChange: 12, worsened: 6 },
+    sideEffects: { count: 5, severity: 'mild', desc: 'Mild nausea' },
+    researchInterest: 2,
+    documented: '2026-03-10',
+    monthlyOutcomes: [
+      { month: 'Sep', tracked: 18, eff: 78 },
+      { month: 'Oct', tracked: 22, eff: 80 },
+      { month: 'Nov', tracked: 25, eff: 81 },
+      { month: 'Dec', tracked: 28, eff: 82 },
+      { month: 'Jan', tracked: 30, eff: 83 },
+      { month: 'Feb', tracked: 33, eff: 84 },
+    ],
+  },
+  {
+    id: 'f3', anonId: 'F-0932E',
+    name: 'Agbo Ikọ́',
+    conditions: ['Cough', 'Respiratory'],
+    ingredients: [
+      { local: 'Orogbo', english: 'Bitter kola', botanical: 'Garcinia kola' },
+      { local: 'Ọsan wewe', english: 'Lemon', botanical: 'Citrus limon' },
+      { local: 'Alubosa', english: 'Onion', botanical: 'Allium cepa' },
+      { local: 'Oyin', english: 'Honey', botanical: 'Mel' },
+      { local: 'Ata-ile', english: 'Ginger', botanical: 'Zingiber officinale' },
+    ],
+    preparation: 'Squeeze lemon, grate ginger, slice onion, crush bitter kola, mix with honey, steep overnight.',
+    dosing: '2 tablespoons 3x daily.',
+    warnings: ['Not for children under 1 (honey)'],
+    timeline: '5-7 days',
+    successIndicators: ['Cough frequency reduces', 'Phlegm clears', 'Chest feels lighter'],
+    effectiveness: 76,
+    tracked: 89,
+    outcomes: { recovered: 60, improved: 16, noChange: 14, worsened: 10 },
+    sideEffects: { count: 3, severity: 'mild', desc: 'Throat irritation' },
+    researchInterest: 0,
+    documented: '2026-04-05',
+    monthlyOutcomes: [
+      { month: 'Sep', tracked: 10, eff: 72 },
+      { month: 'Oct', tracked: 12, eff: 74 },
+      { month: 'Nov', tracked: 14, eff: 75 },
+      { month: 'Dec', tracked: 16, eff: 76 },
+      { month: 'Jan', tracked: 18, eff: 77 },
+      { month: 'Feb', tracked: 19, eff: 78 },
+    ],
+  },
+  {
+    id: 'f4', anonId: 'F-3301F',
+    name: 'Aseje Agbara',
+    conditions: ['Tonic', 'Strength', 'Vitality'],
+    ingredients: [
+      { local: 'Orogbo', english: 'Bitter kola', botanical: 'Garcinia kola' },
+      { local: 'Ataare', english: 'Alligator pepper', botanical: 'Aframomum melegueta' },
+      { local: 'Oyin', english: 'Honey', botanical: 'Mel' },
+      { local: 'Ewe Igbale', english: 'Moringa', botanical: 'Moringa oleifera' },
+      { local: 'Ata-ile', english: 'Ginger', botanical: 'Zingiber officinale' },
+      { local: 'Epo Pupa', english: 'Palm oil', botanical: 'Elaeis guineensis' },
+      { local: 'Iru', english: 'Locust beans', botanical: 'Parkia biglobosa' },
+      { local: 'Ayu', english: 'Garlic', botanical: 'Allium sativum' },
+    ],
+    preparation: 'Grind dry ingredients. Mix with honey and palm oil. Store in sealed container.',
+    dosing: '1 tablespoon daily, morning.',
+    warnings: ['Reduce dose if stomach upset'],
+    timeline: '7-14 days',
+    successIndicators: ['Energy increases', 'Appetite improves', 'Strength returns'],
+    effectiveness: 91,
+    tracked: 72,
+    outcomes: { recovered: 78, improved: 13, noChange: 6, worsened: 3 },
+    sideEffects: { count: 2, severity: 'mild', desc: 'Stomach warmth' },
+    researchInterest: 0,
+    documented: '2027-01-15',
+    monthlyOutcomes: [
+      { month: 'Sep', tracked: 8, eff: 88 },
+      { month: 'Oct', tracked: 10, eff: 89 },
+      { month: 'Nov', tracked: 12, eff: 90 },
+      { month: 'Dec', tracked: 13, eff: 91 },
+      { month: 'Jan', tracked: 14, eff: 91 },
+      { month: 'Feb', tracked: 15, eff: 92 },
+    ],
+  },
+  {
+    id: 'f5', anonId: 'F-4420G',
+    name: 'Agbo Jedi-Jedi',
+    conditions: ['Pile', 'Haemorrhoids', 'Stomach'],
+    ingredients: [
+      { local: 'Epo Pupa', english: 'Palm oil', botanical: 'Elaeis guineensis' },
+      { local: 'Ata Ijosi', english: 'Alligator pepper', botanical: 'Aframomum melegueta' },
+      { local: 'Kanafuru', english: 'Cloves', botanical: 'Syzygium aromaticum' },
+      { local: 'Orogbo', english: 'Bitter kola', botanical: 'Garcinia kola' },
+    ],
+    preparation: 'Grind all dry ingredients. Mix with palm oil. Take by spoon.',
+    dosing: '1 spoon morning + 1 spoon night.',
+    warnings: ['Not for children under 5'],
+    timeline: '7-10 days',
+    successIndicators: ['Pain reduces', 'Swelling goes down', 'Bowel movement normalises'],
+    effectiveness: 84,
+    tracked: 58,
+    outcomes: { recovered: 65, improved: 19, noChange: 10, worsened: 6 },
+    sideEffects: { count: 4, severity: 'mild', desc: 'Loose stool' },
+    researchInterest: 0,
+    documented: '2027-06-20',
+    monthlyOutcomes: [
+      { month: 'Sep', tracked: 6, eff: 80 },
+      { month: 'Oct', tracked: 8, eff: 82 },
+      { month: 'Nov', tracked: 9, eff: 83 },
+      { month: 'Dec', tracked: 11, eff: 84 },
+      { month: 'Jan', tracked: 12, eff: 85 },
+      { month: 'Feb', tracked: 12, eff: 85 },
+    ],
+  },
+  {
+    id: 'f6', anonId: 'F-5580H',
+    name: 'Agbo Tutu',
+    conditions: ['Body heat', 'Rashes', 'Restlessness'],
+    ingredients: [
+      { local: 'Ewe Teteregun', english: 'Ginger lily', botanical: 'Costus afer' },
+      { local: 'Pineapple peel', english: 'Pineapple', botanical: 'Ananas comosus' },
+      { local: 'Ọsan', english: 'Lime', botanical: 'Citrus aurantifolia' },
+      { local: 'Ori', english: 'Shea butter', botanical: 'Vitellaria paradoxa' },
+    ],
+    preparation: 'Soak teteregun + pineapple peel overnight. Add lime in morning. Add small shea butter. Cold preparation only. Use fresh daily.',
+    dosing: 'Adults: 1 cup 3x daily. Children: half cup 2x daily.',
+    warnings: ['Use fresh — do not store overnight after preparation'],
+    timeline: '2-4 days',
+    successIndicators: ['Body temperature normalises', 'Rash fades', 'Sleep improves'],
+    effectiveness: 78,
+    tracked: 45,
+    outcomes: { recovered: 62, improved: 16, noChange: 14, worsened: 8 },
+    sideEffects: { count: 1, severity: 'mild', desc: 'Mild diarrhoea' },
+    researchInterest: 0,
+    documented: '2028-02-10',
+    monthlyOutcomes: [
+      { month: 'Sep', tracked: 5, eff: 74 },
+      { month: 'Oct', tracked: 6, eff: 76 },
+      { month: 'Nov', tracked: 7, eff: 77 },
+      { month: 'Dec', tracked: 8, eff: 78 },
+      { month: 'Jan', tracked: 9, eff: 79 },
+      { month: 'Feb', tracked: 10, eff: 80 },
+    ],
+  },
+];
+
+export const PATIENTS = [
+  { id: 'p47', ref: 'Patient #47', age: '35-45', sex: 'F', condition: 'Fever, Body pains', formulationId: 'f1', status: 'recovered', date: '2030-02-01',
+    timeline: [
+      { day: 0, type: 'consultation', text: 'Complaint: High fever 3 days, severe body pains. Severity: Moderate.', date: '2030-02-01' },
+      { day: 0, type: 'prescribed', text: 'Agbo Iba — 1 cup morning + evening', date: '2030-02-01' },
+      { day: 3, type: 'checkin', text: 'A little better. Taking as instructed. No side effects.', date: '2030-02-04' },
+      { day: 7, type: 'checkin', text: 'Much better. Fever broke on Day 5. Appetite returned.', date: '2030-02-08' },
+      { day: 14, type: 'final', text: 'Fully recovered. No remaining symptoms.', date: '2030-02-15' },
+    ]},
+  { id: 'p51', ref: 'Patient #51', age: '50-60', sex: 'M', condition: 'Cough, Chest tightness', formulationId: 'f3', status: 'tracking', date: '2030-02-25',
+    timeline: [
+      { day: 0, type: 'consultation', text: 'Complaint: Persistent dry cough 1 week. Severity: Moderate.', date: '2030-02-25' },
+      { day: 0, type: 'prescribed', text: 'Agbo Ikọ́ — 2 tbsp 3x daily', date: '2030-02-25' },
+      { day: 3, type: 'checkin', text: 'Slight improvement. Cough less frequent at night.', date: '2030-02-28' },
+    ]},
+  { id: 'p44', ref: 'Patient #44', age: '25-35', sex: 'F', condition: 'Diabetes management', formulationId: 'f2', status: 'improved', date: '2030-01-20',
+    timeline: [
+      { day: 0, type: 'consultation', text: 'Complaint: High blood sugar, frequent urination. Severity: Moderate.', date: '2030-01-20' },
+      { day: 0, type: 'prescribed', text: 'Omi Isu Diabetis — 1 tbsp powder 2x daily', date: '2030-01-20' },
+      { day: 3, type: 'checkin', text: 'No change yet. Continuing as instructed.', date: '2030-01-23' },
+      { day: 7, type: 'checkin', text: 'Slight improvement. Urination frequency reducing.', date: '2030-01-27' },
+      { day: 14, type: 'final', text: 'Much better. Energy improving. Still monitoring.', date: '2030-02-03' },
+    ]},
+  { id: 'p39', ref: 'Patient #39', age: '45-55', sex: 'M', condition: 'Body heat, Rashes', formulationId: 'f6', status: 'recovered', date: '2030-01-15',
+    timeline: [
+      { day: 0, type: 'consultation', text: 'Complaint: Internal heat, skin rash on arms. Severity: Mild.', date: '2030-01-15' },
+      { day: 0, type: 'prescribed', text: 'Agbo Tutu — 1 cup 3x daily', date: '2030-01-15' },
+      { day: 3, type: 'checkin', text: 'Much better. Rash fading. Sleeping better.', date: '2030-01-18' },
+      { day: 7, type: 'final', text: 'Fully recovered.', date: '2030-01-22' },
+    ]},
+  { id: 'p52', ref: 'Patient #52', age: '60-70', sex: 'F', condition: 'Pile, Stomach pain', formulationId: 'f5', status: 'improved', date: '2030-02-26',
+    timeline: [
+      { day: 0, type: 'consultation', text: 'Complaint: Painful haemorrhoids, stomach discomfort. Severity: Moderate.', date: '2030-02-26' },
+      { day: 0, type: 'prescribed', text: 'Agbo Jedi-Jedi — 1 spoon morning + night', date: '2030-02-26' },
+      { day: 3, type: 'checkin', text: 'Pain reducing. Side effect: loose stool (mild).', date: '2030-03-01', sideEffect: 'Loose stool (mild)' },
+    ]},
+];
+
+export const COMPOUNDS = [
+  { botanical: 'Azadirachta indica', local: 'Dongoyaro, Neem', count: 847, conditions: ['Malaria', 'Fever'], eff: 84 },
+  { botanical: 'Vernonia amygdalina', local: 'Ewuro, Bitter leaf', count: 623, conditions: ['Diabetes', 'Fever'], eff: 81 },
+  { botanical: 'Garcinia kola', local: 'Orogbo, Bitter kola', count: 412, conditions: ['Cough', 'Inflammation'], eff: 77 },
+  { botanical: 'Cymbopogon citratus', local: 'Oganho, Lemongrass', count: 389, conditions: ['Fever', 'Stomach'], eff: 83 },
+  { botanical: 'Syzygium aromaticum', local: 'Kanafuru, Cloves', count: 298, conditions: ['Toothache', 'Digestive'], eff: 86 },
+  { botanical: 'Moringa oleifera', local: 'Ewe Igbale, Moringa', count: 276, conditions: ['Diabetes', 'Nutrition'], eff: 80 },
+  { botanical: 'Ocimum gratissimum', local: 'Efirin, Scent leaf', count: 245, conditions: ['Fever', 'Cough'], eff: 79 },
+  { botanical: 'Zingiber officinale', local: 'Ata-ile, Ginger', count: 234, conditions: ['Cough', 'Nausea'], eff: 85 },
+  { botanical: 'Allium sativum', local: 'Ayu, Garlic', count: 198, conditions: ['Hypertension', 'Infection'], eff: 82 },
+  { botanical: 'Mangifera indica', local: 'Mangoro, Mango', count: 187, conditions: ['Fever', 'Diarrhea'], eff: 76 },
+];
+
+export const CITIES = [
+  { name: 'Lagos', x: 30, y: 65, practitioners: 4200, formulations: 18000, conditions: ['Malaria', 'Diabetes'] },
+  { name: 'Ibadan', x: 35, y: 55, practitioners: 2800, formulations: 11000, conditions: ['Fever', 'Hypertension'] },
+  { name: 'Abuja', x: 50, y: 42, practitioners: 1600, formulations: 6400, conditions: ['Malaria', 'Cough'] },
+  { name: 'Enugu', x: 58, y: 55, practitioners: 1200, formulations: 5100, conditions: ['Fever', 'Digestive'] },
+  { name: 'Kano', x: 48, y: 20, practitioners: 900, formulations: 3800, conditions: ['Malaria', 'Stomach'] },
+  { name: 'Abeokuta', x: 28, y: 58, practitioners: 800, formulations: 3200, conditions: ['Fever', 'Pain'] },
+  { name: 'Calabar', x: 62, y: 62, practitioners: 500, formulations: 2100, conditions: ['Malaria', 'Skin'] },
+];
+
+export const SAFETY_SIGNALS = [
+  { id: 's1', title: 'GI distress linked to Senna alexandrina at high dose', region: 'Ogun, Lagos', reports: 7, severity: 'Moderate', status: 'Under review',
+    detail: 'Seven independent practitioners reported gastrointestinal distress in patients using formulations containing Senna alexandrina (senna leaf) at doses exceeding 2g per preparation. Symptoms include cramping, diarrhoea, and abdominal pain. All cases resolved after dose reduction or discontinuation.',
+    ingredients: ['Senna alexandrina'], timeline: 'First report: Nov 2029. Most recent: Feb 2030.', action: 'Practitioners notified. Dose guidance under review.' },
+  { id: 's2', title: 'Dizziness in hypertension formulations used with ACE inhibitors', region: 'Lagos', reports: 4, severity: 'Moderate', status: 'Investigating',
+    detail: 'Four reports of significant dizziness and hypotension in patients concurrently using traditional antihypertensive formulations and prescribed ACE inhibitors. Potential drug-herb interaction. All patients were taking both conventional and traditional treatments without informing either practitioner.',
+    ingredients: ['Allium sativum', 'Moringa oleifera'], timeline: 'First report: Jan 2030. Most recent: Feb 2030.', action: 'Investigating interaction mechanism. Alert sent to practitioners with antihypertensive formulations.' },
+  { id: 's3', title: 'Skin irritation from topical preparation', region: 'Ibadan', reports: 3, severity: 'Mild', status: 'Monitoring',
+    detail: 'Three reports of contact dermatitis from a topical wound preparation. All cases mild, resolved within 48 hours of discontinuation. Possibly related to Capsicum frutescens concentration in the preparation.',
+    ingredients: ['Capsicum frutescens'], timeline: 'First report: Dec 2029. Most recent: Feb 2030.', action: 'Monitoring. No practitioner action required at this time.' },
+];
+
+export const COUNTRIES = [
+  { flag: '🇳🇬', name: 'Nigeria', practitioners: 28400, formulations: 82000, outcomes: 380000, languages: 'Yoruba, Igbo, Hausa, Pidgin', since: '2026', topConditions: ['Malaria/Fever', 'Diabetes', 'Cough', 'Hypertension', 'Digestive'], topBotanicals: ['Azadirachta indica', 'Vernonia amygdalina', 'Garcinia kola', 'Cymbopogon citratus', 'Moringa oleifera'], eff: 83, growth: 420 },
+  { flag: '🇬🇭', name: 'Ghana', practitioners: 8200, formulations: 24000, outcomes: 95000, languages: 'Twi, Ga, English', since: '2027', topConditions: ['Malaria', 'Skin diseases', 'Respiratory', 'Digestive', 'Pain'], topBotanicals: ['Azadirachta indica', 'Cryptolepis sanguinolenta', 'Moringa oleifera', 'Zingiber officinale', 'Ocimum gratissimum'], eff: 81, growth: 180 },
+  { flag: '🇰🇪', name: 'Kenya', practitioners: 6100, formulations: 18000, outcomes: 68000, languages: 'Kiswahili, English', since: '2027', topConditions: ['Malaria', 'Respiratory', 'Diabetes', 'Stomach', 'Wounds'], topBotanicals: ['Prunus africana', 'Warburgia ugandensis', 'Azadirachta indica', 'Aloe secundiflora', 'Zingiber officinale'], eff: 80, growth: 140 },
+  { flag: '🇿🇦', name: 'South Africa', practitioners: 4800, formulations: 12000, outcomes: 42000, languages: 'Zulu, Xhosa, English', since: '2028', topConditions: ['Respiratory', 'Diabetes', 'HIV support', 'Skin', 'Pain'], topBotanicals: ['Sutherlandia frutescens', 'Hypoxis hemerocallidea', 'Artemisia afra', 'Aloe ferox', 'Warburgia salutaris'], eff: 79, growth: 110 },
+  { flag: '🇺🇬', name: 'Uganda', practitioners: 2400, formulations: 6000, outcomes: 18000, languages: 'Luganda, English', since: '2028', topConditions: ['Malaria', 'Sickle cell', 'Cough', 'Diarrhea', 'Wounds'], topBotanicals: ['Azadirachta indica', 'Carica papaya', 'Zingiber officinale', 'Moringa oleifera', 'Bidens pilosa'], eff: 78, growth: 65 },
+  { flag: '🇹🇿', name: 'Tanzania', practitioners: 1200, formulations: 3000, outcomes: 8000, languages: 'Kiswahili, English', since: '2028', topConditions: ['Malaria', 'Respiratory', 'Stomach', 'Skin', 'Fever'], topBotanicals: ['Azadirachta indica', 'Aloe vera', 'Zingiber officinale', 'Moringa oleifera', 'Ocimum suave'], eff: 77, growth: 40 },
+  { flag: '🇸🇳', name: 'Senegal', practitioners: 800, formulations: 2000, outcomes: 5000, languages: 'Wolof, French', since: '2029', topConditions: ['Malaria', 'Diabetes', 'Respiratory', 'Digestive', 'Fever'], topBotanicals: ['Combretum micranthum', 'Guiera senegalensis', 'Azadirachta indica', 'Moringa oleifera', 'Cassia sieberiana'], eff: 76, growth: 30 },
+];
+```
+
+## Create src/App.jsx — Shell only
+Build ONLY the app shell with the top navigation bar and view switching. The views themselves will be placeholder text for now.
+
+```jsx
+import { useState } from 'react';
+import { COLORS } from './data';
+
+const VIEWS = [
+  { id: 'home', label: 'Home', icon: '🏠' },
+  { id: 'pract', label: 'Practitioner', icon: '🌿' },
+  { id: 'research', label: 'Researcher', icon: '🔬' },
+  { id: 'regulator', label: 'Regulator', icon: '🏛️' },
+  { id: 'public', label: 'Public data', icon: '🌍' },
+];
+
+export default function App() {
+  const [view, setView] = useState('home');
+
+  return (
+    <div style={{ minHeight: '100vh' }}>
+      {/* Sticky nav */}
+      <nav style={{
+        position: 'sticky', top: 0, zIndex: 100,
+        background: 'rgba(10,9,8,0.92)', backdropFilter: 'blur(16px)',
+        borderBottom: '1px solid rgba(255,255,255,0.06)',
+        padding: '12px 0',
+      }}>
+        <div style={{ maxWidth: 1200, margin: '0 auto', padding: '0 24px', display: 'flex', alignItems: 'center', gap: 16, flexWrap: 'wrap' }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginRight: 8 }}>
+            <div style={{ width: 28, height: 28, background: COLORS.forest, borderRadius: 8, display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#fff', fontStyle: 'normal', fontSize: 14, fontFamily: "'Instrument Serif', serif" }}>S</div>
+            <span style={{ fontFamily: "'Instrument Serif', serif", fontSize: 22, color: COLORS.forest }}>Sanko</span>
+          </div>
+          <span style={{ fontSize: 11, color: 'rgba(255,255,255,0.3)', fontWeight: 500, letterSpacing: 1, textTransform: 'uppercase' }}>Experience as:</span>
+          <div style={{ display: 'flex', gap: 4, flexWrap: 'wrap' }}>
+            {VIEWS.map(v => (
+              <button key={v.id} onClick={() => setView(v.id)} style={{
+                padding: '8px 16px', borderRadius: 99, fontSize: 12, fontWeight: 600,
+                color: view === v.id ? '#fff' : 'rgba(255,255,255,0.4)',
+                background: view === v.id ? COLORS.forest : 'transparent',
+                border: view === v.id ? `1px solid ${COLORS.forest}` : '1px solid rgba(255,255,255,0.06)',
+                cursor: 'pointer', fontFamily: "'Plus Jakarta Sans', sans-serif",
+                display: 'flex', alignItems: 'center', gap: 6, whiteSpace: 'nowrap',
+              }}>
+                <span style={{ fontSize: 14 }}>{v.icon}</span> {v.label}
+              </button>
+            ))}
+          </div>
+        </div>
+      </nav>
+
+      {/* View content */}
+      <main>
+        {view === 'home' && <div style={{ padding: 40, textAlign: 'center', color: 'rgba(255,255,255,0.3)' }}>Home view — Phase 2 will build this</div>}
+        {view === 'pract' && <div style={{ padding: 40, textAlign: 'center', color: 'rgba(255,255,255,0.3)' }}>Practitioner view — Phase 3 will build this</div>}
+        {view === 'research' && <div style={{ padding: 40, textAlign: 'center', color: 'rgba(255,255,255,0.3)' }}>Researcher view — Phase 4 will build this</div>}
+        {view === 'regulator' && <div style={{ padding: 40, textAlign: 'center', color: 'rgba(255,255,255,0.3)' }}>Regulator view — Phase 5 will build this</div>}
+        {view === 'public' && <div style={{ padding: 40, textAlign: 'center', color: 'rgba(255,255,255,0.3)' }}>Public data view — Phase 6 will build this</div>}
+      </main>
+    </div>
+  );
+}
+```
+
+## What to verify
+- `npm run dev` works and shows the app at localhost:5173
+- Top nav renders with all 5 tabs
+- Clicking tabs switches between placeholder views
+- The dark theme (#0A0908 background) is applied
+- Sanko logo renders in green
+
+## Commit message
+"Phase 1: Project setup, data layer, and app shell"
+
+Do NOT build any views beyond the shell. Stop here and commit.

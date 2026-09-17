@@ -1,0 +1,8 @@
+# https://www.sanko.africa/robots.txt
+User-agent: *
+Allow: /
+
+# Superseded first-version landing page. It carries a canonical tag pointing
+# at "/", so it is left crawlable for consolidation rather than blocked.
+
+Sitemap: https://www.sanko.africa/sitemap.xml

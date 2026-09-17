@@ -1,0 +1,36 @@
+{
+  "id": "18-partial-no-condition-clove",
+  "description": "Plant and preparation supplied with no condition claim.",
+  "practitioner": {
+    "display_name": "Efe",
+    "preferred_language": "en"
+  },
+  "turns": [
+    "I want to record only this preparation: soak three cloves in one cup of hot water for five minutes. I am not attaching it to any condition or dose yet.",
+    "Yes, that is accurate. Save exactly that and do not add anything."
+  ],
+  "expect": {
+    "tools": [
+      "save_formulation"
+    ],
+    "plants_include": [
+      "clove"
+    ],
+    "botanicals": {
+      "clove": "Syzygium aromaticum"
+    },
+    "fields": {
+      "condition_local": null,
+      "preparation.method": "infusion",
+      "preparation.duration_minutes": "5"
+    }
+  },
+  "editorial_review": {
+    "status": "complete",
+    "reviewer_role": "model_editorial",
+    "reviewer_ref": "codex-2026-08-13",
+    "reviewed_at": "2026-08-13T00:00:00Z",
+    "rubric_version": "editorial-v1",
+    "practitioner_review": "pending"
+  }
+}

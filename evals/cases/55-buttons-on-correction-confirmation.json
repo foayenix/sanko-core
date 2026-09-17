@@ -1,0 +1,35 @@
+{
+  "id": "55-buttons-on-correction-confirmation",
+  "description": "A correction to an existing record. Confirming an overwrite is the same yes-or-no shape as confirming a new record, and must offer the same buttons \u2014 this is the case that catches a model that learned the sentinel for one phrasing only. The second agreement is not the target shape: update_formulation's read-before-write gate refuses the first attempt and qwen2.5:32b answers the practitioner before going back to read the record, so they are asked twice. Drop that turn when a model reads first.",
+  "practitioner": {
+    "display_name": "Hauwa",
+    "preferred_language": "en",
+    "region": "Kaduna"
+  },
+  "seed": {
+    "formulations": [
+      {
+        "short_code": "FM-00001",
+        "condition_std": "Cough",
+        "dosage": {
+          "amount": "one cup",
+          "frequency": "twice daily"
+        }
+      }
+    ]
+  },
+  "turns": [
+    "On FM-00001, change the dosage. It is one cup at night only, not twice a day.",
+    "Yes, save it.",
+    "Yes, save it."
+  ],
+  "expect": {
+    "tools": [
+      "update_formulation"
+    ],
+    "forbidden_tools": [
+      "save_formulation"
+    ],
+    "choices": "required"
+  }
+}

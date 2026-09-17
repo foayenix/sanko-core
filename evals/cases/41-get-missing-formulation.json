@@ -1,0 +1,28 @@
+{
+  "id": "41-get-missing-formulation",
+  "description": "Unknown short code still routes to get_formulation and must not invent a record.",
+  "practitioner": {
+    "display_name": "Efe",
+    "preferred_language": "en"
+  },
+  "input": "Please open FM-99999 from my Vault.",
+  "expect": {
+    "tools": [
+      "get_formulation"
+    ],
+    "tools_may_refuse": [
+      "get_formulation"
+    ],
+    "forbidden_tools": [
+      "save_formulation"
+    ]
+  },
+  "editorial_review": {
+    "status": "complete",
+    "reviewer_role": "model_editorial",
+    "reviewer_ref": "codex-2026-08-13",
+    "reviewed_at": "2026-08-13T00:00:00Z",
+    "rubric_version": "editorial-v1",
+    "practitioner_review": "pending"
+  }
+}

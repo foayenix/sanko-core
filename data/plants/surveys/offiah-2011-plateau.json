@@ -1,0 +1,1218 @@
+[
+  {
+    "source_id": "offiah-2011-plateau",
+    "source_row": 1,
+    "botanical_as_published": "Acacia albida",
+    "family_as_published": "Fabaceae (Mimosaceae)",
+    "common_english_as_published": "Apple-ring Acacia, Winter Thorn",
+    "vernacular_as_published": "H: Gawo",
+    "vernacular_names": [
+      {
+        "local_name": "Gawo",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "leaves",
+      "stem bark"
+    ],
+    "evidence_frequency_as_published": "1 (0.40%)",
+    "use_context": "ethnoveterinary diarrhoea management"
+  },
+  {
+    "source_id": "offiah-2011-plateau",
+    "source_row": 2,
+    "botanical_as_published": "Acacia sieberiana",
+    "family_as_published": "Fabaceae",
+    "common_english_as_published": "White thorn, African laburnum",
+    "vernacular_as_published": "H: Farar kaya",
+    "vernacular_names": [
+      {
+        "local_name": "Farar kaya",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "leaves",
+      "stem bark"
+    ],
+    "evidence_frequency_as_published": "1 (0.40%)",
+    "use_context": "ethnoveterinary diarrhoea management"
+  },
+  {
+    "source_id": "offiah-2011-plateau",
+    "source_row": 3,
+    "botanical_as_published": "Adansonia digitata",
+    "family_as_published": "Bombacaceae",
+    "common_english_as_published": "Baobab Tree, Judas Fruit",
+    "vernacular_as_published": "H: Kuka",
+    "vernacular_names": [
+      {
+        "local_name": "Kuka",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "leaves"
+    ],
+    "evidence_frequency_as_published": "49 (19.76%)",
+    "use_context": "ethnoveterinary diarrhoea management"
+  },
+  {
+    "source_id": "offiah-2011-plateau",
+    "source_row": 4,
+    "botanical_as_published": "Adina microcephala",
+    "family_as_published": "Rubiaceae",
+    "common_english_as_published": "Adina, African teak",
+    "vernacular_as_published": "H: Madacin Rafi, Mangoron rafi",
+    "vernacular_names": [
+      {
+        "local_name": "Madacin Rafi",
+        "language": "ha"
+      },
+      {
+        "local_name": "Mangoron rafi",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "stem bark"
+    ],
+    "evidence_frequency_as_published": "2 (0.81%)",
+    "use_context": "ethnoveterinary diarrhoea management"
+  },
+  {
+    "source_id": "offiah-2011-plateau",
+    "source_row": 5,
+    "botanical_as_published": "Aloe buettneri",
+    "family_as_published": "Liliaceae",
+    "common_english_as_published": "West African aloe",
+    "vernacular_as_published": "H: Zabuwa; F: Zabuwahi",
+    "vernacular_names": [
+      {
+        "local_name": "Zabuwa",
+        "language": "ha"
+      },
+      {
+        "local_name": "Zabuwahi",
+        "language": "ff"
+      }
+    ],
+    "parts_reported": [
+      "leaves"
+    ],
+    "evidence_frequency_as_published": "2 (0.81%)",
+    "use_context": "ethnoveterinary diarrhoea management"
+  },
+  {
+    "source_id": "offiah-2011-plateau",
+    "source_row": 6,
+    "botanical_as_published": "Anogeissus leiocarpus",
+    "family_as_published": "Combretaceae",
+    "common_english_as_published": "African Birch",
+    "vernacular_as_published": "H: Marke; Y: Pako dudu, ayin",
+    "vernacular_names": [
+      {
+        "local_name": "Marke",
+        "language": "ha"
+      },
+      {
+        "local_name": "Pako dudu",
+        "language": "yo"
+      },
+      {
+        "local_name": "ayin",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaves",
+      "stem bark",
+      "seeds"
+    ],
+    "evidence_frequency_as_published": "6 (2.42%)",
+    "use_context": "ethnoveterinary diarrhoea management"
+  },
+  {
+    "source_id": "offiah-2011-plateau",
+    "source_row": 7,
+    "botanical_as_published": "Azadirachta indica",
+    "family_as_published": "Meliaceae",
+    "common_english_as_published": "Neem Tree,Nimba, Nimb",
+    "vernacular_as_published": "H: Dogon Yaro, Darbegiya",
+    "vernacular_names": [
+      {
+        "local_name": "Dogon Yaro",
+        "language": "ha"
+      },
+      {
+        "local_name": "Darbegiya",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "leaves"
+    ],
+    "evidence_frequency_as_published": "2 (0.81%)",
+    "use_context": "ethnoveterinary diarrhoea management"
+  },
+  {
+    "source_id": "offiah-2011-plateau",
+    "source_row": 8,
+    "botanical_as_published": "Bauhinia rufescens",
+    "family_as_published": "Fabaceae",
+    "common_english_as_published": "Bauhinia",
+    "vernacular_as_published": "H: Matsagi, Kalgon Allah F: Nammare",
+    "vernacular_names": [
+      {
+        "local_name": "Matsagi",
+        "language": "ha"
+      },
+      {
+        "local_name": "Kalgon Allah",
+        "language": "ha"
+      },
+      {
+        "local_name": "Nammare",
+        "language": "ff"
+      }
+    ],
+    "parts_reported": [
+      "leaves"
+    ],
+    "evidence_frequency_as_published": "1 (0.4%)",
+    "use_context": "ethnoveterinary diarrhoea management"
+  },
+  {
+    "source_id": "offiah-2011-plateau",
+    "source_row": 9,
+    "botanical_as_published": "Boswellia dalzielii Hutch",
+    "family_as_published": "Burseraceae",
+    "common_english_as_published": "Frankincense tree",
+    "vernacular_as_published": "H: Ararabi; Hano; F: Mangalede",
+    "vernacular_names": [
+      {
+        "local_name": "Ararabi",
+        "language": "ha"
+      },
+      {
+        "local_name": "Hano",
+        "language": "ha"
+      },
+      {
+        "local_name": "Mangalede",
+        "language": "ff"
+      }
+    ],
+    "parts_reported": [],
+    "evidence_frequency_as_published": "1 (0.40%)",
+    "use_context": "ethnoveterinary diarrhoea management"
+  },
+  {
+    "source_id": "offiah-2011-plateau",
+    "source_row": 10,
+    "botanical_as_published": "Burkea africana",
+    "family_as_published": "Fabaceae",
+    "common_english_as_published": "Wild seringa, Rhodesian ash, seringa tree",
+    "vernacular_as_published": "H: Gwazan kura, Bakin makarfo F: Jill arab",
+    "vernacular_names": [
+      {
+        "local_name": "Gwazan kura",
+        "language": "ha"
+      },
+      {
+        "local_name": "Bakin makarfo",
+        "language": "ha"
+      },
+      {
+        "local_name": "Jill arab",
+        "language": "ff"
+      }
+    ],
+    "parts_reported": [],
+    "evidence_frequency_as_published": "1 (0.40%)",
+    "use_context": "ethnoveterinary diarrhoea management"
+  },
+  {
+    "source_id": "offiah-2011-plateau",
+    "source_row": 11,
+    "botanical_as_published": "Carica papaya",
+    "family_as_published": "Caricaceae",
+    "common_english_as_published": "Paw-paw",
+    "vernacular_as_published": "H: Gwanda",
+    "vernacular_names": [
+      {
+        "local_name": "Gwanda",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "stem bark",
+      "seeds"
+    ],
+    "evidence_frequency_as_published": "3 (1.21%)",
+    "use_context": "ethnoveterinary diarrhoea management"
+  },
+  {
+    "source_id": "offiah-2011-plateau",
+    "source_row": 12,
+    "botanical_as_published": "Combretum glutinosum",
+    "family_as_published": "Combretaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "H: kantakara, Baushe",
+    "vernacular_names": [
+      {
+        "local_name": "kantakara",
+        "language": "ha"
+      },
+      {
+        "local_name": "Baushe",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "leaves",
+      "roots"
+    ],
+    "evidence_frequency_as_published": "11 (4.4%)",
+    "use_context": "ethnoveterinary diarrhoea management"
+  },
+  {
+    "source_id": "offiah-2011-plateau",
+    "source_row": 13,
+    "botanical_as_published": "Combretum lamprocarpum",
+    "family_as_published": "Combretaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "H: Bauli; F: Buski daneehi; Zindi; Y: ajantiro",
+    "vernacular_names": [
+      {
+        "local_name": "Bauli",
+        "language": "ha"
+      },
+      {
+        "local_name": "Buski daneehi",
+        "language": "ff"
+      },
+      {
+        "local_name": "Zindi",
+        "language": "ff"
+      },
+      {
+        "local_name": "ajantiro",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaves"
+    ],
+    "evidence_frequency_as_published": "2 (0.81%)",
+    "use_context": "ethnoveterinary diarrhoea management"
+  },
+  {
+    "source_id": "offiah-2011-plateau",
+    "source_row": 14,
+    "botanical_as_published": "Combretum molle",
+    "family_as_published": "Combretaceae",
+    "common_english_as_published": "Velvet bush/leaf willow",
+    "vernacular_as_published": "Gupiya (Ron)",
+    "vernacular_names": [],
+    "parts_reported": [],
+    "evidence_frequency_as_published": "1 (0.40%)",
+    "use_context": "ethnoveterinary diarrhoea management"
+  },
+  {
+    "source_id": "offiah-2011-plateau",
+    "source_row": 15,
+    "botanical_as_published": "Croton zambesicus",
+    "family_as_published": "Euphorbiaceae",
+    "common_english_as_published": "Tiger bush",
+    "vernacular_as_published": "Berom: Lieng",
+    "vernacular_names": [],
+    "parts_reported": [],
+    "evidence_frequency_as_published": "1 (0.40%)",
+    "use_context": "ethnoveterinary diarrhoea management"
+  },
+  {
+    "source_id": "offiah-2011-plateau",
+    "source_row": 16,
+    "botanical_as_published": "Cucumis metuliferus",
+    "family_as_published": "Cucurbitaceae.",
+    "common_english_as_published": "African horned cucumber or melon",
+    "vernacular_as_published": "Berom: Kwalchungul",
+    "vernacular_names": [],
+    "parts_reported": [
+      "fruits",
+      "whole plant"
+    ],
+    "evidence_frequency_as_published": "14 (5.65%)",
+    "use_context": "ethnoveterinary diarrhoea management"
+  },
+  {
+    "source_id": "offiah-2011-plateau",
+    "source_row": 17,
+    "botanical_as_published": "Daniellia oliveri",
+    "family_as_published": "Fabaceae",
+    "common_english_as_published": "African copaiba balsam tree",
+    "vernacular_as_published": "H: Maje, Kadaura",
+    "vernacular_names": [
+      {
+        "local_name": "Maje",
+        "language": "ha"
+      },
+      {
+        "local_name": "Kadaura",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "leaves"
+    ],
+    "evidence_frequency_as_published": "1 (0.41%)",
+    "use_context": "ethnoveterinary diarrhoea management"
+  },
+  {
+    "source_id": "offiah-2011-plateau",
+    "source_row": 18,
+    "botanical_as_published": "Detarium senegalensis",
+    "family_as_published": "Fabaceae",
+    "common_english_as_published": "Sweet detar",
+    "vernacular_as_published": "H: Gobodo; Farar taura",
+    "vernacular_names": [
+      {
+        "local_name": "Gobodo",
+        "language": "ha"
+      },
+      {
+        "local_name": "Farar taura",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "leaves",
+      "stem bark",
+      "roots"
+    ],
+    "evidence_frequency_as_published": "3 (1.31%)",
+    "use_context": "ethnoveterinary diarrhoea management"
+  },
+  {
+    "source_id": "offiah-2011-plateau",
+    "source_row": 19,
+    "botanical_as_published": "Erythrophleum sauveolens",
+    "family_as_published": "Fabaceae",
+    "common_english_as_published": "Ordeal tree, Sasswood tree",
+    "vernacular_as_published": "H: Samberu/Gwaska",
+    "vernacular_names": [
+      {
+        "local_name": "Samberu",
+        "language": "ha"
+      },
+      {
+        "local_name": "Gwaska",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [],
+    "evidence_frequency_as_published": "1 (0.40%)",
+    "use_context": "ethnoveterinary diarrhoea management"
+  },
+  {
+    "source_id": "offiah-2011-plateau",
+    "source_row": 20,
+    "botanical_as_published": "Erythrophloem africanum",
+    "family_as_published": "Fabaceae",
+    "common_english_as_published": "African blackwood",
+    "vernacular_as_published": "H:Goska; F: Naretibahi",
+    "vernacular_names": [
+      {
+        "local_name": "Goska",
+        "language": "ha"
+      },
+      {
+        "local_name": "Naretibahi",
+        "language": "ff"
+      }
+    ],
+    "parts_reported": [],
+    "evidence_frequency_as_published": "1 (0.40%)",
+    "use_context": "ethnoveterinary diarrhoea management"
+  },
+  {
+    "source_id": "offiah-2011-plateau",
+    "source_row": 21,
+    "botanical_as_published": "Eucalyptus tereticornis",
+    "family_as_published": "Myrtaceae",
+    "common_english_as_published": "Forest red gum",
+    "vernacular_as_published": "H: Turare",
+    "vernacular_names": [
+      {
+        "local_name": "Turare",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [],
+    "evidence_frequency_as_published": "1 (0.40%)",
+    "use_context": "ethnoveterinary diarrhoea management"
+  },
+  {
+    "source_id": "offiah-2011-plateau",
+    "source_row": 22,
+    "botanical_as_published": "Euphorbia hirta",
+    "family_as_published": "Euphorbiaceae",
+    "common_english_as_published": "Asthma Weed",
+    "vernacular_as_published": "H: Nonon kurciya; Oegendagar (Doemak)",
+    "vernacular_names": [
+      {
+        "local_name": "Nonon kurciya",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [],
+    "evidence_frequency_as_published": "1 (0.40%)",
+    "use_context": "ethnoveterinary diarrhoea management"
+  },
+  {
+    "source_id": "offiah-2011-plateau",
+    "source_row": 23,
+    "botanical_as_published": "Ficus ingens",
+    "family_as_published": "Moraceae",
+    "common_english_as_published": "Red-leaved fig",
+    "vernacular_as_published": "F: Nunahi; Bakurahi; H: Kawuri",
+    "vernacular_names": [
+      {
+        "local_name": "Nunahi",
+        "language": "ff"
+      },
+      {
+        "local_name": "Bakurahi",
+        "language": "ff"
+      },
+      {
+        "local_name": "Kawuri",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "leaves"
+    ],
+    "evidence_frequency_as_published": "2 (0.81%)",
+    "use_context": "ethnoveterinary diarrhoea management"
+  },
+  {
+    "source_id": "offiah-2011-plateau",
+    "source_row": 24,
+    "botanical_as_published": "Ficus platyphylla",
+    "family_as_published": "Moraceae",
+    "common_english_as_published": "Flake/Red Kano rubber tree",
+    "vernacular_as_published": "H: Gamji; F: Dundehi",
+    "vernacular_names": [
+      {
+        "local_name": "Gamji",
+        "language": "ha"
+      },
+      {
+        "local_name": "Dundehi",
+        "language": "ff"
+      }
+    ],
+    "parts_reported": [
+      "stem bark"
+    ],
+    "evidence_frequency_as_published": "2 (0.81%)",
+    "use_context": "ethnoveterinary diarrhoea management"
+  },
+  {
+    "source_id": "offiah-2011-plateau",
+    "source_row": 25,
+    "botanical_as_published": "Ficus sycomorus L",
+    "family_as_published": "Moraceae",
+    "common_english_as_published": "Sycamore fig or fig mullberry",
+    "vernacular_as_published": "Baure (H)",
+    "vernacular_names": [
+      {
+        "local_name": "Baure",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "stem bark"
+    ],
+    "evidence_frequency_as_published": "1 (0.40%)",
+    "use_context": "ethnoveterinary diarrhoea management"
+  },
+  {
+    "source_id": "offiah-2011-plateau",
+    "source_row": 26,
+    "botanical_as_published": "Geranium spp",
+    "family_as_published": "Geraniaceae",
+    "common_english_as_published": "Crane's bill",
+    "vernacular_as_published": "H: Garahunu",
+    "vernacular_names": [
+      {
+        "local_name": "Garahunu",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [],
+    "evidence_frequency_as_published": "1 (0.40%)",
+    "use_context": "ethnoveterinary diarrhoea management"
+  },
+  {
+    "source_id": "offiah-2011-plateau",
+    "source_row": 27,
+    "botanical_as_published": "Gymnema sylvestris",
+    "family_as_published": "Asclepiadaceae",
+    "common_english_as_published": "Miracle fruit, australian cowplant",
+    "vernacular_as_published": "H: Kashe zaki",
+    "vernacular_names": [
+      {
+        "local_name": "Kashe zaki",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [],
+    "evidence_frequency_as_published": "1 (0.40%)",
+    "use_context": "ethnoveterinary diarrhoea management"
+  },
+  {
+    "source_id": "offiah-2011-plateau",
+    "source_row": 28,
+    "botanical_as_published": "Heeri pulcherrima",
+    "family_as_published": "Anacardiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "H: Hawayen zaki",
+    "vernacular_names": [
+      {
+        "local_name": "Hawayen zaki",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [],
+    "evidence_frequency_as_published": "1 (0.40%)",
+    "use_context": "ethnoveterinary diarrhoea management"
+  },
+  {
+    "source_id": "offiah-2011-plateau",
+    "source_row": 29,
+    "botanical_as_published": "Jatropha curcas L.",
+    "family_as_published": "Euphorbiaceae",
+    "common_english_as_published": "Purging nut, Barbados nut",
+    "vernacular_as_published": "H: Bini da zugu, Halallamai Mamulu",
+    "vernacular_names": [
+      {
+        "local_name": "Bini da zugu",
+        "language": "ha"
+      },
+      {
+        "local_name": "Halallamai Mamulu",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "leaves",
+      "stem bark",
+      "flower"
+    ],
+    "evidence_frequency_as_published": "1 (0.40%)",
+    "use_context": "ethnoveterinary diarrhoea management"
+  },
+  {
+    "source_id": "offiah-2011-plateau",
+    "source_row": 30,
+    "botanical_as_published": "Khaya senegalensis",
+    "family_as_published": "Meliaceae",
+    "common_english_as_published": "African Mahogany",
+    "vernacular_as_published": "H: Madaci",
+    "vernacular_names": [
+      {
+        "local_name": "Madaci",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "stem bark"
+    ],
+    "evidence_frequency_as_published": "43 (17.34%)",
+    "use_context": "ethnoveterinary diarrhoea management"
+  },
+  {
+    "source_id": "offiah-2011-plateau",
+    "source_row": 31,
+    "botanical_as_published": "Kigelia africana",
+    "family_as_published": "Bignoniaceae",
+    "common_english_as_published": "Cucumber or Sausage tree",
+    "vernacular_as_published": "H: Nonon giwa; F: Jillarehi",
+    "vernacular_names": [
+      {
+        "local_name": "Nonon giwa",
+        "language": "ha"
+      },
+      {
+        "local_name": "Jillarehi",
+        "language": "ff"
+      }
+    ],
+    "parts_reported": [
+      "stem bark"
+    ],
+    "evidence_frequency_as_published": "2 (0.81%)",
+    "use_context": "ethnoveterinary diarrhoea management"
+  },
+  {
+    "source_id": "offiah-2011-plateau",
+    "source_row": 32,
+    "botanical_as_published": "Lasiosiphon kraussianus",
+    "family_as_published": "Thymelaeaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "H: Shani ka sanni",
+    "vernacular_names": [
+      {
+        "local_name": "Shani ka sanni",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [],
+    "evidence_frequency_as_published": "1 (0.40%)",
+    "use_context": "ethnoveterinary diarrhoea management"
+  },
+  {
+    "source_id": "offiah-2011-plateau",
+    "source_row": 33,
+    "botanical_as_published": "Milletia thonningii",
+    "family_as_published": "Fabaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "H: Tumburku; Mmaruk (Taroh)",
+    "vernacular_names": [
+      {
+        "local_name": "Tumburku",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "roots"
+    ],
+    "evidence_frequency_as_published": "1 (0.40%)",
+    "use_context": "ethnoveterinary diarrhoea management"
+  },
+  {
+    "source_id": "offiah-2011-plateau",
+    "source_row": 34,
+    "botanical_as_published": "Mitragyna inermis",
+    "family_as_published": "Rubiaceae",
+    "common_english_as_published": "False abura",
+    "vernacular_as_published": "H: Giyayya; F: Koli",
+    "vernacular_names": [
+      {
+        "local_name": "Giyayya",
+        "language": "ha"
+      },
+      {
+        "local_name": "Koli",
+        "language": "ff"
+      }
+    ],
+    "parts_reported": [],
+    "evidence_frequency_as_published": "1 (0.40%)",
+    "use_context": "ethnoveterinary diarrhoea management"
+  },
+  {
+    "source_id": "offiah-2011-plateau",
+    "source_row": 35,
+    "botanical_as_published": "Moringa oleifera",
+    "family_as_published": "Asclepiadaceae",
+    "common_english_as_published": "Drumstick Tree",
+    "vernacular_as_published": "H: Zogale",
+    "vernacular_names": [
+      {
+        "local_name": "Zogale",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "leaves",
+      "stem bark",
+      "seeds"
+    ],
+    "evidence_frequency_as_published": "4 (1.61%)",
+    "use_context": "ethnoveterinary diarrhoea management"
+  },
+  {
+    "source_id": "offiah-2011-plateau",
+    "source_row": 36,
+    "botanical_as_published": "Nauclea latifolia",
+    "family_as_published": "Rubiaceae",
+    "common_english_as_published": "African peach, Pin cushion tree",
+    "vernacular_as_published": "H: Tafashiya, marga; I: nwabuakonshi; Y: Egbesi plant",
+    "vernacular_names": [
+      {
+        "local_name": "Tafashiya",
+        "language": "ha"
+      },
+      {
+        "local_name": "marga",
+        "language": "ha"
+      },
+      {
+        "local_name": "nwabuakonshi",
+        "language": "ig"
+      },
+      {
+        "local_name": "Egbesi plant",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [],
+    "evidence_frequency_as_published": "1 (0.40%)",
+    "use_context": "ethnoveterinary diarrhoea management"
+  },
+  {
+    "source_id": "offiah-2011-plateau",
+    "source_row": 37,
+    "botanical_as_published": "Ocimum gratissimum",
+    "family_as_published": "Lamiaceae",
+    "common_english_as_published": "Basil, Curry leaf",
+    "vernacular_as_published": "H: Daidoya",
+    "vernacular_names": [
+      {
+        "local_name": "Daidoya",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "leaves",
+      "whole plant"
+    ],
+    "evidence_frequency_as_published": "1 (0.40%)",
+    "use_context": "ethnoveterinary diarrhoea management"
+  },
+  {
+    "source_id": "offiah-2011-plateau",
+    "source_row": 38,
+    "botanical_as_published": "Parkia biglobosa",
+    "family_as_published": "Fabaceae (Mimosaceae)",
+    "common_english_as_published": "African locust bean; Monkey cutlass tree",
+    "vernacular_as_published": "H: Doruwa",
+    "vernacular_names": [
+      {
+        "local_name": "Doruwa",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "stem bark"
+    ],
+    "evidence_frequency_as_published": "6 (2.42%)",
+    "use_context": "ethnoveterinary diarrhoea management"
+  },
+  {
+    "source_id": "offiah-2011-plateau",
+    "source_row": 39,
+    "botanical_as_published": "Piliostigma reticulatum",
+    "family_as_published": "Leguminosae Caesalpiniaceae",
+    "common_english_as_published": "English: camel's foot (Etkin).",
+    "vernacular_as_published": "H: 'kalgo; F: Batehi; Y: 'abafin' I: okpo atu",
+    "vernacular_names": [
+      {
+        "local_name": "kalgo",
+        "language": "ha"
+      },
+      {
+        "local_name": "Batehi",
+        "language": "ff"
+      },
+      {
+        "local_name": "abafin",
+        "language": "yo"
+      },
+      {
+        "local_name": "okpo atu",
+        "language": "ig"
+      }
+    ],
+    "parts_reported": [
+      "leaves"
+    ],
+    "evidence_frequency_as_published": "5 (2.02%)",
+    "use_context": "ethnoveterinary diarrhoea management"
+  },
+  {
+    "source_id": "offiah-2011-plateau",
+    "source_row": 40,
+    "botanical_as_published": "Piliostigma thonningii",
+    "family_as_published": "Fabaceae",
+    "common_english_as_published": "camel's foot, monkey bread, Rhodesian bauhinia",
+    "vernacular_as_published": "Kalgo/Kargo (Hausa)",
+    "vernacular_names": [
+      {
+        "local_name": "Kalgo",
+        "language": "ha"
+      },
+      {
+        "local_name": "Kargo",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "leaves"
+    ],
+    "evidence_frequency_as_published": "5 (2.02%)",
+    "use_context": "ethnoveterinary diarrhoea management"
+  },
+  {
+    "source_id": "offiah-2011-plateau",
+    "source_row": 41,
+    "botanical_as_published": "Prosopis Africana",
+    "family_as_published": "Fabaceae",
+    "common_english_as_published": "Iron wood; Axlewood",
+    "vernacular_as_published": "H: Kirya; F: Kwahi",
+    "vernacular_names": [
+      {
+        "local_name": "Kirya",
+        "language": "ha"
+      },
+      {
+        "local_name": "Kwahi",
+        "language": "ff"
+      }
+    ],
+    "parts_reported": [
+      "stem bark"
+    ],
+    "evidence_frequency_as_published": "3 (1.31)",
+    "use_context": "ethnoveterinary diarrhoea management"
+  },
+  {
+    "source_id": "offiah-2011-plateau",
+    "source_row": 42,
+    "botanical_as_published": "Psidium guajava",
+    "family_as_published": "Myrtaceae",
+    "common_english_as_published": "Guava",
+    "vernacular_as_published": "H: Gwaiva",
+    "vernacular_names": [
+      {
+        "local_name": "Gwaiva",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "leaves"
+    ],
+    "evidence_frequency_as_published": "16 (6.45%)",
+    "use_context": "ethnoveterinary diarrhoea management"
+  },
+  {
+    "source_id": "offiah-2011-plateau",
+    "source_row": 43,
+    "botanical_as_published": "Sarcocephalus latifolius (Smith) Bruce",
+    "family_as_published": "Rubiaceae",
+    "common_english_as_published": "Country fig; African peach",
+    "vernacular_as_published": "H: Tafashi; Y: Ogbase; Hang (Berom)",
+    "vernacular_names": [
+      {
+        "local_name": "Tafashi",
+        "language": "ha"
+      },
+      {
+        "local_name": "Ogbase",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaves",
+      "stem bark",
+      "roots"
+    ],
+    "evidence_frequency_as_published": "3 (1.21%)",
+    "use_context": "ethnoveterinary diarrhoea management"
+  },
+  {
+    "source_id": "offiah-2011-plateau",
+    "source_row": 44,
+    "botanical_as_published": "Schwenkia americana",
+    "family_as_published": "Solanaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "H: Dandana; F: Dupuhi; Y: Igbale odan; Collihi (Gwari)",
+    "vernacular_names": [
+      {
+        "local_name": "Dandana",
+        "language": "ha"
+      },
+      {
+        "local_name": "Dupuhi",
+        "language": "ff"
+      },
+      {
+        "local_name": "Igbale odan",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [],
+    "evidence_frequency_as_published": "1 (0.40%)",
+    "use_context": "ethnoveterinary diarrhoea management"
+  },
+  {
+    "source_id": "offiah-2011-plateau",
+    "source_row": 45,
+    "botanical_as_published": "Solanum dasyphyllum",
+    "family_as_published": "Solanaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "H: Gautan Kaji; Berom: Pyalgwol",
+    "vernacular_names": [
+      {
+        "local_name": "Gautan Kaji",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "fruits"
+    ],
+    "evidence_frequency_as_published": "6 (2.42%)",
+    "use_context": "ethnoveterinary diarrhoea management"
+  },
+  {
+    "source_id": "offiah-2011-plateau",
+    "source_row": 46,
+    "botanical_as_published": "Spermacoce villosus",
+    "family_as_published": "Rubiaceae",
+    "common_english_as_published": "False buttonweed",
+    "vernacular_as_published": "H: Goga masu Ron: Sandigis",
+    "vernacular_names": [],
+    "parts_reported": [],
+    "evidence_frequency_as_published": "1 (0.40%)",
+    "use_context": "ethnoveterinary diarrhoea management"
+  },
+  {
+    "source_id": "offiah-2011-plateau",
+    "source_row": 47,
+    "botanical_as_published": "Starchytarpheta angustifolia",
+    "family_as_published": "Verbanaceae",
+    "common_english_as_published": "Devil's coach whip",
+    "vernacular_as_published": "H: Tsarkiyar kuusuu, Wutsiyan kadangare",
+    "vernacular_names": [
+      {
+        "local_name": "Tsarkiyar kuusuu",
+        "language": "ha"
+      },
+      {
+        "local_name": "Wutsiyan kadangare",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "leaves",
+      "roots"
+    ],
+    "evidence_frequency_as_published": "2 (0.81%)",
+    "use_context": "ethnoveterinary diarrhoea management"
+  },
+  {
+    "source_id": "offiah-2011-plateau",
+    "source_row": 48,
+    "botanical_as_published": "Striga hermonthica (Del.) Benth",
+    "family_as_published": "Scrophulariaceae",
+    "common_english_as_published": "Witchweed; purple witchweed",
+    "vernacular_as_published": "H: Wuta-wuta; F: Turguel",
+    "vernacular_names": [
+      {
+        "local_name": "Wuta-wuta",
+        "language": "ha"
+      },
+      {
+        "local_name": "Turguel",
+        "language": "ff"
+      }
+    ],
+    "parts_reported": [
+      "whole plant"
+    ],
+    "evidence_frequency_as_published": "1 (0.41%)",
+    "use_context": "ethnoveterinary diarrhoea management"
+  },
+  {
+    "source_id": "offiah-2011-plateau",
+    "source_row": 49,
+    "botanical_as_published": "Tapinanthus dodoniefolius",
+    "family_as_published": "Loranthaceae",
+    "common_english_as_published": "Mistletoe on Locust bean",
+    "vernacular_as_published": "H: Kauchi",
+    "vernacular_names": [
+      {
+        "local_name": "Kauchi",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "leaves",
+      "whole plant"
+    ],
+    "evidence_frequency_as_published": "1 (0.40%)",
+    "use_context": "ethnoveterinary diarrhoea management"
+  },
+  {
+    "source_id": "offiah-2011-plateau",
+    "source_row": 50,
+    "botanical_as_published": "Tapinanthus globiferus",
+    "family_as_published": "Loranthaceae",
+    "common_english_as_published": "Mistletoe, loranthus, mulberry mistletoe",
+    "vernacular_as_published": "H: Kauchi",
+    "vernacular_names": [
+      {
+        "local_name": "Kauchi",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "leaves",
+      "whole plant"
+    ],
+    "evidence_frequency_as_published": "1 (0.40%)",
+    "use_context": "ethnoveterinary diarrhoea management"
+  },
+  {
+    "source_id": "offiah-2011-plateau",
+    "source_row": 51,
+    "botanical_as_published": "Terminalia avicennioides",
+    "family_as_published": "Combretaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "H: Baushe; Y: Igiodan; I: Edo; Kpayi (Gwari)",
+    "vernacular_names": [
+      {
+        "local_name": "Baushe",
+        "language": "ha"
+      },
+      {
+        "local_name": "Igiodan",
+        "language": "yo"
+      },
+      {
+        "local_name": "Edo",
+        "language": "ig"
+      }
+    ],
+    "parts_reported": [],
+    "evidence_frequency_as_published": "11 (4.44%)",
+    "use_context": "ethnoveterinary diarrhoea management"
+  },
+  {
+    "source_id": "offiah-2011-plateau",
+    "source_row": 52,
+    "botanical_as_published": "Terminalia macroptera",
+    "family_as_published": "Combretaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "H: Baushe; F: Bodi; Kung (Mwagavul)",
+    "vernacular_names": [
+      {
+        "local_name": "Baushe",
+        "language": "ha"
+      },
+      {
+        "local_name": "Bodi",
+        "language": "ff"
+      }
+    ],
+    "parts_reported": [
+      "leaves",
+      "roots"
+    ],
+    "evidence_frequency_as_published": "11 (4.4%)",
+    "use_context": "ethnoveterinary diarrhoea management"
+  },
+  {
+    "source_id": "offiah-2011-plateau",
+    "source_row": 53,
+    "botanical_as_published": "Terminalia mollis",
+    "family_as_published": "Combretaceae",
+    "common_english_as_published": "Large-leaved terminalia",
+    "vernacular_as_published": "Dakun (Mushere)",
+    "vernacular_names": [],
+    "parts_reported": [
+      "roots"
+    ],
+    "evidence_frequency_as_published": "2 (0.81%)",
+    "use_context": "ethnoveterinary diarrhoea management"
+  },
+  {
+    "source_id": "offiah-2011-plateau",
+    "source_row": 54,
+    "botanical_as_published": "Tridax procumbens",
+    "family_as_published": "Combretaceae",
+    "common_english_as_published": "Coat buttons",
+    "vernacular_as_published": "Kwalla: Magaja",
+    "vernacular_names": [],
+    "parts_reported": [],
+    "evidence_frequency_as_published": "1 (0.40%)",
+    "use_context": "ethnoveterinary diarrhoea management"
+  },
+  {
+    "source_id": "offiah-2011-plateau",
+    "source_row": 55,
+    "botanical_as_published": "Vernonia guineensis",
+    "family_as_published": "Asteraceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": null,
+    "vernacular_names": [],
+    "parts_reported": [],
+    "evidence_frequency_as_published": "1 (0.40%)",
+    "use_context": "ethnoveterinary diarrhoea management"
+  },
+  {
+    "source_id": "offiah-2011-plateau",
+    "source_row": 56,
+    "botanical_as_published": "Vitellaria paradoxa Gaertn. (Butyrospermum paradoxum)",
+    "family_as_published": "Sapotaceae",
+    "common_english_as_published": "Sheabutter tree",
+    "vernacular_as_published": "H: Kadanya; I: okwuma; Y: akú malapa; Mes (Mushere)",
+    "vernacular_names": [
+      {
+        "local_name": "Kadanya",
+        "language": "ha"
+      },
+      {
+        "local_name": "okwuma",
+        "language": "ig"
+      },
+      {
+        "local_name": "akú malapa",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "stem bark"
+    ],
+    "evidence_frequency_as_published": "2 (0.81%)",
+    "use_context": "ethnoveterinary diarrhoea management"
+  },
+  {
+    "source_id": "offiah-2011-plateau",
+    "source_row": 57,
+    "botanical_as_published": "Vitex doniana",
+    "family_as_published": "Verbanaceae",
+    "common_english_as_published": "black plum",
+    "vernacular_as_published": "H: Dinya; F: Bodilohi (Munjiriya); I: Utakiri; Y: Ori-nla",
+    "vernacular_names": [
+      {
+        "local_name": "Dinya",
+        "language": "ha"
+      },
+      {
+        "local_name": "Bodilohi (Munjiriya)",
+        "language": "ff"
+      },
+      {
+        "local_name": "Utakiri",
+        "language": "ig"
+      },
+      {
+        "local_name": "Ori-nla",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaves",
+      "stem bark",
+      "fruits"
+    ],
+    "evidence_frequency_as_published": "11 (4.4%)",
+    "use_context": "ethnoveterinary diarrhoea management"
+  }
+]

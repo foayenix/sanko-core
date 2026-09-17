@@ -1,0 +1,23 @@
+{
+  "id": "52-register-name-then-region",
+  "description": "A stranger's first message. The agent asks for a name before anything else, records it, and does not save a formulation on the strength of one line.",
+  "practitioner": {
+    "display_name": null,
+    "preferred_language": null,
+    "region": null,
+    "registered_at": null
+  },
+  "turns": [
+    "Hello, I want to write down my medicines.",
+    "They call me Iya Ronke, and I practise in Ogun State."
+  ],
+  "expect": {
+    "tools": [
+      "set_profile",
+      "set_practice_details"
+    ],
+    "forbidden_tools": [
+      "save_formulation"
+    ]
+  }
+}

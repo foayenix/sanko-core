@@ -1,0 +1,30 @@
+{
+  "id": "07-patient-tracking",
+  "description": "Consent gate — check for an existing patient, send an invitation, and do not log treatment before the patient accepts.",
+  "practitioner": {
+    "display_name": "Baba Ade",
+    "preferred_language": "en"
+  },
+  "seed": {
+    "formulations": [
+      {
+        "short_code": "FM-00001",
+        "condition_std": "Malaria"
+      }
+    ]
+  },
+  "turns": [
+    "I want to track a new patient, Amina Yusuf. She is 34 and her WhatsApp number is 08031234567.",
+    "Yes, that is right."
+  ],
+  "expect": {
+    "tools": [
+      "create_patient",
+      "find_patient"
+    ],
+    "forbidden_tools": [
+      "save_formulation",
+      "log_treatment"
+    ]
+  }
+}

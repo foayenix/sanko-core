@@ -1,0 +1,174 @@
+# Sanko CI.
+#
+# The whole suite runs offline — the Supabase service is swapped for an in-memory
+# store and the model client for a scripted stand-in — so this needs no secrets
+# and can never touch a practitioner record. That is the property that makes it
+# safe to run on every push.
+
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+# A second push to the same branch cancels the first: nothing here is a deploy.
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        # 20 is the floor declared in package.json engines; 24 is what the M1 Max
+        # actually runs. Both, so a version-specific break is caught here rather
+        # than on the machine that serves practitioners.
+        node: ['20', '24']
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node }}
+          cache: npm
+
+      - run: npm ci
+
+      - name: Dependency audit
+        run: npm audit --audit-level=moderate
+
+      - name: Tests
+        run: npm test
+
+  data-integrity:
+    # The plant data is generated and committed. If a build no longer reproduces
+    # what is in the repository, the runtime index the agent loads has drifted
+    # from its sources — which is exactly the kind of silent corruption the
+    # provenance model exists to prevent.
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+      - run: npm ci
+
+      # data/plant_lookup_v1.json is committed but generated. If its sources are
+      # not in the repository, the index the agent loads cannot be reproduced,
+      # reviewed, or checked against the provenance rules — which is most of what
+      # data/plants/ exists to provide.
+      - name: Plant data sources are committed
+        run: |
+          for f in data/plants/sources.json data/plants/legacy_lookup_v1.json data/plants/practitioner_confirmations.json; do
+            if ! git ls-files --error-unmatch "$f" >/dev/null 2>&1; then
+              echo "::error::$f is not committed. data/plant_lookup_v1.json is generated from data/plants/;"
+              echo "::error::without those sources the runtime index cannot be reproduced or reviewed."
+              exit 1
+            fi
+          done
+
+      - name: Plant data is reproducible from its sources
+        run: |
+          npm run plants:build
+          git diff --exit-code -- data/plant_lookup_v1.json data/plants/
+
+      - name: Landing page plant count is in sync
+        run: |
+          node "sanko-landing page/scripts/sync-plant-count.mjs"
+          git diff --exit-code -- "sanko-landing page/public/landing/plant-count.js"
+
+      # public/privacy/index.html is generated from PRIVACY.md. A privacy notice
+      # that differs from the one in the repository is the version a person
+      # actually read being one nobody reviewed — which is how the page ended up
+      # at v1.0 while PRIVACY.md was at v1.1.
+      - name: Published privacy notice matches PRIVACY.md
+        run: |
+          npm run privacy:build
+          git diff --exit-code -- "sanko-landing page/public/privacy/index.html"
+
+      - name: Public plant resolver is reproducible
+        run: |
+          export RESOLVER_BUILD_DATE=$(node -p "require('./data/plants/resolver_build_report.json').built_at")
+          npm run plants:resolver
+          git diff --exit-code -- data/plants/resolver_build_report.json "sanko-landing page/public/plants/" "sanko-landing page/public/sitemap-plants.xml"
+          test -z "$(git ls-files --others --exclude-standard -- 'sanko-landing page/public/plants/')"
+
+      - name: Eval cases are well-formed
+        run: npm run eval -- --validate-only
+
+  secrets:
+    # Scan the complete tracked checkout, including newly imported files.
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: No credentials in the tree
+        run: node scripts/check-secrets.js
+
+      - name: Repository structure
+        run: node scripts/check-repository.js
+
+  landing:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: sanko-landing page
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: sanko-landing page/package-lock.json
+      - run: npm ci
+      - run: npm audit --audit-level=moderate
+      - run: npm run lint
+      - run: npm run build
+
+  migrations:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_USER: postgres
+          POSTGRES_DB: sanko_ci
+          POSTGRES_HOST_AUTH_METHOD: trust
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 5s
+          --health-timeout 5s
+          --health-retries 10
+    env:
+      SUPABASE_DB_URL: postgresql://postgres@127.0.0.1:5432/sanko_ci
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+      - run: npm ci
+      - name: Create Supabase-compatible test roles
+        run: psql "$SUPABASE_DB_URL" -v ON_ERROR_STOP=1 -c 'CREATE ROLE anon; CREATE ROLE authenticated; CREATE ROLE service_role BYPASSRLS;'
+      - name: Apply migrations and verify repeat run
+        run: |
+          npm run migrate
+          npm run migrate
+          npm run migrate:status
+          node - <<'NODE'
+          const { execFileSync } = require('node:child_process');
+          const { migrationFiles } = require('./scripts/migrate');
+          const applied = Number(execFileSync('psql', [process.env.SUPABASE_DB_URL, '-Atc', 'select count(*) from schema_migrations'], { encoding: 'utf8' }).trim());
+          if (applied !== migrationFiles().length) throw new Error('Not every migration was applied');
+          NODE

@@ -1,0 +1,38 @@
+{
+  "id": "11-igbo-utazi-uziza-bloating",
+  "description": "Igbo/English code-switching with two botanically known local plants.",
+  "practitioner": {
+    "display_name": "Chinasa",
+    "preferred_language": "ig"
+  },
+  "turns": [
+    "Maka afo juputara ikuku, I use utazi na uziza leaves. Pour hot water on them and leave for ten minutes. Drink half cup after food. Save this.",
+    "Yes, that is accurate. Save exactly that and do not add anything."
+  ],
+  "expect": {
+    "tools": [
+      "save_formulation"
+    ],
+    "plants_include": [
+      "utazi",
+      "uziza"
+    ],
+    "botanicals": {
+      "utazi": "Gongronema latifolium",
+      "uziza": "Piper guineense"
+    },
+    "fields": {
+      "preparation.method": "infusion",
+      "preparation.duration_minutes": "10",
+      "dosage.amount": "half cup"
+    }
+  },
+  "editorial_review": {
+    "status": "complete",
+    "reviewer_role": "model_editorial",
+    "reviewer_ref": "codex-2026-08-13",
+    "reviewed_at": "2026-08-13T00:00:00Z",
+    "rubric_version": "editorial-v1",
+    "practitioner_review": "pending"
+  }
+}

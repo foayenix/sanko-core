@@ -1,0 +1,23 @@
+{
+  "id": "34-vague-remedy-needs-details",
+  "description": "Condition-only claim must trigger clarification, not a fabricated record.",
+  "practitioner": {
+    "display_name": "Chinasa",
+    "preferred_language": "ig"
+  },
+  "input": "I have a strong remedy for waist pain that people ask me for.",
+  "expect": {
+    "tools": [],
+    "forbidden_tools": [
+      "save_formulation"
+    ]
+  },
+  "editorial_review": {
+    "status": "complete",
+    "reviewer_role": "model_editorial",
+    "reviewer_ref": "codex-2026-08-13",
+    "reviewed_at": "2026-08-13T00:00:00Z",
+    "rubric_version": "editorial-v1",
+    "practitioner_review": "pending"
+  }
+}

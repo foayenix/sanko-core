@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 158 48" role="img" aria-labelledby="title desc">
+  <title id="title">Sanko wordmark on dark</title>
+  <desc id="desc">The uppercase SANKO wordmark in mineral white.</desc>
+  <style>
+    @font-face { font-family: "Archivo Brand"; src: url("../fonts/archivo-variable.woff2") format("woff2"); font-weight: 400 900; }
+    text { font-family: "Archivo Brand", "Arial Narrow", sans-serif; font-size: 38px; font-weight: 850; letter-spacing: .95px; }
+  </style>
+  <text x="1" y="39" fill="#F5F2E8">SANKO</text>
+</svg>

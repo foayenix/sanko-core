@@ -1,0 +1,29 @@
+{
+  "id": "02-unknown-plant",
+  "description": "A plant that is not in the lookup. The model must record the local name and leave botanical null rather than guessing — guessing is what corrupts the dataset.",
+  "practitioner": {
+    "display_name": "Baba Ade",
+    "preferred_language": "yo"
+  },
+  "turns": [
+    "I use ewe kanranjanjan together with dongoyaro leaves for stubborn fever. Boil both in water. One cup morning and night. Please save this.",
+    "Yes that is correct, please save it."
+  ],
+  "expect": {
+    "tools": [
+      "save_formulation"
+    ],
+    "plants_include": [
+      "kanranjanjan",
+      "dongoyaro"
+    ],
+    "botanicals": {
+      "kanranjanjan": null,
+      "dongoyaro": "Azadirachta indica"
+    },
+    "confidence_between": [
+      0.4,
+      0.95
+    ]
+  }
+}

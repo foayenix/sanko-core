@@ -1,0 +1,44 @@
+{
+  "id": "40-update-complete-plants-list",
+  "description": "Adding a plant requires reading and replacing the complete plants array.",
+  "practitioner": {
+    "display_name": "Aderonke",
+    "preferred_language": "yo"
+  },
+  "turns": [
+    "Add atale to the dongoyaro already in FM-00001. Keep dongoyaro and make the complete plant list those two.",
+    "Yes, change it.",
+    "Yes, change it."
+  ],
+  "expect": {
+    "tools": [
+      "get_formulation",
+      "update_formulation"
+    ],
+    "choices": "required",
+    "forbidden_tools": [
+      "save_formulation"
+    ]
+  },
+  "editorial_review": {
+    "status": "complete",
+    "reviewer_role": "model_editorial",
+    "reviewer_ref": "codex-2026-08-13",
+    "reviewed_at": "2026-08-13T00:00:00Z",
+    "rubric_version": "editorial-v1",
+    "practitioner_review": "pending"
+  },
+  "seed": {
+    "formulations": [
+      {
+        "short_code": "FM-00001",
+        "plants": [
+          {
+            "local_name": "dongoyaro",
+            "botanical": "Azadirachta indica"
+          }
+        ]
+      }
+    ]
+  }
+}

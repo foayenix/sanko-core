@@ -1,0 +1,71 @@
+{
+  "built_at": "2026-09-17",
+  "pages_written": 582,
+  "vernacular_rows_considered": 565,
+  "vernacular_rows_published": 371,
+  "unique_names_published": 347,
+  "taxa_published": 226,
+  "contested_names_published": 18,
+  "languages_published": {
+    "yo": 305,
+    "ha": 46,
+    "ff": 16,
+    "ig": 4
+  },
+  "sources_published": [
+    "olanipekun-2022-lagos",
+    "sonibare-2008-anti-asthmatic",
+    "offiah-2011-plateau"
+  ],
+  "rows_withheld": {
+    "source legacy_unverified": 152,
+    "taxonomy_unresolved": 42
+  },
+  "sources_withheld": [
+    {
+      "id": "legacy-lookup-v1",
+      "ingestion_status": "legacy_unverified",
+      "publication_status": "active"
+    },
+    {
+      "id": "mukaila-2021-ile-ife",
+      "ingestion_status": "quarantined",
+      "publication_status": "retracted"
+    },
+    {
+      "id": "weli-2013-port-harcourt",
+      "ingestion_status": "staged_review",
+      "publication_status": "active"
+    },
+    {
+      "id": "anumudu-2025-nigeria-review",
+      "ingestion_status": "discovery_only",
+      "publication_status": "active"
+    },
+    {
+      "id": "oliver-bever-1986-tropical-west-africa",
+      "ingestion_status": "reference_only",
+      "publication_status": "active"
+    },
+    {
+      "id": "iwu-2014-african-medicinal-plants",
+      "ingestion_status": "staged_review",
+      "publication_status": "active"
+    },
+    {
+      "id": "europepmc-discovery",
+      "ingestion_status": "discovery_only",
+      "publication_status": "active"
+    },
+    {
+      "id": "wikidata-vernacular-candidates",
+      "ingestion_status": "discovery_only",
+      "publication_status": "active"
+    }
+  ],
+  "policy": {
+    "therapeutic_use_published": false,
+    "practitioner_confirmations_published": false,
+    "copyrighted_reference_material_published": false
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "27-oruwo-bark-decoction",
+  "description": "Yoruba local plant with bark rather than leaves.",
+  "practitioner": {
+    "display_name": "Aderonke",
+    "preferred_language": "yo"
+  },
+  "turns": [
+    "For iba, I use two small pieces of oruwo bark, not leaves. Boil in water for twenty-five minutes. One small cup at night for two nights. Save it.",
+    "Yes, that is accurate. Save exactly that and do not add anything."
+  ],
+  "expect": {
+    "tools": [
+      "save_formulation"
+    ],
+    "plants_include": [
+      "oruwo"
+    ],
+    "botanicals": {
+      "oruwo": "Morinda lucida"
+    },
+    "fields": {
+      "preparation.duration_minutes": "25",
+      "dosage.duration_days": "2"
+    }
+  },
+  "editorial_review": {
+    "status": "complete",
+    "reviewer_role": "model_editorial",
+    "reviewer_ref": "codex-2026-08-13",
+    "reviewed_at": "2026-08-13T00:00:00Z",
+    "rubric_version": "editorial-v1",
+    "practitioner_review": "pending"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "56-photo-plant-ask-then-name",
+  "description": "A photographed plant with no writing on it. The agent must ask what the practitioner calls it rather than naming it, then record their own word on the turn they say it. Naming the plant on the photo turn is the failure this case exists to catch: the tool layer refuses it, but a model that reaches for a name nobody said has not learned to abstain.",
+  "practitioner": {
+    "display_name": "Baba Ade",
+    "preferred_language": "yo",
+    "region": "Ibadan"
+  },
+  "turns": [
+    {
+      "photo": {
+        "reads_as": ""
+      }
+    },
+    "That one na abeere. Na the bark I dey use."
+  ],
+  "expect": {
+    "tools": [
+      "save_specimen"
+    ],
+    "forbidden_tools": [
+      "save_formulation"
+    ]
+  }
+}

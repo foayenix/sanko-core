@@ -1,0 +1,35 @@
+{
+  "id": "26-efirin-steam-inhalation",
+  "description": "Steam inhalation must not be converted to an oral dose.",
+  "practitioner": {
+    "display_name": "Aderonke",
+    "preferred_language": "yo"
+  },
+  "turns": [
+    "For blocked nose, put efirin leaves in hot water and inhale the steam for five minutes. Do not drink it. Once before sleep. Save it.",
+    "Yes, that is accurate. Save exactly that and do not add anything."
+  ],
+  "expect": {
+    "tools": [
+      "save_formulation"
+    ],
+    "plants_include": [
+      "efirin"
+    ],
+    "botanicals": {
+      "efirin": "Ocimum gratissimum"
+    },
+    "fields": {
+      "preparation.method": "steam inhalation",
+      "preparation.duration_minutes": "5"
+    }
+  },
+  "editorial_review": {
+    "status": "complete",
+    "reviewer_role": "model_editorial",
+    "reviewer_ref": "codex-2026-08-13",
+    "reviewed_at": "2026-08-13T00:00:00Z",
+    "rubric_version": "editorial-v1",
+    "practitioner_review": "pending"
+  }
+}

@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Sanko brand identity board</title>
+  <desc id="desc">The approved D1 Source Mark and SANKO lockups on dark and light surfaces, with the brand palette, typography and knowledge-thread graphic.</desc>
+  <style>
+    @font-face { font-family: "Archivo Brand"; src: url("../fonts/archivo-variable.woff2") format("woff2"); font-weight: 400 900; }
+    @font-face { font-family: "Plex Data"; src: url("../fonts/ibm-plex-mono-semibold.woff2") format("woff2"); font-weight: 500 600; }
+    .display { font-family: "Archivo Brand", "Arial Narrow", sans-serif; font-weight: 820; letter-spacing: -2px; }
+    .body { font-family: "Archivo Brand", sans-serif; font-weight: 450; }
+    .wordmark { font-family: "Archivo Brand", "Arial Narrow", sans-serif; font-weight: 850; letter-spacing: 1.9px; }
+    .data { font-family: "Plex Data", monospace; font-weight: 600; letter-spacing: 1.3px; }
+  </style>
+
+  <rect width="1600" height="1000" fill="#F5F2E8"/>
+  <rect width="800" height="760" fill="#17134F"/>
+  <rect x="800" width="800" height="760" fill="#F5F2E8"/>
+
+  <g transform="translate(88 72) scale(1.4)">
+    <path fill="#F5F2E8" fill-rule="evenodd" d="M4 4h20l5 5v11h15v14H29v10H4V4Zm11 7h8v8h-8v-8Z"/>
+  </g>
+  <text class="wordmark" x="178" y="130" fill="#F5F2E8" font-size="54">SANKO</text>
+  <text class="data" x="88" y="210" fill="#C8F35B" font-size="16">EVIDENCE INFRASTRUCTURE FOR AFRICAN TRADITIONAL MEDICINE</text>
+  <text class="display" x="88" y="305" fill="#F5F2E8" font-size="68">Living knowledge,</text>
+  <text class="display" x="88" y="373" fill="#F5F2E8" font-size="68">structured with</text>
+  <text class="display" x="88" y="441" fill="#C8F35B" font-size="68">its source intact.</text>
+  <text class="body" x="88" y="506" fill="#C9C6D5" font-size="24">Private records. Visible provenance.</text>
+  <text class="body" x="88" y="540" fill="#C9C6D5" font-size="24">Practitioner ownership.</text>
+
+  <g fill="none" stroke="#C8F35B" stroke-width="3">
+    <path d="M88 642H240L278 604H370L406 640H540L578 602H708"/>
+    <rect x="266" y="592" width="24" height="24" transform="rotate(45 278 604)"/>
+    <rect x="566" y="590" width="24" height="24" transform="rotate(45 578 602)"/>
+  </g>
+  <g fill="#17134F" stroke="#C8F35B" stroke-width="3">
+    <rect x="82" y="636" width="12" height="12"/>
+    <rect x="702" y="596" width="12" height="12"/>
+  </g>
+  <text class="data" x="88" y="694" fill="#C8F35B" font-size="15">SOURCE → STRUCTURE → PROVENANCE</text>
+
+  <g transform="translate(888 72) scale(1.4)">
+    <path fill="#17134F" fill-rule="evenodd" d="M4 4h20l5 5v11h15v14H29v10H4V4Zm11 7h8v8h-8v-8Z"/>
+  </g>
+  <text class="wordmark" x="978" y="130" fill="#17134F" font-size="54">SANKO</text>
+  <text class="data" x="888" y="210" fill="#9F3E29" font-size="16">THE D1 SOURCE MARK</text>
+  <text class="display" x="888" y="305" fill="#17134F" font-size="68">Turn living</text>
+  <text class="display" x="888" y="373" fill="#17134F" font-size="68">knowledge into</text>
+  <text class="display" x="888" y="441" fill="#17134F" font-size="68">verifiable evidence.</text>
+
+  <g transform="translate(888 500)">
+    <path fill="#17134F" fill-rule="evenodd" d="M4 4h80l20 20v44h60v56h-60v40H4V4Zm44 28h32v32H48V32Z"/>
+    <g class="data" fill="#565369" font-size="14">
+      <text x="204" y="24">BODY / KNOWLEDGE SOURCE</text>
+      <text x="204" y="60">COUNTER / TRACEABLE RECORD</text>
+      <text x="204" y="96">CHAMFER / DELIBERATE TRANSITION</text>
+      <text x="204" y="132">RIGHT ARM / STRUCTURED MOVEMENT</text>
+    </g>
+  </g>
+
+  <g transform="translate(0 760)">
+    <rect width="200" height="240" fill="#17134F"/>
+    <rect x="200" width="200" height="240" fill="#080840"/>
+    <rect x="400" width="200" height="240" fill="#030326"/>
+    <rect x="600" width="200" height="240" fill="#C8F35B"/>
+    <rect x="800" width="200" height="240" fill="#D76545"/>
+    <rect x="1000" width="200" height="240" fill="#F5F2E8"/>
+    <rect x="1200" width="200" height="240" fill="#090A23"/>
+    <rect x="1400" width="200" height="240" fill="#34346B"/>
+
+    <g class="data" font-size="13">
+      <text x="24" y="190" fill="#F5F2E8">BRAND INDIGO</text><text x="24" y="214" fill="#C9C6D5">#17134F</text>
+      <text x="224" y="190" fill="#F5F2E8">FIELD INDIGO</text><text x="224" y="214" fill="#C9C6D5">#080840</text>
+      <text x="424" y="190" fill="#F5F2E8">DEEP INDIGO</text><text x="424" y="214" fill="#C9C6D5">#030326</text>
+      <text x="624" y="190" fill="#17134F">SIGNAL</text><text x="624" y="214" fill="#17134F">#C8F35B</text>
+      <text x="824" y="190" fill="#17134F">COPPER</text><text x="824" y="214" fill="#17134F">#D76545</text>
+      <text x="1024" y="190" fill="#17134F">MINERAL</text><text x="1024" y="214" fill="#565369">#F5F2E8</text>
+      <text x="1224" y="190" fill="#F5F2E8">INK</text><text x="1224" y="214" fill="#C9C6D5">#090A23</text>
+      <text x="1424" y="190" fill="#F5F2E8">INDIGO LINE</text><text x="1424" y="214" fill="#C9C6D5">#34346B</text>
+    </g>
+  </g>
+</svg>

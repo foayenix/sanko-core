@@ -1,0 +1,17 @@
+{
+  "id": "54-no-buttons-for-open-question",
+  "description": "The practitioner names a condition but no plants. The only question left is which plants they use, and its answer is theirs to word — offering a list of plants to tap would put names into the record that nobody said.",
+  "practitioner": {
+    "display_name": "Baba Nnamdi",
+    "preferred_language": "en",
+    "region": "Enugu"
+  },
+  "input": "I have a medicine I use for cough. Let me tell you about it.",
+  "expect": {
+    "tools": [],
+    "forbidden_tools": [
+      "save_formulation"
+    ],
+    "choices": "forbidden"
+  }
+}

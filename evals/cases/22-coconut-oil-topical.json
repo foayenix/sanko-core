@@ -1,0 +1,35 @@
+{
+  "id": "22-coconut-oil-topical",
+  "description": "Topical coconut oil record without fabricated duration.",
+  "practitioner": {
+    "display_name": "Efe",
+    "preferred_language": "en"
+  },
+  "turns": [
+    "For dry skin I rub a little coconut oil on the area after bathing. I did not specify how many days. Please record it.",
+    "Yes, that is accurate. Save exactly that and do not add anything."
+  ],
+  "expect": {
+    "tools": [
+      "save_formulation"
+    ],
+    "plants_include": [
+      "coconut"
+    ],
+    "botanicals": {
+      "coconut": "Cocos nucifera"
+    },
+    "fields": {
+      "preparation.method": "topical",
+      "dosage.duration_days": null
+    }
+  },
+  "editorial_review": {
+    "status": "complete",
+    "reviewer_role": "model_editorial",
+    "reviewer_ref": "codex-2026-08-13",
+    "reviewed_at": "2026-08-13T00:00:00Z",
+    "rubric_version": "editorial-v1",
+    "practitioner_review": "pending"
+  }
+}

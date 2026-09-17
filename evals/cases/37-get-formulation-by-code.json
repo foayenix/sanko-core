@@ -1,0 +1,39 @@
+{
+  "id": "37-get-formulation-by-code",
+  "description": "Specific short code routes to full formulation retrieval.",
+  "practitioner": {
+    "display_name": "Efe",
+    "preferred_language": "en"
+  },
+  "input": "Open formulation FM-00001 and read the full record back to me.",
+  "expect": {
+    "tools": [
+      "get_formulation"
+    ],
+    "forbidden_tools": [
+      "save_formulation"
+    ]
+  },
+  "editorial_review": {
+    "status": "complete",
+    "reviewer_role": "model_editorial",
+    "reviewer_ref": "codex-2026-08-13",
+    "reviewed_at": "2026-08-13T00:00:00Z",
+    "rubric_version": "editorial-v1",
+    "practitioner_review": "pending"
+  },
+  "seed": {
+    "formulations": [
+      {
+        "short_code": "FM-00001",
+        "condition_std": "Cough",
+        "plants": [
+          {
+            "local_name": "atale",
+            "botanical": "Zingiber officinale"
+          }
+        ]
+      }
+    ]
+  }
+}

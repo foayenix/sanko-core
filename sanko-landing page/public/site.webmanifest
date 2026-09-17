@@ -1,0 +1,14 @@
+{
+  "name": "Sanko",
+  "short_name": "Sanko",
+  "description": "Evidence infrastructure for African traditional medicine.",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#080840",
+  "background_color": "#080840",
+  "icons": [
+    { "src": "/android-chrome-192x192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/android-chrome-512x512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/favicon.svg", "type": "image/svg+xml", "sizes": "any" }
+  ]
+}

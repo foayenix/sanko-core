@@ -1,0 +1,10 @@
+{
+  "id": "05-browse-not-save",
+  "description": "Routing check. A question about existing records must list the vault, not create a new formulation.",
+  "practitioner": { "display_name": "Baba Ade", "preferred_language": "en" },
+  "input": "What remedies have I recorded so far this month?",
+  "expect": {
+    "tools": ["list_formulations"],
+    "forbidden_tools": ["save_formulation", "create_patient"]
+  }
+}

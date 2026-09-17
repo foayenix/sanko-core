@@ -1,0 +1,26 @@
+{
+  "id": "06-pidgin-cough",
+  "description": "Nigerian Pidgin with English code-switching — the register practitioners actually use on WhatsApp.",
+  "practitioner": {
+    "display_name": "Nkem",
+    "preferred_language": "en"
+  },
+  "turns": [
+    "Oga make I tell you, for cough wey no dey gree go, I dey use atale with honey. You go grate the atale small, put am inside hot water, add honey. Make dem drink am three times for one day. Abeg save am.",
+    "Yes na, e correct. Save am."
+  ],
+  "expect": {
+    "tools": [
+      "save_formulation"
+    ],
+    "plants_include": [
+      "atale"
+    ],
+    "botanicals": {
+      "atale": "Zingiber officinale"
+    },
+    "fields": {
+      "dosage.frequency": "three"
+    }
+  }
+}

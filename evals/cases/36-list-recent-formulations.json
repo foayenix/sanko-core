@@ -1,0 +1,26 @@
+{
+  "id": "36-list-recent-formulations",
+  "description": "Browsing request routes to list_formulations only.",
+  "practitioner": {
+    "display_name": "Efe",
+    "preferred_language": "en"
+  },
+  "input": "Show me my five most recently saved formulations.",
+  "expect": {
+    "tools": [
+      "list_formulations"
+    ],
+    "forbidden_tools": [
+      "save_formulation",
+      "update_formulation"
+    ]
+  },
+  "editorial_review": {
+    "status": "complete",
+    "reviewer_role": "model_editorial",
+    "reviewer_ref": "codex-2026-08-13",
+    "reviewed_at": "2026-08-13T00:00:00Z",
+    "rubric_version": "editorial-v1",
+    "practitioner_review": "pending"
+  }
+}

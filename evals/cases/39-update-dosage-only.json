@@ -1,0 +1,44 @@
+{
+  "id": "39-update-dosage-only",
+  "description": "Dosage correction preserves the record identity.",
+  "practitioner": {
+    "display_name": "Efe",
+    "preferred_language": "en"
+  },
+  "turns": [
+    "For FM-00001, correct the dosage to half a cup twice daily for two days. Do not change its plants.",
+    "Yes, change it.",
+    "Yes, change it."
+  ],
+  "expect": {
+    "tools": [
+      "get_formulation",
+      "update_formulation"
+    ],
+    "choices": "required",
+    "forbidden_tools": [
+      "save_formulation"
+    ]
+  },
+  "editorial_review": {
+    "status": "complete",
+    "reviewer_role": "model_editorial",
+    "reviewer_ref": "codex-2026-08-13",
+    "reviewed_at": "2026-08-13T00:00:00Z",
+    "rubric_version": "editorial-v1",
+    "practitioner_review": "pending"
+  },
+  "seed": {
+    "formulations": [
+      {
+        "short_code": "FM-00001",
+        "plants": [
+          {
+            "local_name": "moringa",
+            "botanical": "Moringa oleifera"
+          }
+        ]
+      }
+    ]
+  }
+}

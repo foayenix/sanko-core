@@ -1,0 +1,24 @@
+{
+  "id": "51-register-region-before-save",
+  "description": "A named practitioner who has not said where they practise opens with a whole remedy. The agent must take it in, ask for the region, and not save until it has one.",
+  "practitioner": {
+    "display_name": "Baba Ade",
+    "preferred_language": "yo",
+    "region": null,
+    "registered_at": null
+  },
+  "turns": [
+    "For iba, I boil dongoyaro leaves with lemongrass, two handfuls each, one cup morning and night.",
+    "I dey work for Ibadan."
+  ],
+  "expect": {
+    "tools": [
+      "set_practice_details",
+      "save_formulation"
+    ],
+    "plants_include": [
+      "dongoyaro",
+      "lemongrass"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "23-moringa-leaf-powder",
+  "description": "Measured leaf powder with frequency but no treatment duration.",
+  "practitioner": {
+    "display_name": "Efe",
+    "preferred_language": "en"
+  },
+  "turns": [
+    "I dry moringa leaves in shade and grind them. For weakness, mix half a teaspoon into pap every morning. No number of days given. Save it.",
+    "Yes, that is accurate. Save exactly that and do not add anything."
+  ],
+  "expect": {
+    "tools": [
+      "save_formulation"
+    ],
+    "plants_include": [
+      "moringa"
+    ],
+    "botanicals": {
+      "moringa": "Moringa oleifera"
+    },
+    "fields": {
+      "preparation.method": "powder",
+      "dosage.amount": "half a teaspoon",
+      "dosage.frequency": "morning"
+    }
+  },
+  "editorial_review": {
+    "status": "complete",
+    "reviewer_role": "model_editorial",
+    "reviewer_ref": "codex-2026-08-13",
+    "reviewed_at": "2026-08-13T00:00:00Z",
+    "rubric_version": "editorial-v1",
+    "practitioner_review": "pending"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "31-two-unknown-plants",
+  "description": "Two unknown local names must both remain unresolved.",
+  "practitioner": {
+    "display_name": "Chinasa",
+    "preferred_language": "ig"
+  },
+  "turns": [
+    "For back ache I use akwukwo mgbada and mgbongbo-oma. Boil both in water for ten minutes. One cup once daily. Those are the exact names; save them.",
+    "Yes, that is accurate. Save exactly that and do not add anything."
+  ],
+  "expect": {
+    "tools": [
+      "save_formulation"
+    ],
+    "plants_include": [
+      "akwukwo mgbada",
+      "mgbongbo-oma"
+    ],
+    "botanicals": {
+      "akwukwo mgbada": null,
+      "mgbongbo-oma": null
+    },
+    "confidence_between": [
+      0.3,
+      0.85
+    ]
+  },
+  "editorial_review": {
+    "status": "complete",
+    "reviewer_role": "model_editorial",
+    "reviewer_ref": "codex-2026-08-13",
+    "reviewed_at": "2026-08-13T00:00:00Z",
+    "rubric_version": "editorial-v1",
+    "practitioner_review": "pending"
+  }
+}

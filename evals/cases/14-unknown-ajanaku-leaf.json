@@ -1,0 +1,39 @@
+{
+  "id": "14-unknown-ajanaku-leaf",
+  "description": "Unknown local plant must remain botanically unresolved.",
+  "practitioner": {
+    "display_name": "Aderonke",
+    "preferred_language": "yo"
+  },
+  "turns": [
+    "I use ewe ajanaku for body rash. Pound the leaves with a little water and apply on the skin once in the evening. Ajanaku is the exact local name. Save it.",
+    "Yes, that is accurate. Save exactly that and do not add anything."
+  ],
+  "expect": {
+    "tools": [
+      "save_formulation"
+    ],
+    "plants_include": [
+      "ajanaku"
+    ],
+    "botanicals": {
+      "ajanaku": null
+    },
+    "fields": {
+      "preparation.method": "poultice",
+      "dosage.frequency": "once"
+    },
+    "confidence_between": [
+      0.35,
+      0.85
+    ]
+  },
+  "editorial_review": {
+    "status": "complete",
+    "reviewer_role": "model_editorial",
+    "reviewer_ref": "codex-2026-08-13",
+    "reviewed_at": "2026-08-13T00:00:00Z",
+    "rubric_version": "editorial-v1",
+    "practitioner_review": "pending"
+  }
+}

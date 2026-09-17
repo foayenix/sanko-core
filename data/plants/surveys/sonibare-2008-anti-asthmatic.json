@@ -1,0 +1,880 @@
+[
+  {
+    "source_id": "sonibare-2008-anti-asthmatic",
+    "source_row": 1,
+    "botanical_as_published": "Abrus precatorius Linn.",
+    "family_as_published": "Papilionaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Omisinmisin",
+    "vernacular_names": [
+      {
+        "local_name": "Omisinmisin",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "voucher_specimen": null,
+    "use_context": "traditional anti-asthmatic plant report in southwestern Nigeria"
+  },
+  {
+    "source_id": "sonibare-2008-anti-asthmatic",
+    "source_row": 2,
+    "botanical_as_published": "Acacia nilotica (Guill. Et. Perr.) O. Ketze",
+    "family_as_published": "Mimosaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Booni",
+    "vernacular_names": [
+      {
+        "local_name": "Booni",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "fruit"
+    ],
+    "voucher_specimen": null,
+    "use_context": "traditional anti-asthmatic plant report in southwestern Nigeria"
+  },
+  {
+    "source_id": "sonibare-2008-anti-asthmatic",
+    "source_row": 3,
+    "botanical_as_published": "Aframomum melegueta K. Schum.",
+    "family_as_published": "Zingiberaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Atare",
+    "vernacular_names": [
+      {
+        "local_name": "Atare",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "rhizome"
+    ],
+    "voucher_specimen": null,
+    "use_context": "traditional anti-asthmatic plant report in southwestern Nigeria"
+  },
+  {
+    "source_id": "sonibare-2008-anti-asthmatic",
+    "source_row": 4,
+    "botanical_as_published": "Allium ascalonicum Linn.",
+    "family_as_published": "Liliaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Alubosa elewe",
+    "vernacular_names": [
+      {
+        "local_name": "Alubosa elewe",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "voucher_specimen": null,
+    "use_context": "traditional anti-asthmatic plant report in southwestern Nigeria"
+  },
+  {
+    "source_id": "sonibare-2008-anti-asthmatic",
+    "source_row": 5,
+    "botanical_as_published": "Allium sativum Linn.",
+    "family_as_published": "Liliaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ayuu",
+    "vernacular_names": [
+      {
+        "local_name": "Ayuu",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "bulb"
+    ],
+    "voucher_specimen": null,
+    "use_context": "traditional anti-asthmatic plant report in southwestern Nigeria"
+  },
+  {
+    "source_id": "sonibare-2008-anti-asthmatic",
+    "source_row": 6,
+    "botanical_as_published": "Anacardium occidentalis Linn.",
+    "family_as_published": "Anacardiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Kaju",
+    "vernacular_names": [
+      {
+        "local_name": "Kaju",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "bark"
+    ],
+    "voucher_specimen": null,
+    "use_context": "traditional anti-asthmatic plant report in southwestern Nigeria"
+  },
+  {
+    "source_id": "sonibare-2008-anti-asthmatic",
+    "source_row": 7,
+    "botanical_as_published": "Anogeissus leiocarpus (DC.) Guill. & Perr.",
+    "family_as_published": "Combretaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ayin",
+    "vernacular_names": [
+      {
+        "local_name": "Ayin",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "stem-bark"
+    ],
+    "voucher_specimen": null,
+    "use_context": "traditional anti-asthmatic plant report in southwestern Nigeria"
+  },
+  {
+    "source_id": "sonibare-2008-anti-asthmatic",
+    "source_row": 8,
+    "botanical_as_published": "Anthocleista djalonensis A.Chev.",
+    "family_as_published": "Loganiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Sapo",
+    "vernacular_names": [
+      {
+        "local_name": "Sapo",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "bark"
+    ],
+    "voucher_specimen": null,
+    "use_context": "traditional anti-asthmatic plant report in southwestern Nigeria"
+  },
+  {
+    "source_id": "sonibare-2008-anti-asthmatic",
+    "source_row": 9,
+    "botanical_as_published": "Aristolochia ringens Vahl",
+    "family_as_published": "Aristolochiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ako-igun",
+    "vernacular_names": [
+      {
+        "local_name": "Ako-igun",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "root"
+    ],
+    "voucher_specimen": null,
+    "use_context": "traditional anti-asthmatic plant report in southwestern Nigeria"
+  },
+  {
+    "source_id": "sonibare-2008-anti-asthmatic",
+    "source_row": 10,
+    "botanical_as_published": "Bridelia ferruginea Benth.",
+    "family_as_published": "Euphorbiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ira",
+    "vernacular_names": [
+      {
+        "local_name": "Ira",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "stem-bark"
+    ],
+    "voucher_specimen": null,
+    "use_context": "traditional anti-asthmatic plant report in southwestern Nigeria"
+  },
+  {
+    "source_id": "sonibare-2008-anti-asthmatic",
+    "source_row": 11,
+    "botanical_as_published": "Calliandra portoricensis (Jacq.) Benth",
+    "family_as_published": "Mimosaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Tude",
+    "vernacular_names": [
+      {
+        "local_name": "Tude",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "root"
+    ],
+    "voucher_specimen": null,
+    "use_context": "traditional anti-asthmatic plant report in southwestern Nigeria"
+  },
+  {
+    "source_id": "sonibare-2008-anti-asthmatic",
+    "source_row": 12,
+    "botanical_as_published": "Chasmanthera dependens Hochst",
+    "family_as_published": "Menispermaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ato",
+    "vernacular_names": [
+      {
+        "local_name": "Ato",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "stem"
+    ],
+    "voucher_specimen": null,
+    "use_context": "traditional anti-asthmatic plant report in southwestern Nigeria"
+  },
+  {
+    "source_id": "sonibare-2008-anti-asthmatic",
+    "source_row": 13,
+    "botanical_as_published": "Chrysophyllum albidum Linn.",
+    "family_as_published": "Sapotaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Agbalumo",
+    "vernacular_names": [
+      {
+        "local_name": "Agbalumo",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "stem-bark"
+    ],
+    "voucher_specimen": null,
+    "use_context": "traditional anti-asthmatic plant report in southwestern Nigeria"
+  },
+  {
+    "source_id": "sonibare-2008-anti-asthmatic",
+    "source_row": 14,
+    "botanical_as_published": "Cocos nucifera Linn.",
+    "family_as_published": "Arecaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Agbon",
+    "vernacular_names": [
+      {
+        "local_name": "Agbon",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "fruit"
+    ],
+    "voucher_specimen": null,
+    "use_context": "traditional anti-asthmatic plant report in southwestern Nigeria"
+  },
+  {
+    "source_id": "sonibare-2008-anti-asthmatic",
+    "source_row": 15,
+    "botanical_as_published": "Crassocephalum rubens (Juss. ex. Jacq.) S. Moore",
+    "family_as_published": "Asteraceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ebolo",
+    "vernacular_names": [
+      {
+        "local_name": "Ebolo",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "voucher_specimen": null,
+    "use_context": "traditional anti-asthmatic plant report in southwestern Nigeria"
+  },
+  {
+    "source_id": "sonibare-2008-anti-asthmatic",
+    "source_row": 16,
+    "botanical_as_published": "Crinum jagus (Thoms.) Dandy",
+    "family_as_published": "Amaryllidaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ogede-odo",
+    "vernacular_names": [
+      {
+        "local_name": "Ogede-odo",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "bulb"
+    ],
+    "voucher_specimen": null,
+    "use_context": "traditional anti-asthmatic plant report in southwestern Nigeria"
+  },
+  {
+    "source_id": "sonibare-2008-anti-asthmatic",
+    "source_row": 17,
+    "botanical_as_published": "Eugenia aromatica (Linn.) Baill.",
+    "family_as_published": "Myrtaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Kanafuru",
+    "vernacular_names": [
+      {
+        "local_name": "Kanafuru",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "flower"
+    ],
+    "voucher_specimen": null,
+    "use_context": "traditional anti-asthmatic plant report in southwestern Nigeria"
+  },
+  {
+    "source_id": "sonibare-2008-anti-asthmatic",
+    "source_row": 18,
+    "botanical_as_published": "Euphorbia hirta Linn.",
+    "family_as_published": "Euphorbiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Emi-ile",
+    "vernacular_names": [
+      {
+        "local_name": "Emi-ile",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "plant"
+    ],
+    "voucher_specimen": null,
+    "use_context": "traditional anti-asthmatic plant report in southwestern Nigeria"
+  },
+  {
+    "source_id": "sonibare-2008-anti-asthmatic",
+    "source_row": 19,
+    "botanical_as_published": "Euphorbia lateriflora Schum. et. Thonn.",
+    "family_as_published": "Euphorbiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Enu-opiri",
+    "vernacular_names": [
+      {
+        "local_name": "Enu-opiri",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "stem"
+    ],
+    "voucher_specimen": null,
+    "use_context": "traditional anti-asthmatic plant report in southwestern Nigeria"
+  },
+  {
+    "source_id": "sonibare-2008-anti-asthmatic",
+    "source_row": 20,
+    "botanical_as_published": "Gambeya africana Pierre",
+    "family_as_published": "Sapotaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Baaka",
+    "vernacular_names": [
+      {
+        "local_name": "Baaka",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "fruit"
+    ],
+    "voucher_specimen": null,
+    "use_context": "traditional anti-asthmatic plant report in southwestern Nigeria"
+  },
+  {
+    "source_id": "sonibare-2008-anti-asthmatic",
+    "source_row": 21,
+    "botanical_as_published": "Garcinia kola Linn.",
+    "family_as_published": "Clusiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Orogbo",
+    "vernacular_names": [
+      {
+        "local_name": "Orogbo",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "seed"
+    ],
+    "voucher_specimen": null,
+    "use_context": "traditional anti-asthmatic plant report in southwestern Nigeria"
+  },
+  {
+    "source_id": "sonibare-2008-anti-asthmatic",
+    "source_row": 22,
+    "botanical_as_published": "Gongronema latifolia Benth.",
+    "family_as_published": "Asclepiadaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Madunmaro",
+    "vernacular_names": [
+      {
+        "local_name": "Madunmaro",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "root"
+    ],
+    "voucher_specimen": null,
+    "use_context": "traditional anti-asthmatic plant report in southwestern Nigeria"
+  },
+  {
+    "source_id": "sonibare-2008-anti-asthmatic",
+    "source_row": 23,
+    "botanical_as_published": "Gossypium barbadense Linn.",
+    "family_as_published": "Malvaceeae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Owu",
+    "vernacular_names": [
+      {
+        "local_name": "Owu",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "seed"
+    ],
+    "voucher_specimen": null,
+    "use_context": "traditional anti-asthmatic plant report in southwestern Nigeria"
+  },
+  {
+    "source_id": "sonibare-2008-anti-asthmatic",
+    "source_row": 24,
+    "botanical_as_published": "Harungana madagascariens Lam.",
+    "family_as_published": "Hyperiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Amuje",
+    "vernacular_names": [
+      {
+        "local_name": "Amuje",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "bark"
+    ],
+    "voucher_specimen": null,
+    "use_context": "traditional anti-asthmatic plant report in southwestern Nigeria"
+  },
+  {
+    "source_id": "sonibare-2008-anti-asthmatic",
+    "source_row": 25,
+    "botanical_as_published": "Khaya ivorensis A. Juss.",
+    "family_as_published": "Meliaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Oganwo",
+    "vernacular_names": [
+      {
+        "local_name": "Oganwo",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "bark"
+    ],
+    "voucher_specimen": null,
+    "use_context": "traditional anti-asthmatic plant report in southwestern Nigeria"
+  },
+  {
+    "source_id": "sonibare-2008-anti-asthmatic",
+    "source_row": 26,
+    "botanical_as_published": "Kigelia Africana (Lam.) Benth",
+    "family_as_published": "Bignoniaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Pandoro",
+    "vernacular_names": [
+      {
+        "local_name": "Pandoro",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "stem-bark"
+    ],
+    "voucher_specimen": null,
+    "use_context": "traditional anti-asthmatic plant report in southwestern Nigeria"
+  },
+  {
+    "source_id": "sonibare-2008-anti-asthmatic",
+    "source_row": 27,
+    "botanical_as_published": "Lactuca taraxifolia (Wild.) Schum ex Horn Moore",
+    "family_as_published": "Asteraceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Yanrin",
+    "vernacular_names": [
+      {
+        "local_name": "Yanrin",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "voucher_specimen": null,
+    "use_context": "traditional anti-asthmatic plant report in southwestern Nigeria"
+  },
+  {
+    "source_id": "sonibare-2008-anti-asthmatic",
+    "source_row": 28,
+    "botanical_as_published": "Mimosa pigra Linn.",
+    "family_as_published": "Mimosaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ewon agogo",
+    "vernacular_names": [
+      {
+        "local_name": "Ewon agogo",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "stem"
+    ],
+    "voucher_specimen": null,
+    "use_context": "traditional anti-asthmatic plant report in southwestern Nigeria"
+  },
+  {
+    "source_id": "sonibare-2008-anti-asthmatic",
+    "source_row": 29,
+    "botanical_as_published": "Musa sapientum Linn.",
+    "family_as_published": "Musaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ogede were",
+    "vernacular_names": [
+      {
+        "local_name": "Ogede were",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "fruit"
+    ],
+    "voucher_specimen": null,
+    "use_context": "traditional anti-asthmatic plant report in southwestern Nigeria"
+  },
+  {
+    "source_id": "sonibare-2008-anti-asthmatic",
+    "source_row": 30,
+    "botanical_as_published": "Musanga cecropioides R. Br.",
+    "family_as_published": "Moraceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Agbawo",
+    "vernacular_names": [
+      {
+        "local_name": "Agbawo",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "bark"
+    ],
+    "voucher_specimen": null,
+    "use_context": "traditional anti-asthmatic plant report in southwestern Nigeria"
+  },
+  {
+    "source_id": "sonibare-2008-anti-asthmatic",
+    "source_row": 31,
+    "botanical_as_published": "Nauclea africana Wild.",
+    "family_as_published": "Rubiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Egbesi",
+    "vernacular_names": [
+      {
+        "local_name": "Egbesi",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "root"
+    ],
+    "voucher_specimen": null,
+    "use_context": "traditional anti-asthmatic plant report in southwestern Nigeria"
+  },
+  {
+    "source_id": "sonibare-2008-anti-asthmatic",
+    "source_row": 32,
+    "botanical_as_published": "Nicotiana tabacum Linn.",
+    "family_as_published": "Solanaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Taba",
+    "vernacular_names": [
+      {
+        "local_name": "Taba",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "voucher_specimen": null,
+    "use_context": "traditional anti-asthmatic plant report in southwestern Nigeria"
+  },
+  {
+    "source_id": "sonibare-2008-anti-asthmatic",
+    "source_row": 33,
+    "botanical_as_published": "Olax subscorpioidea Oliver",
+    "family_as_published": "Olacaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ifon",
+    "vernacular_names": [
+      {
+        "local_name": "Ifon",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "root"
+    ],
+    "voucher_specimen": null,
+    "use_context": "traditional anti-asthmatic plant report in southwestern Nigeria"
+  },
+  {
+    "source_id": "sonibare-2008-anti-asthmatic",
+    "source_row": 34,
+    "botanical_as_published": "Oxytenanthera abyssinica (Rich) Munro",
+    "family_as_published": "Gramineae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Aparun",
+    "vernacular_names": [
+      {
+        "local_name": "Aparun",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "root"
+    ],
+    "voucher_specimen": null,
+    "use_context": "traditional anti-asthmatic plant report in southwestern Nigeria"
+  },
+  {
+    "source_id": "sonibare-2008-anti-asthmatic",
+    "source_row": 35,
+    "botanical_as_published": "Picralima nitida (Stapf.) Th. & H. D",
+    "family_as_published": "Apocynaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Erin",
+    "vernacular_names": [
+      {
+        "local_name": "Erin",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "fruit"
+    ],
+    "voucher_specimen": null,
+    "use_context": "traditional anti-asthmatic plant report in southwestern Nigeria"
+  },
+  {
+    "source_id": "sonibare-2008-anti-asthmatic",
+    "source_row": 36,
+    "botanical_as_published": "Piliostigma reticulatum (Stapf.) Th. & H. Dur",
+    "family_as_published": "Leguminosae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Abafe, Abafin",
+    "vernacular_names": [
+      {
+        "local_name": "Abafe",
+        "language": "yo"
+      },
+      {
+        "local_name": "Abafin",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "bark"
+    ],
+    "voucher_specimen": null,
+    "use_context": "traditional anti-asthmatic plant report in southwestern Nigeria"
+  },
+  {
+    "source_id": "sonibare-2008-anti-asthmatic",
+    "source_row": 37,
+    "botanical_as_published": "Saccharum officinarum Linn.",
+    "family_as_published": "Gramineae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ireke",
+    "vernacular_names": [
+      {
+        "local_name": "Ireke",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "stem"
+    ],
+    "voucher_specimen": null,
+    "use_context": "traditional anti-asthmatic plant report in southwestern Nigeria"
+  },
+  {
+    "source_id": "sonibare-2008-anti-asthmatic",
+    "source_row": 38,
+    "botanical_as_published": "Securidaca longepedunculata Fres.",
+    "family_as_published": "Polygalaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ipeta",
+    "vernacular_names": [
+      {
+        "local_name": "Ipeta",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "root"
+    ],
+    "voucher_specimen": null,
+    "use_context": "traditional anti-asthmatic plant report in southwestern Nigeria"
+  },
+  {
+    "source_id": "sonibare-2008-anti-asthmatic",
+    "source_row": 39,
+    "botanical_as_published": "Strophanthus hispidus DC.",
+    "family_as_published": "Apocynaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Sagere",
+    "vernacular_names": [
+      {
+        "local_name": "Sagere",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "bark"
+    ],
+    "voucher_specimen": null,
+    "use_context": "traditional anti-asthmatic plant report in southwestern Nigeria"
+  },
+  {
+    "source_id": "sonibare-2008-anti-asthmatic",
+    "source_row": 40,
+    "botanical_as_published": "Terminalia glauccesens Planch. Ex Benth",
+    "family_as_published": "Combretaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Idi-odan",
+    "vernacular_names": [
+      {
+        "local_name": "Idi-odan",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "stem-bark"
+    ],
+    "voucher_specimen": null,
+    "use_context": "traditional anti-asthmatic plant report in southwestern Nigeria"
+  },
+  {
+    "source_id": "sonibare-2008-anti-asthmatic",
+    "source_row": 41,
+    "botanical_as_published": "Terminalia ivorensis Chev.",
+    "family_as_published": "Combretaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Idigbo",
+    "vernacular_names": [
+      {
+        "local_name": "Idigbo",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "stem-bark"
+    ],
+    "voucher_specimen": null,
+    "use_context": "traditional anti-asthmatic plant report in southwestern Nigeria"
+  },
+  {
+    "source_id": "sonibare-2008-anti-asthmatic",
+    "source_row": 42,
+    "botanical_as_published": "Tetrapleura tetraptera (Schum. et. Thonn) Taub",
+    "family_as_published": "Mimosaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Aidan",
+    "vernacular_names": [
+      {
+        "local_name": "Aidan",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "fruit"
+    ],
+    "voucher_specimen": null,
+    "use_context": "traditional anti-asthmatic plant report in southwestern Nigeria"
+  },
+  {
+    "source_id": "sonibare-2008-anti-asthmatic",
+    "source_row": 43,
+    "botanical_as_published": "Uvaria chammae Linn.",
+    "family_as_published": "Annonaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Gbogbonse",
+    "vernacular_names": [
+      {
+        "local_name": "Gbogbonse",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "root-bark"
+    ],
+    "voucher_specimen": null,
+    "use_context": "traditional anti-asthmatic plant report in southwestern Nigeria"
+  },
+  {
+    "source_id": "sonibare-2008-anti-asthmatic",
+    "source_row": 44,
+    "botanical_as_published": "Vitex doniana Sweet",
+    "family_as_published": "Verbenaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Oori",
+    "vernacular_names": [
+      {
+        "local_name": "Oori",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "bark"
+    ],
+    "voucher_specimen": null,
+    "use_context": "traditional anti-asthmatic plant report in southwestern Nigeria"
+  },
+  {
+    "source_id": "sonibare-2008-anti-asthmatic",
+    "source_row": 45,
+    "botanical_as_published": "Xylopia aethiopica Linn.",
+    "family_as_published": "Annonaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Eeru",
+    "vernacular_names": [
+      {
+        "local_name": "Eeru",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "fruit"
+    ],
+    "voucher_specimen": null,
+    "use_context": "traditional anti-asthmatic plant report in southwestern Nigeria"
+  },
+  {
+    "source_id": "sonibare-2008-anti-asthmatic",
+    "source_row": 46,
+    "botanical_as_published": "Zingiber officinale Rosc.",
+    "family_as_published": "Zingiberaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ataile",
+    "vernacular_names": [
+      {
+        "local_name": "Ataile",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "rhizome"
+    ],
+    "voucher_specimen": null,
+    "use_context": "traditional anti-asthmatic plant report in southwestern Nigeria"
+  }
+]

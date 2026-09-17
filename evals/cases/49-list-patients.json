@@ -1,0 +1,25 @@
+{
+  "id": "49-list-patients",
+  "description": "Patient roster request routes to list_patients.",
+  "practitioner": {
+    "display_name": "Efe",
+    "preferred_language": "en"
+  },
+  "input": "List my current patients, including anyone still waiting for consent.",
+  "expect": {
+    "tools": [
+      "list_patients"
+    ],
+    "forbidden_tools": [
+      "create_patient"
+    ]
+  },
+  "editorial_review": {
+    "status": "complete",
+    "reviewer_role": "model_editorial",
+    "reviewer_ref": "codex-2026-08-13",
+    "reviewed_at": "2026-08-13T00:00:00Z",
+    "rubric_version": "editorial-v1",
+    "practitioner_review": "pending"
+  }
+}

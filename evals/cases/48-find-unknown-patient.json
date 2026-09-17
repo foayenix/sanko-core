@@ -1,0 +1,26 @@
+{
+  "id": "48-find-unknown-patient",
+  "description": "Patient-name search routes to find_patient without creating anyone.",
+  "practitioner": {
+    "display_name": "Efe",
+    "preferred_language": "en"
+  },
+  "input": "Check whether I already have a patient called Patient Z.",
+  "expect": {
+    "tools": [
+      "find_patient"
+    ],
+    "forbidden_tools": [
+      "create_patient",
+      "save_formulation"
+    ]
+  },
+  "editorial_review": {
+    "status": "complete",
+    "reviewer_role": "model_editorial",
+    "reviewer_ref": "codex-2026-08-13",
+    "reviewed_at": "2026-08-13T00:00:00Z",
+    "rubric_version": "editorial-v1",
+    "practitioner_review": "pending"
+  }
+}

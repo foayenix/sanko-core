@@ -1,0 +1,33 @@
+{
+  "id": "01-yoruba-malaria",
+  "description": "Complete Yoruba formulation for malaria — the happy path a practitioner uses most.",
+  "practitioner": {
+    "display_name": "Baba Ade",
+    "preferred_language": "yo"
+  },
+  "turns": [
+    "[voice note transcript]\nMo fi ewe dongoyaro ati ewe eepo mango se agbo fun iba. Mo gba ewe dongoyaro ni ika meji, mo se e ninu omi fun ogun iseju. Ki won mu ago kan lemeji lojumo fun ojo meta. Yes, save it.",
+    "Bẹẹni, o tọ. Save it."
+  ],
+  "expect": {
+    "tools": [
+      "save_formulation"
+    ],
+    "plants_include": [
+      "dongoyaro",
+      "mango"
+    ],
+    "botanicals": {
+      "dongoyaro": "Azadirachta indica"
+    },
+    "fields": {
+      "condition_local": "iba",
+      "preparation.method": "decoction",
+      "dosage.frequency": "twice"
+    },
+    "confidence_between": [
+      0.7,
+      1
+    ]
+  }
+}

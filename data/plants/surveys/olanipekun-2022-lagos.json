@@ -1,0 +1,4092 @@
+[
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 1,
+    "botanical_as_published": "Abrus precatorius L.",
+    "family_as_published": "Fabaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ominsinmisin",
+    "vernacular_names": [
+      {
+        "local_name": "Ominsinmisin",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "stem"
+    ],
+    "voucher_specimen": "103251",
+    "life_form_as_published": "Climbers",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 2,
+    "botanical_as_published": "Acalypha fimbriata Schumach. & Thonn.",
+    "family_as_published": "Euphorbiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Jinwini",
+    "vernacular_names": [
+      {
+        "local_name": "Jinwini",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "stem"
+    ],
+    "voucher_specimen": "103252",
+    "life_form_as_published": "Herb",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 3,
+    "botanical_as_published": "Acanthospermum hispidum DC.",
+    "family_as_published": "Asteraceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Dagunro",
+    "vernacular_names": [
+      {
+        "local_name": "Dagunro",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "root"
+    ],
+    "voucher_specimen": "103253",
+    "life_form_as_published": "Herb",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 4,
+    "botanical_as_published": "Achyranthes aspera L. (Jacq.) Engl.",
+    "family_as_published": "Amaranthaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Areyinkosun Aboro",
+    "vernacular_names": [
+      {
+        "local_name": "Areyinkosun Aboro",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "stem"
+    ],
+    "voucher_specimen": "103254",
+    "life_form_as_published": "Herb",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 5,
+    "botanical_as_published": "Adenia lobata",
+    "family_as_published": "Passifloraceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Kurere",
+    "vernacular_names": [
+      {
+        "local_name": "Kurere",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "stem"
+    ],
+    "voucher_specimen": "103255",
+    "life_form_as_published": "Climbing shrub",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 6,
+    "botanical_as_published": "Ageratum conyzoides (L.) L.",
+    "family_as_published": "Asteraceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Imi esu, Rerinkomi",
+    "vernacular_names": [
+      {
+        "local_name": "Imi esu",
+        "language": "yo"
+      },
+      {
+        "local_name": "Rerinkomi",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "voucher_specimen": "103256",
+    "life_form_as_published": "Herb",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 7,
+    "botanical_as_published": "Albizia ferruginea (Guill. & Perr.) Benth.",
+    "family_as_published": "Fabaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ayunre",
+    "vernacular_names": [
+      {
+        "local_name": "Ayunre",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "stem",
+      "root"
+    ],
+    "voucher_specimen": "103257",
+    "life_form_as_published": "Tree",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 8,
+    "botanical_as_published": "Albizia lebbeck (L.) Benth.",
+    "family_as_published": "Fabaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ayunre, Igbabgo",
+    "vernacular_names": [
+      {
+        "local_name": "Ayunre",
+        "language": "yo"
+      },
+      {
+        "local_name": "Igbabgo",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "root"
+    ],
+    "voucher_specimen": "103258",
+    "life_form_as_published": "Tree",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 9,
+    "botanical_as_published": "Albizia zygia (DC.) J.F.Macbr.",
+    "family_as_published": "Fabaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ayunre were",
+    "vernacular_names": [
+      {
+        "local_name": "Ayunre were",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "voucher_specimen": "103259",
+    "life_form_as_published": "Tree",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 10,
+    "botanical_as_published": "Alchornea cordifolia (Schumach. & Thonn.) Müll.Arg.",
+    "family_as_published": "Euphorbiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ipa, ewe ifa",
+    "vernacular_names": [
+      {
+        "local_name": "Ipa",
+        "language": "yo"
+      },
+      {
+        "local_name": "ewe ifa",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "stem",
+      "root"
+    ],
+    "voucher_specimen": "103260",
+    "life_form_as_published": "Shrub/Small tree",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 11,
+    "botanical_as_published": "Alchornea laxiflora (Benth.) Pax & K.Hoffm.",
+    "family_as_published": "Euphorbiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ijan",
+    "vernacular_names": [
+      {
+        "local_name": "Ijan",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "root"
+    ],
+    "voucher_specimen": "103261",
+    "life_form_as_published": "Shrub/Small tree",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 12,
+    "botanical_as_published": "Alternanthera sessilis (L.) R.Br. ex DC.",
+    "family_as_published": "Amaranthaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Rekureku",
+    "vernacular_names": [
+      {
+        "local_name": "Rekureku",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "root"
+    ],
+    "voucher_specimen": "103262",
+    "life_form_as_published": "Herb",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 13,
+    "botanical_as_published": "Amaranthus spinosus L.",
+    "family_as_published": "Amaranthaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Tete elegun, teteegun",
+    "vernacular_names": [
+      {
+        "local_name": "Tete elegun",
+        "language": "yo"
+      },
+      {
+        "local_name": "teteegun",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "stem"
+    ],
+    "voucher_specimen": "103263",
+    "life_form_as_published": "Herb",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 14,
+    "botanical_as_published": "Amaranthus viridis L.",
+    "family_as_published": "Amaranthaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Tete",
+    "vernacular_names": [
+      {
+        "local_name": "Tete",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "root"
+    ],
+    "voucher_specimen": "103264",
+    "life_form_as_published": "Herb",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 15,
+    "botanical_as_published": "Anacardium occidentale L.",
+    "family_as_published": "Anacardiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Kaju",
+    "vernacular_names": [
+      {
+        "local_name": "Kaju",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "voucher_specimen": "103265",
+    "life_form_as_published": "Tree",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 16,
+    "botanical_as_published": "Anchomanes difformis (Blume) Engl.",
+    "family_as_published": "Araceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ogirisako",
+    "vernacular_names": [
+      {
+        "local_name": "Ogirisako",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "stem"
+    ],
+    "voucher_specimen": "103266",
+    "life_form_as_published": "Herb",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 17,
+    "botanical_as_published": "Annona senegalensis Pers.",
+    "family_as_published": "Annonaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Abo",
+    "vernacular_names": [
+      {
+        "local_name": "Abo",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "voucher_specimen": "103267",
+    "life_form_as_published": "Shrub/Small tree",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 18,
+    "botanical_as_published": "Anthocleista djalonensis A.Chev.",
+    "family_as_published": "Gentianaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Sapo",
+    "vernacular_names": [
+      {
+        "local_name": "Sapo",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "stem"
+    ],
+    "voucher_specimen": "103268",
+    "life_form_as_published": "Tree",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 19,
+    "botanical_as_published": "Anthocleista vogelii Planch.",
+    "family_as_published": "Gentianaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Sapo",
+    "vernacular_names": [
+      {
+        "local_name": "Sapo",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "voucher_specimen": "103269",
+    "life_form_as_published": "Tree",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 20,
+    "botanical_as_published": "Artocarpus communis J.R.Forst. & G.Forst. (Synonym: Artocarpus altilis (Parkinson ex F.A.Zorn) Fosberg)",
+    "family_as_published": "Moraceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Jaloke",
+    "vernacular_names": [
+      {
+        "local_name": "Jaloke",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "voucher_specimen": "103270",
+    "life_form_as_published": "Tree",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 21,
+    "botanical_as_published": "Aspilia africana (Pers.) C.D.Adams",
+    "family_as_published": "Asteraceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Yunyun",
+    "vernacular_names": [
+      {
+        "local_name": "Yunyun",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "stem",
+      "root"
+    ],
+    "voucher_specimen": "103271",
+    "life_form_as_published": "Herb",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 22,
+    "botanical_as_published": "Asystasia gangetica (L.) T.Anderson",
+    "family_as_published": "Acanthaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Lobiri",
+    "vernacular_names": [
+      {
+        "local_name": "Lobiri",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "stem"
+    ],
+    "voucher_specimen": "103272",
+    "life_form_as_published": "Creeping herb",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 23,
+    "botanical_as_published": "Azadirachta indica A.Juss.",
+    "family_as_published": "Meliaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Eke-oyibo, Dogoyaro",
+    "vernacular_names": [
+      {
+        "local_name": "Eke-oyibo",
+        "language": "yo"
+      },
+      {
+        "local_name": "Dogoyaro",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "stem"
+    ],
+    "voucher_specimen": "103273",
+    "life_form_as_published": "Tree",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 24,
+    "botanical_as_published": "Baphia nitida Lodd.",
+    "family_as_published": "Fabaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Irosun",
+    "vernacular_names": [
+      {
+        "local_name": "Irosun",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "voucher_specimen": "103274",
+    "life_form_as_published": "Shrub",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 25,
+    "botanical_as_published": "Barleria opaca (Vahl) Nees",
+    "family_as_published": "Acanthaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Apado, Arenikosun",
+    "vernacular_names": [
+      {
+        "local_name": "Apado",
+        "language": "yo"
+      },
+      {
+        "local_name": "Arenikosun",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "root"
+    ],
+    "voucher_specimen": "103275",
+    "life_form_as_published": "Shrub",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 26,
+    "botanical_as_published": "Bidens pilosa L.",
+    "family_as_published": "Asteraceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Abere-oloko",
+    "vernacular_names": [
+      {
+        "local_name": "Abere-oloko",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "root"
+    ],
+    "voucher_specimen": "103276",
+    "life_form_as_published": "Herb",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 27,
+    "botanical_as_published": "Boerhavia diffusa L.",
+    "family_as_published": "Nyctaginaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Etiponola",
+    "vernacular_names": [
+      {
+        "local_name": "Etiponola",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "stem"
+    ],
+    "voucher_specimen": "103277",
+    "life_form_as_published": "Herb",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 28,
+    "botanical_as_published": "Borreria scabra (Schumach. & Thonn.) K.Schum. (Synonym: Spermacoce ruelliae DC.)",
+    "family_as_published": "Rubiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Awede",
+    "vernacular_names": [
+      {
+        "local_name": "Awede",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "stem",
+      "root"
+    ],
+    "voucher_specimen": "103278",
+    "life_form_as_published": "Herb",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 29,
+    "botanical_as_published": "Borreria verticillata (L.) G.Mey. (Synonym: Spermacoce verticillata L.)",
+    "family_as_published": "Rubiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Irawo-ile, Otete, Awede",
+    "vernacular_names": [
+      {
+        "local_name": "Irawo-ile",
+        "language": "yo"
+      },
+      {
+        "local_name": "Otete",
+        "language": "yo"
+      },
+      {
+        "local_name": "Awede",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "voucher_specimen": "103279",
+    "life_form_as_published": "Herb",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 30,
+    "botanical_as_published": "Bridelia ferruginea Benth.",
+    "family_as_published": "Euphorbiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ira",
+    "vernacular_names": [
+      {
+        "local_name": "Ira",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "stem",
+      "root"
+    ],
+    "voucher_specimen": "103280",
+    "life_form_as_published": "Shrub",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 31,
+    "botanical_as_published": "Bryophyllum pinnatum (Lam.) Oken",
+    "family_as_published": "Crassulaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Abamoda",
+    "vernacular_names": [
+      {
+        "local_name": "Abamoda",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "stem",
+      "root"
+    ],
+    "voucher_specimen": "103281",
+    "life_form_as_published": "Herb",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 32,
+    "botanical_as_published": "Caladium bicolor (Aiton) Vent.",
+    "family_as_published": "Araceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Eje-jesu",
+    "vernacular_names": [
+      {
+        "local_name": "Eje-jesu",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "stem",
+      "root"
+    ],
+    "voucher_specimen": "103282",
+    "life_form_as_published": "Herb",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 33,
+    "botanical_as_published": "Calophyllum inophyllum L.",
+    "family_as_published": "Calophyllaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "",
+    "vernacular_names": [],
+    "parts_reported": [
+      "leaf"
+    ],
+    "voucher_specimen": "103283",
+    "life_form_as_published": "Tree",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 34,
+    "botanical_as_published": "Calopogonium mucunoides Desv.",
+    "family_as_published": "Fabaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Werepe ibile",
+    "vernacular_names": [
+      {
+        "local_name": "Werepe ibile",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "root"
+    ],
+    "voucher_specimen": "103284",
+    "life_form_as_published": "Creeping herb",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 35,
+    "botanical_as_published": "Calotropis procera (Aiton) Dryand.",
+    "family_as_published": "Apocynaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Bomu-bomu",
+    "vernacular_names": [
+      {
+        "local_name": "Bomu-bomu",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "voucher_specimen": "103285",
+    "life_form_as_published": "Shrub",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 36,
+    "botanical_as_published": "Canna indica L.",
+    "family_as_published": "Cannaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Loborikan, Ido",
+    "vernacular_names": [
+      {
+        "local_name": "Loborikan",
+        "language": "yo"
+      },
+      {
+        "local_name": "Ido",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "stem"
+    ],
+    "voucher_specimen": "103286",
+    "life_form_as_published": "Herb",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 37,
+    "botanical_as_published": "Canavalia ensiformis (L.) DC.",
+    "family_as_published": "Fabaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ponpondo",
+    "vernacular_names": [
+      {
+        "local_name": "Ponpondo",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "voucher_specimen": "103287",
+    "life_form_as_published": "Climber",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 38,
+    "botanical_as_published": "Carpolobia lutea G.Don",
+    "family_as_published": "Polygalaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Osunsun",
+    "vernacular_names": [
+      {
+        "local_name": "Osunsun",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "root"
+    ],
+    "voucher_specimen": "103288",
+    "life_form_as_published": "Shrub/small tree",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 39,
+    "botanical_as_published": "Celosia argentea L.",
+    "family_as_published": "Amaranthaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Soko",
+    "vernacular_names": [
+      {
+        "local_name": "Soko",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "voucher_specimen": "103289",
+    "life_form_as_published": "Herb",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 40,
+    "botanical_as_published": "Centrosema pubescens Benth.",
+    "family_as_published": "Fabaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ewa-ahun",
+    "vernacular_names": [
+      {
+        "local_name": "Ewa-ahun",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "root"
+    ],
+    "voucher_specimen": "103290",
+    "life_form_as_published": "Climbing herbaceous vine",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 41,
+    "botanical_as_published": "Chassalia kolly (Schumach.) Hepper",
+    "family_as_published": "Rubiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Isepe agbe",
+    "vernacular_names": [
+      {
+        "local_name": "Isepe agbe",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "voucher_specimen": "103291",
+    "life_form_as_published": "Shrub",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 42,
+    "botanical_as_published": "Chromolaena odorata (L.) R.M.King & H.Rob.",
+    "family_as_published": "Asteraceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Akintola",
+    "vernacular_names": [
+      {
+        "local_name": "Akintola",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "stem",
+      "root"
+    ],
+    "voucher_specimen": "103292",
+    "life_form_as_published": "Shrub",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 43,
+    "botanical_as_published": "Cissampelos owariensis P.Beauv. ex DC.",
+    "family_as_published": "Menispermaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Jenjoko",
+    "vernacular_names": [
+      {
+        "local_name": "Jenjoko",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "voucher_specimen": "103293",
+    "life_form_as_published": "Climber",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 44,
+    "botanical_as_published": "Citrus aurantiifolia (Christm.) Swingle",
+    "family_as_published": "Rutaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Gaingain",
+    "vernacular_names": [
+      {
+        "local_name": "Gaingain",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "voucher_specimen": "103294",
+    "life_form_as_published": "Tree",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 45,
+    "botanical_as_published": "Cleistopholis patens (Benth.) Engl. & Diels",
+    "family_as_published": "Annonaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Apako, Orila",
+    "vernacular_names": [
+      {
+        "local_name": "Apako",
+        "language": "yo"
+      },
+      {
+        "local_name": "Orila",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "stem"
+    ],
+    "voucher_specimen": "103295",
+    "life_form_as_published": "Tree",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 46,
+    "botanical_as_published": "Cleome fruticosa L. (Synonym: Cadaba fruticosa (L.) Druce)",
+    "family_as_published": "Capparaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ekuya",
+    "vernacular_names": [
+      {
+        "local_name": "Ekuya",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "root"
+    ],
+    "voucher_specimen": "103296",
+    "life_form_as_published": "Shrub",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 47,
+    "botanical_as_published": "Clerodendrum capitatum (Willd.) Schumach & Thonn.",
+    "family_as_published": "Lamiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Agbosa, Feregede",
+    "vernacular_names": [
+      {
+        "local_name": "Agbosa",
+        "language": "yo"
+      },
+      {
+        "local_name": "Feregede",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "root"
+    ],
+    "voucher_specimen": "103297",
+    "life_form_as_published": "Shrub",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 48,
+    "botanical_as_published": "Clerodendrum paniculatum L.",
+    "family_as_published": "Lamiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Isedun",
+    "vernacular_names": [
+      {
+        "local_name": "Isedun",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "stem"
+    ],
+    "voucher_specimen": "103298",
+    "life_form_as_published": "Shrub",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 49,
+    "botanical_as_published": "Clerodendrum umbellatum Poir.",
+    "family_as_published": "Lamiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Isedun",
+    "vernacular_names": [
+      {
+        "local_name": "Isedun",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "voucher_specimen": "103299",
+    "life_form_as_published": "Shrub",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 50,
+    "botanical_as_published": "Clerodendrum volubile P.Beauv.",
+    "family_as_published": "Lamiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Marugbosanyan, Marugbo",
+    "vernacular_names": [
+      {
+        "local_name": "Marugbosanyan",
+        "language": "yo"
+      },
+      {
+        "local_name": "Marugbo",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "voucher_specimen": "103300",
+    "life_form_as_published": "Climbing shrub",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 51,
+    "botanical_as_published": "Cnestis ferruginea Vahl ex DC.",
+    "family_as_published": "Connaraceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Omu aja, Gboyín-Gboyín",
+    "vernacular_names": [
+      {
+        "local_name": "Omu aja",
+        "language": "yo"
+      },
+      {
+        "local_name": "Gboyín-Gboyín",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "stem"
+    ],
+    "voucher_specimen": "103301",
+    "life_form_as_published": "Climbing shrub",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 52,
+    "botanical_as_published": "Cola millenii K.Schum.",
+    "family_as_published": "Malvaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Obi-edun",
+    "vernacular_names": [
+      {
+        "local_name": "Obi-edun",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "root"
+    ],
+    "voucher_specimen": "103302",
+    "life_form_as_published": "Shrub/Tree",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 53,
+    "botanical_as_published": "Colocasia esculenta (L.) Schott",
+    "family_as_published": "Araceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Isu- koko",
+    "vernacular_names": [
+      {
+        "local_name": "Isu- koko",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "voucher_specimen": "103251",
+    "life_form_as_published": "Herb",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 54,
+    "botanical_as_published": "Commelina africana L.",
+    "family_as_published": "Commelinaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Gbagodo, Aikujegure",
+    "vernacular_names": [
+      {
+        "local_name": "Gbagodo",
+        "language": "yo"
+      },
+      {
+        "local_name": "Aikujegure",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "voucher_specimen": "103303",
+    "life_form_as_published": "Climber",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 55,
+    "botanical_as_published": "Commelina erecta L.",
+    "family_as_published": "Commelinaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ìlẹ̀kẹ̀ ọp̀ ọlọ ́",
+    "vernacular_names": [
+      {
+        "local_name": "Ìlẹ̀kẹ̀ ọp̀ ọlọ ́",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "stem"
+    ],
+    "voucher_specimen": "103304",
+    "life_form_as_published": "Herb",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 56,
+    "botanical_as_published": "Costus afer Ker Gawl.",
+    "family_as_published": "Costaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ireke Omode, Tete- eegungun",
+    "vernacular_names": [
+      {
+        "local_name": "Ireke Omode",
+        "language": "yo"
+      },
+      {
+        "local_name": "Tete- eegungun",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "root",
+      "stem"
+    ],
+    "voucher_specimen": "103305",
+    "life_form_as_published": "Rhizomatous herb",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 57,
+    "botanical_as_published": "Croton lobatus L. (Synonym: Astraea lobata (L.) Klotzsch).",
+    "family_as_published": "Euphorbiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Eru",
+    "vernacular_names": [
+      {
+        "local_name": "Eru",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "root"
+    ],
+    "voucher_specimen": "103306",
+    "life_form_as_published": "Forb/Herb",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 58,
+    "botanical_as_published": "Croton zambesicus Mull.Arg. (Synonym: Croton gratissimus Burch.)",
+    "family_as_published": "Euphorbiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Aje-obale, Aje-kofole",
+    "vernacular_names": [
+      {
+        "local_name": "Aje-obale",
+        "language": "yo"
+      },
+      {
+        "local_name": "Aje-kofole",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "root"
+    ],
+    "voucher_specimen": "103307",
+    "life_form_as_published": "Shrub",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 59,
+    "botanical_as_published": "Cucumeropsis mannii Naudin",
+    "family_as_published": "Cucurbitaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Egusi Itoo",
+    "vernacular_names": [
+      {
+        "local_name": "Egusi Itoo",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "root"
+    ],
+    "voucher_specimen": "103308",
+    "life_form_as_published": "Creeper",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 60,
+    "botanical_as_published": "Cyathula prostrata (L.) Blume",
+    "family_as_published": "Amaranthaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Sawerepepe",
+    "vernacular_names": [
+      {
+        "local_name": "Sawerepepe",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "voucher_specimen": "103309",
+    "life_form_as_published": "Herb",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 61,
+    "botanical_as_published": "Cymbopogon citratus (DC.) Stapf",
+    "family_as_published": "Poaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ewe tea, Waapa",
+    "vernacular_names": [
+      {
+        "local_name": "Ewe tea",
+        "language": "yo"
+      },
+      {
+        "local_name": "Waapa",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "root"
+    ],
+    "voucher_specimen": "103310",
+    "life_form_as_published": "Herb",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 62,
+    "botanical_as_published": "Cyperus haspans L.",
+    "family_as_published": "Cyperaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ayaa-ayaa (Hausa)",
+    "vernacular_names": [
+      {
+        "local_name": "Ayaa-ayaa",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "stem"
+    ],
+    "voucher_specimen": "103311",
+    "life_form_as_published": "Sedge",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 63,
+    "botanical_as_published": "Dalbergia saxatilis Hook.f.",
+    "family_as_published": "Fabaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ogundu, Ojiji",
+    "vernacular_names": [
+      {
+        "local_name": "Ogundu",
+        "language": "yo"
+      },
+      {
+        "local_name": "Ojiji",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "root"
+    ],
+    "voucher_specimen": "103312",
+    "life_form_as_published": "Climbing shrub",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 64,
+    "botanical_as_published": "Datura metel L.",
+    "family_as_published": "Solanaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Apikan, Ewe alujannu",
+    "vernacular_names": [
+      {
+        "local_name": "Apikan",
+        "language": "yo"
+      },
+      {
+        "local_name": "Ewe alujannu",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "voucher_specimen": "103313",
+    "life_form_as_published": "Shrub",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 65,
+    "botanical_as_published": "Desmodium velutinum (Willd.) DC.",
+    "family_as_published": "Fabaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ewe oku",
+    "vernacular_names": [
+      {
+        "local_name": "Ewe oku",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "voucher_specimen": "103314",
+    "life_form_as_published": "Shrub",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 66,
+    "botanical_as_published": "Dichrostachys cinerea (L.) Wight & Arn.",
+    "family_as_published": "Fabaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Kara, Ajagboluti",
+    "vernacular_names": [
+      {
+        "local_name": "Kara",
+        "language": "yo"
+      },
+      {
+        "local_name": "Ajagboluti",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "voucher_specimen": "103315",
+    "life_form_as_published": "Tree",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 67,
+    "botanical_as_published": "Dissotis rotundifolia (Sm.) Triana (Synonym Heterotis rotundifolia (Sm.) Jacq.-Fél.)",
+    "family_as_published": "Melastomataceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Awede, Ajagunmorasin, Ogede apara",
+    "vernacular_names": [
+      {
+        "local_name": "Awede",
+        "language": "yo"
+      },
+      {
+        "local_name": "Ajagunmorasin",
+        "language": "yo"
+      },
+      {
+        "local_name": "Ogede apara",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "voucher_specimen": "103316",
+    "life_form_as_published": "Shrub",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 68,
+    "botanical_as_published": "Eclipta prostrata (L.) L.",
+    "family_as_published": "Asteraceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Arojoku",
+    "vernacular_names": [
+      {
+        "local_name": "Arojoku",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "root"
+    ],
+    "voucher_specimen": "103317",
+    "life_form_as_published": "Herb",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 69,
+    "botanical_as_published": "Elaeis guineensis Jacq.",
+    "family_as_published": "Arecaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ope",
+    "vernacular_names": [
+      {
+        "local_name": "Ope",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "stem",
+      "root"
+    ],
+    "voucher_specimen": "103318",
+    "life_form_as_published": "Tree",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 70,
+    "botanical_as_published": "Eleusine indica (L.) Gaertn.",
+    "family_as_published": "Poaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Gbegi",
+    "vernacular_names": [
+      {
+        "local_name": "Gbegi",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "stem",
+      "root"
+    ],
+    "voucher_specimen": "103319",
+    "life_form_as_published": "Herb",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 71,
+    "botanical_as_published": "Eleutheranthera ruderalis (Swartz) Sch.-Bip.",
+    "family_as_published": "Asteraceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Aworo-ona",
+    "vernacular_names": [
+      {
+        "local_name": "Aworo-ona",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "voucher_specimen": "103320",
+    "life_form_as_published": "Herb",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 72,
+    "botanical_as_published": "Emilia coccinea (Sims) G.Don",
+    "family_as_published": "Asteraceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Odundun owo",
+    "vernacular_names": [
+      {
+        "local_name": "Odundun owo",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "stem",
+      "root"
+    ],
+    "voucher_specimen": "103321",
+    "life_form_as_published": "Herb",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 73,
+    "botanical_as_published": "Entandrophragma angolense (Welw.) C.DC.",
+    "family_as_published": "Meliaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Jebo",
+    "vernacular_names": [
+      {
+        "local_name": "Jebo",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "stem-bark",
+      "leaf"
+    ],
+    "voucher_specimen": "103322",
+    "life_form_as_published": "Tree",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 74,
+    "botanical_as_published": "Eragrostis namaquennsis Nees ex Schrad. (Synonym: Eragrostis japonica (Thunb.) Trin.)",
+    "family_as_published": "Poaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Agbado esin",
+    "vernacular_names": [
+      {
+        "local_name": "Agbado esin",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "stem"
+    ],
+    "voucher_specimen": "103323",
+    "life_form_as_published": "Herb",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 75,
+    "botanical_as_published": "Erigeron floribundus (Kunth) Sch.Bip.",
+    "family_as_published": "Asteraceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Bị́bị́ị́mbẹĺ ẹ́mọ ́",
+    "vernacular_names": [
+      {
+        "local_name": "Bị́bị́ị́mbẹĺ ẹ́mọ ́",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "voucher_specimen": "103324",
+    "life_form_as_published": "Herb",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 76,
+    "botanical_as_published": "Erythrina senegalensis DC. (Synonym:",
+    "family_as_published": "Fabaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ologbosere",
+    "vernacular_names": [
+      {
+        "local_name": "Ologbosere",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "root"
+    ],
+    "voucher_specimen": "103325",
+    "life_form_as_published": "Shrub/Tree",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 77,
+    "botanical_as_published": "Euphorbia glaucophylla Poir. Euphorbia trinervia Schumach. & Thonn.)",
+    "family_as_published": "Euphorbiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Emile",
+    "vernacular_names": [
+      {
+        "local_name": "Emile",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "stem"
+    ],
+    "voucher_specimen": "103326",
+    "life_form_as_published": "Herb",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 78,
+    "botanical_as_published": "Euphorbia heterophylla L.",
+    "family_as_published": "Euphorbiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Egele",
+    "vernacular_names": [
+      {
+        "local_name": "Egele",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "stem"
+    ],
+    "voucher_specimen": "103327",
+    "life_form_as_published": "Herb",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 79,
+    "botanical_as_published": "Ficus benjamina L. (Synonym:",
+    "family_as_published": "Moraceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Odan",
+    "vernacular_names": [
+      {
+        "local_name": "Odan",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "stem- bark"
+    ],
+    "voucher_specimen": "103328",
+    "life_form_as_published": "Tree",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 80,
+    "botanical_as_published": "Ficus capensis Thunb. Ficus sur Forssk.)",
+    "family_as_published": "Moraceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Opoto",
+    "vernacular_names": [
+      {
+        "local_name": "Opoto",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "stem",
+      "leaf"
+    ],
+    "voucher_specimen": "103329",
+    "life_form_as_published": "Tree",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 81,
+    "botanical_as_published": "Ficus exasperata Vahl",
+    "family_as_published": "Moraceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Epin",
+    "vernacular_names": [
+      {
+        "local_name": "Epin",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "voucher_specimen": "103330",
+    "life_form_as_published": "Shrub",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 82,
+    "botanical_as_published": "Ficus polita Vahl",
+    "family_as_published": "Moraceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Odan",
+    "vernacular_names": [
+      {
+        "local_name": "Odan",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "stem"
+    ],
+    "voucher_specimen": "103331",
+    "life_form_as_published": "Shrub/ small tree",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 83,
+    "botanical_as_published": "Laportea aestuans (L.) Chew",
+    "family_as_published": "Urticaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Araailomi",
+    "vernacular_names": [
+      {
+        "local_name": "Araailomi",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "whole plant"
+    ],
+    "voucher_specimen": "103332",
+    "life_form_as_published": "Herb",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 84,
+    "botanical_as_published": "Gliricidia sepium (Jacq.) Walp.",
+    "family_as_published": "Fabaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Agunmaniye",
+    "vernacular_names": [
+      {
+        "local_name": "Agunmaniye",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "stem"
+    ],
+    "voucher_specimen": "103333",
+    "life_form_as_published": "Small tree",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 85,
+    "botanical_as_published": "Glyphaea brevis (Spreng.) Monach.",
+    "family_as_published": "Malvaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Atori",
+    "vernacular_names": [
+      {
+        "local_name": "Atori",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "voucher_specimen": "103334",
+    "life_form_as_published": "Tree",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 86,
+    "botanical_as_published": "Gomphrena celosioides Mart.",
+    "family_as_published": "Amaranthaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ipopo ale, ajikewu",
+    "vernacular_names": [
+      {
+        "local_name": "Ipopo ale",
+        "language": "yo"
+      },
+      {
+        "local_name": "ajikewu",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "stem"
+    ],
+    "voucher_specimen": "103335",
+    "life_form_as_published": "Herb",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 87,
+    "botanical_as_published": "Grewia pubescens P.Beauv.",
+    "family_as_published": "Malvaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Oraigbo",
+    "vernacular_names": [
+      {
+        "local_name": "Oraigbo",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "voucher_specimen": "103336",
+    "life_form_as_published": "Shrub",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 88,
+    "botanical_as_published": "Harungana madagascariensis Lam. ex Poir.",
+    "family_as_published": "Hypericaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Amuje",
+    "vernacular_names": [
+      {
+        "local_name": "Amuje",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "stem"
+    ],
+    "voucher_specimen": "103337",
+    "life_form_as_published": "Tree",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 89,
+    "botanical_as_published": "Heliotropium indicum L.",
+    "family_as_published": "Boraginaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ogbe akuko",
+    "vernacular_names": [
+      {
+        "local_name": "Ogbe akuko",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "voucher_specimen": "103338",
+    "life_form_as_published": "Herb",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 90,
+    "botanical_as_published": "Hibiscus rosa-sinensis L.",
+    "family_as_published": "Malvaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Isapa",
+    "vernacular_names": [
+      {
+        "local_name": "Isapa",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "voucher_specimen": "103339",
+    "life_form_as_published": "Shrub",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 91,
+    "botanical_as_published": "Hibiscus surattensis L.",
+    "family_as_published": "Malvaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ewe – emu, Isapa pupa",
+    "vernacular_names": [
+      {
+        "local_name": "Ewe – emu",
+        "language": "yo"
+      },
+      {
+        "local_name": "Isapa pupa",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "stem",
+      "root"
+    ],
+    "voucher_specimen": "103340",
+    "life_form_as_published": "Climber",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 92,
+    "botanical_as_published": "Hippocratea pallens Planch. ex Oliv. (Synonym: Apodostigma pallens (Planch. ex Oliv.) R.Wilczek)",
+    "family_as_published": "Celastraceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Oju-ologbo-nla",
+    "vernacular_names": [
+      {
+        "local_name": "Oju-ologbo-nla",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "voucher_specimen": "103341",
+    "life_form_as_published": "Climber",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 93,
+    "botanical_as_published": "Hoslundia opposita Vahl",
+    "family_as_published": "Lamiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Iwaregbo",
+    "vernacular_names": [
+      {
+        "local_name": "Iwaregbo",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "voucher_specimen": "103342",
+    "life_form_as_published": "Shrub",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 94,
+    "botanical_as_published": "Hyptis suaveolens (L.) Poit.",
+    "family_as_published": "Lamiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Jogbo, Arunfonfon",
+    "vernacular_names": [
+      {
+        "local_name": "Jogbo",
+        "language": "yo"
+      },
+      {
+        "local_name": "Arunfonfon",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "stem"
+    ],
+    "voucher_specimen": "103343",
+    "life_form_as_published": "Herb",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 95,
+    "botanical_as_published": "Icacina trichantha Oliv.",
+    "family_as_published": "Icacinaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Gbegbe",
+    "vernacular_names": [
+      {
+        "local_name": "Gbegbe",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "stem"
+    ],
+    "voucher_specimen": "103344",
+    "life_form_as_published": "Shrub",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 96,
+    "botanical_as_published": "Indigofera arrecta A.Rich.",
+    "family_as_published": "Fabaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Elu-aja",
+    "vernacular_names": [
+      {
+        "local_name": "Elu-aja",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "voucher_specimen": "103345",
+    "life_form_as_published": "Herb",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 97,
+    "botanical_as_published": "Indigofera hirsuta L.",
+    "family_as_published": "Fabaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ejaọmode",
+    "vernacular_names": [
+      {
+        "local_name": "Ejaọmode",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "stem"
+    ],
+    "voucher_specimen": "103346",
+    "life_form_as_published": "Herb",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 98,
+    "botanical_as_published": "Ipomoea involucrata P.Beauv. (Synonym: Ipomoea pileata Roxb.)",
+    "family_as_published": "Convolvulaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ododo odo, Elukeresi",
+    "vernacular_names": [
+      {
+        "local_name": "Ododo odo",
+        "language": "yo"
+      },
+      {
+        "local_name": "Elukeresi",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "stem",
+      "root"
+    ],
+    "voucher_specimen": "103347",
+    "life_form_as_published": "Herb",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 99,
+    "botanical_as_published": "Jatropha curcas L.",
+    "family_as_published": "Euphorbiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Botuje, Lapalapa",
+    "vernacular_names": [
+      {
+        "local_name": "Botuje",
+        "language": "yo"
+      },
+      {
+        "local_name": "Lapalapa",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "voucher_specimen": "103348",
+    "life_form_as_published": "Shrub/Small tree",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 100,
+    "botanical_as_published": "Jatropha gossypiifolia L.",
+    "family_as_published": "Euphorbiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Lapalapa pupa",
+    "vernacular_names": [
+      {
+        "local_name": "Lapalapa pupa",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "root"
+    ],
+    "voucher_specimen": "103349",
+    "life_form_as_published": "Shrub",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 101,
+    "botanical_as_published": "Kigelia africana (Lam.) Benth.",
+    "family_as_published": "Bignoniaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Pandoro",
+    "vernacular_names": [
+      {
+        "local_name": "Pandoro",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "stem-bark",
+      "root"
+    ],
+    "voucher_specimen": "103350",
+    "life_form_as_published": "Tree",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 102,
+    "botanical_as_published": "Lantana camara L.",
+    "family_as_published": "Verbenaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ewon-agogo, efinrin oso",
+    "vernacular_names": [
+      {
+        "local_name": "Ewon-agogo",
+        "language": "yo"
+      },
+      {
+        "local_name": "efinrin oso",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "stem"
+    ],
+    "voucher_specimen": "103351",
+    "life_form_as_published": "Shrub",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 103,
+    "botanical_as_published": "Lawsonia inermis L.",
+    "family_as_published": "Lythraceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Laali",
+    "vernacular_names": [
+      {
+        "local_name": "Laali",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "stem"
+    ],
+    "voucher_specimen": "103352",
+    "life_form_as_published": "Shrub",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 104,
+    "botanical_as_published": "Leucaena leucocephala (Lam.) de Wit",
+    "family_as_published": "Fabaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Lusina",
+    "vernacular_names": [
+      {
+        "local_name": "Lusina",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "root"
+    ],
+    "voucher_specimen": "103353",
+    "life_form_as_published": "Tree",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 105,
+    "botanical_as_published": "Luffa cylindrica (L.) M.Roem.",
+    "family_as_published": "Cucurbitaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Kankan ayaba, Aya oyinbo",
+    "vernacular_names": [
+      {
+        "local_name": "Kankan ayaba",
+        "language": "yo"
+      },
+      {
+        "local_name": "Aya oyinbo",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "stem"
+    ],
+    "voucher_specimen": "103354",
+    "life_form_as_published": "Climber",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 106,
+    "botanical_as_published": "Macaranga barteri Müll.Arg.",
+    "family_as_published": "Euphorbiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Araasa, Awasa",
+    "vernacular_names": [
+      {
+        "local_name": "Araasa",
+        "language": "yo"
+      },
+      {
+        "local_name": "Awasa",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "stem"
+    ],
+    "voucher_specimen": "103355",
+    "life_form_as_published": "Tree",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 107,
+    "botanical_as_published": "Microdesmis puberula Hook.f. ex Planch.",
+    "family_as_published": "Pandaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ido Apata",
+    "vernacular_names": [
+      {
+        "local_name": "Ido Apata",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "voucher_specimen": "103356",
+    "life_form_as_published": "Shrub",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 108,
+    "botanical_as_published": "Mallotus oppositifolius (Geiseler) Müll.Arg.",
+    "family_as_published": "Euphorbiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ipa, Eja, Oju-eja, Jeja, Iyadudu, Orokoro",
+    "vernacular_names": [
+      {
+        "local_name": "Ipa",
+        "language": "yo"
+      },
+      {
+        "local_name": "Eja",
+        "language": "yo"
+      },
+      {
+        "local_name": "Oju-eja",
+        "language": "yo"
+      },
+      {
+        "local_name": "Jeja",
+        "language": "yo"
+      },
+      {
+        "local_name": "Iyadudu",
+        "language": "yo"
+      },
+      {
+        "local_name": "Orokoro",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "stem",
+      "root"
+    ],
+    "voucher_specimen": "103357",
+    "life_form_as_published": "Shrub/Tree",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 109,
+    "botanical_as_published": "Malvastrum coromandelianum (L.) Garcke",
+    "family_as_published": "Malvaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Asa, Olowonransansan, Sekuseku, Asa orisa, Aborisawaye",
+    "vernacular_names": [
+      {
+        "local_name": "Asa",
+        "language": "yo"
+      },
+      {
+        "local_name": "Olowonransansan",
+        "language": "yo"
+      },
+      {
+        "local_name": "Sekuseku",
+        "language": "yo"
+      },
+      {
+        "local_name": "Asa orisa",
+        "language": "yo"
+      },
+      {
+        "local_name": "Aborisawaye",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "stem"
+    ],
+    "voucher_specimen": "103358",
+    "life_form_as_published": "Subshrub",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 110,
+    "botanical_as_published": "Mangifera indica L.",
+    "family_as_published": "Anacardiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Mongoro",
+    "vernacular_names": [
+      {
+        "local_name": "Mongoro",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "stem- bark"
+    ],
+    "voucher_specimen": "103359",
+    "life_form_as_published": "Tree",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 111,
+    "botanical_as_published": "Margaritaria discoidea (Baill.) G.L.Webster",
+    "family_as_published": "Phyllanthaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Agaga-odan, Awe",
+    "vernacular_names": [
+      {
+        "local_name": "Agaga-odan",
+        "language": "yo"
+      },
+      {
+        "local_name": "Awe",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "voucher_specimen": "103360",
+    "life_form_as_published": "Tree",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 112,
+    "botanical_as_published": "Mariscus alternifolius Vahl (Synonym: Cyperus cyperoides (L.) Kuntze)",
+    "family_as_published": "Cyperaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Alubosa eranko, Ikeregun, Samikoko, Efo’aba",
+    "vernacular_names": [
+      {
+        "local_name": "Alubosa eranko",
+        "language": "yo"
+      },
+      {
+        "local_name": "Ikeregun",
+        "language": "yo"
+      },
+      {
+        "local_name": "Samikoko",
+        "language": "yo"
+      },
+      {
+        "local_name": "Efo’aba",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "root"
+    ],
+    "voucher_specimen": "103361",
+    "life_form_as_published": "Sedge",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 113,
+    "botanical_as_published": "Melanthera scandens (Schumach. & Thonn.) Roberty",
+    "family_as_published": "Asteraceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Abo yúnyún, Agbugbo",
+    "vernacular_names": [
+      {
+        "local_name": "Abo yúnyún",
+        "language": "yo"
+      },
+      {
+        "local_name": "Agbugbo",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "stem"
+    ],
+    "voucher_specimen": "103362",
+    "life_form_as_published": "Climber",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 114,
+    "botanical_as_published": "Merremia pterygocaulos (Choisy) Hallier f.",
+    "family_as_published": "Convolvulaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Atewegbore",
+    "vernacular_names": [
+      {
+        "local_name": "Atewegbore",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "voucher_specimen": "103363",
+    "life_form_as_published": "Climber",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 115,
+    "botanical_as_published": "Mezoneuron benthamianum Baill. (Synonym: Caesalpinia benthamiana (Baill.) Herend. & Zarucchi)",
+    "family_as_published": "Fabaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Aseta, Jenifinrani, amuranju",
+    "vernacular_names": [
+      {
+        "local_name": "Aseta",
+        "language": "yo"
+      },
+      {
+        "local_name": "Jenifinrani",
+        "language": "yo"
+      },
+      {
+        "local_name": "amuranju",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "voucher_specimen": "103364",
+    "life_form_as_published": "Climbing shrub",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 116,
+    "botanical_as_published": "Mimosa pudica L.",
+    "family_as_published": "Fabaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Padimo, patanmo",
+    "vernacular_names": [
+      {
+        "local_name": "Padimo",
+        "language": "yo"
+      },
+      {
+        "local_name": "patanmo",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "stem"
+    ],
+    "voucher_specimen": "103365",
+    "life_form_as_published": "Creeper",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 117,
+    "botanical_as_published": "Morinda lucida Benth.",
+    "family_as_published": "Rubiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Oruwo",
+    "vernacular_names": [
+      {
+        "local_name": "Oruwo",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "stem"
+    ],
+    "voucher_specimen": "103366",
+    "life_form_as_published": "Tree",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 118,
+    "botanical_as_published": "Moringa oleifera Lam.",
+    "family_as_published": "Moringaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ewe igbale",
+    "vernacular_names": [
+      {
+        "local_name": "Ewe igbale",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "stem"
+    ],
+    "voucher_specimen": "103367",
+    "life_form_as_published": "Tree",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 119,
+    "botanical_as_published": "Myrianthus arboreus P.Beauv.",
+    "family_as_published": "Urticaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Obisere, Eweade, Ibishere, Eweure",
+    "vernacular_names": [
+      {
+        "local_name": "Obisere",
+        "language": "yo"
+      },
+      {
+        "local_name": "Eweade",
+        "language": "yo"
+      },
+      {
+        "local_name": "Ibishere",
+        "language": "yo"
+      },
+      {
+        "local_name": "Eweure",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "voucher_specimen": "103368",
+    "life_form_as_published": "Shrub/Tree",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 120,
+    "botanical_as_published": "Nauclea latifolia Sm. (Synonym: Sarcocephalus latifolius (Sm.) E.A.Bruce)",
+    "family_as_published": "Rubiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Egbesi",
+    "vernacular_names": [
+      {
+        "local_name": "Egbesi",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "voucher_specimen": "103369",
+    "life_form_as_published": "Tree",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 121,
+    "botanical_as_published": "Newbouldia laevis (P.Beauv.) Seem.",
+    "family_as_published": "Bignoniaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Akoko",
+    "vernacular_names": [
+      {
+        "local_name": "Akoko",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "voucher_specimen": "103370",
+    "life_form_as_published": "Shrub/Tree",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 122,
+    "botanical_as_published": "Ocimum gratissimum L.",
+    "family_as_published": "Lamiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Efinrin",
+    "vernacular_names": [
+      {
+        "local_name": "Efinrin",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "root"
+    ],
+    "voucher_specimen": "103371",
+    "life_form_as_published": "Herb",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 123,
+    "botanical_as_published": "Panicum scandens (Schrad. ex Schult.) Trin. (Synonym: Setaria scandens Schrad.)",
+    "family_as_published": "Poaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Eeran esin",
+    "vernacular_names": [
+      {
+        "local_name": "Eeran esin",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "voucher_specimen": "103372",
+    "life_form_as_published": "Herb",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 124,
+    "botanical_as_published": "Passiflora foetida L.",
+    "family_as_published": "Passifloraceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Nine-nine",
+    "vernacular_names": [
+      {
+        "local_name": "Nine-nine",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "stem"
+    ],
+    "voucher_specimen": "103373",
+    "life_form_as_published": "Creeping vine",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 125,
+    "botanical_as_published": "Paullinia pinnata L.",
+    "family_as_published": "Sapindaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Kakansela",
+    "vernacular_names": [
+      {
+        "local_name": "Kakansela",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "voucher_specimen": "103374",
+    "life_form_as_published": "Climber",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 126,
+    "botanical_as_published": "Perotis indica (L.) Kuntze",
+    "family_as_published": "Poaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Perotis",
+    "vernacular_names": [
+      {
+        "local_name": "Perotis",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "voucher_specimen": "103375",
+    "life_form_as_published": "Herb",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 127,
+    "botanical_as_published": "Persea americana Mill.",
+    "family_as_published": "Lauraceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Pia, apoka",
+    "vernacular_names": [
+      {
+        "local_name": "Pia",
+        "language": "yo"
+      },
+      {
+        "local_name": "apoka",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "voucher_specimen": "103376",
+    "life_form_as_published": "Tree",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 128,
+    "botanical_as_published": "Phaulopsis falcisepala C.B.Clarke (Synonym: Phaulopsis ciliata (Willd.) Hepper)",
+    "family_as_published": "Acanthaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Atapara, Ata-igbó, Apa ọgbẹ́",
+    "vernacular_names": [
+      {
+        "local_name": "Atapara",
+        "language": "yo"
+      },
+      {
+        "local_name": "Ata-igbó",
+        "language": "yo"
+      },
+      {
+        "local_name": "Apa ọgbẹ́",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "voucher_specimen": "103377",
+    "life_form_as_published": "Herb",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 129,
+    "botanical_as_published": "Phyllanthus amarus Schumach. & Thonn.",
+    "family_as_published": "Phyllanthaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Eyin olobe",
+    "vernacular_names": [
+      {
+        "local_name": "Eyin olobe",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "stem",
+      "root"
+    ],
+    "voucher_specimen": "103378",
+    "life_form_as_published": "Herb",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 130,
+    "botanical_as_published": "Phyllanthus niruri L.",
+    "family_as_published": "Phyllanthaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Eyin olobe",
+    "vernacular_names": [
+      {
+        "local_name": "Eyin olobe",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "root"
+    ],
+    "voucher_specimen": "103379",
+    "life_form_as_published": "Herb",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 131,
+    "botanical_as_published": "Physalis angulata L.",
+    "family_as_published": "Solanaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Koropo",
+    "vernacular_names": [
+      {
+        "local_name": "Koropo",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "root"
+    ],
+    "voucher_specimen": "103380",
+    "life_form_as_published": "Herb",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 132,
+    "botanical_as_published": "Piliostigma thonningii (Schum.) Milne-Redh. (Synonym: Bauhinia thonningii Schum.)",
+    "family_as_published": "Fabaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Abafe",
+    "vernacular_names": [
+      {
+        "local_name": "Abafe",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "stem-bark"
+    ],
+    "voucher_specimen": "103381",
+    "life_form_as_published": "Tree",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 133,
+    "botanical_as_published": "Pinus caribaea Morelet",
+    "family_as_published": "Pinaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Pine",
+    "vernacular_names": [
+      {
+        "local_name": "Pine",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "voucher_specimen": "103382",
+    "life_form_as_published": "Tree",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 134,
+    "botanical_as_published": "Pleioceras barteri Baill.",
+    "family_as_published": "Apocynaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Dagba, Abeji, Abeko",
+    "vernacular_names": [
+      {
+        "local_name": "Dagba",
+        "language": "yo"
+      },
+      {
+        "local_name": "Abeji",
+        "language": "yo"
+      },
+      {
+        "local_name": "Abeko",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "root"
+    ],
+    "voucher_specimen": "103383",
+    "life_form_as_published": "Climbing shrub, Liana",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 135,
+    "botanical_as_published": "Polyalthia suaveolens Engl. & Diels (Synonym: Greenwayodendron suaveolens (Engl. & Diels) Verdc.)",
+    "family_as_published": "Annonaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Agudugbu, Ooro",
+    "vernacular_names": [
+      {
+        "local_name": "Agudugbu",
+        "language": "yo"
+      },
+      {
+        "local_name": "Ooro",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "stem"
+    ],
+    "voucher_specimen": "103384",
+    "life_form_as_published": "Tree",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 136,
+    "botanical_as_published": "Portulaca oleracea L.",
+    "family_as_published": "Portulacaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Semolapa",
+    "vernacular_names": [
+      {
+        "local_name": "Semolapa",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "voucher_specimen": "103385",
+    "life_form_as_published": "Herb",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 137,
+    "botanical_as_published": "Psidium guajava L.",
+    "family_as_published": "Myrtaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Girofa",
+    "vernacular_names": [
+      {
+        "local_name": "Girofa",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "voucher_specimen": "103386",
+    "life_form_as_published": "Tree",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 138,
+    "botanical_as_published": "Rauvolfia vomitoria Afzel.",
+    "family_as_published": "Apocynaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Asofeyeje",
+    "vernacular_names": [
+      {
+        "local_name": "Asofeyeje",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "root"
+    ],
+    "voucher_specimen": "103387",
+    "life_form_as_published": "Tree",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 139,
+    "botanical_as_published": "Ricinus communis L.",
+    "family_as_published": "Euphorbiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ewe –laa",
+    "vernacular_names": [
+      {
+        "local_name": "Ewe –laa",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "voucher_specimen": "103388",
+    "life_form_as_published": "Shrub",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 140,
+    "botanical_as_published": "Scoparia dulcis L.",
+    "family_as_published": "Plantaginaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Olorunyinni, eso ojuologbo Ominsinminsin Gogoro",
+    "vernacular_names": [
+      {
+        "local_name": "Olorunyinni",
+        "language": "yo"
+      },
+      {
+        "local_name": "eso ojuologbo Ominsinminsin Gogoro",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "voucher_specimen": "103389",
+    "life_form_as_published": "Herb",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 141,
+    "botanical_as_published": "Secamone afzelii (Roem. & Schult.) K.Schum.",
+    "family_as_published": "Asclepiadaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ailu, Arilu, Òlógbọn gbũrú",
+    "vernacular_names": [
+      {
+        "local_name": "Ailu",
+        "language": "yo"
+      },
+      {
+        "local_name": "Arilu",
+        "language": "yo"
+      },
+      {
+        "local_name": "Òlógbọn gbũrú",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "voucher_specimen": "103390",
+    "life_form_as_published": "Shrub",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 142,
+    "botanical_as_published": "Securinega virosa (Roxb. ex Willd.) Baill. (Synonym: Flueggea virosa (Roxb. ex Willd.) Royle)",
+    "family_as_published": "Phyllanthaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Iranje, Awewe",
+    "vernacular_names": [
+      {
+        "local_name": "Iranje",
+        "language": "yo"
+      },
+      {
+        "local_name": "Awewe",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "stem",
+      "root"
+    ],
+    "voucher_specimen": "103391",
+    "life_form_as_published": "Shrub",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 143,
+    "botanical_as_published": "Senna hirsuta (L.) H.S.Irwin & Barneby",
+    "family_as_published": "Fabaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Rere, Arunfofo",
+    "vernacular_names": [
+      {
+        "local_name": "Rere",
+        "language": "yo"
+      },
+      {
+        "local_name": "Arunfofo",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "root"
+    ],
+    "voucher_specimen": "103392",
+    "life_form_as_published": "Shrub",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 144,
+    "botanical_as_published": "Senna obtusifolia (L.) H.S.Irwin & Barneby",
+    "family_as_published": "Fabaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ako-rere, Epa ikun",
+    "vernacular_names": [
+      {
+        "local_name": "Ako-rere",
+        "language": "yo"
+      },
+      {
+        "local_name": "Epa ikun",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "voucher_specimen": "103393",
+    "life_form_as_published": "Herb",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 145,
+    "botanical_as_published": "Senna podocarpa (Guill. & Perrottet) Lock",
+    "family_as_published": "Fabaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Asuwon ibile, Aja-rere",
+    "vernacular_names": [
+      {
+        "local_name": "Asuwon ibile",
+        "language": "yo"
+      },
+      {
+        "local_name": "Aja-rere",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "voucher_specimen": "103394",
+    "life_form_as_published": "Shrub",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 146,
+    "botanical_as_published": "Senna siamea (Lamarck) H.S.Irwin & Barneby",
+    "family_as_published": "Fabaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ayagba",
+    "vernacular_names": [
+      {
+        "local_name": "Ayagba",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "root",
+      "stem- bark"
+    ],
+    "voucher_specimen": "103395",
+    "life_form_as_published": "Tree",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 147,
+    "botanical_as_published": "Senna tora (L.) Roxb.",
+    "family_as_published": "Fabaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Epa-ikun, Ewe morin, Epaja-abo, Aidan toro",
+    "vernacular_names": [
+      {
+        "local_name": "Epa-ikun",
+        "language": "yo"
+      },
+      {
+        "local_name": "Ewe morin",
+        "language": "yo"
+      },
+      {
+        "local_name": "Epaja-abo",
+        "language": "yo"
+      },
+      {
+        "local_name": "Aidan toro",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "stem",
+      "root"
+    ],
+    "voucher_specimen": "103396",
+    "life_form_as_published": "Herb",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 148,
+    "botanical_as_published": "Sesamum indicum L.",
+    "family_as_published": "Pedaliaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ekuku gogoro",
+    "vernacular_names": [
+      {
+        "local_name": "Ekuku gogoro",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "root"
+    ],
+    "voucher_specimen": "103397",
+    "life_form_as_published": "Herb",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 149,
+    "botanical_as_published": "Sesamum radiatum Schumach. & Thonn.",
+    "family_as_published": "Pedaliaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ekuku Gogoro",
+    "vernacular_names": [
+      {
+        "local_name": "Ekuku Gogoro",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "root"
+    ],
+    "voucher_specimen": "103398",
+    "life_form_as_published": "Herb",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 150,
+    "botanical_as_published": "Sida acuta Burm.f.",
+    "family_as_published": "Malvaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Osekutu, isepotu, gbegi",
+    "vernacular_names": [
+      {
+        "local_name": "Osekutu",
+        "language": "yo"
+      },
+      {
+        "local_name": "isepotu",
+        "language": "yo"
+      },
+      {
+        "local_name": "gbegi",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "voucher_specimen": "103399",
+    "life_form_as_published": "Shrub",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 151,
+    "botanical_as_published": "Sida cordifolia L.",
+    "family_as_published": "Malvaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Iso-obo, Isekutu",
+    "vernacular_names": [
+      {
+        "local_name": "Iso-obo",
+        "language": "yo"
+      },
+      {
+        "local_name": "Isekutu",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "stem"
+    ],
+    "voucher_specimen": "103400",
+    "life_form_as_published": "Undershrub",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 152,
+    "botanical_as_published": "Sida linifolia Juss. ex Cav. (Synonym:",
+    "family_as_published": "Malvaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Osekutu",
+    "vernacular_names": [
+      {
+        "local_name": "Osekutu",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "stem"
+    ],
+    "voucher_specimen": "103401",
+    "life_form_as_published": "Subshrub",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 153,
+    "botanical_as_published": "Smilax kraussiana Meisn. Smilax anceps Willd.)",
+    "family_as_published": "Smilacaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ekanamagbo",
+    "vernacular_names": [
+      {
+        "local_name": "Ekanamagbo",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "root"
+    ],
+    "voucher_specimen": "103402",
+    "life_form_as_published": "Climbing shrub",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 154,
+    "botanical_as_published": "Solanum nigrum L. (Synonym: Solanum americanum Mill.)",
+    "family_as_published": "Solanaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Igba, odu",
+    "vernacular_names": [
+      {
+        "local_name": "Igba",
+        "language": "yo"
+      },
+      {
+        "local_name": "odu",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "stem"
+    ],
+    "voucher_specimen": "103403",
+    "life_form_as_published": "Herb",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 155,
+    "botanical_as_published": "Solanum torvum Sw.",
+    "family_as_published": "Solanaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ewe Igbalode, Igbalode legun",
+    "vernacular_names": [
+      {
+        "local_name": "Ewe Igbalode",
+        "language": "yo"
+      },
+      {
+        "local_name": "Igbalode legun",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "root"
+    ],
+    "voucher_specimen": "103404",
+    "life_form_as_published": "Shrub/ Small tree",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 156,
+    "botanical_as_published": "Solenostemon monostachyus (P.Beauv.) Briq. (Synonym: Plectranthus monostachyus (P.Beauv.) B.J.Pollard)",
+    "family_as_published": "Lamiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Olojongbodu, Aranpolo",
+    "vernacular_names": [
+      {
+        "local_name": "Olojongbodu",
+        "language": "yo"
+      },
+      {
+        "local_name": "Aranpolo",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "stem"
+    ],
+    "voucher_specimen": "103405",
+    "life_form_as_published": "Herb",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 157,
+    "botanical_as_published": "Sorghum bicolor (L.) Moench",
+    "family_as_published": "Poaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Okababa",
+    "vernacular_names": [
+      {
+        "local_name": "Okababa",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "stem"
+    ],
+    "voucher_specimen": "103406",
+    "life_form_as_published": "Herb",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 158,
+    "botanical_as_published": "Sphenocentrum jollyanum Pierre",
+    "family_as_published": "Menispermaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Akerejupoo",
+    "vernacular_names": [
+      {
+        "local_name": "Akerejupoo",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "seed",
+      "root"
+    ],
+    "voucher_specimen": "103407",
+    "life_form_as_published": "Shrub",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 159,
+    "botanical_as_published": "Spigelia anthelmia L.",
+    "family_as_published": "Loganiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Aparan",
+    "vernacular_names": [
+      {
+        "local_name": "Aparan",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "stem"
+    ],
+    "voucher_specimen": "103408",
+    "life_form_as_published": "Herb",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 160,
+    "botanical_as_published": "Spondias mombin L.",
+    "family_as_published": "Anacardiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Iyeye",
+    "vernacular_names": [
+      {
+        "local_name": "Iyeye",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "stem",
+      "root"
+    ],
+    "voucher_specimen": "103409",
+    "life_form_as_published": "Tree",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 161,
+    "botanical_as_published": "Sporobolus indicus (L.) R.Br.",
+    "family_as_published": "Poaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Motisan",
+    "vernacular_names": [
+      {
+        "local_name": "Motisan",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "stem"
+    ],
+    "voucher_specimen": "103410",
+    "life_form_as_published": "Herb",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 162,
+    "botanical_as_published": "Stachytarpheta indica (L.) Vahl",
+    "family_as_published": "Verbenaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Iru eku, Iru alangba, Akisan",
+    "vernacular_names": [
+      {
+        "local_name": "Iru eku",
+        "language": "yo"
+      },
+      {
+        "local_name": "Iru alangba",
+        "language": "yo"
+      },
+      {
+        "local_name": "Akisan",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "root"
+    ],
+    "voucher_specimen": "103411",
+    "life_form_as_published": "Shrub",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 163,
+    "botanical_as_published": "Sterculia tragacantha Lindl.",
+    "family_as_published": "Malvaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Alawefon, Okagbo",
+    "vernacular_names": [
+      {
+        "local_name": "Alawefon",
+        "language": "yo"
+      },
+      {
+        "local_name": "Okagbo",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "root"
+    ],
+    "voucher_specimen": "103412",
+    "life_form_as_published": "Tree",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 164,
+    "botanical_as_published": "Synedrella nodiflora (L.) Gaertn.",
+    "family_as_published": "Asteraceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ako-yun-yun, Aworo-ona",
+    "vernacular_names": [
+      {
+        "local_name": "Ako-yun-yun",
+        "language": "yo"
+      },
+      {
+        "local_name": "Aworo-ona",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "root"
+    ],
+    "voucher_specimen": "103413",
+    "life_form_as_published": "Herb",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 165,
+    "botanical_as_published": "Syzygium guineense (Willd.) DC.",
+    "family_as_published": "Myrtaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Adere, Igi aro",
+    "vernacular_names": [
+      {
+        "local_name": "Adere",
+        "language": "yo"
+      },
+      {
+        "local_name": "Igi aro",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "voucher_specimen": "103414",
+    "life_form_as_published": "Tree",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 166,
+    "botanical_as_published": "Talinum triangulare (Jacq.) Willd. (Synonym: Talinum fruticosum (L.) Juss.)",
+    "family_as_published": "Talinaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Gure",
+    "vernacular_names": [
+      {
+        "local_name": "Gure",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "root"
+    ],
+    "voucher_specimen": "103415",
+    "life_form_as_published": "Herb",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 167,
+    "botanical_as_published": "Tapinanthus globiferus (A.Rich.) Tiegh.",
+    "family_as_published": "Loranthaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Afomo",
+    "vernacular_names": [
+      {
+        "local_name": "Afomo",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "root"
+    ],
+    "voucher_specimen": "103416",
+    "life_form_as_published": "Shrub",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 168,
+    "botanical_as_published": "Telfairia occidentalis Hook.f.",
+    "family_as_published": "Cucurbitaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Eweroko, Ugwu",
+    "vernacular_names": [
+      {
+        "local_name": "Eweroko",
+        "language": "yo"
+      },
+      {
+        "local_name": "Ugwu",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "voucher_specimen": "103417",
+    "life_form_as_published": "Climber",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 169,
+    "botanical_as_published": "Terminalia ivorensis A.Chev.",
+    "family_as_published": "Combretaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Afara",
+    "vernacular_names": [
+      {
+        "local_name": "Afara",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "voucher_specimen": "103418",
+    "life_form_as_published": "Tree",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 170,
+    "botanical_as_published": "Tetracera alnifolia Willd.",
+    "family_as_published": "Dilleniaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Opon",
+    "vernacular_names": [
+      {
+        "local_name": "Opon",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "voucher_specimen": "103419",
+    "life_form_as_published": "Climber",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 171,
+    "botanical_as_published": "Thaumatococcus daniellii (Benn.) Benth.",
+    "family_as_published": "Marantaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ewe iran",
+    "vernacular_names": [
+      {
+        "local_name": "Ewe iran",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "voucher_specimen": "103420",
+    "life_form_as_published": "Herb",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 172,
+    "botanical_as_published": "Thevetia peruviana (Pers.) K.Schum.",
+    "family_as_published": "Apocynaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Kanminko",
+    "vernacular_names": [
+      {
+        "local_name": "Kanminko",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "root"
+    ],
+    "voucher_specimen": "103421",
+    "life_form_as_published": "Tree",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 173,
+    "botanical_as_published": "Tithonia diversifolia (Hemsl.) A.Gray",
+    "family_as_published": "Asteraceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Agbale, Sepeleba",
+    "vernacular_names": [
+      {
+        "local_name": "Agbale",
+        "language": "yo"
+      },
+      {
+        "local_name": "Sepeleba",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "root"
+    ],
+    "voucher_specimen": "103422",
+    "life_form_as_published": "Shrub",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 174,
+    "botanical_as_published": "Trichilia monadelpha (Thonn.) J.J.de Wilde",
+    "family_as_published": "Meliaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ajanrere, Ako rere",
+    "vernacular_names": [
+      {
+        "local_name": "Ajanrere",
+        "language": "yo"
+      },
+      {
+        "local_name": "Ako rere",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "voucher_specimen": "103423",
+    "life_form_as_published": "Tree",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 175,
+    "botanical_as_published": "Tridax procumbens (L.) L.",
+    "family_as_published": "Asteraceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Igbalode, sábárúmá",
+    "vernacular_names": [
+      {
+        "local_name": "Igbalode",
+        "language": "yo"
+      },
+      {
+        "local_name": "sábárúmá",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "root"
+    ],
+    "voucher_specimen": "103424",
+    "life_form_as_published": "Herb",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 176,
+    "botanical_as_published": "Triumfetta cordifolia A.Rich.",
+    "family_as_published": "Malvaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Yogboro, Akee-eri",
+    "vernacular_names": [
+      {
+        "local_name": "Yogboro",
+        "language": "yo"
+      },
+      {
+        "local_name": "Akee-eri",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "stem"
+    ],
+    "voucher_specimen": "103425",
+    "life_form_as_published": "Shrub",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 177,
+    "botanical_as_published": "Urena lobata L. var. glauca (Blume) Borss. Waalk.",
+    "family_as_published": "Malvaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Okeriri",
+    "vernacular_names": [
+      {
+        "local_name": "Okeriri",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "voucher_specimen": "103426",
+    "life_form_as_published": "Shrub",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 178,
+    "botanical_as_published": "Urena lobata L.",
+    "family_as_published": "Malvaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Oju oro, Okeriri, Ilasa agborin, Ilasa omode, Ilasa oyibo",
+    "vernacular_names": [
+      {
+        "local_name": "Oju oro",
+        "language": "yo"
+      },
+      {
+        "local_name": "Okeriri",
+        "language": "yo"
+      },
+      {
+        "local_name": "Ilasa agborin",
+        "language": "yo"
+      },
+      {
+        "local_name": "Ilasa omode",
+        "language": "yo"
+      },
+      {
+        "local_name": "Ilasa oyibo",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "stem"
+    ],
+    "voucher_specimen": "103427",
+    "life_form_as_published": "Shrub",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 179,
+    "botanical_as_published": "Vernonia amygdalina Delile",
+    "family_as_published": "Asteraceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ewuro",
+    "vernacular_names": [
+      {
+        "local_name": "Ewuro",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "stem"
+    ],
+    "voucher_specimen": "103428",
+    "life_form_as_published": "Shrub",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 180,
+    "botanical_as_published": "Vernonia cinerea (L.) Less. (Synonym: Cyanthillium cinereum (L.) H.Rob.",
+    "family_as_published": "Asteraceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Amunimuye, Bojure",
+    "vernacular_names": [
+      {
+        "local_name": "Amunimuye",
+        "language": "yo"
+      },
+      {
+        "local_name": "Bojure",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "stem",
+      "root"
+    ],
+    "voucher_specimen": "103429",
+    "life_form_as_published": "Herb",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 181,
+    "botanical_as_published": "Vitex doniana Sweet",
+    "family_as_published": "Lamiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Oori",
+    "vernacular_names": [
+      {
+        "local_name": "Oori",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "root"
+    ],
+    "voucher_specimen": "103430",
+    "life_form_as_published": "Tree",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 182,
+    "botanical_as_published": "Waltheria indica L.",
+    "family_as_published": "Malvaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Korikodi, Ewe epo",
+    "vernacular_names": [
+      {
+        "local_name": "Korikodi",
+        "language": "yo"
+      },
+      {
+        "local_name": "Ewe epo",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "voucher_specimen": "103431",
+    "life_form_as_published": "Shrub",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  },
+  {
+    "source_id": "olanipekun-2022-lagos",
+    "source_row": 183,
+    "botanical_as_published": "Zingiber officinale Roscoe",
+    "family_as_published": "Zingiberaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Atale",
+    "vernacular_names": [
+      {
+        "local_name": "Atale",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "root"
+    ],
+    "voucher_specimen": "103432",
+    "life_form_as_published": "Herb",
+    "use_context": "medicinal plant reported in five Lagos State communities"
+  }
+]

@@ -1,0 +1,21 @@
+:root {
+  --sanko-brand-indigo: #17134f;
+  --sanko-field-indigo: #080840;
+  --sanko-deep-indigo: #030326;
+  --sanko-mineral-white: #f5f2e8;
+  --sanko-medicinal-chartreuse: #c8f35b;
+  --sanko-oxidised-copper: #d76545;
+  --sanko-copper-ink: #9f3e29;
+  --sanko-ink: #090a23;
+  --sanko-indigo-line: #34346b;
+  --sanko-mineral-muted: #c9c6d5;
+  --sanko-ink-muted: #565369;
+
+  --sanko-font-display: "Archivo", "Arial Narrow", sans-serif;
+  --sanko-font-data: "IBM Plex Mono", ui-monospace, monospace;
+
+  --sanko-corner: 0;
+  --sanko-rule: 1px;
+  --sanko-focus-ring: 3px solid var(--sanko-oxidised-copper);
+  --sanko-focus-offset: 4px;
+}

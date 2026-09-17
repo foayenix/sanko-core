@@ -1,0 +1,139 @@
+# PHASE 3A: Practitioner Shell + Sidebar + Dashboard
+
+## Context
+Phases 1-2 are done. src/data.js and src/views/HomeView.jsx exist. App.jsx has the nav shell.
+
+## What to build
+Create src/views/PractitionerView.jsx with ONLY the sidebar and dashboard. Other sub-views will be added in Phases 3B and 3C.
+
+## PractitionerView.jsx
+
+```jsx
+import { useState } from 'react';
+import { FORMULATIONS, PATIENTS, COLORS } from '../data';
+```
+
+### State
+```jsx
+const [subView, setSubView] = useState('dashboard');
+const [selectedFormulation, setSelectedFormulation] = useState(null);
+const [selectedPatient, setSelectedPatient] = useState(null);
+```
+
+### Layout
+CSS grid: `gridTemplateColumns: '260px 1fr'`, gap 20px, maxWidth 1200px, margin auto, padding 24px.
+
+### LEFT SIDEBAR
+A card-style div (rgba(255,255,255,0.02) bg, border, 14px radius, 20px padding).
+
+**User section:**
+- Green circle (40px, 12px radius) with "BA" in white
+- "Baba Adeyemi" (14px, bold)
+- "Lagos, Nigeria · HTSN Member" (11px, muted)
+- 20px margin bottom
+
+**Nav items** (column, 2px gap):
+Each: flex row, icon + label, padding 8px 10px, rounded 8px, cursor pointer. Active gets `background: rgba(27,107,58,0.08)` and green text. Inactive gets transparent bg and rgba(255,255,255,0.65) text.
+
+```js
+const NAV = [
+  { id: 'dashboard', icon: '📊', label: 'Dashboard' },
+  { id: 'vault', icon: '🌿', label: 'My vault', badge: '43' },
+  { id: 'patients', icon: '👥', label: 'Patients' },
+  { id: 'outcomes', icon: '📈', label: 'Outcomes' },
+  { id: 'community', icon: '👨‍👩‍👧', label: 'Community' },
+  { id: 'reports', icon: '📄', label: 'Practice reports' },
+  { id: 'settings', icon: '⚙️', label: 'Settings' },
+];
+```
+
+The "My vault" item shows a badge ("43") aligned to the right.
+
+Clicking a nav item: `setSubView(item.id); setSelectedFormulation(null); setSelectedPatient(null);`
+
+### MAIN CONTENT
+For now, only implement the dashboard sub-view. All other sub-views show a placeholder: `<div style={{padding:40, color:'rgba(255,255,255,0.3)'}}>Coming in next phase</div>`
+
+### Dashboard (subView === 'dashboard')
+
+**Notifications** — 3 cards stacked with 8px gap:
+
+Each notification: flex row, 10px gap, 12px 14px padding, rounded 10px, border.
+
+1. Green tint (bg: rgba(27,107,58,0.06), border: rgba(27,107,58,0.12)):
+   - Icon: ✅ (16px, flex-shrink 0)
+   - Text: "**Patient #47** — Day 7 check-in: fever broke, appetite returned. Agbo Iba." (12px, rgba(255,255,255,0.6), strong tags at 0.85)
+   - Time: "2 hours ago" (10px, rgba(255,255,255,0.2))
+   - onClick: `setSelectedPatient('p47')`
+
+2. Gold tint (bg: rgba(184,134,11,0.06), border: rgba(184,134,11,0.12)):
+   - Icon: 🔬
+   - Text: "**Research interest:** University of Ibadan flagged Omi Isu Diabetis. 2 researchers interested."
+   - Time: "Yesterday"
+   - onClick: `setSelectedFormulation('f2')`
+
+3. Neutral (bg: rgba(255,255,255,0.02), border: rgba(255,255,255,0.06)):
+   - Icon: 📋
+   - Text: "3 patients due for follow-up today. **Patient #51** (Day 3), **#44** (Day 7), **#39** (Day 14 final)."
+   - Time: "Scheduled"
+   - onClick: `setSubView('patients')`
+
+**Stat cards** — 4-column grid, 12px gap:
+
+Each stat: rgba(255,255,255,0.02) bg, border rgba(255,255,255,0.05), 10px radius, 14px 16px padding.
+- Value: fontFamily 'Instrument Serif', serif, 28px, color #fff (or green/gold as specified)
+- Label: 11px, rgba(255,255,255,0.35)
+- Change: 11px, color #1B6B3A (forest green), fontWeight 600
+
+Stats:
+1. "43" (green) / "Formulations in vault" / "+3 this month"
+2. "284" / "Patients tracked" / "+18 this month"
+3. "87%" (green) / "Overall effectiveness" / "Across all formulations"
+4. "4.1" (gold) / "Avg days to recovery" / "Fever formulations"
+
+**Top formulations list** — card with header:
+
+Header: "Top formulations by outcomes" (left, 13px bold uppercase muted) + "See all 43 →" (right, 12px green, cursor pointer, onClick → setSubView('vault'))
+
+Map FORMULATIONS from data.js. Each item:
+- Flex row, 10px gap, 10px 0 padding, border-bottom 1px rgba(255,255,255,0.04), cursor pointer
+- Left: 36px icon circle (rounded 10px, bg rgba(27,107,58,0.1) or vary), center emoji 🌿 or 🍯
+- Middle: name (14px, 500 weight, rgba(255,255,255,0.85)), below: conditions joined + " · " + ingredients.length + " ingredients" (11px, muted)
+- Right (margin-left auto, text-align right): effectiveness% (18px, bold, green if >=80 gold if >=70 else muted), below: tracked + " tracked" (11px muted)
+- onClick: `setSelectedFormulation(f.id)`
+
+Below each item, show an **outcome bar** (20px height, rounded 6px, flex, 2px gap):
+- recovered% → bg #1B6B3A
+- improved% → bg #4ADE80
+- noChange% → bg #B8860B
+- worsened% → bg #9E4A2F
+Each segment shows its percentage in 9px white bold if wide enough.
+
+Below the bar, a legend row (flex, 12px gap, 10px font, rgba(255,255,255,0.25)):
+"● Recovered · ● Improved · ● No change · ● Worsened"
+
+**Community card** — below the formulation list:
+
+Card with header "HTSN community — Lagos chapter" + "View full →" link.
+
+3-column stat grid inside:
+- "214" / "Active practitioners"
+- "8,420" / "Total formulations"
+- "84%" (green) / "Avg effectiveness"
+
+Below: "Aggregated across all members. Individual formulations remain private unless shared. These numbers can be shown to regulators, health authorities, and partners." (12px, muted)
+
+### Flywheel footer
+At the bottom, show a subtle line with the flywheel:
+Border-top 1px rgba(255,255,255,0.06), padding-top 24px, flex row centered, gap 16px, flex-wrap.
+Each node: 28px circle + 11px label. Arrows between in muted green/gold/indigo.
+"🌿 Practitioners → 📊 Outcome data → 🔬 Research → ✅ Validation → ↩ cycle accelerates"
+
+## Integration
+In App.jsx, import PractitionerView and replace the practitioner placeholder.
+
+## Verify
+`npm run dev` — click "Practitioner" tab, sidebar renders, dashboard shows notifications, stats, formulations, community card. Clicking formulations does nothing visible yet (detail view comes in 3B).
+
+## Commit
+"Phase 3A: Practitioner shell, sidebar, and dashboard"

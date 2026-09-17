@@ -1,0 +1,28 @@
+{
+  "id": "08-partial-record",
+  "description": "Plants and preparation given, dosage never mentioned. A partial record is correct; inventing a dosage is not.",
+  "practitioner": {
+    "display_name": "Nkem",
+    "preferred_language": "ig"
+  },
+  "turns": [
+    "For stomach pain I use utazi leaves, boiled in water for about fifteen minutes. That is all I want to record for now, save it.",
+    "Correct. Save it like that, no dosage."
+  ],
+  "expect": {
+    "tools": [
+      "save_formulation"
+    ],
+    "plants_include": [
+      "utazi"
+    ],
+    "botanicals": {
+      "utazi": "Gongronema latifolium"
+    },
+    "fields": {
+      "preparation.method": "decoction",
+      "dosage.amount": null,
+      "dosage.frequency": null
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "53-buttons-on-save-confirmation",
+  "description": "A complete remedy read back for approval. The confirmation is a yes-or-no question, so it must arrive as buttons rather than as something to type.",
+  "practitioner": {
+    "display_name": "Iya Bisi",
+    "preferred_language": "en",
+    "region": "Abeokuta"
+  },
+  "turns": [
+    "For stomach ache I use bitter leaf, one handful, boiled in water for ten minutes. One cup after food, twice a day.",
+    "Yes, that is right."
+  ],
+  "expect": {
+    "tools": [
+      "save_formulation"
+    ],
+    "plants_include": [
+      "bitter leaf"
+    ],
+    "choices": "required"
+  }
+}

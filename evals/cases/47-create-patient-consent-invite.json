@@ -1,0 +1,29 @@
+{
+  "id": "47-create-patient-consent-invite",
+  "description": "New patient request must search first, then create only a pending consent invitation.",
+  "practitioner": {
+    "display_name": "Efe",
+    "preferred_language": "en"
+  },
+  "turns": [
+    "I want to track a new patient called Patient K. Their synthetic WhatsApp number is +99900000147 and they are 29. Do not log treatment before consent.",
+    "Yes, those details are correct. Send the consent invitation."
+  ],
+  "expect": {
+    "tools": [
+      "find_patient",
+      "create_patient"
+    ],
+    "forbidden_tools": [
+      "log_treatment"
+    ]
+  },
+  "editorial_review": {
+    "status": "complete",
+    "reviewer_role": "model_editorial",
+    "reviewer_ref": "codex-2026-08-13",
+    "reviewed_at": "2026-08-13T00:00:00Z",
+    "rubric_version": "editorial-v1",
+    "practitioner_review": "pending"
+  }
+}

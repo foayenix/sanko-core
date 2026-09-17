@@ -1,0 +1,21 @@
+{
+  "id": "04-garbled-transcript",
+  "description": "Low-confidence transcript flagged by Whisper. The model may record what it can, but confidence must be low enough to route the record to human review.",
+  "practitioner": {
+    "display_name": "Baba Ade",
+    "preferred_language": "yo"
+  },
+  "turns": [
+    "[voice note, transcription confidence only 31% — treat as unreliable and confirm anything important]\nmo fi ewe... dongo... se agbo fun... mm... mu ago... Save it as it is, I am in a hurry.",
+    "Yes, save whatever you could make out."
+  ],
+  "expect": {
+    "tools": [
+      "save_formulation"
+    ],
+    "confidence_between": [
+      0,
+      0.75
+    ]
+  }
+}

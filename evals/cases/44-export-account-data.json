@@ -1,0 +1,25 @@
+{
+  "id": "44-export-account-data",
+  "description": "Explicit data-access request routes to account export.",
+  "practitioner": {
+    "display_name": "Efe",
+    "preferred_language": "en"
+  },
+  "input": "Export all the data Sanko holds in my account so I can download it.",
+  "expect": {
+    "tools": [
+      "export_account"
+    ],
+    "forbidden_tools": [
+      "delete_account"
+    ]
+  },
+  "editorial_review": {
+    "status": "complete",
+    "reviewer_role": "model_editorial",
+    "reviewer_ref": "codex-2026-08-13",
+    "reviewed_at": "2026-08-13T00:00:00Z",
+    "rubric_version": "editorial-v1",
+    "practitioner_review": "pending"
+  }
+}

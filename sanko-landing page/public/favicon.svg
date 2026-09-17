@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Sanko">
+  <rect width="512" height="512" fill="#080840"/>
+  <g transform="translate(84 70) scale(4.58667)">
+    <path fill="#F5F2E8" fill-rule="evenodd" d="M0 0H39L49 11V28H75V57H49V81H0Z M19 14H31V27H19Z"/>
+  </g>
+</svg>

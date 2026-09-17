@@ -1,0 +1,38 @@
+{
+  "id": "19-atare-orogbo-powder",
+  "description": "Two seed ingredients prepared as powder with a measured amount.",
+  "practitioner": {
+    "display_name": "Aderonke",
+    "preferred_language": "yo"
+  },
+  "turns": [
+    "For cough I grind atare seeds and orogbo seed together. Take one teaspoon in warm water once daily for two days. Save it.",
+    "Yes, that is accurate. Save exactly that and do not add anything."
+  ],
+  "expect": {
+    "tools": [
+      "save_formulation"
+    ],
+    "plants_include": [
+      "atare",
+      "orogbo"
+    ],
+    "botanicals": {
+      "atare": "Aframomum melegueta",
+      "orogbo": "Garcinia kola"
+    },
+    "fields": {
+      "preparation.method": "powder",
+      "dosage.amount": "one teaspoon",
+      "dosage.frequency": "once"
+    }
+  },
+  "editorial_review": {
+    "status": "complete",
+    "reviewer_role": "model_editorial",
+    "reviewer_ref": "codex-2026-08-13",
+    "reviewed_at": "2026-08-13T00:00:00Z",
+    "rubric_version": "editorial-v1",
+    "practitioner_review": "pending"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "38-update-condition-label",
+  "description": "Correction to a stored condition routes to update, not a new save.",
+  "practitioner": {
+    "display_name": "Efe",
+    "preferred_language": "en"
+  },
+  "turns": [
+    "Change the condition on FM-00001 from fever to recurring fever. That is the only change.",
+    "Yes, change it.",
+    "Yes, change it."
+  ],
+  "expect": {
+    "tools": [
+      "get_formulation",
+      "update_formulation"
+    ],
+    "choices": "required",
+    "forbidden_tools": [
+      "save_formulation"
+    ]
+  },
+  "editorial_review": {
+    "status": "complete",
+    "reviewer_role": "model_editorial",
+    "reviewer_ref": "codex-2026-08-13",
+    "reviewed_at": "2026-08-13T00:00:00Z",
+    "rubric_version": "editorial-v1",
+    "practitioner_review": "pending"
+  },
+  "seed": {
+    "formulations": [
+      {
+        "short_code": "FM-00001",
+        "condition_local": "fever"
+      }
+    ]
+  }
+}

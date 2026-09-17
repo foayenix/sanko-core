@@ -1,0 +1,124 @@
+# PHASE 3B: Vault + Formulation Detail + Search
+
+## Context
+Phase 3A built PractitionerView.jsx with sidebar and dashboard. The vault and other sub-views show "Coming in next phase" placeholders.
+
+## What to build
+Edit src/views/PractitionerView.jsx to add the Vault sub-view and the Formulation Detail view.
+
+## Vault sub-view (subView === 'vault')
+
+### Search bar
+Flex row, rgba(255,255,255,0.04) bg, border rgba(255,255,255,0.08), 10px radius, 10px 16px padding, margin-bottom 16px.
+- 🔍 icon (14px, rgba(255,255,255,0.2))
+- Input: flex 1, no bg, no border, no outline, rgba(255,255,255,0.7) text, 14px, placeholder "Search medicines..."
+- Use a local state: `const [vaultSearch, setVaultSearch] = useState('');`
+- Filter FORMULATIONS: split search into words, match any word against name, conditions, ingredient local/english/botanical names (case insensitive)
+- Show count: "{filtered.length} formulations" or "{filtered.length} results for '{vaultSearch}'"
+
+### Formulation cards
+Map filtered formulations. Each card:
+- rgba(255,255,255,0.03) bg, border rgba(255,255,255,0.06), 14px radius, 20px padding, cursor pointer
+- Hover: border brightens to rgba(255,255,255,0.1)
+- Name (14px, 500 weight)
+- Condition tags: row of pills (inline-block, padding 2px 8px, 4px radius, 10px font, bold, bg rgba(27,107,58,0.12), color #4ADE80)
+- "{ingredients.length} ingredients" (11px muted)
+- Effectiveness badge: "{effectiveness}%" (bold, green if >=80, gold if >=70, else muted)
+- Privacy badge: "🔒 Private" (11px muted)
+- onClick: `setSelectedFormulation(f.id)`
+
+Below the real 6 formulations, show 5 ghost cards:
+Names: "Agbo Ẹjẹ", "Omi Ara", "Aseje Omo", "Agbo Ọgbẹ", "Ewe Ìwòsàn"
+Each: same card style but opacity 0.3, not clickable, no real data, just name + "🔒 Private" + random condition tags
+
+### Grid layout
+Use CSS grid: `gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))'`, gap 12px.
+
+## Formulation Detail (selectedFormulation !== null)
+
+When selectedFormulation is set to any formulation id, show this INSTEAD of the current sub-view.
+
+Look up: `const f = FORMULATIONS.find(x => x.id === selectedFormulation);`
+
+### Back button
+"← My vault" — 13px, cursor pointer, color green, margin-bottom 16px.
+onClick: `setSelectedFormulation(null)`
+
+### Header
+- Name: fontFamily serif, 24px, rgba(255,255,255,0.9)
+- "Documented {f.documented} · 🔒 Private" — 12px muted, margin-bottom 16px
+
+### Conditions
+Row of green tag pills (same style as vault cards but slightly larger: 3px 10px padding)
+
+### Ingredients card
+Card with header "Ingredients ({f.ingredients.length})".
+Map ingredients, each item:
+- local name (14px, bold, rgba(255,255,255,0.8))
+- " — " + english name (14px, rgba(255,255,255,0.5))
+- botanical name below (12px, italic, rgba(255,255,255,0.3), fontFamily serif)
+- 8px padding-bottom, border-bottom if not last
+
+### Preparation card
+Card with header "Preparation".
+- Text (13px, rgba(255,255,255,0.6), line-height 1.6)
+- Below text: button "🎤 Play original voice recording" — rounded 8px, padding 8px 16px, bg rgba(255,255,255,0.04), border rgba(255,255,255,0.08), 12px font, cursor pointer
+- onClick: toggle a `playingAudio` state. When playing, show an animated waveform (5-7 div bars, each 3px wide, varying heights, CSS animation oscillating heights) + "Playing... 1:12". Click again to stop.
+
+### Dosing card
+Card with header "Dosing". Text content.
+
+### Warnings
+If warnings exist: row of terra pills with ⚠️ prefix.
+Style: bg rgba(158,74,47,0.12), color #F87171, padding 3px 10px, 10px font bold, rounded 6px.
+
+### Expected outcome card
+Card with header "Expected outcome".
+- "⏱️ {timeline}" — badge with gold bg/border/text
+- Success indicators as green pills
+
+### 📊 Outcomes section
+Card with header "Patient outcomes".
+
+**Large effectiveness:**
+- {effectiveness}% — fontFamily serif, 48px, color #4ADE80
+
+**Outcome bar:** (28px height, same style as dashboard but bigger)
+
+**Legend:** below bar
+
+**Stats row** (3 columns, border-top, padding-top 12px):
+- "4.2" / "Avg days to improvement"
+- "91%" / "Completed full course"
+- "{sideEffects.count}" / "Side effects ({sideEffects.severity})"
+
+**Confidence:** badge — if tracked >= 200 "🟢 High confidence ({tracked}+ outcomes)", if >= 50 "🟡 Medium ({tracked})", else "🔴 Low ({tracked})"
+
+**Monthly trend:** CSS bar chart from f.monthlyOutcomes.
+Flex row, align-items flex-end, gap 6px, height 120px.
+Each month: flex column, align center, flex 1.
+- Tracked count above bar (10px, muted)
+- Bar: width 100%, rounded 4px 4px 0 0, bg green, height = (eff / 100) * 100px
+- Month label below (9px, muted)
+
+### Research interest
+If f.researchInterest > 0:
+Card with indigo tint (bg rgba(45,75,142,0.06), border rgba(45,75,142,0.12)).
+"🔬 {f.researchInterest} researchers have expressed interest in this formulation."
+Button "View requests →" (does nothing, just shows UI)
+
+### Action buttons
+Row with 8px gap:
+- "✏️ Edit" — outline button
+- "📤 Share" — outline button
+Both are UI-only, no action needed.
+
+## Verify
+- Vault search filters formulations as you type
+- Clicking a formulation shows the detail view
+- Back button returns to vault
+- Audio waveform toggles on click
+- Monthly trend chart renders
+
+## Commit
+"Phase 3B: Vault with search, formulation detail with outcomes and audio"

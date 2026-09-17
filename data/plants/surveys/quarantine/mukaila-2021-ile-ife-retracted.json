@@ -1,0 +1,3244 @@
+{
+  "source_id": "mukaila-2021-ile-ife",
+  "publication_status": "retracted",
+  "runtime_export_eligible": false,
+  "inventory": [
+    {
+      "source_id": "mukaila-2021-ile-ife",
+      "source_row": 1,
+      "botanical_as_published": "Amaranthus spinosus L.",
+      "family_as_published": "Amaranthaceae",
+      "common_english_as_published": "Spiny amaranth",
+      "vernacular_as_published": "Tete elegun",
+      "vernacular_names": [
+        {
+          "local_name": "Tete elegun",
+          "language": "yo"
+        }
+      ],
+      "voucher_specimen": "IFE17849",
+      "life_form_as_published": "Herb",
+      "frequency_as_published": "6",
+      "relative_frequency_as_published": "0.09"
+    },
+    {
+      "source_id": "mukaila-2021-ile-ife",
+      "source_row": 2,
+      "botanical_as_published": "Crinum jagus (Thompson) Dandy",
+      "family_as_published": "Amaryllidaceae",
+      "common_english_as_published": "Christopher's lilly",
+      "vernacular_as_published": "Ogede odo, Isu merii",
+      "vernacular_names": [
+        {
+          "local_name": "Ogede odo",
+          "language": "yo"
+        },
+        {
+          "local_name": "Isu merii",
+          "language": "yo"
+        }
+      ],
+      "voucher_specimen": "IFE17895",
+      "life_form_as_published": "Herb",
+      "frequency_as_published": "33",
+      "relative_frequency_as_published": "0.47"
+    },
+    {
+      "source_id": "mukaila-2021-ile-ife",
+      "source_row": 3,
+      "botanical_as_published": "Anacardium occidentale L.",
+      "family_as_published": "Anarcadiaceae",
+      "common_english_as_published": "Cashew",
+      "vernacular_as_published": "Kashu",
+      "vernacular_names": [
+        {
+          "local_name": "Kashu",
+          "language": "yo"
+        }
+      ],
+      "voucher_specimen": "IFE17908",
+      "life_form_as_published": "Tree",
+      "frequency_as_published": "10",
+      "relative_frequency_as_published": "0.12"
+    },
+    {
+      "source_id": "mukaila-2021-ile-ife",
+      "source_row": 4,
+      "botanical_as_published": "Mangifera indica L.",
+      "family_as_published": "Anarcadiaceae",
+      "common_english_as_published": "Mango",
+      "vernacular_as_published": "Mongoro",
+      "vernacular_names": [
+        {
+          "local_name": "Mongoro",
+          "language": "yo"
+        }
+      ],
+      "voucher_specimen": "IFE17874",
+      "life_form_as_published": "Tree",
+      "frequency_as_published": "63",
+      "relative_frequency_as_published": "0.90"
+    },
+    {
+      "source_id": "mukaila-2021-ile-ife",
+      "source_row": 5,
+      "botanical_as_published": "Spondias mombin L.",
+      "family_as_published": "Anarcadiaceae",
+      "common_english_as_published": "Hog plum",
+      "vernacular_as_published": "Iyeye",
+      "vernacular_names": [
+        {
+          "local_name": "Iyeye",
+          "language": "yo"
+        }
+      ],
+      "voucher_specimen": "IFE17879",
+      "life_form_as_published": "Tree",
+      "frequency_as_published": "13",
+      "relative_frequency_as_published": "0.33"
+    },
+    {
+      "source_id": "mukaila-2021-ile-ife",
+      "source_row": 6,
+      "botanical_as_published": "Xylopia aethiopica (Dunal) A. Rich",
+      "family_as_published": "Annonaceae",
+      "common_english_as_published": "Guinea pepper",
+      "vernacular_as_published": "Eeru alamo, Eeru awonka",
+      "vernacular_names": [
+        {
+          "local_name": "Eeru alamo",
+          "language": "yo"
+        },
+        {
+          "local_name": "Eeru awonka",
+          "language": "yo"
+        }
+      ],
+      "voucher_specimen": "IFE17825",
+      "life_form_as_published": "Tree",
+      "frequency_as_published": "55",
+      "relative_frequency_as_published": "0.79"
+    },
+    {
+      "source_id": "mukaila-2021-ile-ife",
+      "source_row": 7,
+      "botanical_as_published": "Alstonia boonei De Wild.",
+      "family_as_published": "Apocynaceae",
+      "common_english_as_published": "Stool wood",
+      "vernacular_as_published": "Ahun",
+      "vernacular_names": [
+        {
+          "local_name": "Ahun",
+          "language": "yo"
+        }
+      ],
+      "voucher_specimen": "IFE17914",
+      "life_form_as_published": "Tree",
+      "frequency_as_published": "48",
+      "relative_frequency_as_published": "0.69"
+    },
+    {
+      "source_id": "mukaila-2021-ile-ife",
+      "source_row": 8,
+      "botanical_as_published": "Calotropis procera R.B.",
+      "family_as_published": "Apocynaceae",
+      "common_english_as_published": "Giant milkweed",
+      "vernacular_as_published": "Bomubomu",
+      "vernacular_names": [
+        {
+          "local_name": "Bomubomu",
+          "language": "yo"
+        }
+      ],
+      "voucher_specimen": "IFE17912",
+      "life_form_as_published": "Shrub",
+      "frequency_as_published": "53",
+      "relative_frequency_as_published": "0.76"
+    },
+    {
+      "source_id": "mukaila-2021-ile-ife",
+      "source_row": 9,
+      "botanical_as_published": "Rauvolfia vomitoria Afzel.",
+      "family_as_published": "Apocynaceae",
+      "common_english_as_published": "Devil's pepper",
+      "vernacular_as_published": "Asofeyeje, Oloora",
+      "vernacular_names": [
+        {
+          "local_name": "Asofeyeje",
+          "language": "yo"
+        },
+        {
+          "local_name": "Oloora",
+          "language": "yo"
+        }
+      ],
+      "voucher_specimen": "IFE17897",
+      "life_form_as_published": "Shrub",
+      "frequency_as_published": "51",
+      "relative_frequency_as_published": "0.71"
+    },
+    {
+      "source_id": "mukaila-2021-ile-ife",
+      "source_row": 10,
+      "botanical_as_published": "Anchomanes difformis (Blume) Eng.",
+      "family_as_published": "Araceae",
+      "common_english_as_published": "Forest anchomanes",
+      "vernacular_as_published": "Isu ogirisako",
+      "vernacular_names": [
+        {
+          "local_name": "Isu ogirisako",
+          "language": "yo"
+        }
+      ],
+      "voucher_specimen": "IFE17899",
+      "life_form_as_published": "Herb",
+      "frequency_as_published": "7",
+      "relative_frequency_as_published": "0.10"
+    },
+    {
+      "source_id": "mukaila-2021-ile-ife",
+      "source_row": 11,
+      "botanical_as_published": "Caladium bicolor Vent.",
+      "family_as_published": "Araceae",
+      "common_english_as_published": "Angel wings",
+      "vernacular_as_published": "Eje jesu, Lefun-losun",
+      "vernacular_names": [
+        {
+          "local_name": "Eje jesu",
+          "language": "yo"
+        },
+        {
+          "local_name": "Lefun-losun",
+          "language": "yo"
+        }
+      ],
+      "voucher_specimen": "IFE17832",
+      "life_form_as_published": "Herb",
+      "frequency_as_published": "11",
+      "relative_frequency_as_published": "0.16"
+    },
+    {
+      "source_id": "mukaila-2021-ile-ife",
+      "source_row": 12,
+      "botanical_as_published": "Elaeis guineenses Jacq.",
+      "family_as_published": "Arecaceae",
+      "common_english_as_published": "Oil palm",
+      "vernacular_as_published": "Ope-eyin",
+      "vernacular_names": [
+        {
+          "local_name": "Ope-eyin",
+          "language": "yo"
+        }
+      ],
+      "voucher_specimen": "IFE17913",
+      "life_form_as_published": "Tree",
+      "frequency_as_published": "13",
+      "relative_frequency_as_published": "0.19"
+    },
+    {
+      "source_id": "mukaila-2021-ile-ife",
+      "source_row": 13,
+      "botanical_as_published": "Ageratum conyzoides (L.) L.",
+      "family_as_published": "Asteraceae",
+      "common_english_as_published": "Billy goat weed",
+      "vernacular_as_published": "Imi-esu, Apasa, Rerin-komi, Oorugun, Jeminiho",
+      "vernacular_names": [
+        {
+          "local_name": "Imi-esu",
+          "language": "yo"
+        },
+        {
+          "local_name": "Apasa",
+          "language": "yo"
+        },
+        {
+          "local_name": "Rerin-komi",
+          "language": "yo"
+        },
+        {
+          "local_name": "Oorugun",
+          "language": "yo"
+        },
+        {
+          "local_name": "Jeminiho",
+          "language": "yo"
+        }
+      ],
+      "voucher_specimen": "IFE17827",
+      "life_form_as_published": "Herb",
+      "frequency_as_published": "49",
+      "relative_frequency_as_published": "0.70"
+    },
+    {
+      "source_id": "mukaila-2021-ile-ife",
+      "source_row": 14,
+      "botanical_as_published": "Bidens pilosa L.",
+      "family_as_published": "Asteraceae",
+      "common_english_as_published": "Black Jack",
+      "vernacular_as_published": "Molaganran, tamolaganran",
+      "vernacular_names": [
+        {
+          "local_name": "Molaganran",
+          "language": "yo"
+        },
+        {
+          "local_name": "tamolaganran",
+          "language": "yo"
+        }
+      ],
+      "voucher_specimen": "IFE17916",
+      "life_form_as_published": "Herb",
+      "frequency_as_published": "12",
+      "relative_frequency_as_published": "0.17"
+    },
+    {
+      "source_id": "mukaila-2021-ile-ife",
+      "source_row": 15,
+      "botanical_as_published": "Chromolaena odorata (L.) R.M. King & H. Rob.",
+      "family_as_published": "Asteraceae",
+      "common_english_as_published": "Siam weed",
+      "vernacular_as_published": "Akintola",
+      "vernacular_names": [
+        {
+          "local_name": "Akintola",
+          "language": "yo"
+        }
+      ],
+      "voucher_specimen": "IFE17882",
+      "life_form_as_published": "Herb",
+      "frequency_as_published": "57",
+      "relative_frequency_as_published": "0.81"
+    },
+    {
+      "source_id": "mukaila-2021-ile-ife",
+      "source_row": 16,
+      "botanical_as_published": "Melanthera scandens (Schumach. & Thonn.) Roberty",
+      "family_as_published": "Asteraceae",
+      "common_english_as_published": "Black anther",
+      "vernacular_as_published": "Ako yunrun",
+      "vernacular_names": [
+        {
+          "local_name": "Ako yunrun",
+          "language": "yo"
+        }
+      ],
+      "voucher_specimen": "IFE17845",
+      "life_form_as_published": "Herb",
+      "frequency_as_published": "16",
+      "relative_frequency_as_published": "0.23"
+    },
+    {
+      "source_id": "mukaila-2021-ile-ife",
+      "source_row": 17,
+      "botanical_as_published": "Vernonia amygdalina Delile",
+      "family_as_published": "Asteraceae",
+      "common_english_as_published": "Bitter leaf",
+      "vernacular_as_published": "Ewuro",
+      "vernacular_names": [
+        {
+          "local_name": "Ewuro",
+          "language": "yo"
+        }
+      ],
+      "voucher_specimen": "IFE17880",
+      "life_form_as_published": "Herb",
+      "frequency_as_published": "64",
+      "relative_frequency_as_published": "0.91"
+    },
+    {
+      "source_id": "mukaila-2021-ile-ife",
+      "source_row": 18,
+      "botanical_as_published": "Kigelia africana (Lam.) Benth.",
+      "family_as_published": "Bignoniaceae",
+      "common_english_as_published": "Sausage tree",
+      "vernacular_as_published": "Pandoro",
+      "vernacular_names": [
+        {
+          "local_name": "Pandoro",
+          "language": "yo"
+        }
+      ],
+      "voucher_specimen": "IFE17864",
+      "life_form_as_published": "Tree",
+      "frequency_as_published": "35",
+      "relative_frequency_as_published": "0.50"
+    },
+    {
+      "source_id": "mukaila-2021-ile-ife",
+      "source_row": 19,
+      "botanical_as_published": "Newbouldia laevis Seem.",
+      "family_as_published": "Bignoniaceae",
+      "common_english_as_published": "Boundary tree",
+      "vernacular_as_published": "Akoko",
+      "vernacular_names": [
+        {
+          "local_name": "Akoko",
+          "language": "yo"
+        }
+      ],
+      "voucher_specimen": "IFE17907",
+      "life_form_as_published": "Shrub",
+      "frequency_as_published": "40",
+      "relative_frequency_as_published": "0.57"
+    },
+    {
+      "source_id": "mukaila-2021-ile-ife",
+      "source_row": 20,
+      "botanical_as_published": "Bixa orellana L.",
+      "family_as_published": "Bixaceae",
+      "common_english_as_published": "Lipstick plant",
+      "vernacular_as_published": "Laali",
+      "vernacular_names": [
+        {
+          "local_name": "Laali",
+          "language": "yo"
+        }
+      ],
+      "voucher_specimen": "IFE17883",
+      "life_form_as_published": "Shrub",
+      "frequency_as_published": "33",
+      "relative_frequency_as_published": "0.47"
+    },
+    {
+      "source_id": "mukaila-2021-ile-ife",
+      "source_row": 21,
+      "botanical_as_published": "Heliotropium indicum L.",
+      "family_as_published": "Boraginaceae",
+      "common_english_as_published": "Indian heliotrope",
+      "vernacular_as_published": "Ogbe-ori-akuko",
+      "vernacular_names": [
+        {
+          "local_name": "Ogbe-ori-akuko",
+          "language": "yo"
+        }
+      ],
+      "voucher_specimen": "IFE17835",
+      "life_form_as_published": "Herb",
+      "frequency_as_published": "18",
+      "relative_frequency_as_published": "0.26"
+    },
+    {
+      "source_id": "mukaila-2021-ile-ife",
+      "source_row": 22,
+      "botanical_as_published": "Ananas comosus (L.) Merr.",
+      "family_as_published": "Bromeliaceae",
+      "common_english_as_published": "Pineapple",
+      "vernacular_as_published": "Ope oyinbo",
+      "vernacular_names": [
+        {
+          "local_name": "Ope oyinbo",
+          "language": "yo"
+        }
+      ],
+      "voucher_specimen": "IFE17894",
+      "life_form_as_published": "Herb",
+      "frequency_as_published": "33",
+      "relative_frequency_as_published": "0.47"
+    },
+    {
+      "source_id": "mukaila-2021-ile-ife",
+      "source_row": 23,
+      "botanical_as_published": "Carica papaya L.",
+      "family_as_published": "Caricaceae",
+      "common_english_as_published": "Pawpaw",
+      "vernacular_as_published": "Ibepe",
+      "vernacular_names": [
+        {
+          "local_name": "Ibepe",
+          "language": "yo"
+        }
+      ],
+      "voucher_specimen": "IFE17858",
+      "life_form_as_published": "Tree",
+      "frequency_as_published": "61",
+      "relative_frequency_as_published": "0.87"
+    },
+    {
+      "source_id": "mukaila-2021-ile-ife",
+      "source_row": 24,
+      "botanical_as_published": "Garcinia kola Heckel",
+      "family_as_published": "Clusiaceae",
+      "common_english_as_published": "Bitter kola",
+      "vernacular_as_published": "Orogbo",
+      "vernacular_names": [
+        {
+          "local_name": "Orogbo",
+          "language": "yo"
+        }
+      ],
+      "voucher_specimen": "IFE17916",
+      "life_form_as_published": "Tree",
+      "frequency_as_published": "54",
+      "relative_frequency_as_published": "0.77"
+    },
+    {
+      "source_id": "mukaila-2021-ile-ife",
+      "source_row": 25,
+      "botanical_as_published": "Cnestis ferruginea Vahl ex DC",
+      "family_as_published": "Connaraceae",
+      "common_english_as_published": "Witch's bread",
+      "vernacular_as_published": "Akara ije",
+      "vernacular_names": [
+        {
+          "local_name": "Akara ije",
+          "language": "yo"
+        }
+      ],
+      "voucher_specimen": "IFE17829",
+      "life_form_as_published": "Tree",
+      "frequency_as_published": "4",
+      "relative_frequency_as_published": "0.06"
+    },
+    {
+      "source_id": "mukaila-2021-ile-ife",
+      "source_row": 26,
+      "botanical_as_published": "kalanchoe pinnata (Lam.) Pers.",
+      "family_as_published": "Crassulaceae",
+      "common_english_as_published": "Cathedral bell",
+      "vernacular_as_published": "Abamoda",
+      "vernacular_names": [
+        {
+          "local_name": "Abamoda",
+          "language": "yo"
+        }
+      ],
+      "voucher_specimen": "IFE17909",
+      "life_form_as_published": "Herb",
+      "frequency_as_published": "2",
+      "relative_frequency_as_published": "0.03"
+    },
+    {
+      "source_id": "mukaila-2021-ile-ife",
+      "source_row": 27,
+      "botanical_as_published": "Adenopus breviflorus Benth",
+      "family_as_published": "Cucurbitaceae",
+      "common_english_as_published": "Spirit's melon",
+      "vernacular_as_published": "Taagiri",
+      "vernacular_names": [
+        {
+          "local_name": "Taagiri",
+          "language": "yo"
+        }
+      ],
+      "voucher_specimen": "IFE17893",
+      "life_form_as_published": "Climber",
+      "frequency_as_published": "14",
+      "relative_frequency_as_published": "0.20"
+    },
+    {
+      "source_id": "mukaila-2021-ile-ife",
+      "source_row": 28,
+      "botanical_as_published": "Citrullus colocynthis (L.) Schrad.",
+      "family_as_published": "Cucurbitaceae",
+      "common_english_as_published": "Bitter apple",
+      "vernacular_as_published": "Egusi baara",
+      "vernacular_names": [
+        {
+          "local_name": "Egusi baara",
+          "language": "yo"
+        }
+      ],
+      "voucher_specimen": "IFE17918",
+      "life_form_as_published": "Climber",
+      "frequency_as_published": "38",
+      "relative_frequency_as_published": "0.54"
+    },
+    {
+      "source_id": "mukaila-2021-ile-ife",
+      "source_row": 29,
+      "botanical_as_published": "Luffa cylinderica (L.) M. Roem",
+      "family_as_published": "Cucurbitaceae",
+      "common_english_as_published": "Sponge gourd",
+      "vernacular_as_published": "Kankan ayaba",
+      "vernacular_names": [
+        {
+          "local_name": "Kankan ayaba",
+          "language": "yo"
+        }
+      ],
+      "voucher_specimen": "IFE17898",
+      "life_form_as_published": "Climber",
+      "frequency_as_published": "29",
+      "relative_frequency_as_published": "0.41"
+    },
+    {
+      "source_id": "mukaila-2021-ile-ife",
+      "source_row": 30,
+      "botanical_as_published": "Momordica charantia L.",
+      "family_as_published": "Cucurbitaceae",
+      "common_english_as_published": "Bitter melon",
+      "vernacular_as_published": "Ejinrin, Igbole aja",
+      "vernacular_names": [
+        {
+          "local_name": "Ejinrin",
+          "language": "yo"
+        },
+        {
+          "local_name": "Igbole aja",
+          "language": "yo"
+        }
+      ],
+      "voucher_specimen": "IFE17834",
+      "life_form_as_published": "Climber",
+      "frequency_as_published": "48",
+      "relative_frequency_as_published": "0.69"
+    },
+    {
+      "source_id": "mukaila-2021-ile-ife",
+      "source_row": 31,
+      "botanical_as_published": "Telfaria occidentalis Hook. F.",
+      "family_as_published": "Cucurbitaceae",
+      "common_english_as_published": "Fluted pumpkin",
+      "vernacular_as_published": "Ugu, Apiroko",
+      "vernacular_names": [
+        {
+          "local_name": "Ugu",
+          "language": "yo"
+        },
+        {
+          "local_name": "Apiroko",
+          "language": "yo"
+        }
+      ],
+      "voucher_specimen": "IFE17902",
+      "life_form_as_published": "Climber",
+      "frequency_as_published": "69",
+      "relative_frequency_as_published": "0.99"
+    },
+    {
+      "source_id": "mukaila-2021-ile-ife",
+      "source_row": 32,
+      "botanical_as_published": "Euphorbia lateriflora Schum. & Thonn.",
+      "family_as_published": "Euphorbiaceae",
+      "common_english_as_published": "Spurge",
+      "vernacular_as_published": "Enu opiri",
+      "vernacular_names": [
+        {
+          "local_name": "Enu opiri",
+          "language": "yo"
+        }
+      ],
+      "voucher_specimen": "IFE17896",
+      "life_form_as_published": "Herb",
+      "frequency_as_published": "14",
+      "relative_frequency_as_published": "0.20"
+    },
+    {
+      "source_id": "mukaila-2021-ile-ife",
+      "source_row": 33,
+      "botanical_as_published": "Alchornea cordifolia Mull Arg.",
+      "family_as_published": "Euphorbiaceae",
+      "common_english_as_published": "Christmas bush",
+      "vernacular_as_published": "Isin",
+      "vernacular_names": [
+        {
+          "local_name": "Isin",
+          "language": "yo"
+        }
+      ],
+      "voucher_specimen": "IFE17846",
+      "life_form_as_published": "Shrub",
+      "frequency_as_published": "3",
+      "relative_frequency_as_published": "0.04"
+    },
+    {
+      "source_id": "mukaila-2021-ile-ife",
+      "source_row": 34,
+      "botanical_as_published": "Bridelia ferruginea Benth",
+      "family_as_published": "Euphorbiaceae",
+      "common_english_as_published": "Bridelia",
+      "vernacular_as_published": "Ira",
+      "vernacular_names": [
+        {
+          "local_name": "Ira",
+          "language": "yo"
+        }
+      ],
+      "voucher_specimen": "IFE17828",
+      "life_form_as_published": "Tree",
+      "frequency_as_published": "14",
+      "relative_frequency_as_published": "0.20"
+    },
+    {
+      "source_id": "mukaila-2021-ile-ife",
+      "source_row": 35,
+      "botanical_as_published": "Euphorbia hirta L.",
+      "family_as_published": "Euphorbiaceae",
+      "common_english_as_published": "Asthma plant",
+      "vernacular_as_published": "Kannajogbe",
+      "vernacular_names": [
+        {
+          "local_name": "Kannajogbe",
+          "language": "yo"
+        }
+      ],
+      "voucher_specimen": "IFE17870",
+      "life_form_as_published": "Herb",
+      "frequency_as_published": "3",
+      "relative_frequency_as_published": "0.04"
+    },
+    {
+      "source_id": "mukaila-2021-ile-ife",
+      "source_row": 36,
+      "botanical_as_published": "Jatropha curcas L.",
+      "family_as_published": "Euphorbiaceae",
+      "common_english_as_published": "Barbados nut",
+      "vernacular_as_published": "Botuje, Lapalapa funfun, Iyalode",
+      "vernacular_names": [
+        {
+          "local_name": "Botuje",
+          "language": "yo"
+        },
+        {
+          "local_name": "Lapalapa funfun",
+          "language": "yo"
+        },
+        {
+          "local_name": "Iyalode",
+          "language": "yo"
+        }
+      ],
+      "voucher_specimen": "IFE17900",
+      "life_form_as_published": "Shrub",
+      "frequency_as_published": "35",
+      "relative_frequency_as_published": "0.50"
+    },
+    {
+      "source_id": "mukaila-2021-ile-ife",
+      "source_row": 37,
+      "botanical_as_published": "Jatropha gossypiifolia L.",
+      "family_as_published": "Euphorbiaceae",
+      "common_english_as_published": "Bellyache bush",
+      "vernacular_as_published": "Botuje, Lapalapa pupa, Iyalode",
+      "vernacular_names": [
+        {
+          "local_name": "Botuje",
+          "language": "yo"
+        },
+        {
+          "local_name": "Lapalapa pupa",
+          "language": "yo"
+        },
+        {
+          "local_name": "Iyalode",
+          "language": "yo"
+        }
+      ],
+      "voucher_specimen": "IFE17890",
+      "life_form_as_published": "Shrub",
+      "frequency_as_published": "39",
+      "relative_frequency_as_published": "0.56"
+    },
+    {
+      "source_id": "mukaila-2021-ile-ife",
+      "source_row": 38,
+      "botanical_as_published": "Jatropha multifida L.",
+      "family_as_published": "Euphorbiaceae",
+      "common_english_as_published": "Coral bush",
+      "vernacular_as_published": "Ogege",
+      "vernacular_names": [
+        {
+          "local_name": "Ogege",
+          "language": "yo"
+        }
+      ],
+      "voucher_specimen": "IFE17891",
+      "life_form_as_published": "Shrub",
+      "frequency_as_published": "9",
+      "relative_frequency_as_published": "0.13"
+    },
+    {
+      "source_id": "mukaila-2021-ile-ife",
+      "source_row": 39,
+      "botanical_as_published": "Phyllanthus amarus Schum. & Thonn.",
+      "family_as_published": "Euphorbiaceae",
+      "common_english_as_published": "Gale of the wind",
+      "vernacular_as_published": "Eyin-olobe",
+      "vernacular_names": [
+        {
+          "local_name": "Eyin-olobe",
+          "language": "yo"
+        }
+      ],
+      "voucher_specimen": "IFE17822",
+      "life_form_as_published": "Herb",
+      "frequency_as_published": "35",
+      "relative_frequency_as_published": "0.35"
+    },
+    {
+      "source_id": "mukaila-2021-ile-ife",
+      "source_row": 40,
+      "botanical_as_published": "Abrus precatorius L.",
+      "family_as_published": "Fabaceae",
+      "common_english_as_published": "Rosary pea",
+      "vernacular_as_published": "Omisinmisin, Oju-ologbo",
+      "vernacular_names": [
+        {
+          "local_name": "Omisinmisin",
+          "language": "yo"
+        },
+        {
+          "local_name": "Oju-ologbo",
+          "language": "yo"
+        }
+      ],
+      "voucher_specimen": "IFE17887",
+      "life_form_as_published": "Climber",
+      "frequency_as_published": "23",
+      "relative_frequency_as_published": "0.33"
+    },
+    {
+      "source_id": "mukaila-2021-ile-ife",
+      "source_row": 41,
+      "botanical_as_published": "Mucuna pruriens (L.) DC.",
+      "family_as_published": "Fabaceae",
+      "common_english_as_published": "Velvet bean",
+      "vernacular_as_published": "Yerepe",
+      "vernacular_names": [
+        {
+          "local_name": "Yerepe",
+          "language": "yo"
+        }
+      ],
+      "voucher_specimen": "IFE17873",
+      "life_form_as_published": "Climber",
+      "frequency_as_published": "46",
+      "relative_frequency_as_published": "0.66"
+    },
+    {
+      "source_id": "mukaila-2021-ile-ife",
+      "source_row": 42,
+      "botanical_as_published": "Senna alata (L.) Roxb.",
+      "family_as_published": "Fabaceae",
+      "common_english_as_published": "Candle plant",
+      "vernacular_as_published": "Asunran, Ajaawa",
+      "vernacular_names": [
+        {
+          "local_name": "Asunran",
+          "language": "yo"
+        },
+        {
+          "local_name": "Ajaawa",
+          "language": "yo"
+        }
+      ],
+      "voucher_specimen": "IFE17836",
+      "life_form_as_published": "Shrub",
+      "frequency_as_published": "44",
+      "relative_frequency_as_published": "0.62"
+    },
+    {
+      "source_id": "mukaila-2021-ile-ife",
+      "source_row": 43,
+      "botanical_as_published": "Senna hirsuta (L.) Irwin & Barneby",
+      "family_as_published": "Fabaceae",
+      "common_english_as_published": "Woolly senna",
+      "vernacular_as_published": "Rere",
+      "vernacular_names": [
+        {
+          "local_name": "Rere",
+          "language": "yo"
+        }
+      ],
+      "voucher_specimen": "IFE17889",
+      "life_form_as_published": "Herb",
+      "frequency_as_published": "17",
+      "relative_frequency_as_published": "0.24"
+    },
+    {
+      "source_id": "mukaila-2021-ile-ife",
+      "source_row": 44,
+      "botanical_as_published": "Senna siamea Lam.",
+      "family_as_published": "Fabaceae",
+      "common_english_as_published": "Kassod tree",
+      "vernacular_as_published": "Kasia",
+      "vernacular_names": [
+        {
+          "local_name": "Kasia",
+          "language": "yo"
+        }
+      ],
+      "voucher_specimen": "IFE17911",
+      "life_form_as_published": "Tree",
+      "frequency_as_published": "29",
+      "relative_frequency_as_published": "0.41"
+    },
+    {
+      "source_id": "mukaila-2021-ile-ife",
+      "source_row": 45,
+      "botanical_as_published": "Tetrapleura tetraptera Schum&Thon (Taub.)",
+      "family_as_published": "Fabaceae",
+      "common_english_as_published": "Aidan",
+      "vernacular_as_published": "Aridan",
+      "vernacular_names": [
+        {
+          "local_name": "Aridan",
+          "language": "yo"
+        }
+      ],
+      "voucher_specimen": "IFE17841",
+      "life_form_as_published": "Tree",
+      "frequency_as_published": "26",
+      "relative_frequency_as_published": "0.37"
+    },
+    {
+      "source_id": "mukaila-2021-ile-ife",
+      "source_row": 46,
+      "botanical_as_published": "Anthocleista djalonensis A. Chev.",
+      "family_as_published": "Gentianaceae",
+      "common_english_as_published": "Cabbage tree",
+      "vernacular_as_published": "Sapo-sapo",
+      "vernacular_names": [
+        {
+          "local_name": "Sapo-sapo",
+          "language": "yo"
+        }
+      ],
+      "voucher_specimen": "IFE17885",
+      "life_form_as_published": "Tree",
+      "frequency_as_published": "43",
+      "relative_frequency_as_published": "0.61"
+    },
+    {
+      "source_id": "mukaila-2021-ile-ife",
+      "source_row": 47,
+      "botanical_as_published": "Irvingia gabonensis (Aubry-Lecomte ex O'Rorke) Baill.",
+      "family_as_published": "Irvingaceae",
+      "common_english_as_published": "Wild mango",
+      "vernacular_as_published": "Ooro",
+      "vernacular_names": [
+        {
+          "local_name": "Ooro",
+          "language": "yo"
+        }
+      ],
+      "voucher_specimen": "IFE17888",
+      "life_form_as_published": "Tree",
+      "frequency_as_published": "18",
+      "relative_frequency_as_published": "0.26"
+    },
+    {
+      "source_id": "mukaila-2021-ile-ife",
+      "source_row": 48,
+      "botanical_as_published": "Ocimum gratissimum L.",
+      "family_as_published": "Lamiaceae",
+      "common_english_as_published": "Clove basil",
+      "vernacular_as_published": "Efinrin nla, Foromoba",
+      "vernacular_names": [
+        {
+          "local_name": "Efinrin nla",
+          "language": "yo"
+        },
+        {
+          "local_name": "Foromoba",
+          "language": "yo"
+        }
+      ],
+      "voucher_specimen": "IFE17840",
+      "life_form_as_published": "Herb",
+      "frequency_as_published": "62",
+      "relative_frequency_as_published": "0.89"
+    },
+    {
+      "source_id": "mukaila-2021-ile-ife",
+      "source_row": 49,
+      "botanical_as_published": "Persea americana Mill.",
+      "family_as_published": "Lauraceae",
+      "common_english_as_published": "Pear",
+      "vernacular_as_published": "Pia nla",
+      "vernacular_names": [
+        {
+          "local_name": "Pia nla",
+          "language": "yo"
+        }
+      ],
+      "voucher_specimen": "IFE17877",
+      "life_form_as_published": "Tree",
+      "frequency_as_published": "34",
+      "relative_frequency_as_published": "0.49"
+    },
+    {
+      "source_id": "mukaila-2021-ile-ife",
+      "source_row": 50,
+      "botanical_as_published": "Allium sativum L.",
+      "family_as_published": "Liliaceae",
+      "common_english_as_published": "Garlic",
+      "vernacular_as_published": "Ayuu",
+      "vernacular_names": [
+        {
+          "local_name": "Ayuu",
+          "language": "yo"
+        }
+      ],
+      "voucher_specimen": "IFE17919",
+      "life_form_as_published": "Herb",
+      "frequency_as_published": "55",
+      "relative_frequency_as_published": "0.79"
+    },
+    {
+      "source_id": "mukaila-2021-ile-ife",
+      "source_row": 51,
+      "botanical_as_published": "Corchorus olitorus L.",
+      "family_as_published": "Malvaceae",
+      "common_english_as_published": "Jute",
+      "vernacular_as_published": "Ewedu, Ewe Ooyo",
+      "vernacular_names": [
+        {
+          "local_name": "Ewedu",
+          "language": "yo"
+        },
+        {
+          "local_name": "Ewe Ooyo",
+          "language": "yo"
+        }
+      ],
+      "voucher_specimen": "IFE17905",
+      "life_form_as_published": "Herb",
+      "frequency_as_published": "34",
+      "relative_frequency_as_published": "0.49"
+    },
+    {
+      "source_id": "mukaila-2021-ile-ife",
+      "source_row": 52,
+      "botanical_as_published": "Gossypium hirsutum L.",
+      "family_as_published": "Malvaceae",
+      "common_english_as_published": "Cotton plant",
+      "vernacular_as_published": "Owu",
+      "vernacular_names": [
+        {
+          "local_name": "Owu",
+          "language": "yo"
+        }
+      ],
+      "voucher_specimen": "IFE17844",
+      "life_form_as_published": "Shrub",
+      "frequency_as_published": "55",
+      "relative_frequency_as_published": "0.79"
+    },
+    {
+      "source_id": "mukaila-2021-ile-ife",
+      "source_row": 53,
+      "botanical_as_published": "Hibiscus spp.",
+      "family_as_published": "Malvaceae",
+      "common_english_as_published": null,
+      "vernacular_as_published": "Afaimonikonimora, Sikinimini",
+      "vernacular_names": [
+        {
+          "local_name": "Afaimonikonimora",
+          "language": "yo"
+        },
+        {
+          "local_name": "Sikinimini",
+          "language": "yo"
+        }
+      ],
+      "voucher_specimen": "IFE17920",
+      "life_form_as_published": "Herb",
+      "frequency_as_published": "5",
+      "relative_frequency_as_published": "0.07"
+    },
+    {
+      "source_id": "mukaila-2021-ile-ife",
+      "source_row": 54,
+      "botanical_as_published": "Sida acuta Burm. F.",
+      "family_as_published": "Malvaceae",
+      "common_english_as_published": "Wireweed",
+      "vernacular_as_published": "Osepotu",
+      "vernacular_names": [
+        {
+          "local_name": "Osepotu",
+          "language": "yo"
+        }
+      ],
+      "voucher_specimen": "IFE17868",
+      "life_form_as_published": "Herb",
+      "frequency_as_published": "5",
+      "relative_frequency_as_published": "0.07"
+    },
+    {
+      "source_id": "mukaila-2021-ile-ife",
+      "source_row": 55,
+      "botanical_as_published": "Sida veronicifolia Lam.",
+      "family_as_published": "Malvaceae",
+      "common_english_as_published": "Heart leaf",
+      "vernacular_as_published": "Eesi ile",
+      "vernacular_names": [
+        {
+          "local_name": "Eesi ile",
+          "language": "yo"
+        }
+      ],
+      "voucher_specimen": "IFE17921",
+      "life_form_as_published": "Herb",
+      "frequency_as_published": "5",
+      "relative_frequency_as_published": "0.07"
+    },
+    {
+      "source_id": "mukaila-2021-ile-ife",
+      "source_row": 56,
+      "botanical_as_published": "Theobroma cacao L.",
+      "family_as_published": "Malvaceae",
+      "common_english_as_published": "Cocoa",
+      "vernacular_as_published": "Koko",
+      "vernacular_names": [
+        {
+          "local_name": "Koko",
+          "language": "yo"
+        }
+      ],
+      "voucher_specimen": "IFE17826",
+      "life_form_as_published": "Shrub",
+      "frequency_as_published": "25",
+      "relative_frequency_as_published": "0.36"
+    },
+    {
+      "source_id": "mukaila-2021-ile-ife",
+      "source_row": 57,
+      "botanical_as_published": "Azadirachta indica A. Juss.",
+      "family_as_published": "Meliaceae",
+      "common_english_as_published": "Neem tree",
+      "vernacular_as_published": "Dogoyaro",
+      "vernacular_names": [
+        {
+          "local_name": "Dogoyaro",
+          "language": "yo"
+        }
+      ],
+      "voucher_specimen": "IFE17839",
+      "life_form_as_published": "Tree",
+      "frequency_as_published": "49",
+      "relative_frequency_as_published": "0.70"
+    },
+    {
+      "source_id": "mukaila-2021-ile-ife",
+      "source_row": 58,
+      "botanical_as_published": "Entandrophragma angolense D.C.",
+      "family_as_published": "Meliaceae",
+      "common_english_as_published": "Tiama mahogany",
+      "vernacular_as_published": "Ijebo",
+      "vernacular_names": [
+        {
+          "local_name": "Ijebo",
+          "language": "yo"
+        }
+      ],
+      "voucher_specimen": "IFE17859",
+      "life_form_as_published": "Tree",
+      "frequency_as_published": "13",
+      "relative_frequency_as_published": "0.19"
+    },
+    {
+      "source_id": "mukaila-2021-ile-ife",
+      "source_row": 59,
+      "botanical_as_published": "Khaya grandifoliola C. DC.",
+      "family_as_published": "Meliaceae",
+      "common_english_as_published": "Mahogany",
+      "vernacular_as_published": "Oganwo",
+      "vernacular_names": [
+        {
+          "local_name": "Oganwo",
+          "language": "yo"
+        }
+      ],
+      "voucher_specimen": "IFE17922",
+      "life_form_as_published": "Tree",
+      "frequency_as_published": "54",
+      "relative_frequency_as_published": "0.77"
+    },
+    {
+      "source_id": "mukaila-2021-ile-ife",
+      "source_row": 60,
+      "botanical_as_published": "Sphenocentrum jollyanum Pierr.",
+      "family_as_published": "Menispermaceae",
+      "common_english_as_published": "Red medicine",
+      "vernacular_as_published": "Akerejupon",
+      "vernacular_names": [
+        {
+          "local_name": "Akerejupon",
+          "language": "yo"
+        }
+      ],
+      "voucher_specimen": "IFE17867",
+      "life_form_as_published": "Shrub",
+      "frequency_as_published": "41",
+      "relative_frequency_as_published": "0.59"
+    },
+    {
+      "source_id": "mukaila-2021-ile-ife",
+      "source_row": 61,
+      "botanical_as_published": "Triclisia subcordata Oliv.",
+      "family_as_published": "Menispermaceae",
+      "common_english_as_published": "Red rope",
+      "vernacular_as_published": "Kanranjongbon",
+      "vernacular_names": [
+        {
+          "local_name": "Kanranjongbon",
+          "language": "yo"
+        }
+      ],
+      "voucher_specimen": "IFE17830",
+      "life_form_as_published": "Climber",
+      "frequency_as_published": "5",
+      "relative_frequency_as_published": "0.07"
+    },
+    {
+      "source_id": "mukaila-2021-ile-ife",
+      "source_row": 62,
+      "botanical_as_published": "Ficus exasperata Vahl",
+      "family_as_published": "Moraceae",
+      "common_english_as_published": "Sandpaper tree",
+      "vernacular_as_published": "Eepin, Ipin",
+      "vernacular_names": [
+        {
+          "local_name": "Eepin",
+          "language": "yo"
+        },
+        {
+          "local_name": "Ipin",
+          "language": "yo"
+        }
+      ],
+      "voucher_specimen": "IFE17837",
+      "life_form_as_published": "Tree",
+      "frequency_as_published": "39",
+      "relative_frequency_as_published": "0.55"
+    },
+    {
+      "source_id": "mukaila-2021-ile-ife",
+      "source_row": 63,
+      "botanical_as_published": "Artocarpus altilis (Parkinson) Fosberg",
+      "family_as_published": "Moraceae",
+      "common_english_as_published": "Breadfruit",
+      "vernacular_as_published": "Gbere, Berefurutu",
+      "vernacular_names": [
+        {
+          "local_name": "Gbere",
+          "language": "yo"
+        },
+        {
+          "local_name": "Berefurutu",
+          "language": "yo"
+        }
+      ],
+      "voucher_specimen": "IFE17915",
+      "life_form_as_published": "Tree",
+      "frequency_as_published": "8",
+      "relative_frequency_as_published": "0.11"
+    },
+    {
+      "source_id": "mukaila-2021-ile-ife",
+      "source_row": 64,
+      "botanical_as_published": "Moraceae; Ficus sur Forrsk.",
+      "family_as_published": "Moraceae",
+      "common_english_as_published": "Cape fig",
+      "vernacular_as_published": "Opoto",
+      "vernacular_names": [
+        {
+          "local_name": "Opoto",
+          "language": "yo"
+        }
+      ],
+      "voucher_specimen": "IFE17831",
+      "life_form_as_published": "Tree",
+      "frequency_as_published": "1",
+      "relative_frequency_as_published": "0.01"
+    },
+    {
+      "source_id": "mukaila-2021-ile-ife",
+      "source_row": 65,
+      "botanical_as_published": "Moringa oleifera Lam.",
+      "family_as_published": "Moringaceae",
+      "common_english_as_published": "Moringa",
+      "vernacular_as_published": "Ewe igbale, Muringa",
+      "vernacular_names": [
+        {
+          "local_name": "Ewe igbale",
+          "language": "yo"
+        },
+        {
+          "local_name": "Muringa",
+          "language": "yo"
+        }
+      ],
+      "voucher_specimen": "IFE17910",
+      "life_form_as_published": "Tree",
+      "frequency_as_published": "25",
+      "relative_frequency_as_published": "0.36"
+    },
+    {
+      "source_id": "mukaila-2021-ile-ife",
+      "source_row": 66,
+      "botanical_as_published": "Musa paradisiaca L.",
+      "family_as_published": "Musaceae",
+      "common_english_as_published": "Banana",
+      "vernacular_as_published": "Ogede agbagba",
+      "vernacular_names": [
+        {
+          "local_name": "Ogede agbagba",
+          "language": "yo"
+        }
+      ],
+      "voucher_specimen": "IFE17892",
+      "life_form_as_published": "Herb",
+      "frequency_as_published": "29",
+      "relative_frequency_as_published": "0.41"
+    },
+    {
+      "source_id": "mukaila-2021-ile-ife",
+      "source_row": 67,
+      "botanical_as_published": "Pycnanthus angolensis (Welw.) Warb.",
+      "family_as_published": "Myristicaceae",
+      "common_english_as_published": "African nutmeg",
+      "vernacular_as_published": "Akomu",
+      "vernacular_names": [
+        {
+          "local_name": "Akomu",
+          "language": "yo"
+        }
+      ],
+      "voucher_specimen": "IFE17906",
+      "life_form_as_published": "Tree",
+      "frequency_as_published": "26",
+      "relative_frequency_as_published": "0.37"
+    },
+    {
+      "source_id": "mukaila-2021-ile-ife",
+      "source_row": 68,
+      "botanical_as_published": "Argemone mexicana L.",
+      "family_as_published": "Papaveraceae",
+      "common_english_as_published": "Mexican pricky weed",
+      "vernacular_as_published": "Egele",
+      "vernacular_names": [
+        {
+          "local_name": "Egele",
+          "language": "yo"
+        }
+      ],
+      "voucher_specimen": "IFE17923",
+      "life_form_as_published": "Herb",
+      "frequency_as_published": "9",
+      "relative_frequency_as_published": "0.09"
+    },
+    {
+      "source_id": "mukaila-2021-ile-ife",
+      "source_row": 69,
+      "botanical_as_published": "Parquetina nigrescens (Afzel.) Bullock",
+      "family_as_published": "Periplocaceae",
+      "common_english_as_published": "African parquentina",
+      "vernacular_as_published": "Ogbo",
+      "vernacular_names": [
+        {
+          "local_name": "Ogbo",
+          "language": "yo"
+        }
+      ],
+      "voucher_specimen": "IFE17824",
+      "life_form_as_published": "Climber",
+      "frequency_as_published": "29",
+      "relative_frequency_as_published": "0.41"
+    },
+    {
+      "source_id": "mukaila-2021-ile-ife",
+      "source_row": 70,
+      "botanical_as_published": "Peperomia pellucida (L.)",
+      "family_as_published": "Piperaceae",
+      "common_english_as_published": "Rat ear",
+      "vernacular_as_published": "Rinrin, Irinrin",
+      "vernacular_names": [
+        {
+          "local_name": "Rinrin",
+          "language": "yo"
+        },
+        {
+          "local_name": "Irinrin",
+          "language": "yo"
+        }
+      ],
+      "voucher_specimen": "IFE17865",
+      "life_form_as_published": "Herb",
+      "frequency_as_published": "26",
+      "relative_frequency_as_published": "0.37"
+    },
+    {
+      "source_id": "mukaila-2021-ile-ife",
+      "source_row": 71,
+      "botanical_as_published": "Plumbago zeylannica L.",
+      "family_as_published": "Plumbaginaceae",
+      "common_english_as_published": "Ceylon leadwort",
+      "vernacular_as_published": "Inabiri",
+      "vernacular_names": [
+        {
+          "local_name": "Inabiri",
+          "language": "yo"
+        }
+      ],
+      "voucher_specimen": "IFE17843",
+      "life_form_as_published": "Herb",
+      "frequency_as_published": "9",
+      "relative_frequency_as_published": "0.13"
+    },
+    {
+      "source_id": "mukaila-2021-ile-ife",
+      "source_row": 72,
+      "botanical_as_published": "Bambusa vulgaris Schrad. ex J.C. Wendl.",
+      "family_as_published": "Poaceae",
+      "common_english_as_published": "Bamboo",
+      "vernacular_as_published": "Oparun",
+      "vernacular_names": [
+        {
+          "local_name": "Oparun",
+          "language": "yo"
+        }
+      ],
+      "voucher_specimen": "IFE17869",
+      "life_form_as_published": "Shrub",
+      "frequency_as_published": "48",
+      "relative_frequency_as_published": "0.69"
+    },
+    {
+      "source_id": "mukaila-2021-ile-ife",
+      "source_row": 73,
+      "botanical_as_published": "Cymbopogon citratus (DC.) Stapf.",
+      "family_as_published": "Poaceae",
+      "common_english_as_published": "Lemon grass",
+      "vernacular_as_published": "Kooko oba, Ewe tii",
+      "vernacular_names": [
+        {
+          "local_name": "Kooko oba",
+          "language": "yo"
+        },
+        {
+          "local_name": "Ewe tii",
+          "language": "yo"
+        }
+      ],
+      "voucher_specimen": "IFE17847",
+      "life_form_as_published": "Herb",
+      "frequency_as_published": "30",
+      "relative_frequency_as_published": "0.43"
+    },
+    {
+      "source_id": "mukaila-2021-ile-ife",
+      "source_row": 74,
+      "botanical_as_published": "Saccharum officinarum L.",
+      "family_as_published": "Poaceae",
+      "common_english_as_published": "Sugarcane",
+      "vernacular_as_published": "Ireke",
+      "vernacular_names": [
+        {
+          "local_name": "Ireke",
+          "language": "yo"
+        }
+      ],
+      "voucher_specimen": "IFE17884",
+      "life_form_as_published": "Herb",
+      "frequency_as_published": "8",
+      "relative_frequency_as_published": "0.11"
+    },
+    {
+      "source_id": "mukaila-2021-ile-ife",
+      "source_row": 75,
+      "botanical_as_published": "Zea mays L.",
+      "family_as_published": "Poaceae",
+      "common_english_as_published": "Maize",
+      "vernacular_as_published": "Agbado",
+      "vernacular_names": [
+        {
+          "local_name": "Agbado",
+          "language": "yo"
+        }
+      ],
+      "voucher_specimen": "IFE17848",
+      "life_form_as_published": "Herb",
+      "frequency_as_published": "11",
+      "relative_frequency_as_published": "0.16"
+    },
+    {
+      "source_id": "mukaila-2021-ile-ife",
+      "source_row": 76,
+      "botanical_as_published": "Securidaca longipedunculata Fresen.",
+      "family_as_published": "Polygalaceae",
+      "common_english_as_published": "Violet tree",
+      "vernacular_as_published": "Ipeta",
+      "vernacular_names": [
+        {
+          "local_name": "Ipeta",
+          "language": "yo"
+        }
+      ],
+      "voucher_specimen": "IFE17857",
+      "life_form_as_published": "Tree",
+      "frequency_as_published": "12",
+      "relative_frequency_as_published": "0.17"
+    },
+    {
+      "source_id": "mukaila-2021-ile-ife",
+      "source_row": 77,
+      "botanical_as_published": "Morinda lucida Benth.",
+      "family_as_published": "Rubiaceae",
+      "common_english_as_published": "Brimstone tree",
+      "vernacular_as_published": "Oruwo",
+      "vernacular_names": [
+        {
+          "local_name": "Oruwo",
+          "language": "yo"
+        }
+      ],
+      "voucher_specimen": "IFE17860",
+      "life_form_as_published": "Tree",
+      "frequency_as_published": "42",
+      "relative_frequency_as_published": "0.60"
+    },
+    {
+      "source_id": "mukaila-2021-ile-ife",
+      "source_row": 78,
+      "botanical_as_published": "Nauclea latifolia Sm.",
+      "family_as_published": "Rubiaceae",
+      "common_english_as_published": "African peach",
+      "vernacular_as_published": "Egbesi",
+      "vernacular_names": [
+        {
+          "local_name": "Egbesi",
+          "language": "yo"
+        }
+      ],
+      "voucher_specimen": "IFE17875",
+      "life_form_as_published": "Tree",
+      "frequency_as_published": "31",
+      "relative_frequency_as_published": "0.44"
+    },
+    {
+      "source_id": "mukaila-2021-ile-ife",
+      "source_row": 79,
+      "botanical_as_published": "Plukenetia conophora Mull Arg.",
+      "family_as_published": "Rubiaceae",
+      "common_english_as_published": "Walnut",
+      "vernacular_as_published": "Awusa",
+      "vernacular_names": [
+        {
+          "local_name": "Awusa",
+          "language": "yo"
+        }
+      ],
+      "voucher_specimen": "IFE17875",
+      "life_form_as_published": "Climber",
+      "frequency_as_published": "24",
+      "relative_frequency_as_published": "0.16"
+    },
+    {
+      "source_id": "mukaila-2021-ile-ife",
+      "source_row": 80,
+      "botanical_as_published": "Citrus aurantifolia (Christm.) Swingle",
+      "family_as_published": "Rutaceae",
+      "common_english_as_published": "Lime orange",
+      "vernacular_as_published": "Orombo, Osan wewe",
+      "vernacular_names": [
+        {
+          "local_name": "Orombo",
+          "language": "yo"
+        },
+        {
+          "local_name": "Osan wewe",
+          "language": "yo"
+        }
+      ],
+      "voucher_specimen": "IFE17823",
+      "life_form_as_published": "Shrub",
+      "frequency_as_published": "66",
+      "relative_frequency_as_published": "0.94"
+    },
+    {
+      "source_id": "mukaila-2021-ile-ife",
+      "source_row": 81,
+      "botanical_as_published": "Citrus sinensis L.",
+      "family_as_published": "Rutaceae",
+      "common_english_as_published": "Orange",
+      "vernacular_as_published": "Osan mimu",
+      "vernacular_names": [
+        {
+          "local_name": "Osan mimu",
+          "language": "yo"
+        }
+      ],
+      "voucher_specimen": "IFE17904",
+      "life_form_as_published": "Shrub",
+      "frequency_as_published": "57",
+      "relative_frequency_as_published": "0.81"
+    },
+    {
+      "source_id": "mukaila-2021-ile-ife",
+      "source_row": 82,
+      "botanical_as_published": "Lecaniodiscus cupanioides Planch.",
+      "family_as_published": "Sapindaceae",
+      "common_english_as_published": null,
+      "vernacular_as_published": "Aka, Akika",
+      "vernacular_names": [
+        {
+          "local_name": "Aka",
+          "language": "yo"
+        },
+        {
+          "local_name": "Akika",
+          "language": "yo"
+        }
+      ],
+      "voucher_specimen": "IFE17842",
+      "life_form_as_published": "Tree",
+      "frequency_as_published": "8",
+      "relative_frequency_as_published": "0.11"
+    },
+    {
+      "source_id": "mukaila-2021-ile-ife",
+      "source_row": 83,
+      "botanical_as_published": "Hannoa undulata Guill & Perr",
+      "family_as_published": "Simaroubaceae",
+      "common_english_as_published": "Hotoro",
+      "vernacular_as_published": "Orijin",
+      "vernacular_names": [
+        {
+          "local_name": "Orijin",
+          "language": "yo"
+        }
+      ],
+      "voucher_specimen": "IFE17871",
+      "life_form_as_published": "Tree",
+      "frequency_as_published": "28",
+      "relative_frequency_as_published": "0.40"
+    },
+    {
+      "source_id": "mukaila-2021-ile-ife",
+      "source_row": 84,
+      "botanical_as_published": "Solanum dasyphyllum Schum & Thonn.",
+      "family_as_published": "Solanaceae",
+      "common_english_as_published": "Thorny eggplant",
+      "vernacular_as_published": "Mafowokan omo mi, igbagun, bobo awodi",
+      "vernacular_names": [
+        {
+          "local_name": "Mafowokan omo mi",
+          "language": "yo"
+        },
+        {
+          "local_name": "igbagun",
+          "language": "yo"
+        },
+        {
+          "local_name": "bobo awodi",
+          "language": "yo"
+        }
+      ],
+      "voucher_specimen": "IFE17886",
+      "life_form_as_published": "Shrub",
+      "frequency_as_published": "19",
+      "relative_frequency_as_published": "0.27"
+    },
+    {
+      "source_id": "mukaila-2021-ile-ife",
+      "source_row": 85,
+      "botanical_as_published": "Solanum verbascifolium L.",
+      "family_as_published": "Solanaceae",
+      "common_english_as_published": "Potato tree",
+      "vernacular_as_published": "Yewuru",
+      "vernacular_names": [
+        {
+          "local_name": "Yewuru",
+          "language": "yo"
+        }
+      ],
+      "voucher_specimen": "IFE17881",
+      "life_form_as_published": "Shrub",
+      "frequency_as_published": "17",
+      "relative_frequency_as_published": "0.24"
+    },
+    {
+      "source_id": "mukaila-2021-ile-ife",
+      "source_row": 86,
+      "botanical_as_published": "Laportea aestuans (L.) Chew",
+      "family_as_published": "Urticaceae",
+      "common_english_as_published": "West Indian woodnettle",
+      "vernacular_as_published": "OlojongboduLapotia",
+      "vernacular_names": [
+        {
+          "local_name": "OlojongboduLapotia",
+          "language": "yo"
+        }
+      ],
+      "voucher_specimen": "IFE17866",
+      "life_form_as_published": "Herb",
+      "frequency_as_published": "21",
+      "relative_frequency_as_published": "0.30"
+    },
+    {
+      "source_id": "mukaila-2021-ile-ife",
+      "source_row": 87,
+      "botanical_as_published": "Aframomum melegueta K. Schum.",
+      "family_as_published": "Zingiberaceae",
+      "common_english_as_published": "Grains of paradise",
+      "vernacular_as_published": "Ataare",
+      "vernacular_names": [
+        {
+          "local_name": "Ataare",
+          "language": "yo"
+        }
+      ],
+      "voucher_specimen": "IFE17862",
+      "life_form_as_published": "Herb",
+      "frequency_as_published": "21",
+      "relative_frequency_as_published": "0.30"
+    }
+  ],
+  "observations": [
+    {
+      "source_row": 1,
+      "botanical_as_published": "Amaranthus spinosus",
+      "source_as_published": "Wild",
+      "parts_reported": [
+        "leaf"
+      ],
+      "preparation_and_use_as_published": "Leaf paste is mixed with local soap and used to bath children having teething problem (6)",
+      "use_reports_as_published": "6",
+      "cultural_importance_index_as_published": "0.09"
+    },
+    {
+      "source_row": 2,
+      "botanical_as_published": "Crinum jagus",
+      "source_as_published": "Cultivated Wild",
+      "parts_reported": [
+        "bulb"
+      ],
+      "preparation_and_use_as_published": "1. The bulb is heated and squeezed to produce juice and honey is added and used for convulsion (23)",
+      "use_reports_as_published": "46",
+      "cultural_importance_index_as_published": "0.66"
+    },
+    {
+      "source_row": 3,
+      "botanical_as_published": "Crinum jagus",
+      "source_as_published": null,
+      "parts_reported": [],
+      "preparation_and_use_as_published": "2. Decoction of the bulb and Xylopia aethiopica is used for convulsion (18)",
+      "use_reports_as_published": null,
+      "cultural_importance_index_as_published": null
+    },
+    {
+      "source_row": 4,
+      "botanical_as_published": "Crinum jagus",
+      "source_as_published": null,
+      "parts_reported": [],
+      "preparation_and_use_as_published": "3. The bulb is infused in water with alum to treat asthma (5)",
+      "use_reports_as_published": null,
+      "cultural_importance_index_as_published": null
+    },
+    {
+      "source_row": 5,
+      "botanical_as_published": "Anacardium occidentale",
+      "source_as_published": "Cultivated Wild",
+      "parts_reported": [
+        "seed"
+      ],
+      "preparation_and_use_as_published": "Decoction of the seed is used to treat high blood pressure (10)",
+      "use_reports_as_published": "10",
+      "cultural_importance_index_as_published": "0.12"
+    },
+    {
+      "source_row": 6,
+      "botanical_as_published": "Mangifera indica L.",
+      "source_as_published": "Cultivated Wild",
+      "parts_reported": [
+        "leaf",
+        "stem bark"
+      ],
+      "preparation_and_use_as_published": "Decoction of leaf and stem bark in fermented maize water is used for malaria (63)",
+      "use_reports_as_published": "63",
+      "cultural_importance_index_as_published": "0.90"
+    },
+    {
+      "source_row": 7,
+      "botanical_as_published": "Spondias mombin L.",
+      "source_as_published": "Wild",
+      "parts_reported": [
+        "fruit",
+        "stem bark"
+      ],
+      "preparation_and_use_as_published": "1. Dried fruits are powdered with Xylopia aethiopica and mixed with palm kernel oil to treat dandruff (13)",
+      "use_reports_as_published": "33",
+      "cultural_importance_index_as_published": "0.47"
+    },
+    {
+      "source_row": 8,
+      "botanical_as_published": "Spondias mombin L.",
+      "source_as_published": null,
+      "parts_reported": [],
+      "preparation_and_use_as_published": "2. Decoction of the stem bark with potash is used to treat fibroid (20)",
+      "use_reports_as_published": null,
+      "cultural_importance_index_as_published": null
+    },
+    {
+      "source_row": 9,
+      "botanical_as_published": "Xylopia aethiopica",
+      "source_as_published": "Wild",
+      "parts_reported": [
+        "fruit"
+      ],
+      "preparation_and_use_as_published": "1. Decoction of fruit is taken for gonorrhea (41)",
+      "use_reports_as_published": "63",
+      "cultural_importance_index_as_published": "0.90"
+    },
+    {
+      "source_row": 10,
+      "botanical_as_published": "Xylopia aethiopica",
+      "source_as_published": null,
+      "parts_reported": [],
+      "preparation_and_use_as_published": "2. Powdered fruit is mixed with sulphur and added to cream to treat skin diseases (22)",
+      "use_reports_as_published": null,
+      "cultural_importance_index_as_published": null
+    },
+    {
+      "source_row": 11,
+      "botanical_as_published": "Alstonia boonei",
+      "source_as_published": "Wild",
+      "parts_reported": [
+        "stem bark"
+      ],
+      "preparation_and_use_as_published": "1. Decoction of the bark is drunk for malaria (40)",
+      "use_reports_as_published": "93",
+      "cultural_importance_index_as_published": "1.33"
+    },
+    {
+      "source_row": 12,
+      "botanical_as_published": "Alstonia boonei",
+      "source_as_published": null,
+      "parts_reported": [],
+      "preparation_and_use_as_published": "2. Bark is infused in palm wine and drunk to treat malaria (22)",
+      "use_reports_as_published": null,
+      "cultural_importance_index_as_published": null
+    },
+    {
+      "source_row": 13,
+      "botanical_as_published": "Alstonia boonei",
+      "source_as_published": null,
+      "parts_reported": [],
+      "preparation_and_use_as_published": "3. The stem bark is infused in local gin and rubbed on the body to treat measles (31)",
+      "use_reports_as_published": null,
+      "cultural_importance_index_as_published": null
+    },
+    {
+      "source_row": 14,
+      "botanical_as_published": "Calotropis procera",
+      "source_as_published": "Cultivated",
+      "parts_reported": [
+        "leaf",
+        "latex"
+      ],
+      "preparation_and_use_as_published": "1. The latex is applied topically for boil (46)",
+      "use_reports_as_published": "102",
+      "cultural_importance_index_as_published": "1.46"
+    },
+    {
+      "source_row": 15,
+      "botanical_as_published": "Calotropis procera",
+      "source_as_published": null,
+      "parts_reported": [],
+      "preparation_and_use_as_published": "2. Leaf is macerated in water and drunk to treat measles (19)",
+      "use_reports_as_published": null,
+      "cultural_importance_index_as_published": null
+    },
+    {
+      "source_row": 16,
+      "botanical_as_published": "Calotropis procera",
+      "source_as_published": null,
+      "parts_reported": [],
+      "preparation_and_use_as_published": "3. The latex is applied to aching tooth (37)",
+      "use_reports_as_published": null,
+      "cultural_importance_index_as_published": null
+    },
+    {
+      "source_row": 17,
+      "botanical_as_published": "Rauvolfia vomitoria",
+      "source_as_published": "Wild",
+      "parts_reported": [
+        "leaf",
+        "stem bark",
+        "root"
+      ],
+      "preparation_and_use_as_published": "1. Stem bark is infused in alcohol to treat pile and backache (31)",
+      "use_reports_as_published": "69",
+      "cultural_importance_index_as_published": "0.99"
+    },
+    {
+      "source_row": 18,
+      "botanical_as_published": "Rauvolfia vomitoria",
+      "source_as_published": null,
+      "parts_reported": [],
+      "preparation_and_use_as_published": "2. Decoction of the leaf and root is used to treat yellow fever (16)",
+      "use_reports_as_published": null,
+      "cultural_importance_index_as_published": null
+    },
+    {
+      "source_row": 19,
+      "botanical_as_published": "Rauvolfia vomitoria",
+      "source_as_published": null,
+      "parts_reported": [],
+      "preparation_and_use_as_published": "3. Powdered dry root is swallowed with water to treat insomnia (22)",
+      "use_reports_as_published": null,
+      "cultural_importance_index_as_published": null
+    },
+    {
+      "source_row": 20,
+      "botanical_as_published": "Anchomanes difformis",
+      "source_as_published": "",
+      "parts_reported": [
+        "tuber"
+      ],
+      "preparation_and_use_as_published": "The tuber is cut, infused in water, and taken to treat stroke (7)",
+      "use_reports_as_published": "7",
+      "cultural_importance_index_as_published": "0.10"
+    },
+    {
+      "source_row": 21,
+      "botanical_as_published": "Caladium bicolor",
+      "source_as_published": "Cultivated Wild",
+      "parts_reported": [
+        "leaf"
+      ],
+      "preparation_and_use_as_published": "Maceration of leaf in fermented maize water is used to treat stomach ulcer (11)",
+      "use_reports_as_published": "11",
+      "cultural_importance_index_as_published": "0.16"
+    },
+    {
+      "source_row": 22,
+      "botanical_as_published": "Elaeis guineense",
+      "source_as_published": "Cultivated Wild",
+      "parts_reported": [
+        "root"
+      ],
+      "preparation_and_use_as_published": "Decoction of the root with potash is used to treat hernia (13)",
+      "use_reports_as_published": "13",
+      "cultural_importance_index_as_published": "0.19"
+    },
+    {
+      "source_row": 23,
+      "botanical_as_published": "Ageratum conyzoides",
+      "source_as_published": "Wild",
+      "parts_reported": [
+        "leaf"
+      ],
+      "preparation_and_use_as_published": "1. Leaf juice is applied to minor wound to stop bleeding (43)",
+      "use_reports_as_published": "69",
+      "cultural_importance_index_as_published": "0.99"
+    },
+    {
+      "source_row": 24,
+      "botanical_as_published": "Ageratum conyzoides",
+      "source_as_published": null,
+      "parts_reported": [],
+      "preparation_and_use_as_published": "2. Whole plant decoction is used to bath baby to prevent measles (17)",
+      "use_reports_as_published": null,
+      "cultural_importance_index_as_published": null
+    },
+    {
+      "source_row": 25,
+      "botanical_as_published": "Ageratum conyzoides",
+      "source_as_published": null,
+      "parts_reported": [],
+      "preparation_and_use_as_published": "3. Maceration of the leaves with the fruit juice of Citrus aurantifolia is used to treat female infertility (9)",
+      "use_reports_as_published": null,
+      "cultural_importance_index_as_published": null
+    },
+    {
+      "source_row": 26,
+      "botanical_as_published": "Bidens pilosa",
+      "source_as_published": "Wild",
+      "parts_reported": [
+        "leaf"
+      ],
+      "preparation_and_use_as_published": "Decoction of leaf is taken for rheumatism (12)",
+      "use_reports_as_published": "12",
+      "cultural_importance_index_as_published": "0.17"
+    },
+    {
+      "source_row": 27,
+      "botanical_as_published": "Chromolaena odorata",
+      "source_as_published": "Wild",
+      "parts_reported": [
+        "leaf"
+      ],
+      "preparation_and_use_as_published": "1. Leaf maceration is used for diarrhea (22)",
+      "use_reports_as_published": "78",
+      "cultural_importance_index_as_published": "1.11"
+    },
+    {
+      "source_row": 28,
+      "botanical_as_published": "Chromolaena odorata",
+      "source_as_published": null,
+      "parts_reported": [],
+      "preparation_and_use_as_published": "2. Leaf maceration is used for malaria (56)",
+      "use_reports_as_published": null,
+      "cultural_importance_index_as_published": null
+    },
+    {
+      "source_row": 29,
+      "botanical_as_published": "Melanthera scandens",
+      "source_as_published": "Wild",
+      "parts_reported": [
+        "leaf"
+      ],
+      "preparation_and_use_as_published": "Leaf maceration is used for diarrhea (16)",
+      "use_reports_as_published": "16",
+      "cultural_importance_index_as_published": "0.23"
+    },
+    {
+      "source_row": 30,
+      "botanical_as_published": "Vernonia amygdalina",
+      "source_as_published": "Cultivated",
+      "parts_reported": [
+        "leaf"
+      ],
+      "preparation_and_use_as_published": "1. Leaf is macerated in water to treat diabetes (43)",
+      "use_reports_as_published": "116",
+      "cultural_importance_index_as_published": "1.66"
+    },
+    {
+      "source_row": 31,
+      "botanical_as_published": "Vernonia amygdalina",
+      "source_as_published": null,
+      "parts_reported": [],
+      "preparation_and_use_as_published": "2.Leaf juice is mixed with palm oil and drunk to treat measles (52)",
+      "use_reports_as_published": null,
+      "cultural_importance_index_as_published": null
+    },
+    {
+      "source_row": 32,
+      "botanical_as_published": "Vernonia amygdalina",
+      "source_as_published": null,
+      "parts_reported": [],
+      "preparation_and_use_as_published": "3. The leaf is squeezed and stuffed in the nostrils to control epistaxis (21)",
+      "use_reports_as_published": null,
+      "cultural_importance_index_as_published": null
+    },
+    {
+      "source_row": 33,
+      "botanical_as_published": "Kigelia africana",
+      "source_as_published": "",
+      "parts_reported": [
+        "fruit",
+        "root"
+      ],
+      "preparation_and_use_as_published": "1. Decoction of the fruits is used for convulsion (25)",
+      "use_reports_as_published": "88",
+      "cultural_importance_index_as_published": "1.26"
+    },
+    {
+      "source_row": 34,
+      "botanical_as_published": "Kigelia africana",
+      "source_as_published": null,
+      "parts_reported": [],
+      "preparation_and_use_as_published": "2. Infuse in water and salt for dizziness (31)",
+      "use_reports_as_published": null,
+      "cultural_importance_index_as_published": null
+    },
+    {
+      "source_row": 35,
+      "botanical_as_published": "Kigelia africana",
+      "source_as_published": null,
+      "parts_reported": [],
+      "preparation_and_use_as_published": "3. Dried root is grinded and mixed with palm oil to treat dizziness (23)",
+      "use_reports_as_published": null,
+      "cultural_importance_index_as_published": null
+    },
+    {
+      "source_row": 36,
+      "botanical_as_published": "Kigelia africana",
+      "source_as_published": null,
+      "parts_reported": [],
+      "preparation_and_use_as_published": "4. Infusion of the root in palm wine is used to treat yellow fever (9)",
+      "use_reports_as_published": null,
+      "cultural_importance_index_as_published": null
+    },
+    {
+      "source_row": 37,
+      "botanical_as_published": "Newbouldia laevis",
+      "source_as_published": "Wild",
+      "parts_reported": [
+        "leaf"
+      ],
+      "preparation_and_use_as_published": "1. Decoction of stem bark is used for hypertension (35)",
+      "use_reports_as_published": "50",
+      "cultural_importance_index_as_published": "0.71"
+    },
+    {
+      "source_row": 38,
+      "botanical_as_published": "Newbouldia laevis",
+      "source_as_published": null,
+      "parts_reported": [],
+      "preparation_and_use_as_published": "2. Decoction of leaves and fruits of Citrus aurantifolia is used to treat yellow fever (15)",
+      "use_reports_as_published": null,
+      "cultural_importance_index_as_published": null
+    },
+    {
+      "source_row": 39,
+      "botanical_as_published": "Bixa orellana",
+      "source_as_published": "Wild",
+      "parts_reported": [
+        "leaf"
+      ],
+      "preparation_and_use_as_published": "1. Leaf juice is used for eczema (23)",
+      "use_reports_as_published": "35",
+      "cultural_importance_index_as_published": "0.50"
+    },
+    {
+      "source_row": 40,
+      "botanical_as_published": "Bixa orellana",
+      "source_as_published": null,
+      "parts_reported": [],
+      "preparation_and_use_as_published": "2. Decoction of the leaf, Citrus aurantifolia, and fermented maize water is used to treat malaria (12)",
+      "use_reports_as_published": null,
+      "cultural_importance_index_as_published": null
+    },
+    {
+      "source_row": 41,
+      "botanical_as_published": "Heliotropium indicum",
+      "source_as_published": "Wild",
+      "parts_reported": [
+        "leaf"
+      ],
+      "preparation_and_use_as_published": "Decoction of the leaf is taken to treat skin diseases (18)",
+      "use_reports_as_published": "18",
+      "cultural_importance_index_as_published": "0.26"
+    },
+    {
+      "source_row": 42,
+      "botanical_as_published": "Ananas comosus",
+      "source_as_published": "",
+      "parts_reported": [
+        "fruit"
+      ],
+      "preparation_and_use_as_published": "1. Decoction of fruit is taken for gonorrhea (29)",
+      "use_reports_as_published": "40",
+      "cultural_importance_index_as_published": "0.57"
+    },
+    {
+      "source_row": 43,
+      "botanical_as_published": "Ananas comosus",
+      "source_as_published": null,
+      "parts_reported": [],
+      "preparation_and_use_as_published": "2. Decoction of unripe fruit is used to ease difficult labor (11)",
+      "use_reports_as_published": null,
+      "cultural_importance_index_as_published": null
+    },
+    {
+      "source_row": 44,
+      "botanical_as_published": "Carica papaya",
+      "source_as_published": "Cultivated Wild",
+      "parts_reported": [
+        "leaf",
+        "fruit",
+        "root"
+      ],
+      "preparation_and_use_as_published": "1. Cold water infusion of the fruits is used for malaria (26)",
+      "use_reports_as_published": "89",
+      "cultural_importance_index_as_published": "1.27"
+    },
+    {
+      "source_row": 45,
+      "botanical_as_published": "Carica papaya",
+      "source_as_published": null,
+      "parts_reported": [],
+      "preparation_and_use_as_published": "2. Decoction of unripe fruit is used to ease difficult labor (39)",
+      "use_reports_as_published": null,
+      "cultural_importance_index_as_published": null
+    },
+    {
+      "source_row": 46,
+      "botanical_as_published": "Carica papaya",
+      "source_as_published": null,
+      "parts_reported": [],
+      "preparation_and_use_as_published": "3. Decoction of the root and root of Parkia biglobosa (Jacq.) R.Br. Ex G.Don. is used to treat malaria (19)",
+      "use_reports_as_published": null,
+      "cultural_importance_index_as_published": null
+    },
+    {
+      "source_row": 47,
+      "botanical_as_published": "Carica papaya",
+      "source_as_published": null,
+      "parts_reported": [],
+      "preparation_and_use_as_published": "4. Leaf is macerated with 7UP drink to treat typhoid (31)",
+      "use_reports_as_published": null,
+      "cultural_importance_index_as_published": null
+    },
+    {
+      "source_row": 48,
+      "botanical_as_published": "Garcinia kola",
+      "source_as_published": "Cultivated Wild",
+      "parts_reported": [
+        "fruit",
+        "root",
+        "stem bark"
+      ],
+      "preparation_and_use_as_published": "1. Fruits are chewed for cough (51)",
+      "use_reports_as_published": "75",
+      "cultural_importance_index_as_published": "1.07"
+    },
+    {
+      "source_row": 49,
+      "botanical_as_published": "Garcinia kola",
+      "source_as_published": null,
+      "parts_reported": [],
+      "preparation_and_use_as_published": "2. Decoction of the root and stem bark is used for cough (24)",
+      "use_reports_as_published": null,
+      "cultural_importance_index_as_published": null
+    },
+    {
+      "source_row": 50,
+      "botanical_as_published": "Cnestis ferruginea",
+      "source_as_published": "Wild",
+      "parts_reported": [
+        "fruit"
+      ],
+      "preparation_and_use_as_published": "Fruits are chewed and then applied to snakebite wounds (4)",
+      "use_reports_as_published": "4",
+      "cultural_importance_index_as_published": "0.06"
+    },
+    {
+      "source_row": 51,
+      "botanical_as_published": "kalanchoe pinnata",
+      "source_as_published": "Cultivated Wild",
+      "parts_reported": [
+        "leaf"
+      ],
+      "preparation_and_use_as_published": "Decoction of leaf with salt water is used to treat cough (2)",
+      "use_reports_as_published": "2",
+      "cultural_importance_index_as_published": "0.03"
+    },
+    {
+      "source_row": 52,
+      "botanical_as_published": "Adenopus breviflorus",
+      "source_as_published": "Wild",
+      "parts_reported": [
+        "fruit"
+      ],
+      "preparation_and_use_as_published": "Decoction of fruit and leaves of Newbouldia laevis is used to treat measles (14)",
+      "use_reports_as_published": "14",
+      "cultural_importance_index_as_published": "0.20"
+    },
+    {
+      "source_row": 53,
+      "botanical_as_published": "Citrullus colocynthis",
+      "source_as_published": "",
+      "parts_reported": [
+        "leaf",
+        "pod",
+        "fruit"
+      ],
+      "preparation_and_use_as_published": "1. Leaves are macerated in local gin and drunk for gonorrhea (16)",
+      "use_reports_as_published": "50",
+      "cultural_importance_index_as_published": "0.71"
+    },
+    {
+      "source_row": 54,
+      "botanical_as_published": "Citrullus colocynthis",
+      "source_as_published": null,
+      "parts_reported": [],
+      "preparation_and_use_as_published": "2. Pod is cut into pieces and infused in local gin with Allium sativum to treat pile (25)",
+      "use_reports_as_published": null,
+      "cultural_importance_index_as_published": null
+    },
+    {
+      "source_row": 55,
+      "botanical_as_published": "Citrullus colocynthis",
+      "source_as_published": null,
+      "parts_reported": [],
+      "preparation_and_use_as_published": "3. Decoction of the fruit, fruits of Ananas comosus, Citrus aurantifolia, Xylopia aethiopica, and potash is taken to treat gonorrhea (9)",
+      "use_reports_as_published": null,
+      "cultural_importance_index_as_published": null
+    },
+    {
+      "source_row": 56,
+      "botanical_as_published": "Luffa cylinderica",
+      "source_as_published": "Wild",
+      "parts_reported": [
+        "fruit"
+      ],
+      "preparation_and_use_as_published": "Fresh fruits are heated then squeezed to produce juice which is topically applied to stretch marks (29)",
+      "use_reports_as_published": "29",
+      "cultural_importance_index_as_published": "0.41"
+    },
+    {
+      "source_row": 57,
+      "botanical_as_published": "Momordica charantia",
+      "source_as_published": "Wild",
+      "parts_reported": [
+        "leaf"
+      ],
+      "preparation_and_use_as_published": "1. Leaf is macerated in water to treat pile and also used as aphrodisiac (35)",
+      "use_reports_as_published": "87",
+      "cultural_importance_index_as_published": "1.24"
+    },
+    {
+      "source_row": 58,
+      "botanical_as_published": "Momordica charantia",
+      "source_as_published": null,
+      "parts_reported": [],
+      "preparation_and_use_as_published": "2. Macerate with water and salt for syphilis (17)",
+      "use_reports_as_published": null,
+      "cultural_importance_index_as_published": null
+    },
+    {
+      "source_row": 59,
+      "botanical_as_published": "Momordica charantia",
+      "source_as_published": null,
+      "parts_reported": [],
+      "preparation_and_use_as_published": "3. Macerate in water and salt and drink to treat stomach ache (35)",
+      "use_reports_as_published": null,
+      "cultural_importance_index_as_published": null
+    },
+    {
+      "source_row": 60,
+      "botanical_as_published": "Telfaria occidentalis",
+      "source_as_published": "Cultivated",
+      "parts_reported": [
+        "leaf"
+      ],
+      "preparation_and_use_as_published": "Maceration of leaf is mixed with malt drinks to improve blood level (69)",
+      "use_reports_as_published": "69",
+      "cultural_importance_index_as_published": "0.99"
+    },
+    {
+      "source_row": 61,
+      "botanical_as_published": "Euphorbia lateriflora",
+      "source_as_published": "Cultivated Wild",
+      "parts_reported": [
+        "leaf",
+        "latex"
+      ],
+      "preparation_and_use_as_published": "1. Latex is applied to whitlow (11)",
+      "use_reports_as_published": "20",
+      "cultural_importance_index_as_published": "0.29"
+    },
+    {
+      "source_row": 62,
+      "botanical_as_published": "Euphorbia lateriflora",
+      "source_as_published": null,
+      "parts_reported": [],
+      "preparation_and_use_as_published": "2. Leaf is macerated and used to bath to treat skin diseases (9)",
+      "use_reports_as_published": null,
+      "cultural_importance_index_as_published": null
+    },
+    {
+      "source_row": 63,
+      "botanical_as_published": "Alchornea cordifolia",
+      "source_as_published": "Wild",
+      "parts_reported": [
+        "fruit"
+      ],
+      "preparation_and_use_as_published": "Fruits are chewed to treat cough (3)",
+      "use_reports_as_published": "3",
+      "cultural_importance_index_as_published": "0.04"
+    },
+    {
+      "source_row": 64,
+      "botanical_as_published": "Bridelia ferruginea",
+      "source_as_published": "Wild",
+      "parts_reported": [
+        "stem bark"
+      ],
+      "preparation_and_use_as_published": "The dried bark is grinded and mixed with the fruit juice of Citrus aurantifolia to treat typhoid (14)",
+      "use_reports_as_published": "14",
+      "cultural_importance_index_as_published": "0.20"
+    },
+    {
+      "source_row": 65,
+      "botanical_as_published": "Euphorbia hirta",
+      "source_as_published": "Wild",
+      "parts_reported": [
+        "whole plant"
+      ],
+      "preparation_and_use_as_published": "Whole plant juice is applied to fresh wound especially cuts (3)",
+      "use_reports_as_published": "3",
+      "cultural_importance_index_as_published": "0.04"
+    },
+    {
+      "source_row": 66,
+      "botanical_as_published": "Jatropha curcas",
+      "source_as_published": "Cultivated",
+      "parts_reported": [
+        "leaf"
+      ],
+      "preparation_and_use_as_published": "1. Macerate in salt water and drink for dysentery (9)",
+      "use_reports_as_published": "39",
+      "cultural_importance_index_as_published": "0.56"
+    },
+    {
+      "source_row": 67,
+      "botanical_as_published": "Jatropha curcas",
+      "source_as_published": null,
+      "parts_reported": [],
+      "preparation_and_use_as_published": "2. Leaf is macerated and mixed with local chalk and taken orally to prevent miscarriage (30)",
+      "use_reports_as_published": null,
+      "cultural_importance_index_as_published": null
+    },
+    {
+      "source_row": 68,
+      "botanical_as_published": "Jatropha gossypiifolia",
+      "source_as_published": "Cultivated",
+      "parts_reported": [
+        "leaf"
+      ],
+      "preparation_and_use_as_published": "1. Leaf is macerated in water to treat gonorrhea (19)",
+      "use_reports_as_published": "42",
+      "cultural_importance_index_as_published": "0.60"
+    },
+    {
+      "source_row": 69,
+      "botanical_as_published": "Jatropha gossypiifolia",
+      "source_as_published": null,
+      "parts_reported": [],
+      "preparation_and_use_as_published": "2. Leaves are macerated in water and drunk to prevent difficult labor (23)",
+      "use_reports_as_published": null,
+      "cultural_importance_index_as_published": null
+    },
+    {
+      "source_row": 70,
+      "botanical_as_published": "Jatropha multifida",
+      "source_as_published": "Cultivated Wild",
+      "parts_reported": [
+        "leaf stalk"
+      ],
+      "preparation_and_use_as_published": "Leaf stalk is used to wash tongue for coated tongue (9)",
+      "use_reports_as_published": "9",
+      "cultural_importance_index_as_published": "0.13"
+    },
+    {
+      "source_row": 71,
+      "botanical_as_published": "Phyllanthus amarus",
+      "source_as_published": "Wild",
+      "parts_reported": [
+        "whole plant"
+      ],
+      "preparation_and_use_as_published": "1. Decoction of whole plant is used for fever (19)",
+      "use_reports_as_published": "48",
+      "cultural_importance_index_as_published": "0.68"
+    },
+    {
+      "source_row": 72,
+      "botanical_as_published": "Phyllanthus amarus",
+      "source_as_published": null,
+      "parts_reported": [],
+      "preparation_and_use_as_published": "2. The whole plant is cut into pieces and infused in the fruit juice of Citrus aurantifolia and used as aphrodisiac and to treat backache (29)",
+      "use_reports_as_published": null,
+      "cultural_importance_index_as_published": null
+    },
+    {
+      "source_row": 73,
+      "botanical_as_published": "Abrus precatorius",
+      "source_as_published": "Wild",
+      "parts_reported": [
+        "leaf"
+      ],
+      "preparation_and_use_as_published": "The leaves are chewed to treat cough (23)",
+      "use_reports_as_published": "23",
+      "cultural_importance_index_as_published": "0.33"
+    },
+    {
+      "source_row": 74,
+      "botanical_as_published": "Mucuna pruriens",
+      "source_as_published": "Wild",
+      "parts_reported": [
+        "leaf"
+      ],
+      "preparation_and_use_as_published": "1. Leaf maceration is taken as blood supplement (44)",
+      "use_reports_as_published": "75",
+      "cultural_importance_index_as_published": "1.07"
+    },
+    {
+      "source_row": 75,
+      "botanical_as_published": "Mucuna pruriens",
+      "source_as_published": null,
+      "parts_reported": [],
+      "preparation_and_use_as_published": "2. Leaf maceration is used to treat measles (31)",
+      "use_reports_as_published": null,
+      "cultural_importance_index_as_published": null
+    },
+    {
+      "source_row": 76,
+      "botanical_as_published": "Senna alata",
+      "source_as_published": "Cultivated Wild",
+      "parts_reported": [
+        "leaf",
+        "inflorescence"
+      ],
+      "preparation_and_use_as_published": "1. Young leaves are macerated in water, mixed with salt, and used for skin diseases (38)",
+      "use_reports_as_published": "109",
+      "cultural_importance_index_as_published": "1.56"
+    },
+    {
+      "source_row": 77,
+      "botanical_as_published": "Senna alata",
+      "source_as_published": null,
+      "parts_reported": [],
+      "preparation_and_use_as_published": "2. Leaves are powdered, mixed with sulphur, alum, and any cream, and used for skin diseases (33)",
+      "use_reports_as_published": null,
+      "cultural_importance_index_as_published": null
+    },
+    {
+      "source_row": 78,
+      "botanical_as_published": "Senna alata",
+      "source_as_published": null,
+      "parts_reported": [],
+      "preparation_and_use_as_published": "3. Leaves are macerated in water, and potash is added and drunk for pile (13)",
+      "use_reports_as_published": null,
+      "cultural_importance_index_as_published": null
+    },
+    {
+      "source_row": 79,
+      "botanical_as_published": "Senna alata",
+      "source_as_published": null,
+      "parts_reported": [],
+      "preparation_and_use_as_published": "4. Inflorescence is dried and powdered with potash to treat female infertility (25)",
+      "use_reports_as_published": null,
+      "cultural_importance_index_as_published": null
+    },
+    {
+      "source_row": 80,
+      "botanical_as_published": "Senna hirsuta",
+      "source_as_published": "Wild",
+      "parts_reported": [
+        "leaf"
+      ],
+      "preparation_and_use_as_published": "Leaf is pounded and added to the fruit juice of Citrus aurantifolia to treat typhoid (17)",
+      "use_reports_as_published": "17",
+      "cultural_importance_index_as_published": "0.24"
+    },
+    {
+      "source_row": 81,
+      "botanical_as_published": "Senna siamea",
+      "source_as_published": "Cultivated Wild",
+      "parts_reported": [
+        "leaf",
+        "stem bark"
+      ],
+      "preparation_and_use_as_published": "Decoction of leaf and bark is used for malaria (29)",
+      "use_reports_as_published": "29",
+      "cultural_importance_index_as_published": "0.41"
+    },
+    {
+      "source_row": 82,
+      "botanical_as_published": "Tetrapleura tetraptera",
+      "source_as_published": "Cultivated Wild",
+      "parts_reported": [
+        "leaf",
+        "seed"
+      ],
+      "preparation_and_use_as_published": "1. Leaf is macerated and alum is added to treat cough (23)",
+      "use_reports_as_published": "30",
+      "cultural_importance_index_as_published": "0.43"
+    },
+    {
+      "source_row": 83,
+      "botanical_as_published": "Tetrapleura tetraptera",
+      "source_as_published": null,
+      "parts_reported": [],
+      "preparation_and_use_as_published": "2. Dried seeds are powdered and mixed with cold pap to treat stroke (7)",
+      "use_reports_as_published": null,
+      "cultural_importance_index_as_published": null
+    },
+    {
+      "source_row": 84,
+      "botanical_as_published": "Anthocleista djalonensis",
+      "source_as_published": "Wild",
+      "parts_reported": [
+        "stem bark",
+        "root"
+      ],
+      "preparation_and_use_as_published": "1. Decoction of the stem bark is used to treat malaria (39)",
+      "use_reports_as_published": "70",
+      "cultural_importance_index_as_published": "1.00"
+    },
+    {
+      "source_row": 85,
+      "botanical_as_published": "Anthocleista djalonensis",
+      "source_as_published": null,
+      "parts_reported": [],
+      "preparation_and_use_as_published": "2. Decoction of the root and leaves of Phyllanthus amarus is used to treat pile (31)",
+      "use_reports_as_published": null,
+      "cultural_importance_index_as_published": null
+    },
+    {
+      "source_row": 86,
+      "botanical_as_published": "Irvingia gabonensis",
+      "source_as_published": "Cultivated Wild",
+      "parts_reported": [
+        "leaf"
+      ],
+      "preparation_and_use_as_published": "Macerate with leaf of Hibiscus spp. to treat gonorrhea (18)",
+      "use_reports_as_published": "18",
+      "cultural_importance_index_as_published": "0.26"
+    },
+    {
+      "source_row": 87,
+      "botanical_as_published": "Ocimum gratissimum",
+      "source_as_published": "Cultivated",
+      "parts_reported": [
+        "leaf"
+      ],
+      "preparation_and_use_as_published": "1. Leaf juice is applied to fresh wound (43)",
+      "use_reports_as_published": "103",
+      "cultural_importance_index_as_published": "1.47"
+    },
+    {
+      "source_row": 88,
+      "botanical_as_published": "Ocimum gratissimum",
+      "source_as_published": null,
+      "parts_reported": [],
+      "preparation_and_use_as_published": "2. Leaves are macerated in water and drunk to treat malaria (60)",
+      "use_reports_as_published": null,
+      "cultural_importance_index_as_published": null
+    },
+    {
+      "source_row": 89,
+      "botanical_as_published": "Persea americana",
+      "source_as_published": "Cultivated Wild",
+      "parts_reported": [
+        "leaf"
+      ],
+      "preparation_and_use_as_published": "1. Decoction of the leaf is taken to treat stroke (29)",
+      "use_reports_as_published": "60",
+      "cultural_importance_index_as_published": "0.86"
+    },
+    {
+      "source_row": 90,
+      "botanical_as_published": "Persea americana",
+      "source_as_published": null,
+      "parts_reported": [],
+      "preparation_and_use_as_published": "2. Decoction of the leaf is used to treat high blood pressure (31)",
+      "use_reports_as_published": null,
+      "cultural_importance_index_as_published": null
+    },
+    {
+      "source_row": 91,
+      "botanical_as_published": "Allium sativum",
+      "source_as_published": "Cultivated Wild",
+      "parts_reported": [
+        "bulb"
+      ],
+      "preparation_and_use_as_published": "1. Infusion of the bulb in alcohol is used to treat pile (32)",
+      "use_reports_as_published": "107",
+      "cultural_importance_index_as_published": "1.53"
+    },
+    {
+      "source_row": 92,
+      "botanical_as_published": "Allium sativum",
+      "source_as_published": null,
+      "parts_reported": [],
+      "preparation_and_use_as_published": "2. The bulbs are eaten to treat stomach ulcer (53)",
+      "use_reports_as_published": null,
+      "cultural_importance_index_as_published": null
+    },
+    {
+      "source_row": 93,
+      "botanical_as_published": "Allium sativum",
+      "source_as_published": null,
+      "parts_reported": [],
+      "preparation_and_use_as_published": "3. Infusion of the bulbs in fruit juice of Citrus aurantifolia is used to treat hypertension (22)",
+      "use_reports_as_published": null,
+      "cultural_importance_index_as_published": null
+    },
+    {
+      "source_row": 94,
+      "botanical_as_published": "Corchorus olitorius",
+      "source_as_published": "Cultivated",
+      "parts_reported": [
+        "leaf"
+      ],
+      "preparation_and_use_as_published": "1. Leaves are cooked without salt to treat measles (24)",
+      "use_reports_as_published": "42",
+      "cultural_importance_index_as_published": "0.60"
+    },
+    {
+      "source_row": 95,
+      "botanical_as_published": "Corchorus olitorius",
+      "source_as_published": null,
+      "parts_reported": [],
+      "preparation_and_use_as_published": "2. Leaves are macerated in cold water and drunk during difficult labor (18)",
+      "use_reports_as_published": null,
+      "cultural_importance_index_as_published": null
+    },
+    {
+      "source_row": 96,
+      "botanical_as_published": "Gossypium hirsutum",
+      "source_as_published": "Cultivated Wild",
+      "parts_reported": [
+        "leaf"
+      ],
+      "preparation_and_use_as_published": "1. Decoction of leaf is used for malaria (51)",
+      "use_reports_as_published": "82",
+      "cultural_importance_index_as_published": "1.17"
+    },
+    {
+      "source_row": 97,
+      "botanical_as_published": "Gossypium hirsutum",
+      "source_as_published": null,
+      "parts_reported": [],
+      "preparation_and_use_as_published": "2. Decoction of the leaf and leaf of Citrus aurantifolia is used as blood tonic (31)",
+      "use_reports_as_published": null,
+      "cultural_importance_index_as_published": null
+    },
+    {
+      "source_row": 98,
+      "botanical_as_published": "Hibiscus spp.",
+      "source_as_published": "Wild",
+      "parts_reported": [
+        "leaf"
+      ],
+      "preparation_and_use_as_published": "Macerate the leaf together with leaves of Ageratum conyzoides and Irvingia gabonensis and taken to treat gonorrhea (5)",
+      "use_reports_as_published": "5",
+      "cultural_importance_index_as_published": "0.07"
+    },
+    {
+      "source_row": 99,
+      "botanical_as_published": "Sida acuta",
+      "source_as_published": "Wild",
+      "parts_reported": [
+        "leaf"
+      ],
+      "preparation_and_use_as_published": "Leaves are macerated in local gin and drunk to treat syphilis (5)",
+      "use_reports_as_published": "5",
+      "cultural_importance_index_as_published": "0.07"
+    },
+    {
+      "source_row": 100,
+      "botanical_as_published": "Sida veronicifolia",
+      "source_as_published": "Wild",
+      "parts_reported": [
+        "leaf"
+      ],
+      "preparation_and_use_as_published": "Leaf is macerated in water to treat pile (5)",
+      "use_reports_as_published": "5",
+      "cultural_importance_index_as_published": "0.07"
+    },
+    {
+      "source_row": 101,
+      "botanical_as_published": "Theobroma cacao",
+      "source_as_published": "Cultivated Wild",
+      "parts_reported": [
+        "leaf"
+      ],
+      "preparation_and_use_as_published": "Decoction of the leaf and seeds of Sorghum bicolor (L.) Moench is used as blood tonic (25)",
+      "use_reports_as_published": "25",
+      "cultural_importance_index_as_published": "0.36"
+    },
+    {
+      "source_row": 102,
+      "botanical_as_published": "Azadirachta indica",
+      "source_as_published": "Cultivated Wild",
+      "parts_reported": [
+        "leaf"
+      ],
+      "preparation_and_use_as_published": "Decoction of the leaf and leaf of Cymbopogon citratus is taken to treat malaria (49)",
+      "use_reports_as_published": "49",
+      "cultural_importance_index_as_published": "0.70"
+    },
+    {
+      "source_row": 103,
+      "botanical_as_published": "Entandrophragma angolense",
+      "source_as_published": "Wild",
+      "parts_reported": [
+        "stem bark"
+      ],
+      "preparation_and_use_as_published": "Decoction of the bark is used to treat malaria (13)",
+      "use_reports_as_published": "13",
+      "cultural_importance_index_as_published": "0.19"
+    },
+    {
+      "source_row": 104,
+      "botanical_as_published": "Khaya grandifoliola",
+      "source_as_published": "Wild",
+      "parts_reported": [
+        "leaf",
+        "stem bark"
+      ],
+      "preparation_and_use_as_published": "1. Decoction of leaf and stem bark is used for rheumatism (17)",
+      "use_reports_as_published": "134",
+      "cultural_importance_index_as_published": "1.91"
+    },
+    {
+      "source_row": 105,
+      "botanical_as_published": "Khaya grandifoliola",
+      "source_as_published": null,
+      "parts_reported": [],
+      "preparation_and_use_as_published": "2. Decoction of stem bark is used to treat yellow fever (47)",
+      "use_reports_as_published": null,
+      "cultural_importance_index_as_published": null
+    },
+    {
+      "source_row": 106,
+      "botanical_as_published": "Khaya grandifoliola",
+      "source_as_published": null,
+      "parts_reported": [],
+      "preparation_and_use_as_published": "3. Decoction of the bark is used to treat malaria (49)",
+      "use_reports_as_published": null,
+      "cultural_importance_index_as_published": null
+    },
+    {
+      "source_row": 107,
+      "botanical_as_published": "Khaya grandifoliola",
+      "source_as_published": null,
+      "parts_reported": [],
+      "preparation_and_use_as_published": "4. Infusion of the bark in water is taken to treat skin diseases (21)",
+      "use_reports_as_published": null,
+      "cultural_importance_index_as_published": null
+    },
+    {
+      "source_row": 108,
+      "botanical_as_published": "Sphenocentrum jollyanum",
+      "source_as_published": "Wild",
+      "parts_reported": [
+        "root",
+        "stem bark"
+      ],
+      "preparation_and_use_as_published": "1. Dried root is powdered and mixed with pap to treat typhoid (38)",
+      "use_reports_as_published": "67",
+      "cultural_importance_index_as_published": "0.96"
+    },
+    {
+      "source_row": 109,
+      "botanical_as_published": "Sphenocentrum jollyanum",
+      "source_as_published": null,
+      "parts_reported": [],
+      "preparation_and_use_as_published": "2. Stem bark is dried and powdered and taken with pap to treat stomach ache (29)",
+      "use_reports_as_published": null,
+      "cultural_importance_index_as_published": null
+    },
+    {
+      "source_row": 110,
+      "botanical_as_published": "Triclisia subcordata",
+      "source_as_published": "Wild",
+      "parts_reported": [
+        "root"
+      ],
+      "preparation_and_use_as_published": "Powdered dry root is mixed with black soap and used to wash the breast in cases of breast cancer (5)",
+      "use_reports_as_published": "5",
+      "cultural_importance_index_as_published": "0.07"
+    },
+    {
+      "source_row": 111,
+      "botanical_as_published": "Ficus exasperata",
+      "source_as_published": "Wild",
+      "parts_reported": [
+        "leaf",
+        "latex"
+      ],
+      "preparation_and_use_as_published": "1. Decoction of leaf is used for high blood pressure (31)",
+      "use_reports_as_published": "68",
+      "cultural_importance_index_as_published": "0.81"
+    },
+    {
+      "source_row": 112,
+      "botanical_as_published": "Ficus exasperata",
+      "source_as_published": null,
+      "parts_reported": [],
+      "preparation_and_use_as_published": "2. Leaves are macerated and potash is added and taken for syphilis (3)",
+      "use_reports_as_published": null,
+      "cultural_importance_index_as_published": null
+    },
+    {
+      "source_row": 113,
+      "botanical_as_published": "Ficus exasperata",
+      "source_as_published": null,
+      "parts_reported": [],
+      "preparation_and_use_as_published": "3. Leaves are macerated with the leaves of Vernonia amygdalina and used as aphrodisiac (23)",
+      "use_reports_as_published": null,
+      "cultural_importance_index_as_published": null
+    },
+    {
+      "source_row": 114,
+      "botanical_as_published": "Ficus exasperata",
+      "source_as_published": null,
+      "parts_reported": [],
+      "preparation_and_use_as_published": "4. The latex is mixed with palm oil and sugar to treat cough (11)",
+      "use_reports_as_published": null,
+      "cultural_importance_index_as_published": null
+    },
+    {
+      "source_row": 115,
+      "botanical_as_published": "Artocarpus altilis",
+      "source_as_published": "Cultivated Wild",
+      "parts_reported": [
+        "root",
+        "stem bark"
+      ],
+      "preparation_and_use_as_published": "Decoction of root and stem bark is used for dizziness (8)",
+      "use_reports_as_published": "8",
+      "cultural_importance_index_as_published": "0.11"
+    },
+    {
+      "source_row": 116,
+      "botanical_as_published": "Ficus sur",
+      "source_as_published": "Wild",
+      "parts_reported": [
+        "leaf"
+      ],
+      "preparation_and_use_as_published": "Leaf is macerated in water and drunk to cleanse blood (1)",
+      "use_reports_as_published": "1",
+      "cultural_importance_index_as_published": "0.01"
+    },
+    {
+      "source_row": 117,
+      "botanical_as_published": "Moringa oleifera",
+      "source_as_published": "Cultivated Wild",
+      "parts_reported": [
+        "root",
+        "stem bark"
+      ],
+      "preparation_and_use_as_published": "1. Decoction of the root, fruits of Citrus aurantifolia, and potash is used to treat syphilis (19)",
+      "use_reports_as_published": "28",
+      "cultural_importance_index_as_published": "0.40"
+    },
+    {
+      "source_row": 118,
+      "botanical_as_published": "Moringa oleifera",
+      "source_as_published": null,
+      "parts_reported": [],
+      "preparation_and_use_as_published": "2. Dry stem bark is powdered with local chalk, mixed with local gin, and used as first aid of any ailment (9)",
+      "use_reports_as_published": null,
+      "cultural_importance_index_as_published": null
+    },
+    {
+      "source_row": 119,
+      "botanical_as_published": "Musa paradisiaca",
+      "source_as_published": "Cultivated Wild",
+      "parts_reported": [
+        "fruit",
+        "stem"
+      ],
+      "preparation_and_use_as_published": "1. Unripe fruit is cooked and eaten for diabetes (19)",
+      "use_reports_as_published": "36",
+      "cultural_importance_index_as_published": "0.51"
+    },
+    {
+      "source_row": 120,
+      "botanical_as_published": "Musa paradisiaca",
+      "source_as_published": null,
+      "parts_reported": [],
+      "preparation_and_use_as_published": "2. Decoction of the stem and leaves of Ficus exasperata is used to treat hypertension (11)",
+      "use_reports_as_published": null,
+      "cultural_importance_index_as_published": null
+    },
+    {
+      "source_row": 121,
+      "botanical_as_published": "Musa paradisiaca",
+      "source_as_published": null,
+      "parts_reported": [],
+      "preparation_and_use_as_published": "3. Unripe dry fruit is powdered and mixed with cold pap and taken to treat male impotence (6)",
+      "use_reports_as_published": null,
+      "cultural_importance_index_as_published": null
+    },
+    {
+      "source_row": 122,
+      "botanical_as_published": "Pycnanthus angolensis",
+      "source_as_published": "Wild",
+      "parts_reported": [
+        "leaf",
+        "stem bark"
+      ],
+      "preparation_and_use_as_published": "1. Latex from the stem is used to treat cough (14)",
+      "use_reports_as_published": "35",
+      "cultural_importance_index_as_published": "0.50"
+    },
+    {
+      "source_row": 123,
+      "botanical_as_published": "Pycnanthus angolensis",
+      "source_as_published": null,
+      "parts_reported": [],
+      "preparation_and_use_as_published": "2. Decoction of the leaf and stem bark is used to treat insomnia and hypertension (21)",
+      "use_reports_as_published": null,
+      "cultural_importance_index_as_published": null
+    },
+    {
+      "source_row": 124,
+      "botanical_as_published": "Argemone mexicana",
+      "source_as_published": "Cultivated Wild",
+      "parts_reported": [
+        "leaf"
+      ],
+      "preparation_and_use_as_published": "1. Leaves are macerated in water used to bath and drunk for measles (9)",
+      "use_reports_as_published": "9",
+      "cultural_importance_index_as_published": "0.09"
+    },
+    {
+      "source_row": 125,
+      "botanical_as_published": "Argemone mexicana",
+      "source_as_published": null,
+      "parts_reported": [],
+      "preparation_and_use_as_published": "2. Decoction of leaf in fermented maize water is used to treat yellow fever (10)",
+      "use_reports_as_published": null,
+      "cultural_importance_index_as_published": null
+    },
+    {
+      "source_row": 126,
+      "botanical_as_published": "Parquetina nigrescens",
+      "source_as_published": "Wild",
+      "parts_reported": [
+        "leaf"
+      ],
+      "preparation_and_use_as_published": "Maceration of leaf is mixed with milk to improve blood level (29)",
+      "use_reports_as_published": "29",
+      "cultural_importance_index_as_published": "0.41"
+    },
+    {
+      "source_row": 127,
+      "botanical_as_published": "Peperomia pellucida",
+      "source_as_published": "Wild",
+      "parts_reported": [
+        "leaf"
+      ],
+      "preparation_and_use_as_published": "Leaf juice is applied to boil (26)",
+      "use_reports_as_published": "26",
+      "cultural_importance_index_as_published": "0.37"
+    },
+    {
+      "source_row": 128,
+      "botanical_as_published": "Plumbago zeylanica",
+      "source_as_published": "Wild",
+      "parts_reported": [
+        "root"
+      ],
+      "preparation_and_use_as_published": "Root is powdered with Mondia whitei (Hook. F.) Skeels and mixed with food used as aphrodisiac (9)",
+      "use_reports_as_published": "9",
+      "cultural_importance_index_as_published": "0.13"
+    },
+    {
+      "source_row": 129,
+      "botanical_as_published": "Bambusa vulgaris",
+      "source_as_published": "Wild",
+      "parts_reported": [
+        "leaf"
+      ],
+      "preparation_and_use_as_published": "1. Decoction of leaf is used for hypertension (29)",
+      "use_reports_as_published": "70",
+      "cultural_importance_index_as_published": "0.10"
+    },
+    {
+      "source_row": 130,
+      "botanical_as_published": "Bambusa vulgaris",
+      "source_as_published": null,
+      "parts_reported": [],
+      "preparation_and_use_as_published": "2. Decoction of the leaf and fruits of Citrus aurantifolia is used to treat malaria (41)",
+      "use_reports_as_published": null,
+      "cultural_importance_index_as_published": null
+    },
+    {
+      "source_row": 131,
+      "botanical_as_published": "Cymbopogon citratus",
+      "source_as_published": "Cultivated",
+      "parts_reported": [
+        "leaf"
+      ],
+      "preparation_and_use_as_published": "Decoction of the leaf and fruits and leaves of Citrus aurantifolia is used to treat malaria and yellow fever (30)",
+      "use_reports_as_published": "30",
+      "cultural_importance_index_as_published": "0.43"
+    },
+    {
+      "source_row": 132,
+      "botanical_as_published": "Saccharum officinarum",
+      "source_as_published": "Cultivated",
+      "parts_reported": [
+        "leaf",
+        "stem"
+      ],
+      "preparation_and_use_as_published": "Decoction of the leaf and stem is used to treat malaria (18)",
+      "use_reports_as_published": "8",
+      "cultural_importance_index_as_published": "0.11"
+    },
+    {
+      "source_row": 133,
+      "botanical_as_published": "Zea mays",
+      "source_as_published": "Cultivated",
+      "parts_reported": [
+        "inflorescence"
+      ],
+      "preparation_and_use_as_published": "Decoction of the inflorescence is used for measles (11)",
+      "use_reports_as_published": "11",
+      "cultural_importance_index_as_published": "0.16"
+    },
+    {
+      "source_row": 134,
+      "botanical_as_published": "Securidaca longipedunculata",
+      "source_as_published": "Wild",
+      "parts_reported": [
+        "root"
+      ],
+      "preparation_and_use_as_published": "Dried root is powdered with seeds of Aframomum melegueta K. Schum. and swallowed for diabetes (12)",
+      "use_reports_as_published": "12",
+      "cultural_importance_index_as_published": "0.17"
+    },
+    {
+      "source_row": 135,
+      "botanical_as_published": "Morinda lucida",
+      "source_as_published": "Cultivated Wild",
+      "parts_reported": [
+        "leaf",
+        "stem bark"
+      ],
+      "preparation_and_use_as_published": "1. Leaf is macerated in water to treat diabetes (19)",
+      "use_reports_as_published": "59",
+      "cultural_importance_index_as_published": "0.84"
+    },
+    {
+      "source_row": 136,
+      "botanical_as_published": "Morinda lucida",
+      "source_as_published": null,
+      "parts_reported": [],
+      "preparation_and_use_as_published": "2. Decoction of leaf and stem bark is used for malaria (40)",
+      "use_reports_as_published": null,
+      "cultural_importance_index_as_published": null
+    },
+    {
+      "source_row": 137,
+      "botanical_as_published": "Nauclea latifolia tree",
+      "source_as_published": "Wild",
+      "parts_reported": [
+        "leaf",
+        "stem bark",
+        "root"
+      ],
+      "preparation_and_use_as_published": "1. Decoction of bark is drunk to treat malaria (26)",
+      "use_reports_as_published": "44",
+      "cultural_importance_index_as_published": "0.63"
+    },
+    {
+      "source_row": 138,
+      "botanical_as_published": "Nauclea latifolia tree",
+      "source_as_published": null,
+      "parts_reported": [],
+      "preparation_and_use_as_published": "2. Decoction of the leaf, root, and stem bark is used to treat insanity (5)",
+      "use_reports_as_published": null,
+      "cultural_importance_index_as_published": null
+    },
+    {
+      "source_row": 139,
+      "botanical_as_published": "Nauclea latifolia tree",
+      "source_as_published": null,
+      "parts_reported": [],
+      "preparation_and_use_as_published": "3. Decoction of the leaf is used to treat pile (13)",
+      "use_reports_as_published": null,
+      "cultural_importance_index_as_published": null
+    },
+    {
+      "source_row": 140,
+      "botanical_as_published": "Plukenetia conophora",
+      "source_as_published": "Wild",
+      "parts_reported": [
+        "fruit"
+      ],
+      "preparation_and_use_as_published": "Decoction of the fruits and cook fruits are used to treat snakebites (24)",
+      "use_reports_as_published": "24",
+      "cultural_importance_index_as_published": "0.16"
+    },
+    {
+      "source_row": 141,
+      "botanical_as_published": "Citrus aurantifolia",
+      "source_as_published": "Cultivated Wild",
+      "parts_reported": [
+        "fruit"
+      ],
+      "preparation_and_use_as_published": "1. Decoction of fruit is taken for gonorrhea (7)",
+      "use_reports_as_published": "120",
+      "cultural_importance_index_as_published": "1.71"
+    },
+    {
+      "source_row": 142,
+      "botanical_as_published": "Citrus aurantifolia",
+      "source_as_published": null,
+      "parts_reported": [],
+      "preparation_and_use_as_published": "2. Fruits are infused in water to treat malaria (55)",
+      "use_reports_as_published": null,
+      "cultural_importance_index_as_published": null
+    },
+    {
+      "source_row": 143,
+      "botanical_as_published": "Citrus aurantifolia",
+      "source_as_published": null,
+      "parts_reported": [],
+      "preparation_and_use_as_published": "3. Juice from the fruit is used to treat indigestion, stomach ache, and vomiting (58)",
+      "use_reports_as_published": null,
+      "cultural_importance_index_as_published": null
+    },
+    {
+      "source_row": 144,
+      "botanical_as_published": "Citrus sinensis",
+      "source_as_published": "Cultivated Wild",
+      "parts_reported": [
+        "leaf",
+        "stem bark"
+      ],
+      "preparation_and_use_as_published": "Decoction of the leaves and stem bark is used to treat malaria (57)",
+      "use_reports_as_published": "57",
+      "cultural_importance_index_as_published": "0.81"
+    },
+    {
+      "source_row": 145,
+      "botanical_as_published": "Lecaniodiscus cupanioides",
+      "source_as_published": "Wild",
+      "parts_reported": [
+        "root"
+      ],
+      "preparation_and_use_as_published": "Decoction of root is taken for menstrual pains (8)",
+      "use_reports_as_published": "8",
+      "cultural_importance_index_as_published": "0.11"
+    },
+    {
+      "source_row": 146,
+      "botanical_as_published": "Hannoa undulata",
+      "source_as_published": "Cultivated Wild",
+      "parts_reported": [
+        "leaf"
+      ],
+      "preparation_and_use_as_published": "Leaf juice is rubbed on affected area to treat skin disease (28)",
+      "use_reports_as_published": "28",
+      "cultural_importance_index_as_published": "0.40"
+    },
+    {
+      "source_row": 147,
+      "botanical_as_published": "Solanum dasyphyllum",
+      "source_as_published": "Cultivated Wild",
+      "parts_reported": [
+        "leaf"
+      ],
+      "preparation_and_use_as_published": "Leaf is powdered with seeds of Xylopia aethiopica, mixed with local soap, and used to bath for measles (19)",
+      "use_reports_as_published": "19",
+      "cultural_importance_index_as_published": "0.27"
+    },
+    {
+      "source_row": 148,
+      "botanical_as_published": "Solanum verbascifolium",
+      "source_as_published": "Wild",
+      "parts_reported": [
+        "leaf"
+      ],
+      "preparation_and_use_as_published": "Maceration of leaf in fruit juice of Citrus aurantifolia is used to treat female infertility (17)",
+      "use_reports_as_published": "17",
+      "cultural_importance_index_as_published": "0.24"
+    },
+    {
+      "source_row": 149,
+      "botanical_as_published": "Laportea aestuans",
+      "source_as_published": "Wild",
+      "parts_reported": [
+        "leaf"
+      ],
+      "preparation_and_use_as_published": "Leaf is powdered and mixed with shea butter, rubbed on affected area to treat skin diseases (21)",
+      "use_reports_as_published": "21",
+      "cultural_importance_index_as_published": "0.59"
+    },
+    {
+      "source_row": 150,
+      "botanical_as_published": "Aframomum melegueta",
+      "source_as_published": "Cultivated Wild",
+      "parts_reported": [
+        "seeds"
+      ],
+      "preparation_and_use_as_published": "Powdered seeds are mixed with palm oil to treat stomach ache (21)",
+      "use_reports_as_published": "21",
+      "cultural_importance_index_as_published": "0.30"
+    }
+  ]
+}

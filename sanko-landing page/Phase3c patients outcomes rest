@@ -1,0 +1,160 @@
+# PHASE 3C: Patients + Outcomes + Community + Reports + Settings
+
+## Context
+Phases 3A-3B built the practitioner sidebar, dashboard, vault with search, and formulation detail. The remaining sub-views still show placeholders.
+
+## What to build
+Edit src/views/PractitionerView.jsx to replace the remaining placeholders.
+
+## Patients sub-view (subView === 'patients')
+
+### Patient list
+Map PATIENTS from data.js. Each row:
+- Flex row, align center, 12px gap, 10px 0 padding, border-bottom rgba(255,255,255,0.04), cursor pointer
+- Left icon: 36px circle, bg rgba(255,255,255,0.04), center shows first letter of sex ("F" or "M"), 12px font
+- Middle column:
+  - ref (14px, 500 weight, rgba(255,255,255,0.85))
+  - age + " · " + sex + " · " + condition (11px muted)
+- Right column (margin-left auto, text-align right):
+  - Formulation name (look up: `FORMULATIONS.find(f => f.id === p.formulationId)?.name`) — 12px, rgba(255,255,255,0.5)
+  - Status badge: recovered → green pill, improved → gold pill, tracking → blue pill (bg rgba(45,75,142,0.15), color #60A5FA)
+  - Date (10px muted)
+- onClick: `setSelectedPatient(p.id)`
+
+## Patient Timeline (selectedPatient !== null)
+
+Show INSTEAD of current sub-view when selectedPatient is set.
+
+Look up: `const patient = PATIENTS.find(x => x.id === selectedPatient);`
+Look up formulation: `const formulation = FORMULATIONS.find(f => f.id === patient.formulationId);`
+
+### Back button
+"← Patients" — green, onClick: `setSelectedPatient(null)`
+
+### Header
+- patient.ref (serif, 20px)
+- patient.age + " · " + patient.sex + " · " + patient.date (12px muted)
+- "Prescribed: " + formulation.name (12px, green)
+
+### Timeline
+Vertical timeline. Each event in patient.timeline:
+
+Left side: vertical line (2px wide, rgba(255,255,255,0.06)) connecting dots.
+
+Each event:
+- Relative layout: dot on the left line, content to the right
+- Dot: 12px circle. Color by type: consultation → rgba(255,255,255,0.2), prescribed → green, checkin → blue (#60A5FA), final → #4ADE80
+- Day label: "Day {day}" (11px bold, rgba(255,255,255,0.5))
+- Type icon: consultation → 📋, prescribed → 💊, checkin → 🗓️, final → ✅
+- Description text (13px, rgba(255,255,255,0.6))
+- Date (10px muted)
+- If event.sideEffect: terra pill "⚠️ {sideEffect}"
+- If type === 'final': show a larger outcome badge below the text — green card "Outcome: Recovered" or similar
+
+Simple implementation: map timeline array, each item is a div with left padding (30px), a pseudo-dot (or a small div positioned left), and content right.
+
+```jsx
+{patient.timeline.map((event, i) => (
+  <div key={i} style={{ display: 'flex', gap: 12, paddingBottom: 16, borderLeft: i < patient.timeline.length - 1 ? '2px solid rgba(255,255,255,0.06)' : '2px solid transparent', marginLeft: 6, paddingLeft: 20, position: 'relative' }}>
+    <div style={{ position: 'absolute', left: -7, top: 0, width: 12, height: 12, borderRadius: '50%', background: /* color by type */ }}/>
+    <div>
+      <div style={{ fontSize: 11, fontWeight: 600, color: 'rgba(255,255,255,0.5)', marginBottom: 2 }}>Day {event.day} · {event.type === 'consultation' ? '📋' : event.type === 'prescribed' ? '💊' : event.type === 'final' ? '✅' : '🗓️'}</div>
+      <div style={{ fontSize: 13, color: 'rgba(255,255,255,0.6)', lineHeight: 1.5 }}>{event.text}</div>
+      <div style={{ fontSize: 10, color: 'rgba(255,255,255,0.2)', marginTop: 2 }}>{event.date}</div>
+      {event.sideEffect && <span style={{ /* terra pill */ }}>{event.sideEffect}</span>}
+    </div>
+  </div>
+))}
+```
+
+## Outcomes sub-view (subView === 'outcomes')
+
+### Overall effectiveness by month
+Card with header "Practice effectiveness over time".
+
+CSS bar chart (flex row, align-items flex-end, gap 8px, height 140px):
+Months and data:
+```
+Sep: 82% | Oct: 83% | Nov: 85% | Dec: 86% | Jan: 87% | Feb: 88%
+```
+Each bar: flex 1, bg green with opacity varying, height = percentage * 1.2px, rounded 4px top, label below, value above.
+
+### By condition
+Card with header "Effectiveness by condition".
+
+Horizontal bars:
+```
+Tonic/Vitality: 91%
+Fever/Malaria: 87%
+Pile/Stomach: 84%
+Diabetes: 82%
+Body heat: 78%
+Cough: 76%
+```
+
+Each: flex row, label (flex 0 0 140px, 12px, muted), bar (height 20px, bg green, width = percentage%, rounded 4px), value (12px, right of bar).
+
+### By formulation
+Card with header "Effectiveness by formulation".
+
+Same horizontal bar style but using FORMULATIONS sorted by effectiveness desc. Show name + effectiveness%.
+
+## Community sub-view (subView === 'community')
+
+### Header stats
+3-column grid:
+- "214" / "Active members"
+- "8,420" / "Total formulations"
+- "84%" (green) / "Avg effectiveness"
+
+### Top conditions
+Card with header "Top conditions across HTSN Lagos".
+Horizontal bars:
+```
+Malaria/Fever: 39%
+Diabetes: 17%
+Cough: 14%
+Hypertension: 11%
+Other: 19%
+```
+
+### Privacy note
+Card with green-tinted bg:
+"🔒 Individual practitioner data is never shared. Community statistics are aggregated and anonymised. These numbers can be presented to regulators, health authorities, and partners."
+
+## Reports sub-view (subView === 'reports')
+
+### Mock report card
+Card styled like a document preview:
+- Header: "Practice Report — February 2030" (serif, 18px)
+- "Practitioner: Baba Adeyemi · Lagos, Nigeria" (12px muted)
+- Divider line
+- Sections (each with bold label + value):
+  - "Consultations this month: 18"
+  - "Top conditions: Fever (7), Cough (4), Diabetes (3), Body pains (2), Other (2)"
+  - "Medicines used: Agbo Iba (7), Agbo Ikọ́ (4), Omi Isu Diabetis (3), Others (4)"
+  - "Outcomes tracked: 12"
+  - "Overall effectiveness: 92%"
+- Download button: "📄 Download PDF" — green bg, white text, rounded 8px, padding 10px 20px
+- onClick: show a small toast "Demo — PDF not available in preview" (can use a state variable + setTimeout to auto-hide after 3 seconds)
+
+## Settings sub-view (subView === 'settings')
+
+Simple placeholder with 3 mock toggle rows:
+- "Language" — "Yorùbá" (shown as selected)
+- "Default privacy" — "Private (only me)"
+- "Notifications" — "WhatsApp + App"
+
+Each: flex row, justify-content space-between, padding 12px 0, border-bottom. Label left, value right in a pill/badge. No actual toggle needed — just the UI.
+
+## Verify
+- Click "Patients" in sidebar → list renders
+- Click a patient → timeline shows with dots and events
+- Back button works
+- Outcomes tab shows bar charts
+- Community shows HTSN stats
+- Reports shows mock document
+- Settings shows toggles
+
+## Commit
+"Phase 3C: Patients with timeline, outcomes charts, community, reports, settings"

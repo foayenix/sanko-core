@@ -1,0 +1,35 @@
+{
+  "id": "25-aridan-pod-decoction",
+  "description": "Aridan pod decoction with explicit part used and timing.",
+  "practitioner": {
+    "display_name": "Efe",
+    "preferred_language": "en"
+  },
+  "turns": [
+    "For post-meal bloating, break half an aridan pod and boil it in two cups of water for twelve minutes. Take half a cup after the evening meal. Save it.",
+    "Yes, that is accurate. Save exactly that and do not add anything."
+  ],
+  "expect": {
+    "tools": [
+      "save_formulation"
+    ],
+    "plants_include": [
+      "aridan"
+    ],
+    "botanicals": {
+      "aridan": "Tetrapleura tetraptera"
+    },
+    "fields": {
+      "preparation.method": "decoction",
+      "preparation.duration_minutes": "12"
+    }
+  },
+  "editorial_review": {
+    "status": "complete",
+    "reviewer_role": "model_editorial",
+    "reviewer_ref": "codex-2026-08-13",
+    "reviewed_at": "2026-08-13T00:00:00Z",
+    "rubric_version": "editorial-v1",
+    "practitioner_review": "pending"
+  }
+}

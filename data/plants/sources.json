@@ -1,0 +1,333 @@
+[
+  {
+    "id": "legacy-lookup-v1",
+    "type": "internal_dataset",
+    "title": "Sanko plant_lookup_v1 legacy mappings",
+    "url": null,
+    "doi": null,
+    "location": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": []
+    },
+    "languages": [],
+    "licence": "internal",
+    "publication_status": "active",
+    "ingestion_status": "legacy_unverified",
+    "notes": "Original citations, language labels, and collection locations were not retained in the flat runtime file. These mappings remain available for backwards compatibility but require source review."
+  },
+  {
+    "id": "offiah-2011-plateau",
+    "type": "journal_article",
+    "title": "Ethnobotanical survey of medicinal plants used in the treatment of animal diarrhoea in Plateau State, Nigeria",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3162497/",
+    "doi": "10.1186/1746-6148-7-36",
+    "location": {
+      "country": "Nigeria",
+      "state": "Plateau",
+      "localities": [
+        "Barkin Ladi",
+        "Bassa",
+        "Bokkos",
+        "Jos North",
+        "Jos South",
+        "Kanam",
+        "Mangu",
+        "Pankshin",
+        "Qua'an Pan",
+        "Wase"
+      ]
+    },
+    "languages": [
+      "ha",
+      "yo",
+      "ig",
+      "ff"
+    ],
+    "table": "Table 1",
+    "licence": "CC BY 2.0",
+    "publication_status": "active",
+    "ingestion_status": "included",
+    "checked_at": "2026-08-13",
+    "notes": "Ethnoveterinary survey. The runtime index uses only the published name mappings and plant parts, not the reported therapeutic use."
+  },
+  {
+    "id": "mukaila-2021-ile-ife",
+    "type": "journal_article",
+    "title": "Which Plants for What Ailments: A Quantitative Analysis of Medicinal Ethnobotany of Ile-Ife, Osun State, Southwestern Nigeria",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8355999/",
+    "doi": "10.1155/2021/5711547",
+    "location": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ile-Ife"
+      ]
+    },
+    "languages": [
+      "yo"
+    ],
+    "table": "Table 1",
+    "licence": "CC BY",
+    "publication_status": "retracted",
+    "ingestion_status": "quarantined",
+    "checked_at": "2026-08-13",
+    "retraction_notice_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10732761/",
+    "notes": "The published tables are retained in surveys/quarantine for auditability, but excluded from all generated mappings because the publisher retracted the article."
+  },
+  {
+    "id": "olanipekun-2022-lagos",
+    "type": "journal_article",
+    "title": "Ethnobotanical Survey of Local Flora Used for Medicinal Purposes among Indigenous People in Five Areas in Lagos State, Nigeria",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8912796/",
+    "doi": "10.3390/plants11050633",
+    "location": {
+      "country": "Nigeria",
+      "state": "Lagos",
+      "localities": [
+        "Alimosho",
+        "Badagry",
+        "Eti-Osa",
+        "Ijebu",
+        "Imota"
+      ]
+    },
+    "languages": [
+      "yo",
+      "ha"
+    ],
+    "table": "Supplementary Table S1",
+    "licence": "CC BY 4.0",
+    "publication_status": "active",
+    "ingestion_status": "included",
+    "checked_at": "2026-08-13",
+    "notes": "The runtime index uses the inventory's published vernacular mappings and parts, not the locality-by-locality therapeutic-use claims in Supplementary Table S2."
+  },
+  {
+    "id": "sonibare-2008-anti-asthmatic",
+    "type": "journal_article",
+    "title": "Ethnobotanical survey of anti-asthmatic plants in South Western Nigeria",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2816587/",
+    "doi": "10.4314/ajtcam.v5i4.31288",
+    "location": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": [
+        "Ogun State",
+        "Osun State",
+        "Oyo State"
+      ]
+    },
+    "languages": [
+      "yo"
+    ],
+    "table": "Table 1",
+    "licence": "open access; article-specific reuse terms not stated in the PDF",
+    "publication_status": "active",
+    "ingestion_status": "included",
+    "checked_at": "2026-08-13",
+    "notes": "The article reports herbarium identification, but Table 1 does not publish per-row voucher identifiers. Therapeutic claims are retained only as source context and are not exported to the runtime lookup."
+  },
+  {
+    "id": "weli-2013-port-harcourt",
+    "type": "journal_article",
+    "title": "Ethnobotanical Studies of Port Harcourt Metropolis, Nigeria",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1155/2013/829424",
+    "doi": "10.1155/2013/829424",
+    "location": {
+      "country": "Nigeria",
+      "state": "Rivers",
+      "localities": [
+        "Port Harcourt"
+      ]
+    },
+    "languages": [
+      "yo",
+      "ig",
+      "ha"
+    ],
+    "table": "Table 1",
+    "licence": "CC BY 3.0",
+    "publication_status": "active",
+    "ingestion_status": "staged_review",
+    "checked_at": "2026-08-13",
+    "notes": "All 84 displayed rows are preserved, but production export is blocked pending language and data review. The article states 83 species; the table has an extra unnumbered Acanthus row, and the Neem row appears to swap its common-name and botanical-name columns."
+  },
+  {
+    "id": "anumudu-2025-nigeria-review",
+    "type": "journal_article",
+    "title": "Ethnobotanical uses of plants in Nigeria: an analysis of current research trends and patterns",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12369106/",
+    "doi": "10.1186/s13002-025-00788-y",
+    "location": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": []
+    },
+    "languages": [
+      "ha",
+      "yo",
+      "ig"
+    ],
+    "table": "Tables 2 and 3",
+    "licence": "CC BY 4.0",
+    "publication_status": "active",
+    "ingestion_status": "discovery_only",
+    "checked_at": "2026-08-13",
+    "notes": "Table 2 is retained as a catalogue of 79 original studies to acquire. Table 3 is retained as secondary review evidence only and cannot produce runtime mappings."
+  },
+  {
+    "id": "oliver-bever-1986-tropical-west-africa",
+    "type": "textbook",
+    "title": "Medicinal Plants in Tropical West Africa",
+    "authors": [
+      "Bep Oliver-Bever"
+    ],
+    "publisher": "Cambridge University Press",
+    "publication_year": 1986,
+    "isbn": [
+      "978-0-521-26815-8",
+      "978-0-521-10544-6"
+    ],
+    "url": null,
+    "location": {
+      "country": null,
+      "state": null,
+      "localities": [
+        "Tropical West Africa"
+      ]
+    },
+    "languages": [],
+    "source_locator_scope": "Botanical and general index, printed pages 355-367",
+    "licence": "copyrighted; no redistribution permission identified",
+    "publication_status": "active",
+    "ingestion_status": "reference_only",
+    "checked_at": "2026-08-13",
+    "notes": "Retained for botanical, synonym, pharmacology, and bibliographic checking. The book does not provide a structured language-labelled vernacular index, so no local-name mappings were inferred from its prose."
+  },
+  {
+    "id": "iwu-2014-african-medicinal-plants",
+    "type": "textbook",
+    "title": "Handbook of African Medicinal Plants, Second Edition",
+    "authors": [
+      "Maurice M. Iwu"
+    ],
+    "publisher": "CRC Press / Taylor & Francis Group",
+    "publication_year": 2014,
+    "isbn": [
+      "978-1-4665-7198-3"
+    ],
+    "url": null,
+    "location": {
+      "country": null,
+      "state": null,
+      "localities": [
+        "Africa"
+      ]
+    },
+    "languages": [
+      "ak",
+      "ar",
+      "bm",
+      "ee",
+      "efi",
+      "ff",
+      "ha",
+      "ibb",
+      "ig",
+      "kr",
+      "sw",
+      "wo",
+      "yo"
+    ],
+    "source_locator_scope": "Chapter 3, printed pages 111-339",
+    "licence": "copyrighted; no redistribution permission identified",
+    "publication_status": "active",
+    "ingestion_status": "staged_review",
+    "checked_at": "2026-08-13",
+    "notes": "Only concise mapping facts and page locators are staged. Runtime export is blocked because most vernacular labels lack a row-specific country or locality and have not been reviewed by language practitioners."
+  },
+  {
+    "id": "gbif-species-api",
+    "type": "taxonomy_service",
+    "title": "GBIF Species API",
+    "url": "https://techdocs.gbif.org/en/openapi/v1/species",
+    "licence": "GBIF terms of use",
+    "publication_status": "active",
+    "ingestion_status": "taxonomy_only"
+  },
+  {
+    "id": "practitioner-confirmation",
+    "type": "practitioner_confirmation",
+    "title": "Sanko practitioner-confirmed vernacular mappings",
+    "url": null,
+    "doi": null,
+    "location": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": []
+    },
+    "languages": [
+      "yo",
+      "ig",
+      "ha",
+      "en"
+    ],
+    "licence": "practitioner-owned",
+    "publication_status": "active",
+    "ingestion_status": "practitioner_confirmed",
+    "notes": "Local names Sanko could not place botanically, reviewed and confirmed by a named practitioner or the research team through scripts/plant-review.js. Each entry carries a pseudonymous reviewer reference and the number of times the name was seen in use; the source transcripts stay out of this file and out of the repository. This is the only plant source whose evidence is a practitioner's own statement rather than a publication, which is why it is ingested under its own status rather than as 'included' alongside the surveys."
+  },
+  {
+    "id": "europepmc-discovery",
+    "type": "discovery_index",
+    "title": "Europe PMC and Crossref primary-source discovery",
+    "url": "https://europepmc.org/",
+    "doi": null,
+    "location": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": []
+    },
+    "languages": [],
+    "licence": "index metadata only; each candidate carries its own licence",
+    "publication_status": "active",
+    "ingestion_status": "discovery_only",
+    "checked_at": "2026-09-12",
+    "notes": "Written by scripts/discover-sources.js. A ranked list of Nigerian ethnobotanical sources to acquire, and the resolution of the 79 original studies catalogued in anumudu-2025-nigeria-review to DOIs, licences and full texts. Candidates are citations, not data: no row here produces a vernacular mapping, and an acquired source only becomes ingestable when it is registered in this file in its own right."
+  },
+  {
+    "id": "wikidata-vernacular-candidates",
+    "type": "crowdsourced_database",
+    "title": "Wikidata taxon labels in Nigerian languages",
+    "url": "https://www.wikidata.org/",
+    "doi": null,
+    "location": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": []
+    },
+    "languages": [
+      "yo",
+      "ha",
+      "ig",
+      "pcm",
+      "ff",
+      "efi",
+      "ibb",
+      "tiv",
+      "kr",
+      "bin",
+      "nup",
+      "idu",
+      "igl",
+      "urh",
+      "ijc"
+    ],
+    "licence": "CC0-1.0",
+    "publication_status": "active",
+    "ingestion_status": "discovery_only",
+    "checked_at": "2026-09-12",
+    "notes": "Written by scripts/import-wikidata-vernaculars.js. Labels are crowd-sourced and unsourced — no locality, no collector, no citation — and a large share of those returned in an African language are the botanical or English name filed in the wrong language. They are candidates for review, never mappings. A candidate reaches the runtime index only through practitioner confirmation, attributed to the reviewer who confirmed it and carrying the candidate source it came from."
+  }
+]
