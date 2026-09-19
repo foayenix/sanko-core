@@ -705,13 +705,22 @@ async function completeMessage(message_id) {
 // Rows written before 019 carry no payload. They are closed rather than left
 // alone: there is nothing to re-enqueue, and a row that is permanently pending
 // is one the prune will never remove and the sweep will re-read forever.
-async function recoverPendingMessages({ olderThanSeconds = 900, maxAttempts = 3, limit = 100 } = {}) {
+//
+// `transport` is not optional in practice. The Meta webhook and the Baileys
+// adapter are separate processes against one database, and each can only replay
+// its own messages: the webhook has no socket to the linked phone, and Baileys
+// has no wamid it could answer. A sweep that ignored the column would have each
+// of them burn the other's attempts and abandon its messages for it.
+async function recoverPendingMessages({ transport = null, olderThanSeconds = 900, maxAttempts = 3, limit = 100 } = {}) {
   const cutoff = new Date(Date.now() - olderThanSeconds * 1000).toISOString();
-  const { data, error } = await getClient()
+  let query = getClient()
     .from('processed_messages')
     .select('message_id, transport, payload, attempts, first_seen_at')
     .is('completed_at', null)
-    .lt('first_seen_at', cutoff)
+    .lt('first_seen_at', cutoff);
+  if (transport) query = query.eq('transport', transport);
+
+  const { data, error } = await query
     .order('first_seen_at', { ascending: true })
     .limit(limit);
   if (error) throw new Error(error.message);

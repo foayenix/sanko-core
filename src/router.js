@@ -197,6 +197,9 @@ async function releaseClaims(messages) {
 // outcome. Losing what they said is not.
 async function recoverInboundMessages(options = {}) {
   const { pending, abandoned } = await db.recoverPendingMessages({
+    // Only this transport's messages: the Baileys adapter's are its to replay,
+    // and this process has no socket to the linked phone they arrived on.
+    transport: 'meta',
     olderThanSeconds: RECOVERY_AFTER_SECONDS,
     maxAttempts: RECOVERY_MAX_ATTEMPTS,
     ...options,

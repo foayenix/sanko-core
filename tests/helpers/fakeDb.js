@@ -86,13 +86,14 @@ function installFakeDb() {
       const row = store.processedMessages.get(message_id);
       if (row) Object.assign(row, { completed_at: now(), payload: null });
     },
-    async recoverPendingMessages({ olderThanSeconds = 900, maxAttempts = 3, limit = 100 } = {}) {
+    async recoverPendingMessages({ transport = null, olderThanSeconds = 900, maxAttempts = 3, limit = 100 } = {}) {
       const cutoff = Date.now() - olderThanSeconds * 1000;
       const pending = [];
       const abandoned = [];
       const closed = [];
       const candidates = [...store.processedMessages.values()]
         .filter(row => !row.completed_at && Date.parse(row.first_seen_at) < cutoff)
+        .filter(row => !transport || row.transport === transport)
         .sort((a, b) => Date.parse(a.first_seen_at) - Date.parse(b.first_seen_at))
         .slice(0, limit);
 

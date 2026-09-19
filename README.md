@@ -119,6 +119,20 @@ sync, non-allowlisted numbers, and messages sent by the linked account are ignor
 Interactive choices are rendered as a numbered text list because that is the most
 reliable format across consumer WhatsApp clients.
 
+The adapter runs on the same durability path as the webhook (019): it claims each
+message before the turn, closes the claim after, and sweeps for unfinished work on
+connect and every few minutes. Claims are filed under the `baileys` transport and
+their ids namespaced, because a Baileys message id is unique to its chat rather than
+globally — the two adapters share one table and neither can replay the other's
+messages. This also gives the adapter deduplication it did not have: WhatsApp replays
+on reconnect, and every replay used to be answered as though it were new.
+
+**A recovered voice note or photo cannot be replayed.** The media cache is in memory,
+so a restart leaves the envelope without its bytes. Rather than answer a formulation
+nobody could listen to, the adapter tells the practitioner it lost the message and
+asks them to send it again — the one thing they can act on. Text and interactive
+replies replay normally.
+
 ## How it works
 
 An inbound message becomes content blocks and goes to a tool-calling agent. The agent
@@ -663,7 +677,9 @@ process that died before the agent ran left a practitioner waiting on a reply to
 a formulation nothing in the system could still describe. A sweep re-enqueues
 anything outstanding — on boot, and every few minutes after — once it has been
 owed longer than `INBOUND_RECOVERY_AFTER_SECONDS`, which must exceed the turn
-lease so a slow turn is not mistaken for a dead one.
+lease so a slow turn is not mistaken for a dead one. The Baileys adapter runs the
+same path under its own `transport` value; see its section above for the one thing
+it cannot replay.
 
 Recovery is deliberately at-least-once: a turn that died halfway may have written
 something before it went, so a replay can repeat part of it. A duplicate reply, or
