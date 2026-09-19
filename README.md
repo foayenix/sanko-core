@@ -564,6 +564,10 @@ See `.env.example`. The ones that matter most:
 | `WHISPER_TRANSCODE` | `true` | ogg/opus → 16 kHz WAV via ffmpeg |
 | `AGENT_TOOLS` | `vault` | `full` requests patient tools; ignored unless the patient flag is also enabled |
 | `PATIENT_TRACKING_ENABLED` | `false` | Explicitly enables consent-gated patient tools when set to `true` |
+| `INBOUND_RECOVERY_AFTER_SECONDS` | `max(900, lease × 1.5)` | How long a message may be outstanding before the sweep re-enqueues it. Must exceed `AGENT_TURN_LEASE_SECONDS` |
+| `INBOUND_RECOVERY_MAX_ATTEMPTS` | `3` | Retries before a message is given up on and logged at error level |
+| `INBOUND_RECOVERY_INTERVAL_MS` | `300000` | How often the recovery sweep runs |
+| `ALLOW_UNSIGNED_WEBHOOKS` | `false` | Accepts unsigned webhooks in production. Anyone who finds the URL can then write to a Vault |
 | `CONTRIBUTOR_TERMS_IN_FORCE` | `false` | Lets the agent put the contributor terms to a practitioner. Leave false until the draft in `governance/` has had legal review and practitioner consultation |
 | `WHATSAPP_PATIENT_CONSENT_TEMPLATE` | `sanko_patient_consent_v1` | Approved patient consent template name |
 | `WHATSAPP_PATIENT_CONSENT_LANGUAGE` | `en` | Approved template language code |
@@ -592,6 +596,7 @@ Run the migrations in order in the Supabase SQL editor:
 015_page_transcription.sql                  ← readings of photographed pages + who read them
 016_landing_enquiries.sql                   ← public form submissions
 018_specimens.sql                           ← practitioner-named plant photographs
+019_inbound_message_recovery.sql            ← inbound payloads + recovery of unfinished turns
 ```
 
 `npm run migrate:status` shows what is applied and what is not. Migration 017 is
@@ -649,6 +654,27 @@ per-practitioner ordering, a global concurrency cap, and a "let me look at that"
 message to anyone who will wait more than `AGENT_QUEUE_ACK_MS`. Across instances,
 migration 012's turn lease stops two processes interleaving tool calls on one
 Vault, and inbound message dedup is durable rather than in one process's memory.
+
+**Messages survive the process that accepted them (019).** The webhook claims a
+message before it answers Meta, and the claim carries the message itself. A 200
+tells Meta to stop retrying, so a claim recording only that something arrived was
+enough to avoid doing the work twice and no help at all in doing it once: a
+process that died before the agent ran left a practitioner waiting on a reply to
+a formulation nothing in the system could still describe. A sweep re-enqueues
+anything outstanding — on boot, and every few minutes after — once it has been
+owed longer than `INBOUND_RECOVERY_AFTER_SECONDS`, which must exceed the turn
+lease so a slow turn is not mistaken for a dead one.
+
+Recovery is deliberately at-least-once: a turn that died halfway may have written
+something before it went, so a replay can repeat part of it. A duplicate reply, or
+a record the practitioner can delete, is recoverable; what they said going missing
+is not. `INBOUND_RECOVERY_MAX_ATTEMPTS` bounds it, so a message that crashes the
+process cannot take the service down on every boot — giving up on one is logged at
+error level, because a message nobody will answer is the thing this prevents.
+
+The held payload is practitioner content, so it lives exactly as long as the work
+does: erased on completion, on abandonment, and never restored. A finished row
+keeps its message id and nothing else, which is all dedup ever needed.
 
 ### Governance
 

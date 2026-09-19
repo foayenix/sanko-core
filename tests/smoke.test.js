@@ -605,3 +605,140 @@ describe('webhook acknowledges only what it has durably claimed', () => {
     assert.equal(res.code, 200);
   });
 });
+
+describe('inbound messages survive the process that accepted them', () => {
+  const { installFakeDb } = require('./helpers/fakeDb');
+  const router = require('../src/router');
+  const db = require('../src/services/supabase');
+
+  let fake, pushed, realPush;
+  beforeEach(() => {
+    fake = installFakeDb();
+    delete process.env.META_APP_SECRET;
+    delete process.env.NODE_ENV;
+    pushed = [];
+    realPush = router.aggregator.push;
+    router.aggregator.push = (key, item) => pushed.push({ key, id: item.id });
+  });
+  afterEach(() => { router.aggregator.push = realPush; fake.restore(); });
+
+  const res = () => ({ sendStatus(code) { this.code = code; return this; } });
+  const delivery = (...ids) => ({
+    headers: {},
+    body: {
+      object: 'whatsapp_business_account',
+      entry: [{ changes: [{ value: { messages: ids.map(id => ({ id, from: '+2348000000009', type: 'text', text: { body: 'for malaria' } })) } }] }],
+    },
+  });
+
+  // Rewinds a claim so it looks abandoned, without waiting out the grace period.
+  const ageBy = (id, seconds) => {
+    const row = fake.store.processedMessages.get(id);
+    row.first_seen_at = new Date(Date.now() - seconds * 1000).toISOString();
+    return row;
+  };
+
+  it('stores the message itself, not just that one arrived', async () => {
+    await router.handleWebhook(delivery('wamid.p1'), res());
+
+    const row = fake.store.processedMessages.get('wamid.p1');
+    assert.equal(row.payload.text.body, 'for malaria');
+    assert.equal(row.completed_at, null);
+  });
+
+  it('re-enqueues a message whose turn never ran', async () => {
+    await router.handleWebhook(delivery('wamid.p2'), res());
+    pushed.length = 0;              // the process "dies" here: the turn never happened
+    ageBy('wamid.p2', 3600);
+
+    const result = await router.recoverInboundMessages();
+
+    assert.equal(result.recovered, 1);
+    assert.deepEqual(pushed.map(p => p.id), ['wamid.p2']);
+    assert.equal(pushed[0].key, '+2348000000009');
+  });
+
+  it('leaves a turn that already finished alone', async () => {
+    await router.handleWebhook(delivery('wamid.p3'), res());
+    await db.completeMessage('wamid.p3');
+    ageBy('wamid.p3', 3600);
+    pushed.length = 0;
+
+    assert.equal((await router.recoverInboundMessages()).recovered, 0);
+    assert.deepEqual(pushed, []);
+    // The practitioner's words are dropped the moment the work is done.
+    assert.equal(fake.store.processedMessages.get('wamid.p3').payload, null);
+  });
+
+  it('leaves a turn that is merely slow alone', async () => {
+    await router.handleWebhook(delivery('wamid.p4'), res());
+    pushed.length = 0;              // still running, well inside the grace period
+
+    assert.equal((await router.recoverInboundMessages()).recovered, 0);
+    assert.deepEqual(pushed, []);
+  });
+
+  it('gives up on a message after a bounded number of attempts', async () => {
+    // A message that kills the process would otherwise be replayed on every
+    // boot, turning one voice note into a permanent outage.
+    await router.handleWebhook(delivery('wamid.p5'), res());
+
+    const attempts = [];
+    for (let i = 0; i < 5; i++) {
+      ageBy('wamid.p5', 3600);
+      pushed.length = 0;
+      const result = await router.recoverInboundMessages({ maxAttempts: 3 });
+      attempts.push(result.recovered);
+    }
+
+    // One webhook attempt plus two recoveries, then abandoned for good.
+    assert.deepEqual(attempts, [1, 1, 0, 0, 0]);
+    assert.notEqual(fake.store.processedMessages.get('wamid.p5').completed_at, null);
+    assert.equal(fake.store.processedMessages.get('wamid.p5').payload, null);
+  });
+
+  it('closes a pre-019 claim that has no message to replay', async () => {
+    // Rows claimed before the payload column existed: nothing to re-enqueue, and
+    // leaving them open would make the sweep re-read them forever.
+    fake.store.processedMessages.set('wamid.legacy', {
+      message_id: 'wamid.legacy', transport: 'meta', payload: null,
+      attempts: 1, completed_at: null, first_seen_at: new Date(Date.now() - 3600_000).toISOString(),
+    });
+
+    const result = await router.recoverInboundMessages();
+
+    assert.equal(result.recovered, 0);
+    assert.notEqual(fake.store.processedMessages.get('wamid.legacy').completed_at, null);
+  });
+
+  it('closes the claim once the turn is over, including a turn that failed', async () => {
+    // processTurn handles its own failures and tells the practitioner. Reaching
+    // the end of it means nobody is left waiting, so the claim closes either
+    // way — recovery is for turns that never finished, not turns that went badly.
+    router.aggregator.push = realPush;
+
+    await router.handleWebhook(delivery('wamid.p6'), res());
+    await router.aggregator.flush('+2348000000009');   // the real flush path
+
+    const row = fake.store.processedMessages.get('wamid.p6');
+    assert.notEqual(row.completed_at, null);
+    assert.equal(row.payload, null);
+
+    // And so it is not recovered a second time.
+    ageBy('wamid.p6', 3600);
+    assert.equal((await router.recoverInboundMessages()).recovered, 0);
+  });
+
+  it('prunes only claims whose work is finished', async () => {
+    await router.handleWebhook(delivery('wamid.done', 'wamid.owed'), res());
+    await db.completeMessage('wamid.done');
+    ageBy('wamid.done', 7 * 24 * 3600);
+    ageBy('wamid.owed', 7 * 24 * 3600);
+
+    await db.pruneProcessedMessages({ olderThanHours: 24 });
+
+    assert.equal(fake.store.processedMessages.has('wamid.done'), false);
+    // Deleting this one would throw away a message the sweep has not answered yet.
+    assert.equal(fake.store.processedMessages.has('wamid.owed'), true);
+  });
+});

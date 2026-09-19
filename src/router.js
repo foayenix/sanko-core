@@ -34,9 +34,33 @@ const INSTANCE_ID = `${require('os').hostname()}:${process.pid}`;
 // the slowest honest turn or two instances would both believe they hold it.
 const TURN_LEASE_SECONDS = Number(process.env.AGENT_TURN_LEASE_SECONDS ?? 600);
 
+// A message is only recovered once it has been outstanding longer than this.
+// It has to exceed the turn lease, or the sweep will pick up work that is still
+// legitimately running: the lease would stop the two turns interleaving, but the
+// practitioner would still have their message answered twice.
+const RECOVERY_AFTER_SECONDS = Number(
+  process.env.INBOUND_RECOVERY_AFTER_SECONDS ?? Math.max(900, Math.ceil(TURN_LEASE_SECONDS * 1.5))
+);
+
+// How many times a message may be handed to the agent before it is given up on.
+// A message that crashes the process would otherwise be replayed on every boot,
+// taking the service down with it each time — an outage that looks like a bad
+// deployment and is actually one practitioner's voice note.
+const RECOVERY_MAX_ATTEMPTS = Number(process.env.INBOUND_RECOVERY_MAX_ATTEMPTS ?? 3);
+
 // Buffers rapid-fire messages so the agent sees "for malaria" and the voice note
 // that followed it as one turn.
-const aggregator = new MessageAggregator((from, messages) => processTurn(from, messages));
+//
+// The claim is closed only once the turn is over. processTurn handles its own
+// failures and tells the practitioner, so reaching the end of it — success or
+// handled failure — means nobody is left waiting. Anything that escapes it
+// leaves the claim open on purpose, for the sweep to find.
+const aggregator = new MessageAggregator(async (from, messages) => {
+  await processTurn(from, messages);
+  for (const message of messages) {
+    await db.completeMessage(message.id);
+  }
+});
 
 // Meta Cloud API webhook verification handshake
 function verifyWebhook(req, res) {
@@ -118,7 +142,10 @@ async function handleWebhook(req, res) {
         // The durable claim is the one that holds across a restart or a second
         // instance. It runs before the in-memory note so a claim that throws
         // leaves nothing behind that would swallow Meta's retry.
-        if (!(await db.claimMessage(message.id))) {
+        // The claim carries the message itself (019), so a process that dies
+        // between here and the agent turn leaves behind something the sweep can
+        // finish rather than only a note that something arrived.
+        if (!(await db.claimMessage(message.id, 'meta', { payload: message }))) {
           log.info('webhook.duplicate_ignored', { message_id: message.id });
           continue;
         }
@@ -154,6 +181,52 @@ async function releaseClaims(messages) {
       log.warn('webhook.claim_release_failed', { message_id: message.id, error: err.message });
     }
   }
+}
+
+// Re-enqueues inbound messages that were accepted and never finished.
+//
+// The case this exists for: the webhook claims a message, answers Meta with a
+// 200 so it stops retrying, and the process dies before the agent runs. Nothing
+// else in the system will ever ask about that message again — Meta considers it
+// delivered, and the practitioner is waiting on a reply to a formulation they
+// have already dictated and will assume is safe.
+//
+// Deliberately at-least-once. A turn that died halfway may have written
+// something before it went, so a replay can repeat part of it; the practitioner
+// seeing a duplicate reply, or a record they can delete, is the recoverable
+// outcome. Losing what they said is not.
+async function recoverInboundMessages(options = {}) {
+  const { pending, abandoned } = await db.recoverPendingMessages({
+    olderThanSeconds: RECOVERY_AFTER_SECONDS,
+    maxAttempts: RECOVERY_MAX_ATTEMPTS,
+    ...options,
+  });
+
+  for (const row of abandoned) {
+    // Loud, and at error level: a message nobody will answer is exactly the
+    // thing this mechanism exists to prevent, so giving up on one is news.
+    log.error('webhook.recovery_abandoned', {
+      message_id: row.message_id,
+      attempts: row.attempts,
+      first_seen_at: row.first_seen_at,
+      effect: 'this message will never be answered; the practitioner was not told',
+    });
+  }
+
+  let requeued = 0;
+  for (const row of pending) {
+    const message = row.payload;
+    if (!message?.from) {
+      log.warn('webhook.recovery_unroutable', { message_id: row.message_id });
+      await db.completeMessage(row.message_id);
+      continue;
+    }
+    log.info('webhook.recovered', { message_id: row.message_id, attempt: row.attempts + 1 });
+    aggregator.push(message.from, message);
+    requeued++;
+  }
+
+  return { recovered: requeued, abandoned: abandoned.length };
 }
 
 // One agent turn for one practitioner, over a batch of aggregated messages.
@@ -351,4 +424,4 @@ function extractText(message) {
   return '';
 }
 
-module.exports = { verifyWebhook, handleWebhook, extractText, verifySignature, buildContent, processTurn, handlePatientConsent, aggregator };
+module.exports = { verifyWebhook, handleWebhook, extractText, verifySignature, buildContent, processTurn, handlePatientConsent, recoverInboundMessages, aggregator, RECOVERY_AFTER_SECONDS, RECOVERY_MAX_ATTEMPTS };
