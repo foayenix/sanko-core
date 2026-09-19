@@ -136,19 +136,27 @@ describe('turn queue', () => {
   });
 
   it('tells a practitioner they are waiting rather than leaving a silent chat', async () => {
-    const queue = new TurnQueue({ concurrency: 1, ackAfterMs: 5 });
+    // The wait is measured against an injected clock rather than Date.now().
+    // The ack fires from a setTimeout while the figure it reports came from a
+    // wall clock, and at a 5ms threshold those two disagree often enough to
+    // fail: it reported 4ms in 2 runs out of 300 here, and once in CI. Driving
+    // the clock makes the reported figure exact instead of approximately right.
+    let clock = 0;
+    const queue = new TurnQueue({ concurrency: 1, ackAfterMs: 5, now: () => clock });
     const slow = deferred();
     const acked = [];
 
     const first = queue.run('p1', () => slow.promise);
     const second = queue.run('p2', async () => {}, { onWait: waited => acked.push(waited) });
+    // Set before yielding, so the ack timer cannot fire ahead of it.
+    clock = 30;
 
     await new Promise(r => setTimeout(r, 25));
     slow.resolve();
     await Promise.all([first, second]);
 
-    assert.equal(acked.length, 1);
-    assert.ok(acked[0] >= 5);
+    assert.equal(acked.length, 1, 'the practitioner kept waiting is told exactly once');
+    assert.equal(acked[0], 30, 'and told how long they have actually been waiting');
   });
 
   it('does not acknowledge a turn that starts immediately', async () => {
