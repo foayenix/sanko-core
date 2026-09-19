@@ -10,8 +10,7 @@
 // install that works in your interactive shell still fails at runtime unless the
 // binary is on PATH or WHISPER_CLI_PATH points at it.
 
-require('dotenv').config();
-const { execFileSync } = require('child_process');
+require('dotenv').config({ quiet: true });
 const fs = require('fs');
 const path = require('path');
 const http = require('http');

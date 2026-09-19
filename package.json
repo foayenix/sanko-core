@@ -8,6 +8,7 @@
   },
   "scripts": {
     "start": "node src/index.js",
+    "lint": "eslint .",
     "dev": "nodemon src/index.js",
     "whatsapp:test": "node src/baileys.js",
     "preview:admin": "node scripts/preview-admin.js",
@@ -45,18 +46,19 @@
     "check-repository": "node scripts/check-repository.js"
   },
   "dependencies": {
-    "@anthropic-ai/sdk": "^0.52.0",
-    "@hapi/boom": "^9.1.4",
+    "@anthropic-ai/sdk": "^0.127.0",
     "@supabase/supabase-js": "^2.49.8",
     "@whiskeysockets/baileys": "^7.0.0-rc14",
     "axios": "^1.9.0",
-    "dotenv": "^16.5.0",
-    "express": "^4.21.2",
+    "dotenv": "^18.0.1",
+    "express": "^5.2.1",
     "form-data": "^4.0.1",
-    "openai": "^4.100.0",
     "qrcode-terminal": "^0.12.0"
   },
   "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.11.0",
+    "globals": "^17.12.0",
     "nodemon": "^3.1.10"
   }
 }

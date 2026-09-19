@@ -44,6 +44,11 @@ jobs:
       - name: Dependency audit
         run: npm audit --audit-level=moderate
 
+      # The landing page has been linted since it was scaffolded; the service
+      # that holds practitioner records had no linter at all.
+      - name: Lint
+        run: npm run lint
+
       - name: Tests
         run: npm test
 

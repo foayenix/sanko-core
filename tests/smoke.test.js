@@ -2,7 +2,7 @@
 // Run with: node --test tests/smoke.test.js
 // W1 tests use no real APIs. W2+ tests that need real APIs are skipped when env vars are absent.
 
-const { describe, it } = require('node:test');
+const { describe, it, beforeEach, afterEach } = require('node:test');
 const assert = require('node:assert/strict');
 
 // ─── W1 — webhook routes ──────────────────────────────────────────────────────
@@ -468,4 +468,140 @@ describe('shared formatCard', () => {
     assert.ok(!formatCard(s).includes('_Source:'));
   });
 
+});
+
+// ─── Webhook hardening: production signing, and acknowledging only what is stored ─
+
+describe('webhook signing is required in production', () => {
+  const { verifySignature } = require('../src/router');
+  const unsigned = () => ({ headers: {}, rawBody: Buffer.from('{}') });
+
+  const restore = { env: process.env.NODE_ENV, allow: process.env.ALLOW_UNSIGNED_WEBHOOKS };
+  afterEach(() => {
+    if (restore.env === undefined) delete process.env.NODE_ENV; else process.env.NODE_ENV = restore.env;
+    if (restore.allow === undefined) delete process.env.ALLOW_UNSIGNED_WEBHOOKS; else process.env.ALLOW_UNSIGNED_WEBHOOKS = restore.allow;
+  });
+
+  it('refuses an unsigned request in production when no secret is set', () => {
+    delete process.env.META_APP_SECRET;
+    delete process.env.ALLOW_UNSIGNED_WEBHOOKS;
+    process.env.NODE_ENV = 'production';
+    // The whole point: a deployment that forgot META_APP_SECRET must not accept
+    // a formulation that anyone who found the URL could have written.
+    assert.equal(verifySignature(unsigned()), false);
+  });
+
+  it('still allows an unsigned request outside production', () => {
+    delete process.env.META_APP_SECRET;
+    process.env.NODE_ENV = 'development';
+    assert.equal(verifySignature(unsigned()), true);
+  });
+
+  it('allows an unsigned request in production only when deliberately opted in', () => {
+    delete process.env.META_APP_SECRET;
+    process.env.NODE_ENV = 'production';
+    process.env.ALLOW_UNSIGNED_WEBHOOKS = 'true';
+    assert.equal(verifySignature(unsigned()), true);
+  });
+
+  it('verifies the signature normally in production once the secret is set', () => {
+    process.env.NODE_ENV = 'production';
+    process.env.META_APP_SECRET = 'app_secret_123';
+    const raw = Buffer.from(JSON.stringify({ object: 'whatsapp_business_account' }));
+    const sig = 'sha256=' + require('crypto').createHmac('sha256', 'app_secret_123').update(raw).digest('hex');
+    assert.equal(verifySignature({ headers: { 'x-hub-signature-256': sig }, rawBody: raw }), true);
+    assert.equal(verifySignature({ headers: { 'x-hub-signature-256': 'sha256=deadbeef' }, rawBody: raw }), false);
+  });
+});
+
+describe('webhook acknowledges only what it has durably claimed', () => {
+  const { installFakeDb } = require('./helpers/fakeDb');
+  const router = require('../src/router');
+  const db = require('../src/services/supabase');
+
+  let fake;
+  beforeEach(() => {
+    fake = installFakeDb();
+    delete process.env.META_APP_SECRET;
+    delete process.env.NODE_ENV;
+  });
+  afterEach(() => fake.restore());
+
+  // Captures the response code and records when it was sent relative to the
+  // claims, which is the ordering the whole fix is about.
+  function fakeRes(trace) {
+    return { sendStatus(code) { trace.push(`res:${code}`); this.code = code; return this; } };
+  }
+
+  const delivery = (...ids) => ({
+    body: {
+      object: 'whatsapp_business_account',
+      entry: [{ changes: [{ value: { messages: ids.map(id => ({ id, from: '+2348000000001', type: 'text', text: { body: 'hello' } })) } }] }],
+    },
+    headers: {},
+  });
+
+  it('claims every message before it sends the 200', async () => {
+    const trace = [];
+    const claim = db.claimMessage;
+    db.claimMessage = async id => { trace.push(`claim:${id}`); return claim(id); };
+
+    const res = fakeRes(trace);
+    await router.handleWebhook(delivery('wamid.a', 'wamid.b'), res);
+
+    assert.deepEqual(trace, ['claim:wamid.a', 'claim:wamid.b', 'res:200']);
+    assert.equal(fake.store.processedMessages.has('wamid.a'), true);
+    assert.equal(fake.store.processedMessages.has('wamid.b'), true);
+  });
+
+  it('withholds the acknowledgement when the claim cannot be stored', async () => {
+    db.claimMessage = async () => { throw new Error('connection refused'); };
+
+    const res = fakeRes([]);
+    await router.handleWebhook(delivery('wamid.c'), res);
+
+    // Meta only stops retrying on a 2xx. A 200 here is a message this service
+    // promised to handle and has no record of.
+    assert.equal(res.code, 503);
+  });
+
+  it('releases claims already taken when a later one in the batch fails', async () => {
+    const claim = db.claimMessage;
+    db.claimMessage = async id => {
+      if (id === 'wamid.e') throw new Error('connection refused');
+      return claim(id);
+    };
+
+    await router.handleWebhook(delivery('wamid.d', 'wamid.e'), fakeRes([]));
+
+    // Otherwise Meta's redelivery is deduplicated against a claim for work that
+    // never started, and the message is lost for good.
+    assert.equal(fake.store.processedMessages.has('wamid.d'), false);
+
+    db.claimMessage = claim;
+    const res = fakeRes([]);
+    await router.handleWebhook(delivery('wamid.d'), res);
+    assert.equal(res.code, 200);
+    assert.equal(fake.store.processedMessages.has('wamid.d'), true);
+  });
+
+  it('acknowledges a redelivery of an already-claimed message without reprocessing it', async () => {
+    const pushed = [];
+    const push = router.aggregator.push.bind(router.aggregator);
+    router.aggregator.push = (key, item) => { pushed.push(item.id); };
+
+    try {
+      await router.handleWebhook(delivery('wamid.f'), fakeRes([]));
+      await router.handleWebhook(delivery('wamid.f'), fakeRes([]));
+      assert.deepEqual(pushed, ['wamid.f']);
+    } finally {
+      router.aggregator.push = push;
+    }
+  });
+
+  it('acknowledges a delivery that carries no messages', async () => {
+    const res = fakeRes([]);
+    await router.handleWebhook({ headers: {}, body: { object: 'something_else' } }, res);
+    assert.equal(res.code, 200);
+  });
 });

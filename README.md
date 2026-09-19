@@ -230,7 +230,7 @@ practitioners use the bot
         ↓
 they correct what the model wrote     → corrections table       (automatic)
         ↓
-npm run export-training               → training/data/*.jsonl   (one command)
+npm run export-training  [--dry-run]  → training/data/*.jsonl   (consent-gated)
         ↓
 mlx_lm.lora                           → an adapter              (see training/)
         ↓
@@ -369,8 +369,19 @@ transcript, with the page shown beside the text. Corrections are filed under
 trains Whisper, and a pooled set would train each on the other's mistakes.
 
 ```bash
-npm run export-vision     # corrected pages → training/vision/{train,valid,test}.jsonl + images/
+npm run export-vision -- --dry-run   # who may be included; writes nothing
+npm run export-vision -- --recorded-by OP-4C21 \
+  --counterparty "Sanko — internal fine-tune" \
+  --purpose "Vision adapter for page readings" \
+  --benefit-terms "Better readings of their own notebooks; no redistribution"
 ```
+
+Both exports run through the consent gate described under
+[Knowledge governance](#knowledge-governance): a page belonging to a practitioner
+who has not accepted the current contributor terms is excluded and named, and what
+is exported is written into the knowledge-use ledger. The terms are still a draft
+and not in force, so an export today refuses and says so — that is the gate
+working, not a misconfiguration.
 
 Formulations already extracted from a corrected page are **not** rewritten — they
 are the practitioner's records. The review reports their short codes so a human
@@ -666,6 +677,14 @@ is the mechanism:
 - `recordKnowledgeUse` **refuses** if any contributor has not accepted, or
   accepted a superseded version, and names every one of them. Benefit terms are
   required, because that is the field that would otherwise be left blank.
+- the **training exports go through the same gate** (`scripts/export-consent.js`).
+  Fine-tuning on a practitioner's corrections is a use beyond their Vault in
+  exactly the way a licence is, and it was the one such use that ran unchecked:
+  both export scripts read corrections straight out of the database and wrote
+  them into a training set. They now exclude and name every practitioner who has
+  not agreed, refuse outright when none has, and write what was used into the
+  ledger as a `dataset_export`. `--dry-run` reports eligibility without writing
+  anything.
 
 > The terms are a **draft with no legal review and no practitioner
 > consultation**. Both are prerequisites, neither is a schema problem, and the
@@ -676,8 +695,11 @@ is the mechanism:
 
 1. Set `META_VERIFY_TOKEN` to any secret string you choose.
 2. Set `META_APP_SECRET` (Meta Developer Console → App settings → Basic). Inbound
-   webhooks are verified against `X-Hub-Signature-256`; without the secret set,
-   verification is skipped — dev only, never in production.
+   webhooks are verified against `X-Hub-Signature-256`. Without the secret set,
+   verification is skipped outside production so a local run needs no Meta app;
+   under `NODE_ENV=production` the webhook refuses every request instead, unless
+   `ALLOW_UNSIGNED_WEBHOOKS=true` says the deployment meant it. A forged webhook
+   writes a formulation into a practitioner's Vault under their own name.
 3. Callback URL `https://<your-url>/webhook`, then subscribe to the `messages` field.
 
 Note the shape of this: WhatsApp itself is the one hop you cannot make private, because

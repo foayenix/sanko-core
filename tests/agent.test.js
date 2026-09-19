@@ -819,9 +819,10 @@ describe('getOrCreatePractitioner', () => {
     db.getPractitioner = async phone => (first ? null : fake.store.practitioners.find(p => p.phone_number === phone) ?? null);
     db.createPractitioner = async args => {
       first = false;
-      const row = await realCreate(args);
-      throw new Error('duplicate key'); // the row landed, but our insert lost the race
-      return row; // eslint-disable-line no-unreachable
+      await realCreate(args);
+      // The row landed, but our insert lost the race — which is what the caller
+      // has to recover from, so the created row is never returned here.
+      throw new Error('duplicate key');
     };
 
     const { practitioner, isNew } = await getOrCreatePractitioner('+2348111111111');

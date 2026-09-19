@@ -1,4 +1,4 @@
-require('dotenv').config();
+require('dotenv').config({ quiet: true });
 const express = require('express');
 const log = require('./utils/log');
 const { handleWebhook, verifyWebhook } = require('./router');

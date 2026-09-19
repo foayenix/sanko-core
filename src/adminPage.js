@@ -191,7 +191,6 @@ function _reviewView(queue, operator) {
 // fine-tunes need, which cannot be bought.
 function _transcriptView(transcripts, operator) {
   const pending = transcripts.filter(item => !item.reviewed_at);
-  const pages = transcripts.filter(item => item.kind === 'photo').length;
   return `<section class="view" data-view="transcripts" aria-labelledby="transcripts-title">
     <div class="page-heading">
       <div><h1 id="transcripts-title">Reading review</h1><p>Correcting what a machine read from a voice note or a notebook page repairs the record and builds the training set at the same time.</p></div>

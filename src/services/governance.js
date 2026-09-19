@@ -104,6 +104,61 @@ function eligibility(practitioner) {
   return { eligible: true, reason: null, version: practitioner.contributor_terms_version };
 }
 
+// Splits a set of records into the ones that may leave the practitioner's Vault
+// and the ones that may not.
+//
+// A training export is a use beyond the Vault — the same category as a research
+// extract or a licence, and the reason USE_TYPES carries `dataset_export`. It
+// was the one such use that went through no check at all, so a practitioner who
+// never accepted the terms, or accepted a version that has since changed, had
+// their corrections trained on anyway. The eligibility rule is the one already
+// applied to knowledge uses; this only puts the export behind it.
+//
+// records: [{ practitioner_id, ... }] — anything with that field.
+// Returns { eligible, excluded, contributors, reasons } where `reasons` maps a
+// practitioner id to why they were left out, so a caller can say which and not
+// merely how many.
+async function partitionByConsent(records, { practitionerIdOf = row => row.practitioner_id } = {}) {
+  const byPractitioner = new Map();
+  const unattributed = [];
+
+  for (const record of records) {
+    const id = practitionerIdOf(record);
+    // A record whose practitioner cannot be identified cannot be consented to
+    // by anyone. It is excluded rather than waved through: "we could not tell
+    // whose this was" is not a permission.
+    if (!id) { unattributed.push(record); continue; }
+    if (!byPractitioner.has(id)) byPractitioner.set(id, []);
+    byPractitioner.get(id).push(record);
+  }
+
+  const eligible = [];
+  const excluded = [...unattributed];
+  const contributors = [];
+  const reasons = new Map();
+
+  for (const [practitioner_id, rows] of byPractitioner) {
+    const practitioner = await db.getPractitionerById(practitioner_id);
+    const verdict = practitioner
+      ? eligibility(practitioner)
+      : { eligible: false, reason: 'no such practitioner' };
+
+    if (verdict.eligible) {
+      eligible.push(...rows);
+      contributors.push({ practitioner_id, record_count: rows.length, terms_version: verdict.version });
+    } else {
+      excluded.push(...rows);
+      reasons.set(practitioner_id, verdict.reason);
+    }
+  }
+
+  if (unattributed.length) {
+    reasons.set(null, `${unattributed.length} record(s) carry no practitioner id and cannot be attributed to an agreement`);
+  }
+
+  return { eligible, excluded, contributors, reasons };
+}
+
 // Records a use of contributed knowledge, or refuses.
 //
 // contributors: [{ practitioner_id, record_count }]
@@ -190,6 +245,7 @@ module.exports = {
   assertInForce,
   recordAcceptance,
   eligibility,
+  partitionByConsent,
   recordKnowledgeUse,
   contributorStatement,
   USE_TYPES,

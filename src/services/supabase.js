@@ -673,6 +673,19 @@ async function claimMessage(message_id, transport = 'meta') {
   return true;
 }
 
+// Gives a claim back. Called when the delivery that took it is not going to be
+// processed after all — the webhook withholds its acknowledgement in that case,
+// and a retry deduplicated against a claim for work nobody started would be a
+// message silently dropped.
+async function releaseMessageClaim(message_id) {
+  if (!message_id) return;
+  const { error } = await getClient()
+    .from('processed_messages')
+    .delete()
+    .eq('message_id', message_id);
+  if (error) log.warn('dedup.release_failed', { message_id, error: error.message });
+}
+
 async function pruneProcessedMessages({ olderThanHours = 24 } = {}) {
   const cutoff = new Date(Date.now() - olderThanHours * 3_600_000).toISOString();
   const { error } = await getClient().from('processed_messages').delete().lt('first_seen_at', cutoff);
@@ -973,7 +986,13 @@ async function listHeldOutCorrections() {
 async function listCorrectionsForExport({ onlyUnexported = true, limit = 5000 } = {}) {
   let query = getClient()
     .from('corrections')
-    .select('id, field, before_value, after_value, source, model, created_at, formulations(short_code, original_text, original_language, condition_local, condition_std, plants, preparation, dosage)')
+    // practitioner_id is not decoration: the export splits train/valid/test by
+    // it, and checks each practitioner's contributor terms with it. Selected
+    // without it, every row arrived with practitioner_id undefined, the split
+    // silently fell back to bucketing by correction id — putting one
+    // practitioner's phrasing in both train and test — and no consent check had
+    // anyone to ask about.
+    .select('id, practitioner_id, field, before_value, after_value, source, model, created_at, formulations(short_code, original_text, original_language, condition_local, condition_std, plants, preparation, dosage)')
     .order('created_at', { ascending: true })
     .limit(limit);
   if (onlyUnexported) query = query.is('exported_at', null);
@@ -1456,6 +1475,7 @@ module.exports = {
   listKnowledgeUses,
   contributorTermsStats,
   claimMessage,
+  releaseMessageClaim,
   pruneProcessedMessages,
   acquireTurnLock,
   releaseTurnLock,

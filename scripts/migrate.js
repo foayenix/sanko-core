@@ -24,7 +24,7 @@
 // documented setup, it handles the dollar-quoting and \-commands these files use,
 // and it means no new dependency sits between this project and its own schema.
 
-require('dotenv').config();
+require('dotenv').config({ quiet: true });
 const { execFileSync } = require('child_process');
 const crypto = require('crypto');
 const fs = require('fs');
@@ -161,7 +161,7 @@ function migrate(url, { dryRun }) {
     } catch (err) {
       console.log('FAILED');
       const detail = (err.stderr || err.stdout || err.message).toString().trim();
-      throw new Error(`${file} failed and was rolled back:\n\n${detail}\n`);
+      throw new Error(`${file} failed and was rolled back:\n\n${detail}\n`, { cause: err });
     }
   }
   console.log(`\nApplied ${pending.length} migration(s).\n`);

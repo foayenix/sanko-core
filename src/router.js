@@ -53,9 +53,25 @@ function verifyWebhook(req, res) {
 
 // Verifies Meta's X-Hub-Signature-256 header (HMAC-SHA256 of the raw body keyed
 // with the app secret). Without this, anyone who finds the URL can forge webhooks.
+//
+// Missing configuration is tolerated in development and refused in production.
+// The unsigned path exists so a local run needs no Meta app at all; carried into
+// production it means a forged formulation is indistinguishable from a
+// practitioner's own words, and the practitioner is the one who would find out.
+// A deployment that has genuinely decided to run unsigned has to say so with
+// ALLOW_UNSIGNED_WEBHOOKS=true, which is a deliberate act with a name on it
+// rather than an environment variable somebody forgot to set.
 function verifySignature(req) {
   const appSecret = process.env.META_APP_SECRET;
   if (!appSecret) {
+    if (process.env.NODE_ENV === 'production' && process.env.ALLOW_UNSIGNED_WEBHOOKS !== 'true') {
+      log.error('webhook.signature_unconfigured', {
+        reason: 'META_APP_SECRET not set in production',
+        effect: 'inbound webhooks are refused',
+        action: 'set META_APP_SECRET, or ALLOW_UNSIGNED_WEBHOOKS=true to accept forgeable requests deliberately',
+      });
+      return false;
+    }
     // Allow unsigned requests only when no secret is configured (local dev).
     log.warn('webhook.signature_unverified', { reason: 'META_APP_SECRET not set', action: 'set it before going live' });
     return true;
@@ -69,35 +85,73 @@ function verifySignature(req) {
   return a.length === b.length && crypto.timingSafeEqual(a, b);
 }
 
+// Every message Meta batched into this delivery, flattened.
+function* inboundMessages(body) {
+  for (const entry of body.entry ?? []) {
+    for (const change of entry.changes ?? []) {
+      yield* change.value?.messages ?? [];
+    }
+  }
+}
+
 async function handleWebhook(req, res) {
   if (!verifySignature(req)) {
     log.warn('webhook.signature_invalid', {});
     return res.sendStatus(403);
   }
 
-  // Acknowledge immediately — Meta requires 200 within 5 seconds
+  const body = req.body;
+  if (body?.object !== 'whatsapp_business_account') return res.sendStatus(200);
+
+  // Claim before acknowledging. A 200 tells Meta to stop retrying, so anything
+  // sent before the claim is durable is a message this service has promised to
+  // handle and has no record of — lost to a restart, or to a second instance
+  // that never saw it. The claim is one indexed insert; the expensive part (the
+  // agent turn) still happens after the response, which is what keeps the
+  // five-second budget.
+  const accepted = [];
+  try {
+    for (const message of inboundMessages(body)) {
+      if (!message.from) continue;
+      if (message.id) {
+        if (seenMessageIds.has(message.id)) continue;   // retry within seconds
+        // The durable claim is the one that holds across a restart or a second
+        // instance. It runs before the in-memory note so a claim that throws
+        // leaves nothing behind that would swallow Meta's retry.
+        if (!(await db.claimMessage(message.id))) {
+          log.info('webhook.duplicate_ignored', { message_id: message.id });
+          continue;
+        }
+        seenMessageIds.add(message.id);
+      }
+      accepted.push(message);
+    }
+  } catch (err) {
+    // Withhold the acknowledgement so Meta redelivers. Claims already taken in
+    // this batch are released, otherwise the redelivery would be deduplicated
+    // against a claim for work that never started.
+    log.error('webhook.claim_failed', { error: err.message, effect: 'not acknowledged; Meta will retry' });
+    await releaseClaims(accepted);
+    return res.sendStatus(503);
+  }
+
+  // Acknowledge — Meta requires 200 within 5 seconds.
   res.sendStatus(200);
 
-  const body = req.body;
-  if (body?.object !== 'whatsapp_business_account') return;
+  for (const message of accepted) aggregator.push(message.from, message);
+}
 
-  // Meta batches: iterate every entry/change/message rather than just the first
-  for (const entry of body.entry ?? []) {
-    for (const change of entry.changes ?? []) {
-      for (const message of change.value?.messages ?? []) {
-        if (message.id) {
-          if (seenMessageIds.has(message.id)) continue;   // retry within seconds
-          seenMessageIds.add(message.id);
-          // Then the durable check, which is the one that holds across a restart
-          // or a second instance.
-          if (!(await db.claimMessage(message.id))) {
-            log.info('webhook.duplicate_ignored', { message_id: message.id });
-            continue;
-          }
-        }
-        if (!message.from) continue;
-        aggregator.push(message.from, message);
-      }
+// Undo claims for messages this delivery will not process, so the retry is not
+// mistaken for a duplicate. Best-effort: a release that fails leaves the message
+// deduplicated, which is the pre-existing behaviour, not a new failure.
+async function releaseClaims(messages) {
+  for (const message of messages) {
+    if (!message.id) continue;
+    seenMessageIds.delete(message.id);
+    try {
+      await db.releaseMessageClaim(message.id);
+    } catch (err) {
+      log.warn('webhook.claim_release_failed', { message_id: message.id, error: err.message });
     }
   }
 }

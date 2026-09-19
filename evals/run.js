@@ -17,7 +17,7 @@
 const fs = require('fs');
 const path = require('path');
 
-require('dotenv').config();
+require('dotenv').config({ quiet: true });
 
 const CASES_DIR = path.join(__dirname, 'cases');
 const RESULTS_DIR = path.join(__dirname, 'results');

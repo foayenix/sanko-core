@@ -16,7 +16,6 @@ const {
   inferRegion,
   redistributability,
   scanRegion,
-  scoreCandidate,
   studyShape,
   titleSimilarity,
   toCandidate

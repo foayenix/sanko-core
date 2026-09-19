@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 // Export corrected page readings as a vision fine-tuning dataset.
 //
-//   node scripts/export-vision-data.js                    # unexported only
+//   node scripts/export-vision-data.js --dry-run          # who may be included, nothing written
+//   node scripts/export-vision-data.js [ledger flags]     # unexported only
 //   node scripts/export-vision-data.js --all              # everything, for a rebuild
 //   node scripts/export-vision-data.js --out ./data/vis   # target directory
 //
@@ -21,14 +22,19 @@
 // reproducible. That does mean the output directory holds practitioner material,
 // so it lands under training/ with the rest of it and stays off this machine
 // only if you take it off deliberately.
+//
+// A photographed page is the most identifying thing in the archive — it is the
+// practitioner's own handwriting — so it runs through the same consent gate as
+// the text export (scripts/export-consent.js) and lands in the same ledger.
 
-require('dotenv').config();
+require('dotenv').config({ quiet: true });
 const fs = require('fs');
 const path = require('path');
 const crypto = require('crypto');
 
 const db = require('../src/services/supabase');
 const vision = require('../src/services/vision');
+const consent = require('./export-consent');
 
 // The instruction the model is trained against is the one it is served, so it
 // comes from the service rather than being restated here. A prompt that drifted
@@ -47,7 +53,13 @@ function extensionFor(storagePath) {
 // correction from one practitioner lands in exactly one split. One person's
 // handwriting appearing in both train and test would flatter the model in the
 // only measure that matters here.
+//
+// Throws on a missing id for the same reason its sibling does: a fallback turns
+// the guarantee in the paragraph above into a comment that is not true.
 function splitFor(practitionerId) {
+  if (!practitionerId) {
+    throw new Error('Cannot split a page reading with no practitioner_id: the train/test split is grouped by practitioner.');
+  }
   const n = parseInt(crypto.createHash('sha256').update(String(practitionerId)).digest('hex').slice(0, 8), 16) % 100;
   if (n < 80) return 'train';
   if (n < 90) return 'valid';
@@ -57,6 +69,7 @@ function splitFor(practitionerId) {
 async function main() {
   const args = process.argv.slice(2);
   const onlyUnexported = !args.includes('--all');
+  const dryRun = args.includes('--dry-run');
   const outDir = args.includes('--out') ? args[args.indexOf('--out') + 1] : path.join(__dirname, '../training/vision');
 
   const corrections = await db.listPageCorrectionsForExport({ onlyUnexported });
@@ -68,6 +81,25 @@ async function main() {
     return;
   }
 
+  // Before any page is downloaded: a page that may not be used should not be
+  // pulled out of storage and written to disk in the first place.
+  const screened = await consent.screen(corrections);
+  for (const line of screened.report) console.log(line);
+
+  if (!screened.eligible.length) {
+    console.log(consent.refusalText(corrections.length));
+    process.exitCode = 1;
+    return;
+  }
+
+  if (dryRun) {
+    console.log(`\n${screened.eligible.length} page reading(s) from ${screened.contributors.length} practitioner(s) may be exported.`);
+    console.log('Dry run — no images written, nothing marked exported, nothing recorded in the ledger.\n');
+    return;
+  }
+
+  const useDetails = consent.requireUseDetails(args, { command: 'export-vision-data.js' });
+
   const imageDir = path.join(outDir, 'images');
   fs.mkdirSync(imageDir, { recursive: true });
 
@@ -76,7 +108,7 @@ async function main() {
   const audit = [];
   let skipped = 0;
 
-  for (const correction of corrections) {
+  for (const correction of screened.eligible) {
     const storagePath = correction.media?.storage_path;
     const target = typeof correction.after_value === 'string' ? correction.after_value.trim() : '';
     // A correction with no page left to look at, or with nothing in it, is not a
@@ -96,7 +128,8 @@ async function main() {
     const file = `${correction.id}.${extensionFor(storagePath)}`;
     fs.writeFileSync(path.join(imageDir, file), bytes);
 
-    splits[splitFor(correction.practitioner_id ?? correction.id)].push({
+    const split = splitFor(correction.practitioner_id);
+    splits[split].push({
       messages: [
         { role: 'user', content: `<image>\n${PROMPT}` },
         { role: 'assistant', content: target },
@@ -106,6 +139,10 @@ async function main() {
     exportedIds.push(correction.id);
     audit.push({
       correction_id: correction.id,
+      // Whose handwriting this is, as an opaque uuid. Without it the disjoint
+      // train/test split cannot be verified by anyone downstream.
+      practitioner_id: correction.practitioner_id,
+      split,
       media_id: correction.media_id,
       image: path.join('images', file),
       // What the model produced and a human rejected. Never a training target —
@@ -131,12 +168,28 @@ async function main() {
 
   fs.writeFileSync(path.join(outDir, 'audit.jsonl'), audit.map(row => JSON.stringify(row)).join('\n') + '\n');
 
+  const included = new Set(audit.map(row => row.practitioner_id));
+  const use = await consent.recordExport({
+    contributors: screened.contributors.filter(row => included.has(row.practitioner_id)),
+    details: useDetails,
+    scope: {
+      dataset: 'page_reading_vision',
+      page_count: exportedIds.length,
+      splits: Object.fromEntries(Object.entries(splits).map(([name, rows]) => [name, rows.length])),
+    },
+  });
+
   await db.markCorrectionsExported(exportedIds);
   console.log(`\nMarked ${exportedIds.length} correction(s) as exported.`);
+  console.log(`Recorded as knowledge use ${use.id} — ${use.contributors.length} contributing practitioner(s).`);
   console.log(`Images and JSONL are in ${path.relative(process.cwd(), outDir)} — practitioner material, treat it as such.\n`);
 }
 
-main().catch(err => {
-  console.error(err.message);
-  process.exit(1);
-});
+if (require.main === module) {
+  main().catch(err => {
+    console.error(`\n${err.message}\n`);
+    process.exit(1);
+  });
+}
+
+module.exports = { splitFor, extensionFor };

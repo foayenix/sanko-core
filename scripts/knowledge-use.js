@@ -15,7 +15,7 @@
 // accepted an older version of them, cannot be included — and the error names
 // every one of them rather than the first.
 
-require('dotenv').config();
+require('dotenv').config({ quiet: true });
 const fs = require('fs');
 const path = require('path');
 

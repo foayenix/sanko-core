@@ -241,9 +241,9 @@ async function transcribeViaHttp(audioBuffer, mimeType, { language }) {
     return response.data;
   } catch (err) {
     if (err.code === 'ECONNREFUSED' && isLocal()) {
-      throw new Error(`Whisper is not reachable at ${BASE_URL}. Is whisper-server running?`);
+      throw new Error(`Whisper is not reachable at ${BASE_URL}. Is whisper-server running?`, { cause: err });
     }
-    throw new Error(`Transcription failed: ${err.response?.data?.error?.message ?? err.message}`);
+    throw new Error(`Transcription failed: ${err.response?.data?.error?.message ?? err.message}`, { cause: err });
   }
 }
 

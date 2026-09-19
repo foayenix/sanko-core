@@ -41,7 +41,7 @@ function parseVernacularNames(published) {
   const parenthetical = [];
   for (const match of published.matchAll(/([^;,]+?)\s*\((H|Hausa|Y|Yoruba|I|Igbo|F|Fulfulde)\)/gi)) {
     const code = match[2][0].toUpperCase();
-    for (const name of match[1].split(/[\/,]/)) {
+    for (const name of match[1].split(/[/,]/)) {
       const localName = cleanName(name);
       if (localName) parenthetical.push({ local_name: localName, language: LANGUAGE_CODES[code] });
     }
@@ -70,7 +70,7 @@ function parseVernacularNames(published) {
       continue;
     }
 
-    for (const name of segment.split(/[\/,]/)) {
+    for (const name of segment.split(/[/,]/)) {
       const localName = cleanName(name);
       if (localName && !/\((?:H|Hausa|Y|Yoruba|I|Igbo|F|Fulfulde)\)$/i.test(localName)) {
         names.push({ local_name: localName, language });

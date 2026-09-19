@@ -80,6 +80,9 @@ function installFakeDb() {
       store.processedMessages.set(message_id, { transport, first_seen_at: now() });
       return true;
     },
+    async releaseMessageClaim(message_id) {
+      store.processedMessages.delete(message_id);
+    },
     async pruneProcessedMessages() {},
     async acquireTurnLock(practitioner_id, holder, ttlSeconds) {
       const held = store.turnLocks.get(practitioner_id);
