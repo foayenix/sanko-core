@@ -261,8 +261,8 @@ what the answer should be.
 The slow loop above needs hundreds of corrections and a training run. The fast one
 needs neither. Every local name the agent cannot place botanically is already flagged
 (`unknown_plant_flagged`); confirming one puts it into `data/plant_lookup_v1.json`,
-which is interpolated into the agent's system prompt — so the next conversation that
-mentions the plant gets it right, with no model change at all.
+which every save resolves against — so the next conversation that mentions the plant
+gets it right, with no model change at all.
 
 ```bash
 npm run plants:pull       # queue the unknown names, most-seen first
@@ -418,6 +418,16 @@ photo with no writing → agent asks what they call it
                       → botanical name resolved from data/plant_lookup_v1.json
                       → specimens row (SP-00001), or the review queue if unresolved
 ```
+
+The same rule governs formulations: `save_formulation` and `update_formulation`
+resolve every plant against the index in code, and neither accepts a `botanical`
+field from the model — a schema that rejects one is what makes a fabricated binomial
+impossible rather than merely discouraged. `lookup_plant` exists so the agent can
+still tell a practitioner what the index holds, without the index being in its
+prompt. The index used to be pasted into the system prompt (442 mappings, ~4,330
+tokens on every call of every iteration) with the model asked to recall the right
+one and write it into a permanent record; reading an answer out of a tool result is
+a different and far easier task than recalling it.
 
 **The name comes from the practitioner and the binomial comes from the index. A
 model supplies neither.** Both halves are enforced in code rather than asked for
@@ -623,6 +633,27 @@ service-role key, which bypasses RLS. Do not add a `using (true)` policy.
 > This repository supports a local stack; it does not migrate existing hosted data.
 
 ## Operations
+
+### Where a turn's time goes
+
+Latency on this stack is worth measuring rather than guessing: a local 32B is
+single-digit tokens per second, and a turn that feels slow is often several fast
+calls rather than one slow one.
+
+Every model call writes an `llm_call` event carrying `duration_ms`, `iteration`,
+`input_tokens`, `output_tokens` and `output_tps` (output tokens per second — the
+number that says whether a model swap or a shorter prompt is the lever). Voice
+notes write a `whisper_call` event with `duration_ms` and `audio_bytes`, because
+transcription runs in front of the model and on a local CPU can outlast the turn
+it precedes. Page readings already log `ms` on `vision.page_transcribed`.
+
+All three also go to the log at info level, so a single turn can be read end to
+end without querying anything.
+
+Two fixed costs worth knowing about, neither of them the model: the aggregation
+debounce (`AGGREGATION_WINDOW_MS`, 2.5s by default) is added to every turn before
+the agent starts, and the system prompt plus tool schemas are resent on each of
+up to `AGENT_MAX_TOOL_ITERATIONS` round trips.
 
 ### Backups
 

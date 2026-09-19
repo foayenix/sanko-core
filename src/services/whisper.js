@@ -30,6 +30,7 @@ const { spawn } = require('child_process');
 // undefined — so `??` keeps the empty value and the default never applies. Treat
 // blank as unset.
 const { env } = require('../utils/env');
+const log = require('../utils/log');
 
 const BACKEND = env('WHISPER_BACKEND', 'cli').toLowerCase();
 const BASE_URL = env('WHISPER_BASE_URL', 'http://127.0.0.1:8080/v1');
@@ -184,9 +185,14 @@ function _toIso639(language) {
 }
 
 async function transcribe(audioBuffer, mimeType = 'audio/ogg', { language, practitioner_id } = {}) {
+  // Transcription sits in front of the model on every voice note, so its time is
+  // part of what a practitioner waits through. Measured rather than assumed: on
+  // a local CPU the Whisper stage can outlast the agent turn it precedes.
+  const startedAt = Date.now();
   const result = BACKEND === 'cli'
     ? await transcribeViaCli(audioBuffer, mimeType, { language })
     : await transcribeViaHttp(audioBuffer, mimeType, { language });
+  const durationMs = Date.now() - startedAt;
 
   const { text, language: rawLanguage, segments } = result;
   const detected = _toIso639(rawLanguage);
@@ -204,8 +210,18 @@ async function transcribe(audioBuffer, mimeType = 'audio/ogg', { language, pract
       local: isLocal(),
       backend: BACKEND,
       model: BACKEND === 'cli' ? CLI_MODEL : MODEL,
+      duration_ms: durationMs,
+      audio_bytes: audioBuffer?.length ?? null,
     },
   }).catch(() => {});
+
+  log.info('whisper.transcribed', {
+    practitioner_id: practitioner_id ?? null,
+    duration_ms: durationMs,
+    backend: BACKEND,
+    model: BACKEND === 'cli' ? CLI_MODEL : MODEL,
+    confidence,
+  });
 
   // No 'en' fallback: a language we never detected and were never told is null,
   // not English. Callers decide what to do with "unknown"; inventing a default
