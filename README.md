@@ -539,6 +539,24 @@ A run exits **non-zero on any hallucination**, so a promotion script can gate on
 Results land in `evals/results/` — diff two to answer the only question that matters
 after a fine-tune.
 
+**Comparing local models.** `npm run eval:bakeoff -- model-a,model-b` runs the same
+cases against each candidate in one process and prints a table. Every scorecard
+carries a fingerprint of the exact cases it scored — their ids and their contents —
+and the comparison refuses to rank runs whose fingerprints differ, because "keep the
+case set frozen" was previously a line in a README and nothing else. The table is
+ordered by hallucinations first and mean score second: a model that invents a
+botanical name is not a slightly worse model, it is one that cannot be used here.
+
+The bake-off needs the models, so it runs where they live — the machine with Ollama
+and the weights on it, not CI.
+
+**Practitioner review.** `npm run review:status` shows where the set stands against
+the 100-case gate and its coverage across language, medium, unknown plants,
+corrections, browsing and consent-gated workflows. `npm run review:packets` turns
+unreviewed cases into plain-text packets a practitioner can read without the
+repository, and `npm run review:apply` writes their decisions back. See
+[`evals/README.md`](evals/README.md).
+
 ### Training
 
 See [training/README.md](training/README.md) for the MLX workflow, model sizing on a

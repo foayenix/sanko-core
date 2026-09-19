@@ -14,6 +14,7 @@
 // Results land in evals/results/<timestamp>__<model>.json. Diff two of those to
 // answer the only question that matters after a fine-tune: is it actually better?
 
+const crypto = require('crypto');
 const fs = require('fs');
 const path = require('path');
 
@@ -137,6 +138,25 @@ function validateCase(testCase, filename = '<case>') {
     );
   }
   return errors;
+}
+
+// A fingerprint of the exact cases a run scored.
+//
+// "Keep the case set frozen when comparing models" was a line in the README and
+// nothing else. Two scorecards could name different models and different cases
+// and look directly comparable, which is how a model gets credited for an easier
+// set. The hash covers each case's id and its full content, so editing one case
+// — not just adding or removing — changes it.
+function fingerprintCases(cases) {
+  const canonical = cases
+    .map(testCase => `${testCase.id}\u0000${JSON.stringify(testCase)}`)
+    .sort()
+    .join('\u0001');
+  return {
+    case_count: cases.length,
+    case_ids: cases.map(c => c.id).sort(),
+    digest: crypto.createHash('sha256').update(canonical).digest('hex').slice(0, 16),
+  };
 }
 
 function loadCases(filter, { reviewedOnly = false } = {}) {
@@ -331,6 +351,8 @@ async function runSuite({ filter, verbose, reviewedOnly = false, requireCount = 
       practitioner_reviewed: cases.filter(isPractitionerReviewed).length,
       minimum_required: requireCount,
       rubric_versions: [...new Set(cases.map(c => c.review?.rubric_version).filter(Boolean))].sort(),
+      // What makes two scorecards comparable, rather than merely adjacent.
+      ...fingerprintCases(cases),
     },
     summary,
     results,
@@ -343,6 +365,61 @@ async function runSuite({ filter, verbose, reviewedOnly = false, requireCount = 
   console.log(`  saved → evals/results/${slug}\n`);
 
   return record;
+}
+
+// The bake-off table.
+//
+// Ordered by hallucinations ascending, then mean score descending. A model that
+// invents a botanical name is not a slightly worse model — it is one that cannot
+// be used here — so it sorts below a lower-scoring clean one however good its
+// mean looks.
+function reportBakeOff(records) {
+  if (!records.length) return;
+
+  const fingerprints = new Set(records.map(r => r.case_set.digest));
+  console.log('\n  ══ bake-off ═══════════════════════════════════════════════\n');
+
+  if (fingerprints.size > 1) {
+    // The one result that must never be read as a ranking.
+    console.log('  ! These runs did not score the same cases, so they cannot be compared.');
+    for (const r of records) console.log(`      ${r.model.padEnd(36)} ${r.case_set.case_count} case(s), set ${r.case_set.digest}`);
+    console.log('\n  Re-run them without editing evals/cases in between.\n');
+    return;
+  }
+
+  const [{ case_set }] = records;
+  console.log(`  ${case_set.case_count} case(s), set ${case_set.digest}` +
+              `  ·  ${case_set.practitioner_reviewed} practitioner-reviewed\n`);
+
+  const ranked = [...records].sort((a, b) =>
+    (a.summary.hallucinated - b.summary.hallucinated) || (b.summary.mean_score - a.summary.mean_score));
+
+  console.log('      model                                 mean   halluc  wrong tool  errored');
+  for (const r of ranked) {
+    console.log(
+      `      ${r.model.padEnd(36)} ` +
+      `${(r.summary.mean_score * 100).toFixed(1).padStart(5)}% ` +
+      `${String(r.summary.hallucinated).padStart(7)} ` +
+      `${String(r.summary.wrong_tool).padStart(11)} ` +
+      `${String(r.summary.errored).padStart(8)}`
+    );
+  }
+
+  const clean = ranked.filter(r => r.summary.hallucinated === 0);
+  console.log('');
+  if (!clean.length) {
+    console.log('  Every candidate hallucinated. None of them is usable here yet.\n');
+  } else {
+    console.log(`  Best clean candidate: ${clean[0].model} at ${(clean[0].summary.mean_score * 100).toFixed(1)}%.`);
+    if (!case_set.practitioner_reviewed) {
+      // Said on every bake-off, because the number above is the easiest thing in
+      // this repository to mistake for evidence that a model is safe to deploy.
+      console.log('  No case in this set is practitioner-reviewed, so this ranks engineering');
+      console.log('  behaviour only. It is not evidence about real speech, handwriting, or');
+      console.log('  extraction accuracy — see evals/README.md.');
+    }
+    console.log('');
+  }
 }
 
 async function main() {
@@ -364,6 +441,46 @@ async function main() {
     const reviewed = cases.filter(isPractitionerReviewed).length;
     const editorial = cases.filter(isEditoriallyReviewed).length;
     console.log(`${cases.length} case(s) valid — ${reviewed} practitioner-reviewed, ${editorial} editorial, ${cases.length - reviewed - editorial} unreviewed.`);
+    return;
+  }
+
+  // A bake-off across local models on one frozen case set.
+  //
+  //   npm run eval -- --models qwen2.5:14b-instruct-q4_K_M,qwen2.5:32b-instruct-q4_K_M
+  //
+  // Each candidate runs the same cases in the same process, so the comparison is
+  // of the models and nothing else. The ranking puts hallucination first because
+  // for this product it is not one score among several: a fabricated botanical
+  // name is a false claim attached to a practitioner's medicine, and a model that
+  // produces one has disqualified itself whatever its mean.
+  if (args.includes('--models')) {
+    const models = String(args[args.indexOf('--models') + 1] ?? '')
+      .split(',').map(s => s.trim()).filter(Boolean);
+    if (models.length < 2) {
+      throw new Error('--models takes two or more comma-separated model names to compare.');
+    }
+
+    process.env.LLM_PROVIDER = process.env.LLM_PROVIDER ?? 'ollama';
+    const records = [];
+    for (const model of models) {
+      process.env.OLLAMA_MODEL = model;
+      process.env.AGENT_MODEL = model;
+      // Drop cached module state so llm.js picks the new model up.
+      for (const key of Object.keys(require.cache)) {
+        if (key.includes('/src/') || key.includes('/tests/helpers/')) delete require.cache[key];
+      }
+      console.log(`\n  ══ ${model} ══════════════════════════════════════\n`);
+      try {
+        records.push(await runSuite({ filter, verbose, reviewedOnly, requireCount }));
+      } catch (err) {
+        console.error(`  ${model} did not finish: ${err.message}\n`);
+      }
+    }
+
+    reportBakeOff(records);
+    // Same gate as a single run: any hallucination anywhere is a non-zero exit,
+    // so a promotion script cannot read a bake-off as a pass.
+    if (records.some(r => r.summary.hallucinated > 0)) process.exit(2);
     return;
   }
 
@@ -412,6 +529,8 @@ module.exports = {
   isPhotoTurn,
   turnText,
   loadCases,
+  fingerprintCases,
+  reportBakeOff,
   parsePositiveInteger,
   runCase,
   runSuite,
