@@ -1,7 +1,7 @@
-require('dotenv').config();
+require('dotenv').config({ quiet: true });
 const express = require('express');
 const log = require('./utils/log');
-const { handleWebhook, verifyWebhook } = require('./router');
+const { handleWebhook, verifyWebhook, recoverInboundMessages } = require('./router');
 const adminRouter = require('./admin');
 const dashboardRouter = require('./dashboard');
 const simulatorRouter = require('./simulator');
@@ -35,12 +35,31 @@ app.get('/', (_req, res) => {
 
 app.get('/health', (_req, res) => res.json({ status: 'ok' }));
 
+// Messages accepted by a process that died before answering them (019). Meta has
+// already been told to stop retrying, so nothing outside this service will ever
+// raise them again — a boot is the first chance anyone has to notice, and the
+// most likely moment for there to be something to notice.
+function sweepInbound() {
+	recoverInboundMessages()
+		.then(({ recovered, abandoned }) => {
+			if (recovered || abandoned) log.info('webhook.recovery_swept', { recovered, abandoned });
+		})
+		.catch(err => log.warn('webhook.recovery_failed', { error: err.message }));
+}
+
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
 	log.info('server.listening', { port: PORT, env: process.env.NODE_ENV || 'development', alerting: log.alertingConfigured() });
 	db.deleteExpiredPatientInvites().catch(err => log.warn('patient.invite_cleanup_failed', { error: err.message }));
 	db.pruneProcessedMessages().catch(err => log.warn('dedup.prune_failed', { error: err.message }));
+	sweepInbound();
 });
+
+// Frequent, because the thing it recovers is somebody waiting on a reply. The
+// grace period inside the sweep — not this interval — is what stops it picking
+// up a turn that is merely slow.
+const inboundRecovery = setInterval(sweepInbound, Number(process.env.INBOUND_RECOVERY_INTERVAL_MS ?? 5 * 60 * 1000));
+inboundRecovery.unref();
 
 // Pending invitations contain a name and phone number but no clinical record.
 // Sweep hourly so the seven-day expiry does not depend on somebody messaging

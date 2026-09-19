@@ -93,7 +93,7 @@ describe('save_formulation', () => {
     const result = await executeTool('save_formulation', {
       condition_local: 'iba',
       condition_std: 'Malaria',
-      plants: [{ local_name: 'dongoyaro', botanical: 'Azadirachta indica', quantity_raw: 'two handfuls', part_used: 'leaves' }],
+      plants: [{ local_name: 'dongoyaro', quantity_raw: 'two handfuls', part_used: 'leaves' }],
       preparation: { method: 'decoction', duration_minutes: 20, medium: 'water' },
       dosage: { amount: 'one cup', frequency: 'twice daily', duration_days: 3 },
       original_text: 'Fi ewe dongoyaro se agbo fun iba',
@@ -108,7 +108,9 @@ describe('save_formulation', () => {
     const saved = fake.store.formulations[0];
     assert.equal(saved.condition_std, 'Malaria');
     assert.equal(saved.condition_local, 'iba');
+    // Resolved from the index in code, never from the tool input.
     assert.equal(saved.plants[0].botanical, 'Azadirachta indica');
+    assert.equal(saved.plants[0].botanical_source, 'plant_index');
     assert.equal(saved.confidence_score, 0.9);
     assert.equal(saved.original_language, 'yo');
     assert.equal(saved.practitioner_id, p.id);
@@ -131,7 +133,7 @@ describe('save_formulation', () => {
     const p = fake.store.seedPractitioner();
     const result = await executeTool('save_formulation', {
       condition_std: 'Malaria',
-      plants: [{ local_name: 'dongoyaro', botanical: 'Azadirachta indica' }],
+      plants: [{ local_name: 'dongoyaro' }],
       confidence_score: 0.9,
     }, ctx(p));
     assert.match(result.card, /Malaria/);
@@ -152,8 +154,8 @@ describe('save_formulation', () => {
     const p = fake.store.seedPractitioner();
     const result = await executeTool('save_formulation', {
       plants: [
-        { local_name: 'dongoyaro', botanical: 'Azadirachta indica' },
-        { local_name: 'ewe mysterious', botanical: null },
+        { local_name: 'dongoyaro' },
+        { local_name: 'ewe mysterious' },
       ],
       confidence_score: 0.7,
     }, ctx(p));
@@ -167,7 +169,7 @@ describe('save_formulation', () => {
   it('does not flag anything when every plant resolves', async () => {
     const p = fake.store.seedPractitioner();
     await executeTool('save_formulation', {
-      plants: [{ local_name: 'atale', botanical: 'Zingiber officinale' }], confidence_score: 0.95,
+      plants: [{ local_name: 'atale' }], confidence_score: 0.95,
     }, ctx(p));
     assert.equal(fake.store.eventsOfType('unknown_plant_flagged').length, 0);
   });
@@ -627,9 +629,19 @@ describe('stripImagesForStorage', () => {
 });
 
 describe('buildSystemPrompt', () => {
-  it('includes the plant index so the model resolves local names', () => {
+  it('does not carry the plant index, which is a tool now', () => {
+    // It used to be pasted in whole: 442 mappings, ~4,330 tokens, on every call
+    // of every iteration, with the model asked to recall the right one and write
+    // it into a permanent record.
     const prompt = buildSystemPrompt({ display_name: 'Ade', preferred_language: 'yo' });
-    assert.match(prompt, /dongoyaro → Azadirachta indica/);
+    assert.doesNotMatch(prompt, /dongoyaro → Azadirachta indica/);
+    assert.doesNotMatch(prompt, /\{\{/, 'no unreplaced placeholder left behind');
+    assert.match(prompt, /lookup_plant/);
+  });
+
+  it('tells the agent it does not supply botanical names', () => {
+    const prompt = buildSystemPrompt({ display_name: 'Ade', preferred_language: 'yo' });
+    assert.match(prompt, /You do not supply botanical names/);
   });
 
   it('tells the agent to onboard when the name is unknown', () => {
@@ -672,7 +684,7 @@ describe('runAgent', () => {
     const client = fakeClient([
       toolResponse('save_formulation', {
         condition_std: 'Malaria',
-        plants: [{ local_name: 'dongoyaro', botanical: 'Azadirachta indica' }],
+        plants: [{ local_name: 'dongoyaro' }],
         confidence_score: 0.9,
       }, { text: 'Saving that now.' }),
       textResponse('Done — saved as FM-00001.'),
@@ -819,9 +831,10 @@ describe('getOrCreatePractitioner', () => {
     db.getPractitioner = async phone => (first ? null : fake.store.practitioners.find(p => p.phone_number === phone) ?? null);
     db.createPractitioner = async args => {
       first = false;
-      const row = await realCreate(args);
-      throw new Error('duplicate key'); // the row landed, but our insert lost the race
-      return row; // eslint-disable-line no-unreachable
+      await realCreate(args);
+      // The row landed, but our insert lost the race — which is what the caller
+      // has to recover from, so the created row is never returned here.
+      throw new Error('duplicate key');
     };
 
     const { practitioner, isNew } = await getOrCreatePractitioner('+2348111111111');
@@ -1600,5 +1613,115 @@ describe('quick-reply buttons', () => {
     const { text, choices } = splitChoices('All done.\n[[ ]]');
     assert.equal(text, 'All done.');
     assert.deepEqual(choices, []);
+  });
+});
+
+// ─── botanical names are resolved, never accepted ─────────────────────────────
+
+describe('a fabricated botanical name cannot reach a record', () => {
+  // The index used to live in the system prompt and the model wrote the answer
+  // into the record. Recall from 442 mappings in context is exactly the task a
+  // small local model fails quietly at, and a half-remembered binomial was
+  // indistinguishable, in the stored row, from a correct one.
+
+  it('refuses a botanical name supplied by the model', async () => {
+    const p = fake.store.seedPractitioner();
+    const result = await executeTool('save_formulation', {
+      plants: [{ local_name: 'dongoyaro', botanical: 'Totally Invented' }],
+      confidence_score: 0.9,
+    }, ctx(p));
+
+    assert.equal(result.ok, false);
+    assert.match(result.error, /not permitted/);
+    assert.equal(fake.store.formulations.length, 0, 'nothing is written on a rejected input');
+  });
+
+  it('resolves the botanical name from the index instead', async () => {
+    const p = fake.store.seedPractitioner();
+    const result = await executeTool('save_formulation', {
+      plants: [{ local_name: 'ewe dongoyaro', quantity_raw: 'two handfuls' }],
+      confidence_score: 0.9,
+    }, ctx(p));
+
+    assert.equal(result.ok, true);
+    const saved = fake.store.formulations[0];
+    assert.equal(saved.plants[0].botanical, 'Azadirachta indica');
+    assert.equal(saved.plants[0].botanical_source, 'plant_index');
+    // The practitioner's own words are what was stored, untouched.
+    assert.equal(saved.plants[0].local_name, 'ewe dongoyaro');
+    assert.equal(saved.plants[0].quantity_raw, 'two handfuls');
+  });
+
+  it('leaves an unknown name unresolved rather than guessing', async () => {
+    const p = fake.store.seedPractitioner();
+    const result = await executeTool('save_formulation', {
+      plants: [{ local_name: 'a name no index holds' }],
+      confidence_score: 0.9,
+    }, ctx(p));
+
+    assert.equal(result.ok, true);
+    assert.equal(fake.store.formulations[0].plants[0].botanical, null);
+    assert.equal(fake.store.formulations[0].plants[0].botanical_source, null);
+    assert.deepEqual(result.unknown_plants, ['a name no index holds']);
+  });
+
+  it('reports what it resolved, so the agent can say it accurately', async () => {
+    const p = fake.store.seedPractitioner();
+    const result = await executeTool('save_formulation', {
+      plants: [{ local_name: 'dongoyaro' }, { local_name: 'a name no index holds' }],
+      confidence_score: 0.9,
+    }, ctx(p));
+
+    assert.deepEqual(result.plants.map(x => [x.local_name, x.botanical]), [
+      ['dongoyaro', 'Azadirachta indica'],
+      ['a name no index holds', null],
+    ]);
+  });
+
+  it('keeps botanicals resolved when a practitioner edits the plants list', async () => {
+    // Writing the edit through unchanged would strip the botanical off a record
+    // every time somebody corrected a quantity.
+    const p = fake.store.seedPractitioner();
+    await executeTool('save_formulation', { plants: [{ local_name: 'dongoyaro' }], confidence_score: 0.9 }, ctx(p));
+
+    await executeTool('update_formulation', {
+      short_code: 'FM-00001',
+      plants: [{ local_name: 'dongoyaro', quantity_raw: 'three handfuls' }],
+    }, ctx(p, ['FM-00001']));
+
+    const row = fake.store.formulations[0];
+    assert.equal(row.plants[0].botanical, 'Azadirachta indica');
+    assert.equal(row.plants[0].quantity_raw, 'three handfuls');
+  });
+});
+
+describe('lookup_plant', () => {
+  it('returns what the index holds for a known name', async () => {
+    const p = fake.store.seedPractitioner();
+    const result = await executeTool('lookup_plant', { local_name: 'dongoyaro' }, ctx(p));
+
+    assert.equal(result.found, true);
+    assert.equal(result.ambiguous, false);
+    assert.equal(result.botanical, 'Azadirachta indica');
+  });
+
+  it('distinguishes a name it does not hold from one it cannot place', async () => {
+    const p = fake.store.seedPractitioner();
+    const missing = await executeTool('lookup_plant', { local_name: 'a name no index holds' }, ctx(p));
+
+    assert.equal(missing.found, false);
+    assert.match(missing.note, /not in Sanko's plant index/);
+    // And it tells the agent not to fill the gap itself, which is the whole point.
+    assert.match(missing.note, /Do not supply a botanical name yourself/);
+  });
+
+  it('matches the same name the save tools would resolve', async () => {
+    // One index, one normalisation. If these ever disagreed, the agent would
+    // tell a practitioner one thing and record another.
+    const p = fake.store.seedPractitioner();
+    const looked = await executeTool('lookup_plant', { local_name: 'Ewe Dongoyaro' }, ctx(p));
+    await executeTool('save_formulation', { plants: [{ local_name: 'Ewe Dongoyaro' }], confidence_score: 0.9 }, ctx(p));
+
+    assert.equal(looked.botanical, fake.store.formulations[0].plants[0].botanical);
   });
 });

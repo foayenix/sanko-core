@@ -261,7 +261,7 @@ describe('corrections capture', () => {
     const p = fake.store.seedPractitioner();
     await executeTool('save_formulation', {
       condition_std: 'Malaria',
-      plants: [{ local_name: 'dongoyaro', botanical: 'Azadirachta indica' }],
+      plants: [{ local_name: 'dongoyaro' }],
       confidence_score: 0.9,
     }, ctx(p));
     return p;
@@ -286,12 +286,14 @@ describe('corrections capture', () => {
     const p = await seeded();
     await executeTool('update_formulation', {
       short_code: 'FM-00001',
-      plants: [{ local_name: 'dongoyaro', botanical: 'Khaya senegalensis' }],
+      plants: [{ local_name: 'iroko' }],
     }, ctx(p, ['FM-00001']));
 
     const correction = fake.store.corrections.find(c => c.field === 'plants');
+    // Both sides resolved from the index, so the correction records what was
+    // actually stored rather than what the model said.
     assert.equal(correction.before_value[0].botanical, 'Azadirachta indica');
-    assert.equal(correction.after_value[0].botanical, 'Khaya senegalensis');
+    assert.equal(correction.after_value[0].local_name, 'iroko');
   });
 
   it('records one row per changed field', async () => {

@@ -1,5 +1,24 @@
 # Practitioner-reviewed evaluation set
 
+```bash
+npm run review:status                       # where the set stands against the gate
+npm run review:packets                      # something a practitioner can read
+npm run review:packets -- --language yo     # one language at a time
+npm run review:apply -- --file evals/review/decisions.json
+```
+
+`review:packets` writes one plain-text packet per unreviewed case — what the
+practitioner said, what Sanko is expected to record, and the four rubric
+questions — plus a combined file for printing and a pre-filled decisions file.
+`review:apply` writes the approvals back into the case files. It refuses a
+`reviewer_ref` that is a name, a phone number or a database id, and it never
+writes anything for a rejected case: a rejection means the case needs fixing or
+removing, and a review block on it would make it look checked.
+
+Nothing in this repository can approve a case. `apply` only records a decision a
+person already made.
+
+
 `npm run eval:reviewed` runs the real agent loop only on practitioner-approved cases and
 fails before making model calls unless at least 100 are eligible. The current eight cases
 are exploratory and do not count toward that threshold.

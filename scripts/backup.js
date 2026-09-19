@@ -21,7 +21,7 @@
 // The key is not in this repository and must not be. Losing it loses the
 // backups; storing it beside them defeats the encryption.
 
-require('dotenv').config();
+require('dotenv').config({ quiet: true });
 const { execFileSync } = require('child_process');
 const crypto = require('crypto');
 const fs = require('fs');
@@ -231,7 +231,7 @@ function verify() {
   try {
     sql = zlib.gunzipSync(Buffer.concat([decipher.update(blob.subarray(28)), decipher.final()]));
   } catch (err) {
-    throw new Error(`Decryption failed: ${err.message}\n\nEither BACKUP_ENCRYPTION_KEY is not the key this was written with, or the file was altered.`);
+    throw new Error(`Decryption failed: ${err.message}\n\nEither BACKUP_ENCRYPTION_KEY is not the key this was written with, or the file was altered.`, { cause: err });
   }
   console.log(`  ✓ decrypts and decompresses (${(sql.length / 1024 / 1024).toFixed(2)} MB of SQL)`);
 

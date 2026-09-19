@@ -25,6 +25,12 @@ class TtlSet {
     this.entries.set(key, Date.now() + this.ttlMs);
   }
 
+  // Forget an entry before its TTL. The webhook uses this to undo a claim it
+  // took for work that then did not start, so the retry is not swallowed.
+  delete(key) {
+    return this.entries.delete(key);
+  }
+
   _prune() {
     const now = Date.now();
     for (const [key, expiry] of this.entries) {

@@ -163,3 +163,158 @@ describe('Baileys WhatsApp test adapter', () => {
     }
   });
 });
+
+describe('Baileys messages survive the process that accepted them', () => {
+  const {
+    claimIdFor, completeClaims, recoverInbound, TRANSPORT,
+  } = require('../src/services/baileys');
+  const db = require('../src/services/supabase');
+
+  // Enough of a transport to answer the two questions recovery asks it: is the
+  // media still here, and can I reach this person.
+  function fakeTransport({ media = [] } = {}) {
+    const cached = new Set(media);
+    const sent = [];
+    return {
+      sent,
+      hasMedia: id => cached.has(id),
+      sendTextMessage: async (to, text) => { sent.push({ to, text }); return true; },
+    };
+  }
+
+  function fakeAggregator() {
+    const pushed = [];
+    return { pushed, push: (key, item) => pushed.push({ key, id: item.id, type: item.type }) };
+  }
+
+  // A claim as the inbound handler writes it, aged past the grace period.
+  function claim(store, id, message, { ageSeconds = 3600, attempts = 1 } = {}) {
+    store.processedMessages.set(claimIdFor(id), {
+      message_id: claimIdFor(id),
+      transport: TRANSPORT,
+      payload: { from: '+447700900123', jid: '447700900123@s.whatsapp.net', message },
+      attempts,
+      completed_at: null,
+      first_seen_at: new Date(Date.now() - ageSeconds * 1000).toISOString(),
+    });
+  }
+
+  const text = id => ({ id, type: 'text', text: { body: 'for malaria, boil the leaves' } });
+  const voiceNote = id => ({ id, type: 'audio', audio: { id } });
+
+  it('re-enqueues a text message whose turn never ran, with what was said', async () => {
+    const fake = installFakeDb();
+    try {
+      claim(fake.store, 'wam-text', text('wam-text'));
+      const aggregator = fakeAggregator();
+
+      const result = await recoverInbound({ transport: fakeTransport(), aggregator });
+
+      assert.equal(result.recovered, 1);
+      assert.deepEqual(aggregator.pushed, [{ key: '+447700900123', id: 'wam-text', type: 'text' }]);
+    } finally { fake.restore(); }
+  });
+
+  it('closes a claim it cannot route rather than leaving it pending forever', async () => {
+    const fake = installFakeDb();
+    try {
+      claim(fake.store, 'wam-broken', undefined);   // a payload with no message in it
+      const aggregator = fakeAggregator();
+
+      const result = await recoverInbound({ transport: fakeTransport(), aggregator });
+
+      assert.equal(result.recovered, 0);
+      assert.deepEqual(aggregator.pushed, []);
+      assert.notEqual(fake.store.processedMessages.get(claimIdFor('wam-broken')).completed_at, null);
+    } finally { fake.restore(); }
+  });
+
+  it('asks for a voice note again rather than answering one it cannot hear', async () => {
+    // The media cache is in memory. A restart leaves the envelope without its
+    // bytes, and running the turn anyway would reply to a formulation nobody
+    // could listen to — omitting what the practitioner actually said.
+    const fake = installFakeDb();
+    try {
+      claim(fake.store, 'wam-voice', voiceNote('wam-voice'));
+      const aggregator = fakeAggregator();
+      const transport = fakeTransport({ media: [] });   // cache emptied by the restart
+
+      const result = await recoverInbound({ transport, aggregator });
+
+      assert.equal(result.recovered, 0);
+      assert.equal(result.unreadable, 1);
+      assert.deepEqual(aggregator.pushed, []);
+      assert.match(transport.sent[0].text, /Please send it again/);
+      assert.equal(transport.sent[0].to, '+447700900123');
+      // And it is closed, so they are not asked a second time.
+      assert.notEqual(fake.store.processedMessages.get(claimIdFor('wam-voice')).completed_at, null);
+    } finally { fake.restore(); }
+  });
+
+  it('replays a voice note whose media this process still holds', async () => {
+    // A turn that died inside a still-running process: the cache is intact.
+    const fake = installFakeDb();
+    try {
+      claim(fake.store, 'wam-voice', voiceNote('wam-voice'));
+      const aggregator = fakeAggregator();
+      const transport = fakeTransport({ media: ['wam-voice'] });
+
+      const result = await recoverInbound({ transport, aggregator });
+
+      assert.equal(result.recovered, 1);
+      assert.equal(result.unreadable, 0);
+      assert.deepEqual(transport.sent, []);
+      assert.deepEqual(aggregator.pushed.map(p => p.id), ['wam-voice']);
+    } finally { fake.restore(); }
+  });
+
+  it('closes claims when the turn is over', async () => {
+    const fake = installFakeDb();
+    try {
+      claim(fake.store, 'wam-done', text('wam-done'));
+
+      await completeClaims([text('wam-done')]);
+
+      const row = fake.store.processedMessages.get(claimIdFor('wam-done'));
+      assert.notEqual(row.completed_at, null);
+      assert.equal(row.payload, null, 'the practitioner’s words are dropped once the work is done');
+      assert.equal((await recoverInbound({ transport: fakeTransport(), aggregator: fakeAggregator() })).recovered, 0);
+    } finally { fake.restore(); }
+  });
+
+  it('leaves the Meta webhook’s messages alone', async () => {
+    // Two processes, one table. Each can only replay its own: this adapter has
+    // no wamid it could answer, and the webhook has no socket to a linked phone.
+    const fake = installFakeDb();
+    try {
+      claim(fake.store, 'wam-mine', text('wam-mine'));
+      fake.store.processedMessages.set('wamid.theirs', {
+        message_id: 'wamid.theirs', transport: 'meta',
+        payload: { from: '+2348000000001', message: { id: 'wamid.theirs', type: 'text' } },
+        attempts: 1, completed_at: null,
+        first_seen_at: new Date(Date.now() - 3600_000).toISOString(),
+      });
+
+      const aggregator = fakeAggregator();
+      const result = await recoverInbound({ transport: fakeTransport(), aggregator });
+
+      assert.equal(result.recovered, 1);
+      assert.deepEqual(aggregator.pushed.map(p => p.id), ['wam-mine']);
+      // Untouched: not replayed, and its attempt not spent on this adapter's behalf.
+      const theirs = fake.store.processedMessages.get('wamid.theirs');
+      assert.equal(theirs.completed_at, null);
+      assert.equal(theirs.attempts, 1);
+    } finally { fake.restore(); }
+  });
+
+  it('namespaces its claim ids so a chat-scoped id cannot collide with a wamid', async () => {
+    const fake = installFakeDb();
+    try {
+      // The same id from both transports. Baileys ids are unique per chat, not
+      // globally, and this table is keyed on exactly that.
+      assert.equal(await db.claimMessage('ABC123', 'meta', { payload: {} }), true);
+      assert.equal(await db.claimMessage(claimIdFor('ABC123'), TRANSPORT, { payload: {} }), true);
+      assert.equal(fake.store.processedMessages.size, 2);
+    } finally { fake.restore(); }
+  });
+});

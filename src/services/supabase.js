@@ -659,11 +659,15 @@ async function contributorTermsStats(currentHash) {
 // than dropped. Duplicate processing is recoverable — the practitioner sees a
 // repeated reply and can delete a record; silently discarding what they said is
 // not.
-async function claimMessage(message_id, transport = 'meta') {
+// The claim carries the message (019), so that what was accepted survives the
+// process that accepted it. Without the payload a claim records only that
+// something arrived, which is enough to avoid doing the work twice and no help
+// at all in doing it once.
+async function claimMessage(message_id, transport = 'meta', { payload = null } = {}) {
   if (!message_id) return true;
   const { error } = await getClient()
     .from('processed_messages')
-    .insert({ message_id, transport });
+    .insert({ message_id, transport, payload, attempts: 1 });
 
   if (!error) return true;
   // 23505 — unique violation. Someone (or some earlier delivery) got there first.
@@ -673,9 +677,119 @@ async function claimMessage(message_id, transport = 'meta') {
   return true;
 }
 
+// Marks the work done and drops the practitioner's message.
+//
+// Called whether the turn succeeded or failed visibly: both mean nobody is left
+// waiting on a reply that never comes, which is the only thing recovery exists
+// to prevent. A process that dies mid-turn never reaches here, and that is
+// exactly the row the sweep is looking for.
+async function completeMessage(message_id) {
+  if (!message_id) return;
+  const { error } = await getClient()
+    .from('processed_messages')
+    .update({ completed_at: new Date().toISOString(), payload: null })
+    .eq('message_id', message_id);
+  // Worth a warning, not a throw: the turn has already happened. The cost of a
+  // failed completion is that the sweep runs it again, which is the direction
+  // this whole mechanism errs in anyway.
+  if (error) log.warn('dedup.complete_failed', { message_id, error: error.message });
+}
+
+// Inbound messages that were accepted and never finished.
+//
+// `olderThanSeconds` must exceed the longest legitimate turn, or the sweep will
+// pick up work that is still running and hand a second copy to the agent. The
+// turn lease (012) would stop the two from interleaving, but the practitioner
+// would still get their message answered twice.
+//
+// Rows written before 019 carry no payload. They are closed rather than left
+// alone: there is nothing to re-enqueue, and a row that is permanently pending
+// is one the prune will never remove and the sweep will re-read forever.
+//
+// `transport` is not optional in practice. The Meta webhook and the Baileys
+// adapter are separate processes against one database, and each can only replay
+// its own messages: the webhook has no socket to the linked phone, and Baileys
+// has no wamid it could answer. A sweep that ignored the column would have each
+// of them burn the other's attempts and abandon its messages for it.
+async function recoverPendingMessages({ transport = null, olderThanSeconds = 900, maxAttempts = 3, limit = 100 } = {}) {
+  const cutoff = new Date(Date.now() - olderThanSeconds * 1000).toISOString();
+  let query = getClient()
+    .from('processed_messages')
+    .select('message_id, transport, payload, attempts, first_seen_at')
+    .is('completed_at', null)
+    .lt('first_seen_at', cutoff);
+  if (transport) query = query.eq('transport', transport);
+
+  const { data, error } = await query
+    .order('first_seen_at', { ascending: true })
+    .limit(limit);
+  if (error) throw new Error(error.message);
+
+  const pending = [];
+  const abandoned = [];
+  const unreplayable = [];
+  for (const row of data ?? []) {
+    // Nothing to replay — a claim from before 019. Closed quietly; it is not a
+    // message that went missing on this deployment's watch.
+    if (!row.payload) { unreplayable.push(row); continue; }
+    // The attempt that is about to happen would be number attempts + 1. Past the
+    // cap, stop: a message that takes the process down with it must not take it
+    // down again on every boot until someone notices.
+    if (row.attempts >= maxAttempts) { abandoned.push(row); continue; }
+    pending.push(row);
+  }
+
+  const closed = [...abandoned, ...unreplayable];
+  if (closed.length) {
+    await getClient()
+      .from('processed_messages')
+      .update({ completed_at: new Date().toISOString(), payload: null })
+      .in('message_id', closed.map(row => row.message_id));
+  }
+
+  if (pending.length) {
+    // Counted before the work, not after. A crash during the retry must still
+    // spend the attempt, or the cap never binds on the failure mode it exists for.
+    for (const row of pending) {
+      await getClient()
+        .from('processed_messages')
+        .update({ attempts: row.attempts + 1 })
+        .eq('message_id', row.message_id);
+    }
+  }
+
+  return { pending, abandoned };
+}
+
+// Gives a claim back. Called when the delivery that took it is not going to be
+// processed after all — the webhook withholds its acknowledgement in that case,
+// and a retry deduplicated against a claim for work nobody started would be a
+// message silently dropped.
+async function releaseMessageClaim(message_id) {
+  if (!message_id) return;
+  const { error } = await getClient()
+    .from('processed_messages')
+    .delete()
+    .eq('message_id', message_id);
+  if (error) log.warn('dedup.release_failed', { message_id, error: error.message });
+}
+
+// Keeps the table small. Meta stops retrying long before the cutoff, so a
+// completed row past it is dead weight.
+//
+// Only completed rows (019). Deleting an outstanding one would throw away a
+// message the sweep has not recovered yet — the prune runs hourly and the sweep
+// every few minutes, so in practice it never races, but "in practice" is the
+// wrong standard for the table that exists to stop messages going missing.
+// Rows predating 019 have no completed_at and no payload, so they are swept to
+// completion by recoverPendingMessages' abandon path and pruned on the next run.
 async function pruneProcessedMessages({ olderThanHours = 24 } = {}) {
   const cutoff = new Date(Date.now() - olderThanHours * 3_600_000).toISOString();
-  const { error } = await getClient().from('processed_messages').delete().lt('first_seen_at', cutoff);
+  const { error } = await getClient()
+    .from('processed_messages')
+    .delete()
+    .lt('first_seen_at', cutoff)
+    .not('completed_at', 'is', null);
   if (error) log.warn('dedup.prune_failed', { error: error.message });
 }
 
@@ -973,7 +1087,13 @@ async function listHeldOutCorrections() {
 async function listCorrectionsForExport({ onlyUnexported = true, limit = 5000 } = {}) {
   let query = getClient()
     .from('corrections')
-    .select('id, field, before_value, after_value, source, model, created_at, formulations(short_code, original_text, original_language, condition_local, condition_std, plants, preparation, dosage)')
+    // practitioner_id is not decoration: the export splits train/valid/test by
+    // it, and checks each practitioner's contributor terms with it. Selected
+    // without it, every row arrived with practitioner_id undefined, the split
+    // silently fell back to bucketing by correction id — putting one
+    // practitioner's phrasing in both train and test — and no consent check had
+    // anyone to ask about.
+    .select('id, practitioner_id, field, before_value, after_value, source, model, created_at, formulations(short_code, original_text, original_language, condition_local, condition_std, plants, preparation, dosage)')
     .order('created_at', { ascending: true })
     .limit(limit);
   if (onlyUnexported) query = query.is('exported_at', null);
@@ -1456,6 +1576,9 @@ module.exports = {
   listKnowledgeUses,
   contributorTermsStats,
   claimMessage,
+  completeMessage,
+  recoverPendingMessages,
+  releaseMessageClaim,
   pruneProcessedMessages,
   acquireTurnLock,
   releaseTurnLock,

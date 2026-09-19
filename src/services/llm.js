@@ -279,9 +279,9 @@ function ollamaClient() {
         } catch (err) {
           const detail = err.response?.data?.error ?? err.message;
           if (err.code === 'ECONNREFUSED') {
-            throw new Error(`Ollama is not reachable at ${OLLAMA_BASE_URL}. Is \`ollama serve\` running?`);
+            throw new Error(`Ollama is not reachable at ${OLLAMA_BASE_URL}. Is \`ollama serve\` running?`, { cause: err });
           }
-          throw new Error(`Ollama request failed: ${detail}`);
+          throw new Error(`Ollama request failed: ${detail}`, { cause: err });
         }
         return fromOllamaResponse(data, tools);
       },

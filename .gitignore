@@ -51,6 +51,12 @@ data/plants/build_report.json
 # into evals/cases/, is safe to commit. The runner ignores this directory.
 evals/cases/drafts/
 
+# Review packets and the decisions file a practitioner fills in. Generated from
+# the cases, and the decisions file carries a reviewer's working notes — the
+# approval itself belongs in the case, which is where `eval-review.js apply`
+# writes it.
+evals/review/
+
 # Encrypted database dumps. Encrypted is not a licence to commit them: the
 # manifest alone records row counts, and a key that ever leaks makes every
 # committed dump readable forever.

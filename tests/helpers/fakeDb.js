@@ -74,13 +74,47 @@ function installFakeDb() {
     },
 
     // ── durable runtime state (012) ──
-    async claimMessage(message_id, transport = 'meta') {
+    async claimMessage(message_id, transport = 'meta', { payload = null } = {}) {
       if (!message_id) return true;
       if (store.processedMessages.has(message_id)) return false;
-      store.processedMessages.set(message_id, { transport, first_seen_at: now() });
+      store.processedMessages.set(message_id, {
+        message_id, transport, payload, attempts: 1, completed_at: null, first_seen_at: now(),
+      });
       return true;
     },
-    async pruneProcessedMessages() {},
+    async completeMessage(message_id) {
+      const row = store.processedMessages.get(message_id);
+      if (row) Object.assign(row, { completed_at: now(), payload: null });
+    },
+    async recoverPendingMessages({ transport = null, olderThanSeconds = 900, maxAttempts = 3, limit = 100 } = {}) {
+      const cutoff = Date.now() - olderThanSeconds * 1000;
+      const pending = [];
+      const abandoned = [];
+      const closed = [];
+      const candidates = [...store.processedMessages.values()]
+        .filter(row => !row.completed_at && Date.parse(row.first_seen_at) < cutoff)
+        .filter(row => !transport || row.transport === transport)
+        .sort((a, b) => Date.parse(a.first_seen_at) - Date.parse(b.first_seen_at))
+        .slice(0, limit);
+
+      for (const row of candidates) {
+        if (!row.payload) { closed.push(row); continue; }
+        if (row.attempts >= maxAttempts) { abandoned.push(row); closed.push(row); continue; }
+        pending.push({ ...row });
+      }
+      for (const row of closed) Object.assign(row, { completed_at: now(), payload: null });
+      for (const row of pending) store.processedMessages.get(row.message_id).attempts = row.attempts + 1;
+      return { pending, abandoned };
+    },
+    async releaseMessageClaim(message_id) {
+      store.processedMessages.delete(message_id);
+    },
+    async pruneProcessedMessages({ olderThanHours = 24 } = {}) {
+      const cutoff = Date.now() - olderThanHours * 3_600_000;
+      for (const [id, row] of store.processedMessages) {
+        if (row.completed_at && Date.parse(row.first_seen_at) < cutoff) store.processedMessages.delete(id);
+      }
+    },
     async acquireTurnLock(practitioner_id, holder, ttlSeconds) {
       const held = store.turnLocks.get(practitioner_id);
       if (held && held.expires_at > Date.now()) return false;

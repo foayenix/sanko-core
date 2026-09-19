@@ -119,6 +119,20 @@ sync, non-allowlisted numbers, and messages sent by the linked account are ignor
 Interactive choices are rendered as a numbered text list because that is the most
 reliable format across consumer WhatsApp clients.
 
+The adapter runs on the same durability path as the webhook (019): it claims each
+message before the turn, closes the claim after, and sweeps for unfinished work on
+connect and every few minutes. Claims are filed under the `baileys` transport and
+their ids namespaced, because a Baileys message id is unique to its chat rather than
+globally — the two adapters share one table and neither can replay the other's
+messages. This also gives the adapter deduplication it did not have: WhatsApp replays
+on reconnect, and every replay used to be answered as though it were new.
+
+**A recovered voice note or photo cannot be replayed.** The media cache is in memory,
+so a restart leaves the envelope without its bytes. Rather than answer a formulation
+nobody could listen to, the adapter tells the practitioner it lost the message and
+asks them to send it again — the one thing they can act on. Text and interactive
+replies replay normally.
+
 ## How it works
 
 An inbound message becomes content blocks and goes to a tool-calling agent. The agent
@@ -230,7 +244,7 @@ practitioners use the bot
         ↓
 they correct what the model wrote     → corrections table       (automatic)
         ↓
-npm run export-training               → training/data/*.jsonl   (one command)
+npm run export-training  [--dry-run]  → training/data/*.jsonl   (consent-gated)
         ↓
 mlx_lm.lora                           → an adapter              (see training/)
         ↓
@@ -247,8 +261,8 @@ what the answer should be.
 The slow loop above needs hundreds of corrections and a training run. The fast one
 needs neither. Every local name the agent cannot place botanically is already flagged
 (`unknown_plant_flagged`); confirming one puts it into `data/plant_lookup_v1.json`,
-which is interpolated into the agent's system prompt — so the next conversation that
-mentions the plant gets it right, with no model change at all.
+which every save resolves against — so the next conversation that mentions the plant
+gets it right, with no model change at all.
 
 ```bash
 npm run plants:pull       # queue the unknown names, most-seen first
@@ -369,8 +383,19 @@ transcript, with the page shown beside the text. Corrections are filed under
 trains Whisper, and a pooled set would train each on the other's mistakes.
 
 ```bash
-npm run export-vision     # corrected pages → training/vision/{train,valid,test}.jsonl + images/
+npm run export-vision -- --dry-run   # who may be included; writes nothing
+npm run export-vision -- --recorded-by OP-4C21 \
+  --counterparty "Sanko — internal fine-tune" \
+  --purpose "Vision adapter for page readings" \
+  --benefit-terms "Better readings of their own notebooks; no redistribution"
 ```
+
+Both exports run through the consent gate described under
+[Knowledge governance](#knowledge-governance): a page belonging to a practitioner
+who has not accepted the current contributor terms is excluded and named, and what
+is exported is written into the knowledge-use ledger. The terms are still a draft
+and not in force, so an export today refuses and says so — that is the gate
+working, not a misconfiguration.
 
 Formulations already extracted from a corrected page are **not** rewritten — they
 are the practitioner's records. The review reports their short codes so a human
@@ -393,6 +418,16 @@ photo with no writing → agent asks what they call it
                       → botanical name resolved from data/plant_lookup_v1.json
                       → specimens row (SP-00001), or the review queue if unresolved
 ```
+
+The same rule governs formulations: `save_formulation` and `update_formulation`
+resolve every plant against the index in code, and neither accepts a `botanical`
+field from the model — a schema that rejects one is what makes a fabricated binomial
+impossible rather than merely discouraged. `lookup_plant` exists so the agent can
+still tell a practitioner what the index holds, without the index being in its
+prompt. The index used to be pasted into the system prompt (442 mappings, ~4,330
+tokens on every call of every iteration) with the model asked to recall the right
+one and write it into a permanent record; reading an answer out of a tool result is
+a different and far easier task than recalling it.
 
 **The name comes from the practitioner and the binomial comes from the index. A
 model supplies neither.** Both halves are enforced in code rather than asked for
@@ -504,6 +539,24 @@ A run exits **non-zero on any hallucination**, so a promotion script can gate on
 Results land in `evals/results/` — diff two to answer the only question that matters
 after a fine-tune.
 
+**Comparing local models.** `npm run eval:bakeoff -- model-a,model-b` runs the same
+cases against each candidate in one process and prints a table. Every scorecard
+carries a fingerprint of the exact cases it scored — their ids and their contents —
+and the comparison refuses to rank runs whose fingerprints differ, because "keep the
+case set frozen" was previously a line in a README and nothing else. The table is
+ordered by hallucinations first and mean score second: a model that invents a
+botanical name is not a slightly worse model, it is one that cannot be used here.
+
+The bake-off needs the models, so it runs where they live — the machine with Ollama
+and the weights on it, not CI.
+
+**Practitioner review.** `npm run review:status` shows where the set stands against
+the 100-case gate and its coverage across language, medium, unknown plants,
+corrections, browsing and consent-gated workflows. `npm run review:packets` turns
+unreviewed cases into plain-text packets a practitioner can read without the
+repository, and `npm run review:apply` writes their decisions back. See
+[`evals/README.md`](evals/README.md).
+
 ### Training
 
 See [training/README.md](training/README.md) for the MLX workflow, model sizing on a
@@ -553,6 +606,10 @@ See `.env.example`. The ones that matter most:
 | `WHISPER_TRANSCODE` | `true` | ogg/opus → 16 kHz WAV via ffmpeg |
 | `AGENT_TOOLS` | `vault` | `full` requests patient tools; ignored unless the patient flag is also enabled |
 | `PATIENT_TRACKING_ENABLED` | `false` | Explicitly enables consent-gated patient tools when set to `true` |
+| `INBOUND_RECOVERY_AFTER_SECONDS` | `max(900, lease × 1.5)` | How long a message may be outstanding before the sweep re-enqueues it. Must exceed `AGENT_TURN_LEASE_SECONDS` |
+| `INBOUND_RECOVERY_MAX_ATTEMPTS` | `3` | Retries before a message is given up on and logged at error level |
+| `INBOUND_RECOVERY_INTERVAL_MS` | `300000` | How often the recovery sweep runs |
+| `ALLOW_UNSIGNED_WEBHOOKS` | `false` | Accepts unsigned webhooks in production. Anyone who finds the URL can then write to a Vault |
 | `CONTRIBUTOR_TERMS_IN_FORCE` | `false` | Lets the agent put the contributor terms to a practitioner. Leave false until the draft in `governance/` has had legal review and practitioner consultation |
 | `WHATSAPP_PATIENT_CONSENT_TEMPLATE` | `sanko_patient_consent_v1` | Approved patient consent template name |
 | `WHATSAPP_PATIENT_CONSENT_LANGUAGE` | `en` | Approved template language code |
@@ -581,6 +638,7 @@ Run the migrations in order in the Supabase SQL editor:
 015_page_transcription.sql                  ← readings of photographed pages + who read them
 016_landing_enquiries.sql                   ← public form submissions
 018_specimens.sql                           ← practitioner-named plant photographs
+019_inbound_message_recovery.sql            ← inbound payloads + recovery of unfinished turns
 ```
 
 `npm run migrate:status` shows what is applied and what is not. Migration 017 is
@@ -593,6 +651,27 @@ service-role key, which bypasses RLS. Do not add a `using (true)` policy.
 > This repository supports a local stack; it does not migrate existing hosted data.
 
 ## Operations
+
+### Where a turn's time goes
+
+Latency on this stack is worth measuring rather than guessing: a local 32B is
+single-digit tokens per second, and a turn that feels slow is often several fast
+calls rather than one slow one.
+
+Every model call writes an `llm_call` event carrying `duration_ms`, `iteration`,
+`input_tokens`, `output_tokens` and `output_tps` (output tokens per second — the
+number that says whether a model swap or a shorter prompt is the lever). Voice
+notes write a `whisper_call` event with `duration_ms` and `audio_bytes`, because
+transcription runs in front of the model and on a local CPU can outlast the turn
+it precedes. Page readings already log `ms` on `vision.page_transcribed`.
+
+All three also go to the log at info level, so a single turn can be read end to
+end without querying anything.
+
+Two fixed costs worth knowing about, neither of them the model: the aggregation
+debounce (`AGGREGATION_WINDOW_MS`, 2.5s by default) is added to every turn before
+the agent starts, and the system prompt plus tool schemas are resent on each of
+up to `AGENT_MAX_TOOL_ITERATIONS` round trips.
 
 ### Backups
 
@@ -639,6 +718,29 @@ message to anyone who will wait more than `AGENT_QUEUE_ACK_MS`. Across instances
 migration 012's turn lease stops two processes interleaving tool calls on one
 Vault, and inbound message dedup is durable rather than in one process's memory.
 
+**Messages survive the process that accepted them (019).** The webhook claims a
+message before it answers Meta, and the claim carries the message itself. A 200
+tells Meta to stop retrying, so a claim recording only that something arrived was
+enough to avoid doing the work twice and no help at all in doing it once: a
+process that died before the agent ran left a practitioner waiting on a reply to
+a formulation nothing in the system could still describe. A sweep re-enqueues
+anything outstanding — on boot, and every few minutes after — once it has been
+owed longer than `INBOUND_RECOVERY_AFTER_SECONDS`, which must exceed the turn
+lease so a slow turn is not mistaken for a dead one. The Baileys adapter runs the
+same path under its own `transport` value; see its section above for the one thing
+it cannot replay.
+
+Recovery is deliberately at-least-once: a turn that died halfway may have written
+something before it went, so a replay can repeat part of it. A duplicate reply, or
+a record the practitioner can delete, is recoverable; what they said going missing
+is not. `INBOUND_RECOVERY_MAX_ATTEMPTS` bounds it, so a message that crashes the
+process cannot take the service down on every boot — giving up on one is logged at
+error level, because a message nobody will answer is the thing this prevents.
+
+The held payload is practitioner content, so it lives exactly as long as the work
+does: erased on completion, on abandonment, and never restored. A finished row
+keeps its message id and nothing else, which is all dedup ever needed.
+
 ### Governance
 
 ```bash
@@ -666,6 +768,14 @@ is the mechanism:
 - `recordKnowledgeUse` **refuses** if any contributor has not accepted, or
   accepted a superseded version, and names every one of them. Benefit terms are
   required, because that is the field that would otherwise be left blank.
+- the **training exports go through the same gate** (`scripts/export-consent.js`).
+  Fine-tuning on a practitioner's corrections is a use beyond their Vault in
+  exactly the way a licence is, and it was the one such use that ran unchecked:
+  both export scripts read corrections straight out of the database and wrote
+  them into a training set. They now exclude and name every practitioner who has
+  not agreed, refuse outright when none has, and write what was used into the
+  ledger as a `dataset_export`. `--dry-run` reports eligibility without writing
+  anything.
 
 > The terms are a **draft with no legal review and no practitioner
 > consultation**. Both are prerequisites, neither is a schema problem, and the
@@ -676,8 +786,11 @@ is the mechanism:
 
 1. Set `META_VERIFY_TOKEN` to any secret string you choose.
 2. Set `META_APP_SECRET` (Meta Developer Console → App settings → Basic). Inbound
-   webhooks are verified against `X-Hub-Signature-256`; without the secret set,
-   verification is skipped — dev only, never in production.
+   webhooks are verified against `X-Hub-Signature-256`. Without the secret set,
+   verification is skipped outside production so a local run needs no Meta app;
+   under `NODE_ENV=production` the webhook refuses every request instead, unless
+   `ALLOW_UNSIGNED_WEBHOOKS=true` says the deployment meant it. A forged webhook
+   writes a formulation into a practitioner's Vault under their own name.
 3. Callback URL `https://<your-url>/webhook`, then subscribe to the `messages` field.
 
 Note the shape of this: WhatsApp itself is the one hop you cannot make private, because

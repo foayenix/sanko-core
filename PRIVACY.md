@@ -1,6 +1,6 @@
 # Sanko Vault — Privacy & Security Notice
 
-**Version 1.2 · September 2026 · Applicable to MVP v1**
+**Version 1.3 · September 2026 · Applicable to MVP v1**
 
 ---
 
@@ -103,6 +103,10 @@ Every formulation record stores you — the practitioner — as the **source of 
 - Patient-record retention must be configured by an approved governance policy; indefinite
   retention is not the default policy.
 - Conversation history is replayed to the assistant for 24 hours and then no longer used as context.
+- An inbound message is held briefly, exactly as WhatsApp delivered it, from the moment Sanko
+  accepts it until the assistant has finished replying. This is what stops a message being lost
+  if the service restarts mid-reply. The held copy is erased as soon as the reply is done, and
+  nothing beyond the message identifier is kept after that.
 - Events (technical logs) are kept for debugging; phone numbers in shared analytics are hashed. Technical logs may include voice-note transcripts and edit instructions you send, in order to diagnose problems.
 - Test-access applications are kept until the application is decided, and deleted within
   12 months of that decision. If an application is approved, the number then exists as a

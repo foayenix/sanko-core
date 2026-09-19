@@ -30,12 +30,12 @@ async function getOrCreatePractitioner(phoneNumber) {
       payload: { phone_number: phoneNumber },
     });
     return { practitioner: created, isNew: true };
-  } catch (_) {
+  } catch (err) {
     // Two webhooks for the same new number can race on the unique phone index —
     // whichever loses re-reads the winner's row.
     const raced = await db.getPractitioner(phoneNumber);
     if (raced) return { practitioner: raced, isNew: false };
-    throw new Error(`Could not create or retrieve practitioner for ${phoneNumber}`);
+    throw new Error(`Could not create or retrieve practitioner for ${phoneNumber}`, { cause: err });
   }
 }
 

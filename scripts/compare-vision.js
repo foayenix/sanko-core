@@ -28,7 +28,7 @@
 // Nothing here writes to the database and nothing is sent off the machine unless
 // you pass --backend anthropic explicitly.
 
-require('dotenv').config();
+require('dotenv').config({ quiet: true });
 const fs = require('fs');
 const path = require('path');
 

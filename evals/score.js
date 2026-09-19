@@ -73,6 +73,26 @@ function inputFor(calls, toolName) {
   return calls.find(c => c.name === toolName)?.input ?? null;
 }
 
+function resultFor(calls, toolName) {
+  return calls.find(c => c.name === toolName)?.result ?? null;
+}
+
+// Where the botanical names actually are.
+//
+// They used to arrive in the tool input, because the model supplied them from a
+// copy of the plant index in its prompt. They are resolved in code now, so the
+// name that reaches a record appears only in the tool result. Scoring the input
+// would score a field the model no longer sends, and read every case as a
+// botanical the agent failed to produce.
+//
+// The input is still the fallback, so scorecards produced before the change
+// remain comparable with the ones produced after it.
+function botanicalSource(calls) {
+  const resolved = resultFor(calls, 'save_formulation');
+  if (Array.isArray(resolved?.plants)) return resolved;
+  return inputFor(calls, 'save_formulation');
+}
+
 // Plant recall: of the plants actually mentioned, how many were recorded?
 function scorePlants(expect, formulation) {
   const wanted = (expect.plants_include ?? []).map(norm);
@@ -236,7 +256,7 @@ function scoreCase(testCase, calls, { error = null, replies = [] } = {}) {
   // save_formulation — what it *tried* to write, not what the fake DB stored.
   const formulation = inputFor(calls, 'save_formulation');
 
-  const botanicals = scoreBotanicals(expect, formulation);
+  const botanicals = scoreBotanicals(expect, botanicalSource(calls));
 
   const checks = {
     tools,

@@ -9,8 +9,7 @@
 // rather than returned at the end, so a practitioner sees "Let me save that…"
 // before a slow database write instead of silence.
 
-const fs = require('fs');
-const path = require('path');
+const log = require('../utils/log');
 const { selectTools, executeTool } = require('./tools');
 const { loadTemplate } = require('./prompt');
 const registration = require('./registration');
@@ -28,30 +27,17 @@ const MAX_TOOL_ITERATIONS = Number(process.env.AGENT_MAX_TOOL_ITERATIONS ?? 8);
 
 // ─── system prompt ────────────────────────────────────────────────────────────
 
-let _plantIndex;
-
-// A compact "local → botanical (english)" index. The full lookup file is ~33 KB
-// of parts and preparation hints the model does not need in-context; this is
-// about a fifth of that, and it is the half that prevents wrong guesses.
-function _loadPlantIndex() {
-  if (_plantIndex) return _plantIndex;
-  const file = path.join(__dirname, '../../data/plant_lookup_v1.json');
-  if (!fs.existsSync(file)) return (_plantIndex = '(plant lookup unavailable)');
-  const entries = JSON.parse(fs.readFileSync(file, 'utf8'));
-  _plantIndex = entries
-    .map(e => `${e.local_name} → ${e.botanical}${e.common_english ? ` (${e.common_english})` : ''}`)
-    .join('\n');
-  return _plantIndex;
-}
-
 function buildSystemPrompt(practitioner) {
   // Who they are and what registration still needs, from the one module that
   // decides both. Building this string here would let the prompt and the tool
   // gate hold different opinions about whether someone is registered.
   const known = registration.describeForPrompt(practitioner);
 
+  // The plant index used to be interpolated here — 442 mappings, ~4,330 tokens,
+  // on every call of every iteration. It is reached through the lookup_plant
+  // tool now, and resolved in code by the tools that write records, so neither
+  // the prompt nor the model carries it.
   return loadTemplate()
-    .replace('{{PLANT_INDEX}}', _loadPlantIndex())
     .replace('{{PRACTITIONER_CONTEXT}}', `${known}\nToday's date: ${new Date().toISOString().slice(0, 10)}`);
 }
 
@@ -142,15 +128,17 @@ async function runAgent({ practitioner, content, sourceMediaIds = [], send, send
   let accountDeleted = false;
 
   for (let iteration = 0; iteration < MAX_TOOL_ITERATIONS; iteration++) {
+    const startedAt = Date.now();
     const response = await client.messages.create({
       model: llm.modelName(),
       max_tokens: MAX_TOKENS,
-      // cache_control on the last system block caches the plant index across
+      // cache_control on the last system block caches the system prompt across
       // turns on the hosted provider; Ollama ignores it, which costs nothing.
       system: [{ type: 'text', text: buildSystemPrompt(practitioner), cache_control: { type: 'ephemeral' } }],
       tools,
       messages,
     });
+    const durationMs = Date.now() - startedAt;
 
     db.logEvent({
       practitioner_id: practitioner.id,
@@ -163,8 +151,27 @@ async function runAgent({ practitioner, content, sourceMediaIds = [], send, send
         stop_reason: response.stop_reason,
         input_tokens: response.usage?.input_tokens ?? null,
         output_tokens: response.usage?.output_tokens ?? null,
+        // Where a turn's time actually goes. `iteration` matters as much as the
+        // duration: a turn that feels slow is often four fast calls rather than
+        // one slow one, and the two have different fixes.
+        duration_ms: durationMs,
+        iteration,
+        // Output tokens per second, which is the number that tells you whether
+        // a model swap or a shorter prompt is the lever. Null when the provider
+        // does not report usage.
+        output_tps: response.usage?.output_tokens && durationMs
+          ? Math.round((response.usage.output_tokens / durationMs) * 1000 * 10) / 10
+          : null,
       },
     }).catch(() => {});
+
+    log.info('agent.llm_call', {
+      practitioner_id: practitioner.id,
+      iteration,
+      duration_ms: durationMs,
+      input_tokens: response.usage?.input_tokens ?? null,
+      output_tokens: response.usage?.output_tokens ?? null,
+    });
 
     // Snapshotted before this response joins the history on purpose. A
     // get_formulation in the *same* response has not put anything in front of

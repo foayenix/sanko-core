@@ -14,7 +14,7 @@
 // tells you whether the evidence supports a promotion and prints the one line you
 // then choose to apply.
 
-require('dotenv').config();
+require('dotenv').config({ quiet: true });
 const fs = require('fs');
 const path = require('path');
 

@@ -26,7 +26,7 @@
 // Drafts contain unreviewed practitioner speech, so evals/cases/drafts/ is
 // gitignored. Nothing here de-identifies anything; a person must.
 
-require('dotenv').config();
+require('dotenv').config({ quiet: true });
 const fs = require('fs');
 const path = require('path');
 

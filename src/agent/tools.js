@@ -25,12 +25,16 @@ const DELETE_CONFIRMATION = 'DELETE MY SANKO ACCOUNT';
 
 // ─── shared input schemas ─────────────────────────────────────────────────────
 
+// The binomial is not an input, for the same reason it is not one on
+// save_specimen: a botanical name the model supplies is a claim nobody checked,
+// attached to a real practitioner's remedy. Sanko resolves it from the index in
+// code and reports what it found. A model that sends `botanical` anyway is
+// rejected by validate() with "is not permitted" — the whitelist is the schema,
+// enforced deterministically before any executor runs.
 const PLANT_SCHEMA = {
   type: 'object',
   properties: {
-    local_name:          { type: 'string', minLength: 1, maxLength: 200, description: 'The name the practitioner used, verbatim.' },
-    botanical:           { type: ['string', 'null'], description: 'Botanical name, or null if not confident.' },
-    common_english:      { type: ['string', 'null'] },
+    local_name:          { type: 'string', minLength: 1, maxLength: 200, description: 'The name the practitioner used, verbatim. Sanko resolves the botanical name from this itself.' },
     quantity_raw:        { type: ['string', 'null'], description: 'Quantity as spoken, e.g. "two handfuls".' },
     quantity_normalised: { type: ['string', 'null'], description: 'Best-effort standard measure, e.g. "~60 g".' },
     part_used:           { type: ['string', 'null'], description: 'leaves | bark | root | seeds | whole plant …' },
@@ -215,6 +219,26 @@ const TOOLS = [
         part_used:   { type: ['string', 'null'], description: 'What is in the photo: leaves | bark | root | seeds | fruit | whole plant | dried material …' },
         familiarity: { type: ['string', 'null'], enum: ['frequently', 'occasionally', 'never', null], description: 'How often they say they work with this plant. Only if they said; never inferred.' },
         notes:       { type: ['string', 'null'], maxLength: 2000, description: 'Anything else they said about this specimen — where it grows, when it is gathered, what it is for.' },
+      },
+      required: ['local_name'],
+    },
+  },
+  {
+    name: 'lookup_plant',
+    description:
+      'Ask Sanko what botanical name its plant index holds for a local name. ' +
+      'Use it when the practitioner names a plant and you want to tell them what Sanko has ' +
+      'on record, or to check before answering a question about a name. ' +
+      'You do not need to call this before save_formulation or save_specimen — both resolve ' +
+      'the botanical name themselves from the same index. ' +
+      'If it returns found: false, the name is simply not in the index. Say so plainly and ' +
+      'do not supply a botanical name from your own knowledge: an unplaceable local name is ' +
+      'useful signal for the research team, and a guessed binomial is a false claim about ' +
+      'their medicine.',
+    input_schema: {
+      type: 'object',
+      properties: {
+        local_name: { type: 'string', minLength: 1, maxLength: 200, description: 'The plant name as the practitioner said it.' },
       },
       required: ['local_name'],
     },
@@ -423,7 +447,13 @@ const EXECUTORS = {
   },
 
   async save_formulation(input, { practitioner, sourceMediaId = null }) {
-    const plants = input.plants;
+    // Botanical names are resolved here, from the index, or not at all — the
+    // same rule save_specimen has always had. Before this the model supplied
+    // them from a copy of the index pasted into its prompt, which asked it to
+    // recall 442 mappings from context and write the answer into a permanent
+    // record. A name it half-remembered was indistinguishable, in the stored
+    // row, from one it read correctly.
+    const plants = input.plants.map(resolveBotanical);
     const pendingIsFresh = practitioner.pending_source_media_id &&
       practitioner.pending_source_media_at &&
       Date.now() - new Date(practitioner.pending_source_media_at).getTime() <= 24 * 60 * 60 * 1000;
@@ -490,6 +520,15 @@ const EXECUTORS = {
     return {
       ok: true,
       short_code: saved.short_code,
+      // What the index actually resolved, so the model can tell the practitioner
+      // accurately rather than repeating what it thought it sent. This is also
+      // the record the eval harness scores botanicals against.
+      plants: plants.map(p => ({
+        local_name: p.local_name,
+        botanical: p.botanical,
+        common_english: p.common_english,
+        botanical_source: p.botanical_source,
+      })),
       unknown_plants: unknown,
       card: formatCard(structured),
     };
@@ -563,6 +602,11 @@ const EXECUTORS = {
     }
 
     const FIELDS = ['condition_local', 'condition_std', 'plants', 'preparation', 'dosage', 'notes'];
+    // An edited plants list is resolved the same way a new one is. Writing
+    // input.plants through unchanged would strip the botanical names off a
+    // record every time a practitioner corrected a quantity, because the model
+    // no longer supplies them.
+    if (input.plants !== undefined) input.plants = input.plants.map(resolveBotanical);
     const changed = [];
     // What each field held before this call. Handed back to the agent so it can
     // tell the practitioner what it wrote over in the words of the old record —
@@ -919,6 +963,51 @@ const EXECUTORS = {
     };
   },
 
+  // The index, as a tool rather than as 4,330 tokens of prompt.
+  //
+  // It used to be pasted into the system prompt on every call, which asked the
+  // model to hold 442 mappings in context and recall the right one. Reading the
+  // answer from a tool result is a different and much easier task than recalling
+  // it, and the record no longer depends on getting it right either way —
+  // save_formulation and save_specimen resolve from the same index in code.
+  async lookup_plant(input) {
+    const entry = plantLookup.lookup(input.local_name);
+    if (!entry) {
+      return {
+        ok: true,
+        found: false,
+        local_name: input.local_name,
+        note:
+          `"${input.local_name}" is not in Sanko's plant index. Tell them it has been recorded ` +
+          'under their name and not yet matched to a botanical one. Do not supply a botanical ' +
+          'name yourself.',
+      };
+    }
+    // An entry with no botanical is a name the index holds but could not place
+    // to one species — usually because it is used for several. That is a
+    // different answer from "not found", and the practitioner deserves the
+    // difference.
+    if (!entry.botanical) {
+      return {
+        ok: true,
+        found: true,
+        ambiguous: true,
+        local_name: input.local_name,
+        botanical: null,
+        note: `Sanko's index holds "${input.local_name}" but maps it to more than one plant, so it has no single botanical name. Say that rather than choosing one.`,
+      };
+    }
+    return {
+      ok: true,
+      found: true,
+      ambiguous: false,
+      local_name: input.local_name,
+      botanical: entry.botanical,
+      common_english: entry.common_english ?? null,
+      note: `Sanko's index maps "${input.local_name}" to ${entry.botanical}. That comes from published sources — say it as what the name usually means, not as a certainty about their plant.`,
+    };
+  },
+
   async list_specimens(input, { practitioner }) {
     const limit = _clamp(input.limit, 10, 1, 25);
     const rows = await db.listSpecimens(practitioner.id, limit);
@@ -945,7 +1034,7 @@ const EXECUTORS = {
 // the profile to run while a smaller model is being evaluated or fine-tuned.
 const VAULT_ONLY = new Set([
   'set_profile', 'set_practice_details', 'save_formulation', 'list_formulations', 'get_formulation',
-  'update_formulation', 'save_specimen', 'list_specimens', 'export_account', 'delete_account',
+  'update_formulation', 'save_specimen', 'list_specimens', 'lookup_plant', 'export_account', 'delete_account',
 ]);
 
 // Offered only where the terms are in force. A tool the model cannot see is a
@@ -966,6 +1055,23 @@ function selectTools(profile = process.env.AGENT_TOOLS ?? 'vault') {
 }
 
 // ─── helpers ──────────────────────────────────────────────────────────────────
+
+// One plant as the model sent it, plus whatever the index says about it.
+//
+// The model contributes the local name and the quantities — what it was told.
+// Everything botanical comes from here, so `botanical_source` is either
+// 'plant_index' or nothing at all; there is no path that writes a binomial the
+// index did not supply.
+function resolveBotanical(plant) {
+  const entry = plantLookup.lookup(plant.local_name);
+  const botanical = entry?.botanical ?? null;
+  return {
+    ...plant,
+    botanical,
+    common_english: entry?.common_english ?? null,
+    botanical_source: botanical ? 'plant_index' : null,
+  };
+}
 
 // Registration completes the moment the last required answer lands, whichever
 // tool brought it in. Stamping it here rather than in either executor means the

@@ -23,7 +23,7 @@
 // and `promote` copies the mapping alone into the committed file — never the
 // transcript it came from.
 
-require('dotenv').config();
+require('dotenv').config({ quiet: true });
 const fs = require('fs');
 const path = require('path');
 

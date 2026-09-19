@@ -1,11 +1,100 @@
 const fs = require('fs');
 const path = require('path');
 const qrcode = require('qrcode-terminal');
+const log = require('../utils/log');
+const db = require('../services/supabase');
 const { MessageAggregator } = require('../utils/aggregator');
 const { processTurn } = require('../router');
 
 const DEFAULT_AUTH_DIR = '.baileys-auth';
 const MAX_CACHED_MEDIA = 200;
+
+// The transport this adapter's claims are filed under (019). The Meta webhook
+// and this process share one database and one table, and neither can replay the
+// other's messages: a wamid means nothing to a linked phone, and a Baileys id
+// means nothing to Meta's API. The column is what keeps each sweep to its own.
+const TRANSPORT = 'baileys';
+
+// Claim ids are namespaced by transport. A Baileys message id is unique to the
+// chat it arrived in rather than globally, so it is the one id in the system
+// that could in principle collide with another — and the table it lands in is
+// keyed on exactly that.
+const claimIdFor = messageId => `${TRANSPORT}:${messageId}`;
+
+// A restart empties the media cache, and a recovered voice note is a reference
+// to bytes this process never saw. Say so rather than running the turn on a
+// message whose content cannot be read: the practitioner is told their
+// formulation did not go through, which they can act on, instead of getting a
+// reply that quietly leaves out what they actually said.
+const MEDIA_TYPES = new Set(['audio', 'image']);
+
+// Closes the claims for one finished turn. Reached whether the turn succeeded or
+// failed in a way the practitioner was told about; anything that escapes
+// processTurn leaves the claims open for the sweep, which is the point.
+async function completeClaims(messages) {
+  for (const message of messages) {
+    if (message.id) await db.completeMessage(claimIdFor(message.id));
+  }
+}
+
+// Re-enqueues messages this adapter accepted and never answered.
+//
+// Baileys has no delivery receipt to withhold — by the time the socket hands a
+// message over, WhatsApp considers it delivered — so a process dying mid-turn is
+// the whole of the failure. Nothing upstream will ever mention that message
+// again, which is why the claim has to carry it.
+//
+// Takes its transport and aggregator rather than reaching for them, so the
+// behaviour can be exercised without a socket to WhatsApp.
+async function recoverInbound({ transport, aggregator, ...options } = {}) {
+  const { pending, abandoned } = await db.recoverPendingMessages({
+    transport: TRANSPORT,
+    olderThanSeconds: Number(process.env.INBOUND_RECOVERY_AFTER_SECONDS ?? 900),
+    maxAttempts: Number(process.env.INBOUND_RECOVERY_MAX_ATTEMPTS ?? 3),
+    ...options,
+  });
+
+  for (const row of abandoned) {
+    log.error('baileys.recovery_abandoned', {
+      message_id: row.message_id,
+      attempts: row.attempts,
+      effect: 'this message will never be answered; the practitioner was not told',
+    });
+  }
+
+  let requeued = 0;
+  let unreadable = 0;
+  for (const row of pending) {
+    const { from, message } = row.payload ?? {};
+    if (!from || !message) {
+      log.warn('baileys.recovery_unroutable', { message_id: row.message_id });
+      await db.completeMessage(row.message_id);
+      continue;
+    }
+
+    // The one thing this adapter cannot replay. The media cache is in memory, so
+    // a restart leaves the envelope without its bytes, and running the turn
+    // anyway would answer a voice note nobody could listen to — the practitioner
+    // would get a reply that quietly omitted what they actually said. Tell them
+    // instead: "send it again" is something they can act on.
+    if (MEDIA_TYPES.has(message.type) && !transport.hasMedia(message.id)) {
+      log.warn('baileys.recovery_media_lost', { message_id: row.message_id, type: message.type });
+      await transport.sendTextMessage(
+        from,
+        'Sorry — the service restarted before I could listen to your last message, and I no longer have it. Please send it again.',
+      ).catch(error => log.warn('baileys.recovery_notice_failed', { error: error.message }));
+      await db.completeMessage(row.message_id);
+      unreadable++;
+      continue;
+    }
+
+    log.info('baileys.recovered', { message_id: row.message_id, attempt: row.attempts + 1 });
+    aggregator.push(from, message);
+    requeued++;
+  }
+
+  return { recovered: requeued, unreadable, abandoned: abandoned.length };
+}
 
 function normalizePhoneNumber(value) {
   const digits = String(value ?? '').replace(/\D/g, '');
@@ -162,6 +251,10 @@ class BaileysTransport {
     );
   }
 
+  hasMedia(mediaId) {
+    return this.mediaById.has(mediaId);
+  }
+
   async downloadMedia(mediaId) {
     const raw = this.mediaById.get(mediaId);
     if (!raw) throw new Error(`Baileys media ${mediaId} is no longer available`);
@@ -245,13 +338,33 @@ async function startBaileys({
   const releaseLock = acquireAuthLock(authPath, output);
   const { state, saveCreds } = await baileys.useMultiFileAuthState(authPath);
   const transport = new BaileysTransport({ baileys, allowedNumbers, output });
-  const aggregator = new MessageAggregator(
-    (from, messages) => processTurn(from, messages, transport),
-  );
+
+  // Same contract as the webhook (019): the claim is closed once the turn is
+  // over, and anything that escapes processTurn leaves it open for the sweep.
+  const aggregator = new MessageAggregator(async (from, messages) => {
+    await processTurn(from, messages, transport);
+    await completeClaims(messages);
+  });
 
   let socket;
   let reconnectTimer;
   let stopped = false;
+
+  function sweep() {
+    if (stopped) return;
+    recoverInbound({ transport, aggregator })
+      .then(({ recovered, unreadable, abandoned }) => {
+        if (recovered || unreadable || abandoned) {
+          log.info('baileys.recovery_swept', { recovered, unreadable, abandoned });
+        }
+      })
+      .catch(error => log.warn('baileys.recovery_failed', { error: error.message }));
+  }
+
+  // The interval covers a process that stays up but had a turn die under it; the
+  // connect handler covers the restart, which is the common case.
+  const recoveryTimer = setInterval(sweep, Number(process.env.INBOUND_RECOVERY_INTERVAL_MS ?? 5 * 60 * 1000));
+  recoveryTimer.unref();
 
   const connect = () => {
     socket = baileys.default({
@@ -274,6 +387,23 @@ async function startBaileys({
             continue;
           }
           transport.remember(inbound);
+
+          // Claim before the turn (019), carrying enough to route the message
+          // again: the phone number and the adapted envelope, which is the same
+          // shape the webhook stores. remember() runs first so that a message
+          // recovered within the life of this process still finds its media.
+          if (inbound.message.id) {
+            const claimed = await db.claimMessage(claimIdFor(inbound.message.id), TRANSPORT, {
+              payload: { from: inbound.from, jid: inbound.jid, message: inbound.message },
+            });
+            if (!claimed) {
+              // WhatsApp replays on reconnect, and this adapter used to answer
+              // every replay as though it were new.
+              log.info('baileys.duplicate_ignored', { message_id: inbound.message.id });
+              continue;
+            }
+          }
+
           aggregator.push(inbound.from, inbound.message);
         } catch (error) {
           output.error('Baileys inbound message failed:', error);
@@ -288,6 +418,9 @@ async function startBaileys({
       }
       if (connection === 'open') {
         output.log(`Baileys connected. Listening only to: ${allowedNumbers === null ? 'all direct chats' : [...allowedNumbers].join(', ')}`);
+        // Only once a socket exists: recovery may need to tell somebody their
+        // voice note has to be sent again, and that needs a way to reach them.
+        sweep();
       }
       if (connection !== 'close' || stopped) return;
 
@@ -309,9 +442,11 @@ async function startBaileys({
     authPath,
     aggregator,
     transport,
+    recoverInbound: options => recoverInbound({ transport, aggregator, ...options }),
     async stop() {
       stopped = true;
       clearTimeout(reconnectTimer);
+      clearInterval(recoveryTimer);
       await aggregator.flushAll();
       socket?.end(new Error('Sanko Baileys adapter stopped'));
       releaseLock();
@@ -323,7 +458,11 @@ module.exports = {
   BaileysTransport,
   acquireAuthLock,
   adaptBaileysMessage,
+  claimIdFor,
+  completeClaims,
   normalizePhoneNumber,
+  recoverInbound,
   parseAllowedNumbers,
   startBaileys,
+  TRANSPORT,
 };
