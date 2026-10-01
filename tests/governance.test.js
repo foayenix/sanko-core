@@ -17,6 +17,7 @@ afterEach(() => { fake.restore(); delete process.env.CONTRIBUTOR_TERMS_IN_FORCE;
 const terms = () => governance.currentTerms();
 
 function acceptedPractitioner(overrides = {}) {
+  process.env.CONTRIBUTOR_TERMS_IN_FORCE = 'true'; // synthetic eligibility test only
   const current = terms();
   return fake.store.seedPractitioner({
     contributor_terms_version: current.version,

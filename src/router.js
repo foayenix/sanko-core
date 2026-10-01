@@ -17,6 +17,7 @@ const { TtlSet } = require('./utils/ttlCache');
 const { MessageAggregator } = require('./utils/aggregator');
 const { turnQueue } = require('./utils/turnQueue');
 const agent = require('./agent');
+const careChannel = require('./care/channel');
 const { getOrCreatePractitioner, PRIVACY_NOTICE } = require('./agent/practitioner');
 
 // Meta retries webhook deliveries that aren't acknowledged fast enough, reusing
@@ -239,7 +240,13 @@ async function processTurn(from, messages, transport = whatsapp) {
     await db.deleteExpiredPatientInvites();
     if (await handlePatientConsent(from, messages, transport)) return;
 
-    const resolved = await getOrCreatePractitioner(from);
+    const existing = await db.getPractitioner(from);
+    const mode = await careChannel.resolve(from, messages, existing);
+    if (mode !== 'practitioner') {
+      await careChannel.reply(mode, from, transport);
+      return;
+    }
+    const resolved = existing ? { practitioner: existing, isNew: false } : await getOrCreatePractitioner(from);
     practitioner = resolved.practitioner;
 
     // Everything above is cheap and does not touch the model. From here the turn

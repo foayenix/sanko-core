@@ -16,7 +16,7 @@ async function sendButtonMessage(to, body, buttons) {
       action: {
         buttons: buttons.map((b, i) => ({
           type: 'reply',
-          reply: { id: `btn_${i}`, title: b },
+          reply: typeof b === 'string' ? { id: `btn_${i}`, title: b } : { id: b.id, title: b.title },
         })),
       },
     },

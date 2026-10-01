@@ -177,3 +177,8 @@ jobs:
           const applied = Number(execFileSync('psql', [process.env.SUPABASE_DB_URL, '-Atc', 'select count(*) from schema_migrations'], { encoding: 'utf8' }).trim());
           if (applied !== migrationFiles().length) throw new Error('Not every migration was applied');
           NODE
+
+      - name: Care permissions, concurrency, HTTP workflow and restore (synthetic only)
+        run: npm run test:care
+        env:
+          CARE_TEST_DB_URL: postgresql://postgres@127.0.0.1:5432/sanko_ci

@@ -150,21 +150,22 @@ function adaptBaileysMessage(raw, baileys) {
   const content = baileys.normalizeMessageContent(raw.message);
   if (!content) return null;
   const id = raw.key?.id;
+  const timestamp = raw.messageTimestamp != null ? { timestamp: String(raw.messageTimestamp) } : {};
 
   const body = content.conversation ?? content.extendedTextMessage?.text;
   if (body != null) {
-    return { from, jid: remoteJid, message: { id, type: 'text', text: { body } } };
+    return { from, jid: remoteJid, message: { id, ...timestamp, type: 'text', text: { body } } };
   }
 
   if (content.audioMessage) {
-    return { from, jid: remoteJid, message: { id, type: 'audio', audio: { id } }, media: raw };
+    return { from, jid: remoteJid, message: { id, ...timestamp, type: 'audio', audio: { id } }, media: raw };
   }
 
   if (content.imageMessage) {
     return {
       from,
       jid: remoteJid,
-      message: { id, type: 'image', image: { id, caption: content.imageMessage.caption ?? '' } },
+      message: { id, ...timestamp, type: 'image', image: { id, caption: content.imageMessage.caption ?? '' } },
       media: raw,
     };
   }
@@ -174,12 +175,12 @@ function adaptBaileysMessage(raw, baileys) {
     return {
       from,
       jid: remoteJid,
-      message: { id, type: 'interactive', interactive: { button_reply: interactive } },
+      message: { id, ...timestamp, type: 'interactive', interactive: { button_reply: interactive } },
     };
   }
 
   const type = baileys.getContentType(content)?.replace(/Message$/, '') ?? 'unsupported';
-  return { from, jid: remoteJid, message: { id, type } };
+  return { from, jid: remoteJid, message: { id, ...timestamp, type } };
 }
 
 class BaileysTransport {
@@ -240,7 +241,7 @@ class BaileysTransport {
   }
 
   async sendButtonMessage(to, body, buttons) {
-    const choices = buttons.map((button, index) => `${index + 1}. ${button}`).join('\n');
+    const choices = buttons.map((button, index) => `${index + 1}. ${typeof button === 'string' ? button : button.title}`).join('\n');
     return this.sendTextMessage(to, `${body}\n\n${choices}`);
   }
 

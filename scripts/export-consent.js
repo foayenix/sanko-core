@@ -37,7 +37,11 @@ function flag(args, name) {
 // Screens records against the contributor terms. Returns what may be exported,
 // what may not, and a printable account of why.
 async function screen(records, options = {}) {
-  const { eligible, excluded, contributors, reasons } = await governance.partitionByConsent(records, options);
+  const approved = records.filter(record => record.training_classification === 'vault_only' && record.training_reviewed_by);
+  const clinicalOrUnknown = records.filter(record => !approved.includes(record));
+  const { eligible, excluded, contributors, reasons } = await governance.partitionByConsent(approved, options);
+  excluded.push(...clinicalOrUnknown);
+  for (const record of clinicalOrUnknown) reasons.set(record.practitioner_id ?? null, 'patient, mixed or unreviewed source excluded from training');
   return { eligible, excluded, contributors, reasons, report: reportLines(reasons, excluded.length) };
 }
 

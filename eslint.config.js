@@ -79,6 +79,7 @@ module.exports = [
       'prefer-const': ['error', { destructuring: 'all' }],
     },
   },
+  { files: ['src/care/web/*.js'], languageOptions: { globals: globals.browser } },
   {
     // Tests use node:test's describe/it, which are imported, plus the same Node
     // globals. Nothing else differs.
