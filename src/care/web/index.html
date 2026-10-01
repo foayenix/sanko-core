@@ -1,11 +1,11 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Sanko · My care</title><link rel="stylesheet" href="/care/style.css"><script src="/care/app.js" defer></script></head>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#17134f"><title>Sanko · My care</title><link rel="stylesheet" href="/care/style.css"><script src="/care/app.js" defer></script></head>
 <body>
 <header><img src="/care/brand.svg" width="150" alt="Sanko"><span>Care records</span><button id="logout" hidden>Sign out</button></header>
 <div class="notice">SYNTHETIC WORKSPACE · Fictional records only. No clinical monitoring or real messages.</div>
 <main>
 <section id="login"><p class="eyebrow">YOUR RECORD, WITH ITS SOURCE</p><h1>A clear view<br>of your care.</h1><p>Sign in to review a visit, respond to a check-in, or manage your choices.</p>
-<form id="login-form"><label>Email<input name="email" type="email" autocomplete="username" required></label><label>Password<input name="password" type="password" autocomplete="current-password" required></label><button class="primary">Sign in</button></form><p class="muted">Lost access? Contact the practice’s support route. A phone number or patient reference alone cannot recover a record. Live recovery is awaiting review.</p></section>
+<form id="login-form"><label>Email<input name="email" type="email" autocomplete="username" autocapitalize="none" spellcheck="false" required></label><label>Password<input name="password" type="password" autocomplete="current-password" required></label><button class="primary">Sign in</button></form><p class="muted">Lost access? Contact the practice’s support route. A phone number or patient reference alone cannot recover a record. Live recovery is awaiting review.</p></section>
 <section id="workspace" hidden><div class="context"><label>Acting as<select id="role"></select></label><label id="practice-label" hidden>Practice<select id="practice"></select></label><label>Patient<select id="subject"></select></label></div><div id="content"></div></section>
 <p id="status" role="status" aria-live="polite"></p>
 </main>

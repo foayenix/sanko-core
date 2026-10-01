@@ -118,7 +118,9 @@ async function render(cursor = null) {
   content.append(text('h2', role() === 'patient' ? 'Your care, in context.' : 'Today’s care records.'));
   if (role() === 'practitioner') {
     const invite = form(content, 'Invite a patient', 'Request tracking permission', async values => { await api('invite', { reference: values.get('reference').trim() }, { subject: null }); status('Request received. The patient must accept before tracking starts.'); });
-    field(invite.el, 'Patient-provided Sanko reference', 'reference'); invite.finish();
+    const reference = field(invite.el, 'Patient-provided Sanko reference', 'reference');
+    Object.assign(reference, { autocomplete: 'off', autocapitalize: 'characters', spellcheck: false }); reference.setAttribute('autocorrect', 'off');
+    invite.finish();
   }
   if (!subject()) { content.append(text('p', 'Choose a patient to open their practice record.')); return; }
   if (role() === 'patient') {
