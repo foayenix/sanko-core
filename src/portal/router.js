@@ -48,14 +48,6 @@ const SECURITY_HEADERS = {
   ].join('; '),
 };
 
-// Per-process, fixed one-minute windows keyed by client IP. This is not shared
-// between processes; docs/EVIDENCE_IMPLEMENTATION.md lists a deployment-wide
-// limiter as a release gate.
-const RATE_WINDOW_MS = 60_000;
-const LOGIN_LIMIT = 10;
-const ACTION_LIMIT = 120;
-const MAX_TRACKED_KEYS = 10_000;
-
 const SESSION_MAX_AGE_MS = 30 * 60_000;
 
 /**
@@ -72,13 +64,13 @@ const SESSION_MAX_AGE_MS = 30 * 60_000;
  * @param {Function} options.login  (email, password) → { token, csrf }
  * @param {Function} options.sessionCookie  (req) → session token, or throws UNAUTHENTICATED
  * @param {Function} options.act  (token, csrf, body) → result
+ * @param {Function} options.rateLimit  (ip, 'login' | 'action') → true if within the limit
  * @param {Function} [options.respond]  (req, res, result) → true if it sent the response
  */
 function createPortalRouter(options) {
   const { mountPath, webDir, cookieName, originEnv, login, sessionCookie, act } = options;
   const errorStatus = { ...COMMON_ERROR_STATUS, ...options.errorStatus };
   const router = express.Router();
-  const limits = new Map();
 
   router.use((_req, res, next) => {
     res.set(SECURITY_HEADERS);
@@ -97,7 +89,7 @@ function createPortalRouter(options) {
 
   router.use(express.json({ limit: options.jsonLimit }));
 
-  router.use((req, res, next) => {
+  router.use(async (req, res, next) => {
     // No credentialed cross-origin requests; session cookie alone is never an
     // authorisation for a POST. Origin + session-bound CSRF protect mutations.
     const origin = process.env[originEnv];
@@ -109,16 +101,15 @@ function createPortalRouter(options) {
       return res.status(403).json({ error: 'CSRF_REQUIRED' });
     }
 
-    const now = Date.now();
-    for (const [key, item] of limits) if (item.until <= now) limits.delete(key);
-    const isLogin = req.path === '/api/login';
-    const key = `${req.ip}:${isLogin ? 'login' : 'action'}`;
-    const item = limits.get(key) ?? { count: 0, until: now + RATE_WINDOW_MS };
-    item.count++;
-    limits.set(key, item);
-    if (item.count > (isLogin ? LOGIN_LIMIT : ACTION_LIMIT) || limits.size > MAX_TRACKED_KEYS) {
-      return res.status(429).json({ error: 'RATE_LIMITED' });
+    // Shared across processes; see src/portal/rateLimit.js. If the limit
+    // cannot be checked the request is refused, never let through unlimited.
+    let allowed;
+    try {
+      allowed = await options.rateLimit(req.ip, req.path === '/api/login' ? 'login' : 'action');
+    } catch {
+      return res.status(503).json({ error: 'TEMPORARILY_UNAVAILABLE' });
     }
+    if (!allowed) return res.status(429).json({ error: 'RATE_LIMITED' });
     next();
   });
 

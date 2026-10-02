@@ -28,6 +28,7 @@ Object.assign(process.env, {
   PATIENT_TRACKING_ENABLED: 'true',
   AGENT_TOOLS: 'full',
   CARE_ORIGIN: `http://127.0.0.1:${port}`,
+  PORTAL_RATE_LIMIT_KEY: crypto.randomBytes(32).toString('hex'),
 });
 const { rpc, seed } = require('../tests/helpers/carePostgres');
 const auth = require('../src/care/auth');

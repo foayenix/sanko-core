@@ -19,6 +19,7 @@ test('R0/R1 acceptance on disposable PostgreSQL and real HTTP', async t => {
     CARE_PATIENT_ACCESS_ENABLED: 'true',
     CARE_ENCOUNTERS_ENABLED: 'true',
     CARE_SYNTHETIC_ONLY: 'true',
+    PORTAL_RATE_LIMIT_KEY: crypto.randomBytes(32).toString('hex'),
     PATIENT_TRACKING_ENABLED: 'true',
     AGENT_TOOLS: 'full',
   });

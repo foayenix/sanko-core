@@ -2,14 +2,14 @@
 
 // psql-backed stand-ins for the portal stores, shared by the care and evidence
 // PostgreSQL suites. Each suite points them at its own disposable database and
-// may only call functions carrying its own prefix.
+// may only call functions carrying its own prefix, plus the shared portal_ ones.
 
 const { execFile } = require('node:child_process');
 
 const literal = value => (value == null ? 'null' : "'" + String(value).replaceAll("'", "''") + "'");
 
 function createPostgres(url, rpcPrefix) {
-  const allowed = new RegExp(`^${rpcPrefix}[a-z_]+$`);
+  const allowed = new RegExp(`^(${rpcPrefix}|portal_)[a-z_]+$`);
 
   function sql(query) {
     return new Promise((resolve, reject) => {

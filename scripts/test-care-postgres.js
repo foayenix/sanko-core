@@ -18,7 +18,8 @@ execFileSync('psql', [base.href, '-X', '-v', 'ON_ERROR_STOP=1', '-c', `create da
 try {
   for (let i = 0; i < 2; i++)
     execFileSync(process.execPath, ['scripts/migrate.js'], { env, stdio: 'inherit' });
-  const result = spawnSync(process.execPath, ['--test', 'tests/care/postgres.test.js'], {
+  const files = ['tests/care/postgres.test.js', 'tests/portal/postgres.test.js'];
+  const result = spawnSync(process.execPath, ['--test', ...files], {
     env,
     stdio: 'inherit',
   });

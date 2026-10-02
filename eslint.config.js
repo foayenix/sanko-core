@@ -104,6 +104,8 @@ module.exports = [
     files: [
       'tests/care/**/*.js',
       'tests/evidence/**/*.js',
+      'tests/portal/**/*.js',
+      'tests/portal-rate-limit.test.js',
       'tests/care-foundation.test.js',
       'tests/evidence-foundation.test.js',
       'tests/helpers/postgres.js',
