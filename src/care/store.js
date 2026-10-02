@@ -1,8 +1,4 @@
 'use strict';
-const db = require('../services/supabase');
-async function rpc(name, args) {
-  const { data, error } = await db.getClient().rpc(name, args);
-  if (error) throw new Error(error.message);
-  return data;
-}
-module.exports = { rpc };
+
+// The care portal's database handle. See src/portal/store.js.
+module.exports = require('../portal/store').createStore();
