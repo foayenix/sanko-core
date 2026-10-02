@@ -187,3 +187,11 @@ jobs:
         run: npm run test:evidence
         env:
           EVIDENCE_TEST_DB_URL: postgresql://postgres@127.0.0.1:5432/sanko_ci
+
+      - name: PDF text extraction and Unicode fonts for the channel suite
+        run: sudo apt-get update && sudo apt-get install -y --no-install-recommends poppler-utils fonts-dejavu-core
+
+      - name: WhatsApp channel journeys, delivery and PDF reports (synthetic only)
+        run: npm run test:channel
+        env:
+          CHANNEL_TEST_DB_URL: postgresql://postgres@127.0.0.1:5432/sanko_ci
