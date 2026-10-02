@@ -248,6 +248,17 @@ explicitly authorised environment. Complete the approved recovery and care-right
 operations before considering a real-patient R1 release. A local synthetic
 restore test does not qualify production backups or a deployment rollback.
 
+## WhatsApp-first completion — 2 October 2026
+
+The product decision to complete everyday care work inside WhatsApp supersedes
+the portal-only completion described in the handoff section below, for the
+flows listed in [WHATSAPP_CHANNEL_IMPLEMENTATION.md](WHATSAPP_CHANNEL_IMPLEMENTATION.md).
+Patient reports, consent changes, review, signing and release can now be
+confirmed in a verified WhatsApp channel session that calls the same
+`care_action` operations, with the same exact-action confirmations. The
+portal remains the place to issue the one-time link code. The handoff below is
+still what runs when `CHANNEL_GUIDED_ENABLED` is off.
+
 ## WhatsApp care handoff and review completion — 2 October 2026
 
 The WhatsApp patient route now offers generic navigation to the authenticated
