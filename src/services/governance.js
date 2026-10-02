@@ -101,6 +101,7 @@ function eligibility(practitioner) {
       reason: `accepted ${practitioner.contributor_terms_version ?? 'an unknown version'}, which is not the current text — they must be asked again`,
     };
   }
+  if (!terms.in_force) return { eligible: false, reason: 'contributor terms are not in force' };
   return { eligible: true, reason: null, version: practitioner.contributor_terms_version };
 }
 

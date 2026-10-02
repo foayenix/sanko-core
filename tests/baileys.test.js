@@ -145,13 +145,13 @@ describe('Baileys WhatsApp test adapter', () => {
 
     try {
       agent.runAgent = async ({ content, send }) => {
-        assert.equal(content[0].text, 'hello from WhatsApp');
+        assert.equal(content[0].text, 'My vault');
         await send('agent reply');
         return { replies: ['agent reply'], toolCalls: [], stopped: 'end_turn' };
       };
 
       await processTurn('+447700900123', [
-        { id: 'wam-real-path', type: 'text', text: { body: 'hello from WhatsApp' } },
+        { id: 'wam-real-path', type: 'text', text: { body: 'My vault' }, timestamp: String(Math.floor(Date.now() / 1000)) },
       ], transport);
 
       assert.equal(fake.store.practitioners[0].phone_number, '+447700900123');

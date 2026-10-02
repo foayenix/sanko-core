@@ -19,6 +19,7 @@ beforeEach(() => { fake = installFakeDb(); });
 afterEach(() => { fake.restore(); delete process.env.CONTRIBUTOR_TERMS_IN_FORCE; });
 
 function accepted(overrides = {}) {
+  process.env.CONTRIBUTOR_TERMS_IN_FORCE = 'true'; // synthetic eligibility test only
   const current = governance.currentTerms();
   return fake.store.seedPractitioner({
     contributor_terms_version: current.version,
@@ -29,7 +30,7 @@ function accepted(overrides = {}) {
 }
 
 const rows = (practitioner_id, count) =>
-  [...Array(count)].map((_, i) => ({ id: `c-${practitioner_id}-${i}`, practitioner_id }));
+  [...Array(count)].map((_, i) => ({ id: `c-${practitioner_id}-${i}`, practitioner_id, training_classification: 'vault_only', training_reviewed_by: 'OP-TEST' }));
 
 describe('training exports are gated on contributor consent', () => {
   it('excludes a practitioner who never accepted the terms', async () => {
@@ -59,7 +60,7 @@ describe('training exports are gated on contributor consent', () => {
 
   it('excludes records that cannot be attributed to anyone', async () => {
     // "We could not tell whose this was" is not a permission.
-    const screened = await consent.screen([{ id: 'c-orphan', practitioner_id: null }]);
+    const screened = await consent.screen([{ id: 'c-orphan', practitioner_id: null, training_classification: 'vault_only', training_reviewed_by: 'OP-TEST' }]);
 
     assert.equal(screened.eligible.length, 0);
     assert.equal(screened.excluded.length, 1);
@@ -179,5 +180,24 @@ describe('the train/test split is grouped by practitioner', () => {
   it('spreads practitioners across all three splits', () => {
     const seen = new Set([...Array(200)].map((_, i) => splitFor(`practitioner-${i}`)));
     assert.deepEqual([...seen].sort(), ['test', 'train', 'valid']);
+  });
+});
+
+describe('patient data and disabled terms are independent export denials', () => {
+  it('AT24: excludes patient, mixed and unreviewed media despite contributor acceptance', async () => {
+    const p = accepted();
+    const records = ['patient', 'mixed', 'unreviewed', 'vault_only'].map((classification, i) => ({
+      id: `synthetic-${i}`, practitioner_id: p.id, training_classification: classification, training_reviewed_by: 'OP-TEST',
+    }));
+    const result = await consent.screen(records);
+    assert.equal(result.eligible.length, 1);
+    assert.equal(result.eligible[0].training_classification, 'vault_only');
+    assert.equal(result.excluded.length, 3);
+  });
+  it('a stored acceptance cannot export when draft terms are disabled again', async () => {
+    const p = accepted(); delete process.env.CONTRIBUTOR_TERMS_IN_FORCE;
+    const result = await consent.screen(rows(p.id, 1));
+    assert.equal(result.eligible.length, 0);
+    assert.match(result.reasons.get(p.id), /not in force/);
   });
 });

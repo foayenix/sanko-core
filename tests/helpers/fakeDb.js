@@ -12,6 +12,7 @@ function installFakeDb() {
 
   const store = {
     practitioners: [],
+    careChannels: new Map(),
     formulations: [],
     patients: [],
     treatments: [],
@@ -33,6 +34,15 @@ function installFakeDb() {
   const now = () => new Date().toISOString();
 
   Object.assign(real, {
+    getClient() {
+      return { async rpc(name, args) {
+        if (name !== 'care_channel_route') throw new Error('Unsupported fake RPC');
+        const old = store.careChannels.get(args.p_contact);
+        if (old && (!args.p_time || args.p_time < old.time || (args.p_time === old.time && args.p_message !== old.message))) return { data: 'clarify' };
+        if (args.p_mode) store.careChannels.set(args.p_contact, { mode: args.p_mode, time: args.p_time, message: args.p_message });
+        return { data: args.p_mode ?? old?.mode ?? (args.p_existing ? 'practitioner' : 'choose') };
+      } };
+    },
     // ── contributor terms and knowledge use (013) ──
     async getPractitionerById(id) {
       return store.practitioners.find(row => row.id === id) ?? null;

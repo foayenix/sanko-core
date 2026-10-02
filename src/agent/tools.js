@@ -1176,6 +1176,9 @@ function _unreadMarkers(input, path = 'input', found = []) {
 // payload rather than thrown, so a bad short code becomes something the agent
 // can apologise for and retry — not a dead conversation.
 async function executeTool(name, input, context = {}) {
+  if (context.role && context.role !== 'practitioner') {
+    return { ok: false, error: 'NOT_AUTHORISED: Vault tools require practitioner context.' };
+  }
   const executor = EXECUTORS[name];
   if (!executor) return { ok: false, error: `Unknown tool '${name}'.` };
   if (PATIENT_TOOLS.has(name) && process.env.PATIENT_TRACKING_ENABLED !== 'true') {

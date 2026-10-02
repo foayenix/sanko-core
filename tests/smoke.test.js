@@ -716,9 +716,21 @@ describe('inbound messages survive the process that accepted them', () => {
     // the end of it means nobody is left waiting, so the claim closes either
     // way — recovery is for turns that never finished, not turns that went badly.
     router.aggregator.push = realPush;
+    fake.store.seedPractitioner({ phone_number: '+2348000000009' });
 
-    await router.handleWebhook(delivery('wamid.p6'), res());
-    await router.aggregator.flush('+2348000000009');   // the real flush path
+    const agent = require('../src/agent');
+    const transport = require('../src/services/whatsapp');
+    const run = agent.runAgent;
+    const send = transport.sendTextMessage;
+    agent.runAgent = async () => { throw new Error('Synthetic model unavailable'); };
+    transport.sendTextMessage = async () => true;
+    try {
+      await router.handleWebhook(delivery('wamid.p6'), res());
+      await router.aggregator.flush('+2348000000009'); // real claim/flush, fake model/transport
+    } finally {
+      agent.runAgent = run;
+      transport.sendTextMessage = send;
+    }
 
     const row = fake.store.processedMessages.get('wamid.p6');
     assert.notEqual(row.completed_at, null);

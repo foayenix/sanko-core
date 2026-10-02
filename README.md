@@ -12,7 +12,7 @@ WhatsApp carries inbound messages, Supabase may be local or hosted, and selectin
 a hosted model sends data to that provider. Verify the actual deployment before
 making privacy claims.
 
-**Stack**: Node.js 20.19+ (CI: 20 and 24) · Express 4 · Supabase/Postgres · Ollama · local speech/vision backends.
+**Stack**: Node.js 20.19+ (CI: 20 and 24) · Express 5.2.1 · Supabase/Postgres · Ollama · local speech/vision backends.
 
 See [transfer record](docs/REPOSITORY_TRANSFER.md), [migration backlog](docs/MIGRATION_BACKLOG.md),
 and [script inventory](docs/SCRIPTS.md). The transfer is a development baseline;
@@ -892,3 +892,7 @@ through tools instead. The `sessions` table is no longer written to.
 
 **Tests**: run `npm test` for the current results. The pretest step regenerates the
 ignored plant build report from committed inputs; no private textbook extracts are required.
+
+## Patient continuity development
+
+Read [product source of truth](SANKO_SOURCE_OF_TRUTH.md), the [roadmap](docs/SANKO_PATIENT_CONTINUITY_IMPLEMENTATION_PLAN.md), and [implementation/release notes](docs/CARE_IMPLEMENTATION.md). New care capabilities are default-off and synthetic-only.

@@ -1020,7 +1020,7 @@ async function _formulationsFromMedia(media_id) {
 async function listPageCorrectionsForExport({ onlyUnexported = true, limit = 5000 } = {}) {
   let query = getClient()
     .from('corrections')
-    .select('id, practitioner_id, media_id, before_value, after_value, model, provider, note, created_at, media:media_id(storage_path, kind, transcript_model, transcript_provider)')
+    .select('id, practitioner_id, training_classification, training_reviewed_by, media_id, before_value, after_value, model, provider, note, created_at, media:media_id(storage_path, kind, transcript_model, transcript_provider)')
     .eq('field', 'page_transcript')
     .not('media_id', 'is', null)
     .is('held_out_at', null)
@@ -1093,7 +1093,7 @@ async function listCorrectionsForExport({ onlyUnexported = true, limit = 5000 } 
     // silently fell back to bucketing by correction id — putting one
     // practitioner's phrasing in both train and test — and no consent check had
     // anyone to ask about.
-    .select('id, practitioner_id, field, before_value, after_value, source, model, created_at, formulations(short_code, original_text, original_language, condition_local, condition_std, plants, preparation, dosage)')
+    .select('id, practitioner_id, training_classification, training_reviewed_by, field, before_value, after_value, source, model, created_at, formulations(short_code, original_text, original_language, condition_local, condition_std, plants, preparation, dosage)')
     .order('created_at', { ascending: true })
     .limit(limit);
   if (onlyUnexported) query = query.is('exported_at', null);

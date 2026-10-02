@@ -8,6 +8,8 @@ const simulatorRouter = require('./simulator');
 const db = require('./services/supabase');
 
 const app = express();
+require('./care/config').configuration();
+app.use('/care', require('./care/routes').createRouter());
 
 // Scoped to /webhook rather than mounted globally: it captures the raw body for
 // Meta's X-Hub-Signature-256 HMAC, and its default 100 KB cap is right for Meta's
@@ -73,3 +75,9 @@ const patientInviteCleanup = setInterval(
 	60 * 60 * 1000
 );
 patientInviteCleanup.unref();
+
+// Synthetic inbox delivery only; no outbound transport is wired to care.
+const careDispatch = setInterval(() => {
+  require('./care/worker').dispatch().catch(() => log.warn('care.dispatch_failed', {}));
+}, 60_000);
+careDispatch.unref();

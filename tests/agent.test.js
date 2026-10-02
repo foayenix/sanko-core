@@ -1286,10 +1286,11 @@ describe('webhook → agent', () => {
   const agent = require('../src/agent');
 
   // Builds a Meta-shaped webhook body.
+  let messageClock = Math.floor(Date.now() / 1000);
   function webhookBody(messages, from = '+2348012345678') {
     return {
       object: 'whatsapp_business_account',
-      entry: [{ changes: [{ value: { messages: messages.map((m, i) => ({ id: `wamid.${i}-${Math.random()}`, from, ...m })) } }] }],
+      entry: [{ changes: [{ value: { messages: messages.map((m, i) => ({ id: `wamid.${i}-${Math.random()}`, from, timestamp: String(++messageClock), ...m })) } }] }],
     };
   }
 
@@ -1304,36 +1305,38 @@ describe('webhook → agent', () => {
     delete process.env.META_APP_SECRET;
     sent = [];
     turns = [];
-    originals = { sendTextMessage: whatsapp.sendTextMessage, runAgent: agent.runAgent };
+    originals = { sendTextMessage: whatsapp.sendTextMessage, sendButtonMessage: whatsapp.sendButtonMessage, runAgent: agent.runAgent };
     whatsapp.sendTextMessage = async (to, text) => { sent.push({ to, text }); return true; };
+    whatsapp.sendButtonMessage = async (to, text, buttons) => { sent.push({ to, text, buttons }); return true; };
     agent.runAgent = async ({ practitioner, content, send }) => {
       turns.push({ practitioner, content });
       await send('ok');
       return { replies: ['ok'], toolCalls: [], stopped: 'end_turn' };
     };
   });
-  afterEach(() => Object.assign(whatsapp, { sendTextMessage: originals.sendTextMessage }) &&
+  afterEach(() => Object.assign(whatsapp, { sendTextMessage: originals.sendTextMessage, sendButtonMessage: originals.sendButtonMessage }) &&
                   Object.assign(agent, { runAgent: originals.runAgent }));
 
   it('acknowledges Meta immediately, before doing any work', async () => {
     const res = fakeRes();
-    await router.handleWebhook({ headers: {}, body: webhookBody([textMsg('hello')]) }, res);
+    await router.handleWebhook({ headers: {}, body: webhookBody([textMsg('My vault')]) }, res);
     assert.equal(res.statusCode, 200);
+    await router.aggregator.flushAll();
   });
 
-  it('creates the practitioner, sends the privacy notice, and runs one turn', async () => {
+  it('creates the practitioner only after explicit Vault selection, sends the privacy notice, and runs one turn', async () => {
     const res = fakeRes();
-    await router.handleWebhook({ headers: {}, body: webhookBody([textMsg('hello')]) }, res);
+    await router.handleWebhook({ headers: {}, body: webhookBody([textMsg('My vault')]) }, res);
     await router.aggregator.flushAll();
 
     assert.equal(fake.store.practitioners.length, 1);
     assert.equal(sent[0].text, PRIVACY_NOTICE);
     assert.equal(turns.length, 1);
-    assert.equal(turns[0].content[0].text, 'hello');
+    assert.equal(turns[0].content[0].text, 'My vault');
   });
 
   it('sends the privacy notice once, not on every message', async () => {
-    for (const body of ['first', 'second']) {
+    for (const body of ['My vault', 'second']) {
       await router.handleWebhook({ headers: {}, body: webhookBody([textMsg(body)]) }, fakeRes());
       await router.aggregator.flushAll();
     }
@@ -1341,6 +1344,7 @@ describe('webhook → agent', () => {
   });
 
   it('batches messages that arrive together into a single agent turn', async () => {
+    fake.store.seedPractitioner({ phone_number: '+2348012345678' });
     const res = fakeRes();
     await router.handleWebhook({
       headers: {},
@@ -1353,7 +1357,7 @@ describe('webhook → agent', () => {
   });
 
   it('ignores a duplicate delivery of the same message id', async () => {
-    const body = webhookBody([textMsg('hello')]);
+    const body = webhookBody([textMsg('My vault')]);
     await router.handleWebhook({ headers: {}, body }, fakeRes());
     await router.handleWebhook({ headers: {}, body }, fakeRes()); // Meta retry
     await router.aggregator.flushAll();
@@ -1370,7 +1374,7 @@ describe('webhook → agent', () => {
 
   it('apologises to the practitioner and logs when a turn throws', async () => {
     agent.runAgent = async () => { throw new Error('Claude is down'); };
-    await router.handleWebhook({ headers: {}, body: webhookBody([textMsg('hello')]) }, fakeRes());
+    await router.handleWebhook({ headers: {}, body: webhookBody([textMsg('My vault')]) }, fakeRes());
     await router.aggregator.flushAll();
 
     assert.match(sent.at(-1).text, /Something went wrong/);
@@ -1380,6 +1384,7 @@ describe('webhook → agent', () => {
   });
 
   it('logs the inbound message with its batch size', async () => {
+    fake.store.seedPractitioner({ phone_number: '+2348012345678' });
     await router.handleWebhook({ headers: {}, body: webhookBody([textMsg('a'), textMsg('b')]) }, fakeRes());
     await router.aggregator.flushAll();
     const inbound = fake.store.eventsOfType('inbound_msg');

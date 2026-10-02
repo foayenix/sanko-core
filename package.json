@@ -13,7 +13,7 @@
     "whatsapp:test": "node src/baileys.js",
     "preview:admin": "node scripts/preview-admin.js",
     "preview:dashboard": "node scripts/preview-dashboard.js",
-    "test": "node --test tests/*.test.js",
+    "test": "node --require ./tests/helpers/offline.js --test tests/*.test.js",
     "doctor": "node scripts/doctor.js",
     "migrate": "node scripts/migrate.js",
     "migrate:status": "node scripts/migrate.js --status",
@@ -47,7 +47,9 @@
     "plants:resolver": "node \"sanko-landing page/scripts/build-resolver.mjs\"",
     "privacy:build": "node \"sanko-landing page/scripts/build-privacy.mjs\"",
     "pretest": "npm run plants:build",
-    "check-repository": "node scripts/check-repository.js"
+    "check-repository": "node scripts/check-repository.js",
+    "test:care": "node scripts/test-care-postgres.js",
+    "preview:care": "node scripts/preview-care.js"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.127.0",
