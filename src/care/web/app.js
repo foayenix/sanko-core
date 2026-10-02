@@ -263,6 +263,27 @@ async function switchContext() {
   }
   if (g === generation) await render();
 }
+// A single-use code that links one WhatsApp number to this account, offered
+// when in-chat care is switched on. Nothing is linked until the code is sent
+// from that number.
+function linkWhatsApp() {
+  if (!me.capabilities?.whatsapp) return;
+  button(content, 'Link WhatsApp', async () => {
+    const result = await api('channel_link', {}, { subject: null, practice: null });
+    const panel = text('section', '', 'panel');
+    panel.append(
+      text('h3', `WhatsApp code: ${result.code}`),
+      text('p', result.instructions),
+      text(
+        'p',
+        `Works once; expires at ${new Date(result.expires_at).toLocaleTimeString()}. Anyone ` +
+          'using the linked phone can act in your care record until the chat session ends or ' +
+          'UNLINK is sent. Never send your password in WhatsApp.',
+      ),
+    );
+    content.prepend(panel);
+  });
+}
 // Draws the main view for the current role and patient. `cursor` pages back
 // through the timeline.
 async function render(cursor = null) {
@@ -283,12 +304,15 @@ async function render(cursor = null) {
     });
     field(f.el, 'Name', 'name');
     f.finish();
+    // Linking first lets the record be created in WhatsApp instead.
+    linkWhatsApp();
     return;
   }
   content.append(
     text('h2', role() === 'patient' ? 'Your care, in context.' : 'Today’s care records.'),
   );
   button(content, 'Refresh care records', () => loadAccount());
+  linkWhatsApp();
   if (role() === 'practitioner') {
     if (me.capabilities.encounters) {
       const queue = await api('review_queue', {}, { subject: null });

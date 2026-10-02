@@ -145,6 +145,18 @@ SIGINT/SIGTERM. Fictional accounts: `owner`, `analyst`, `reviewer`, `admin`,
 `release` at `@example.invalid`, password `synthetic-only`. The injected identity
 verifier exists only in the loopback preview; deployed routes use Supabase Auth.
 
+## WhatsApp owner actions — 2 October 2026
+
+The statement above that owner confirmation happens only in the portal is
+superseded for verified WhatsApp channel sessions (see
+[WHATSAPP_CHANNEL_IMPLEMENTATION.md](WHATSAPP_CHANNEL_IMPLEMENTATION.md)).
+Owners can confirm the exact recipe and service notice, answer questions,
+cancel, read the released brief, receive the full report as a PDF and request
+corrections in chat. The channel wrapper fixes the role to owner and calls the
+same `evidence_action`; confirmations made there are recorded with channel
+`verified_whatsapp`. Analyst, reviewer and release work stays in the portal.
+The narrow Vault agent tools are unchanged and still cannot confirm or release.
+
 ## Release gates and deliberate exclusions
 
 All evidence flags default off except the synthetic-only safeguard. Startup rejects

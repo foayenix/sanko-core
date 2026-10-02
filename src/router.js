@@ -18,6 +18,9 @@ const { MessageAggregator } = require('./utils/aggregator');
 const { turnQueue } = require('./utils/turnQueue');
 const agent = require('./agent');
 const careChannel = require('./care/channel');
+const guided = require('./channel/engine');
+const channelConfig = require('./channel/config');
+const channelOutbound = require('./channel/outbound');
 const { getOrCreatePractitioner, PRIVACY_NOTICE } = require('./agent/practitioner');
 
 // Meta retries webhook deliveries that aren't acknowledged fast enough, reusing
@@ -127,6 +130,18 @@ async function handleWebhook(req, res) {
 
   const body = req.body;
   if (body?.object !== 'whatsapp_business_account') return res.sendStatus(200);
+
+  // Delivery status callbacks for guided outbound messages. Recorded before
+  // the acknowledgement so a failure makes Meta redeliver them; recording is
+  // idempotent and never moves a message back to a weaker state.
+  if (channelConfig.enabled()) {
+    try {
+      await channelOutbound.recordStatuses(body);
+    } catch (err) {
+      log.error('webhook.status_record_failed', { error: err.message, effect: 'not acknowledged; Meta will retry' });
+      return res.sendStatus(503);
+    }
+  }
 
   // Claim before acknowledging. A 200 tells Meta to stop retrying, so anything
   // sent before the claim is durable is a message this service has promised to
@@ -242,6 +257,10 @@ async function processTurn(from, messages, transport = whatsapp) {
 
     const existing = await db.getPractitioner(from);
     const mode = await careChannel.resolve(from, messages, existing);
+    // Guided care and evidence tasks (src/channel). Off unless their gates are
+    // on; when on, My care never falls through to the agent, and My vault
+    // reaches the agent unless the turn is explicit guided input.
+    if (await guided.handle({ from, messages, mode, transport, existing })) return;
     if (mode !== 'practitioner') {
       await careChannel.reply(mode, from, transport, messages);
       return;

@@ -10,6 +10,17 @@
 const store = require('./store');
 const { hash } = require('./auth');
 const { configuration } = require('./config');
+const link = require('../channel/link');
+
+// Whether WhatsApp care actions are switched on. A misconfigured channel gate
+// hides the link option; it never breaks the portal itself.
+function channelEnabled() {
+  try {
+    return require('../channel/config').configuration().careActions;
+  } catch {
+    return false;
+  }
+}
 // RFC 4122 UUID, versions 1–8.
 const UUID = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-8][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
 // API operations, never an agent tool registry. No model receives a session or
@@ -52,6 +63,7 @@ const FIELDS = {
   today: [],
   formulations: [],
   review_queue: [],
+  channel_link: [],
 };
 // Fields that may be null or absent for every action that takes them.
 const OPTIONAL = new Set(['note_id', 'note_revision', 'amends_id', 'reason', 'before', 'cursor']);
@@ -200,6 +212,11 @@ async function act(token, csrf, body) {
   if (ENCOUNTER_ACTIONS.has(action === 'prepare' ? data.action : action) && !flags.encounters)
     throw new Error('FEATURE_DISABLED');
   if (!csrf || !/^[A-Za-z0-9_-]{43}$/.test(csrf)) throw new Error('CSRF_REQUIRED');
+  if (action === 'channel_link') {
+    // Links one WhatsApp contact to this signed-in account for in-chat care.
+    if (!channelEnabled()) throw new Error('FEATURE_DISABLED');
+    return link.issue(store, 'care_channel_link_code', hash(token), hash(csrf));
+  }
   if (action === 'review_queue') {
     if (role !== 'practitioner' || subject !== null || practice === null)
       throw new Error('NOT_FOUND');
@@ -220,6 +237,8 @@ async function act(token, csrf, body) {
     p_key: key,
     p_confirmation: confirmation,
   });
-  return action === 'me' ? { ...result, capabilities: { encounters: flags.encounters } } : result;
+  return action === 'me'
+    ? { ...result, capabilities: { encounters: flags.encounters, whatsapp: channelEnabled() } }
+    : result;
 }
 module.exports = { act, validate, UUID };

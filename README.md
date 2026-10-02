@@ -112,6 +112,10 @@ messaging, and do not treat this path as the production integration.
 5. From an allowlisted phone, message the linked test account. Text, voice notes, and
    photos go through the same `processTurn()` and agent tools as the Meta webhook.
 
+To try the guided care and evidence flows (patient check-ins, visit notes, evidence
+reports) from real phones, follow [docs/WHATSAPP_BAILEYS_TESTING.md](docs/WHATSAPP_BAILEYS_TESTING.md),
+which adds a test-account setup script and the extra settings those flows need.
+
 The encrypted linked-device credentials are stored in `.baileys-auth/` and ignored by
 Git. To unlink, remove the device in WhatsApp's Linked devices screen; delete that local
 folder before linking a different account. Groups, status/newsletter traffic, history

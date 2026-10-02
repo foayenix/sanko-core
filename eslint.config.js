@@ -89,11 +89,14 @@ module.exports = [
       'src/care/**/*.js',
       'src/evidence/**/*.js',
       'src/portal/**/*.js',
+      'src/channel/**/*.js',
       'scripts/care-preview-channel.js',
       'scripts/preview-care.js',
       'scripts/preview-evidence.js',
       'scripts/test-care-postgres.js',
       'scripts/test-evidence-postgres.js',
+      'scripts/test-channel-postgres.js',
+      'scripts/preview-channel.js',
     ],
     rules: {
       'max-len': ['error', { code: 100, ignoreUrls: true, ignoreRegExpLiterals: true }],
@@ -111,6 +114,11 @@ module.exports = [
       'tests/helpers/postgres.js',
       'tests/helpers/carePostgres.js',
       'tests/helpers/evidencePostgres.js',
+      'tests/channel/**/*.js',
+      'tests/channel-foundation.test.js',
+      'tests/helpers/channelPostgres.js',
+      // The channel's wording catalogue is data; its sentences read better whole.
+      'src/channel/copy.js',
     ],
     rules: {
       'max-len': ['error', {

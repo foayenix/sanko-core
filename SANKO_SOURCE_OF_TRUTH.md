@@ -110,6 +110,7 @@ Sanko is not restricted to sickle cell disease. The founder's separate doctoral 
 10. **Future research use requires governance.** Private Vault access, patient tracking, training, publication and commercial use are different purposes.
 11. **Demonstrations stay demonstrably fictional.** Future numbers, sample records and mock partnerships must never pass as achieved results.
 12. **Sanko Core is the development source of truth.** `foayenix/sanko-vault` is historical reference. Port selected work with its evidence; do not merge archive branches indiscriminately.
+13. **Everyday work completes inside WhatsApp.** (Product decision, 2 October 2026.) Practitioners and patients should finish routine care and evidence-owner tasks in the chat — recording and confirming visits, answering and reviewing check-ins, reading released history, requesting and receiving evidence reports — using tappable choices with free text, voice and photos still available. The web portals stay for larger views, staff and reviewer work, and exceptional verification; a button that only opens the portal does not count as completing a task in WhatsApp. This changes the interface, not the boundaries: verified identity, permissions, exact confirmations, independent scientific review and the synthetic-only gates still apply. See `docs/SANKO_WHATSAPP_FIRST_IMPLEMENTATION_PLAN.md` and `docs/WHATSAPP_CHANNEL_IMPLEMENTATION.md`.
 
 These are enduring product boundaries. A request such as “make this more commercial”, “improve onboarding” or “add AI” does not implicitly revoke them.
 

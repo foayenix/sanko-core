@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Sanko · Fictional WhatsApp</title>
+    <link rel="stylesheet" href="/whatsapp/style.css">
+    <script src="/whatsapp/app.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <strong>Sanko</strong>
+      <span>Fictional WhatsApp — synthetic records only</span>
+    </header>
+    <main>
+      <nav id="phones" aria-label="Fictional phones"></nav>
+      <section id="chat" aria-live="polite"></section>
+      <form id="composer">
+        <label class="sr" for="message">Message</label>
+        <input id="message" name="message" autocomplete="off" placeholder="Type a message">
+        <button>Send</button>
+      </form>
+      <p class="tools">
+        <button id="worker" type="button">Run scheduled work</button>
+        <a href="/care/" target="_blank" rel="noopener">Care portal</a>
+        <a href="/evidence/" target="_blank" rel="noopener">Evidence portal</a>
+      </p>
+      <p class="muted">
+        Loopback preview. Messages run through the real router, guided engine and SQL; nothing
+        is sent through Meta and no model is called.
+      </p>
+    </main>
+  </body>
+</html>

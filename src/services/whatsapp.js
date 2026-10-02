@@ -23,6 +23,96 @@ async function sendButtonMessage(to, body, buttons) {
   });
 }
 
+// A selectable list for menus longer than three choices. One section; rows are
+// { id, title, description? }. The limits applied in src/channel/ui.js (ten
+// rows, 24-character titles, 72-character descriptions, 20-character button)
+// are the commonly documented ones and must be re-verified against Meta's
+// current reference before live use.
+async function sendListMessage(to, body, buttonLabel, rows) {
+  return _send(to, listPayload(body, buttonLabel, rows));
+}
+
+function listPayload(body, buttonLabel, rows) {
+  return {
+    type: 'interactive',
+    interactive: {
+      type: 'list',
+      body: { text: body },
+      action: {
+        button: buttonLabel,
+        sections: [{ title: 'Options', rows: rows.map(r => ({ id: r.id, title: r.title, ...(r.description ? { description: r.description } : {}) })) }],
+      },
+    },
+  };
+}
+
+// Sends and reports what is actually known about provider acceptance:
+//   accepted  — Meta returned a message id
+//   failed    — Meta refused it, or it never left (safe to retry later)
+//   ambiguous — the request may have been processed but no answer came back
+//               (timeout, dropped connection, 5xx); must not be blindly retried
+async function deliverText(to, body) {
+  return _tracked(to, { type: 'text', text: { body, preview_url: false } });
+}
+
+// Uploads the bytes as private media, then sends them as a document. The
+// media id is returned so it can be deleted once delivery has settled.
+async function sendDocument(to, { buffer, filename, mimeType = 'application/pdf', caption }) {
+  let mediaId;
+  try {
+    const FormData = require('form-data');
+    const form = new FormData();
+    form.append('messaging_product', 'whatsapp');
+    form.append('type', mimeType);
+    form.append('file', buffer, { filename, contentType: mimeType });
+    const { data } = await axios.post(`${BASE_URL}/${process.env.META_PHONE_NUMBER_ID}/media`, form, {
+      headers: { ...form.getHeaders(), Authorization: `Bearer ${process.env.META_ACCESS_TOKEN}` },
+      timeout: 30000,
+      maxBodyLength: 20 * 1024 * 1024,
+    });
+    mediaId = data?.id;
+  } catch (err) {
+    log.error('whatsapp.media_upload_failed', { status: err.response?.status ?? null, error: err.message });
+    // Nothing was sent; an upload that may have succeeded is harmless orphaned
+    // media, not a duplicate message.
+    return { status: 'failed', error: 'media_upload_failed' };
+  }
+  if (!mediaId) return { status: 'failed', error: 'media_upload_failed' };
+  const result = await _tracked(to, { type: 'document', document: { id: mediaId, filename, ...(caption ? { caption } : {}) } });
+  return { ...result, mediaId };
+}
+
+async function deleteMedia(mediaId) {
+  try {
+    await axios.delete(`${BASE_URL}/${mediaId}`, {
+      headers: { Authorization: `Bearer ${process.env.META_ACCESS_TOKEN}` },
+      timeout: 15000,
+    });
+    return true;
+  } catch (err) {
+    log.warn('whatsapp.media_delete_failed', { status: err.response?.status ?? null });
+    return false;
+  }
+}
+
+async function _tracked(to, messagePayload) {
+  try {
+    const { data } = await axios.post(
+      `${BASE_URL}/${process.env.META_PHONE_NUMBER_ID}/messages`,
+      { messaging_product: 'whatsapp', recipient_type: 'individual', to, ...messagePayload },
+      { headers: { Authorization: `Bearer ${process.env.META_ACCESS_TOKEN}`, 'Content-Type': 'application/json' }, timeout: 15000 }
+    );
+    const providerId = data?.messages?.[0]?.id ?? null;
+    return providerId ? { status: 'accepted', providerId } : { status: 'ambiguous', error: 'no_message_id' };
+  } catch (err) {
+    const status = err.response?.status;
+    log.error('whatsapp.tracked_send_failed', { status: status ?? null, error: err.message });
+    if (status === undefined && err.request) return { status: 'ambiguous', error: 'no_response' };
+    if (status === undefined || (status >= 400 && status < 500)) return { status: 'failed', error: `http_${status ?? 'none'}` };
+    return { status: 'ambiguous', error: `http_${status}` };
+  }
+}
+
 async function sendPatientConsentRequest({ patient_id, patient_phone, patient_name, practitioner_name }) {
   const templateName = process.env.WHATSAPP_PATIENT_CONSENT_TEMPLATE || 'sanko_patient_consent_v1';
   const languageCode = process.env.WHATSAPP_PATIENT_CONSENT_LANGUAGE || 'en';
@@ -109,4 +199,7 @@ async function _send(to, messagePayload) {
   return false;
 }
 
-module.exports = { sendTextMessage, sendButtonMessage, sendPatientConsentRequest, patientConsentTemplate, downloadMedia };
+module.exports = {
+  sendTextMessage, sendButtonMessage, sendListMessage, listPayload, deliverText, sendDocument, deleteMedia,
+  sendPatientConsentRequest, patientConsentTemplate, downloadMedia,
+};

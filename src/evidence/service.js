@@ -11,6 +11,15 @@ const store = require('./store');
 const { hash } = require('./auth');
 const { configuration } = require('./config');
 const { render } = require('./reports');
+const link = require('../channel/link');
+
+function channelEnabled() {
+  try {
+    return require('../channel/config').configuration().evidenceActions;
+  } catch {
+    return false;
+  }
+}
 // RFC 4122 UUID, versions 1–8.
 const UUID = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-8][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
 const FIELDS = {
@@ -38,6 +47,7 @@ const FIELDS = {
   withdraw: ['release_id', 'reason'],
   export: [],
   delete: [],
+  channel_link: [],
 };
 // Throws INVALID_ACTION for an unknown action, INVALID_INPUT for a missing,
 // unexpected or malformed field, and the report errors from reports.js for a
@@ -140,9 +150,14 @@ async function act(token, csrf, body) {
   } else validate(action, data);
   if (!csrf || !/^[A-Za-z0-9_-]{43}$/.test(csrf) || !/^[A-Za-z0-9_-]{43}$/.test(token ?? ''))
     throw new Error('CSRF_REQUIRED');
+  if (action === 'channel_link') {
+    // Owners only: analyst, reviewer and release work never moves into chat.
+    if (role !== 'owner' || !channelEnabled()) throw new Error('NOT_FOUND');
+    return link.issue(store, 'evidence_channel_link_code', hash(token), hash(csrf));
+  }
   const payload = action === 'draft' ? { ...data, artifacts: render(data.content) } : data;
   try {
-    return await store.rpc('evidence_action', {
+    const result = await store.rpc('evidence_action', {
       p_token: hash(token),
       p_csrf: hash(csrf),
       p_action: action,
@@ -153,6 +168,7 @@ async function act(token, csrf, body) {
       p_key: key,
       p_confirmation: confirmation,
     });
+    return action === 'me' ? { ...result, whatsapp: channelEnabled() } : result;
   } catch (error) {
     await store.rpc('evidence_denied', {
       p_token: hash(token),

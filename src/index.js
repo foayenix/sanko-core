@@ -14,6 +14,8 @@ require('./evidence/config').configuration();
 app.use('/evidence', require('./evidence/routes').createRouter());
 require('./care/config').configuration();
 app.use('/care', require('./care/routes').createRouter());
+// Guided WhatsApp care/evidence work. Throws on an unsupported combination.
+const channelFlags = require('./channel/config').configuration();
 
 // Scoped to /webhook rather than mounted globally: it captures the raw body for
 // Meta's X-Hub-Signature-256 HMAC, and its default 100 KB cap is right for Meta's
@@ -85,3 +87,19 @@ const careDispatch = setInterval(() => {
   require('./care/worker').dispatch().catch(() => log.warn('care.dispatch_failed', {}));
 }, 60_000);
 careDispatch.unref();
+
+// Guided WhatsApp outbound: opted-in check-in notices, requested report
+// documents, media cleanup and expiry of interrupted drafts. Runs only when
+// the guided channel is switched on; disabling it stops the queue while
+// keeping every record, receipt and suppression.
+if (channelFlags.guided && channelFlags.outboundTransport === 'meta') {
+	const channelOutbound = require('./channel/outbound');
+	const channelWorker = setInterval(
+		() => {
+			channelOutbound.dispatch().catch(err => log.warn('channel.dispatch_failed', { error: err.message }));
+			channelOutbound.maintenance().catch(err => log.warn('channel.maintenance_failed', { error: err.message }));
+		},
+		Number(process.env.CHANNEL_WORKER_INTERVAL_MS ?? 60 * 1000)
+	);
+	channelWorker.unref();
+}

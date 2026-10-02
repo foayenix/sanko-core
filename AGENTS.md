@@ -9,6 +9,8 @@ migration backlog under `docs/` before porting any archived work.
   source extracts out of Git. Use `.env.example` for configuration names only.
 - Validate backend changes with `npm run lint`, `npm test`, `npm run check-secrets`,
   and `npm run check-repository`. Plant data must reproduce from committed sources.
+- Validate WhatsApp channel changes additionally with `npm run test:channel`
+  (disposable PostgreSQL); see `docs/WHATSAPP_CHANNEL_IMPLEMENTATION.md`.
 - Validate landing changes with `npm --prefix "sanko-landing page" run lint`
   and `npm --prefix "sanko-landing page" run build`.
 - Offline tests validate application behavior, not model accuracy. Contributor
