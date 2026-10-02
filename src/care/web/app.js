@@ -7,6 +7,9 @@ let patients = [];
 let generation = 0;
 let busy = false;
 let expiryTimer;
+// A public navigation hint only: never a patient locator or access credential.
+const currentEntry = () => ['#visits', '#check-ins', '#choices', '#today'].includes(location.hash) ? location.hash.slice(1) : null;
+let entryPending = true;
 const $ = id => document.getElementById(id);
 const content = $('content');
 const id = () => crypto.randomUUID();
@@ -19,6 +22,7 @@ function status(message) { $('status').textContent = message; }
 function reset() {
   clearTimeout(expiryTimer);
   generation++; csrf = null; me = null; patients = []; content.replaceChildren();
+  entryPending = true;
   $('workspace').hidden = true; $('login').hidden = false; $('logout').hidden = true;
   $('confirmation').close(); $('confirmation-content').replaceChildren(); $('login-form').reset();
   for (const name of ['role', 'subject', 'practice']) $(name).replaceChildren();
@@ -36,8 +40,9 @@ async function request(path, data) {
 async function api(action, data = {}, extra = {}) {
   return request('action', { action, role: role(), subject: subject(), practice: practice(), data, key: id(), ...extra });
 }
-function contextLabel() {
-  return $('subject').selectedOptions[0]?.textContent || 'No patient selected';
+function contextLabel(context) {
+  const selected = patients.find(patient => patient.id === context.subject);
+  return selected ? `${selected.display_name} · ${selected.reference}` : 'No patient selected';
 }
 async function confirmAction(action, data, label, overrides = {}) {
   const context = { role: role(), subject: subject(), practice: practice(), ...overrides };
@@ -45,7 +50,7 @@ async function confirmAction(action, data, label, overrides = {}) {
   const preview = await api('prepare', { action, data }, context);
   if (g !== generation) throw new Error('Context changed. Please review again.');
   $('confirmation-title').textContent = label;
-  const review = $('confirmation-content'); review.replaceChildren(text('p', contextLabel()));
+  const review = $('confirmation-content'); review.replaceChildren(text('p', contextLabel(context)));
   const display = preview.record_to_confirm || data;
   for (const [key, value] of Object.entries(display)) {
     if (key.endsWith('_id') || key === 'id' || key.includes('revision') || key === 'visit_key') continue;
@@ -65,7 +70,7 @@ async function run(fn) {
   if (busy) return;
   busy = true; status('Working…');
   for (const name of ['role', 'subject', 'practice']) $(name).disabled = true;
-  try { await fn(); status(''); } catch (error) { status(error.message); }
+  try { await fn(); if ($('status').textContent === 'Working…') status(''); } catch (error) { status(error.message); }
   finally { busy = false; for (const name of ['role', 'subject', 'practice']) $(name).disabled = false; }
 }
 function field(form, label, name, type = 'text', value = '') {
@@ -89,6 +94,7 @@ async function loadAccount() {
   me = await api('me', {}, { subject: null, practice: null, role: 'patient' });
   options($('role'), [{ id: 'patient', name: 'My care' }, ...(me.practices.some(p => p.role === 'practitioner') ? [{ id: 'practitioner', name: 'Practitioner' }] : [])], x => x.name, role());
   options($('practice'), me.practices.filter(p => p.role === 'practitioner'), x => x.name, practice());
+  if (entryPending && currentEntry() === 'today' && me.practices.some(p => p.role === 'practitioner')) $('role').value = 'practitioner';
   $('workspace').hidden = false; $('login').hidden = true; $('logout').hidden = false;
   await switchContext();
 }
@@ -116,11 +122,16 @@ async function render(cursor = null) {
     field(f.el, 'Name', 'name'); f.finish(); return;
   }
   content.append(text('h2', role() === 'patient' ? 'Your care, in context.' : 'Today’s care records.'));
+  button(content, 'Refresh care records', () => loadAccount());
   if (role() === 'practitioner') {
+    if (me.capabilities.encounters) {
+      const queue = await api('review_queue', {}, { subject: null }); if (g !== generation) return;
+      renderReviewQueue(queue);
+    }
     const invite = form(content, 'Invite a patient', 'Request tracking permission', async values => { await api('invite', { reference: values.get('reference').trim() }, { subject: null }); status('Request received. The patient must accept before tracking starts.'); });
     field(invite.el, 'Patient-provided Sanko reference', 'reference'); invite.finish();
   }
-  if (!subject()) { content.append(text('p', 'Choose a patient to open their practice record.')); return; }
+  if (!subject()) { content.append(text('p', 'Choose a patient to open their practice record.')); focusEntry(); return; }
   if (role() === 'patient') {
     const invitations = await api('invitations'); if (g !== generation) return;
     for (const invite of invitations) {
@@ -141,15 +152,20 @@ async function render(cursor = null) {
     button(content, 'New walk-in visit', async () => { await confirmAction('arrive', { visit_key: id(), occurred_at: new Date().toISOString() }, 'Confirm this patient has arrived'); await render(); }, true);
   }
   if (!timeline.encounters.length) content.append(text('p', 'No released visits yet. A visit appears here after the practitioner confirms and releases its summary.', 'muted'));
-  for (const encounter of timeline.encounters) renderEncounter(encounter);
+  const checkIns = text('h2', 'Check-ins'); checkIns.id = 'check-ins'; checkIns.tabIndex = -1; content.append(checkIns);
+  if (!timeline.follow_ups.length) content.append(text('p', 'No check-ins on this page.', 'muted'));
   for (const follow of timeline.follow_ups) {
-    const panel = document.createElement('section'); panel.className = 'record'; panel.append(text('h3', 'Follow-up'), text('span', follow.status, 'badge'), text('p', `${follow.practice_name} · ${date(follow.due_at)}`), text('p', follow.response_hours), text('p', follow.escalation_text, 'muted'));
+    const states = { scheduled: 'Scheduled', submitted: 'Awaiting your update', responded: 'Awaiting practice review', reviewed: 'Reviewed by practice', cancelled: 'Cancelled' };
+    const panel = document.createElement('section'); panel.className = 'record'; panel.append(text('h3', 'Follow-up'), text('span', states[follow.status] || follow.status, 'badge'), text('p', `${follow.practice_name} · ${date(follow.due_at)}`), text('p', follow.response_hours), text('p', follow.escalation_text, 'muted'));
+    if (follow.status === 'submitted') panel.append(text('p', 'No response recorded. This does not indicate improvement or safety.', 'muted'));
     if (role() === 'patient' && follow.status === 'submitted') {
       const f = form(panel, 'How have you been?', 'Review my update', async values => { await confirmAction('respond', { id: follow.id, expected_revision: follow.revision, report: values.get('report'), observed_at: new Date().toISOString() }, 'Send this report to your practice', { practice: follow.practice_id }); await render(); });
       field(f.el, 'Your report, including no change or unwanted effects', 'report', 'textarea'); f.finish();
     }
     content.append(panel);
   }
+  const visits = text('h2', 'Visits'); visits.id = 'visits'; visits.tabIndex = -1; content.append(visits);
+  for (const encounter of timeline.encounters) renderEncounter(encounter);
   for (const observation of timeline.observations) {
     const panel = document.createElement('section'); panel.className = 'record';
     panel.append(text('span', 'Patient reported', 'badge'), text('p', observation.report), text('p', `Reported ${date(observation.recorded_at)} · ${observation.kind.replaceAll('_', ' ')}`, 'meta'));
@@ -163,6 +179,35 @@ async function render(cursor = null) {
   if (timeline.next_cursor) button(content, 'Earlier care records', () => render(timeline.next_cursor));
   if (cursor) button(content, 'Return to latest records', () => render());
   if (role() === 'patient') renderRights(timeline);
+  focusEntry();
+}
+function focusEntry() {
+  const entry = currentEntry();
+  if (!entryPending || !entry) return;
+  const target = $(entry);
+  if (target) { target.focus(); target.scrollIntoView({ block: 'start' }); entryPending = false; }
+}
+function renderReviewQueue(queue) {
+  const section = document.createElement('section'); section.className = 'panel';
+  const heading = text('h2', 'Updates needing review'); heading.id = 'today'; heading.tabIndex = -1;
+  section.append(heading, text('p', 'Patient reports awaiting your practice’s acknowledgement and recorded next steps.'));
+  if (!queue.length) section.append(text('p', 'No updates are waiting for review in this practice.', 'muted'));
+  if (queue.length === 50) section.append(text('p', 'Showing the oldest 50 updates. Review these, then refresh to see the next updates.', 'muted'));
+  for (const update of queue) {
+    const row = document.createElement('article'); row.className = 'record';
+    row.append(text('h3', update.display_name), text('p', update.reference, 'reference'), text('p', `Patient reported · ${update.kind.replaceAll('_', ' ')} · ${date(update.recorded_at)}`, 'meta'));
+    button(row, 'Review update', el => {
+      el.remove();
+      row.append(text('p', update.report), text('p', `Observed ${date(update.observed_at)}`, 'meta'));
+      const f = form(row, 'Record your review', 'Review and acknowledge', async values => {
+        const result = await confirmAction('review', { id: update.id, expected_revision: update.follow_up_revision, next_steps: values.get('next_steps') }, 'Record your review and next steps', { subject: update.subject_id, practice: practice() });
+        if (result) await render();
+      });
+      field(f.el, 'Next steps actually agreed', 'next_steps', 'textarea').focus(); f.finish();
+    });
+    section.append(row);
+  }
+  content.append(section);
 }
 function renderEncounter(encounter) {
   const panel = document.createElement('article'); panel.className = 'record';
@@ -227,7 +272,8 @@ async function captureNote(parent, encounter, amendsId = null, draft = null) {
   for (const prep of draft?.preparation_input || []) addPreparation(prep);
 }
 function renderRights(timeline) {
-  const panel = document.createElement('section'); panel.className = 'panel'; panel.append(text('h2', 'Your choices'));
+  const panel = document.createElement('section'); panel.className = 'panel';
+  const heading = text('h2', 'Your choices'); heading.id = 'choices'; heading.tabIndex = -1; panel.append(heading);
   for (const rel of timeline.relationships) {
     const name = rel.practice_name || timeline.encounters.find(e => e.practice_id === rel.practice_id)?.practice_name || 'Your participating practice';
     panel.append(text('h3', name));
