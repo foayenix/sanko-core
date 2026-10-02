@@ -6,6 +6,7 @@
 const $ = id => document.getElementById(id);
 // `epoch` is bumped by clear(); a response that returns after sign-out is
 // discarded rather than drawn into the next session's view.
+let whatsapp = false;
 let csrf = null,
   role = 'owner',
   current = null,
@@ -211,8 +212,32 @@ async function workspace() {
     button('Request an evidence review', () => intake(), $('navigation'), true);
     button('Export my evidence', () => mutate('export', {}, null), $('navigation'));
     button('Delete my evidence', () => mutate('delete', {}, null), $('navigation'));
+    if (whatsapp) button('Link WhatsApp', () => linkWhatsApp(), $('navigation'));
   }
   await list();
+}
+// A single-use code that links one WhatsApp number to this account, so
+// reports can be requested and received in chat. Nothing is linked until the
+// code is sent from that number.
+async function linkWhatsApp() {
+  current = null;
+  const result = await api({
+    action: 'channel_link',
+    role: 'owner',
+    data: {},
+    key: crypto.randomUUID(),
+  });
+  $('detail').replaceChildren(
+    el('p', 'Link WhatsApp', 'eyebrow'),
+    el('h2', result.code),
+    el('p', result.instructions),
+    el(
+      'p',
+      `This code works once and expires at ${new Date(result.expires_at).toLocaleTimeString()}. ` +
+        'Anyone using the linked phone can request and receive your released reports until the ' +
+        'chat session ends or UNLINK is sent. Never send your password in WhatsApp.',
+    ),
+  );
 }
 // The owner's form for a new evidence review request, or an update to a
 // released one when `previous` is given.
@@ -709,6 +734,7 @@ $('login-form').onsubmit = async event => {
     if (!response.ok) throw new Error('Sign-in unavailable. Check your verified account.');
     csrf = (await response.json()).csrf;
     const me = await api({ action: 'me', role: 'owner' });
+    whatsapp = Boolean(me.whatsapp);
     role = me.roles.includes('owner') ? 'owner' : me.roles[0];
     $('role').replaceChildren();
     for (const name of me.roles) {

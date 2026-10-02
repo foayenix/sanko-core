@@ -51,7 +51,9 @@
     "test:care": "node scripts/test-care-postgres.js",
     "preview:care": "node scripts/preview-care.js",
     "test:evidence": "node --test tests/evidence-foundation.test.js && node scripts/test-evidence-postgres.js",
-    "preview:evidence": "node scripts/preview-evidence.js"
+    "preview:evidence": "node scripts/preview-evidence.js",
+    "test:channel": "node scripts/test-channel-postgres.js",
+    "preview:channel": "node scripts/preview-channel.js"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.127.0",
