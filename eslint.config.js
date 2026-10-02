@@ -81,6 +81,46 @@ module.exports = [
   },
   { files: ['src/care/web/*.js', 'src/evidence/web/*.js'], languageOptions: { globals: globals.browser } },
   {
+    // The care and evidence portals arrived with lines of several hundred
+    // characters, which no reviewer can read in a diff. They and the shared
+    // portal code are held to 100. The rest of the service predates this and
+    // is left alone, for the reason at the top of this file.
+    files: [
+      'src/care/**/*.js',
+      'src/evidence/**/*.js',
+      'src/portal/**/*.js',
+      'scripts/care-preview-channel.js',
+      'scripts/preview-care.js',
+      'scripts/preview-evidence.js',
+      'scripts/test-care-postgres.js',
+      'scripts/test-evidence-postgres.js',
+    ],
+    rules: {
+      'max-len': ['error', { code: 100, ignoreUrls: true, ignoreRegExpLiterals: true }],
+    },
+  },
+  {
+    // Their tests too, except for strings: SQL fixtures read better whole.
+    files: [
+      'tests/care/**/*.js',
+      'tests/evidence/**/*.js',
+      'tests/care-foundation.test.js',
+      'tests/evidence-foundation.test.js',
+      'tests/helpers/postgres.js',
+      'tests/helpers/carePostgres.js',
+      'tests/helpers/evidencePostgres.js',
+    ],
+    rules: {
+      'max-len': ['error', {
+        code: 100,
+        ignoreUrls: true,
+        ignoreRegExpLiterals: true,
+        ignoreStrings: true,
+        ignoreTemplateLiterals: true,
+      }],
+    },
+  },
+  {
     // Tests use node:test's describe/it, which are imported, plus the same Node
     // globals. Nothing else differs.
     files: ['tests/**/*.js', 'evals/**/*.js'],

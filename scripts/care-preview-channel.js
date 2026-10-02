@@ -10,12 +10,18 @@ channelForm.addEventListener('submit', async event => {
   button.disabled = true;
   channelReply.textContent = 'Sending fictional message…';
   try {
-    const response = await fetch('/whatsapp', { method: 'POST', headers: { Accept: 'application/json' }, body: new URLSearchParams(new FormData(channelForm)) });
+    const response = await fetch('/whatsapp', {
+      method: 'POST',
+      headers: { Accept: 'application/json' },
+      body: new URLSearchParams(new FormData(channelForm)),
+    });
     if (!response.ok) throw new Error('Could not complete this fictional message. Please retry.');
     const result = await response.json();
     channelReply.textContent = result.reply;
     document.getElementById('care-link').href = result.href;
   } catch {
     channelReply.textContent = 'Could not complete this fictional message. Please retry.';
-  } finally { button.disabled = false; }
+  } finally {
+    button.disabled = false;
+  }
 });
