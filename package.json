@@ -49,7 +49,9 @@
     "pretest": "npm run plants:build",
     "check-repository": "node scripts/check-repository.js",
     "test:care": "node scripts/test-care-postgres.js",
-    "preview:care": "node scripts/preview-care.js"
+    "preview:care": "node scripts/preview-care.js",
+    "test:evidence": "node --test tests/evidence-foundation.test.js && node scripts/test-evidence-postgres.js",
+    "preview:evidence": "node scripts/preview-evidence.js"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.127.0",

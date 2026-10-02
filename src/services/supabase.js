@@ -1296,6 +1296,9 @@ async function exportAccount(practitioner_id) {
     if (error) throw new Error(`account export failed for ${table}: ${error.message}`);
     account[key] = key === 'practitioner' ? (data?.[0] ?? null) : (data ?? []);
   }
+  const { data: evidence, error: evidenceError } = await getClient().rpc('evidence_owner_export', { p_owner: practitioner_id });
+  if (evidenceError) throw new Error('account evidence export unavailable');
+  account.evidence = evidence;
   return account;
 }
 
@@ -1317,6 +1320,10 @@ async function createAccountExport(practitioner_id) {
 }
 
 async function deleteAccount(practitioner_id) {
+  // Fence evidence processing before any fallible storage cleanup. Retry leaves
+  // the fence in place; account deletion cascades private database artifacts.
+  const { error: evidenceError } = await getClient().rpc('evidence_freeze_owner', { p_owner: practitioner_id });
+  if (evidenceError) throw new Error('account evidence deletion fence unavailable');
   await writeAuditEvent({
     subject_id: practitioner_id,
     actor_id: practitioner_id,

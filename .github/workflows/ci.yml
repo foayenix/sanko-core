@@ -182,3 +182,8 @@ jobs:
         run: npm run test:care
         env:
           CARE_TEST_DB_URL: postgresql://postgres@127.0.0.1:5432/sanko_ci
+
+      - name: Evidence permissions, concurrent review, private release and restore (synthetic only)
+        run: npm run test:evidence
+        env:
+          EVIDENCE_TEST_DB_URL: postgresql://postgres@127.0.0.1:5432/sanko_ci

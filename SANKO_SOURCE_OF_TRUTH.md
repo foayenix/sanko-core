@@ -726,3 +726,20 @@ For build-status updates, record the new commit and verification performed. A fe
 | 1.0 | 2026-09-29 | Consolidated founder context and pinned Core review; defined product boundaries, present/gated/future capabilities, AI rules and unresolved decisions |
 
 **The enduring test:** a Sanko change should make the knowledge record more useful, faithful, traceable and responsibly usable while preserving practitioner value and control.
+
+### 1 October 2026 — private formulation evidence (code present; synthetic only)
+
+An optional Formulation Evidence Dossier now has an isolated `/evidence/` manual
+workflow on the continuity baseline: confirmed immutable formulation snapshots,
+private-service authorisation, assigned evidence entry, independent exact-revision
+review, private brief/technical HTML release, correction/update, export and erasure.
+It reviews published evidence; it does not certify a formulation or establish
+whole-product efficacy/safety. Practitioner access remains free. Review-service
+permission does not grant research, publication, commercial or training rights.
+
+This is an E0 fictional implementation, not a live service or scientific validation.
+E1 operational approval and independent human evaluation remain release gates.
+External sharing, AI/search providers, leaflets, regulatory reports and outcome
+linking fail closed. Care and draft contributor terms remain independently gated.
+See [implementation and verification boundaries](docs/EVIDENCE_IMPLEMENTATION.md)
+and the [original specification](docs/SANKO_FORMULATION_EVIDENCE_IMPLEMENTATION_PLAN.md).

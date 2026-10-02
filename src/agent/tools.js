@@ -62,7 +62,11 @@ const DOSAGE_SCHEMA = {
 
 // ─── tool definitions ─────────────────────────────────────────────────────────
 
+const EVIDENCE_TOOLS = new Set(['start_evidence_request', 'get_evidence_request', 'list_evidence_reports']);
 const TOOLS = [
+  { name: 'start_evidence_request', description: 'Prepare an owned formulation evidence intake draft. This does not confirm the recipe or authorise research. Direct the owner to the verified private portal.', input_schema: { type: 'object', properties: { formulation_code: { type: 'string', pattern: '^FM-[0-9]{5,}$' }, purpose: { type: 'string', minLength: 1, maxLength: 2000 } }, required: ['formulation_code','purpose'] } },
+  { name: 'get_evidence_request', description: 'Read only the owner-safe review status and clarification question. No report body or reviewer draft.', input_schema: { type: 'object', properties: { request_id: { type: 'string', pattern: '^[0-9a-f-]{36}$' } }, required: ['request_id'] } },
+  { name: 'list_evidence_reports', description: 'List private released report metadata. Owner must use the authenticated portal to retrieve reports.', input_schema: { type: 'object', properties: {} } },
   {
     name: 'set_profile',
     description:
@@ -358,6 +362,9 @@ const TOOLS = [
 // ─── executors ────────────────────────────────────────────────────────────────
 
 const EXECUTORS = {
+  start_evidence_request: (input, context) => require('../evidence/vault').act('start', input, context),
+  get_evidence_request: (input, context) => require('../evidence/vault').act('status', input, context),
+  list_evidence_reports: (input, context) => require('../evidence/vault').act('reports', input, context),
   async set_profile(input, { practitioner }) {
     // Read this before the update: the row we are handed may be the same object
     // the update writes through, in which case checking afterwards always sees
@@ -1049,9 +1056,9 @@ function selectTools(profile = process.env.AGENT_TOOLS ?? 'vault') {
   const requested = String(profile).toLowerCase();
   const patientsEnabled = process.env.PATIENT_TRACKING_ENABLED === 'true';
   const termsInForce = governance.currentTerms().in_force;
-  const available = TOOLS.filter(t => !TERMS_TOOLS.has(t.name) || termsInForce);
+  const available = TOOLS.filter(t => (!TERMS_TOOLS.has(t.name) || termsInForce) && (!EVIDENCE_TOOLS.has(t.name) || process.env.EVIDENCE_ENABLED === 'true'));
   if ((requested === 'full' || requested === 'patient') && patientsEnabled) return available;
-  return available.filter(t => VAULT_ONLY.has(t.name) || TERMS_TOOLS.has(t.name));
+  return available.filter(t => VAULT_ONLY.has(t.name) || TERMS_TOOLS.has(t.name) || EVIDENCE_TOOLS.has(t.name));
 }
 
 // ─── helpers ──────────────────────────────────────────────────────────────────
@@ -1179,6 +1186,7 @@ async function executeTool(name, input, context = {}) {
   if (context.role && context.role !== 'practitioner') {
     return { ok: false, error: 'NOT_AUTHORISED: Vault tools require practitioner context.' };
   }
+  if (EVIDENCE_TOOLS.has(name) && process.env.EVIDENCE_ENABLED !== 'true') return { ok: false, error: 'Evidence review is unavailable.' };
   const executor = EXECUTORS[name];
   if (!executor) return { ok: false, error: `Unknown tool '${name}'.` };
   if (PATIENT_TOOLS.has(name) && process.env.PATIENT_TRACKING_ENABLED !== 'true') {

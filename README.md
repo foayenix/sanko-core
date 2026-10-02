@@ -896,3 +896,17 @@ ignored plant build report from committed inputs; no private textbook extracts a
 ## Patient continuity development
 
 Read [product source of truth](SANKO_SOURCE_OF_TRUTH.md), the [roadmap](docs/SANKO_PATIENT_CONTINUITY_IMPLEMENTATION_PLAN.md), and [implementation/release notes](docs/CARE_IMPLEMENTATION.md). New care capabilities are default-off and synthetic-only.
+
+## Private formulation evidence — synthetic exercise
+
+The optional `/evidence/` workspace supports a confirmed fictional formulation,
+manual literature records, independent scientific review and private practitioner
+brief/technical dossier release. It includes scoped corrections, version updates,
+export and deletion. It is **not open for live intake**; research synthesis is not
+product certification or proof of efficacy. Care and contributor terms stay gated.
+
+See [evidence implementation and release requirements](docs/EVIDENCE_IMPLEMENTATION.md)
+for configuration, role provisioning, migrations 022–023, local preview and tests.
+Use `npm run test:evidence` with a dedicated local `EVIDENCE_TEST_DB_URL`, or
+`npm run preview:evidence` for the fictional browser flow. Both create isolated
+throwaway databases; neither invokes live Auth, WhatsApp or a model.
