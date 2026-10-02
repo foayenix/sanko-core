@@ -11,6 +11,7 @@ Object.assign(process.env, {
   EVIDENCE_ENABLED: 'true',
   EVIDENCE_SYNTHETIC_ONLY: 'true',
   EVIDENCE_ORIGIN: 'http://127.0.0.1:3042',
+  PORTAL_RATE_LIMIT_KEY: crypto.randomBytes(32).toString('hex'),
 });
 require('../../src/evidence/store').rpc = rpc;
 const checks = {

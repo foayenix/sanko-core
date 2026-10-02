@@ -8,6 +8,8 @@ const simulatorRouter = require('./simulator');
 const db = require('./services/supabase');
 
 const app = express();
+// Only matters behind a reverse proxy; see src/utils/trustProxy.js.
+app.set('trust proxy', require('./utils/trustProxy').trustProxy());
 require('./evidence/config').configuration();
 app.use('/evidence', require('./evidence/routes').createRouter());
 require('./care/config').configuration();

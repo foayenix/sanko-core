@@ -23,6 +23,7 @@ Object.assign(process.env, {
   EVIDENCE_ENABLED: 'true',
   EVIDENCE_SYNTHETIC_ONLY: 'true',
   EVIDENCE_ORIGIN: `http://127.0.0.1:${port}`,
+  PORTAL_RATE_LIMIT_KEY: crypto.randomBytes(32).toString('hex'),
 });
 const { rpc, seed } = require('../tests/helpers/evidencePostgres');
 const auth = require('../src/evidence/auth');

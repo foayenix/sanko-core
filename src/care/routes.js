@@ -8,6 +8,8 @@ const auth = require('./auth');
 const service = require('./service');
 const { configuration } = require('./config');
 const { createPortalRouter } = require('../portal/router');
+const { createRateLimiter } = require('../portal/rateLimit');
+const store = require('./store');
 
 const ERROR_STATUS = {
   CONSENT_REQUIRED: 403,
@@ -31,6 +33,7 @@ function createRouter({ login = auth.login, act = service.act } = {}) {
     login,
     sessionCookie: auth.sessionCookie,
     act,
+    rateLimit: createRateLimiter({ store, portal: 'care' }),
   });
 }
 

@@ -9,6 +9,8 @@ const auth = require('./auth');
 const service = require('./service');
 const { configuration } = require('./config');
 const { createPortalRouter } = require('../portal/router');
+const { createRateLimiter } = require('../portal/rateLimit');
+const store = require('./store');
 
 const ERROR_STATUS = {
   INVALID_REPORT: 422,
@@ -64,6 +66,7 @@ function createRouter({ login = auth.login, act = service.act } = {}) {
     sessionCookie: auth.sessionCookie,
     act,
     respond: sendArtifact,
+    rateLimit: createRateLimiter({ store, portal: 'evidence' }),
   });
 }
 

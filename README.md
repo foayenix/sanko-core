@@ -918,6 +918,8 @@ product certification or proof of efficacy. Care and contributor terms stay gate
 
 See [evidence implementation and release requirements](docs/EVIDENCE_IMPLEMENTATION.md)
 for configuration, role provisioning, migrations 022–023, local preview and tests.
+Both portals also need migration `025_portal_rate_limits.sql` and a
+`PORTAL_RATE_LIMIT_KEY`; see `.env.example`.
 Use `npm run test:evidence` with a dedicated local `EVIDENCE_TEST_DB_URL`, or
 `npm run preview:evidence` for the fictional browser flow. Both create isolated
 throwaway databases; neither invokes live Auth, WhatsApp or a model.

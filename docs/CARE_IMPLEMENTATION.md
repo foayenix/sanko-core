@@ -141,13 +141,19 @@ Errors use `{error: CODE}`: 400 invalid input/action, 401 expired/revoked sessio
 or fresh login required, 403 CSRF/consent, 404 unavailable scope or feature,
 409 stale revision/idempotency/confirmation/state, 422 unsupported source, 429
 rate limit, 503 unavailable service/audit. Resource failures use neutral messages.
-A 401 clears the UI; a conflict requires reload and a new review. The rate limiter
-is process-local and is not a qualified distributed abuse-control system.
+A 401 clears the UI; a conflict requires reload and a new review. Rate limits (10
+sign-ins and 120 actions per client per minute) are counted in PostgreSQL by
+migration `025_portal_rate_limits.sql`, so they hold across server processes. The
+client is an HMAC of its IP under `PORTAL_RATE_LIMIT_KEY`; no IP is stored. Without
+the key, or if the count cannot be read, requests are refused with 503. Behind a
+proxy, `TRUST_PROXY` must name it or every visitor shares one limit. This is not yet
+qualified against a real deployment's proxy chain or load.
 
 ## Migrations, configuration and rollback
 
 Care uses `020_care_identity.sql`, `021_care_workflow.sql`, and the additive
-`024_care_review_queue.sql`. Historical SQL is unchanged. Apply through the existing checksum-ledger runner only in
+`024_care_review_queue.sql`, plus `025_portal_rate_limits.sql`, which both portals
+need. Historical SQL is unchanged. Apply through the existing checksum-ledger runner only in
 an explicitly approved environment. **020 is a prerequisite for the new role
 router even while care access is off.** Without it, message processing fails
 closed; it must not silently fall back to automatic practitioner creation.

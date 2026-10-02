@@ -156,8 +156,9 @@ Before E1: approved service notice/retention/processor arrangements; verified ow
 and reviewer enrolment/recovery; named analyst and independent competent reviewer;
 conflicts process; live deployment/migration/backup/deletion rehearsal; report and
 language review by qualified humans; practitioner usability evaluation; staffed
-capacity, incident ownership, support and a deployment-appropriate shared rate
-limiter. Current rate limiting is per process. Real Supabase Auth and Storage,
+capacity, incident ownership, support, and qualifying the shared rate limiter
+(migration 025, `PORTAL_RATE_LIMIT_KEY`, `TRUST_PROXY`) against the real proxy
+chain and load. Real Supabase Auth and Storage,
 WhatsApp delivery and scientific usefulness remain unqualified.
 
 E0 does not implement delegated intake, botanical-specialist tasks, validated
@@ -170,8 +171,8 @@ exports/downloads themselves are database-backed and have no external objects.
 
 Rollback disables `EVIDENCE_ENABLED` and retains schema/history. Keep account-rights
 support active even when intake is disabled. Both new migrations are required for
-this application version's account export/deletion paths; do not deploy the code
-without the additive schema. Do not modify already-applied migration checksums.
+this application version's account export/deletion paths, and migration 025 for its
+rate limits; do not deploy the code without the additive schema. Do not modify already-applied migration checksums.
 
 ## Verification record
 
