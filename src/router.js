@@ -243,9 +243,10 @@ async function processTurn(from, messages, transport = whatsapp) {
     const existing = await db.getPractitioner(from);
     const mode = await careChannel.resolve(from, messages, existing);
     if (mode !== 'practitioner') {
-      await careChannel.reply(mode, from, transport);
+      await careChannel.reply(mode, from, transport, messages);
       return;
     }
+    if (await careChannel.practitionerReply(from, messages, transport)) return;
     const resolved = existing ? { practitioner: existing, isNew: false } : await getOrCreatePractitioner(from);
     practitioner = resolved.practitioner;
 
