@@ -34,7 +34,16 @@ test('channel gates default off, depend on each other and refuse a live path', (
     evidenceActions: false,
     evidenceDelivery: false,
     sessionMinutes: 720,
+    outboundTransport: 'meta',
   });
+  assert.equal(
+    config.configuration({ CHANNEL_OUTBOUND_TRANSPORT: 'baileys' }).outboundTransport,
+    'baileys',
+  );
+  assert.throws(
+    () => config.configuration({ CHANNEL_OUTBOUND_TRANSPORT: 'sms' }),
+    /OUTBOUND_TRANSPORT/,
+  );
   assert.equal(config.enabled({}), false);
   assert.throws(
     () => config.configuration({ CARE_CHANNEL_ACTIONS_ENABLED: 'true' }),

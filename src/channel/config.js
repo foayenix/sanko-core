@@ -37,6 +37,12 @@ function configuration(env = process.env) {
     throw new Error('EVIDENCE_CHANNEL_REQUIRES_EVIDENCE');
   if (evidenceDelivery && !evidenceActions)
     throw new Error('EVIDENCE_DELIVERY_REQUIRES_EVIDENCE_CHANNEL');
+  // Which process sends outbound channel messages: the Meta webhook server
+  // (npm start) or the Baileys test adapter (npm run whatsapp:test). Exactly
+  // one of them runs the queue, so a message is never sent by both.
+  const outboundTransport = env.CHANNEL_OUTBOUND_TRANSPORT || 'meta';
+  if (!['meta', 'baileys'].includes(outboundTransport))
+    throw new Error('INVALID_CHANNEL_OUTBOUND_TRANSPORT');
   const minutes = Number(env.CHANNEL_SESSION_MINUTES ?? DEFAULT_SESSION_MINUTES);
   if (!Number.isInteger(minutes) || minutes < 5 || minutes > 4320)
     throw new Error('INVALID_CHANNEL_SESSION_MINUTES');
@@ -47,6 +53,7 @@ function configuration(env = process.env) {
     evidenceActions,
     evidenceDelivery,
     sessionMinutes: minutes,
+    outboundTransport,
   };
 }
 

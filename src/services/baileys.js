@@ -245,6 +245,25 @@ class BaileysTransport {
     return this.sendTextMessage(to, `${body}\n\n${choices}`);
   }
 
+  // Report PDFs for the guided evidence flow. A send that throws may or may
+  // not have reached WhatsApp, so it is reported as ambiguous, never retried
+  // blindly (src/channel/outbound.js).
+  async sendDocument(to, { buffer, filename, mimeType = 'application/pdf', caption }) {
+    try {
+      const sent = await this.socket.sendMessage(this.jidFor(to), {
+        document: buffer,
+        mimetype: mimeType,
+        fileName: filename,
+        caption,
+      });
+      return sent?.key?.id
+        ? { status: 'accepted', providerId: `baileys:${sent.key.id}` }
+        : { status: 'ambiguous', error: 'no_message_id' };
+    } catch (error) {
+      return { status: 'ambiguous', error: error.message };
+    }
+  }
+
   async sendPatientConsentRequest({ patient_id, patient_phone, patient_name, practitioner_name }) {
     return this.sendTextMessage(
       patient_phone,
@@ -323,6 +342,22 @@ function isProcessAlive(pid) {
     // EPERM means it exists but belongs to another user — still alive.
     return error.code === 'EPERM';
   }
+}
+
+function startChannelWorker(transport) {
+  const flags = require('../channel/config').configuration();
+  if (!flags.guided || flags.outboundTransport !== 'baileys') return null;
+  const outbound = require('../channel/outbound');
+  const timer = setInterval(
+    () => {
+      if (!transport.socket) return;
+      outbound.dispatch({ transport }).catch(error => log.warn('channel.dispatch_failed', { error: error.message }));
+      outbound.maintenance().catch(error => log.warn('channel.maintenance_failed', { error: error.message }));
+    },
+    Number(process.env.CHANNEL_WORKER_INTERVAL_MS ?? 30 * 1000),
+  );
+  timer.unref();
+  return timer;
 }
 
 async function startBaileys({
@@ -438,6 +473,10 @@ async function startBaileys({
     });
   };
 
+  // Guided channel outbound (check-in notices, report PDFs) through this
+  // linked account, when CHANNEL_OUTBOUND_TRANSPORT=baileys. Off otherwise.
+  const channelTimer = startChannelWorker(transport);
+
   connect();
   return {
     authPath,
@@ -448,6 +487,7 @@ async function startBaileys({
       stopped = true;
       clearTimeout(reconnectTimer);
       clearInterval(recoveryTimer);
+      clearInterval(channelTimer);
       await aggregator.flushAll();
       socket?.end(new Error('Sanko Baileys adapter stopped'));
       releaseLock();

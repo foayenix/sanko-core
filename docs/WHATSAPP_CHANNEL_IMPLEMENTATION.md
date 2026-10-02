@@ -115,6 +115,16 @@ the deterministic confirmation contract in this change.
 - Provider media is deleted after delivery settles; failures are recorded for
   retry.
 
+## Testing from real phones
+
+[WHATSAPP_BAILEYS_TESTING.md](WHATSAPP_BAILEYS_TESTING.md) explains how to run
+these flows against a test Supabase project through the Baileys adapter.
+`scripts/setup-channel-test.js` creates individual Supabase Auth logins bound to
+synthetic records. With `CHANNEL_OUTBOUND_TRANSPORT=baileys`, check-in notices
+and report PDFs go out through the linked test account instead of Meta, and only
+that process runs the outbound queue. Baileys shows choices as numbered lists and
+has no delivery receipts, so sends stay "accepted".
+
 ## Configuration and rollback
 
 All default off: `CHANNEL_GUIDED_ENABLED`, `CARE_CHANNEL_ACTIONS_ENABLED`,

@@ -958,4 +958,139 @@ test('WhatsApp-first care and evidence journeys', async t => {
       assert.equal(await sql(`select count(*) from evidence_releases`), '2');
     },
   );
+
+  await t.test('Numbered replies answer the current prompt, as Baileys shows choices', async () => {
+    const numbered = chat('+447700900206');
+    delete numbered.transport.sendListMessage;
+    await numbered.send('My care');
+    await numbered.send('3');
+    assert.match(numbered.texts(), /Tap a choice or reply with its number/);
+    await numbered.send('9');
+    // Before linking, anything else is never saved, and the menu returns.
+    assert.match(numbered.texts(), /Your message was not saved/);
+  });
+
+  await t.test(
+    'Baileys test setup: real accounts bound to synthetic records, safe to rerun',
+    async () => {
+      const setup = require('../../scripts/setup-channel-test');
+      const users = new Map();
+      const admin = {
+        listUsers: async () => ({
+          data: { users: [...users].map(([email, id]) => ({ email, id })) },
+          error: null,
+        }),
+        createUser: async ({ email }) => {
+          users.set(email, uuid());
+          return { data: { user: { id: users.get(email) } }, error: null };
+        },
+        updateUserById: async () => ({ error: null }),
+      };
+      const wanted = setup.accounts('example.invalid');
+      const passwords = Object.fromEntries(Object.keys(wanted).map(k => [k, 'x']));
+      const ids = await setup.ensureAuthUsers(admin, wanted, passwords);
+      const run = () =>
+        execFileSync(
+          'psql',
+          [
+            process.env.CHANNEL_TEST_DB_URL,
+            '-X',
+            '-qAt',
+            '-v',
+            'ON_ERROR_STOP=1',
+            '--single-transaction',
+          ],
+          {
+            input: setup.fixtureSql({
+              ids,
+              wanted,
+              practitionerPhone: '+447700900301',
+              timezone: 'Africa/Lagos',
+            }),
+            encoding: 'utf8',
+          },
+        );
+      const first = JSON.parse(run().trim().split('\n').pop());
+      const counts = () =>
+        sql(`select (select count(*) from care_actors)||'/'||(select count(*) from care_practices)||'/'||
+        (select count(*) from evidence_principals)||'/'||(select count(*) from formulations)||'/'||(select count(*) from evidence_programmes)`);
+      const before = await counts();
+      assert.deepEqual(await setup.ensureAuthUsers(admin, wanted, passwords), ids);
+      const second = JSON.parse(run().trim().split('\n').pop());
+      assert.deepEqual(second, first);
+      assert.equal(await counts(), before);
+      assert.match(first.formulation, /^FM-\d+$/);
+      // Each account can open its portal session and sees only its own scope.
+      const token = () => crypto.randomBytes(32).toString('hex');
+      const careSession = async id => {
+        const s = { token: token(), csrf: token() };
+        await rpc('care_open_session', { p_auth_user: id, p_token: s.token, p_csrf: s.csrf });
+        return s;
+      };
+      const p = await careSession(ids.practitioner);
+      const me = await rpc('care_action', {
+        p_token: p.token,
+        p_csrf: p.csrf,
+        p_role: 'practitioner',
+        p_subject: null,
+        p_practice: null,
+        p_action: 'me',
+        p_data: {},
+      });
+      assert.deepEqual(
+        me.practices.map(x => [x.name, x.role]),
+        [[setup.PRACTICE_NAME, 'practitioner']],
+      );
+      const patientMe = await (async () => {
+        const s = await careSession(ids.patient);
+        return rpc('care_action', {
+          p_token: s.token,
+          p_csrf: s.csrf,
+          p_role: 'patient',
+          p_subject: null,
+          p_practice: null,
+          p_action: 'me',
+          p_data: {},
+        });
+      })();
+      assert.deepEqual([patientMe.subjects, patientMe.practices], [[], []]);
+      for (const who of ['practitioner', 'analyst', 'reviewer', 'admin'])
+        await rpc('evidence_open_session', {
+          p_auth_user: ids[who],
+          p_token: token(),
+          p_csrf: token(),
+        });
+      assert.equal(
+        await sql(
+          `select count(*) from evidence_formulation_enrolments e join formulations f on f.id=e.formulation_id where f.short_code='${first.formulation}'`,
+        ),
+        '1',
+      );
+      assert.equal(
+        await sql(
+          `select synthetic and enabled from care_practices where name='${setup.PRACTICE_NAME}'`,
+        ),
+        't',
+      );
+      // check-ins-due only touches the fictional practice's scheduled check-ins.
+      const due = execFileSync(
+        'psql',
+        [
+          process.env.CHANNEL_TEST_DB_URL,
+          '-X',
+          '-qAt',
+          '-v',
+          'ON_ERROR_STOP=1',
+          '--single-transaction',
+        ],
+        {
+          input: setup.dueSql(),
+          encoding: 'utf8',
+        },
+      ).trim();
+      assert.equal(due, '0');
+      assert.throws(() => setup.e164('07700', '--patient-phone'), /E.164/);
+      assert.equal(setup.e164('44 7700 900123', '--x'), '+447700900123');
+    },
+  );
 });

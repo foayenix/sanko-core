@@ -26,6 +26,24 @@ const fakeBaileys = {
 };
 
 describe('Baileys WhatsApp test adapter', () => {
+  it('sends report PDFs as documents and reports an unconfirmed send as ambiguous', async () => {
+    const sent = [];
+    const transport = new BaileysTransport({ baileys: fakeBaileys, allowedNumbers: new Set(['+447700900123']) });
+    transport.setSocket({ sendMessage: async (jid, content) => (sent.push({ jid, content }), { key: { id: 'BAE5' } }) });
+    const result = await transport.sendDocument('+447700900123', {
+      buffer: Buffer.from('%PDF-'), filename: 'report.pdf', caption: 'Private copy',
+    });
+    assert.deepEqual(result, { status: 'accepted', providerId: 'baileys:BAE5' });
+    assert.equal(sent[0].jid, '447700900123@s.whatsapp.net');
+    assert.deepEqual({ ...sent[0].content, document: sent[0].content.document.toString() }, {
+      document: '%PDF-', mimetype: 'application/pdf', fileName: 'report.pdf', caption: 'Private copy',
+    });
+    transport.setSocket({ sendMessage: async () => { throw new Error('socket closed'); } });
+    assert.equal((await transport.sendDocument('+447700900123', { buffer: Buffer.from('x'), filename: 'r.pdf' })).status, 'ambiguous');
+    // Never to a number outside the allowlist.
+    assert.equal((await transport.sendDocument('+447700900999', { buffer: Buffer.from('x'), filename: 'r.pdf' })).status, 'ambiguous');
+  });
+
   it('normalizes E.164 allowlists and supports an explicit wildcard', () => {
     assert.equal(normalizePhoneNumber(' +44 7700 900123 '), '+447700900123');
     assert.deepEqual([...parseAllowedNumbers('+447700900123, +234 801 234 5678')], [

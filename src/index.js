@@ -92,7 +92,7 @@ careDispatch.unref();
 // documents, media cleanup and expiry of interrupted drafts. Runs only when
 // the guided channel is switched on; disabling it stops the queue while
 // keeping every record, receipt and suppression.
-if (channelFlags.guided) {
+if (channelFlags.guided && channelFlags.outboundTransport === 'meta') {
 	const channelOutbound = require('./channel/outbound');
 	const channelWorker = setInterval(
 		() => {
