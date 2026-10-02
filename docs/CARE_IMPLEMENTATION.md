@@ -146,8 +146,8 @@ is process-local and is not a qualified distributed abuse-control system.
 
 ## Migrations, configuration and rollback
 
-Only `020_care_identity.sql` and `021_care_workflow.sql` are new. Historical SQL
-001–019 is unchanged. Apply through the existing checksum-ledger runner only in
+Care uses `020_care_identity.sql`, `021_care_workflow.sql`, and the additive
+`024_care_review_queue.sql`. Historical SQL is unchanged. Apply through the existing checksum-ledger runner only in
 an explicitly approved environment. **020 is a prerequisite for the new role
 router even while care access is off.** Without it, message processing fails
 closed; it must not silently fall back to automatic practitioner creation.
@@ -241,3 +241,57 @@ then qualify the chosen Auth provider and staffed clinical workflow in an
 explicitly authorised environment. Complete the approved recovery and care-rights
 operations before considering a real-patient R1 release. A local synthetic
 restore test does not qualify production backups or a deployment rollback.
+
+## WhatsApp care handoff and review completion — 2 October 2026
+
+The WhatsApp patient route now offers generic navigation to the authenticated
+synthetic portal when `CARE_WHATSAPP_HANDOFF_ENABLED=true`. This defaults off
+and requires the existing synthetic care flags. `CARE_ORIGIN` must be an exact
+HTTPS origin; local HTTP is accepted only on loopback outside production.
+`My visits`, `Check-ins`, `Privacy`, `My reference`, and `Care inbox` return public
+navigation destinations, never patient identifiers, sessions or access tokens.
+`Stop` directs the person to authenticated choices and explicitly says that no
+preference changed in chat. Patient text/media does not become a clinical report
+or enter the Vault model. A stale patient-menu button after switching to Vault
+asks for a fresh role selection. Existing legacy invitation replies are unchanged.
+
+This completes a **synthetic WhatsApp-to-portal loop**, not an in-chat clinical
+workflow or an outbound Meta reminder service. Patient reports, consent changes,
+and practitioner review still require individual portal sign-in and exact-action
+confirmation. Forwarding a navigation link grants no access. Follow-ups remain
+synthetic inbox deliveries, and live qualification gates above remain open.
+
+The practitioner portal now displays an actionable review inbox before patient
+selection. The `review_queue` action takes an empty `data` object, practitioner
+role, selected practice and no subject. Migration 024 adds a service-role-only
+RPC that checks the current session, CSRF, membership, synthetic scope, tracking
+permission and audit storage before returning the oldest 50 unreviewed reports.
+Each result includes its patient reference and current follow-up revision.
+Review uses the existing confirmed operation; reviewing an item removes it from
+the queue and makes the attributed next steps available to the patient. Older
+reports remain actionable even when absent from the first timeline page. A full
+batch explicitly asks the practitioner to review and refresh for more reports.
+With encounters disabled, the queue is hidden and its API rejects access.
+
+Patient check-ins precede the visit history and distinguish an unanswered report
+from a report awaiting review. Refresh reloads account and practice scope. Public
+URL fragments select a destination only after authentication; the same-tab
+sign-in path and sign-out clearing were verified.
+
+`preview:care` now includes `/whatsapp`, a loopback-only fictional message form
+using the real role routing and handoff code. It accepts only fixed navigation
+commands and never calls Meta or a model. Continue through the returned portal
+link using the documented fixture accounts. The preview database is disposable.
+
+Verification: 549 backend tests on the isolated care branch and 21 PostgreSQL
+care tests passed, including
+migration replay and dump/restore, generic WhatsApp entry, isolation from the
+Vault model, old-report review, cross-practice denial, CSRF, withdrawn tracking,
+revoked membership, audit failure and direct SQL-role denial. Lint, secret scan
+and repository checks passed. Browser verification covered fictional channel
+entry, individual sign-in, enrolment, invitation, tracking/message choices,
+walk-in, source-backed signing/release/completion, synthetic dispatch, patient
+response, inbox review, and patient retrieval after signing in again. Desktop
+and 390px mobile inspection found no horizontal overflow; browser warnings and
+errors were empty. No live Auth, Meta, clinical, language or production claim is
+made from these checks.

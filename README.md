@@ -896,3 +896,14 @@ ignored plant build report from committed inputs; no private textbook extracts a
 ## Patient continuity development
 
 Read [product source of truth](SANKO_SOURCE_OF_TRUTH.md), the [roadmap](docs/SANKO_PATIENT_CONTINUITY_IMPLEMENTATION_PLAN.md), and [implementation/release notes](docs/CARE_IMPLEMENTATION.md). New care capabilities are default-off and synthetic-only.
+
+The synthetic WhatsApp care loop now hands off from **My care** to individual
+portal sign-in, released visits and check-ins, then back to the practitioner's
+**Care inbox** for review. `CARE_WHATSAPP_HANDOFF_ENABLED=true` enables generic
+navigation links when synthetic care access is enabled; use an exact HTTPS
+`CARE_ORIGIN` (HTTP loopback is allowed only outside production). Links carry no
+patient identifiers or credentials. Replies and choices are confirmed in the
+authenticated portal. Automated WhatsApp reminders and live-patient access
+remain unavailable. Apply additive migration `024_care_review_queue.sql` for the
+practice review queue. `npm run preview:care` also serves a fictional WhatsApp
+entry exercise at `/whatsapp`; it never sends through Meta.

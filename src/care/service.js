@@ -17,10 +17,10 @@ const FIELDS = {
   schedule: ['encounter_id', 'due_at'], respond: ['id', 'expected_revision', 'report', 'observed_at'],
   patient_report: ['kind', 'encounter_id', 'report', 'observed_at'],
   review: ['id', 'expected_revision', 'next_steps'], rights: ['kind'],
-  timeline: ['before', 'cursor'], export: [], access_history: ['before'], today: [], formulations: [],
+  timeline: ['before', 'cursor'], export: [], access_history: ['before'], today: [], formulations: [], review_queue: [],
 };
 const OPTIONAL = new Set(['note_id', 'note_revision', 'amends_id', 'reason', 'before', 'cursor']);
-const ENCOUNTER_ACTIONS = new Set(['arrive', 'draft', 'sign', 'release', 'transition', 'schedule', 'respond', 'review', 'patient_report']);
+const ENCOUNTER_ACTIONS = new Set(['arrive', 'draft', 'sign', 'release', 'transition', 'schedule', 'respond', 'review', 'patient_report', 'review_queue']);
 function validate(action, data) {
   const fields = FIELDS[action];
   if (!fields) throw new Error('INVALID_ACTION');
@@ -69,9 +69,14 @@ async function act(token, csrf, body) {
   } else validate(action, data);
   if (ENCOUNTER_ACTIONS.has(action === 'prepare' ? data.action : action) && !flags.encounters) throw new Error('FEATURE_DISABLED');
   if (!csrf || !/^[A-Za-z0-9_-]{43}$/.test(csrf)) throw new Error('CSRF_REQUIRED');
-  return store.rpc('care_action', {
+  if (action === 'review_queue') {
+    if (role !== 'practitioner' || subject !== null || practice === null) throw new Error('NOT_FOUND');
+    return store.rpc('care_review_queue', { p_token: hash(token), p_csrf: hash(csrf), p_practice: practice });
+  }
+  const result = await store.rpc('care_action', {
     p_token: hash(token), p_csrf: hash(csrf), p_action: action, p_role: role,
     p_subject: subject, p_practice: practice, p_data: data, p_key: key, p_confirmation: confirmation,
   });
+  return action === 'me' ? { ...result, capabilities: { encounters: flags.encounters } } : result;
 }
 module.exports = { act, validate, UUID };

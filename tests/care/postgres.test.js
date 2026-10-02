@@ -10,6 +10,7 @@ const store = require('../../src/care/store');
 const service = require('../../src/care/service');
 const { hash } = require('../../src/care/auth');
 const { createRouter } = require('../../src/care/routes');
+const channel = require('../../src/care/channel');
 const uuid = () => crypto.randomUUID();
 const now = () => new Date().toISOString();
 
@@ -25,6 +26,24 @@ test('R0/R1 acceptance on disposable PostgreSQL and real HTTP', async t => {
     const preview = await act(c, 'prepare', { action, data });
     return act(c, action, data, { confirmation: preview.confirmation, ...extra });
   }
+  await t.test('WhatsApp entry returns a generic sign-in destination before patient enrolment', async () => {
+    process.env.CARE_WHATSAPP_HANDOFF_ENABLED = 'true';
+    process.env.CARE_ORIGIN = 'https://care.example.invalid';
+    const messages = [{ id: uuid(), timestamp: String(Math.floor(Date.now() / 1000)), type: 'text', text: { body: 'My care' } }];
+    const replies = [];
+    const transport = { sendButtonMessage: async (_, body) => replies.push(body) };
+    const mode = await channel.resolve('+447700900098', messages, false);
+    assert.equal(mode, 'patient');
+    await channel.reply(mode, '+447700900098', transport, messages);
+    assert.match(replies[0], /https:\/\/care.example.invalid\/care\//);
+    assert.equal(await sql('select count(*) from care_subjects'), '0');
+    assert.equal(await sql('select count(*) from practitioners'), '2');
+    process.env.CARE_ENCOUNTERS_ENABLED = 'false';
+    try {
+      assert.equal((await act(ctx('practitioner'), 'me')).capabilities.encounters, false);
+      await assert.rejects(act(ctx('practitioner', null, ids.practice), 'review_queue'), /FEATURE_DISABLED/);
+    } finally { process.env.CARE_ENCOUNTERS_ENABLED = 'true'; }
+  });
   const p = await act(ctx('patient'), 'onboard', { display_name: 'Synthetic Alex' });
   const p2 = await act(ctx('otherPatient'), 'onboard', { display_name: 'Synthetic Alex' });
   const patient = ctx('patient', p.id, ids.practice);
@@ -138,7 +157,18 @@ test('R0/R1 acceptance on disposable PostgreSQL and real HTTP', async t => {
   });
   await t.test('R1: practitioner review then later retrieval retains patient attribution', async () => {
     assert.equal((await act(ctx('practitioner', null, ids.practice), 'today')).updates.length, 1);
-    await confirmed(practitioner, 'review', { id: observation.id, expected_revision: 3, next_steps: 'Synthetic review acknowledged. No clinical advice.' });
+    const queue = await act(ctx('practitioner', null, ids.practice), 'review_queue');
+    assert.equal(queue.length, 1);
+    assert.equal(queue[0].id, observation.id);
+    assert.equal(queue[0].subject_id, p.id);
+    assert.equal(queue[0].report, 'Synthetic report: no change.');
+    assert.equal(queue[0].reference, p.reference);
+    assert.deepEqual(await act(ctx('otherPractitioner', null, ids.otherPractice), 'review_queue'), []);
+    await assert.rejects(act(ctx('otherPractitioner', null, ids.practice), 'review_queue'), /NOT_FOUND/);
+    await assert.rejects(act(ctx('patient', null, ids.practice), 'review_queue'), /NOT_FOUND/);
+    await assert.rejects(service.act(sessions.practitioner.token, sessions.patient.csrf, { action: 'review_queue', role: 'practitioner', practice: ids.practice }), /CSRF_REQUIRED/);
+    await confirmed(practitioner, 'review', { id: queue[0].id, expected_revision: queue[0].follow_up_revision, next_steps: 'Synthetic review acknowledged. No clinical advice.' });
+    assert.deepEqual(await act(ctx('practitioner', null, ids.practice), 'review_queue'), []);
     const timeline = await act(patient, 'timeline');
     assert.equal(timeline.observations[0].source_type, 'patient_reported');
     assert.equal(timeline.observations[0].review.author_id, ids.practitioner);
@@ -182,6 +212,7 @@ test('R0/R1 acceptance on disposable PostgreSQL and real HTTP', async t => {
     await confirmed(patient, 'preferences', { purpose: 'tracking', granted: false, expected_revision: 4 });
     assert.equal(await rpc('care_dispatch_synthetic', { p_now: '2026-09-30T12:02:00Z' }), 0);
     assert.equal(await sql(`select status from care_follow_ups where id='${queued.id}'`), 'cancelled');
+    assert.deepEqual(await act(ctx('practitioner', null, ids.practice), 'review_queue'), []);
     await assert.rejects(confirmed(patient, 'patient_report', { kind: 'past_visit', report: 'No collection', observed_at: now() }), /CONSENT_REQUIRED/);
     await assert.rejects(confirmed(practitioner, 'arrive', { visit_key: uuid(), occurred_at: now() }), /NOT_FOUND/);
     const deletion = await confirmed(patient, 'rights', { kind: 'deletion' });
@@ -209,6 +240,7 @@ test('R0/R1 acceptance on disposable PostgreSQL and real HTTP', async t => {
     for (const role of ['anon', 'authenticated']) {
       await assert.rejects(sql(`set role ${role}; select * from care_subjects`), /permission denied/);
       await assert.rejects(sql(`set role ${role}; select care_session_actor('guess')`), /permission denied/);
+      await assert.rejects(sql(`set role ${role}; select care_review_queue('guess','guess','${ids.practice}')`), /permission denied/);
     }
     await assert.rejects(sql(`update care_audit set action='overwritten'`), /append-only/);
   });
@@ -224,6 +256,25 @@ test('R0/R1 acceptance on disposable PostgreSQL and real HTTP', async t => {
       cursor = page.next_cursor;
     } while (cursor);
     assert.equal(seen.size, Number(await sql(`select count(*) from care_observations where subject_id='${p.id}'`)));
+  });
+  await t.test('review queue retains old actionable reports and fails closed on revoked membership or audit failure', async () => {
+    // Re-grant through the same authenticated, confirmed preference workflow.
+    await confirmed(patient, 'preferences', { purpose: 'tracking', granted: true, expected_revision: 5 });
+    const queueContext = ctx('practitioner', null, ids.practice);
+    const page = await act(practitioner, 'timeline');
+    const queue = await act(queueContext, 'review_queue');
+    assert.equal(queue.length, 50);
+    assert.equal(page.observations.some(row => row.id === queue[0].id), false, 'oldest pending report is beyond the first timeline page');
+    assert.equal(queue[0].follow_up_revision, null);
+    await confirmed(practitioner, 'review', { id: queue[0].id, expected_revision: null, next_steps: 'Synthetic old report acknowledged.' });
+    assert.equal((await act(queueContext, 'review_queue')).some(row => row.id === queue[0].id), false);
+    await sql(`update care_memberships set status='suspended' where actor_id='${ids.practitioner}';`);
+    await assert.rejects(act(queueContext, 'review_queue'), /NOT_FOUND/);
+    await sql(`update care_memberships set status='active' where actor_id='${ids.practitioner}';
+      create function test_queue_audit_failure() returns trigger language plpgsql as $$ begin raise exception 'AUDIT_DOWN'; end $$;
+      create trigger test_queue_audit_failure before insert on care_audit for each row execute function test_queue_audit_failure()`);
+    try { await assert.rejects(act(queueContext, 'review_queue'), /AUDIT_DOWN/); }
+    finally { await sql('drop trigger test_queue_audit_failure on care_audit; drop function test_queue_audit_failure()'); }
   });
   await t.test('AT35: actual HTTP session, CSRF, no-store, logout and forged tools', async () => {
     const app = express();
