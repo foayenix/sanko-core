@@ -109,7 +109,7 @@ function recordsRead(messages) {
 // client       — Anthropic client override; defaults to the shared one
 //
 // Returns { replies, toolCalls, stopped } for tests and the simulator.
-async function runAgent({ practitioner, content, sourceMediaIds = [], send, sendPatientConsent, client = llm.getClient() }) {
+async function runAgent({ practitioner, content, sourceMediaIds = [], inboundMessageKey = null, send, sendPatientConsent, client = llm.getClient() }) {
   const userContent = typeof content === 'string' ? [{ type: 'text', text: content }] : content;
   const currentUserText = userContent
     .filter(block => block?.type === 'text')
@@ -204,6 +204,7 @@ async function runAgent({ practitioner, content, sourceMediaIds = [], send, send
     for (const call of toolUses) {
       const result = await executeTool(call.name, call.input, {
         practitioner,
+        inboundMessageKey,
         sourceMediaId: sourceMediaIds.at(-1) ?? null,
         currentUserText,
         sendPatientConsent,

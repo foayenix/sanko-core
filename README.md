@@ -907,3 +907,17 @@ authenticated portal. Automated WhatsApp reminders and live-patient access
 remain unavailable. Apply additive migration `024_care_review_queue.sql` for the
 practice review queue. `npm run preview:care` also serves a fictional WhatsApp
 entry exercise at `/whatsapp`; it never sends through Meta.
+
+## Private formulation evidence — synthetic exercise
+
+The optional `/evidence/` workspace supports a confirmed fictional formulation,
+manual literature records, independent scientific review and private practitioner
+brief/technical dossier release. It includes scoped corrections, version updates,
+export and deletion. It is **not open for live intake**; research synthesis is not
+product certification or proof of efficacy. Care and contributor terms stay gated.
+
+See [evidence implementation and release requirements](docs/EVIDENCE_IMPLEMENTATION.md)
+for configuration, role provisioning, migrations 022–023, local preview and tests.
+Use `npm run test:evidence` with a dedicated local `EVIDENCE_TEST_DB_URL`, or
+`npm run preview:evidence` for the fictional browser flow. Both create isolated
+throwaway databases; neither invokes live Auth, WhatsApp or a model.

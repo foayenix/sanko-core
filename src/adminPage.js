@@ -55,6 +55,7 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
       ${_navButton('quality', 'Quality', 'quality')}
       ${_navButton('system', 'System', 'pulse', false, failureCount)}
       ${_navButton('security', 'Security', 'shield')}
+      <a href="/evidence/">Evidence workbench ↗</a>
     </nav>
     <div class="sidebar-foot">
       <div class="admin-avatar" aria-hidden="true">FA</div>

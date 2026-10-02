@@ -8,6 +8,8 @@ const simulatorRouter = require('./simulator');
 const db = require('./services/supabase');
 
 const app = express();
+require('./evidence/config').configuration();
+app.use('/evidence', require('./evidence/routes').createRouter());
 require('./care/config').configuration();
 app.use('/care', require('./care/routes').createRouter());
 

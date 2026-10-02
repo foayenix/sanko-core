@@ -305,6 +305,7 @@ async function runQueuedTurn({ from, messages, transport, practitioner, isNew })
       practitioner,
       content,
       sourceMediaIds: content.sourceMediaIds,
+      inboundMessageKey: messages.every(message => message.id) ? messages.map(message => message.id).sort().join('|') : null,
       sendPatientConsent: invitation => transport.sendPatientConsentRequest(invitation),
       send: (text, choices) => (choices?.length
         ? transport.sendButtonMessage(from, text, choices)

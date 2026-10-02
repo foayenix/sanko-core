@@ -226,15 +226,15 @@ describe('Ollama response translation', () => {
 describe('tool profiles', () => {
   it('full exposes every tool only when patient tracking is independently enabled', () => {
     process.env.PATIENT_TRACKING_ENABLED = 'true';
-    // Everything except the contributor-terms tool, which has its own switch:
+    // Contributor terms and the three evidence tools have independent switches:
     // a question about an unreviewed draft is one the agent must not be able to
     // ask, whatever tool profile it is running under.
-    assert.equal(selectTools('full').length, TOOLS.length - 1);
+    assert.equal(selectTools('full').length, TOOLS.length - 4);
     assert.ok(!selectTools('full').some(tool => tool.name === 'accept_contributor_terms'));
 
     process.env.CONTRIBUTOR_TERMS_IN_FORCE = 'true';
     try {
-      assert.equal(selectTools('full').length, TOOLS.length);
+      assert.equal(selectTools('full').length, TOOLS.length - 3);
     } finally {
       delete process.env.CONTRIBUTOR_TERMS_IN_FORCE;
     }
