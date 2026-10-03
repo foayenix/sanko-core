@@ -9,7 +9,7 @@
   "scripts": {
     "start": "node src/index.js",
     "lint": "eslint .",
-    "dev": "nodemon src/index.js",
+    "dev": "node --watch src/index.js",
     "whatsapp:test": "node src/baileys.js",
     "preview:admin": "node scripts/preview-admin.js",
     "preview:dashboard": "node scripts/preview-dashboard.js",
@@ -68,7 +68,6 @@
   "devDependencies": {
     "@eslint/js": "^10.0.1",
     "eslint": "^10.11.0",
-    "globals": "^17.12.0",
-    "nodemon": "^3.1.10"
+    "globals": "^17.12.0"
   }
 }
