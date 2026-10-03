@@ -117,6 +117,9 @@ the deterministic confirmation contract in this change.
 
 ## Testing from real phones
 
+To put the code on a server for testing, follow
+[WHATSAPP_DEPLOYMENT_CHECKLIST.md](WHATSAPP_DEPLOYMENT_CHECKLIST.md).
+
 [WHATSAPP_BAILEYS_TESTING.md](WHATSAPP_BAILEYS_TESTING.md) explains how to run
 these flows against a test Supabase project through the Baileys adapter.
 `scripts/setup-channel-test.js` creates individual Supabase Auth logins bound to

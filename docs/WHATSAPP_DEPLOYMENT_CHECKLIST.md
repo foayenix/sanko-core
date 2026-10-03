@@ -105,8 +105,8 @@ EVIDENCE_PDF_FONT_BOLD=/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf
 - [ ] `META_VERIFY_TOKEN` — any random string; you'll enter the same value in
       Meta's webhook settings.
 - [ ] `META_ACCESS_TOKEN` — a token for the WhatsApp test number. Temporary
-      tokens from the Meta dashboard expire after about a day; use a system-user
-      token for anything longer.
+      tokens from the Meta dashboard expire quickly (check Meta's current
+      documentation); use a system-user token for anything longer.
 - [ ] `META_PHONE_NUMBER_ID` — the test number's ID (not the phone number).
 - [ ] `META_APP_SECRET` — required in production; webhooks without a valid
       signature are refused.
