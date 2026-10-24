@@ -63,10 +63,32 @@ already labels it testing-only. A public pilot means the Cloud API.
 
 ## 2. Hosting
 
-- [ ] A server that is not a laptop, with a public HTTPS origin and a process
-      manager that restarts the app.
+Decided: **self-hosted on Apple silicon** — the development laptop during the
+run-up, a Mac mini at launch. Renting GPU capacity was priced and rejected.
+That keeps the model local, so the items below replace the usual "rent a box"
+ones rather than sitting beside them.
+
+- [ ] **A public HTTPS address that reaches the machine**, through an outbound
+      tunnel rather than port forwarding: a named Cloudflare Tunnel (stable
+      hostname, free) or Tailscale Funnel. Home and mobile ISPs commonly place
+      customers behind carrier-grade NAT, where forwarding a port cannot work
+      at all. Meta needs the hostname to stay the same.
 - [ ] `NODE_ENV=production` (refuses unsigned webhooks, requires HTTPS portal
-      origins), `TRUST_PROXY` set for the real proxy, `PORT` set.
+      origins), `TRUST_PROXY` set for the tunnel, `PORT` set.
+- [ ] **The machine never sleeps**: power settings plus `caffeinate`, and
+      lid-closed operation confirmed if it is a laptop. A sleeping server is an
+      offline bot with no error anywhere.
+- [ ] **Everything restarts by itself**: `launchd` agents (or `pm2`) for the
+      Node process, Ollama and the database stack, started at login and
+      restarted on crash, verified by rebooting the machine and messaging the
+      bot without touching a terminal.
+- [ ] **Power and connectivity interruptions survivable**: a UPS for the mini,
+      and a known answer for what happens to a message that arrives while the
+      machine is down. Meta retries webhook deliveries for a period — confirm
+      the current window in Meta's documentation rather than assuming one; the
+      inbound recovery sweep in migration `019` only covers messages the app
+      already accepted, not ones it never received.
+- [ ] `PORTAL_RATE_LIMIT_KEY` at least 32 random characters.
 - [ ] `PORTAL_RATE_LIMIT_KEY` at least 32 random characters.
 - [ ] `/health` returns `{"status":"ok"}` from the public origin.
 - [ ] Logs retained somewhere you can search after an incident.
@@ -75,21 +97,26 @@ already labels it testing-only. A public pilot means the Cloud API.
 - [ ] Baileys shut down: linked device removed from the spare phone,
       `BAILEYS_AUTH_DIR` deleted. Two transports on one number drop messages.
 
-## 3. The model decision
+## 3. The model
 
-Local Ollama on a Mac does not travel to a small VPS. Pick one and write down
-why, because it changes what the project can claim:
+Decided: the model stays on the machine. Renting GPU capacity was priced and
+rejected; the Anthropic API was not taken, so practitioner text does not leave
+the box and the sovereignty posture `npm run doctor` reports stands as written.
+What remains is sizing.
 
-- [ ] **Keep it local.** A machine with enough GPU/unified memory to serve
-      `qwen2.5:32b-instruct-q4_K_M` and Whisper, reachable only by the app.
-      Preserves the "model, transcription and archive on this machine" posture
-      `npm run doctor` reports.
-- [ ] **Or use the Anthropic API** (`ANTHROPIC_API_KEY`, `AGENT_MODEL`).
-      Cheaper to operate, but practitioner text then leaves the box, which
-      contradicts the sovereignty statement and must be reflected in
-      `PRIVACY.md` before launch, not after.
-- [ ] Whichever is chosen: transcription path tested end to end with real
-      voice notes, including the failure message when the model is missing.
+- [ ] **Mac mini specified for the model, not the price.**
+      `qwen2.5:32b-instruct-q4_K_M` is about 20 GB of weights before any
+      context, and Whisper and the vision model want their own room. A base
+      16 GB machine cannot serve it; 48 GB is the sensible floor and 64 GB
+      leaves headroom for a larger model later.
+- [ ] **Concurrency sized and bounded.** One machine serves roughly one
+      generation at a time: a second practitioner messaging mid-reply waits
+      behind the first. Decide the number of pilot practitioners from measured
+      tokens per second, and decide what the bot says when it is busy.
+- [ ] Transcription path tested end to end with real voice notes, including
+      the failure message when the model is missing.
+- [ ] The laptop is understood as temporary: everything in section 2 is
+      rehearsed on it so the move to the mini is a migration, not a rebuild.
 
 ## 4. Data protection and legal
 
@@ -165,6 +192,19 @@ in the repository. Each needs a person's decision, written down:
       moves to a paid API.
 - [ ] Rollback written down: which flags to turn off, and the rule that
       migrations and records are never dropped to roll back.
+- [ ] **Where the database actually lives, decided.** The local Supabase CLI
+      stack is a development stack whose data sits in a Docker volume on the
+      machine. Either move the pilot to a hosted Supabase project (the model
+      stays local either way) or keep it local with encrypted backups held off
+      the machine and a restore that has been run, not just verified. On one
+      self-hosted machine this is the largest data-loss risk in the project.
+- [ ] **Full-disk encryption on and screen lock short.** Records on a portable
+      machine mean theft is a data breach; FileVault is the difference between
+      a lost laptop and a notifiable incident.
+- [ ] **Move to the Mac mini written as a procedure before it is needed**: the
+      `.env`, the database (dump and restore, or the Docker volume), the Ollama
+      models, the launchd agents, the tunnel credentials, and a dry run that
+      ends with the bot answering from the mini while the laptop is off.
 
 ## 9. Pre-launch smoke test on the production number
 
