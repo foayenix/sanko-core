@@ -48,6 +48,8 @@ selection, not a claim to include every improvement already merged in the archiv
 
 - Rebind any future CI/CD or hosting source to `sanko-core`; the transfer itself
   did not change production deployments, domains, GitHub settings or live data.
+  The landing's Railway config and `serve` start script were removed (their
+  dependency had an unpatched advisory); production serves `public/` from Vercel.
 - Qualify landing form delivery and `supabase/functions/notify-enquiry`; compare
   archive `forms/email-delivery` and `forms/email-not-hosted-db` selectively.
   Blank production form configuration is not a working delivery integration.
