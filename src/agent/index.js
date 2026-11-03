@@ -14,6 +14,7 @@ const { selectTools, executeTool } = require('./tools');
 const { loadTemplate } = require('./prompt');
 const registration = require('./registration');
 const { splitChoices } = require('../utils/choices');
+const { whatsappBold } = require('../utils/format');
 // Imported as a namespace, not destructured, so tests can substitute individual
 // functions on the shared module object.
 const db = require('../services/supabase');
@@ -187,7 +188,9 @@ async function runAgent({ practitioner, content, sourceMediaIds = [], inboundMes
       if (block.type === 'text' && block.text.trim()) {
         // Buttons travel with the message that offers them; send() decides how
         // to render them for its transport.
-        const { text, choices } = splitChoices(block.text);
+        const split = splitChoices(block.text);
+        const text = whatsappBold(split.text);
+        const { choices } = split;
         if (!text) continue;
         replies.push({ text, choices });
         await send(text, choices);

@@ -678,6 +678,17 @@ describe('runAgent', () => {
     assert.equal(fake.store.agentMessages[1].role, 'assistant');
   });
 
+  it('sends markdown **bold** as WhatsApp *bold*', async () => {
+    const p = fake.store.seedPractitioner();
+    const sent = [];
+    const client = fakeClient([textResponse('Saved as **FM-00001**.\n[[Done | Add another]]')]);
+
+    const result = await runAgent({ practitioner: p, content: 'save it', send: t => sent.push(t), client });
+
+    assert.deepEqual(sent, ['Saved as *FM-00001*.']);
+    assert.deepEqual(result.replies, [{ text: 'Saved as *FM-00001*.', choices: ['Done', 'Add another'] }]);
+  });
+
   it('runs a tool call and feeds the result back to the model', async () => {
     const p = fake.store.seedPractitioner();
     const sent = [];
@@ -1618,6 +1629,27 @@ describe('quick-reply buttons', () => {
     const { text, choices } = splitChoices('All done.\n[[ ]]');
     assert.equal(text, 'All done.');
     assert.deepEqual(choices, []);
+  });
+});
+
+describe('WhatsApp bold', () => {
+  const { whatsappBold } = require('../src/utils/format');
+
+  it('turns paired double asterisks into single ones', () => {
+    assert.equal(
+      whatsappBold('Your remedy for *iba* is saved as **FM-00001**. Code: **FM-00001**.'),
+      'Your remedy for *iba* is saved as *FM-00001*. Code: *FM-00001*.',
+    );
+  });
+
+  it('converts markdown-style labels in a list', () => {
+    assert.equal(whatsappBold('- **Plants:**\n- **Dosage:** one cup'), '- *Plants:*\n- *Dosage:* one cup');
+  });
+
+  it('leaves single-asterisk bold, unpaired and line-spanning asterisks alone', () => {
+    assert.equal(whatsappBold('*already bold*'), '*already bold*');
+    assert.equal(whatsappBold('a ** b'), 'a ** b');
+    assert.equal(whatsappBold('**start\nend**'), '**start\nend**');
   });
 });
 
