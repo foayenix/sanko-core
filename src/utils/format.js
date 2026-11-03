@@ -43,4 +43,12 @@ function formatCard(s, { source } = {}) {
   return lines.join('\n');
 }
 
-module.exports = { formatCard };
+// WhatsApp bold is a single asterisk. Models trained on markdown write **bold**
+// anyway, even when the prompt says not to, and WhatsApp then shows the
+// practitioner the asterisks. Converts paired ** on one line to *; anything
+// unpaired is left as written.
+function whatsappBold(text) {
+  return String(text ?? '').replace(/\*\*(?=\S)([^*\n]*?\S)\*\*/g, '*$1*');
+}
+
+module.exports = { formatCard, whatsappBold };

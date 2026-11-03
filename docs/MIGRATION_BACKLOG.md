@@ -40,6 +40,7 @@ local agent before inclusion; copying its generated output alone loses provenanc
 | Contested-name adjudication | #13 `plants/adjudicate-contested` | Verify reviewer attribution and exclusions; no automatic winner selection. |
 | Photo identification guard | #15 `plants/photo-identification-guard` | Compare with the existing specimen grounding tests; verify no model-origin species can persist. |
 | Resolver search, diacritics, chat links | #16/#17/#18 `plants/name-search`, `plants/title-case-diacritics`, `plants/whatsapp-deep-link` | Port associated tests and builders; verify data parity, URL escaping and mobile interactions. |
+| Landing hero rewrite and product images | `claude/happy-pasteur-kbu21a` (archive) | Production still deploys from archive `main`, so this landed there first. Port `landing-v2/index.html`, `styles.css` and `landing-v2/img/` together; keep every image's fictional/preview caption. |
 
 The baseline remains at 479 names / 442 resolved. This is a deliberate source
 selection, not a claim to include every improvement already merged in the archive.
