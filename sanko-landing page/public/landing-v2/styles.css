@@ -219,6 +219,27 @@ summary:focus-visible{
 .hero-actions{ display:flex; flex-wrap:wrap; gap:.75rem; margin-top:2rem; }
 .hero-actions .btn{ flex:1 1 13rem }
 
+/* ---------- product screens ---------- */
+
+/* Phone captures are rendered at 2x from real flows on fictional records; the
+   caption under each says so. The hero phone is capped in height so the
+   actions stay above the fold. */
+.shot{ margin:0 }
+.shot img{ display:block; width:100%; height:auto }
+.shot--phone img{ max-width:20rem; margin-inline:auto }
+.hero .shot--phone img{ max-width:18.5rem; max-height:32rem; object-fit:contain; object-position:top }
+.shot--phone figcaption{ text-align:center; margin-inline:auto }
+.shot--photo{ margin-block:clamp(2rem,5vw,3rem) 0 }
+.shot--photo img{ border:1px solid var(--rule-light) }
+.shot figcaption{ max-width:60ch }
+.section:not(.band) .shot .disclaimer,
+.shot-pair + .disclaimer{ color:var(--ink-muted) }
+.shot-pair{ display:grid; gap:clamp(2rem,4vw,2.5rem); margin-block:clamp(2rem,5vw,3rem) 0; align-items:start }
+.shot-pair + .disclaimer{ margin-top:1.25rem }
+.shot--doc img{ border:1px solid var(--rule-light); background:#fff;
+  -webkit-mask-image:linear-gradient(#000 82%,transparent); mask-image:linear-gradient(#000 82%,transparent) }
+.shot-pair--doc + .disclaimer{ margin-bottom:clamp(2rem,5vw,3rem) }
+
 /* ---------- the transformation record ---------- */
 
 .record{
@@ -296,49 +317,9 @@ summary:focus-visible{
 
 .disclaimer{ margin-top:.875rem; color:var(--mineral-muted); }
 
-/* ---------- the projection ---------- */
-
-/* The hero record is a projection, so it says so where the figures are,
-   not in the caption underneath. The chip is tonal on purpose: chartreuse
-   means action and copper means source, and this is neither. */
-.tag-proj{
-  margin-left:auto; flex:none;
-  font-family:var(--font-data); font-size:var(--t-data);
-  letter-spacing:.06em; color:var(--mineral-muted);
-  border:1px solid var(--indigo-line);
-  padding:.1875rem .4375rem;
-}
-.proj-lede{
-  margin-top:1.125rem;
-  font-size:1.0625rem; font-weight:560; line-height:1.4;
-  letter-spacing:-.01em; color:var(--mineral); max-width:34ch;
-}
-
-.accrual-stats{
-  margin-top:1.125rem;
-  display:grid; gap:0;
-  border-bottom:1px solid rgba(52,52,107,.5);
-}
-.accrual-stats li{
-  display:grid; gap:.375rem;
-  padding-block:1.125rem;
-  border-top:1px solid rgba(52,52,107,.5);
-}
-.accrual-stats b{
-  font-family:var(--font-display);
-  font-size:clamp(1.75rem,5.5vw,2.375rem);
-  font-weight:820; line-height:.95; letter-spacing:-.035em;
-  color:var(--chartreuse);
-  font-variant-numeric:tabular-nums;
-}
-.accrual-stats span{ font-size:var(--t-body); line-height:1.4; color:var(--mineral-muted); max-width:26ch }
-
-.hero .fields{ margin-top:.25rem }
-
-/* The day-one record, in Evidence: the same formulation before any of it. */
+/* The day-one record, in Evidence. */
 .evidence-record{ margin:clamp(2.5rem,6vw,3.5rem) 0 0 }
 
-.hero-record{ margin:0 }
 
 /* ---------- sequence: how it works ---------- */
 
@@ -515,7 +496,6 @@ summary:focus-visible{
 /* ================= 600px+ ================= */
 @media (min-width:600px){
   :root{ --t-body:1.09375rem; --t-data:.8125rem }
-  .accrual-stats{ grid-template-columns:repeat(2,minmax(0,1fr)); column-gap:clamp(1rem,2.5vw,1.75rem) }
   .hero-actions .btn{ flex:0 0 auto }
   .foot-grid{ grid-template-columns:1.4fr 1fr 1fr }
   .fields div{ grid-template-columns:10rem 1fr }
@@ -539,16 +519,14 @@ summary:focus-visible{
   .dock{ display:none }
   .foot{ padding-bottom:clamp(3rem,7vw,4.5rem) }
 
-  /* From here the hero is two-column and carries three paragraphs beside an
-     accumulated record card. The display token caps lower than its global
-     5.5rem so the actions and the card's closing line stay above the fold. */
+  /* From here the hero is two-column: the claim and actions beside a phone
+     showing the agent at work. The display token caps lower than its global
+     5.5rem so the actions stay above the fold. */
   :root{ --t-display:clamp(2.375rem,8.4vw,4.5rem) }
   .hero{ padding-block:3.5rem 4.5rem }
-  .hero-grid{ grid-template-columns:minmax(0,1fr) minmax(0,1.02fr); align-items:center; gap:clamp(3rem,5vw,4.5rem) }
-
-  /* The projection sits beside the headline in half the width, so its field
-     labels give their column back to the values. */
-  .hero .fields div{ grid-template-columns:7.5rem 1fr }
+  .hero-grid{ grid-template-columns:minmax(0,1.25fr) minmax(0,.75fr); align-items:center; gap:clamp(3rem,5vw,4.5rem) }
+  .shot-pair{ grid-template-columns:repeat(2,minmax(0,1fr)) }
+  .shot-pair--doc{ grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr); align-items:center }
 
   .seq-list{
     grid-template-columns:repeat(4,minmax(0,1fr));
