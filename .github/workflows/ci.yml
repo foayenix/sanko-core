@@ -140,7 +140,10 @@ jobs:
       - run: npm run build
 
   migrations:
-    runs-on: ubuntu-latest
+    # Pinned: on ubuntu-latest (26.04) the default pg_dump is newer than the
+    # postgres:16 service and writes SET transaction_timeout, which Postgres 16
+    # rejects, so the dump/restore tests fail. 24.04 ships a matching client.
+    runs-on: ubuntu-24.04
     services:
       postgres:
         image: postgres:16
