@@ -191,6 +191,23 @@
     "taxonomy_source_id": "gbif-species-api"
   },
   {
+    "botanical_as_published": "Ageratum conyzoides (L.)L.",
+    "taxonomy_query_name": "Ageratum conyzoides (L.)L",
+    "taxonomy_query_strategy": "published_name",
+    "matcher_version": 2,
+    "match_type": "EXACT",
+    "confidence": 100,
+    "taxonomic_status": "ACCEPTED",
+    "matched_canonical": "Ageratum conyzoides",
+    "accepted_botanical": "Ageratum conyzoides",
+    "usage_key": "5401673",
+    "accepted_usage_key": "5401673",
+    "issues": [],
+    "export_eligible": true,
+    "checked_at": "2026-11-09",
+    "taxonomy_source_id": "gbif-species-api"
+  },
+  {
     "botanical_as_published": "Albizia ferruginea (Guill. & Perr.) Benth.",
     "match_type": "EXACT",
     "confidence": 100,
@@ -261,6 +278,23 @@
     "taxonomy_source_id": "gbif-species-api"
   },
   {
+    "botanical_as_published": "Allium ascalonicum L.",
+    "taxonomy_query_name": "Allium ascalonicum L",
+    "taxonomy_query_strategy": "published_name",
+    "matcher_version": 2,
+    "match_type": "EXACT",
+    "confidence": 100,
+    "taxonomic_status": "ACCEPTED",
+    "matched_canonical": "Allium ascalonicum",
+    "accepted_botanical": "Allium ascalonicum",
+    "usage_key": "2856558",
+    "accepted_usage_key": "2856558",
+    "issues": [],
+    "export_eligible": true,
+    "checked_at": "2026-11-09",
+    "taxonomy_source_id": "gbif-species-api"
+  },
+  {
     "botanical_as_published": "Allium ascalonicum Linn.",
     "match_type": "EXACT",
     "confidence": 100,
@@ -272,6 +306,23 @@
     "issues": [],
     "export_eligible": true,
     "checked_at": "2026-08-13",
+    "taxonomy_source_id": "gbif-species-api"
+  },
+  {
+    "botanical_as_published": "Allium sativum L.",
+    "taxonomy_query_name": "Allium sativum L",
+    "taxonomy_query_strategy": "published_name",
+    "matcher_version": 2,
+    "match_type": "EXACT",
+    "confidence": 100,
+    "taxonomic_status": "ACCEPTED",
+    "matched_canonical": "Allium sativum",
+    "accepted_botanical": "Allium sativum",
+    "usage_key": "2856681",
+    "accepted_usage_key": "2856681",
+    "issues": [],
+    "export_eligible": true,
+    "checked_at": "2026-11-09",
     "taxonomy_source_id": "gbif-species-api"
   },
   {
@@ -300,6 +351,23 @@
     "issues": [],
     "export_eligible": true,
     "checked_at": "2026-08-13",
+    "taxonomy_source_id": "gbif-species-api"
+  },
+  {
+    "botanical_as_published": "Alstonia boonei De Wild.",
+    "taxonomy_query_name": "Alstonia boonei De Wild",
+    "taxonomy_query_strategy": "published_name",
+    "matcher_version": 2,
+    "match_type": "EXACT",
+    "confidence": 100,
+    "taxonomic_status": "ACCEPTED",
+    "matched_canonical": "Alstonia boonei",
+    "accepted_botanical": "Alstonia boonei",
+    "usage_key": "5535759",
+    "accepted_usage_key": "5535759",
+    "issues": [],
+    "export_eligible": true,
+    "checked_at": "2026-11-09",
     "taxonomy_source_id": "gbif-species-api"
   },
   {
@@ -376,6 +444,23 @@
     "taxonomy_source_id": "gbif-species-api"
   },
   {
+    "botanical_as_published": "Ananas comosus (L.) Merr.",
+    "taxonomy_query_name": "Ananas comosus (L.) Merr",
+    "taxonomy_query_strategy": "published_name",
+    "matcher_version": 2,
+    "match_type": "EXACT",
+    "confidence": 100,
+    "taxonomic_status": "ACCEPTED",
+    "matched_canonical": "Ananas comosus",
+    "accepted_botanical": "Ananas comosus",
+    "usage_key": "5288819",
+    "accepted_usage_key": "5288819",
+    "issues": [],
+    "export_eligible": true,
+    "checked_at": "2026-11-09",
+    "taxonomy_source_id": "gbif-species-api"
+  },
+  {
     "botanical_as_published": "Anchomanes difformis (Blume) Engl.",
     "match_type": "EXACT",
     "confidence": 100,
@@ -387,6 +472,23 @@
     "issues": [],
     "export_eligible": true,
     "checked_at": "2026-08-13",
+    "taxonomy_source_id": "gbif-species-api"
+  },
+  {
+    "botanical_as_published": "Annickia chlorantha (Oliv.) Setten & Maas = Enantia chlorantha )",
+    "taxonomy_query_name": "Annickia chlorantha (Oliv.) Setten & Maas",
+    "taxonomy_query_strategy": "published_name",
+    "matcher_version": 2,
+    "match_type": "EXACT",
+    "confidence": 100,
+    "taxonomic_status": "ACCEPTED",
+    "matched_canonical": "Annickia chlorantha",
+    "accepted_botanical": "Annickia chlorantha",
+    "usage_key": "5407527",
+    "accepted_usage_key": "5407527",
+    "issues": [],
+    "export_eligible": true,
+    "checked_at": "2026-11-09",
     "taxonomy_source_id": "gbif-species-api"
   },
   {
@@ -466,6 +568,23 @@
     "taxonomy_source_id": "gbif-species-api"
   },
   {
+    "botanical_as_published": "Antiaris toxicaria Lesch.",
+    "taxonomy_query_name": "Antiaris toxicaria Lesch",
+    "taxonomy_query_strategy": "published_name",
+    "matcher_version": 2,
+    "match_type": "EXACT",
+    "confidence": 100,
+    "taxonomic_status": "ACCEPTED",
+    "matched_canonical": "Antiaris toxicaria",
+    "accepted_botanical": "Antiaris toxicaria",
+    "usage_key": "7262663",
+    "accepted_usage_key": "7262663",
+    "issues": [],
+    "export_eligible": true,
+    "checked_at": "2026-11-09",
+    "taxonomy_source_id": "gbif-species-api"
+  },
+  {
     "botanical_as_published": "Aristolochia ringens Vahl",
     "match_type": "EXACT",
     "confidence": 100,
@@ -492,6 +611,23 @@
     "issues": [],
     "export_eligible": true,
     "checked_at": "2026-08-13",
+    "taxonomy_source_id": "gbif-species-api"
+  },
+  {
+    "botanical_as_published": "Asparagus africanus Lam.",
+    "taxonomy_query_name": "Asparagus africanus Lam",
+    "taxonomy_query_strategy": "published_name",
+    "matcher_version": 2,
+    "match_type": "EXACT",
+    "confidence": 100,
+    "taxonomic_status": "ACCEPTED",
+    "matched_canonical": "Asparagus africanus",
+    "accepted_botanical": "Asparagus africanus",
+    "usage_key": "2768551",
+    "accepted_usage_key": "2768551",
+    "issues": [],
+    "export_eligible": true,
+    "checked_at": "2026-11-09",
     "taxonomy_source_id": "gbif-species-api"
   },
   {
@@ -537,6 +673,23 @@
     "taxonomy_source_id": "gbif-species-api"
   },
   {
+    "botanical_as_published": "Azadirachta indica A. Juss.",
+    "taxonomy_query_name": "Azadirachta indica A. Juss",
+    "taxonomy_query_strategy": "published_name",
+    "matcher_version": 2,
+    "match_type": "EXACT",
+    "confidence": 100,
+    "taxonomic_status": "ACCEPTED",
+    "matched_canonical": "Azadirachta indica",
+    "accepted_botanical": "Azadirachta indica",
+    "usage_key": "3190474",
+    "accepted_usage_key": "3190474",
+    "issues": [],
+    "export_eligible": true,
+    "checked_at": "2026-11-09",
+    "taxonomy_source_id": "gbif-species-api"
+  },
+  {
     "botanical_as_published": "Azadirachta indica A.Juss.",
     "match_type": "EXACT",
     "confidence": 100,
@@ -548,6 +701,23 @@
     "issues": [],
     "export_eligible": true,
     "checked_at": "2026-08-13",
+    "taxonomy_source_id": "gbif-species-api"
+  },
+  {
+    "botanical_as_published": "Bambusa vulgaris Schrad.",
+    "taxonomy_query_name": "Bambusa vulgaris Schrad",
+    "taxonomy_query_strategy": "published_name",
+    "matcher_version": 2,
+    "match_type": "EXACT",
+    "confidence": 100,
+    "taxonomic_status": "PROVISIONALLY_ACCEPTED",
+    "matched_canonical": "Bambusa vulgaris",
+    "accepted_botanical": "Bambusa vulgaris",
+    "usage_key": "2705758",
+    "accepted_usage_key": "2705758",
+    "issues": [],
+    "export_eligible": false,
+    "checked_at": "2026-11-09",
     "taxonomy_source_id": "gbif-species-api"
   },
   {
@@ -707,6 +877,23 @@
     "taxonomy_source_id": "gbif-species-api"
   },
   {
+    "botanical_as_published": "Cajanus cajan (L.) Millsp.",
+    "taxonomy_query_name": "Cajanus cajan (L.) Millsp",
+    "taxonomy_query_strategy": "published_name",
+    "matcher_version": 2,
+    "match_type": "EXACT",
+    "confidence": 100,
+    "taxonomic_status": "SYNONYM",
+    "matched_canonical": "Cajanus cajan",
+    "accepted_botanical": "Cajanus cajan",
+    "usage_key": "2960383",
+    "accepted_usage_key": "7587087",
+    "issues": [],
+    "export_eligible": true,
+    "checked_at": "2026-11-09",
+    "taxonomy_source_id": "gbif-species-api"
+  },
+  {
     "botanical_as_published": "Caladium bicolor (Aiton) Vent.",
     "match_type": "EXACT",
     "confidence": 100,
@@ -763,6 +950,23 @@
     "taxonomy_source_id": "gbif-species-api"
   },
   {
+    "botanical_as_published": "Calotropis procera (Aiton) Dryand",
+    "taxonomy_query_name": "Calotropis procera (Aiton) Dryand",
+    "taxonomy_query_strategy": "published_name",
+    "matcher_version": 2,
+    "match_type": "EXACT",
+    "confidence": 100,
+    "taxonomic_status": "SYNONYM",
+    "matched_canonical": "Calotropis procera",
+    "accepted_botanical": "Calotropis procera",
+    "usage_key": "8377456",
+    "accepted_usage_key": "5414566",
+    "issues": [],
+    "export_eligible": true,
+    "checked_at": "2026-11-09",
+    "taxonomy_source_id": "gbif-species-api"
+  },
+  {
     "botanical_as_published": "Calotropis procera (Aiton) Dryand.",
     "match_type": "EXACT",
     "confidence": 100,
@@ -805,6 +1009,23 @@
     "taxonomy_source_id": "gbif-species-api"
   },
   {
+    "botanical_as_published": "Capsicum annuum L. = Capsicum frutescens",
+    "taxonomy_query_name": "Capsicum annuum L",
+    "taxonomy_query_strategy": "published_name",
+    "matcher_version": 2,
+    "match_type": "EXACT",
+    "confidence": 100,
+    "taxonomic_status": "ACCEPTED",
+    "matched_canonical": "Capsicum annuum",
+    "accepted_botanical": "Capsicum annuum",
+    "usage_key": "2932944",
+    "accepted_usage_key": "2932944",
+    "issues": [],
+    "export_eligible": true,
+    "checked_at": "2026-11-09",
+    "taxonomy_source_id": "gbif-species-api"
+  },
+  {
     "botanical_as_published": "Carica papaya",
     "match_type": "EXACT",
     "confidence": 99,
@@ -816,6 +1037,23 @@
     "issues": [],
     "export_eligible": true,
     "checked_at": "2026-08-13",
+    "taxonomy_source_id": "gbif-species-api"
+  },
+  {
+    "botanical_as_published": "Carica papaya L.",
+    "taxonomy_query_name": "Carica papaya L",
+    "taxonomy_query_strategy": "published_name",
+    "matcher_version": 2,
+    "match_type": "EXACT",
+    "confidence": 100,
+    "taxonomic_status": "ACCEPTED",
+    "matched_canonical": "Carica papaya",
+    "accepted_botanical": "Carica papaya",
+    "usage_key": "2874484",
+    "accepted_usage_key": "2874484",
+    "issues": [],
+    "export_eligible": true,
+    "checked_at": "2026-11-09",
     "taxonomy_source_id": "gbif-species-api"
   },
   {
@@ -875,6 +1113,23 @@
     "taxonomy_source_id": "gbif-species-api"
   },
   {
+    "botanical_as_published": "Chasmanthera dependens Hochst.",
+    "taxonomy_query_name": "Chasmanthera dependens Hochst",
+    "taxonomy_query_strategy": "published_name",
+    "matcher_version": 2,
+    "match_type": "EXACT",
+    "confidence": 100,
+    "taxonomic_status": "ACCEPTED",
+    "matched_canonical": "Chasmanthera dependens",
+    "accepted_botanical": "Chasmanthera dependens",
+    "usage_key": "3831092",
+    "accepted_usage_key": "3831092",
+    "issues": [],
+    "export_eligible": true,
+    "checked_at": "2026-11-09",
+    "taxonomy_source_id": "gbif-species-api"
+  },
+  {
     "botanical_as_published": "Chassalia kolly (Schumach.) Hepper",
     "match_type": "EXACT",
     "confidence": 100,
@@ -900,6 +1155,23 @@
     "issues": [],
     "export_eligible": true,
     "checked_at": "2026-08-13",
+    "taxonomy_source_id": "gbif-species-api"
+  },
+  {
+    "botanical_as_published": "Chrysophyllum albidum G.Don",
+    "taxonomy_query_name": "Chrysophyllum albidum G.Don",
+    "taxonomy_query_strategy": "published_name",
+    "matcher_version": 2,
+    "match_type": "EXACT",
+    "confidence": 100,
+    "taxonomic_status": "SYNONYM",
+    "matched_canonical": "Chrysophyllum albidum",
+    "accepted_botanical": "Gambeya albida",
+    "usage_key": "2885627",
+    "accepted_usage_key": "2885630",
+    "issues": [],
+    "export_eligible": true,
+    "checked_at": "2026-11-09",
     "taxonomy_source_id": "gbif-species-api"
   },
   {
@@ -931,6 +1203,23 @@
     "issues": [],
     "export_eligible": true,
     "checked_at": "2026-08-13",
+    "taxonomy_source_id": "gbif-species-api"
+  },
+  {
+    "botanical_as_published": "Citrullus colocynthis (L.) Schrad.",
+    "taxonomy_query_name": "Citrullus colocynthis (L.) Schrad",
+    "taxonomy_query_strategy": "published_name",
+    "matcher_version": 2,
+    "match_type": "EXACT",
+    "confidence": 100,
+    "taxonomic_status": "ACCEPTED",
+    "matched_canonical": "Citrullus colocynthis",
+    "accepted_botanical": "Citrullus colocynthis",
+    "usage_key": "2874622",
+    "accepted_usage_key": "2874622",
+    "issues": [],
+    "export_eligible": true,
+    "checked_at": "2026-11-09",
     "taxonomy_source_id": "gbif-species-api"
   },
   {
@@ -1047,6 +1336,23 @@
     "taxonomy_source_id": "gbif-species-api"
   },
   {
+    "botanical_as_published": "Cocos nucifera L.",
+    "taxonomy_query_name": "Cocos nucifera L",
+    "taxonomy_query_strategy": "published_name",
+    "matcher_version": 2,
+    "match_type": "EXACT",
+    "confidence": 100,
+    "taxonomic_status": "ACCEPTED",
+    "matched_canonical": "Cocos nucifera",
+    "accepted_botanical": "Cocos nucifera",
+    "usage_key": "2735117",
+    "accepted_usage_key": "2735117",
+    "issues": [],
+    "export_eligible": true,
+    "checked_at": "2026-11-09",
+    "taxonomy_source_id": "gbif-species-api"
+  },
+  {
     "botanical_as_published": "Cocos nucifera Linn.",
     "match_type": "EXACT",
     "confidence": 100,
@@ -1058,6 +1364,23 @@
     "issues": [],
     "export_eligible": true,
     "checked_at": "2026-08-13",
+    "taxonomy_source_id": "gbif-species-api"
+  },
+  {
+    "botanical_as_published": "Cola acuminata (P.Beauv) Schott & Endl.",
+    "taxonomy_query_name": "Cola acuminata (P.Beauv) Schott & Endl",
+    "taxonomy_query_strategy": "published_name",
+    "matcher_version": 2,
+    "match_type": "EXACT",
+    "confidence": 100,
+    "taxonomic_status": "ACCEPTED",
+    "matched_canonical": "Cola acuminata",
+    "accepted_botanical": "Cola acuminata",
+    "usage_key": "5406685",
+    "accepted_usage_key": "5406685",
+    "issues": [],
+    "export_eligible": true,
+    "checked_at": "2026-11-09",
     "taxonomy_source_id": "gbif-species-api"
   },
   {
@@ -1089,6 +1412,23 @@
     "taxonomy_source_id": "gbif-species-api"
   },
   {
+    "botanical_as_published": "Combretum bracteatum (C.Lawson) Engl. & Diels",
+    "taxonomy_query_name": "Combretum bracteatum (C.Lawson) Engl. & Diels",
+    "taxonomy_query_strategy": "published_name",
+    "matcher_version": 2,
+    "match_type": "EXACT",
+    "confidence": 100,
+    "taxonomic_status": "ACCEPTED",
+    "matched_canonical": "Combretum bracteatum",
+    "accepted_botanical": "Combretum bracteatum",
+    "usage_key": "3699926",
+    "accepted_usage_key": "3699926",
+    "issues": [],
+    "export_eligible": true,
+    "checked_at": "2026-11-09",
+    "taxonomy_source_id": "gbif-species-api"
+  },
+  {
     "botanical_as_published": "Combretum glutinosum",
     "match_type": "EXACT",
     "confidence": 97,
@@ -1114,6 +1454,23 @@
     "issues": [],
     "export_eligible": true,
     "checked_at": "2026-08-13",
+    "taxonomy_source_id": "gbif-species-api"
+  },
+  {
+    "botanical_as_published": "Combretum micranthum G. Don",
+    "taxonomy_query_name": "Combretum micranthum G. Don",
+    "taxonomy_query_strategy": "published_name",
+    "matcher_version": 2,
+    "match_type": "EXACT",
+    "confidence": 100,
+    "taxonomic_status": "ACCEPTED",
+    "matched_canonical": "Combretum micranthum",
+    "accepted_botanical": "Combretum micranthum",
+    "usage_key": "3698309",
+    "accepted_usage_key": "3698309",
+    "issues": [],
+    "export_eligible": true,
+    "checked_at": "2026-11-09",
     "taxonomy_source_id": "gbif-species-api"
   },
   {
@@ -1159,6 +1516,23 @@
     "taxonomy_source_id": "gbif-species-api"
   },
   {
+    "botanical_as_published": "Corchorus olitorius L.",
+    "taxonomy_query_name": "Corchorus olitorius L",
+    "taxonomy_query_strategy": "published_name",
+    "matcher_version": 2,
+    "match_type": "EXACT",
+    "confidence": 100,
+    "taxonomic_status": "ACCEPTED",
+    "matched_canonical": "Corchorus olitorius",
+    "accepted_botanical": "Corchorus olitorius",
+    "usage_key": "3152084",
+    "accepted_usage_key": "3152084",
+    "issues": [],
+    "export_eligible": true,
+    "checked_at": "2026-11-09",
+    "taxonomy_source_id": "gbif-species-api"
+  },
+  {
     "botanical_as_published": "Costus afer Ker Gawl.",
     "match_type": "EXACT",
     "confidence": 100,
@@ -1187,6 +1561,23 @@
     "taxonomy_source_id": "gbif-species-api"
   },
   {
+    "botanical_as_published": "Crinum jagus (J.Thomps.) Dandy",
+    "taxonomy_query_name": "Crinum jagus (J.Thomps.) Dandy",
+    "taxonomy_query_strategy": "published_name",
+    "matcher_version": 2,
+    "match_type": "EXACT",
+    "confidence": 100,
+    "taxonomic_status": "ACCEPTED",
+    "matched_canonical": "Crinum jagus",
+    "accepted_botanical": "Crinum jagus",
+    "usage_key": "2853913",
+    "accepted_usage_key": "2853913",
+    "issues": [],
+    "export_eligible": true,
+    "checked_at": "2026-11-09",
+    "taxonomy_source_id": "gbif-species-api"
+  },
+  {
     "botanical_as_published": "Crinum jagus (Thoms.) Dandy",
     "match_type": "EXACT",
     "confidence": 100,
@@ -1198,6 +1589,23 @@
     "issues": [],
     "export_eligible": true,
     "checked_at": "2026-08-13",
+    "taxonomy_source_id": "gbif-species-api"
+  },
+  {
+    "botanical_as_published": "Crotalaria retusa L.",
+    "taxonomy_query_name": "Crotalaria retusa L",
+    "taxonomy_query_strategy": "published_name",
+    "matcher_version": 2,
+    "match_type": "EXACT",
+    "confidence": 100,
+    "taxonomic_status": "ACCEPTED",
+    "matched_canonical": "Crotalaria retusa",
+    "accepted_botanical": "Crotalaria retusa",
+    "usage_key": "2942610",
+    "accepted_usage_key": "2942610",
+    "issues": [],
+    "export_eligible": true,
+    "checked_at": "2026-11-09",
     "taxonomy_source_id": "gbif-species-api"
   },
   {
@@ -1242,6 +1650,23 @@
     "issues": [],
     "export_eligible": true,
     "checked_at": "2026-08-13",
+    "taxonomy_source_id": "gbif-species-api"
+  },
+  {
+    "botanical_as_published": "Crudia klainei De Wild.",
+    "taxonomy_query_name": "Crudia klainei De Wild",
+    "taxonomy_query_strategy": "published_name",
+    "matcher_version": 2,
+    "match_type": "EXACT",
+    "confidence": 100,
+    "taxonomic_status": "ACCEPTED",
+    "matched_canonical": "Crudia klainei",
+    "accepted_botanical": "Crudia klainei",
+    "usage_key": "2974598",
+    "accepted_usage_key": "2974598",
+    "issues": [],
+    "export_eligible": true,
+    "checked_at": "2026-11-09",
     "taxonomy_source_id": "gbif-species-api"
   },
   {
@@ -1405,6 +1830,40 @@
     "taxonomy_source_id": "gbif-species-api"
   },
   {
+    "botanical_as_published": "Dioclea reflexa Hook.f.",
+    "taxonomy_query_name": "Dioclea reflexa Hook.f",
+    "taxonomy_query_strategy": "published_name",
+    "matcher_version": 2,
+    "match_type": "EXACT",
+    "confidence": 100,
+    "taxonomic_status": "SYNONYM",
+    "matched_canonical": "Dioclea reflexa",
+    "accepted_botanical": "Macropsychanthus comosus",
+    "usage_key": "5359591",
+    "accepted_usage_key": "10954319",
+    "issues": [],
+    "export_eligible": true,
+    "checked_at": "2026-11-09",
+    "taxonomy_source_id": "gbif-species-api"
+  },
+  {
+    "botanical_as_published": "Dioscorea dumetorum (Kunth) Pax",
+    "taxonomy_query_name": "Dioscorea dumetorum (Kunth) Pax",
+    "taxonomy_query_strategy": "published_name",
+    "matcher_version": 2,
+    "match_type": "EXACT",
+    "confidence": 100,
+    "taxonomic_status": "ACCEPTED",
+    "matched_canonical": "Dioscorea dumetorum",
+    "accepted_botanical": "Dioscorea dumetorum",
+    "usage_key": "2754673",
+    "accepted_usage_key": "2754673",
+    "issues": [],
+    "export_eligible": true,
+    "checked_at": "2026-11-09",
+    "taxonomy_source_id": "gbif-species-api"
+  },
+  {
     "botanical_as_published": "Dissotis rotundifolia (Sm.) Triana (Synonym Heterotis rotundifolia (Sm.) Jacq.-Fél.)",
     "match_type": "EXACT",
     "confidence": 100,
@@ -1562,6 +2021,23 @@
     "issues": [],
     "export_eligible": false,
     "checked_at": "2026-08-13",
+    "taxonomy_source_id": "gbif-species-api"
+  },
+  {
+    "botanical_as_published": "Erythrophleum suaveolens (Guill. & Perr.) Brenan",
+    "taxonomy_query_name": "Erythrophleum suaveolens (Guill. & Perr.) Brenan",
+    "taxonomy_query_strategy": "published_name",
+    "matcher_version": 2,
+    "match_type": "EXACT",
+    "confidence": 100,
+    "taxonomic_status": "ACCEPTED",
+    "matched_canonical": "Erythrophleum suaveolens",
+    "accepted_botanical": "Erythrophleum suaveolens",
+    "usage_key": "2971196",
+    "accepted_usage_key": "2971196",
+    "issues": [],
+    "export_eligible": true,
+    "checked_at": "2026-11-09",
     "taxonomy_source_id": "gbif-species-api"
   },
   {
@@ -1756,6 +2232,23 @@
     "taxonomy_source_id": "gbif-species-api"
   },
   {
+    "botanical_as_published": "Ficus platyphylla Delile",
+    "taxonomy_query_name": "Ficus platyphylla Delile",
+    "taxonomy_query_strategy": "published_name",
+    "matcher_version": 2,
+    "match_type": "EXACT",
+    "confidence": 100,
+    "taxonomic_status": "ACCEPTED",
+    "matched_canonical": "Ficus platyphylla",
+    "accepted_botanical": "Ficus platyphylla",
+    "usage_key": "5572533",
+    "accepted_usage_key": "5572533",
+    "issues": [],
+    "export_eligible": true,
+    "checked_at": "2026-11-09",
+    "taxonomy_source_id": "gbif-species-api"
+  },
+  {
     "botanical_as_published": "Ficus polita Vahl",
     "match_type": "EXACT",
     "confidence": 100,
@@ -1795,6 +2288,23 @@
     "issues": [],
     "export_eligible": true,
     "checked_at": "2026-08-13",
+    "taxonomy_source_id": "gbif-species-api"
+  },
+  {
+    "botanical_as_published": "Garcinia kola Heckel",
+    "taxonomy_query_name": "Garcinia kola Heckel",
+    "taxonomy_query_strategy": "published_name",
+    "matcher_version": 2,
+    "match_type": "EXACT",
+    "confidence": 100,
+    "taxonomic_status": "ACCEPTED",
+    "matched_canonical": "Garcinia kola",
+    "accepted_botanical": "Garcinia kola",
+    "usage_key": "3189563",
+    "accepted_usage_key": "3189563",
+    "issues": [],
+    "export_eligible": true,
+    "checked_at": "2026-11-09",
     "taxonomy_source_id": "gbif-species-api"
   },
   {
@@ -1888,6 +2398,23 @@
     "issues": [],
     "export_eligible": false,
     "checked_at": "2026-08-13",
+    "taxonomy_source_id": "gbif-species-api"
+  },
+  {
+    "botanical_as_published": "Gossypium barbadense L.",
+    "taxonomy_query_name": "Gossypium barbadense L",
+    "taxonomy_query_strategy": "published_name",
+    "matcher_version": 2,
+    "match_type": "EXACT",
+    "confidence": 100,
+    "taxonomic_status": "ACCEPTED",
+    "matched_canonical": "Gossypium barbadense",
+    "accepted_botanical": "Gossypium barbadense",
+    "usage_key": "3152666",
+    "accepted_usage_key": "3152666",
+    "issues": [],
+    "export_eligible": true,
+    "checked_at": "2026-11-09",
     "taxonomy_source_id": "gbif-species-api"
   },
   {
@@ -2055,6 +2582,23 @@
     "taxonomy_source_id": "gbif-species-api"
   },
   {
+    "botanical_as_published": "Hybanthus enneaspermus (L.) F. Muell.",
+    "taxonomy_query_name": "Hybanthus enneaspermus (L.) F. Muell",
+    "taxonomy_query_strategy": "published_name",
+    "matcher_version": 2,
+    "match_type": "EXACT",
+    "confidence": 100,
+    "taxonomic_status": "SYNONYM",
+    "matched_canonical": "Hybanthus enneaspermus",
+    "accepted_botanical": "Pigea enneasperma",
+    "usage_key": "7296211",
+    "accepted_usage_key": "11446635",
+    "issues": [],
+    "export_eligible": true,
+    "checked_at": "2026-11-09",
+    "taxonomy_source_id": "gbif-species-api"
+  },
+  {
     "botanical_as_published": "Hyptis suaveolens (L.) Poit.",
     "match_type": "EXACT",
     "confidence": 100,
@@ -2111,6 +2655,23 @@
     "taxonomy_source_id": "gbif-species-api"
   },
   {
+    "botanical_as_published": "Ipomoea batatas (L.) Lam.",
+    "taxonomy_query_name": "Ipomoea batatas (L.) Lam",
+    "taxonomy_query_strategy": "published_name",
+    "matcher_version": 2,
+    "match_type": "EXACT",
+    "confidence": 100,
+    "taxonomic_status": "ACCEPTED",
+    "matched_canonical": "Ipomoea batatas",
+    "accepted_botanical": "Ipomoea batatas",
+    "usage_key": "2928551",
+    "accepted_usage_key": "2928551",
+    "issues": [],
+    "export_eligible": true,
+    "checked_at": "2026-11-09",
+    "taxonomy_source_id": "gbif-species-api"
+  },
+  {
     "botanical_as_published": "Ipomoea involucrata P.Beauv. (Synonym: Ipomoea pileata Roxb.)",
     "taxonomy_query_name": "Ipomoea involucrata P.Beauv",
     "match_type": "EXACT",
@@ -2151,6 +2712,40 @@
     "issues": [],
     "export_eligible": true,
     "checked_at": "2026-08-13",
+    "taxonomy_source_id": "gbif-species-api"
+  },
+  {
+    "botanical_as_published": "Jatropha multifida L.",
+    "taxonomy_query_name": "Jatropha multifida L",
+    "taxonomy_query_strategy": "published_name",
+    "matcher_version": 2,
+    "match_type": "EXACT",
+    "confidence": 100,
+    "taxonomic_status": "ACCEPTED",
+    "matched_canonical": "Jatropha multifida",
+    "accepted_botanical": "Jatropha multifida",
+    "usage_key": "3072985",
+    "accepted_usage_key": "3072985",
+    "issues": [],
+    "export_eligible": true,
+    "checked_at": "2026-11-09",
+    "taxonomy_source_id": "gbif-species-api"
+  },
+  {
+    "botanical_as_published": "Khaya grandifoliola C.DC.",
+    "taxonomy_query_name": "Khaya grandifoliola C.DC",
+    "taxonomy_query_strategy": "published_name",
+    "matcher_version": 2,
+    "match_type": "EXACT",
+    "confidence": 100,
+    "taxonomic_status": "ACCEPTED",
+    "matched_canonical": "Khaya grandifoliola",
+    "accepted_botanical": "Khaya grandifoliola",
+    "usage_key": "3852039",
+    "accepted_usage_key": "3852039",
+    "issues": [],
+    "export_eligible": true,
+    "checked_at": "2026-11-09",
     "taxonomy_source_id": "gbif-species-api"
   },
   {
@@ -2247,6 +2842,23 @@
     "taxonomy_source_id": "gbif-species-api"
   },
   {
+    "botanical_as_published": "Lagenaria breviflora (Benth.) Roberty",
+    "taxonomy_query_name": "Lagenaria breviflora (Benth.) Roberty",
+    "taxonomy_query_strategy": "published_name",
+    "matcher_version": 2,
+    "match_type": "EXACT",
+    "confidence": 100,
+    "taxonomic_status": "ACCEPTED",
+    "matched_canonical": "Lagenaria breviflora",
+    "accepted_botanical": "Lagenaria breviflora",
+    "usage_key": "3623452",
+    "accepted_usage_key": "3623452",
+    "issues": [],
+    "export_eligible": true,
+    "checked_at": "2026-11-09",
+    "taxonomy_source_id": "gbif-species-api"
+  },
+  {
     "botanical_as_published": "Lantana camara L.",
     "match_type": "EXACT",
     "confidence": 100,
@@ -2286,6 +2898,23 @@
     "issues": [],
     "export_eligible": true,
     "checked_at": "2026-08-13",
+    "taxonomy_source_id": "gbif-species-api"
+  },
+  {
+    "botanical_as_published": "Launaea taraxacifolia (Willd.) Amin ex C.Jeffrey",
+    "taxonomy_query_name": "Launaea taraxacifolia (Willd.) Amin ex C.Jeffrey",
+    "taxonomy_query_strategy": "published_name",
+    "matcher_version": 2,
+    "match_type": "EXACT",
+    "confidence": 100,
+    "taxonomic_status": "ACCEPTED",
+    "matched_canonical": "Launaea taraxacifolia",
+    "accepted_botanical": "Launaea taraxacifolia",
+    "usage_key": "3144875",
+    "accepted_usage_key": "3144875",
+    "issues": [],
+    "export_eligible": true,
+    "checked_at": "2026-11-09",
     "taxonomy_source_id": "gbif-species-api"
   },
   {
@@ -2535,6 +3164,23 @@
     "taxonomy_source_id": "gbif-species-api"
   },
   {
+    "botanical_as_published": "Momordica charantia L.",
+    "taxonomy_query_name": "Momordica charantia L",
+    "taxonomy_query_strategy": "published_name",
+    "matcher_version": 2,
+    "match_type": "EXACT",
+    "confidence": 100,
+    "taxonomic_status": "ACCEPTED",
+    "matched_canonical": "Momordica charantia",
+    "accepted_botanical": "Momordica charantia",
+    "usage_key": "2874581",
+    "accepted_usage_key": "2874581",
+    "issues": [],
+    "export_eligible": true,
+    "checked_at": "2026-11-09",
+    "taxonomy_source_id": "gbif-species-api"
+  },
+  {
     "botanical_as_published": "Morinda lucida Benth.",
     "match_type": "EXACT",
     "confidence": 100,
@@ -2574,6 +3220,40 @@
     "issues": [],
     "export_eligible": true,
     "checked_at": "2026-08-13",
+    "taxonomy_source_id": "gbif-species-api"
+  },
+  {
+    "botanical_as_published": "Mucuna pruriens (L.) DC.",
+    "taxonomy_query_name": "Mucuna pruriens (L.) DC",
+    "taxonomy_query_strategy": "published_name",
+    "matcher_version": 2,
+    "match_type": "EXACT",
+    "confidence": 100,
+    "taxonomic_status": "ACCEPTED",
+    "matched_canonical": "Mucuna pruriens",
+    "accepted_botanical": "Mucuna pruriens",
+    "usage_key": "2951499",
+    "accepted_usage_key": "2951499",
+    "issues": [],
+    "export_eligible": true,
+    "checked_at": "2026-11-09",
+    "taxonomy_source_id": "gbif-species-api"
+  },
+  {
+    "botanical_as_published": "Musa paradisiaca L.",
+    "taxonomy_query_name": "Musa paradisiaca L",
+    "taxonomy_query_strategy": "published_name",
+    "matcher_version": 2,
+    "match_type": "EXACT",
+    "confidence": 100,
+    "taxonomic_status": "ACCEPTED",
+    "matched_canonical": "Musa paradisiaca",
+    "accepted_botanical": "Musa paradisiaca",
+    "usage_key": "2762752",
+    "accepted_usage_key": "2762752",
+    "issues": [],
+    "export_eligible": true,
+    "checked_at": "2026-11-09",
     "taxonomy_source_id": "gbif-species-api"
   },
   {
@@ -2679,6 +3359,23 @@
     "taxonomy_source_id": "gbif-species-api"
   },
   {
+    "botanical_as_published": "Nicotiana tabacum L.",
+    "taxonomy_query_name": "Nicotiana tabacum L",
+    "taxonomy_query_strategy": "published_name",
+    "matcher_version": 2,
+    "match_type": "EXACT",
+    "confidence": 100,
+    "taxonomic_status": "ACCEPTED",
+    "matched_canonical": "Nicotiana tabacum",
+    "accepted_botanical": "Nicotiana tabacum",
+    "usage_key": "2928774",
+    "accepted_usage_key": "2928774",
+    "issues": [],
+    "export_eligible": true,
+    "checked_at": "2026-11-09",
+    "taxonomy_source_id": "gbif-species-api"
+  },
+  {
     "botanical_as_published": "Nicotiana tabacum Linn.",
     "match_type": "EXACT",
     "confidence": 100,
@@ -2690,6 +3387,23 @@
     "issues": [],
     "export_eligible": true,
     "checked_at": "2026-08-13",
+    "taxonomy_source_id": "gbif-species-api"
+  },
+  {
+    "botanical_as_published": "Ocimum americanum L. ( Ocimum canum )",
+    "taxonomy_query_name": "Ocimum americanum L",
+    "taxonomy_query_strategy": "published_name",
+    "matcher_version": 2,
+    "match_type": "EXACT",
+    "confidence": 100,
+    "taxonomic_status": "ACCEPTED",
+    "matched_canonical": "Ocimum americanum",
+    "accepted_botanical": "Ocimum americanum",
+    "usage_key": "2927097",
+    "accepted_usage_key": "2927097",
+    "issues": [],
+    "export_eligible": true,
+    "checked_at": "2026-11-09",
     "taxonomy_source_id": "gbif-species-api"
   },
   {
@@ -2775,6 +3489,23 @@
     "issues": [],
     "export_eligible": true,
     "checked_at": "2026-08-13",
+    "taxonomy_source_id": "gbif-species-api"
+  },
+  {
+    "botanical_as_published": "Parkia biglobosa (Jacq.) G.Don",
+    "taxonomy_query_name": "Parkia biglobosa (Jacq.) G.Don",
+    "taxonomy_query_strategy": "published_name",
+    "matcher_version": 2,
+    "match_type": "EXACT",
+    "confidence": 100,
+    "taxonomic_status": "ACCEPTED",
+    "matched_canonical": "Parkia biglobosa",
+    "accepted_botanical": "Parkia biglobosa",
+    "usage_key": "5348812",
+    "accepted_usage_key": "5348812",
+    "issues": [],
+    "export_eligible": true,
+    "checked_at": "2026-11-09",
     "taxonomy_source_id": "gbif-species-api"
   },
   {
@@ -2905,6 +3636,23 @@
     "taxonomy_source_id": "gbif-species-api"
   },
   {
+    "botanical_as_published": "Picralima nitida (Stapf) T. Durand & H.Durand",
+    "taxonomy_query_name": "Picralima nitida (Stapf) T. Durand & H.Durand",
+    "taxonomy_query_strategy": "published_name",
+    "matcher_version": 2,
+    "match_type": "EXACT",
+    "confidence": 100,
+    "taxonomic_status": "ACCEPTED",
+    "matched_canonical": "Picralima nitida",
+    "accepted_botanical": "Picralima nitida",
+    "usage_key": "3617063",
+    "accepted_usage_key": "3617063",
+    "issues": [],
+    "export_eligible": true,
+    "checked_at": "2026-11-09",
+    "taxonomy_source_id": "gbif-species-api"
+  },
+  {
     "botanical_as_published": "Piliostigma reticulatum",
     "match_type": "EXACT",
     "confidence": 99,
@@ -2979,6 +3727,23 @@
     "taxonomy_source_id": "gbif-species-api"
   },
   {
+    "botanical_as_published": "Piper guineense Schumach. & Thonn.",
+    "taxonomy_query_name": "Piper guineense Schumach. & Thonn",
+    "taxonomy_query_strategy": "published_name",
+    "matcher_version": 2,
+    "match_type": "EXACT",
+    "confidence": 100,
+    "taxonomic_status": "ACCEPTED",
+    "matched_canonical": "Piper guineense",
+    "accepted_botanical": "Piper guineense",
+    "usage_key": "3086326",
+    "accepted_usage_key": "3086326",
+    "issues": [],
+    "export_eligible": true,
+    "checked_at": "2026-11-09",
+    "taxonomy_source_id": "gbif-species-api"
+  },
+  {
     "botanical_as_published": "Pleioceras barteri Baill.",
     "match_type": "EXACT",
     "confidence": 100,
@@ -2990,6 +3755,23 @@
     "issues": [],
     "export_eligible": true,
     "checked_at": "2026-08-13",
+    "taxonomy_source_id": "gbif-species-api"
+  },
+  {
+    "botanical_as_published": "Plukenetia conophora Müll.Arg.",
+    "taxonomy_query_name": "Plukenetia conophora Müll.Arg",
+    "taxonomy_query_strategy": "published_name",
+    "matcher_version": 2,
+    "match_type": "EXACT",
+    "confidence": 100,
+    "taxonomic_status": "ACCEPTED",
+    "matched_canonical": "Plukenetia conophora",
+    "accepted_botanical": "Plukenetia conophora",
+    "usage_key": "3070702",
+    "accepted_usage_key": "3070702",
+    "issues": [],
+    "export_eligible": true,
+    "checked_at": "2026-11-09",
     "taxonomy_source_id": "gbif-species-api"
   },
   {
@@ -3095,6 +3877,23 @@
     "taxonomy_source_id": "gbif-species-api"
   },
   {
+    "botanical_as_published": "Saccharum officinarum L.",
+    "taxonomy_query_name": "Saccharum officinarum L",
+    "taxonomy_query_strategy": "published_name",
+    "matcher_version": 2,
+    "match_type": "EXACT",
+    "confidence": 100,
+    "taxonomic_status": "ACCEPTED",
+    "matched_canonical": "Saccharum officinarum",
+    "accepted_botanical": "Saccharum officinarum",
+    "usage_key": "2703912",
+    "accepted_usage_key": "2703912",
+    "issues": [],
+    "export_eligible": true,
+    "checked_at": "2026-11-09",
+    "taxonomy_source_id": "gbif-species-api"
+  },
+  {
     "botanical_as_published": "Saccharum officinarum Linn.",
     "match_type": "EXACT",
     "confidence": 100,
@@ -3106,6 +3905,23 @@
     "issues": [],
     "export_eligible": true,
     "checked_at": "2026-08-13",
+    "taxonomy_source_id": "gbif-species-api"
+  },
+  {
+    "botanical_as_published": "Sarcocephalus latifolius (Sm.) E.A.Bruce",
+    "taxonomy_query_name": "Sarcocephalus latifolius (Sm.) E.A.Bruce",
+    "taxonomy_query_strategy": "published_name",
+    "matcher_version": 2,
+    "match_type": "EXACT",
+    "confidence": 100,
+    "taxonomic_status": "SYNONYM",
+    "matched_canonical": "Sarcocephalus latifolius",
+    "accepted_botanical": "Nauclea latifolia",
+    "usage_key": "2897763",
+    "accepted_usage_key": "5336165",
+    "issues": [],
+    "export_eligible": true,
+    "checked_at": "2026-11-09",
     "taxonomy_source_id": "gbif-species-api"
   },
   {
@@ -3351,6 +4167,23 @@
     "taxonomy_source_id": "gbif-species-api"
   },
   {
+    "botanical_as_published": "Solanum americanum Mill.",
+    "taxonomy_query_name": "Solanum americanum Mill",
+    "taxonomy_query_strategy": "published_name",
+    "matcher_version": 2,
+    "match_type": "EXACT",
+    "confidence": 100,
+    "taxonomic_status": "ACCEPTED",
+    "matched_canonical": "Solanum americanum",
+    "accepted_botanical": "Solanum americanum",
+    "usage_key": "2930222",
+    "accepted_usage_key": "2930222",
+    "issues": [],
+    "export_eligible": true,
+    "checked_at": "2026-11-09",
+    "taxonomy_source_id": "gbif-species-api"
+  },
+  {
     "botanical_as_published": "Solanum dasyphyllum",
     "match_type": "EXACT",
     "confidence": 99,
@@ -3420,6 +4253,23 @@
     "issues": [],
     "export_eligible": true,
     "checked_at": "2026-08-13",
+    "taxonomy_source_id": "gbif-species-api"
+  },
+  {
+    "botanical_as_published": "Spermacoce verticillata L. = Borreria verticillata (L.) G.Mey",
+    "taxonomy_query_name": "Spermacoce verticillata L",
+    "taxonomy_query_strategy": "published_name",
+    "matcher_version": 2,
+    "match_type": "EXACT",
+    "confidence": 100,
+    "taxonomic_status": "ACCEPTED",
+    "matched_canonical": "Spermacoce verticillata",
+    "accepted_botanical": "Spermacoce verticillata",
+    "usage_key": "2918574",
+    "accepted_usage_key": "2918574",
+    "issues": [],
+    "export_eligible": true,
+    "checked_at": "2026-11-09",
     "taxonomy_source_id": "gbif-species-api"
   },
   {
@@ -3530,6 +4380,23 @@
     "taxonomy_source_id": "gbif-species-api"
   },
   {
+    "botanical_as_published": "Sterculia rhinopetala K.Schum.",
+    "taxonomy_query_name": "Sterculia rhinopetala K.Schum",
+    "taxonomy_query_strategy": "published_name",
+    "matcher_version": 2,
+    "match_type": "EXACT",
+    "confidence": 100,
+    "taxonomic_status": "ACCEPTED",
+    "matched_canonical": "Sterculia rhinopetala",
+    "accepted_botanical": "Sterculia rhinopetala",
+    "usage_key": "5545389",
+    "accepted_usage_key": "5545389",
+    "issues": [],
+    "export_eligible": true,
+    "checked_at": "2026-11-09",
+    "taxonomy_source_id": "gbif-species-api"
+  },
+  {
     "botanical_as_published": "Sterculia tragacantha Lindl.",
     "match_type": "EXACT",
     "confidence": 100,
@@ -3555,6 +4422,23 @@
     "issues": [],
     "export_eligible": true,
     "checked_at": "2026-08-13",
+    "taxonomy_source_id": "gbif-species-api"
+  },
+  {
+    "botanical_as_published": "Strombosia grandifolia Hook.f. ex Benth.",
+    "taxonomy_query_name": "Strombosia grandifolia Hook.f. ex Benth",
+    "taxonomy_query_strategy": "published_name",
+    "matcher_version": 2,
+    "match_type": "EXACT",
+    "confidence": 100,
+    "taxonomic_status": "ACCEPTED",
+    "matched_canonical": "Strombosia grandifolia",
+    "accepted_botanical": "Strombosia grandifolia",
+    "usage_key": "3685699",
+    "accepted_usage_key": "3685699",
+    "issues": [],
+    "export_eligible": true,
+    "checked_at": "2026-11-09",
     "taxonomy_source_id": "gbif-species-api"
   },
   {
@@ -3586,6 +4470,23 @@
     "taxonomy_source_id": "gbif-species-api"
   },
   {
+    "botanical_as_published": "Synsepalum dulcificum (Schumach. & Thonn.) Daniell",
+    "taxonomy_query_name": "Synsepalum dulcificum (Schumach. & Thonn.) Daniell",
+    "taxonomy_query_strategy": "published_name",
+    "matcher_version": 2,
+    "match_type": "EXACT",
+    "confidence": 100,
+    "taxonomic_status": "ACCEPTED",
+    "matched_canonical": "Synsepalum dulcificum",
+    "accepted_botanical": "Synsepalum dulcificum",
+    "usage_key": "2886039",
+    "accepted_usage_key": "2886039",
+    "issues": [],
+    "export_eligible": true,
+    "checked_at": "2026-11-09",
+    "taxonomy_source_id": "gbif-species-api"
+  },
+  {
     "botanical_as_published": "Syzygium guineense (Willd.) DC.",
     "match_type": "EXACT",
     "confidence": 100,
@@ -3597,6 +4498,23 @@
     "issues": [],
     "export_eligible": true,
     "checked_at": "2026-08-13",
+    "taxonomy_source_id": "gbif-species-api"
+  },
+  {
+    "botanical_as_published": "Talinum fruticosum (L.) Juss. (Syn: Talinum triangulare )",
+    "taxonomy_query_name": "Talinum fruticosum (L.) Juss",
+    "taxonomy_query_strategy": "published_name",
+    "matcher_version": 2,
+    "match_type": "EXACT",
+    "confidence": 100,
+    "taxonomic_status": "ACCEPTED",
+    "matched_canonical": "Talinum fruticosum",
+    "accepted_botanical": "Talinum fruticosum",
+    "usage_key": "3084670",
+    "accepted_usage_key": "3084670",
+    "issues": [],
+    "export_eligible": true,
+    "checked_at": "2026-11-09",
     "taxonomy_source_id": "gbif-species-api"
   },
   {
@@ -3775,6 +4693,23 @@
     "taxonomy_source_id": "gbif-species-api"
   },
   {
+    "botanical_as_published": "Tetrapleura tetraptera (Schum. & Thonn.) Taub.",
+    "taxonomy_query_name": "Tetrapleura tetraptera (Schum. & Thonn.) Taub",
+    "taxonomy_query_strategy": "published_name",
+    "matcher_version": 2,
+    "match_type": "EXACT",
+    "confidence": 100,
+    "taxonomic_status": "ACCEPTED",
+    "matched_canonical": "Tetrapleura tetraptera",
+    "accepted_botanical": "Tetrapleura tetraptera",
+    "usage_key": "5347354",
+    "accepted_usage_key": "5347354",
+    "issues": [],
+    "export_eligible": true,
+    "checked_at": "2026-11-09",
+    "taxonomy_source_id": "gbif-species-api"
+  },
+  {
     "botanical_as_published": "Tetrapleura tetraptera (Schum. et. Thonn) Taub",
     "match_type": "EXACT",
     "confidence": 100,
@@ -3800,6 +4735,23 @@
     "issues": [],
     "export_eligible": true,
     "checked_at": "2026-08-13",
+    "taxonomy_source_id": "gbif-species-api"
+  },
+  {
+    "botanical_as_published": "Theobroma cacao L.",
+    "taxonomy_query_name": "Theobroma cacao L",
+    "taxonomy_query_strategy": "published_name",
+    "matcher_version": 2,
+    "match_type": "EXACT",
+    "confidence": 100,
+    "taxonomic_status": "ACCEPTED",
+    "matched_canonical": "Theobroma cacao",
+    "accepted_botanical": "Theobroma cacao",
+    "usage_key": "3152205",
+    "accepted_usage_key": "3152205",
+    "issues": [],
+    "export_eligible": true,
+    "checked_at": "2026-11-09",
     "taxonomy_source_id": "gbif-species-api"
   },
   {
@@ -3918,6 +4870,23 @@
     "taxonomy_source_id": "gbif-species-api"
   },
   {
+    "botanical_as_published": "Uvaria afzelii G.F. Scott-Elliot",
+    "taxonomy_query_name": "Uvaria afzelii G.F. Scott-Elliot",
+    "taxonomy_query_strategy": "published_name",
+    "matcher_version": 2,
+    "match_type": "EXACT",
+    "confidence": 100,
+    "taxonomic_status": "ACCEPTED",
+    "matched_canonical": "Uvaria afzelii",
+    "accepted_botanical": "Uvaria afzelii",
+    "usage_key": "3154397",
+    "accepted_usage_key": "3154397",
+    "issues": [],
+    "export_eligible": true,
+    "checked_at": "2026-11-09",
+    "taxonomy_source_id": "gbif-species-api"
+  },
+  {
     "botanical_as_published": "Uvaria chammae Linn.",
     "taxonomy_query_name": "Uvaria chammae Linn",
     "taxonomy_query_strategy": "published_name",
@@ -3975,6 +4944,23 @@
     "issues": [],
     "export_eligible": true,
     "checked_at": "2026-08-13",
+    "taxonomy_source_id": "gbif-species-api"
+  },
+  {
+    "botanical_as_published": "Vitellaria paradoxa C.F.Gaertn.",
+    "taxonomy_query_name": "Vitellaria paradoxa C.F.Gaertn",
+    "taxonomy_query_strategy": "published_name",
+    "matcher_version": 2,
+    "match_type": "EXACT",
+    "confidence": 100,
+    "taxonomic_status": "ACCEPTED",
+    "matched_canonical": "Vitellaria paradoxa",
+    "accepted_botanical": "Vitellaria paradoxa",
+    "usage_key": "2886750",
+    "accepted_usage_key": "2886750",
+    "issues": [],
+    "export_eligible": true,
+    "checked_at": "2026-11-09",
     "taxonomy_source_id": "gbif-species-api"
   },
   {
@@ -4051,6 +5037,23 @@
     "issues": [],
     "export_eligible": true,
     "checked_at": "2026-08-13",
+    "taxonomy_source_id": "gbif-species-api"
+  },
+  {
+    "botanical_as_published": "Zea mays L.",
+    "taxonomy_query_name": "Zea mays L",
+    "taxonomy_query_strategy": "published_name",
+    "matcher_version": 2,
+    "match_type": "EXACT",
+    "confidence": 100,
+    "taxonomic_status": "ACCEPTED",
+    "matched_canonical": "Zea mays",
+    "accepted_botanical": "Zea mays",
+    "usage_key": "5290052",
+    "accepted_usage_key": "5290052",
+    "issues": [],
+    "export_eligible": true,
+    "checked_at": "2026-11-09",
     "taxonomy_source_id": "gbif-species-api"
   },
   {

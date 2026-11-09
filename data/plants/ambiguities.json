@@ -114,6 +114,24 @@
         "verification_status": "legacy_unverified"
       },
       {
+        "botanical_as_published": "Crudia klainei De Wild.",
+        "accepted_botanical": "Crudia klainei",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": "Osun",
+          "localities": [
+            "Ede South"
+          ]
+        },
+        "source_id": "lawal-2020-ede-south",
+        "source_locator": {
+          "table": "Table 2",
+          "row": 34
+        },
+        "verification_status": "taxonomy_checked"
+      },
+      {
         "botanical_as_published": "Tapinanthus globiferus (A.Rich.) Tiegh.",
         "accepted_botanical": "Tapinanthus globiferus",
         "language": "yo",
@@ -156,6 +174,24 @@
         "source_id": "legacy-lookup-v1",
         "source_locator": null,
         "verification_status": "legacy_unverified"
+      },
+      {
+        "botanical_as_published": "Chrysophyllum albidum G.Don",
+        "accepted_botanical": "Gambeya albida",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": "Osun",
+          "localities": [
+            "Ede South"
+          ]
+        },
+        "source_id": "lawal-2020-ede-south",
+        "source_locator": {
+          "table": "Table 2",
+          "row": 23
+        },
+        "verification_status": "taxonomy_checked"
       },
       {
         "botanical_as_published": "Chrysophyllum albidum Linn.",
@@ -283,6 +319,45 @@
     ]
   },
   {
+    "normalized_name": "asala",
+    "source_spellings": [
+      "asala"
+    ],
+    "candidates": [
+      {
+        "botanical_as_published": "Tetracarpidium conophorum",
+        "accepted_botanical": "Tetracarpidium conophorum",
+        "language": null,
+        "region": {
+          "country": "Nigeria",
+          "state": null,
+          "localities": []
+        },
+        "source_id": "legacy-lookup-v1",
+        "source_locator": null,
+        "verification_status": "legacy_unverified"
+      },
+      {
+        "botanical_as_published": "Plukenetia conophora Müll.Arg.",
+        "accepted_botanical": "Plukenetia conophora",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": "Osun",
+          "localities": [
+            "Ede South"
+          ]
+        },
+        "source_id": "lawal-2020-ede-south",
+        "source_locator": {
+          "table": "Table 2",
+          "row": 69
+        },
+        "verification_status": "taxonomy_checked"
+      }
+    ]
+  },
+  {
     "normalized_name": "awede",
     "source_spellings": [
       "Awede"
@@ -357,6 +432,46 @@
     ]
   },
   {
+    "normalized_name": "awopa",
+    "source_spellings": [
+      "awopa",
+      "Awopa"
+    ],
+    "candidates": [
+      {
+        "botanical_as_published": "Alstonia boonei",
+        "accepted_botanical": "Alstonia boonei",
+        "language": null,
+        "region": {
+          "country": "Nigeria",
+          "state": null,
+          "localities": []
+        },
+        "source_id": "legacy-lookup-v1",
+        "source_locator": null,
+        "verification_status": "legacy_unverified"
+      },
+      {
+        "botanical_as_published": "Annickia chlorantha (Oliv.) Setten & Maas = Enantia chlorantha )",
+        "accepted_botanical": "Annickia chlorantha",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": "Osun",
+          "localities": [
+            "Ede South"
+          ]
+        },
+        "source_id": "lawal-2020-ede-south",
+        "source_locator": {
+          "table": "Table 2",
+          "row": 10
+        },
+        "verification_status": "taxonomy_checked"
+      }
+    ]
+  },
+  {
     "normalized_name": "aworo ona",
     "source_spellings": [
       "Aworo-ona"
@@ -403,6 +518,46 @@
         "source_locator": {
           "table": "Supplementary Table S1",
           "row": 164
+        },
+        "verification_status": "taxonomy_checked"
+      }
+    ]
+  },
+  {
+    "normalized_name": "awusa",
+    "source_spellings": [
+      "awusa",
+      "Awusa"
+    ],
+    "candidates": [
+      {
+        "botanical_as_published": "Tetracarpidium conophorum",
+        "accepted_botanical": "Tetracarpidium conophorum",
+        "language": null,
+        "region": {
+          "country": "Nigeria",
+          "state": null,
+          "localities": []
+        },
+        "source_id": "legacy-lookup-v1",
+        "source_locator": null,
+        "verification_status": "legacy_unverified"
+      },
+      {
+        "botanical_as_published": "Plukenetia conophora Müll.Arg.",
+        "accepted_botanical": "Plukenetia conophora",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": "Osun",
+          "localities": [
+            "Ede South"
+          ]
+        },
+        "source_id": "lawal-2020-ede-south",
+        "source_locator": {
+          "table": "Table 2",
+          "row": 69
         },
         "verification_status": "taxonomy_checked"
       }
@@ -606,11 +761,117 @@
     ]
   },
   {
+    "normalized_name": "dagunro",
+    "source_spellings": [
+      "Dagunro"
+    ],
+    "candidates": [
+      {
+        "botanical_as_published": "Amaranthus spinosus L.",
+        "accepted_botanical": "Amaranthus spinosus",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": "Osun",
+          "localities": [
+            "Ede South"
+          ]
+        },
+        "source_id": "lawal-2020-ede-south",
+        "source_locator": {
+          "table": "Table 2",
+          "row": 7
+        },
+        "verification_status": "taxonomy_checked"
+      },
+      {
+        "botanical_as_published": "Acanthospermum hispidum DC.",
+        "accepted_botanical": "Acanthospermum hispidum",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": "Lagos",
+          "localities": [
+            "Alimosho",
+            "Badagry",
+            "Eti-Osa",
+            "Ijebu",
+            "Imota"
+          ]
+        },
+        "source_id": "olanipekun-2022-lagos",
+        "source_locator": {
+          "table": "Supplementary Table S1",
+          "row": 3
+        },
+        "verification_status": "taxonomy_checked"
+      }
+    ]
+  },
+  {
+    "normalized_name": "efinrin wewe",
+    "source_spellings": [
+      "efinrin wewe",
+      "Efinrin wewe"
+    ],
+    "candidates": [
+      {
+        "botanical_as_published": "Ocimum canum",
+        "accepted_botanical": "Ocimum canum",
+        "language": null,
+        "region": {
+          "country": "Nigeria",
+          "state": null,
+          "localities": []
+        },
+        "source_id": "legacy-lookup-v1",
+        "source_locator": null,
+        "verification_status": "legacy_unverified"
+      },
+      {
+        "botanical_as_published": "Ocimum americanum L. ( Ocimum canum )",
+        "accepted_botanical": "Ocimum americanum",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": "Osun",
+          "localities": [
+            "Ede South"
+          ]
+        },
+        "source_id": "lawal-2020-ede-south",
+        "source_locator": {
+          "table": "Table 2",
+          "row": 62
+        },
+        "verification_status": "taxonomy_checked"
+      }
+    ]
+  },
+  {
     "normalized_name": "egbesi",
     "source_spellings": [
       "Egbesi"
     ],
     "candidates": [
+      {
+        "botanical_as_published": "Sarcocephalus latifolius (Sm.) E.A.Bruce",
+        "accepted_botanical": "Nauclea latifolia",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": "Osun",
+          "localities": [
+            "Ede South"
+          ]
+        },
+        "source_id": "lawal-2020-ede-south",
+        "source_locator": {
+          "table": "Table 2",
+          "row": 72
+        },
+        "verification_status": "taxonomy_checked"
+      },
       {
         "botanical_as_published": "Nauclea latifolia Sm. (Synonym: Sarcocephalus latifolius (Sm.) E.A.Bruce)",
         "accepted_botanical": "Nauclea latifolia",
@@ -880,6 +1141,24 @@
         "language": "yo",
         "region": {
           "country": "Nigeria",
+          "state": "Osun",
+          "localities": [
+            "Ede South"
+          ]
+        },
+        "source_id": "lawal-2020-ede-south",
+        "source_locator": {
+          "table": "Table 2",
+          "row": 85
+        },
+        "verification_status": "taxonomy_checked"
+      },
+      {
+        "botanical_as_published": "Vernonia amygdalina Delile",
+        "accepted_botanical": "Gymnanthemum amygdalinum",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
           "state": "Lagos",
           "localities": [
             "Alimosho",
@@ -901,9 +1180,28 @@
   {
     "normalized_name": "eyin olobe",
     "source_spellings": [
-      "Eyin olobe"
+      "Eyin olobe",
+      "Eyin-olobe"
     ],
     "candidates": [
+      {
+        "botanical_as_published": "Phyllanthus amarus Schumach. & Thonn.",
+        "accepted_botanical": "Phyllanthus amarus",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": "Osun",
+          "localities": [
+            "Ede South"
+          ]
+        },
+        "source_id": "lawal-2020-ede-south",
+        "source_locator": {
+          "table": "Table 2",
+          "row": 66
+        },
+        "verification_status": "taxonomy_checked"
+      },
       {
         "botanical_as_published": "Phyllanthus amarus Schumach. & Thonn.",
         "accepted_botanical": "Phyllanthus amarus",
@@ -1004,6 +1302,46 @@
     ]
   },
   {
+    "normalized_name": "gbure",
+    "source_spellings": [
+      "gbure",
+      "Gbure"
+    ],
+    "candidates": [
+      {
+        "botanical_as_published": "Talinum triangulare",
+        "accepted_botanical": "Talinum triangulare",
+        "language": null,
+        "region": {
+          "country": "Nigeria",
+          "state": null,
+          "localities": []
+        },
+        "source_id": "legacy-lookup-v1",
+        "source_locator": null,
+        "verification_status": "legacy_unverified"
+      },
+      {
+        "botanical_as_published": "Talinum fruticosum (L.) Juss. (Syn: Talinum triangulare )",
+        "accepted_botanical": "Talinum fruticosum",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": "Osun",
+          "localities": [
+            "Ede South"
+          ]
+        },
+        "source_id": "lawal-2020-ede-south",
+        "source_locator": {
+          "table": "Table 2",
+          "row": 80
+        },
+        "verification_status": "taxonomy_checked"
+      }
+    ]
+  },
+  {
     "normalized_name": "igba",
     "source_spellings": [
       "igba",
@@ -1022,6 +1360,24 @@
         "source_id": "legacy-lookup-v1",
         "source_locator": null,
         "verification_status": "legacy_unverified"
+      },
+      {
+        "botanical_as_published": "Parkia biglobosa (Jacq.) G.Don",
+        "accepted_botanical": "Parkia biglobosa",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": "Osun",
+          "localities": [
+            "Ede South"
+          ]
+        },
+        "source_id": "lawal-2020-ede-south",
+        "source_locator": {
+          "table": "Table 2",
+          "row": 64
+        },
+        "verification_status": "taxonomy_checked"
       },
       {
         "botanical_as_published": "Solanum nigrum L. (Synonym: Solanum americanum Mill.)",
@@ -1214,6 +1570,24 @@
         "source_id": "legacy-lookup-v1",
         "source_locator": null,
         "verification_status": "legacy_unverified"
+      },
+      {
+        "botanical_as_published": "Spondias mombin L.",
+        "accepted_botanical": null,
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": "Osun",
+          "localities": [
+            "Ede South"
+          ]
+        },
+        "source_id": "lawal-2020-ede-south",
+        "source_locator": {
+          "table": "Table 2",
+          "row": 76
+        },
+        "verification_status": "taxonomy_unresolved"
       },
       {
         "botanical_as_published": "Spondias mombin L.",
@@ -1415,6 +1789,54 @@
     ]
   },
   {
+    "normalized_name": "koropo",
+    "source_spellings": [
+      "Koropo"
+    ],
+    "candidates": [
+      {
+        "botanical_as_published": "Crotalaria retusa L.",
+        "accepted_botanical": "Crotalaria retusa",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": "Osun",
+          "localities": [
+            "Ede South"
+          ]
+        },
+        "source_id": "lawal-2020-ede-south",
+        "source_locator": {
+          "table": "Table 2",
+          "row": 33
+        },
+        "verification_status": "taxonomy_checked"
+      },
+      {
+        "botanical_as_published": "Physalis angulata L.",
+        "accepted_botanical": "Physalis angulata",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": "Lagos",
+          "localities": [
+            "Alimosho",
+            "Badagry",
+            "Eti-Osa",
+            "Ijebu",
+            "Imota"
+          ]
+        },
+        "source_id": "olanipekun-2022-lagos",
+        "source_locator": {
+          "table": "Supplementary Table S1",
+          "row": 131
+        },
+        "verification_status": "taxonomy_checked"
+      }
+    ]
+  },
+  {
     "normalized_name": "odan",
     "source_spellings": [
       "odan",
@@ -1501,6 +1923,24 @@
         "verification_status": "legacy_unverified"
       },
       {
+        "botanical_as_published": "Khaya grandifoliola C.DC.",
+        "accepted_botanical": "Khaya grandifoliola",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": "Osun",
+          "localities": [
+            "Ede South"
+          ]
+        },
+        "source_id": "lawal-2020-ede-south",
+        "source_locator": {
+          "table": "Table 2",
+          "row": 49
+        },
+        "verification_status": "taxonomy_checked"
+      },
+      {
         "botanical_as_published": "Khaya ivorensis A. Juss.",
         "accepted_botanical": "Khaya ivorensis",
         "language": "yo",
@@ -1575,6 +2015,54 @@
     ]
   },
   {
+    "normalized_name": "ooro",
+    "source_spellings": [
+      "Ooro"
+    ],
+    "candidates": [
+      {
+        "botanical_as_published": "Antiaris toxicaria Lesch.",
+        "accepted_botanical": "Antiaris toxicaria",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": "Osun",
+          "localities": [
+            "Ede South"
+          ]
+        },
+        "source_id": "lawal-2020-ede-south",
+        "source_locator": {
+          "table": "Table 2",
+          "row": 11
+        },
+        "verification_status": "taxonomy_checked"
+      },
+      {
+        "botanical_as_published": "Polyalthia suaveolens Engl. & Diels (Synonym: Greenwayodendron suaveolens (Engl. & Diels) Verdc.)",
+        "accepted_botanical": "Polyalthia suaveolens",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": "Lagos",
+          "localities": [
+            "Alimosho",
+            "Badagry",
+            "Eti-Osa",
+            "Ijebu",
+            "Imota"
+          ]
+        },
+        "source_id": "olanipekun-2022-lagos",
+        "source_locator": {
+          "table": "Supplementary Table S1",
+          "row": 135
+        },
+        "verification_status": "taxonomy_checked"
+      }
+    ]
+  },
+  {
     "normalized_name": "osekutu",
     "source_spellings": [
       "Osekutu"
@@ -1632,6 +2120,24 @@
       "Pandoro"
     ],
     "candidates": [
+      {
+        "botanical_as_published": "Kigelia africana (Lam.) Benth.",
+        "accepted_botanical": "Kigelia africana",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": "Osun",
+          "localities": [
+            "Ede South"
+          ]
+        },
+        "source_id": "lawal-2020-ede-south",
+        "source_locator": {
+          "table": "Table 2",
+          "row": 50
+        },
+        "verification_status": "taxonomy_checked"
+      },
       {
         "botanical_as_published": "Kigelia africana (Lam.) Benth.",
         "accepted_botanical": "Kigelia africana",
@@ -1789,6 +2295,52 @@
           "row": 14
         },
         "verification_status": "taxonomy_checked"
+      }
+    ]
+  },
+  {
+    "normalized_name": "yanrin",
+    "source_spellings": [
+      "Yanrin"
+    ],
+    "candidates": [
+      {
+        "botanical_as_published": "Launaea taraxacifolia (Willd.) Amin ex C.Jeffrey",
+        "accepted_botanical": "Launaea taraxacifolia",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": "Osun",
+          "localities": [
+            "Ede South"
+          ]
+        },
+        "source_id": "lawal-2020-ede-south",
+        "source_locator": {
+          "table": "Table 2",
+          "row": 52
+        },
+        "verification_status": "taxonomy_checked"
+      },
+      {
+        "botanical_as_published": "Lactuca taraxifolia (Wild.) Schum ex Horn Moore",
+        "accepted_botanical": null,
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": null,
+          "localities": [
+            "Ogun State",
+            "Osun State",
+            "Oyo State"
+          ]
+        },
+        "source_id": "sonibare-2008-anti-asthmatic",
+        "source_locator": {
+          "table": "Table 1",
+          "row": 27
+        },
+        "verification_status": "taxonomy_unresolved"
       }
     ]
   }

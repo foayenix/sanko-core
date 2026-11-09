@@ -13,7 +13,7 @@ command is required for offline tests except the automatic plant-data pretest.
 | Editorial eval generation | `build-editorial-eval-fixtures.js` | Deliberately overwrites editorial fixtures; review its diff and never treat editorial review as practitioner approval. |
 | Plant build/review | `build-plant-data.js`, `plant-review.js` | Build is offline; pull/promote use configured DB and the ignored review queue. |
 | Plant acquisition | `discover-sources.js`, `import-wikidata-vernaculars.js`, `fetch-gbif-taxonomy.js` | Network acquisition; review results before promoting them into runtime inputs. |
-| Historical source extraction | `import-plateau-survey.js`, `extract-nigerian-plant-sources.py`, `extract-medicinal-book-mappings.py` | Explicit source inputs; Python tools require pdfplumber/pypdf respectively. Extraction scratch and book references stay ignored. |
+| Historical source extraction | `import-plateau-survey.js`, `import-jats-surveys.js`, `extract-nigerian-plant-sources.py`, `extract-medicinal-book-mappings.py` | Explicit source inputs; Python tools require pdfplumber/pypdf respectively. Extraction scratch and book references stay ignored. |
 | Landing build | `sanko-landing page/scripts/{sync-plant-count,build-privacy,build-resolver,build-hero-plates}.mjs` | Committed data, templates and assets. Resolver is an explicit rebuild; count/privacy run before the landing build. |
 
 The three omitted legacy scripts and the unimported host scheduler are listed in

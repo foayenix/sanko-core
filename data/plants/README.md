@@ -44,7 +44,7 @@ Entries in `practitioner_confirmations.json` are the one export path whose evide
 
 The transcripts that motivated a confirmation stay out of this directory entirely. They live only in the gitignored `review_queue.json` that `npm run plants:pull` writes.
 
-The current primary build combines the Plateau State, Lagos State, and southwestern anti-asthmatic surveys. The Port Harcourt table is staged because its 84 displayed rows conflict with the article's 83-species count and include an unnumbered row plus an apparent column swap. The Ile-Ife tables are quarantined because the publisher retracted the article. The 2025 review contributes a catalogue of 79 original studies to acquire, but its secondary mappings do not feed production.
+The current primary build combines the Plateau State, Lagos State, southwestern anti-asthmatic, and Ede South (Osun State) surveys. The Ogbomosho (Oyo State) tables are staged because several of their determinations disagree with the other sources for the same Yoruba name under a different spelling, which the ambiguity rule cannot see. The Kwara State table is staged because 56 of its 62 rows do not say which language their names are in. The Port Harcourt table is staged because its 84 displayed rows conflict with the article's 83-species count and include an unnumbered row plus an apparent column swap. The Ile-Ife tables are quarantined because the publisher retracted the article. The 2025 review contributes a catalogue of 79 original studies to acquire, but its secondary mappings do not feed production.
 
 Two supplied textbooks are also registered. Iwu's *Handbook of African Medicinal Plants* contributed concise staging records from 168 Chapter 3 monographs, with language labels and exact PDF/printed-page locators. Oliver-Bever's *Medicinal Plants in Tropical West Africa* is retained as a botanical and pharmacological reference; its botanical/general index is not a language-labelled vernacular index, so the importer creates no local-name mappings from it. Both works are copyrighted, and no redistribution permission was identified.
 
@@ -104,6 +104,16 @@ To reproduce the Plateau source-table extraction from an open-access Europe PMC 
 ```sh
 node scripts/import-plateau-survey.js /path/to/PMC3162497.xml
 ```
+
+To reproduce the Ede South, Ogbomosho, and Kwara tables from their Europe PMC full-text XML (`https://www.ebi.ac.uk/europepmc/webservices/rest/<PMCID>/fullTextXML`):
+
+```sh
+node scripts/import-jats-surveys.js lawal-2020-ede-south /path/to/PMC7286022.xml
+node scripts/import-jats-surveys.js odebunmi-2022-ogbomosho /path/to/PMC9573491.xml   # writes to surveys/staged/
+node scripts/import-jats-surveys.js evbuomwan-2023-kwara /path/to/PMC10504731.xml     # writes to surveys/staged/
+```
+
+Adding a source can remove resolved names as well as add them: where it gives a different taxon for a name the index already had, export rule 4 turns that name ambiguous. Compare `resolved_runtime_mappings` and `ambiguities.json` before and after, and read the names that dropped out.
 
 To reproduce the other acquired tables, use the bundled Python runtime with `pdfplumber` and provide the two source PDFs, two JATS XML files, and the Port Harcourt HTML-table capture:
 

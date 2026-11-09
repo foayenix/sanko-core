@@ -20,11 +20,12 @@ describe('provenance-rich plant mapping data', () => {
     assert.equal(report.legacy_runtime_rows, 152);
     assert.equal(runtime.length, report.runtime_mappings);
     assert.ok(runtime.length > report.legacy_runtime_rows);
-    assert.equal(report.resolved_runtime_mappings, 442);
+    assert.equal(report.resolved_runtime_mappings, 484);
     assert.deepEqual(report.source_rows_by_source, {
       'offiah-2011-plateau': 57,
       'olanipekun-2022-lagos': 183,
-      'sonibare-2008-anti-asthmatic': 46
+      'sonibare-2008-anti-asthmatic': 46,
+      'lawal-2020-ede-south': 87
     });
   });
 
@@ -46,6 +47,54 @@ describe('provenance-rich plant mapping data', () => {
     assert.deepEqual(name.source_locator, { table: 'Table 1', row: 46 });
     assert.equal(name.accepted_botanical, 'Zingiber officinale');
     assert.equal(runtime.find(row => row.local_name === 'ataile').botanical, 'Zingiber officinale');
+  });
+
+  it('adds the Ede South table with its parts and preparations but not its cough indication', () => {
+    const name = names.find(item => item.normalized_name === 'agbaarin' && item.source_id === 'lawal-2020-ede-south');
+    assert.ok(name);
+    assert.equal(name.language, 'yo');
+    assert.equal(name.region.state, 'Osun');
+    assert.deepEqual(name.source_locator, { table: 'Table 2', row: 36 });
+    assert.equal(name.botanical_as_published, 'Dioclea reflexa Hook.f.');
+    assert.equal(name.accepted_botanical, 'Macropsychanthus comosus');
+    assert.deepEqual(runtime.find(row => row.local_name === 'agbaarin'), {
+      local_name: 'agbaarin',
+      botanical: 'Macropsychanthus comosus',
+      common_english: null,
+      parts_commonly_used: ['seed'],
+      typical_preparations: ['pounded']
+    });
+  });
+
+  it('keeps entries that are not Yoruba names out of a Yoruba-labelled column', () => {
+    const edeSouth = readJson('data', 'plants', 'surveys', 'lawal-2020-ede-south.json');
+    const telfairia = edeSouth.find(row => row.botanical_as_published.startsWith('Telfairia occidentalis'));
+    assert.equal(telfairia.vernacular_as_published, 'Eweroko, Ugu');
+    assert.deepEqual(telfairia.vernacular_names, [{ local_name: 'Eweroko', language: 'yo' }]);
+    assert.equal(names.some(name => name.source_id === 'lawal-2020-ede-south' && ['ugu', 'bamboo'].includes(name.normalized_name)), false);
+  });
+
+  it('lets a new source make a name ambiguous rather than overrule an older one', () => {
+    const awopa = ambiguities.find(item => item.normalized_name === 'awopa');
+    assert.deepEqual(
+      [...new Set(awopa.candidates.map(candidate => candidate.source_id))].sort(),
+      ['lawal-2020-ede-south', 'legacy-lookup-v1']
+    );
+    assert.equal(runtime.find(row => row.local_name === 'awopa').botanical, null);
+  });
+
+  it('stages the Kwara and Ogbomosho tables without exporting a name from either', () => {
+    for (const [id, rows] of [['evbuomwan-2023-kwara', 62], ['odebunmi-2022-ogbomosho', 86]]) {
+      const staged = readJson('data', 'plants', 'surveys', 'staged', `${id}.json`);
+      assert.equal(sources.find(source => source.id === id).ingestion_status, 'staged_review');
+      assert.equal(staged.length, rows);
+      assert.ok(staged.every(row => row.runtime_export_eligible === false));
+      assert.equal(names.some(name => name.source_id === id), false);
+      assert.equal(Object.hasOwn(report.source_rows_by_source, id), false);
+    }
+    const kwara = readJson('data', 'plants', 'surveys', 'staged', 'evbuomwan-2023-kwara.json');
+    assert.equal(kwara.filter(row => row.data_quality_flags.includes('language_not_stated_for_row')).length, 56);
+    assert.deepEqual(kwara.find(row => row.source_row === 39).vernacular_names, [{ local_name: 'Gbere', language: 'nup' }]);
   });
 
   it('preserves provenance, language, region, and verification state for new names', () => {

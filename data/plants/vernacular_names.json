@@ -235,6 +235,30 @@
     "export_eligible": true
   },
   {
+    "id": "name-abere-3c89944ac5",
+    "plant_id": "plant-picralima-nitida-0293f1c811",
+    "local_name": "Abere",
+    "normalized_name": "abere",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Picralima nitida (Stapf) T. Durand & H.Durand",
+    "accepted_botanical": "Picralima nitida",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 67
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-abere-oloko-ad9ee49bbf",
     "plant_id": "plant-bidens-pilosa-76b95a4f8d",
     "local_name": "Abere-oloko",
@@ -257,6 +281,30 @@
     "source_locator": {
       "table": "Supplementary Table S1",
       "row": 26
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-abiwere-75a63f2a9b",
+    "plant_id": "plant-pigea-enneasperma-1b4e74c557",
+    "local_name": "Abiwere",
+    "normalized_name": "abiwere",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Hybanthus enneaspermus (L.) F. Muell.",
+    "accepted_botanical": "Pigea enneasperma",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 44
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -403,6 +451,30 @@
     "export_eligible": true
   },
   {
+    "id": "name-afomo-52a0e32f9a",
+    "plant_id": "plant-crudia-klainei-5c4f676077",
+    "local_name": "Afomo",
+    "normalized_name": "afomo",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Crudia klainei De Wild.",
+    "accepted_botanical": "Crudia klainei",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 34
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-afomo-a5ec020c82",
     "plant_id": "plant-loranthus-micranthus-597431a99a",
     "local_name": "afomo",
@@ -497,6 +569,78 @@
     "export_eligible": true
   },
   {
+    "id": "name-agba-ato-2ed0faf53c",
+    "plant_id": "plant-chasmanthera-dependens-5328d9f7d3",
+    "local_name": "Agba-ato",
+    "normalized_name": "agba ato",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Chasmanthera dependens Hochst.",
+    "accepted_botanical": "Chasmanthera dependens",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 21
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-agbaarin-fd43bec601",
+    "plant_id": "plant-macropsychanthus-comosus-28666ab8d0",
+    "local_name": "Agbaarin",
+    "normalized_name": "agbaarin",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Dioclea reflexa Hook.f.",
+    "accepted_botanical": "Macropsychanthus comosus",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 36
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-agbado-e78c3ad1aa",
+    "plant_id": "plant-zea-mays-acaea6704f",
+    "local_name": "Agbado",
+    "normalized_name": "agbado",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Zea mays L.",
+    "accepted_botanical": "Zea mays",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 87
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-agbado-esin-ee7d86162b",
     "plant_id": null,
     "local_name": "Agbado esin",
@@ -547,6 +691,30 @@
     "source_locator": {
       "table": "Supplementary Table S1",
       "row": 173
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-agbalumo-a46075e015",
+    "plant_id": "plant-gambeya-albida-99898dfcc8",
+    "local_name": "Agbalumo",
+    "normalized_name": "agbalumo",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Chrysophyllum albidum G.Don",
+    "accepted_botanical": "Gambeya albida",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 23
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -624,6 +792,30 @@
     "export_eligible": false
   },
   {
+    "id": "name-agbayun-2b6649c688",
+    "plant_id": "plant-synsepalum-dulcificum-37015926f0",
+    "local_name": "Agbayun",
+    "normalized_name": "agbayun",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Synsepalum dulcificum (Schumach. & Thonn.) Daniell",
+    "accepted_botanical": "Synsepalum dulcificum",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 79
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-agbo-d188cb1b64",
     "plant_id": null,
     "local_name": "agbo",
@@ -641,6 +833,30 @@
     "verification_status": "legacy_unverified",
     "reviewed_by": null,
     "export_eligible": false
+  },
+  {
+    "id": "name-agbon-8b1af6f964",
+    "plant_id": "plant-cocos-nucifera-20f1d857c6",
+    "local_name": "Agbon",
+    "normalized_name": "agbon",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Cocos nucifera L.",
+    "accepted_botanical": "Cocos nucifera",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 27
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
   },
   {
     "id": "name-agbon-4662b66c77",
@@ -794,6 +1010,30 @@
     "source_locator": {
       "table": "Supplementary Table S1",
       "row": 84
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-ahun-5c8cf0bfbc",
+    "plant_id": "plant-alstonia-boonei-a2b33bfa82",
+    "local_name": "Ahun",
+    "normalized_name": "ahun",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Alstonia boonei De Wild.",
+    "accepted_botanical": "Alstonia boonei",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 6
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -1214,6 +1454,30 @@
     "export_eligible": true
   },
   {
+    "id": "name-akintola-7a1b508cc1",
+    "plant_id": "plant-chromolaena-odorata-47a779fd90",
+    "local_name": "Akintola",
+    "normalized_name": "akintola",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Chromolaena odorata (L.) R.M.King & H.Rob.",
+    "accepted_botanical": "Chromolaena odorata",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 22
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-akintola-8808d90feb",
     "plant_id": "plant-chromolaena-odorata-47a779fd90",
     "local_name": "Akintola",
@@ -1545,6 +1809,30 @@
     "export_eligible": true
   },
   {
+    "id": "name-alubosa-elewe-da054d15a2",
+    "plant_id": "plant-allium-ascalonicum-5d3bbf6c09",
+    "local_name": "Alubosa elewe",
+    "normalized_name": "alubosa elewe",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Allium ascalonicum L.",
+    "accepted_botanical": "Allium ascalonicum",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 4
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-alubosa-elewe-8590e90897",
     "plant_id": "plant-allium-ascalonicum-5d3bbf6c09",
     "local_name": "Alubosa elewe",
@@ -1593,6 +1881,30 @@
     "source_locator": {
       "table": "Supplementary Table S1",
       "row": 112
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-aluki-3e4a55d44b",
+    "plant_id": "plant-asparagus-africanus-a109029ec9",
+    "local_name": "Aluki",
+    "normalized_name": "aluki",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Asparagus africanus Lam.",
+    "accepted_botanical": "Asparagus africanus",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 12
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -1703,6 +2015,30 @@
     "source_locator": {
       "table": "Supplementary Table S1",
       "row": 115
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-anomo-fdca31287d",
+    "plant_id": "plant-ipomoea-batatas-0854e36722",
+    "local_name": "Anomo",
+    "normalized_name": "anomo",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Ipomoea batatas (L.) Lam.",
+    "accepted_botanical": "Ipomoea batatas",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 45
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -1841,6 +2177,30 @@
     "source_locator": {
       "table": "Table 1",
       "row": 34
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-apasa-fc85e15734",
+    "plant_id": "plant-ageratum-conyzoides-79aac7b35c",
+    "local_name": "Apasa",
+    "normalized_name": "apasa",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Ageratum conyzoides (L.)L.",
+    "accepted_botanical": "Ageratum conyzoides",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 3
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -2095,6 +2455,30 @@
     "export_eligible": true
   },
   {
+    "id": "name-aridan-39a5f16e8c",
+    "plant_id": "plant-tetrapleura-tetraptera-fe165781bd",
+    "local_name": "Aridan",
+    "normalized_name": "aridan",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Tetrapleura tetraptera (Schum. & Thonn.) Taub.",
+    "accepted_botanical": "Tetrapleura tetraptera",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 82
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-aridan-906154a689",
     "plant_id": "plant-tetrapleura-tetraptera-fe165781bd",
     "local_name": "aridan",
@@ -2276,6 +2660,30 @@
     "source_locator": {
       "table": "Supplementary Table S1",
       "row": 109
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-asala-ea3b4e88f3",
+    "plant_id": "plant-plukenetia-conophora-cc3947ab65",
+    "local_name": "asala",
+    "normalized_name": "asala",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Plukenetia conophora Müll.Arg.",
+    "accepted_botanical": "Plukenetia conophora",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 69
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -2470,6 +2878,30 @@
     "export_eligible": true
   },
   {
+    "id": "name-ata-ijosi-f683306d0d",
+    "plant_id": "plant-capsicum-annuum-0276c03fe6",
+    "local_name": "Ata ijosi",
+    "normalized_name": "ata ijosi",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Capsicum annuum L. = Capsicum frutescens",
+    "accepted_botanical": "Capsicum annuum",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 19
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-ata-ile-a8ddda5073",
     "plant_id": "plant-zingiber-officinale-8932efc2ae",
     "local_name": "ata ile",
@@ -2504,6 +2936,30 @@
     "source_id": "legacy-lookup-v1",
     "source_locator": null,
     "verification_status": "legacy_unverified",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-ataare-0ed5f341ba",
+    "plant_id": "plant-aframomum-melegueta-5379374059",
+    "local_name": "Ataare",
+    "normalized_name": "ataare",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Aframomum melegueta K. Schum.",
+    "accepted_botanical": "Aframomum melegueta",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 2
+    },
+    "verification_status": "taxonomy_checked",
     "reviewed_by": null,
     "export_eligible": true
   },
@@ -2695,6 +3151,30 @@
     "source_locator": {
       "table": "Supplementary Table S1",
       "row": 114
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-ato-4cc4b4a6a6",
+    "plant_id": "plant-chasmanthera-dependens-5328d9f7d3",
+    "local_name": "Ato",
+    "normalized_name": "ato",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Chasmanthera dependens Hochst.",
+    "accepted_botanical": "Chasmanthera dependens",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 21
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -2942,6 +3422,30 @@
     "export_eligible": true
   },
   {
+    "id": "name-awopa-c59355d93e",
+    "plant_id": "plant-annickia-chlorantha-a359a63074",
+    "local_name": "Awopa",
+    "normalized_name": "awopa",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Annickia chlorantha (Oliv.) Setten & Maas = Enantia chlorantha )",
+    "accepted_botanical": "Annickia chlorantha",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 10
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-awopa-bca6a7e588",
     "plant_id": "plant-alstonia-boonei-a2b33bfa82",
     "local_name": "awopa",
@@ -3011,6 +3515,30 @@
     "source_locator": {
       "table": "Supplementary Table S1",
       "row": 164
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-awusa-e7dacba594",
+    "plant_id": "plant-plukenetia-conophora-cc3947ab65",
+    "local_name": "Awusa",
+    "normalized_name": "awusa",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Plukenetia conophora Müll.Arg.",
+    "accepted_botanical": "Plukenetia conophora",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 69
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -3177,6 +3705,30 @@
     "verification_status": "taxonomy_unresolved",
     "reviewed_by": null,
     "export_eligible": false
+  },
+  {
+    "id": "name-ayu-953279753e",
+    "plant_id": "plant-allium-sativum-49429a58d8",
+    "local_name": "Ayu",
+    "normalized_name": "ayu",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Allium sativum L.",
+    "accepted_botanical": "Allium sativum",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 5
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
   },
   {
     "id": "name-ayu-62fe862a00",
@@ -3848,6 +4400,30 @@
     "export_eligible": true
   },
   {
+    "id": "name-bomu-bomu-1c9dd4d803",
+    "plant_id": "plant-calotropis-procera-0e4f7994f4",
+    "local_name": "Bomu-Bomu",
+    "normalized_name": "bomu bomu",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Calotropis procera (Aiton) Dryand",
+    "accepted_botanical": "Calotropis procera",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 18
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-bomu-bomu-eec7439b1a",
     "plant_id": "plant-calotropis-procera-0e4f7994f4",
     "local_name": "Bomu-bomu",
@@ -4086,6 +4662,30 @@
     "export_eligible": true
   },
   {
+    "id": "name-dagunro-9b045c302f",
+    "plant_id": "plant-amaranthus-spinosus-134151468c",
+    "local_name": "Dagunro",
+    "normalized_name": "dagunro",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Amaranthus spinosus L.",
+    "accepted_botanical": "Amaranthus spinosus",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 7
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-dagunro-d03d6fe381",
     "plant_id": "plant-acanthospermum-hispidum-b89fb1d865",
     "local_name": "Dagunro",
@@ -4246,6 +4846,30 @@
     "export_eligible": true
   },
   {
+    "id": "name-doctor-igbo-9e71e1e5ff",
+    "plant_id": "plant-alstonia-boonei-a2b33bfa82",
+    "local_name": "doctor igbo",
+    "normalized_name": "doctor igbo",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Alstonia boonei De Wild.",
+    "accepted_botanical": "Alstonia boonei",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 6
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-dogon-yaro-e53e9ab44f",
     "plant_id": "plant-azadirachta-indica-602368d8f9",
     "local_name": "Dogon Yaro",
@@ -4273,6 +4897,30 @@
     "source_locator": {
       "table": "Table 1",
       "row": 7
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-dogoyaro-7c5473b85d",
+    "plant_id": "plant-azadirachta-indica-602368d8f9",
+    "local_name": "Dogoyaro",
+    "normalized_name": "dogoyaro",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Azadirachta indica A. Juss.",
+    "accepted_botanical": "Azadirachta indica",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 13
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -4522,6 +5170,30 @@
     "export_eligible": true
   },
   {
+    "id": "name-eepin-579bb599f3",
+    "plant_id": "plant-ficus-exasperata-718f240ae1",
+    "local_name": "Eepin",
+    "normalized_name": "eepin",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Ficus exasperata Vahl",
+    "accepted_botanical": "Ficus exasperata",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 40
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-eeran-esin-55125a4a26",
     "plant_id": "plant-setaria-scandens-72a0bac619",
     "local_name": "Eeran esin",
@@ -4623,6 +5295,30 @@
     "export_eligible": true
   },
   {
+    "id": "name-efinrin-nla-2b2e3730b0",
+    "plant_id": "plant-ocimum-gratissimum-db8de35590",
+    "local_name": "Efinrin nla",
+    "normalized_name": "efinrin nla",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Ocimum gratissimum L.",
+    "accepted_botanical": "Ocimum gratissimum",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 63
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-efinrin-oso-920d89e8a2",
     "plant_id": "plant-lantana-camara-a4c6f19b37",
     "local_name": "efinrin oso",
@@ -4645,6 +5341,30 @@
     "source_locator": {
       "table": "Supplementary Table S1",
       "row": 102
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-efinrin-wewe-3d1802c0c7",
+    "plant_id": "plant-ocimum-americanum-b6e22dbe1a",
+    "local_name": "Efinrin wewe",
+    "normalized_name": "efinrin wewe",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Ocimum americanum L. ( Ocimum canum )",
+    "accepted_botanical": "Ocimum americanum",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 62
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -4732,6 +5452,54 @@
     "source_id": "legacy-lookup-v1",
     "source_locator": null,
     "verification_status": "legacy_unverified",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-efo-odu-96091ea038",
+    "plant_id": "plant-solanum-americanum-9cb89dbd51",
+    "local_name": "Efo odu",
+    "normalized_name": "efo odu",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Solanum americanum Mill.",
+    "accepted_botanical": "Solanum americanum",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 73
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-egbesi-0f05f1128a",
+    "plant_id": "plant-nauclea-latifolia-53fa5cb38c",
+    "local_name": "Egbesi",
+    "normalized_name": "egbesi",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Sarcocephalus latifolius (Sm.) E.A.Bruce",
+    "accepted_botanical": "Nauclea latifolia",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 72
+    },
+    "verification_status": "taxonomy_checked",
     "reviewed_by": null,
     "export_eligible": true
   },
@@ -4870,6 +5638,30 @@
     "export_eligible": true
   },
   {
+    "id": "name-egusi-baara-5f255d1945",
+    "plant_id": "plant-citrullus-colocynthis-7f7261a3c1",
+    "local_name": "Egusi’baara",
+    "normalized_name": "egusi baara",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Citrullus colocynthis (L.) Schrad.",
+    "accepted_botanical": "Citrullus colocynthis",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 25
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-egusi-itoo-cadc1ecfdd",
     "plant_id": "plant-melothria-sphaerocarpa-e238309ceb",
     "local_name": "Egusi Itoo",
@@ -4976,6 +5768,30 @@
     "source_locator": {
       "table": "Supplementary Table S1",
       "row": 32
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-ejinrin-e43681bcca",
+    "plant_id": "plant-momordica-charantia-2e38e78d6e",
+    "local_name": "Ejinrin",
+    "normalized_name": "ejinrin",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Momordica charantia L.",
+    "accepted_botanical": "Momordica charantia",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 57
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -5289,6 +6105,30 @@
     "export_eligible": false
   },
   {
+    "id": "name-emiyemi-c1c7b75969",
+    "plant_id": "plant-vitellaria-paradoxa-de73616dac",
+    "local_name": "Emiyemi",
+    "normalized_name": "emiyemi",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Vitellaria paradoxa C.F.Gaertn.",
+    "accepted_botanical": "Vitellaria paradoxa",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 86
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-enu-opiri-7a7546f30b",
     "plant_id": "plant-euphorbia-lateriflora-80e9dde1c7",
     "local_name": "Enu-opiri",
@@ -5519,6 +6359,30 @@
     "export_eligible": true
   },
   {
+    "id": "name-eru-obo-72a93a3c5c",
+    "plant_id": "plant-erythrophleum-suaveolens-f9140c6ab0",
+    "local_name": "Eru-obo",
+    "normalized_name": "eru obo",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Erythrophleum suaveolens (Guill. & Perr.) Brenan",
+    "accepted_botanical": "Erythrophleum suaveolens",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 39
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-eso-ojuologbo-ominsinminsin-gogoro-ffbdcb03d7",
     "plant_id": "plant-scoparia-dulcis-45bf541621",
     "local_name": "eso ojuologbo Ominsinminsin Gogoro",
@@ -5541,6 +6405,30 @@
     "source_locator": {
       "table": "Supplementary Table S1",
       "row": 140
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-esuru-fd418797ed",
+    "plant_id": "plant-dioscorea-dumetorum-6371a115ec",
+    "local_name": "Esuru",
+    "normalized_name": "esuru",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Dioscorea dumetorum (Kunth) Pax",
+    "accepted_botanical": "Dioscorea dumetorum",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 37
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -6149,6 +7037,30 @@
     "export_eligible": true
   },
   {
+    "id": "name-ewe-tea-2a0f005918",
+    "plant_id": "plant-cymbopogon-citratus-d5de29a9fd",
+    "local_name": "Ewe tea",
+    "normalized_name": "ewe tea",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Cymbopogon citratus (DC.) Stapf",
+    "accepted_botanical": "Cymbopogon citratus",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 35
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-ewe-tea-5aa46d5666",
     "plant_id": "plant-cymbopogon-citratus-d5de29a9fd",
     "local_name": "Ewe tea",
@@ -6237,6 +7149,54 @@
     "source_locator": {
       "table": "Supplementary Table S1",
       "row": 119
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-ewedu-7cea920f05",
+    "plant_id": "plant-corchorus-olitorius-4000a735a7",
+    "local_name": "Ewedu",
+    "normalized_name": "ewedu",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Corchorus olitorius L.",
+    "accepted_botanical": "Corchorus olitorius",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 31
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-eweroko-6977bc51e5",
+    "plant_id": "plant-telfairia-occidentalis-c587f41c87",
+    "local_name": "Eweroko",
+    "normalized_name": "eweroko",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Telfairia occidentalis Hook.f.",
+    "accepted_botanical": "Telfairia occidentalis",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 81
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -6353,6 +7313,30 @@
     "export_eligible": true
   },
   {
+    "id": "name-ewuro-ef406f0646",
+    "plant_id": "plant-gymnanthemum-amygdalinum-5dbeaea320",
+    "local_name": "Ewuro",
+    "normalized_name": "ewuro",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Vernonia amygdalina Delile",
+    "accepted_botanical": "Gymnanthemum amygdalinum",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 85
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-ewuro-53f1086a25",
     "plant_id": "plant-vernonia-amygdalina-618f450494",
     "local_name": "ewuro",
@@ -6394,6 +7378,30 @@
     "source_locator": {
       "table": "Supplementary Table S1",
       "row": 179
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-eyin-olobe-903da0f8f8",
+    "plant_id": "plant-phyllanthus-amarus-fc5ef3c93c",
+    "local_name": "Eyin-olobe",
+    "normalized_name": "eyin olobe",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Phyllanthus amarus Schumach. & Thonn.",
+    "accepted_botanical": "Phyllanthus amarus",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 66
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -6917,6 +7925,30 @@
     "export_eligible": true
   },
   {
+    "id": "name-gbogbonise-ab04199d87",
+    "plant_id": "plant-uvaria-afzelii-ade4f61cb5",
+    "local_name": "Gbogbonise",
+    "normalized_name": "gbogbonise",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Uvaria afzelii G.F. Scott-Elliot",
+    "accepted_botanical": "Uvaria afzelii",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 84
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-gbogbonse-45e885ea36",
     "plant_id": null,
     "local_name": "Gbogbonse",
@@ -6971,6 +8003,30 @@
     "export_eligible": true
   },
   {
+    "id": "name-gbure-0d7664090c",
+    "plant_id": "plant-talinum-fruticosum-35add5c378",
+    "local_name": "Gbure",
+    "normalized_name": "gbure",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Talinum fruticosum (L.) Juss. (Syn: Talinum triangulare )",
+    "accepted_botanical": "Talinum fruticosum",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 80
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-gbure-af065bce92",
     "plant_id": "plant-talinum-triangulare-a1bbb0ac6f",
     "local_name": "gbure",
@@ -6986,6 +8042,30 @@
     "source_id": "legacy-lookup-v1",
     "source_locator": null,
     "verification_status": "legacy_unverified",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-gilofa-02e1b69fba",
+    "plant_id": "plant-psidium-guajava-ef93129072",
+    "local_name": "Gilofa",
+    "normalized_name": "gilofa",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Psidium guajava L.",
+    "accepted_botanical": "Psidium guajava",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 70
+    },
+    "verification_status": "taxonomy_checked",
     "reviewed_by": null,
     "export_eligible": true
   },
@@ -7490,6 +8570,30 @@
     "export_eligible": true
   },
   {
+    "id": "name-ibepe-7a9cf9a445",
+    "plant_id": "plant-carica-papaya-d45ff84fbe",
+    "local_name": "Ibepe",
+    "normalized_name": "ibepe",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Carica papaya L.",
+    "accepted_botanical": "Carica papaya",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 20
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-ibepe-c359b7d786",
     "plant_id": "plant-carica-papaya-d45ff84fbe",
     "local_name": "ibepe",
@@ -7665,6 +8769,30 @@
     "source_locator": {
       "table": "Table 1",
       "row": 33
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-igba-86b2e57a89",
+    "plant_id": "plant-parkia-biglobosa-776ff1d28f",
+    "local_name": "igba",
+    "normalized_name": "igba",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Parkia biglobosa (Jacq.) G.Don",
+    "accepted_botanical": "Parkia biglobosa",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 64
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -7996,6 +9124,30 @@
     "export_eligible": true
   },
   {
+    "id": "name-igi-obo-31e29074e0",
+    "plant_id": "plant-erythrophleum-suaveolens-f9140c6ab0",
+    "local_name": "Igi obo",
+    "normalized_name": "igi obo",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Erythrophleum suaveolens (Guill. & Perr.) Brenan",
+    "accepted_botanical": "Erythrophleum suaveolens",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 39
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-igi-odan-0246714466",
     "plant_id": "plant-ficus-thonningii-adcebe0b49",
     "local_name": "igi odan",
@@ -8068,6 +9220,30 @@
     "source_id": "legacy-lookup-v1",
     "source_locator": null,
     "verification_status": "legacy_unverified",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-igi-pia-e4a6fe886e",
+    "plant_id": "plant-persea-americana-4797acba26",
+    "local_name": "Igi pia",
+    "normalized_name": "igi pia",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Persea americana Mill.",
+    "accepted_botanical": "Persea americana",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 65
+    },
+    "verification_status": "taxonomy_checked",
     "reviewed_by": null,
     "export_eligible": true
   },
@@ -8273,6 +9449,30 @@
     "export_eligible": true
   },
   {
+    "id": "name-imi-esu-d02b628398",
+    "plant_id": "plant-ageratum-conyzoides-79aac7b35c",
+    "local_name": "imi-esu",
+    "normalized_name": "imi esu",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Ageratum conyzoides (L.)L.",
+    "accepted_botanical": "Ageratum conyzoides",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 3
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-imi-esu-0247695ec2",
     "plant_id": "plant-ageratum-conyzoides-79aac7b35c",
     "local_name": "Imi esu",
@@ -8411,6 +9611,30 @@
     "export_eligible": true
   },
   {
+    "id": "name-ira-8959a8eeb3",
+    "plant_id": "plant-bridelia-ferruginea-9ae97127e9",
+    "local_name": "Ira",
+    "normalized_name": "ira",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Bridelia ferruginea Benth.",
+    "accepted_botanical": "Bridelia ferruginea",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 15
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-ira-06f025ce21",
     "plant_id": "plant-bridelia-ferruginea-9ae97127e9",
     "local_name": "Ira",
@@ -8521,6 +9745,54 @@
     "export_eligible": true
   },
   {
+    "id": "name-irawo-le-b197bb5098",
+    "plant_id": "plant-spermacoce-verticillata-15994ebeae",
+    "local_name": "Irawo’le",
+    "normalized_name": "irawo le",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Spermacoce verticillata L. = Borreria verticillata (L.) G.Mey",
+    "accepted_botanical": "Spermacoce verticillata",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 75
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-ireke-0fe66cb634",
+    "plant_id": "plant-saccharum-officinarum-4ace7f3083",
+    "local_name": "Ireke",
+    "normalized_name": "ireke",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Saccharum officinarum L.",
+    "accepted_botanical": "Saccharum officinarum",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 71
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-ireke-d154cb5008",
     "plant_id": "plant-saccharum-officinarum-4ace7f3083",
     "local_name": "Ireke",
@@ -8616,6 +9888,30 @@
     "source_locator": {
       "table": "Supplementary Table S1",
       "row": 24
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-iru-8cf70c856b",
+    "plant_id": "plant-parkia-biglobosa-776ff1d28f",
+    "local_name": "Iru",
+    "normalized_name": "iru",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Parkia biglobosa (Jacq.) G.Don",
+    "accepted_botanical": "Parkia biglobosa",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 64
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -8949,6 +10245,54 @@
     "export_eligible": true
   },
   {
+    "id": "name-itako-32296105f0",
+    "plant_id": "plant-sterculia-rhinopetala-a6fbbed44e",
+    "local_name": "Itako",
+    "normalized_name": "itako",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Sterculia rhinopetala K.Schum.",
+    "accepted_botanical": "Sterculia rhinopetala",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 77
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-itako-pupa-586dbd10f4",
+    "plant_id": "plant-strombosia-grandifolia-dafa9cc6f9",
+    "local_name": "Itako pupa",
+    "normalized_name": "itako pupa",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Strombosia grandifolia Hook.f. ex Benth.",
+    "accepted_botanical": "Strombosia grandifolia",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 78
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-iwaregbo-37887d003b",
     "plant_id": "plant-hoslundia-opposita-19739cc93b",
     "local_name": "Iwaregbo",
@@ -8999,6 +10343,30 @@
     "source_locator": {
       "table": "Supplementary Table S1",
       "row": 108
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-iyere-58f899cb82",
+    "plant_id": "plant-piper-guineense-b925235b59",
+    "local_name": "Iyere",
+    "normalized_name": "iyere",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Piper guineense Schumach. & Thonn.",
+    "accepted_botanical": "Piper guineense",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 68
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -9060,6 +10428,30 @@
     "verification_status": "legacy_unverified",
     "reviewed_by": null,
     "export_eligible": true
+  },
+  {
+    "id": "name-iyeye-9e66d447ea",
+    "plant_id": null,
+    "local_name": "Iyeye",
+    "normalized_name": "iyeye",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Spondias mombin L.",
+    "accepted_botanical": null,
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 76
+    },
+    "verification_status": "taxonomy_unresolved",
+    "reviewed_by": null,
+    "export_eligible": false
   },
   {
     "id": "name-iyeye-56ae21676c",
@@ -9249,6 +10641,30 @@
     "export_eligible": true
   },
   {
+    "id": "name-jenjokoo-9048e4671b",
+    "plant_id": "plant-cissampelos-owariensis-20083a9733",
+    "local_name": "Jenjokoo",
+    "normalized_name": "jenjokoo",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Cissampelos owariensis P.Beauv. ex DC.",
+    "accepted_botanical": "Cissampelos owariensis",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 24
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-jill-arab-56957b908f",
     "plant_id": "plant-burkea-africana-f601c2cf64",
     "local_name": "Jill arab",
@@ -9365,6 +10781,30 @@
     "source_locator": {
       "table": "Supplementary Table S1",
       "row": 94
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-jokojee-5a8a327f26",
+    "plant_id": "plant-cissampelos-owariensis-20083a9733",
+    "local_name": "Jokojee",
+    "normalized_name": "jokojee",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Cissampelos owariensis P.Beauv. ex DC.",
+    "accepted_botanical": "Cissampelos owariensis",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 24
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -9682,6 +11122,30 @@
     "export_eligible": true
   },
   {
+    "id": "name-kankan-ayaba-80403efebc",
+    "plant_id": null,
+    "local_name": "Kankan-ayaba",
+    "normalized_name": "kankan ayaba",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Luffa cylindrica (L.) M.Roem.",
+    "accepted_botanical": null,
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 54
+    },
+    "verification_status": "taxonomy_unresolved",
+    "reviewed_by": null,
+    "export_eligible": false
+  },
+  {
     "id": "name-kankan-ayaba-96cf1cf9a3",
     "plant_id": null,
     "local_name": "Kankan ayaba",
@@ -9865,6 +11329,30 @@
     "export_eligible": false
   },
   {
+    "id": "name-kasu-8ad4adce39",
+    "plant_id": "plant-anacardium-occidentale-608216d147",
+    "local_name": "Kasu",
+    "normalized_name": "kasu",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Anacardium occidentale L.",
+    "accepted_botanical": "Anacardium occidentale",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 8
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-kauchi-685eede875",
     "plant_id": null,
     "local_name": "Kauchi",
@@ -10016,6 +11504,30 @@
     "export_eligible": false
   },
   {
+    "id": "name-koko-32401eb709",
+    "plant_id": "plant-theobroma-cacao-777fc47af0",
+    "local_name": "Koko",
+    "normalized_name": "koko",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Theobroma cacao L.",
+    "accepted_botanical": "Theobroma cacao",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 83
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-kola-nut-a560c3a13c",
     "plant_id": "plant-cola-nitida-2dfbb7b2a9",
     "local_name": "kola nut",
@@ -10109,6 +11621,30 @@
     "source_locator": {
       "table": "Supplementary Table S1",
       "row": 182
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-koropo-4284104b0c",
+    "plant_id": "plant-crotalaria-retusa-5ff07c3e02",
+    "local_name": "Koropo",
+    "normalized_name": "koropo",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Crotalaria retusa L.",
+    "accepted_botanical": "Crotalaria retusa",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 33
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -10237,6 +11773,30 @@
     "export_eligible": false
   },
   {
+    "id": "name-laali-e3cbd712ea",
+    "plant_id": "plant-lawsonia-inermis-7ff9dfd7a9",
+    "local_name": "Laali",
+    "normalized_name": "laali",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Lawsonia inermis L.",
+    "accepted_botanical": "Lawsonia inermis",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 53
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-laali-46aef61a64",
     "plant_id": "plant-lawsonia-inermis-7ff9dfd7a9",
     "local_name": "Laali",
@@ -10306,6 +11866,54 @@
     "source_locator": {
       "table": "Supplementary Table S1",
       "row": 99
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-lapalapa-funfun-3abdd97612",
+    "plant_id": "plant-jatropha-curcas-b217025a04",
+    "local_name": "Lapalapa funfun",
+    "normalized_name": "lapalapa funfun",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Jatropha curcas L.",
+    "accepted_botanical": "Jatropha curcas",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 46
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-lapalapa-pupa-9c1d18dc5d",
+    "plant_id": "plant-jatropha-gossypiifolia-35ffa8d665",
+    "local_name": "Lapalapa pupa",
+    "normalized_name": "lapalapa pupa",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Jatropha gossypiifolia L.",
+    "accepted_botanical": "Jatropha gossypiifolia",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 47
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -10865,6 +12473,30 @@
     "export_eligible": true
   },
   {
+    "id": "name-mongoro-3294c04f6b",
+    "plant_id": "plant-mangifera-indica-4d66bda6d8",
+    "local_name": "Mongoro",
+    "normalized_name": "mongoro",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Mangifera indica L.",
+    "accepted_botanical": "Mangifera indica",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 55
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-mongoro-d7fb1aef5d",
     "plant_id": "plant-mangifera-indica-4d66bda6d8",
     "local_name": "Mongoro",
@@ -11251,6 +12883,30 @@
     "export_eligible": true
   },
   {
+    "id": "name-obi-gidi-2b6b62c480",
+    "plant_id": "plant-cola-acuminata-0e4353fc78",
+    "local_name": "Obi gidi",
+    "normalized_name": "obi gidi",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Cola acuminata (P.Beauv) Schott & Endl.",
+    "accepted_botanical": "Cola acuminata",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 28
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-obi-igbo-fe6c5da37c",
     "plant_id": "plant-cola-millenii-97dc8b15ce",
     "local_name": "obi igbo",
@@ -11292,6 +12948,30 @@
     "source_locator": {
       "table": "Supplementary Table S1",
       "row": 119
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-obobo-69870767e7",
+    "plant_id": "plant-ficus-platyphylla-2387ece047",
+    "local_name": "Obobo",
+    "normalized_name": "obobo",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Ficus platyphylla Delile",
+    "accepted_botanical": "Ficus platyphylla",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 41
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -11429,6 +13109,30 @@
     "export_eligible": true
   },
   {
+    "id": "name-odundun-6ef23b6c0a",
+    "plant_id": "plant-kalanchoe-pinnata-f601832f73",
+    "local_name": "Odundun",
+    "normalized_name": "odundun",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Bryophyllum pinnatum (Lam.) Oken",
+    "accepted_botanical": "Kalanchoe pinnata",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 16
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-odundun-owo-2821e646f0",
     "plant_id": "plant-emilia-coccinea-21288937f6",
     "local_name": "Odundun owo",
@@ -11451,6 +13155,102 @@
     "source_locator": {
       "table": "Supplementary Table S1",
       "row": 72
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-odunkun-8b80e83d18",
+    "plant_id": "plant-ipomoea-batatas-0854e36722",
+    "local_name": "Odunkun",
+    "normalized_name": "odunkun",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Ipomoea batatas (L.) Lam.",
+    "accepted_botanical": "Ipomoea batatas",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 45
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-ogan-3ab5fc296a",
+    "plant_id": "plant-combretum-micranthum-c18cf65760",
+    "local_name": "Ogan",
+    "normalized_name": "ogan",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Combretum micranthum G. Don",
+    "accepted_botanical": "Combretum micranthum",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 30
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-ogan-dudu-8716f6d5e7",
+    "plant_id": "plant-combretum-bracteatum-976e181430",
+    "local_name": "Ogan dudu",
+    "normalized_name": "ogan dudu",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Combretum bracteatum (C.Lawson) Engl. & Diels",
+    "accepted_botanical": "Combretum bracteatum",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 29
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-oganwo-d17d0b7a1c",
+    "plant_id": "plant-khaya-grandifoliola-74a21f7ce0",
+    "local_name": "Oganwo",
+    "normalized_name": "oganwo",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Khaya grandifoliola C.DC.",
+    "accepted_botanical": "Khaya grandifoliola",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 49
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -11601,6 +13401,30 @@
     "export_eligible": true
   },
   {
+    "id": "name-ogede-agbagba-a464421bc9",
+    "plant_id": "plant-musa-paradisiaca-ee9a078e9c",
+    "local_name": "Ogede agbagba",
+    "normalized_name": "ogede agbagba",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Musa paradisiaca L.",
+    "accepted_botanical": "Musa paradisiaca",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 60
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-ogede-agbe-4d84dae28b",
     "plant_id": "plant-musa-paradisiaca-ee9a078e9c",
     "local_name": "ogede agbe",
@@ -11642,6 +13466,30 @@
     "source_locator": {
       "table": "Supplementary Table S1",
       "row": 67
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-ogede-odo-fa4abdeda8",
+    "plant_id": "plant-crinum-jagus-68810e10b3",
+    "local_name": "Ogede odo",
+    "normalized_name": "ogede odo",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Crinum jagus (J.Thomps.) Dandy",
+    "accepted_botanical": "Crinum jagus",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 32
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -11694,6 +13542,30 @@
     "source_locator": {
       "table": "Table 1",
       "row": 29
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-ogege-8dbc9708e6",
+    "plant_id": "plant-jatropha-multifida-a57466d05a",
+    "local_name": "Ogege",
+    "normalized_name": "ogege",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Jatropha multifida L.",
+    "accepted_botanical": "Jatropha multifida",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 48
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -11881,6 +13753,54 @@
     "source_locator": {
       "table": "Supplementary Table S1",
       "row": 178
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-ojuologbo-b8e2a942fa",
+    "plant_id": "plant-abrus-precatorius-15b67329f2",
+    "local_name": "ojuologbo",
+    "normalized_name": "ojuologbo",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Abrus precatorius L.",
+    "accepted_botanical": "Abrus precatorius",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 1
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-oka-baba-5b5c5a763e",
+    "plant_id": "plant-sorghum-bicolor-43dce6dca3",
+    "local_name": "Oka baba",
+    "normalized_name": "oka baba",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Sorghum bicolor (L.) Moench",
+    "accepted_botanical": "Sorghum bicolor",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 74
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -12233,6 +14153,30 @@
     "export_eligible": true
   },
   {
+    "id": "name-omisinmisin-4fc3ff3152",
+    "plant_id": "plant-abrus-precatorius-15b67329f2",
+    "local_name": "Omisinmisin",
+    "normalized_name": "omisinmisin",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Abrus precatorius L.",
+    "accepted_botanical": "Abrus precatorius",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 1
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-omisinmisin-84294ca395",
     "plant_id": "plant-abrus-precatorius-15b67329f2",
     "local_name": "Omisinmisin",
@@ -12360,6 +14304,30 @@
     "export_eligible": true
   },
   {
+    "id": "name-ooro-8bd3720c01",
+    "plant_id": "plant-antiaris-toxicaria-3165592d4f",
+    "local_name": "Ooro",
+    "normalized_name": "ooro",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Antiaris toxicaria Lesch.",
+    "accepted_botanical": "Antiaris toxicaria",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 11
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-ooro-90368a9503",
     "plant_id": "plant-polyalthia-suaveolens-583867bca4",
     "local_name": "Ooro",
@@ -12407,6 +14375,54 @@
     "export_eligible": true
   },
   {
+    "id": "name-oparun-a342fdfb57",
+    "plant_id": null,
+    "local_name": "Oparun",
+    "normalized_name": "oparun",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Bambusa vulgaris Schrad.",
+    "accepted_botanical": null,
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 14
+    },
+    "verification_status": "taxonomy_unresolved",
+    "reviewed_by": null,
+    "export_eligible": false
+  },
+  {
+    "id": "name-ope-63ce91eefb",
+    "plant_id": "plant-elaeis-guineensis-dfe692912b",
+    "local_name": "Ope",
+    "normalized_name": "ope",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Elaeis guineensis Jacq.",
+    "accepted_botanical": "Elaeis guineensis",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 38
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-ope-9ab3d08ac7",
     "plant_id": "plant-elaeis-guineensis-dfe692912b",
     "local_name": "Ope",
@@ -12429,6 +14445,30 @@
     "source_locator": {
       "table": "Supplementary Table S1",
       "row": 69
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-ope-oyinbo-29613de6bd",
+    "plant_id": "plant-ananas-comosus-e0dfdb430c",
+    "local_name": "Ope-oyinbo",
+    "normalized_name": "ope oyinbo",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Ananas comosus (L.) Merr.",
+    "accepted_botanical": "Ananas comosus",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 9
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -12534,6 +14574,30 @@
     "source_id": "legacy-lookup-v1",
     "source_locator": null,
     "verification_status": "legacy_unverified",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-ori-8587a9400c",
+    "plant_id": "plant-vitellaria-paradoxa-de73616dac",
+    "local_name": "Ori",
+    "normalized_name": "ori",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Vitellaria paradoxa C.F.Gaertn.",
+    "accepted_botanical": "Vitellaria paradoxa",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 86
+    },
+    "verification_status": "taxonomy_checked",
     "reviewed_by": null,
     "export_eligible": true
   },
@@ -12656,6 +14720,30 @@
     "export_eligible": true
   },
   {
+    "id": "name-orogbo-1ebda72648",
+    "plant_id": "plant-garcinia-kola-b2da88781b",
+    "local_name": "Orogbo",
+    "normalized_name": "orogbo",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Garcinia kola Heckel",
+    "accepted_botanical": "Garcinia kola",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 42
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-orogbo-e2852fe4d2",
     "plant_id": "plant-garcinia-kola-b2da88781b",
     "local_name": "orogbo",
@@ -12748,6 +14836,54 @@
     "export_eligible": true
   },
   {
+    "id": "name-oronbo-wewe-843bfe483a",
+    "plant_id": "plant-citrus-aurantiifolia-e96354d670",
+    "local_name": "Oronbo wewe",
+    "normalized_name": "oronbo wewe",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Citrus aurantiifolia (Christm.) Swingle",
+    "accepted_botanical": "Citrus aurantiifolia",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 26
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-oruwo-fd24b4dc4c",
+    "plant_id": "plant-morinda-lucida-a896aeef86",
+    "local_name": "Oruwo",
+    "normalized_name": "oruwo",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Morinda lucida Benth.",
+    "accepted_botanical": "Morinda lucida",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 58
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-oruwo-1104d03438",
     "plant_id": "plant-morinda-lucida-a896aeef86",
     "local_name": "oruwo",
@@ -12810,6 +14946,30 @@
     "source_id": "legacy-lookup-v1",
     "source_locator": null,
     "verification_status": "legacy_unverified",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-osan-wewe-3559b2717d",
+    "plant_id": "plant-citrus-aurantiifolia-e96354d670",
+    "local_name": "osan wewe",
+    "normalized_name": "osan wewe",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Citrus aurantiifolia (Christm.) Swingle",
+    "accepted_botanical": "Citrus aurantiifolia",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 26
+    },
+    "verification_status": "taxonomy_checked",
     "reviewed_by": null,
     "export_eligible": true
   },
@@ -12983,6 +15143,54 @@
     "export_eligible": true
   },
   {
+    "id": "name-otili-ewa-c63f4ec102",
+    "plant_id": "plant-cajanus-cajan-b2ea585647",
+    "local_name": "Otili ewa",
+    "normalized_name": "otili ewa",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Cajanus cajan (L.) Millsp.",
+    "accepted_botanical": "Cajanus cajan",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 17
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-owu-52ea43d673",
+    "plant_id": "plant-gossypium-barbadense-65985e0c97",
+    "local_name": "Owu",
+    "normalized_name": "owu",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Gossypium barbadense L.",
+    "accepted_botanical": "Gossypium barbadense",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 43
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-owu-102d2007c0",
     "plant_id": "plant-gossypium-barbadense-65985e0c97",
     "local_name": "Owu",
@@ -13070,6 +15278,30 @@
     "export_eligible": false
   },
   {
+    "id": "name-pandoro-205a9ed637",
+    "plant_id": "plant-kigelia-africana-46d315983f",
+    "local_name": "Pandoro",
+    "normalized_name": "pandoro",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Kigelia africana (Lam.) Benth.",
+    "accepted_botanical": "Kigelia africana",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 50
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-pandoro-838b9d975c",
     "plant_id": "plant-kigelia-africana-46d315983f",
     "local_name": "Pandoro",
@@ -13139,6 +15371,30 @@
     "source_id": "legacy-lookup-v1",
     "source_locator": null,
     "verification_status": "legacy_unverified",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-patanmo-987bc973ab",
+    "plant_id": "plant-mimosa-pudica-22130774b9",
+    "local_name": "Patanmo",
+    "normalized_name": "patanmo",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Mimosa pudica L.",
+    "accepted_botanical": "Mimosa pudica",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 56
+    },
+    "verification_status": "taxonomy_checked",
     "reviewed_by": null,
     "export_eligible": true
   },
@@ -13870,6 +16126,30 @@
     "export_eligible": true
   },
   {
+    "id": "name-taba-65d398dc7b",
+    "plant_id": "plant-nicotiana-tabacum-5f371f4c17",
+    "local_name": "Taba",
+    "normalized_name": "taba",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Nicotiana tabacum L.",
+    "accepted_botanical": "Nicotiana tabacum",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 61
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-taba-19dfd75402",
     "plant_id": "plant-nicotiana-tabacum-5f371f4c17",
     "local_name": "Taba",
@@ -13975,6 +16255,30 @@
     "source_locator": {
       "table": "Table 1",
       "row": 36
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-tagiri-633bae6c57",
+    "plant_id": "plant-lagenaria-breviflora-089483a486",
+    "local_name": "Tagiri",
+    "normalized_name": "tagiri",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Lagenaria breviflora (Benth.) Roberty",
+    "accepted_botanical": "Lagenaria breviflora",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 51
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -14492,6 +16796,30 @@
     "export_eligible": true
   },
   {
+    "id": "name-werepe-5da59cc9c1",
+    "plant_id": "plant-mucuna-pruriens-9a97c35409",
+    "local_name": "Werepe",
+    "normalized_name": "werepe",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Mucuna pruriens (L.) DC.",
+    "accepted_botanical": "Mucuna pruriens",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 59
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-werepe-ibile-2f67005091",
     "plant_id": "plant-calopogonium-mucunoides-fc906ac9ec",
     "local_name": "Werepe ibile",
@@ -14584,6 +16912,30 @@
     "verification_status": "taxonomy_unresolved",
     "reviewed_by": null,
     "export_eligible": false
+  },
+  {
+    "id": "name-yanrin-c73570cc55",
+    "plant_id": "plant-launaea-taraxacifolia-590cac3ea3",
+    "local_name": "Yanrin",
+    "normalized_name": "yanrin",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "botanical_as_published": "Launaea taraxacifolia (Willd.) Amin ex C.Jeffrey",
+    "accepted_botanical": "Launaea taraxacifolia",
+    "source_id": "lawal-2020-ede-south",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 52
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
   },
   {
     "id": "name-yanrin-b5527d0bac",

@@ -1,0 +1,2214 @@
+[
+  {
+    "source_id": "lawal-2020-ede-south",
+    "source_row": 1,
+    "inventory_table_row": 1,
+    "botanical_as_published": "Abrus precatorius L.",
+    "family_as_published": "Fabaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Omisinmisin, ojuologbo",
+    "vernacular_names": [
+      {
+        "local_name": "Omisinmisin",
+        "language": "yo"
+      },
+      {
+        "local_name": "ojuologbo",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "FHI 700214",
+    "life_form_as_published": "Climber",
+    "use_context": "plant reported for cough associated with respiratory conditions in Ede South, Osun State"
+  },
+  {
+    "source_id": "lawal-2020-ede-south",
+    "source_row": 2,
+    "inventory_table_row": 2,
+    "botanical_as_published": "Aframomum melegueta K. Schum.",
+    "family_as_published": "Zingiberaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ataare",
+    "vernacular_names": [
+      {
+        "local_name": "Ataare",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "seed",
+      "leaf"
+    ],
+    "preparations_reported": [
+      "concoction"
+    ],
+    "voucher_specimen": "FHI 610214",
+    "life_form_as_published": "Herb",
+    "use_context": "plant reported for cough associated with respiratory conditions in Ede South, Osun State"
+  },
+  {
+    "source_id": "lawal-2020-ede-south",
+    "source_row": 3,
+    "inventory_table_row": 3,
+    "botanical_as_published": "Ageratum conyzoides (L.)L.",
+    "family_as_published": "Asteraceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Apasa/imi-esu",
+    "vernacular_names": [
+      {
+        "local_name": "Apasa",
+        "language": "yo"
+      },
+      {
+        "local_name": "imi-esu",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "whole plant"
+    ],
+    "preparations_reported": [
+      "concoction"
+    ],
+    "voucher_specimen": "FHI 600217",
+    "life_form_as_published": "Herb",
+    "use_context": "plant reported for cough associated with respiratory conditions in Ede South, Osun State"
+  },
+  {
+    "source_id": "lawal-2020-ede-south",
+    "source_row": 4,
+    "inventory_table_row": 4,
+    "botanical_as_published": "Allium ascalonicum L.",
+    "family_as_published": "Amaryllidaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Alubosa elewe",
+    "vernacular_names": [
+      {
+        "local_name": "Alubosa elewe",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "whole plant"
+    ],
+    "preparations_reported": [
+      "concoction"
+    ],
+    "voucher_specimen": "FHI 7022216",
+    "life_form_as_published": "Herb",
+    "use_context": "plant reported for cough associated with respiratory conditions in Ede South, Osun State"
+  },
+  {
+    "source_id": "lawal-2020-ede-south",
+    "source_row": 5,
+    "inventory_table_row": 5,
+    "botanical_as_published": "Allium sativum L.",
+    "family_as_published": "Amaryllidaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ayu",
+    "vernacular_names": [
+      {
+        "local_name": "Ayu",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "bulb"
+    ],
+    "preparations_reported": [
+      "concoction"
+    ],
+    "voucher_specimen": "FHI 714567",
+    "life_form_as_published": "Herb",
+    "use_context": "plant reported for cough associated with respiratory conditions in Ede South, Osun State"
+  },
+  {
+    "source_id": "lawal-2020-ede-south",
+    "source_row": 6,
+    "inventory_table_row": 6,
+    "botanical_as_published": "Alstonia boonei De Wild.",
+    "family_as_published": "Apocynaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ahun/doctor igbo",
+    "vernacular_names": [
+      {
+        "local_name": "Ahun",
+        "language": "yo"
+      },
+      {
+        "local_name": "doctor igbo",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "stem",
+      "bark",
+      "leaf"
+    ],
+    "preparations_reported": [
+      "maceration"
+    ],
+    "voucher_specimen": "FHI 722214",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for cough associated with respiratory conditions in Ede South, Osun State"
+  },
+  {
+    "source_id": "lawal-2020-ede-south",
+    "source_row": 7,
+    "inventory_table_row": 7,
+    "botanical_as_published": "Amaranthus spinosus L.",
+    "family_as_published": "Amaranthaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Dagunro",
+    "vernacular_names": [
+      {
+        "local_name": "Dagunro",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "FHI 703215",
+    "life_form_as_published": "Herb",
+    "use_context": "plant reported for cough associated with respiratory conditions in Ede South, Osun State"
+  },
+  {
+    "source_id": "lawal-2020-ede-south",
+    "source_row": 8,
+    "inventory_table_row": 8,
+    "botanical_as_published": "Anacardium occidentale L.",
+    "family_as_published": "Anacardiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Kasu",
+    "vernacular_names": [
+      {
+        "local_name": "Kasu",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "fruit",
+      "stem",
+      "bark"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "FHI 7023216",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for cough associated with respiratory conditions in Ede South, Osun State"
+  },
+  {
+    "source_id": "lawal-2020-ede-south",
+    "source_row": 9,
+    "inventory_table_row": 9,
+    "botanical_as_published": "Ananas comosus (L.) Merr.",
+    "family_as_published": "Bromeliaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ope-oyinbo",
+    "vernacular_names": [
+      {
+        "local_name": "Ope-oyinbo",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "unripe fruit"
+    ],
+    "preparations_reported": [
+      "maceration"
+    ],
+    "voucher_specimen": "FHI 722217",
+    "life_form_as_published": "Herb",
+    "use_context": "plant reported for cough associated with respiratory conditions in Ede South, Osun State"
+  },
+  {
+    "source_id": "lawal-2020-ede-south",
+    "source_row": 10,
+    "inventory_table_row": 10,
+    "botanical_as_published": "Annickia chlorantha (Oliv.) Setten & Maas = Enantia chlorantha )",
+    "family_as_published": "Annonaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Awopa",
+    "vernacular_names": [
+      {
+        "local_name": "Awopa",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "stem",
+      "bark"
+    ],
+    "preparations_reported": [
+      "maceration"
+    ],
+    "voucher_specimen": "FHI 600254",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for cough associated with respiratory conditions in Ede South, Osun State"
+  },
+  {
+    "source_id": "lawal-2020-ede-south",
+    "source_row": 11,
+    "inventory_table_row": 11,
+    "botanical_as_published": "Antiaris toxicaria Lesch.",
+    "family_as_published": "Moraceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ooro",
+    "vernacular_names": [
+      {
+        "local_name": "Ooro",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "fruit"
+    ],
+    "preparations_reported": [
+      "infusion",
+      "decoction"
+    ],
+    "voucher_specimen": "FHI 700234",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for cough associated with respiratory conditions in Ede South, Osun State"
+  },
+  {
+    "source_id": "lawal-2020-ede-south",
+    "source_row": 12,
+    "inventory_table_row": 12,
+    "botanical_as_published": "Asparagus africanus Lam.",
+    "family_as_published": "Asparagaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Aluki",
+    "vernacular_names": [
+      {
+        "local_name": "Aluki",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "root",
+      "leaf"
+    ],
+    "preparations_reported": [
+      "tincture"
+    ],
+    "voucher_specimen": "FHI 700021",
+    "life_form_as_published": "Climber",
+    "use_context": "plant reported for cough associated with respiratory conditions in Ede South, Osun State"
+  },
+  {
+    "source_id": "lawal-2020-ede-south",
+    "source_row": 13,
+    "inventory_table_row": 13,
+    "botanical_as_published": "Azadirachta indica A. Juss.",
+    "family_as_published": "Meliaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Dogoyaro",
+    "vernacular_names": [
+      {
+        "local_name": "Dogoyaro",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "stem",
+      "bark",
+      "fruit"
+    ],
+    "preparations_reported": [
+      "concoction"
+    ],
+    "voucher_specimen": "FHI 605214",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for cough associated with respiratory conditions in Ede South, Osun State"
+  },
+  {
+    "source_id": "lawal-2020-ede-south",
+    "source_row": 14,
+    "inventory_table_row": 14,
+    "botanical_as_published": "Bambusa vulgaris Schrad.",
+    "family_as_published": "Poaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Oparun, bamboo",
+    "vernacular_names": [
+      {
+        "local_name": "Oparun",
+        "language": "yo"
+      }
+    ],
+    "vernacular_entries_excluded": [
+      {
+        "text": "bamboo",
+        "reason": "English common name"
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "young shoot"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "FHI 703214",
+    "life_form_as_published": "Herb",
+    "use_context": "plant reported for cough associated with respiratory conditions in Ede South, Osun State"
+  },
+  {
+    "source_id": "lawal-2020-ede-south",
+    "source_row": 15,
+    "inventory_table_row": 15,
+    "botanical_as_published": "Bridelia ferruginea Benth.",
+    "family_as_published": "Phyllanthaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ira",
+    "vernacular_names": [
+      {
+        "local_name": "Ira",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "stem bark"
+    ],
+    "preparations_reported": [
+      "maceration"
+    ],
+    "voucher_specimen": "FHI 611214",
+    "life_form_as_published": "Shrub",
+    "use_context": "plant reported for cough associated with respiratory conditions in Ede South, Osun State"
+  },
+  {
+    "source_id": "lawal-2020-ede-south",
+    "source_row": 16,
+    "inventory_table_row": 16,
+    "botanical_as_published": "Bryophyllum pinnatum (Lam.) Oken",
+    "family_as_published": "Crassulaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Odundun",
+    "vernacular_names": [
+      {
+        "local_name": "Odundun",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [
+      "concoction"
+    ],
+    "voucher_specimen": "FHI 721215",
+    "life_form_as_published": "Herb",
+    "use_context": "plant reported for cough associated with respiratory conditions in Ede South, Osun State"
+  },
+  {
+    "source_id": "lawal-2020-ede-south",
+    "source_row": 17,
+    "inventory_table_row": 17,
+    "botanical_as_published": "Cajanus cajan (L.) Millsp.",
+    "family_as_published": "Fabaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Otili ewa",
+    "vernacular_names": [
+      {
+        "local_name": "Otili ewa",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [
+      "concoction"
+    ],
+    "voucher_specimen": "FHI 703216",
+    "life_form_as_published": "Shrub",
+    "use_context": "plant reported for cough associated with respiratory conditions in Ede South, Osun State"
+  },
+  {
+    "source_id": "lawal-2020-ede-south",
+    "source_row": 18,
+    "inventory_table_row": 18,
+    "botanical_as_published": "Calotropis procera (Aiton) Dryand",
+    "family_as_published": "Apocynaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Bomu-Bomu",
+    "vernacular_names": [
+      {
+        "local_name": "Bomu-Bomu",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [
+      "herbal syrup"
+    ],
+    "voucher_specimen": "FHI 705216",
+    "life_form_as_published": "Shrub",
+    "use_context": "plant reported for cough associated with respiratory conditions in Ede South, Osun State"
+  },
+  {
+    "source_id": "lawal-2020-ede-south",
+    "source_row": 19,
+    "inventory_table_row": 19,
+    "botanical_as_published": "Capsicum annuum L. = Capsicum frutescens",
+    "family_as_published": "Solanaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ata ijosi",
+    "vernacular_names": [
+      {
+        "local_name": "Ata ijosi",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "fruit"
+    ],
+    "preparations_reported": [
+      "concoction"
+    ],
+    "voucher_specimen": "FHI 704217",
+    "life_form_as_published": "Herb",
+    "use_context": "plant reported for cough associated with respiratory conditions in Ede South, Osun State"
+  },
+  {
+    "source_id": "lawal-2020-ede-south",
+    "source_row": 20,
+    "inventory_table_row": 20,
+    "botanical_as_published": "Carica papaya L.",
+    "family_as_published": "Caricaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ibepe",
+    "vernacular_names": [
+      {
+        "local_name": "Ibepe",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "unripe fruit"
+    ],
+    "preparations_reported": [
+      "maceration"
+    ],
+    "voucher_specimen": "FHI 710213",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for cough associated with respiratory conditions in Ede South, Osun State"
+  },
+  {
+    "source_id": "lawal-2020-ede-south",
+    "source_row": 21,
+    "inventory_table_row": 21,
+    "botanical_as_published": "Chasmanthera dependens Hochst.",
+    "family_as_published": "Menispermaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Agba-ato, Ato",
+    "vernacular_names": [
+      {
+        "local_name": "Agba-ato",
+        "language": "yo"
+      },
+      {
+        "local_name": "Ato",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [
+      "maceration"
+    ],
+    "voucher_specimen": "FHI 711215",
+    "life_form_as_published": "Climber",
+    "use_context": "plant reported for cough associated with respiratory conditions in Ede South, Osun State"
+  },
+  {
+    "source_id": "lawal-2020-ede-south",
+    "source_row": 22,
+    "inventory_table_row": 22,
+    "botanical_as_published": "Chromolaena odorata (L.) R.M.King & H.Rob.",
+    "family_as_published": "Asteraceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Akintola",
+    "vernacular_names": [
+      {
+        "local_name": "Akintola",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [
+      "tincture"
+    ],
+    "voucher_specimen": "FHI 705209",
+    "life_form_as_published": "Shrub",
+    "use_context": "plant reported for cough associated with respiratory conditions in Ede South, Osun State"
+  },
+  {
+    "source_id": "lawal-2020-ede-south",
+    "source_row": 23,
+    "inventory_table_row": 23,
+    "botanical_as_published": "Chrysophyllum albidum G.Don",
+    "family_as_published": "Sapotaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Agbalumo",
+    "vernacular_names": [
+      {
+        "local_name": "Agbalumo",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "seed"
+    ],
+    "preparations_reported": [
+      "concoction"
+    ],
+    "voucher_specimen": "FHI 730274",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for cough associated with respiratory conditions in Ede South, Osun State"
+  },
+  {
+    "source_id": "lawal-2020-ede-south",
+    "source_row": 24,
+    "inventory_table_row": 24,
+    "botanical_as_published": "Cissampelos owariensis P.Beauv. ex DC.",
+    "family_as_published": "Menispermaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Jokojee, Jenjokoo",
+    "vernacular_names": [
+      {
+        "local_name": "Jokojee",
+        "language": "yo"
+      },
+      {
+        "local_name": "Jenjokoo",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [
+      "maceration"
+    ],
+    "voucher_specimen": "FHI 723217",
+    "life_form_as_published": "Climber",
+    "use_context": "plant reported for cough associated with respiratory conditions in Ede South, Osun State"
+  },
+  {
+    "source_id": "lawal-2020-ede-south",
+    "source_row": 25,
+    "inventory_table_row": 25,
+    "botanical_as_published": "Citrullus colocynthis (L.) Schrad.",
+    "family_as_published": "Cucurbitaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Egusi’baara",
+    "vernacular_names": [
+      {
+        "local_name": "Egusi’baara",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "fruit"
+    ],
+    "preparations_reported": [
+      "cooked"
+    ],
+    "voucher_specimen": "FHI 722216",
+    "life_form_as_published": "Vine/climber",
+    "use_context": "plant reported for cough associated with respiratory conditions in Ede South, Osun State"
+  },
+  {
+    "source_id": "lawal-2020-ede-south",
+    "source_row": 26,
+    "inventory_table_row": 26,
+    "botanical_as_published": "Citrus aurantiifolia (Christm.) Swingle",
+    "family_as_published": "Rutaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Oronbo wewe/ osan wewe",
+    "vernacular_names": [
+      {
+        "local_name": "Oronbo wewe",
+        "language": "yo"
+      },
+      {
+        "local_name": "osan wewe",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "fruit"
+    ],
+    "preparations_reported": [
+      "maceration"
+    ],
+    "voucher_specimen": "FHI 700316",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for cough associated with respiratory conditions in Ede South, Osun State"
+  },
+  {
+    "source_id": "lawal-2020-ede-south",
+    "source_row": 27,
+    "inventory_table_row": 27,
+    "botanical_as_published": "Cocos nucifera L.",
+    "family_as_published": "Arecaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Agbon",
+    "vernacular_names": [
+      {
+        "local_name": "Agbon",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "nut",
+      "epicarp"
+    ],
+    "preparations_reported": [
+      "maceration"
+    ],
+    "voucher_specimen": "FHI 711215",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for cough associated with respiratory conditions in Ede South, Osun State"
+  },
+  {
+    "source_id": "lawal-2020-ede-south",
+    "source_row": 28,
+    "inventory_table_row": 28,
+    "botanical_as_published": "Cola acuminata (P.Beauv) Schott & Endl.",
+    "family_as_published": "Malvaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Obi gidi",
+    "vernacular_names": [
+      {
+        "local_name": "Obi gidi",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [
+      "concoction"
+    ],
+    "voucher_specimen": "FHI 730214",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for cough associated with respiratory conditions in Ede South, Osun State"
+  },
+  {
+    "source_id": "lawal-2020-ede-south",
+    "source_row": 29,
+    "inventory_table_row": 29,
+    "botanical_as_published": "Combretum bracteatum (C.Lawson) Engl. & Diels",
+    "family_as_published": "Combretaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ogan dudu",
+    "vernacular_names": [
+      {
+        "local_name": "Ogan dudu",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "stem",
+      "bark"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "FHI 705215",
+    "life_form_as_published": "Shrub",
+    "use_context": "plant reported for cough associated with respiratory conditions in Ede South, Osun State"
+  },
+  {
+    "source_id": "lawal-2020-ede-south",
+    "source_row": 30,
+    "inventory_table_row": 30,
+    "botanical_as_published": "Combretum micranthum G. Don",
+    "family_as_published": "Combretaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ogan",
+    "vernacular_names": [
+      {
+        "local_name": "Ogan",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "stem",
+      "bark"
+    ],
+    "preparations_reported": [
+      "maceration"
+    ],
+    "voucher_specimen": "FHI 723214",
+    "life_form_as_published": "Shrub",
+    "use_context": "plant reported for cough associated with respiratory conditions in Ede South, Osun State"
+  },
+  {
+    "source_id": "lawal-2020-ede-south",
+    "source_row": 31,
+    "inventory_table_row": 31,
+    "botanical_as_published": "Corchorus olitorius L.",
+    "family_as_published": "Malvaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ewedu",
+    "vernacular_names": [
+      {
+        "local_name": "Ewedu",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "whole plant"
+    ],
+    "preparations_reported": [
+      "cooked"
+    ],
+    "voucher_specimen": "FHI 730219",
+    "life_form_as_published": "Shrub",
+    "use_context": "plant reported for cough associated with respiratory conditions in Ede South, Osun State"
+  },
+  {
+    "source_id": "lawal-2020-ede-south",
+    "source_row": 32,
+    "inventory_table_row": 32,
+    "botanical_as_published": "Crinum jagus (J.Thomps.) Dandy",
+    "family_as_published": "Amaryllidaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ogede odo",
+    "vernacular_names": [
+      {
+        "local_name": "Ogede odo",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "shoot",
+      "root"
+    ],
+    "preparations_reported": [
+      "pounded"
+    ],
+    "voucher_specimen": "FHI 705215",
+    "life_form_as_published": "Herb",
+    "use_context": "plant reported for cough associated with respiratory conditions in Ede South, Osun State"
+  },
+  {
+    "source_id": "lawal-2020-ede-south",
+    "source_row": 33,
+    "inventory_table_row": 33,
+    "botanical_as_published": "Crotalaria retusa L.",
+    "family_as_published": "Fabaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Koropo",
+    "vernacular_names": [
+      {
+        "local_name": "Koropo",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [
+      "concoction"
+    ],
+    "voucher_specimen": "FHI 705216",
+    "life_form_as_published": "Herb",
+    "use_context": "plant reported for cough associated with respiratory conditions in Ede South, Osun State"
+  },
+  {
+    "source_id": "lawal-2020-ede-south",
+    "source_row": 34,
+    "inventory_table_row": 34,
+    "botanical_as_published": "Crudia klainei De Wild.",
+    "family_as_published": "Fabaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Afomo",
+    "vernacular_names": [
+      {
+        "local_name": "Afomo",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "FHI 710121",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for cough associated with respiratory conditions in Ede South, Osun State"
+  },
+  {
+    "source_id": "lawal-2020-ede-south",
+    "source_row": 35,
+    "inventory_table_row": 35,
+    "botanical_as_published": "Cymbopogon citratus (DC.) Stapf",
+    "family_as_published": "Poaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ewe tea",
+    "vernacular_names": [
+      {
+        "local_name": "Ewe tea",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "FHI 605214",
+    "life_form_as_published": "Herb",
+    "use_context": "plant reported for cough associated with respiratory conditions in Ede South, Osun State"
+  },
+  {
+    "source_id": "lawal-2020-ede-south",
+    "source_row": 36,
+    "inventory_table_row": 36,
+    "botanical_as_published": "Dioclea reflexa Hook.f.",
+    "family_as_published": "Fabaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Agbaarin",
+    "vernacular_names": [
+      {
+        "local_name": "Agbaarin",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "seed"
+    ],
+    "preparations_reported": [
+      "pounded"
+    ],
+    "voucher_specimen": "FHI 705213",
+    "life_form_as_published": "Climber",
+    "use_context": "plant reported for cough associated with respiratory conditions in Ede South, Osun State"
+  },
+  {
+    "source_id": "lawal-2020-ede-south",
+    "source_row": 37,
+    "inventory_table_row": 37,
+    "botanical_as_published": "Dioscorea dumetorum (Kunth) Pax",
+    "family_as_published": "Dioscoreaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Esuru",
+    "vernacular_names": [
+      {
+        "local_name": "Esuru",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "root"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "FHI 765217",
+    "life_form_as_published": "Climber",
+    "use_context": "plant reported for cough associated with respiratory conditions in Ede South, Osun State"
+  },
+  {
+    "source_id": "lawal-2020-ede-south",
+    "source_row": 38,
+    "inventory_table_row": 38,
+    "botanical_as_published": "Elaeis guineensis Jacq.",
+    "family_as_published": "Arecaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ope",
+    "vernacular_names": [
+      {
+        "local_name": "Ope",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "root"
+    ],
+    "preparations_reported": [
+      "concoction"
+    ],
+    "voucher_specimen": "FHI 600215",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for cough associated with respiratory conditions in Ede South, Osun State"
+  },
+  {
+    "source_id": "lawal-2020-ede-south",
+    "source_row": 39,
+    "inventory_table_row": 39,
+    "botanical_as_published": "Erythrophleum suaveolens (Guill. & Perr.) Brenan",
+    "family_as_published": "Fabaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Igi obo, Eru-obo",
+    "vernacular_names": [
+      {
+        "local_name": "Igi obo",
+        "language": "yo"
+      },
+      {
+        "local_name": "Eru-obo",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "stem",
+      "bark",
+      "leaf"
+    ],
+    "preparations_reported": [
+      "tincture"
+    ],
+    "voucher_specimen": "FHI 744214",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for cough associated with respiratory conditions in Ede South, Osun State"
+  },
+  {
+    "source_id": "lawal-2020-ede-south",
+    "source_row": 40,
+    "inventory_table_row": 40,
+    "botanical_as_published": "Ficus exasperata Vahl",
+    "family_as_published": "Moraceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Eepin",
+    "vernacular_names": [
+      {
+        "local_name": "Eepin",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "stem",
+      "bark",
+      "root"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "FHI 611002",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for cough associated with respiratory conditions in Ede South, Osun State"
+  },
+  {
+    "source_id": "lawal-2020-ede-south",
+    "source_row": 41,
+    "inventory_table_row": 41,
+    "botanical_as_published": "Ficus platyphylla Delile",
+    "family_as_published": "Moraceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Obobo",
+    "vernacular_names": [
+      {
+        "local_name": "Obobo",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "stem",
+      "root",
+      "bark"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "FHI 724234",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for cough associated with respiratory conditions in Ede South, Osun State"
+  },
+  {
+    "source_id": "lawal-2020-ede-south",
+    "source_row": 42,
+    "inventory_table_row": 42,
+    "botanical_as_published": "Garcinia kola Heckel",
+    "family_as_published": "Clusiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Orogbo",
+    "vernacular_names": [
+      {
+        "local_name": "Orogbo",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "root",
+      "seed",
+      "stem",
+      "bark"
+    ],
+    "preparations_reported": [
+      "concoction"
+    ],
+    "voucher_specimen": "FHI 705215",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for cough associated with respiratory conditions in Ede South, Osun State"
+  },
+  {
+    "source_id": "lawal-2020-ede-south",
+    "source_row": 43,
+    "inventory_table_row": 43,
+    "botanical_as_published": "Gossypium barbadense L.",
+    "family_as_published": "Malvaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Owu",
+    "vernacular_names": [
+      {
+        "local_name": "Owu",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "root",
+      "seed"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "FHI 720221",
+    "life_form_as_published": "Shrub",
+    "use_context": "plant reported for cough associated with respiratory conditions in Ede South, Osun State"
+  },
+  {
+    "source_id": "lawal-2020-ede-south",
+    "source_row": 44,
+    "inventory_table_row": 44,
+    "botanical_as_published": "Hybanthus enneaspermus (L.) F. Muell.",
+    "family_as_published": "Violaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Abiwere",
+    "vernacular_names": [
+      {
+        "local_name": "Abiwere",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "FHI 704216",
+    "life_form_as_published": "Herb",
+    "use_context": "plant reported for cough associated with respiratory conditions in Ede South, Osun State"
+  },
+  {
+    "source_id": "lawal-2020-ede-south",
+    "source_row": 45,
+    "inventory_table_row": 45,
+    "botanical_as_published": "Ipomoea batatas (L.) Lam.",
+    "family_as_published": "Convolvulaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Anomo, Odunkun",
+    "vernacular_names": [
+      {
+        "local_name": "Anomo",
+        "language": "yo"
+      },
+      {
+        "local_name": "Odunkun",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [
+      "tincture"
+    ],
+    "voucher_specimen": "FHI 711025",
+    "life_form_as_published": "Climber",
+    "use_context": "plant reported for cough associated with respiratory conditions in Ede South, Osun State"
+  },
+  {
+    "source_id": "lawal-2020-ede-south",
+    "source_row": 46,
+    "inventory_table_row": 46,
+    "botanical_as_published": "Jatropha curcas L.",
+    "family_as_published": "Euphorbiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Lapalapa funfun",
+    "vernacular_names": [
+      {
+        "local_name": "Lapalapa funfun",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "FHI 740216",
+    "life_form_as_published": "Shrub",
+    "use_context": "plant reported for cough associated with respiratory conditions in Ede South, Osun State"
+  },
+  {
+    "source_id": "lawal-2020-ede-south",
+    "source_row": 47,
+    "inventory_table_row": 47,
+    "botanical_as_published": "Jatropha gossypiifolia L.",
+    "family_as_published": "Euphorbiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Lapalapa pupa",
+    "vernacular_names": [
+      {
+        "local_name": "Lapalapa pupa",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "FHI 600215",
+    "life_form_as_published": "Shrub",
+    "use_context": "plant reported for cough associated with respiratory conditions in Ede South, Osun State"
+  },
+  {
+    "source_id": "lawal-2020-ede-south",
+    "source_row": 48,
+    "inventory_table_row": 48,
+    "botanical_as_published": "Jatropha multifida L.",
+    "family_as_published": "Euphorbiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ogege",
+    "vernacular_names": [
+      {
+        "local_name": "Ogege",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "sap latex"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "FHI 603214",
+    "life_form_as_published": "Shrub",
+    "use_context": "plant reported for cough associated with respiratory conditions in Ede South, Osun State"
+  },
+  {
+    "source_id": "lawal-2020-ede-south",
+    "source_row": 49,
+    "inventory_table_row": 49,
+    "botanical_as_published": "Khaya grandifoliola C.DC.",
+    "family_as_published": "Meliaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Oganwo",
+    "vernacular_names": [
+      {
+        "local_name": "Oganwo",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "stem",
+      "bark"
+    ],
+    "preparations_reported": [
+      "maceration"
+    ],
+    "voucher_specimen": "FHI 770215",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for cough associated with respiratory conditions in Ede South, Osun State"
+  },
+  {
+    "source_id": "lawal-2020-ede-south",
+    "source_row": 50,
+    "inventory_table_row": 50,
+    "botanical_as_published": "Kigelia africana (Lam.) Benth.",
+    "family_as_published": "Bignoniaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Pandoro",
+    "vernacular_names": [
+      {
+        "local_name": "Pandoro",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "seed",
+      "leaf"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "FHI 702004",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for cough associated with respiratory conditions in Ede South, Osun State"
+  },
+  {
+    "source_id": "lawal-2020-ede-south",
+    "source_row": 51,
+    "inventory_table_row": 51,
+    "botanical_as_published": "Lagenaria breviflora (Benth.) Roberty",
+    "family_as_published": "Cucurbitaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Tagiri",
+    "vernacular_names": [
+      {
+        "local_name": "Tagiri",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "whole plant"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "FHI 710218",
+    "life_form_as_published": "Climber",
+    "use_context": "plant reported for cough associated with respiratory conditions in Ede South, Osun State"
+  },
+  {
+    "source_id": "lawal-2020-ede-south",
+    "source_row": 52,
+    "inventory_table_row": 52,
+    "botanical_as_published": "Launaea taraxacifolia (Willd.) Amin ex C.Jeffrey",
+    "family_as_published": "Asteraceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Yanrin",
+    "vernacular_names": [
+      {
+        "local_name": "Yanrin",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "stem",
+      "bark"
+    ],
+    "preparations_reported": [
+      "maceration"
+    ],
+    "voucher_specimen": "FHI 730211",
+    "life_form_as_published": "Herb",
+    "use_context": "plant reported for cough associated with respiratory conditions in Ede South, Osun State"
+  },
+  {
+    "source_id": "lawal-2020-ede-south",
+    "source_row": 53,
+    "inventory_table_row": 53,
+    "botanical_as_published": "Lawsonia inermis L.",
+    "family_as_published": "Lythraceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Laali",
+    "vernacular_names": [
+      {
+        "local_name": "Laali",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [
+      "pounded"
+    ],
+    "voucher_specimen": "FHI 702616",
+    "life_form_as_published": "Shrub",
+    "use_context": "plant reported for cough associated with respiratory conditions in Ede South, Osun State"
+  },
+  {
+    "source_id": "lawal-2020-ede-south",
+    "source_row": 54,
+    "inventory_table_row": 54,
+    "botanical_as_published": "Luffa cylindrica (L.) M.Roem.",
+    "family_as_published": "Cucurbitaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Kankan-ayaba",
+    "vernacular_names": [
+      {
+        "local_name": "Kankan-ayaba",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "seed"
+    ],
+    "preparations_reported": [
+      "pounded"
+    ],
+    "voucher_specimen": "FHI 710216",
+    "life_form_as_published": "Climber",
+    "use_context": "plant reported for cough associated with respiratory conditions in Ede South, Osun State"
+  },
+  {
+    "source_id": "lawal-2020-ede-south",
+    "source_row": 55,
+    "inventory_table_row": 55,
+    "botanical_as_published": "Mangifera indica L.",
+    "family_as_published": "Anacardiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Mongoro",
+    "vernacular_names": [
+      {
+        "local_name": "Mongoro",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "stem",
+      "bark",
+      "root"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "FHI 700209",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for cough associated with respiratory conditions in Ede South, Osun State"
+  },
+  {
+    "source_id": "lawal-2020-ede-south",
+    "source_row": 56,
+    "inventory_table_row": 56,
+    "botanical_as_published": "Mimosa pudica L.",
+    "family_as_published": "Fabaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Patanmo",
+    "vernacular_names": [
+      {
+        "local_name": "Patanmo",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "FHI 710217",
+    "life_form_as_published": "Shrub",
+    "use_context": "plant reported for cough associated with respiratory conditions in Ede South, Osun State"
+  },
+  {
+    "source_id": "lawal-2020-ede-south",
+    "source_row": 57,
+    "inventory_table_row": 58,
+    "botanical_as_published": "Momordica charantia L.",
+    "family_as_published": "Cucurbitaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ejinrin",
+    "vernacular_names": [
+      {
+        "local_name": "Ejinrin",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "whole plant"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "FHI 722217",
+    "life_form_as_published": "Vine",
+    "use_context": "plant reported for cough associated with respiratory conditions in Ede South, Osun State"
+  },
+  {
+    "source_id": "lawal-2020-ede-south",
+    "source_row": 58,
+    "inventory_table_row": 57,
+    "botanical_as_published": "Morinda lucida Benth.",
+    "family_as_published": "Rubiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Oruwo",
+    "vernacular_names": [
+      {
+        "local_name": "Oruwo",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "stem",
+      "bark",
+      "leaf"
+    ],
+    "preparations_reported": [
+      "tincture"
+    ],
+    "voucher_specimen": "FHI 700514",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for cough associated with respiratory conditions in Ede South, Osun State"
+  },
+  {
+    "source_id": "lawal-2020-ede-south",
+    "source_row": 59,
+    "inventory_table_row": 59,
+    "botanical_as_published": "Mucuna pruriens (L.) DC.",
+    "family_as_published": "Fabaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Werepe",
+    "vernacular_names": [
+      {
+        "local_name": "Werepe",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "FHI 733214",
+    "life_form_as_published": "Climber",
+    "use_context": "plant reported for cough associated with respiratory conditions in Ede South, Osun State"
+  },
+  {
+    "source_id": "lawal-2020-ede-south",
+    "source_row": 60,
+    "inventory_table_row": 60,
+    "botanical_as_published": "Musa paradisiaca L.",
+    "family_as_published": "Musaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ogede agbagba",
+    "vernacular_names": [
+      {
+        "local_name": "Ogede agbagba",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "fruit",
+      "leaf"
+    ],
+    "preparations_reported": [
+      "maceration"
+    ],
+    "voucher_specimen": "FHI 733215",
+    "life_form_as_published": "Herb",
+    "use_context": "plant reported for cough associated with respiratory conditions in Ede South, Osun State"
+  },
+  {
+    "source_id": "lawal-2020-ede-south",
+    "source_row": 61,
+    "inventory_table_row": 61,
+    "botanical_as_published": "Nicotiana tabacum L.",
+    "family_as_published": "Solanaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Taba",
+    "vernacular_names": [
+      {
+        "local_name": "Taba",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "FHI 711211",
+    "life_form_as_published": "Herb",
+    "use_context": "plant reported for cough associated with respiratory conditions in Ede South, Osun State"
+  },
+  {
+    "source_id": "lawal-2020-ede-south",
+    "source_row": 62,
+    "inventory_table_row": 63,
+    "botanical_as_published": "Ocimum americanum L. ( Ocimum canum )",
+    "family_as_published": "Lamiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Efinrin wewe",
+    "vernacular_names": [
+      {
+        "local_name": "Efinrin wewe",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [
+      "maceration"
+    ],
+    "voucher_specimen": "FHI 734512",
+    "life_form_as_published": "Herb",
+    "use_context": "plant reported for cough associated with respiratory conditions in Ede South, Osun State"
+  },
+  {
+    "source_id": "lawal-2020-ede-south",
+    "source_row": 63,
+    "inventory_table_row": 62,
+    "botanical_as_published": "Ocimum gratissimum L.",
+    "family_as_published": "Lamiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Efinrin nla",
+    "vernacular_names": [
+      {
+        "local_name": "Efinrin nla",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [
+      "maceration"
+    ],
+    "voucher_specimen": "FHI 7009001",
+    "life_form_as_published": "Shrub",
+    "use_context": "plant reported for cough associated with respiratory conditions in Ede South, Osun State"
+  },
+  {
+    "source_id": "lawal-2020-ede-south",
+    "source_row": 64,
+    "inventory_table_row": 64,
+    "botanical_as_published": "Parkia biglobosa (Jacq.) G.Don",
+    "family_as_published": "Fabaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Iru, igba",
+    "vernacular_names": [
+      {
+        "local_name": "Iru",
+        "language": "yo"
+      },
+      {
+        "local_name": "igba",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "bark",
+      "fruit",
+      "leaf"
+    ],
+    "preparations_reported": [
+      "concoction"
+    ],
+    "voucher_specimen": "FHI 709123",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for cough associated with respiratory conditions in Ede South, Osun State"
+  },
+  {
+    "source_id": "lawal-2020-ede-south",
+    "source_row": 65,
+    "inventory_table_row": 65,
+    "botanical_as_published": "Persea americana Mill.",
+    "family_as_published": "Lauraceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Igi pia",
+    "vernacular_names": [
+      {
+        "local_name": "Igi pia",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "seed"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "FHI 705215",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for cough associated with respiratory conditions in Ede South, Osun State"
+  },
+  {
+    "source_id": "lawal-2020-ede-south",
+    "source_row": 66,
+    "inventory_table_row": 66,
+    "botanical_as_published": "Phyllanthus amarus Schumach. & Thonn.",
+    "family_as_published": "Phyllanthaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Eyin-olobe",
+    "vernacular_names": [
+      {
+        "local_name": "Eyin-olobe",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "whole plant"
+    ],
+    "preparations_reported": [
+      "concoction"
+    ],
+    "voucher_specimen": "FHI 715214",
+    "life_form_as_published": "Herb",
+    "use_context": "plant reported for cough associated with respiratory conditions in Ede South, Osun State"
+  },
+  {
+    "source_id": "lawal-2020-ede-south",
+    "source_row": 67,
+    "inventory_table_row": 67,
+    "botanical_as_published": "Picralima nitida (Stapf) T. Durand & H.Durand",
+    "family_as_published": "Apocynaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Abere",
+    "vernacular_names": [
+      {
+        "local_name": "Abere",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "stem",
+      "bark"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "FHI 721218",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for cough associated with respiratory conditions in Ede South, Osun State"
+  },
+  {
+    "source_id": "lawal-2020-ede-south",
+    "source_row": 68,
+    "inventory_table_row": 68,
+    "botanical_as_published": "Piper guineense Schumach. & Thonn.",
+    "family_as_published": "Piperaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Iyere",
+    "vernacular_names": [
+      {
+        "local_name": "Iyere",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "seed"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "FHI 703217",
+    "life_form_as_published": "Climber",
+    "use_context": "plant reported for cough associated with respiratory conditions in Ede South, Osun State"
+  },
+  {
+    "source_id": "lawal-2020-ede-south",
+    "source_row": 69,
+    "inventory_table_row": 69,
+    "botanical_as_published": "Plukenetia conophora Müll.Arg.",
+    "family_as_published": "Euphorbiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Awusa, asala",
+    "vernacular_names": [
+      {
+        "local_name": "Awusa",
+        "language": "yo"
+      },
+      {
+        "local_name": "asala",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "fruit",
+      "bark"
+    ],
+    "preparations_reported": [
+      "decoction",
+      "concoction",
+      "tincture"
+    ],
+    "voucher_specimen": "FHI 712343",
+    "life_form_as_published": "Shrub",
+    "use_context": "plant reported for cough associated with respiratory conditions in Ede South, Osun State"
+  },
+  {
+    "source_id": "lawal-2020-ede-south",
+    "source_row": 70,
+    "inventory_table_row": 70,
+    "botanical_as_published": "Psidium guajava L.",
+    "family_as_published": "Myrtaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Gilofa",
+    "vernacular_names": [
+      {
+        "local_name": "Gilofa",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "FHI 712215",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for cough associated with respiratory conditions in Ede South, Osun State"
+  },
+  {
+    "source_id": "lawal-2020-ede-south",
+    "source_row": 71,
+    "inventory_table_row": 71,
+    "botanical_as_published": "Saccharum officinarum L.",
+    "family_as_published": "Poaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ireke",
+    "vernacular_names": [
+      {
+        "local_name": "Ireke",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "stem"
+    ],
+    "preparations_reported": [
+      "maceration"
+    ],
+    "voucher_specimen": "FHI 742217",
+    "life_form_as_published": "Clump/herb",
+    "use_context": "plant reported for cough associated with respiratory conditions in Ede South, Osun State"
+  },
+  {
+    "source_id": "lawal-2020-ede-south",
+    "source_row": 72,
+    "inventory_table_row": 72,
+    "botanical_as_published": "Sarcocephalus latifolius (Sm.) E.A.Bruce",
+    "family_as_published": "Rubiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Egbesi",
+    "vernacular_names": [
+      {
+        "local_name": "Egbesi",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "root"
+    ],
+    "preparations_reported": [
+      "concoction",
+      "decoction"
+    ],
+    "voucher_specimen": "FHI 720216",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for cough associated with respiratory conditions in Ede South, Osun State"
+  },
+  {
+    "source_id": "lawal-2020-ede-south",
+    "source_row": 73,
+    "inventory_table_row": 73,
+    "botanical_as_published": "Solanum americanum Mill.",
+    "family_as_published": "Solanaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Efo odu",
+    "vernacular_names": [
+      {
+        "local_name": "Efo odu",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "whole plant"
+    ],
+    "preparations_reported": [
+      "cooked"
+    ],
+    "voucher_specimen": "FHI 702200",
+    "life_form_as_published": "Herb",
+    "use_context": "plant reported for cough associated with respiratory conditions in Ede South, Osun State"
+  },
+  {
+    "source_id": "lawal-2020-ede-south",
+    "source_row": 74,
+    "inventory_table_row": 74,
+    "botanical_as_published": "Sorghum bicolor (L.) Moench",
+    "family_as_published": "Poaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Oka baba",
+    "vernacular_names": [
+      {
+        "local_name": "Oka baba",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "pod",
+      "seed"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "FHI 734017",
+    "life_form_as_published": "Herb",
+    "use_context": "plant reported for cough associated with respiratory conditions in Ede South, Osun State"
+  },
+  {
+    "source_id": "lawal-2020-ede-south",
+    "source_row": 75,
+    "inventory_table_row": 75,
+    "botanical_as_published": "Spermacoce verticillata L. = Borreria verticillata (L.) G.Mey",
+    "family_as_published": "Rubiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Irawo’le",
+    "vernacular_names": [
+      {
+        "local_name": "Irawo’le",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "whole plant"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "FHI 710210",
+    "life_form_as_published": "Herb",
+    "use_context": "plant reported for cough associated with respiratory conditions in Ede South, Osun State"
+  },
+  {
+    "source_id": "lawal-2020-ede-south",
+    "source_row": 76,
+    "inventory_table_row": 76,
+    "botanical_as_published": "Spondias mombin L.",
+    "family_as_published": "Anacardiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Iyeye",
+    "vernacular_names": [
+      {
+        "local_name": "Iyeye",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "stem",
+      "bark"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "FHI 705215",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for cough associated with respiratory conditions in Ede South, Osun State"
+  },
+  {
+    "source_id": "lawal-2020-ede-south",
+    "source_row": 77,
+    "inventory_table_row": 77,
+    "botanical_as_published": "Sterculia rhinopetala K.Schum.",
+    "family_as_published": "Malvaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Itako",
+    "vernacular_names": [
+      {
+        "local_name": "Itako",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "stem",
+      "bark"
+    ],
+    "preparations_reported": [
+      "infusion"
+    ],
+    "voucher_specimen": "FHI 720216",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for cough associated with respiratory conditions in Ede South, Osun State"
+  },
+  {
+    "source_id": "lawal-2020-ede-south",
+    "source_row": 78,
+    "inventory_table_row": 78,
+    "botanical_as_published": "Strombosia grandifolia Hook.f. ex Benth.",
+    "family_as_published": "Olacaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Itako pupa",
+    "vernacular_names": [
+      {
+        "local_name": "Itako pupa",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "root",
+      "leaf",
+      "fruit"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "FHI 710017",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for cough associated with respiratory conditions in Ede South, Osun State"
+  },
+  {
+    "source_id": "lawal-2020-ede-south",
+    "source_row": 79,
+    "inventory_table_row": 79,
+    "botanical_as_published": "Synsepalum dulcificum (Schumach. & Thonn.) Daniell",
+    "family_as_published": "Sapotaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Agbayun",
+    "vernacular_names": [
+      {
+        "local_name": "Agbayun",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "seed"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "FHI 700210",
+    "life_form_as_published": "Shrub",
+    "use_context": "plant reported for cough associated with respiratory conditions in Ede South, Osun State"
+  },
+  {
+    "source_id": "lawal-2020-ede-south",
+    "source_row": 80,
+    "inventory_table_row": 80,
+    "botanical_as_published": "Talinum fruticosum (L.) Juss. (Syn: Talinum triangulare )",
+    "family_as_published": "Talinaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Gbure",
+    "vernacular_names": [
+      {
+        "local_name": "Gbure",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "root",
+      "leaf"
+    ],
+    "preparations_reported": [
+      "cooked"
+    ],
+    "voucher_specimen": "FHI 700347",
+    "life_form_as_published": "Shrub",
+    "use_context": "plant reported for cough associated with respiratory conditions in Ede South, Osun State"
+  },
+  {
+    "source_id": "lawal-2020-ede-south",
+    "source_row": 81,
+    "inventory_table_row": 81,
+    "botanical_as_published": "Telfairia occidentalis Hook.f.",
+    "family_as_published": "Cucurbitaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Eweroko, Ugu",
+    "vernacular_names": [
+      {
+        "local_name": "Eweroko",
+        "language": "yo"
+      }
+    ],
+    "vernacular_entries_excluded": [
+      {
+        "text": "Ugu",
+        "reason": "Igbo name printed in a column labelled Yoruba"
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "fruit"
+    ],
+    "preparations_reported": [
+      "cooked"
+    ],
+    "voucher_specimen": "FHI 700234",
+    "life_form_as_published": "Vine/climber",
+    "use_context": "plant reported for cough associated with respiratory conditions in Ede South, Osun State"
+  },
+  {
+    "source_id": "lawal-2020-ede-south",
+    "source_row": 82,
+    "inventory_table_row": 82,
+    "botanical_as_published": "Tetrapleura tetraptera (Schum. & Thonn.) Taub.",
+    "family_as_published": "Fabaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Aridan",
+    "vernacular_names": [
+      {
+        "local_name": "Aridan",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "pod",
+      "bark"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "FHI 701354",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for cough associated with respiratory conditions in Ede South, Osun State"
+  },
+  {
+    "source_id": "lawal-2020-ede-south",
+    "source_row": 83,
+    "inventory_table_row": 83,
+    "botanical_as_published": "Theobroma cacao L.",
+    "family_as_published": "Malvaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Koko",
+    "vernacular_names": [
+      {
+        "local_name": "Koko",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [
+      "concoction"
+    ],
+    "voucher_specimen": "FHI 700314",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for cough associated with respiratory conditions in Ede South, Osun State"
+  },
+  {
+    "source_id": "lawal-2020-ede-south",
+    "source_row": 84,
+    "inventory_table_row": 84,
+    "botanical_as_published": "Uvaria afzelii G.F. Scott-Elliot",
+    "family_as_published": "Annonaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Gbogbonise",
+    "vernacular_names": [
+      {
+        "local_name": "Gbogbonise",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "root"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "FHI 700334",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for cough associated with respiratory conditions in Ede South, Osun State"
+  },
+  {
+    "source_id": "lawal-2020-ede-south",
+    "source_row": 85,
+    "inventory_table_row": 85,
+    "botanical_as_published": "Vernonia amygdalina Delile",
+    "family_as_published": "Asteraceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ewuro",
+    "vernacular_names": [
+      {
+        "local_name": "Ewuro",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "stem",
+      "bark"
+    ],
+    "preparations_reported": [
+      "maceration"
+    ],
+    "voucher_specimen": "FHI 700167",
+    "life_form_as_published": "Shrub",
+    "use_context": "plant reported for cough associated with respiratory conditions in Ede South, Osun State"
+  },
+  {
+    "source_id": "lawal-2020-ede-south",
+    "source_row": 86,
+    "inventory_table_row": 86,
+    "botanical_as_published": "Vitellaria paradoxa C.F.Gaertn.",
+    "family_as_published": "Sapotaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Emiyemi, Ori",
+    "vernacular_names": [
+      {
+        "local_name": "Emiyemi",
+        "language": "yo"
+      },
+      {
+        "local_name": "Ori",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "seed"
+    ],
+    "preparations_reported": [
+      "maceration"
+    ],
+    "voucher_specimen": "FHI 700218",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for cough associated with respiratory conditions in Ede South, Osun State"
+  },
+  {
+    "source_id": "lawal-2020-ede-south",
+    "source_row": 87,
+    "inventory_table_row": 87,
+    "botanical_as_published": "Zea mays L.",
+    "family_as_published": "Poaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Agbado",
+    "vernacular_names": [
+      {
+        "local_name": "Agbado",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "fruit",
+      "cob"
+    ],
+    "preparations_reported": [
+      "decoction",
+      "concoction"
+    ],
+    "voucher_specimen": "FHI 700228",
+    "life_form_as_published": "Herb",
+    "use_context": "plant reported for cough associated with respiratory conditions in Ede South, Osun State"
+  }
+]

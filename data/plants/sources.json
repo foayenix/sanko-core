@@ -154,6 +154,75 @@
     "notes": "All 84 displayed rows are preserved, but production export is blocked pending language and data review. The article states 83 species; the table has an extra unnumbered Acanthus row, and the Neem row appears to swap its common-name and botanical-name columns."
   },
   {
+    "id": "lawal-2020-ede-south",
+    "type": "journal_article",
+    "title": "Ethnobotanical Survey of Plants Used for Treating Cough Associated with Respiratory Conditions in Ede South Local Government Area of Osun State, Nigeria",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7286022/",
+    "doi": "10.3390/plants9050647",
+    "location": {
+      "country": "Nigeria",
+      "state": "Osun",
+      "localities": [
+        "Ede South"
+      ]
+    },
+    "languages": [
+      "yo"
+    ],
+    "table": "Table 2",
+    "licence": "CC BY 4.0",
+    "publication_status": "active",
+    "ingestion_status": "included",
+    "checked_at": "2026-11-09",
+    "notes": "Table 2 heads its local-name column \"Local Name (Yoruba)\" and is unnumbered, so the row locator is the ordinal position. Parts and preparations are joined from Appendix Table A1 by species. Two entries printed in the Yoruba column are not Yoruba names (bamboo; Ugu, which is Igbo) and are kept as published text without becoming mappings. The runtime index uses the name mappings, parts and preparations, not the cough indication or the fidelity indices."
+  },
+  {
+    "id": "odebunmi-2022-ogbomosho",
+    "type": "journal_article",
+    "title": "Ethnobotanical Survey of Medicinal Plants Used in the Treatment of COVID-19 and Related Respiratory Infections in Ogbomosho South and North Local Government Areas, Oyo State, Nigeria",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9573491/",
+    "doi": "10.3390/plants11192667",
+    "location": {
+      "country": "Nigeria",
+      "state": "Oyo",
+      "localities": [
+        "Ogbomosho North",
+        "Ogbomosho South"
+      ]
+    },
+    "languages": [
+      "yo"
+    ],
+    "table": "Tables 2-4",
+    "licence": "CC BY 4.0",
+    "publication_status": "active",
+    "ingestion_status": "staged_review",
+    "checked_at": "2026-11-09",
+    "notes": "All 86 rows of Tables 2, 3 and 4 (COVID-19, cough, flu) are preserved, each with its own table locator, but production export is blocked pending botanical review. The local-name column is unlabelled; the methods state that names were collected in Yoruba. Several determinations disagree with the other registered sources for the same Yoruba name: Egbeesi as Neonauclea excelsa (Egbesi is Nauclea latifolia in two surveys), Iyere as Piper nigrum (Piper guineense in two sources), Asofeyeje as Nigella sativa (Rauvolfia vomitoria in two sources), Epo aganwo as Drypetes gossweileri (Oganwo is a Khaya in three sources). The build only detects a disagreement between identical spellings, so including the table as it stands would export some of these as resolved mappings. The COVID-19, cough and flu indications are survey context only."
+  },
+  {
+    "id": "evbuomwan-2023-kwara",
+    "type": "journal_article",
+    "title": "Indigenous medicinal plants used in folk medicine for malaria treatment in Kwara State, Nigeria: an ethnobotanical study",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10504731/",
+    "doi": "10.1186/s12906-023-04131-4",
+    "location": {
+      "country": "Nigeria",
+      "state": "Kwara",
+      "localities": []
+    },
+    "languages": [
+      "yo",
+      "nup"
+    ],
+    "table": "Table 1",
+    "licence": "CC BY 4.0",
+    "publication_status": "active",
+    "ingestion_status": "staged_review",
+    "checked_at": "2026-11-09",
+    "notes": "All 62 rows are preserved, but production export is blocked pending language review. Only six rows label their names Yoruba or Nupe; the other 56 state no language, interviews were conducted in both, and at least one unlabelled name is Hausa (Karandafi) and one is a nickname (June 12). Unlabelled names are staged with a null language."
+  },
+  {
     "id": "anumudu-2025-nigeria-review",
     "type": "journal_article",
     "title": "Ethnobotanical uses of plants in Nigeria: an analysis of current research trends and patterns",
