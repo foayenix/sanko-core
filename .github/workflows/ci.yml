@@ -178,6 +178,14 @@ jobs:
           if (applied !== migrationFiles().length) throw new Error('Not every migration was applied');
           NODE
 
+      # The runner's default pg_dump can be newer than the service. A newer
+      # dump starts with settings Postgres 16 rejects (transaction_timeout),
+      # so the restore tests use the client that matches the server.
+      - name: Postgres 16 client for the dump/restore tests
+        run: |
+          sudo apt-get update && sudo apt-get install -y --no-install-recommends postgresql-client-16
+          echo /usr/lib/postgresql/16/bin >> "$GITHUB_PATH"
+
       - name: Care permissions, concurrency, HTTP workflow and restore (synthetic only)
         run: npm run test:care
         env:
