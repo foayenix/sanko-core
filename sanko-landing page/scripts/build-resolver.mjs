@@ -30,13 +30,37 @@ const SITE = 'https://www.sanko.africa';
 const BUILT_ON = process.env.RESOLVER_BUILD_DATE || new Date().toISOString().slice(0, 10);
 if (!/^\d{4}-\d{2}-\d{2}$/.test(BUILT_ON)) throw new Error('RESOLVER_BUILD_DATE must be YYYY-MM-DD');
 
+// ISO 639 code -> the name a Nigerian reader would use. Every code a published record
+// carries must be listed: the build fails on an unknown one rather than printing the bare
+// code ("ikw", "ekp") as if it were a language name.
 const LANGUAGE_NAMES = {
   yo: 'Yoruba',
   ha: 'Hausa',
   ig: 'Igbo',
   ff: 'Fulfulde',
   en: 'English',
+  pcm: 'Nigerian Pidgin',
+  ikw: 'Ikwerre',
+  ijc: 'Ijaw (Izon)',
+  ijn: 'Kalabari',
+  ekp: 'Ekpeye',
+  nup: 'Nupe',
+  efi: 'Efik',
+  ibb: 'Ibibio',
+  tiv: 'Tiv',
+  kr: 'Kanuri',
+  bin: 'Edo',
+  idu: 'Idoma',
+  igl: 'Igala',
+  urh: 'Urhobo',
+  bom: 'Berom',
 };
+
+// Records the importer could not tie to one language (e.g. Rivers State names labelled
+// "Ogoni", which is a group of languages, not one) carry language null and are grouped
+// under the ISO "undetermined" code. "und" is a code, not a name, so it is never shown.
+const UNDETERMINED = 'und';
+const UNDETERMINED_LABEL = 'Language not recorded';
 
 // ---------------------------------------------------------------- utilities
 
@@ -58,7 +82,18 @@ const slugify = (value) =>
 const titleCase = (value) =>
   String(value ?? '').replace(/\b[a-z]/g, (character) => character.toUpperCase());
 
-const languageName = (code) => LANGUAGE_NAMES[code] ?? code ?? 'unspecified language';
+const isUndetermined = (code) => code == null || code === UNDETERMINED;
+
+// For table cells and index links, where "Language not recorded" reads correctly.
+const languageName = (code) =>
+  isUndetermined(code) ? UNDETERMINED_LABEL : (LANGUAGE_NAMES[code] ?? code);
+
+// For running prose ("a Yoruba name for ..."): only real language names, so a sentence
+// never reads "a Language not recorded name".
+const proseLanguages = (codes) =>
+  sentenceList(codes.filter((code) => !isUndetermined(code)).map(languageName));
+
+const withArticle = (phrase) => `${/^[AEIOU]/i.test(phrase) ? 'an' : 'a'} ${phrase}`;
 
 const unique = (values) => [...new Set(values.filter(Boolean))];
 
@@ -192,18 +227,19 @@ function vernacularPage({ name, attestations, sourcesById, partsByTaxon }) {
   const taxa = unique(attestations.map((row) => row.accepted_botanical)).sort();
   const display = titleCase(attestations[0].local_name ?? name);
   const languages = unique(attestations.map((row) => row.language));
-  const languageLabel = sentenceList(languages.map(languageName));
+  const languageLabel = proseLanguages(languages);
   const contested = taxa.length > 1;
+  const nameKind = languageLabel ? `${languageLabel} plant name` : 'plant name';
 
   // The lead sentence names its own subject. Retrieval chunks a page into passages, and a
   // passage that opens with "It is..." arrives at the model with the subject already gone.
   const lead = contested
-    ? `${display} is a ${languageLabel} plant name that published sources map to more than one species: ${sentenceList(taxa)}. Sanko does not resolve it to a single taxon.`
-    : `${display} is a ${languageLabel} name for ${taxa[0]}, recorded in ${sentenceList(attestations.map((row) => regionLabel(row.region))) || 'Nigeria'}.`;
+    ? `${display} is ${withArticle(nameKind)} that published sources map to more than one species: ${sentenceList(taxa)}. Sanko does not resolve it to a single taxon.`
+    : `${display} is ${withArticle(languageLabel ? `${languageLabel} name` : 'local name')} for ${taxa[0]}, recorded in ${sentenceList(attestations.map((row) => regionLabel(row.region))) || 'Nigeria'}.`;
 
   const title = contested
-    ? `${display} — a contested ${languageLabel} plant name`
-    : `${display} — ${languageLabel} name for ${taxa[0]}`;
+    ? `${display} — a contested ${nameKind}`
+    : `${display} — ${languageLabel ? `${languageLabel} name` : 'local name'} for ${taxa[0]}`;
 
   const candidates = attestations
     .map((row) => {
@@ -226,7 +262,7 @@ function vernacularPage({ name, attestations, sourcesById, partsByTaxon }) {
     .join('\n');
 
   const body = `<article>
-<p class="eyebrow">${escapeHtml(languageLabel)} plant name</p>
+<p class="eyebrow">${escapeHtml(languageLabel ? `${languageLabel} plant name` : 'Local plant name')}</p>
 <h1>${escapeHtml(display)}</h1>
 <p class="lead">${escapeHtml(lead)}</p>
 ${
@@ -238,7 +274,7 @@ ${
 <ul class="candidates">
 ${candidates}
 </ul>
-<p class="backlink"><a href="/plants/">All ${escapeHtml(languageLabel)} and other local plant names →</a></p>
+<p class="backlink"><a href="/plants/">${languageLabel ? `All ${escapeHtml(languageLabel)} and other local plant names` : 'All local plant names'} →</a></p>
 </article>`;
 
   return {
@@ -271,8 +307,8 @@ function taxonPage({ taxon, attestations, plant, sourcesById, partsByTaxon }) {
   const names = attestations
     .slice()
     .sort((a, b) => a.local_name.localeCompare(b.local_name));
-  const languageLabel = sentenceList(unique(names.map((row) => languageName(row.language))));
-  const lead = `${taxon} is recorded under ${names.length} local ${names.length === 1 ? 'name' : 'names'} in the published Nigerian ethnobotanical literature Sanko has mapped, across ${languageLabel}.`;
+  const languageLabel = proseLanguages(names.map((row) => row.language));
+  const lead = `${taxon} is recorded under ${names.length} local ${names.length === 1 ? 'name' : 'names'} in the published Nigerian ethnobotanical literature Sanko has mapped${languageLabel ? `, across ${languageLabel}` : ''}.`;
   const parts = unique(
     names.flatMap((row) => partsByTaxon.get(row.botanical_as_published) ?? []),
   );
@@ -350,11 +386,16 @@ ${rows}
 }
 
 function languagePage({ code, attestations }) {
+  const undetermined = isUndetermined(code);
   const label = languageName(code);
   const names = [...new Map(attestations.map((row) => [row.normalized_name, row])).values()].sort(
     (a, b) => a.local_name.localeCompare(b.local_name),
   );
-  const lead = `Sanko has mapped ${names.length} ${label} plant ${names.length === 1 ? 'name' : 'names'} to accepted botanical names, each traceable to a published ethnobotanical survey.`;
+  const plural = names.length === 1 ? 'name' : 'names';
+  const lead = undetermined
+    ? `Sanko has mapped ${names.length} plant ${plural} whose published source does not tie them to a single identifiable language, such as names labelled with a language group rather than one language. Each is traceable to a published ethnobotanical survey.`
+    : `Sanko has mapped ${names.length} ${label} plant ${plural} to accepted botanical names, each traceable to a published ethnobotanical survey.`;
+  const heading = undetermined ? 'Plant names without a recorded language' : `${label} plant names`;
 
   const items = names
     .map(
@@ -366,7 +407,9 @@ function languagePage({ code, attestations }) {
   return {
     url: `/plants/language/${code}/`,
     html: layout({
-      title: `${label} medicinal plant names and their botanical equivalents | Sanko`,
+      title: undetermined
+        ? `${heading} and their botanical equivalents | Sanko`
+        : `${label} medicinal plant names and their botanical equivalents | Sanko`,
       description: lead,
       canonical: `${SITE}/plants/language/${code}/`,
       breadcrumb: [
@@ -377,14 +420,14 @@ function languagePage({ code, attestations }) {
       jsonLd: {
         '@context': 'https://schema.org',
         '@type': 'CollectionPage',
-        name: `${label} medicinal plant names`,
+        name: undetermined ? heading : `${label} medicinal plant names`,
         description: lead,
         url: `${SITE}/plants/language/${code}/`,
         inLanguage: code,
       },
       body: `<article>
 <p class="eyebrow">${escapeHtml(label)}</p>
-<h1>${escapeHtml(label)} plant names</h1>
+<h1>${escapeHtml(heading)}</h1>
 <p class="lead">${escapeHtml(lead)}</p>
 <ul class="name-index">
 ${items}
@@ -519,7 +562,8 @@ function hubPage({ names, taxaCount, languageCounts, sources, contestedCount }) 
   const lead = `Sanko maps ${names.length} local plant names from Nigerian ethnobotanical surveys to ${taxaCount} accepted botanical names, each verified against the GBIF taxonomy backbone and traceable to a named published source.`;
 
   const languageLinks = [...languageCounts.entries()]
-    .sort((a, b) => b[1] - a[1])
+    // Largest language first; the undetermined bucket always last, whatever its size.
+    .sort((a, b) => isUndetermined(a[0]) - isUndetermined(b[0]) || b[1] - a[1])
     .map(
       ([code, count]) =>
         `<li><a href="/plants/language/${code}/">${escapeHtml(languageName(code))}</a> <span class="count num">${count}</span></li>`,
@@ -734,6 +778,18 @@ if (published.length === 0) {
   process.exit(0);
 }
 
+const unnamedCodes = unique(
+  published
+    .map((record) => record.language)
+    .filter((code) => !isUndetermined(code) && !Object.hasOwn(LANGUAGE_NAMES, code)),
+);
+if (unnamedCodes.length) {
+  throw new Error(
+    `Language codes without a display name in LANGUAGE_NAMES: ${unnamedCodes.join(', ')}. ` +
+      'Add the language name rather than publishing a bare ISO code.',
+  );
+}
+
 const byName = new Map();
 for (const record of published) {
   if (!byName.has(record.normalized_name)) byName.set(record.normalized_name, []);
@@ -748,7 +804,7 @@ for (const record of published) {
 
 const byLanguage = new Map();
 for (const record of published) {
-  const code = record.language ?? 'und';
+  const code = record.language ?? UNDETERMINED;
   if (!byLanguage.has(code)) byLanguage.set(code, []);
   byLanguage.get(code).push(record);
 }
