@@ -151,8 +151,11 @@ describe('confirmations reaching the runtime index', () => {
     }
   }
 
+  // A name no registered source prints. It used to be "Ewé ìná", until the Port
+  // Harcourt survey — which maps Ewe ina to Mucuna sloanei — was included and a
+  // confirmation for Laportea aestuans became a disagreement rather than a gain.
   const confirmation = overrides => ({
-    local_name: 'Ewé ìná',
+    local_name: 'Ewé ìná tuntun',
     language: 'yo',
     botanical_as_published: 'Laportea aestuans',
     common_english: 'West Indian woodnettle',
@@ -166,7 +169,7 @@ describe('confirmations reaching the runtime index', () => {
   it('makes a confirmed name resolvable, with its own verification status and attribution', () => {
     const { report, runtime, names } = buildWith([confirmation()]);
 
-    const row = runtime.find(entry => entry.local_name === 'ewe ina');
+    const row = runtime.find(entry => entry.local_name === 'ewe ina tuntun');
     assert.equal(row.botanical, 'Laportea aestuans');
     assert.equal(row.common_english, 'West Indian woodnettle');
     assert.equal(report.practitioner_confirmations, 1);

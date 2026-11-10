@@ -149,9 +149,9 @@
     "table": "Table 1",
     "licence": "CC BY 3.0",
     "publication_status": "active",
-    "ingestion_status": "staged_review",
-    "checked_at": "2026-08-13",
-    "notes": "All 84 displayed rows are preserved, but production export is blocked pending language and data review. The article states 83 species; the table has an extra unnumbered Acanthus row, and the Neem row appears to swap its common-name and botanical-name columns."
+    "ingestion_status": "included",
+    "checked_at": "2026-09-13",
+    "notes": "All 84 displayed rows are included after adjudicating the two defects that held the table in staged review. Serials run 1-83 with no gap and no duplicate, and one further row carries no serial at all: the article's \"83 species\" counts the numbered rows, while Table 1 displays 84. The unnumbered row is Acanthus montanus, complete and taxonomically resolvable, so it is kept with serial_as_published null and its unnumbered_source_row flag rather than discarded. Three rows print the botanical name in the common-name column and the common name in the botanical column (serials 47, 48, 49 - Azadirachta indica, Moringa oleifera, Persea americana); GBIF matches the common-name cell to an accepted species and the botanical cell to nothing in all three, so the values are recorded under the attribute they describe and what each column printed is kept verbatim in source_columns_as_printed. Two species are listed twice by the authors (Capsicum annuum, Cymbopogon citratus) with differing vernacular spellings; both printings are kept. Seven rows carry a botanical name that does not resolve to an accepted species - misspellings such as Telfaria occidentalis and Dioscoreae cayennensis, and one genus-only 'Grewia sp' - and are left uncorrected, so the build withholds them as taxonomy_unresolved rather than this file guessing at what the authors meant. As with the other surveys, the per-row therapeutic indications are retained as published source text and are not exported."
   },
   {
     "id": "lawal-2020-ede-south",
@@ -398,5 +398,59 @@
     "ingestion_status": "discovery_only",
     "checked_at": "2026-09-12",
     "notes": "Written by scripts/import-wikidata-vernaculars.js. Labels are crowd-sourced and unsourced — no locality, no collector, no citation — and a large share of those returned in an African language are the botanical or English name filed in the wrong language. They are candidates for review, never mappings. A candidate reaches the runtime index only through practitioner confirmation, attributed to the reviewer who confirmed it and carrying the candidate source it came from."
+  },
+  {
+    "id": "olatokunbo-2022-bayelsa",
+    "type": "journal_article",
+    "title": "Ethnobotanical survey and conservation of the indigenous plants used for traditional orthopedic care practices in Bayelsa Central Senatorial District, Nigeria",
+    "url": "https://smujo.id/aje/article/view/10906",
+    "doi": "10.13057/asianjethnobiol/y050206",
+    "location": {
+      "country": "Nigeria",
+      "state": "Bayelsa",
+      "localities": [
+        "Bayelsa Central Senatorial District"
+      ]
+    },
+    "languages": [
+      "ijc"
+    ],
+    "table": "Table 2",
+    "licence": "diamond open access; no reuse licence stated in the article, on the journal site, or in Crossref and OpenAlex metadata",
+    "publication_status": "active",
+    "ingestion_status": "included",
+    "checked_at": "2026-09-13",
+    "notes": "The first Ijaw source in the index, and the second South-South one. Table 2 prints the English common name and the Ijaw name in a single cell separated by a slash, in either order and sometimes only one of the two, so scripts/extract-bayelsa-survey.js lists the thirty-six English names read off the table and treats everything else in the cell as Ijaw; the cell is kept verbatim in vernacular_as_published. Two cells yield no Ijaw name: 'Hospital too far' is the Nigerian English by-name for Jatropha tanjorensis, and 'Native pop' an English name for Ficus lutea. Table 3 gives preparation and treatment in prose rather than a parts column, so no plant parts are claimed, and its therapeutic text is not exported. Ingested on the same terms as sonibare-2008-anti-asthmatic: freely readable with no reuse licence stated anywhere, and only the published name mappings are used."
+  },
+  {
+    "id": "ajibesin-2012-rivers",
+    "type": "journal_article",
+    "title": "Ethno medicinal survey of plants used by the indigenes of Rivers State of Nigeria",
+    "authors": [
+      "K. K. Ajibesin",
+      "D. N. Bala",
+      "U. F. Umoh"
+    ],
+    "url": "https://www.tandfonline.com/doi/full/10.3109/13880209.2012.661740",
+    "doi": "10.3109/13880209.2012.661740",
+    "location": {
+      "country": "Nigeria",
+      "state": "Rivers",
+      "localities": [
+        "all local government areas of Rivers State"
+      ]
+    },
+    "languages": [
+      "ikw",
+      "ijn",
+      "ekp"
+    ],
+    "table": "Table 1",
+    "licence": "free to read at the publisher (bronze open access); no reuse licence stated by the publisher or recorded in Crossref, OpenAlex or Europe PMC",
+    "publication_status": "active",
+    "ingestion_status": "included",
+    "checked_at": "2026-09-13",
+    "extraction_method": "transcribed from page scans in two passes (the species table, then the plant-part column); the PDF has no text layer and no OCR was used",
+    "notes": "188 species from 460 households across every local government area of Rivers State, and the largest South-South source in the index. Local names are printed with the language in brackets, in the four languages the paper names: Ikwerre (83 names), Kalabari (38), Ekpeye (31) and Ogoni (32). Ikwerre, Kalabari and Ekpeye map onto ISO 639-3 as ikw, ijn and ekp. Ogoni does not: it names a cluster - Khana, Gokana, Eleme, Baan, Tee - so those rows keep the published label in language_as_published and carry no language code, rather than this file choosing one the paper does not state. Four rows print no language at all, and one repeats the botanical name in the local-name column ('Aloe vera') and so yields no mapping. Two pairs of specimens share a merged cell (PNM 24/25 and 44/45) and are paired in the printed order; all four are flagged. The article is a scan with no text layer, so Table 1 was transcribed from the page images and the transcription is committed at surveys/transcriptions/ as the form this repository rebuilds from. Botanical names are checked by GBIF downstream, where a misreading surfaces as an unresolved name; a misreading in a local name cannot be checked by anything, which is the cost of using a scan. The plant-part column was transcribed in a second pass and parsed against a vocabulary of part terms; all 188 cells parse with no leftover text. Ingested on the same terms as sonibare-2008-anti-asthmatic and olatokunbo-2022-bayelsa: freely readable, reuse terms unstated, only the published name mappings used."
   }
 ]

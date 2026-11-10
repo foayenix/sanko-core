@@ -12,7 +12,7 @@ describe('provenance-rich plant mapping data', () => {
   const ambiguities = readJson('data', 'plants', 'ambiguities.json');
   const runtime = readJson('data', 'plant_lookup_v1.json');
   const report = readJson('data', 'plants', 'build_report.json');
-  const portHarcourt = readJson('data', 'plants', 'surveys', 'staged', 'weli-2013-port-harcourt.json');
+  const portHarcourt = readJson('data', 'plants', 'surveys', 'weli-2013-port-harcourt.json');
   const ileIfe = readJson('data', 'plants', 'surveys', 'quarantine', 'mukaila-2021-ile-ife-retracted.json');
   const review = readJson('data', 'plants', 'surveys', 'discovery', 'anumudu-2025-nigeria-review.json');
 
@@ -20,12 +20,15 @@ describe('provenance-rich plant mapping data', () => {
     assert.equal(report.legacy_runtime_rows, 152);
     assert.equal(runtime.length, report.runtime_mappings);
     assert.ok(runtime.length > report.legacy_runtime_rows);
-    assert.equal(report.resolved_runtime_mappings, 484);
+    assert.equal(report.resolved_runtime_mappings, 898);
     assert.deepEqual(report.source_rows_by_source, {
       'offiah-2011-plateau': 57,
       'olanipekun-2022-lagos': 183,
       'sonibare-2008-anti-asthmatic': 46,
-      'lawal-2020-ede-south': 87
+      'weli-2013-port-harcourt': 84,
+      'lawal-2020-ede-south': 87,
+      'olatokunbo-2022-bayelsa': 39,
+      'ajibesin-2012-rivers': 188
     });
   });
 
@@ -109,11 +112,22 @@ describe('provenance-rich plant mapping data', () => {
   });
 
   it('keeps unresolved source mappings staged with no accepted botanical', () => {
+    // "Geranium spp" names a genus, not a species, so no correction can place it.
+    const garahunu = names.find(name => name.normalized_name === 'garahunu' && name.source_id === 'offiah-2011-plateau');
+    assert.ok(garahunu);
+    assert.equal(garahunu.accepted_botanical, null);
+    assert.equal(garahunu.export_eligible, false);
+    assert.equal(runtime.some(row => row.local_name === 'garahunu'), false);
+  });
+
+  it('exports a published name that was withheld only for its spelling, with the correction on record', () => {
+    // Acacia albida matched nothing exactly; the curated correction places it.
     const gawo = names.find(name => name.normalized_name === 'gawo' && name.source_id === 'offiah-2011-plateau');
-    assert.ok(gawo);
-    assert.equal(gawo.accepted_botanical, null);
-    assert.equal(gawo.export_eligible, false);
-    assert.equal(runtime.some(row => row.local_name === 'gawo'), false);
+    assert.equal(gawo.botanical_as_published, 'Acacia albida');
+    assert.equal(gawo.accepted_botanical, 'Faidherbia albida');
+    const corrections = readJson('data', 'plants', 'name_corrections.json');
+    assert.equal(corrections.find(item => item.botanical_as_published === 'Acacia albida').status, 'corrected');
+    assert.equal(runtime.find(row => row.local_name === 'gawo').botanical, 'Faidherbia albida');
   });
 
   it('excludes retracted sources from every vernacular mapping', () => {
@@ -125,16 +139,27 @@ describe('provenance-rich plant mapping data', () => {
     assert.equal(ileIfe.runtime_export_eligible, false);
   });
 
-  it('retains review-only and malformed publisher data outside production mappings', () => {
+  it('includes the Port Harcourt table with its two adjudicated defects recorded in the rows', () => {
     const portSource = sources.find(source => source.id === 'weli-2013-port-harcourt');
-    const reviewSource = sources.find(source => source.id === 'anumudu-2025-nigeria-review');
-    assert.equal(portSource.ingestion_status, 'staged_review');
-    assert.equal(reviewSource.ingestion_status, 'discovery_only');
+    assert.equal(portSource.ingestion_status, 'included');
     assert.equal(portHarcourt.length, 84);
+    assert.deepEqual(
+      portHarcourt.filter(row => row.data_quality_flags.includes('unnumbered_source_row')).map(row => row.serial_as_published),
+      [null]
+    );
+    assert.deepEqual(
+      portHarcourt.filter(row => row.data_quality_flags.includes('common_and_botanical_columns_swapped_in_source')).map(row => row.serial_as_published),
+      ['47', '48', '49']
+    );
+    const dongoyaro = names.find(name => name.normalized_name === 'dongoyaro' && name.source_id === portSource.id);
+    assert.equal(dongoyaro.accepted_botanical, 'Azadirachta indica');
+    assert.deepEqual(dongoyaro.source_locator, { table: 'Table 1', row: 48 });
+  });
+
+  it('retains review-only data outside production mappings', () => {
+    const reviewSource = sources.find(source => source.id === 'anumudu-2025-nigeria-review');
+    assert.equal(reviewSource.ingestion_status, 'discovery_only');
     assert.equal(review.original_study_catalogue.length, 79);
-    assert.ok(portHarcourt.some(row => row.data_quality_flags.includes('unnumbered_source_row')));
-    assert.ok(portHarcourt.some(row => row.data_quality_flags.includes('common_and_botanical_columns_appear_swapped')));
-    assert.equal(names.some(name => name.source_id === portSource.id), false);
     assert.equal(names.some(name => name.source_id === reviewSource.id), false);
   });
 

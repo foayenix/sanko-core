@@ -1,5 +1,23 @@
 [
   {
+    "id": "review-plant-abelmoschus-esculentus-4e65484416-53372d0089",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-abelmoschus-esculentus-4e65484416",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "3152707",
+      "accepted_usage_key": "3152707"
+    }
+  },
+  {
     "id": "review-plant-abrus-precatorius-15b67329f2-20a214b86b",
     "subject_type": "plant_taxonomy",
     "subject_id": "plant-abrus-precatorius-15b67329f2",
@@ -15,6 +33,42 @@
       "confidence": 100,
       "usage_key": "5348711",
       "accepted_usage_key": "5348711"
+    }
+  },
+  {
+    "id": "review-plant-abrus-precatorius-15b67329f2-3950cdbf3c",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-abrus-precatorius-15b67329f2",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 97,
+      "usage_key": "5348711",
+      "accepted_usage_key": "5348711"
+    }
+  },
+  {
+    "id": "review-plant-acalypha-fimbriata-cabbf9679b-2332f87e76",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-acalypha-fimbriata-cabbf9679b",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 97,
+      "usage_key": "3056270",
+      "accepted_usage_key": "3056270"
     }
   },
   {
@@ -36,6 +90,24 @@
     }
   },
   {
+    "id": "review-plant-acalypha-wilkesiana-44340efa1c-66da8d6470",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-acalypha-wilkesiana-44340efa1c",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 98,
+      "usage_key": "3057223",
+      "accepted_usage_key": "3057221"
+    }
+  },
+  {
     "id": "review-plant-acanthospermum-hispidum-b89fb1d865-c0313f9ff5",
     "subject_type": "plant_taxonomy",
     "subject_id": "plant-acanthospermum-hispidum-b89fb1d865",
@@ -51,6 +123,24 @@
       "confidence": 100,
       "usage_key": "3100375",
       "accepted_usage_key": "3100375"
+    }
+  },
+  {
+    "id": "review-plant-acanthus-montanus-492ed18084-c135451e7a",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-acanthus-montanus-492ed18084",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 99,
+      "usage_key": "5573815",
+      "accepted_usage_key": "5573815"
     }
   },
   {
@@ -108,6 +198,42 @@
     }
   },
   {
+    "id": "review-plant-adenostemma-mauritianum-50dc2f850b-906a86ad7f",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-adenostemma-mauritianum-50dc2f850b",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "4208710",
+      "accepted_usage_key": "4208710"
+    }
+  },
+  {
+    "id": "review-plant-aframomum-melegueta-5379374059-a6efff7585",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-aframomum-melegueta-5379374059",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "2758930",
+      "accepted_usage_key": "2758930"
+    }
+  },
+  {
     "id": "review-plant-aframomum-melegueta-5379374059-4f3c778aae",
     "subject_type": "plant_taxonomy",
     "subject_id": "plant-aframomum-melegueta-5379374059",
@@ -123,6 +249,42 @@
       "confidence": 100,
       "usage_key": "2758930",
       "accepted_usage_key": "2758930"
+    }
+  },
+  {
+    "id": "review-plant-agelanthus-dodoneifolius-78310663e3-0b9b93d09b",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-agelanthus-dodoneifolius-78310663e3",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 98,
+      "usage_key": "7288163",
+      "accepted_usage_key": "4003333"
+    }
+  },
+  {
+    "id": "review-plant-ageratum-conyzoides-79aac7b35c-78d06f26fb",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-ageratum-conyzoides-79aac7b35c",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "5401673",
+      "accepted_usage_key": "5401673"
     }
   },
   {
@@ -198,6 +360,24 @@
     }
   },
   {
+    "id": "review-plant-albizia-zygia-4a9ee7035e-f952498b21",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-albizia-zygia-4a9ee7035e",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "2973160",
+      "accepted_usage_key": "2973160"
+    }
+  },
+  {
     "id": "review-plant-albizia-zygia-4a9ee7035e-3a475e8193",
     "subject_type": "plant_taxonomy",
     "subject_id": "plant-albizia-zygia-4a9ee7035e",
@@ -213,6 +393,42 @@
       "confidence": 100,
       "usage_key": "2973160",
       "accepted_usage_key": "2973160"
+    }
+  },
+  {
+    "id": "review-plant-alcea-rosea-c9ae349457-bf58069733",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-alcea-rosea-c9ae349457",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "3152677",
+      "accepted_usage_key": "5406789"
+    }
+  },
+  {
+    "id": "review-plant-alchornea-cordifolia-0433b4b043-3f8eb187ad",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-alchornea-cordifolia-0433b4b043",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 99,
+      "usage_key": "3055371",
+      "accepted_usage_key": "3055371"
     }
   },
   {
@@ -252,7 +468,7 @@
     }
   },
   {
-    "id": "review-plant-allium-ascalonicum-5d3bbf6c09-54b7abcd15",
+    "id": "review-plant-allium-ascalonicum-5d3bbf6c09-975e4d849c",
     "subject_type": "plant_taxonomy",
     "subject_id": "plant-allium-ascalonicum-5d3bbf6c09",
     "review_type": "automated_taxonomy_match",
@@ -260,7 +476,7 @@
       "type": "service",
       "name": "GBIF Species API"
     },
-    "reviewed_at": "2026-11-09",
+    "reviewed_at": "2026-09-13",
     "status": "passed",
     "details": {
       "match_type": "EXACT",
@@ -288,7 +504,25 @@
     }
   },
   {
-    "id": "review-plant-allium-sativum-49429a58d8-f4d546aea8",
+    "id": "review-plant-allium-cepa-68b96f0db9-483e3c379f",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-allium-cepa-68b96f0db9",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 99,
+      "usage_key": "2857697",
+      "accepted_usage_key": "2857697"
+    }
+  },
+  {
+    "id": "review-plant-allium-sativum-49429a58d8-3582339edf",
     "subject_type": "plant_taxonomy",
     "subject_id": "plant-allium-sativum-49429a58d8",
     "review_type": "automated_taxonomy_match",
@@ -296,7 +530,7 @@
       "type": "service",
       "name": "GBIF Species API"
     },
-    "reviewed_at": "2026-11-09",
+    "reviewed_at": "2026-09-13",
     "status": "passed",
     "details": {
       "match_type": "EXACT",
@@ -324,6 +558,24 @@
     }
   },
   {
+    "id": "review-plant-allium-schoenoprasum-ad1645ad7b-a3523cfd26",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-allium-schoenoprasum-ad1645ad7b",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "2855860",
+      "accepted_usage_key": "2855860"
+    }
+  },
+  {
     "id": "review-plant-aloe-buettneri-481f271e53-25c0bdb608",
     "subject_type": "plant_taxonomy",
     "subject_id": "plant-aloe-buettneri-481f271e53",
@@ -339,6 +591,60 @@
       "confidence": 99,
       "usage_key": "2777176",
       "accepted_usage_key": "2777176"
+    }
+  },
+  {
+    "id": "review-plant-aloe-schweinfurthii-0789f649d1-c725d2ae10",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-aloe-schweinfurthii-0789f649d1",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 98,
+      "usage_key": "2777179",
+      "accepted_usage_key": "2778213"
+    }
+  },
+  {
+    "id": "review-plant-aloe-vera-d33e9eaef6-d6580cbd94",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-aloe-vera-d33e9eaef6",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 97,
+      "usage_key": "2777724",
+      "accepted_usage_key": "2777724"
+    }
+  },
+  {
+    "id": "review-plant-alstonia-boonei-a2b33bfa82-60c572460f",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-alstonia-boonei-a2b33bfa82",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "5535759",
+      "accepted_usage_key": "5535759"
     }
   },
   {
@@ -373,6 +679,24 @@
     "details": {
       "match_type": "EXACT",
       "confidence": 100,
+      "usage_key": "3084939",
+      "accepted_usage_key": "3084939"
+    }
+  },
+  {
+    "id": "review-plant-alternanthera-sessilis-733109d64b-e39ef3bcc2",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-alternanthera-sessilis-733109d64b",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 97,
       "usage_key": "3084939",
       "accepted_usage_key": "3084939"
     }
@@ -414,6 +738,24 @@
     }
   },
   {
+    "id": "review-plant-amaranthus-viridis-ded50f4b7b-63fbd700c1",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-amaranthus-viridis-ded50f4b7b",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "5384334",
+      "accepted_usage_key": "5384334"
+    }
+  },
+  {
     "id": "review-plant-anacardium-occidentale-608216d147-f881fe3b78",
     "subject_type": "plant_taxonomy",
     "subject_id": "plant-anacardium-occidentale-608216d147",
@@ -429,6 +771,24 @@
       "confidence": 100,
       "usage_key": "5421368",
       "accepted_usage_key": "5421368"
+    }
+  },
+  {
+    "id": "review-plant-ananas-comosus-e0dfdb430c-1182957c9c",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-ananas-comosus-e0dfdb430c",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 98,
+      "usage_key": "5288819",
+      "accepted_usage_key": "5288819"
     }
   },
   {
@@ -468,6 +828,24 @@
     }
   },
   {
+    "id": "review-plant-anethum-graveolens-82a851864f-3d34f15af1",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-anethum-graveolens-82a851864f",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "3034646",
+      "accepted_usage_key": "3034646"
+    }
+  },
+  {
     "id": "review-plant-annickia-chlorantha-a359a63074-b53f8baf1a",
     "subject_type": "plant_taxonomy",
     "subject_id": "plant-annickia-chlorantha-a359a63074",
@@ -486,6 +864,24 @@
     }
   },
   {
+    "id": "review-plant-annona-muricata-5e27e14adc-b6a335cc29",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-annona-muricata-5e27e14adc",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 97,
+      "usage_key": "5407273",
+      "accepted_usage_key": "5407273"
+    }
+  },
+  {
     "id": "review-plant-annona-senegalensis-f12628a80c-ba1a1ac260",
     "subject_type": "plant_taxonomy",
     "subject_id": "plant-annona-senegalensis-f12628a80c",
@@ -501,6 +897,24 @@
       "confidence": 100,
       "usage_key": "5407251",
       "accepted_usage_key": "5407251"
+    }
+  },
+  {
+    "id": "review-plant-anthocleista-djalonensis-e95176dd16-5ff807da3d",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-anthocleista-djalonensis-e95176dd16",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 99,
+      "usage_key": "4019367",
+      "accepted_usage_key": "4019367"
     }
   },
   {
@@ -576,6 +990,24 @@
     }
   },
   {
+    "id": "review-plant-arachis-hypogaea-6c43bcbd7f-6f28f8ec4c",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-arachis-hypogaea-6c43bcbd7f",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 99,
+      "usage_key": "5353770",
+      "accepted_usage_key": "5353770"
+    }
+  },
+  {
     "id": "review-plant-aristolochia-ringens-d314dc2b66-268f11cde1",
     "subject_type": "plant_taxonomy",
     "subject_id": "plant-aristolochia-ringens-d314dc2b66",
@@ -591,6 +1023,24 @@
       "confidence": 100,
       "usage_key": "2873998",
       "accepted_usage_key": "2873998"
+    }
+  },
+  {
+    "id": "review-plant-artemisia-dracunculus-4028b012ec-285d7eb611",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-artemisia-dracunculus-4028b012ec",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "3121581",
+      "accepted_usage_key": "3121581"
     }
   },
   {
@@ -630,6 +1080,24 @@
     }
   },
   {
+    "id": "review-plant-aspilia-africana-c7a6527671-08de302e42",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-aspilia-africana-c7a6527671",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 99,
+      "usage_key": "5396273",
+      "accepted_usage_key": "5396273"
+    }
+  },
+  {
     "id": "review-plant-aspilia-africana-c7a6527671-9284829db2",
     "subject_type": "plant_taxonomy",
     "subject_id": "plant-aspilia-africana-c7a6527671",
@@ -645,6 +1113,24 @@
       "confidence": 100,
       "usage_key": "5396273",
       "accepted_usage_key": "5396273"
+    }
+  },
+  {
+    "id": "review-plant-astraea-lobata-d2c1a53b33-4cef1e31a9",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-astraea-lobata-d2c1a53b33",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "9041733",
+      "accepted_usage_key": "5380859"
     }
   },
   {
@@ -681,6 +1167,42 @@
       "confidence": 100,
       "usage_key": "3173254",
       "accepted_usage_key": "3173254"
+    }
+  },
+  {
+    "id": "review-plant-avicennia-germinans-6b4a31c423-dc94fe6661",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-avicennia-germinans-6b4a31c423",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 98,
+      "usage_key": "2925399",
+      "accepted_usage_key": "2925400"
+    }
+  },
+  {
+    "id": "review-plant-azadirachta-indica-602368d8f9-b0531826fa",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-azadirachta-indica-602368d8f9",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "3190474",
+      "accepted_usage_key": "3190474"
     }
   },
   {
@@ -738,6 +1260,42 @@
     }
   },
   {
+    "id": "review-plant-bambusa-vulgaris-f32136033e-4626c1bb3a",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-bambusa-vulgaris-f32136033e",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-11-10",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 97,
+      "usage_key": "7661971",
+      "accepted_usage_key": "7661971"
+    }
+  },
+  {
+    "id": "review-plant-bambusa-vulgaris-f32136033e-221a856766",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-bambusa-vulgaris-f32136033e",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 97,
+      "usage_key": "7661971",
+      "accepted_usage_key": "7661971"
+    }
+  },
+  {
     "id": "review-plant-baphia-nitida-bfc22eb670-1b00859f51",
     "subject_type": "plant_taxonomy",
     "subject_id": "plant-baphia-nitida-bfc22eb670",
@@ -751,6 +1309,24 @@
     "details": {
       "match_type": "EXACT",
       "confidence": 100,
+      "usage_key": "5352599",
+      "accepted_usage_key": "5352599"
+    }
+  },
+  {
+    "id": "review-plant-baphia-nitida-bfc22eb670-f1aad065ff",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-baphia-nitida-bfc22eb670",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 99,
       "usage_key": "5352599",
       "accepted_usage_key": "5352599"
     }
@@ -771,6 +1347,24 @@
       "confidence": 100,
       "usage_key": "3173127",
       "accepted_usage_key": "3173127"
+    }
+  },
+  {
+    "id": "review-plant-basella-alba-a070eea566-adc2f1a49d",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-basella-alba-a070eea566",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 99,
+      "usage_key": "3083504",
+      "accepted_usage_key": "3083504"
     }
   },
   {
@@ -810,6 +1404,24 @@
     }
   },
   {
+    "id": "review-plant-blighia-sapida-e3c141894d-a791b9a5aa",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-blighia-sapida-e3c141894d",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "3189955",
+      "accepted_usage_key": "3189955"
+    }
+  },
+  {
     "id": "review-plant-boerhavia-diffusa-1e46716a97-d3ef7a620c",
     "subject_type": "plant_taxonomy",
     "subject_id": "plant-boerhavia-diffusa-1e46716a97",
@@ -846,6 +1458,42 @@
     }
   },
   {
+    "id": "review-plant-brassica-nigra-166d2af052-f6261c709c",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-brassica-nigra-166d2af052",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "3042658",
+      "accepted_usage_key": "3042658"
+    }
+  },
+  {
+    "id": "review-plant-brassica-oleracea-1fd4f3e33d-8d663c4704",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-brassica-oleracea-1fd4f3e33d",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "3042845",
+      "accepted_usage_key": "3042845"
+    }
+  },
+  {
     "id": "review-plant-breonadia-salicina-20548e5d42-e1e6333c0b",
     "subject_type": "plant_taxonomy",
     "subject_id": "plant-breonadia-salicina-20548e5d42",
@@ -861,6 +1509,24 @@
       "confidence": 98,
       "usage_key": "2900935",
       "accepted_usage_key": "2900926"
+    }
+  },
+  {
+    "id": "review-plant-bridelia-ferruginea-9ae97127e9-8ef86af757",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-bridelia-ferruginea-9ae97127e9",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "3076157",
+      "accepted_usage_key": "3076157"
     }
   },
   {
@@ -936,6 +1602,24 @@
     }
   },
   {
+    "id": "review-plant-caladium-bicolor-b87fe03215-c2218ebd32",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-caladium-bicolor-b87fe03215",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "2868390",
+      "accepted_usage_key": "2868390"
+    }
+  },
+  {
     "id": "review-plant-caladium-bicolor-b87fe03215-1175c6310b",
     "subject_type": "plant_taxonomy",
     "subject_id": "plant-caladium-bicolor-b87fe03215",
@@ -951,6 +1635,42 @@
       "confidence": 100,
       "usage_key": "2868390",
       "accepted_usage_key": "2868390"
+    }
+  },
+  {
+    "id": "review-plant-calendula-officinalis-b6e7ab2de9-3b95783842",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-calendula-officinalis-b6e7ab2de9",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "5391480",
+      "accepted_usage_key": "5391480"
+    }
+  },
+  {
+    "id": "review-plant-caloncoba-echinata-79c6db45a9-be430f2c2c",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-caloncoba-echinata-79c6db45a9",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 99,
+      "usage_key": "2874147",
+      "accepted_usage_key": "2874147"
     }
   },
   {
@@ -1026,6 +1746,24 @@
     }
   },
   {
+    "id": "review-plant-calotropis-procera-0e4f7994f4-e07f95dbcf",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-calotropis-procera-0e4f7994f4",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 97,
+      "usage_key": "5414566",
+      "accepted_usage_key": "5414566"
+    }
+  },
+  {
     "id": "review-plant-canavalia-ensiformis-774fac6c11-2b76f92635",
     "subject_type": "plant_taxonomy",
     "subject_id": "plant-canavalia-ensiformis-774fac6c11",
@@ -1039,6 +1777,24 @@
     "details": {
       "match_type": "EXACT",
       "confidence": 100,
+      "usage_key": "7799711",
+      "accepted_usage_key": "7799711"
+    }
+  },
+  {
+    "id": "review-plant-canavalia-ensiformis-774fac6c11-b99e0a87d9",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-canavalia-ensiformis-774fac6c11",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 97,
       "usage_key": "7799711",
       "accepted_usage_key": "7799711"
     }
@@ -1062,6 +1818,24 @@
     }
   },
   {
+    "id": "review-plant-capparis-brassii-4bec178eb4-765ae07cb1",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-capparis-brassii-4bec178eb4",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 98,
+      "usage_key": "5602041",
+      "accepted_usage_key": "5601867"
+    }
+  },
+  {
     "id": "review-plant-capsicum-annuum-0276c03fe6-13af432204",
     "subject_type": "plant_taxonomy",
     "subject_id": "plant-capsicum-annuum-0276c03fe6",
@@ -1080,7 +1854,43 @@
     }
   },
   {
-    "id": "review-plant-carica-papaya-d45ff84fbe-0eba633f1d",
+    "id": "review-plant-capsicum-annuum-0276c03fe6-da264f7bdb",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-capsicum-annuum-0276c03fe6",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "2932944",
+      "accepted_usage_key": "2932944"
+    }
+  },
+  {
+    "id": "review-plant-carapa-procera-58e0908a9d-82b6600508",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-carapa-procera-58e0908a9d",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "3851350",
+      "accepted_usage_key": "3851350"
+    }
+  },
+  {
+    "id": "review-plant-carica-papaya-d45ff84fbe-1b1b1345dd",
     "subject_type": "plant_taxonomy",
     "subject_id": "plant-carica-papaya-d45ff84fbe",
     "review_type": "automated_taxonomy_match",
@@ -1088,7 +1898,7 @@
       "type": "service",
       "name": "GBIF Species API"
     },
-    "reviewed_at": "2026-11-09",
+    "reviewed_at": "2026-09-13",
     "status": "passed",
     "details": {
       "match_type": "EXACT",
@@ -1113,6 +1923,24 @@
       "confidence": 99,
       "usage_key": "2874484",
       "accepted_usage_key": "2874484"
+    }
+  },
+  {
+    "id": "review-plant-carpolobia-lutea-f682b25cd9-2e2525f30c",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-carpolobia-lutea-f682b25cd9",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "4049471",
+      "accepted_usage_key": "4049471"
     }
   },
   {
@@ -1152,6 +1980,42 @@
     }
   },
   {
+    "id": "review-plant-cassytha-filiformis-4a1ba194fc-1bcaed55cb",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-cassytha-filiformis-4a1ba194fc",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 97,
+      "usage_key": "3033999",
+      "accepted_usage_key": "3033999"
+    }
+  },
+  {
+    "id": "review-plant-ceiba-pentandra-40364fdcb2-118a2a5e08",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-ceiba-pentandra-40364fdcb2",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "5406697",
+      "accepted_usage_key": "5406697"
+    }
+  },
+  {
     "id": "review-plant-celosia-argentea-ff2a51dfd3-aa7551a390",
     "subject_type": "plant_taxonomy",
     "subject_id": "plant-celosia-argentea-ff2a51dfd3",
@@ -1167,6 +2031,24 @@
       "confidence": 100,
       "usage_key": "3085191",
       "accepted_usage_key": "3085191"
+    }
+  },
+  {
+    "id": "review-plant-celosia-trigyna-b259a25ed6-89eac684e7",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-celosia-trigyna-b259a25ed6",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 98,
+      "usage_key": "3673754",
+      "accepted_usage_key": "3085198"
     }
   },
   {
@@ -1242,6 +2124,24 @@
     }
   },
   {
+    "id": "review-plant-chromolaena-odorata-47a779fd90-b80a91b484",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-chromolaena-odorata-47a779fd90",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "3087725",
+      "accepted_usage_key": "3087725"
+    }
+  },
+  {
     "id": "review-plant-chromolaena-odorata-47a779fd90-b60dd889b0",
     "subject_type": "plant_taxonomy",
     "subject_id": "plant-chromolaena-odorata-47a779fd90",
@@ -1260,6 +2160,24 @@
     }
   },
   {
+    "id": "review-plant-chrysanthellum-indicum-65a9ab87a8-cf50abad05",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-chrysanthellum-indicum-65a9ab87a8",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 99,
+      "usage_key": "3088368",
+      "accepted_usage_key": "3088368"
+    }
+  },
+  {
     "id": "review-plant-cissampelos-owariensis-20083a9733-9698fedf4b",
     "subject_type": "plant_taxonomy",
     "subject_id": "plant-cissampelos-owariensis-20083a9733",
@@ -1275,6 +2193,42 @@
       "confidence": 100,
       "usage_key": "3829287",
       "accepted_usage_key": "3829287"
+    }
+  },
+  {
+    "id": "review-plant-cissus-quadrangularis-f17c69c31d-131ea95388",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-cissus-quadrangularis-f17c69c31d",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "7130673",
+      "accepted_usage_key": "7130673"
+    }
+  },
+  {
+    "id": "review-plant-citrullus-colocynthis-7f7261a3c1-4f9640d834",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-citrullus-colocynthis-7f7261a3c1",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "2874622",
+      "accepted_usage_key": "2874622"
     }
   },
   {
@@ -1311,6 +2265,96 @@
       "confidence": 100,
       "usage_key": "3190164",
       "accepted_usage_key": "3190164"
+    }
+  },
+  {
+    "id": "review-plant-citrus-aurantiifolia-e96354d670-75aa0df018",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-citrus-aurantiifolia-e96354d670",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 99,
+      "usage_key": "3190164",
+      "accepted_usage_key": "3190164"
+    }
+  },
+  {
+    "id": "review-plant-citrus-aurantium-6b3a87e59c-51af7089d1",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-citrus-aurantium-6b3a87e59c",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "8206387",
+      "accepted_usage_key": "8077391"
+    }
+  },
+  {
+    "id": "review-plant-citrus-aurantium-6b3a87e59c-0d609c2d9e",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-citrus-aurantium-6b3a87e59c",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "8077391",
+      "accepted_usage_key": "8077391"
+    }
+  },
+  {
+    "id": "review-plant-citrus-aurantium-6b3a87e59c-317abfdd1c",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-citrus-aurantium-6b3a87e59c",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "7469645",
+      "accepted_usage_key": "8077391"
+    }
+  },
+  {
+    "id": "review-plant-citrus-limon-a0b6a074cf-b6cad828c6",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-citrus-limon-a0b6a074cf",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 98,
+      "usage_key": "10989409",
+      "accepted_usage_key": "7647136"
     }
   },
   {
@@ -1404,6 +2448,24 @@
     }
   },
   {
+    "id": "review-plant-cnestis-ferruginea-824f3befcd-78b405849e",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-cnestis-ferruginea-824f3befcd",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "3686799",
+      "accepted_usage_key": "3686799"
+    }
+  },
+  {
     "id": "review-plant-cnestis-ferruginea-824f3befcd-6f145670a0",
     "subject_type": "plant_taxonomy",
     "subject_id": "plant-cnestis-ferruginea-824f3befcd",
@@ -1419,6 +2481,24 @@
       "confidence": 100,
       "usage_key": "3686799",
       "accepted_usage_key": "3686799"
+    }
+  },
+  {
+    "id": "review-plant-coccinia-barteri-168b3cbeb1-ad4d65d6f8",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-coccinia-barteri-168b3cbeb1",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 99,
+      "usage_key": "3624777",
+      "accepted_usage_key": "3624777"
     }
   },
   {
@@ -1453,6 +2533,24 @@
     "details": {
       "match_type": "EXACT",
       "confidence": 100,
+      "usage_key": "2735117",
+      "accepted_usage_key": "2735117"
+    }
+  },
+  {
+    "id": "review-plant-cocos-nucifera-20f1d857c6-f52c1148aa",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-cocos-nucifera-20f1d857c6",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 99,
       "usage_key": "2735117",
       "accepted_usage_key": "2735117"
     }
@@ -1494,6 +2592,42 @@
     }
   },
   {
+    "id": "review-plant-cola-nitida-2dfbb7b2a9-c83cd6ddf7",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-cola-nitida-2dfbb7b2a9",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "5406687",
+      "accepted_usage_key": "5406687"
+    }
+  },
+  {
+    "id": "review-plant-coleus-monostachyus-48a53cafad-cf96e5bf45",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-coleus-monostachyus-48a53cafad",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "7625196",
+      "accepted_usage_key": "11003604"
+    }
+  },
+  {
     "id": "review-plant-coleus-monostachyus-48a53cafad-df89f07c0c",
     "subject_type": "plant_taxonomy",
     "subject_id": "plant-coleus-monostachyus-48a53cafad",
@@ -1512,6 +2646,24 @@
     }
   },
   {
+    "id": "review-plant-coleus-monostachyus-48a53cafad-2a12390741",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-coleus-monostachyus-48a53cafad",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "3887956",
+      "accepted_usage_key": "11003604"
+    }
+  },
+  {
     "id": "review-plant-colocasia-esculenta-2b3f1683db-3d490605d7",
     "subject_type": "plant_taxonomy",
     "subject_id": "plant-colocasia-esculenta-2b3f1683db",
@@ -1525,6 +2677,24 @@
     "details": {
       "match_type": "EXACT",
       "confidence": 100,
+      "usage_key": "5330776",
+      "accepted_usage_key": "5330776"
+    }
+  },
+  {
+    "id": "review-plant-colocasia-esculenta-2b3f1683db-8411614994",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-colocasia-esculenta-2b3f1683db",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 99,
       "usage_key": "5330776",
       "accepted_usage_key": "5330776"
     }
@@ -1620,6 +2790,24 @@
     }
   },
   {
+    "id": "review-plant-combretum-racemosum-b002e80498-2bec40a1c2",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-combretum-racemosum-b002e80498",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "3698656",
+      "accepted_usage_key": "3698656"
+    }
+  },
+  {
     "id": "review-plant-commelina-africana-8690811949-97e5118ce9",
     "subject_type": "plant_taxonomy",
     "subject_id": "plant-commelina-africana-8690811949",
@@ -1656,7 +2844,7 @@
     }
   },
   {
-    "id": "review-plant-corchorus-olitorius-4000a735a7-5ada7387b3",
+    "id": "review-plant-corchorus-olitorius-4000a735a7-0c13005f56",
     "subject_type": "plant_taxonomy",
     "subject_id": "plant-corchorus-olitorius-4000a735a7",
     "review_type": "automated_taxonomy_match",
@@ -1664,13 +2852,49 @@
       "type": "service",
       "name": "GBIF Species API"
     },
-    "reviewed_at": "2026-11-09",
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 99,
+      "usage_key": "3152084",
+      "accepted_usage_key": "3152084"
+    }
+  },
+  {
+    "id": "review-plant-corylus-avellana-ec40a9461c-6a6d15c628",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-corylus-avellana-ec40a9461c",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
     "status": "passed",
     "details": {
       "match_type": "EXACT",
       "confidence": 100,
-      "usage_key": "3152084",
-      "accepted_usage_key": "3152084"
+      "usage_key": "2875979",
+      "accepted_usage_key": "2875979"
+    }
+  },
+  {
+    "id": "review-plant-costus-afer-bef24de478-994b64cfec",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-costus-afer-bef24de478",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 98,
+      "usage_key": "2756876",
+      "accepted_usage_key": "2756876"
     }
   },
   {
@@ -1707,6 +2931,24 @@
       "confidence": 100,
       "usage_key": "3115421",
       "accepted_usage_key": "3115421"
+    }
+  },
+  {
+    "id": "review-plant-crateva-adansonii-5d14c0c473-a6e7448236",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-crateva-adansonii-5d14c0c473",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "3871686",
+      "accepted_usage_key": "3871686"
     }
   },
   {
@@ -1764,6 +3006,42 @@
     }
   },
   {
+    "id": "review-plant-crotalaria-retusa-5ff07c3e02-9878bfef19",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-crotalaria-retusa-5ff07c3e02",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 99,
+      "usage_key": "2942610",
+      "accepted_usage_key": "2942610"
+    }
+  },
+  {
+    "id": "review-plant-croton-gratissimus-gratissimus-dadb71467d-0547fee6b5",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-croton-gratissimus-gratissimus-dadb71467d",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 98,
+      "usage_key": "3058733",
+      "accepted_usage_key": "7225816"
+    }
+  },
+  {
     "id": "review-plant-croton-gratissimus-gratissimus-dadb71467d-d8890561f4",
     "subject_type": "plant_taxonomy",
     "subject_id": "plant-croton-gratissimus-gratissimus-dadb71467d",
@@ -1818,6 +3096,42 @@
     }
   },
   {
+    "id": "review-plant-cucurbita-maxima-2d54b72ccb-bf2c905b89",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-cucurbita-maxima-2d54b72ccb",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 97,
+      "usage_key": "2874515",
+      "accepted_usage_key": "2874515"
+    }
+  },
+  {
+    "id": "review-plant-curcuma-longa-cac6186f50-44c4d65302",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-curcuma-longa-cac6186f50",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "2757624",
+      "accepted_usage_key": "2757624"
+    }
+  },
+  {
     "id": "review-plant-cyanthillium-cinereum-f5de3664ef-0cdb6b3e75",
     "subject_type": "plant_taxonomy",
     "subject_id": "plant-cyanthillium-cinereum-f5de3664ef",
@@ -1854,6 +3168,60 @@
     }
   },
   {
+    "id": "review-plant-cyathula-prostrata-7adbbf2d34-26496ec8a5",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-cyathula-prostrata-7adbbf2d34",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "5384314",
+      "accepted_usage_key": "5384314"
+    }
+  },
+  {
+    "id": "review-plant-cydonia-oblonga-23cadf402b-5a5b10f691",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-cydonia-oblonga-23cadf402b",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "5362254",
+      "accepted_usage_key": "5362215"
+    }
+  },
+  {
+    "id": "review-plant-cymbopogon-citratus-d5de29a9fd-b675bc12fc",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-cymbopogon-citratus-d5de29a9fd",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 99,
+      "usage_key": "2705275",
+      "accepted_usage_key": "2705275"
+    }
+  },
+  {
     "id": "review-plant-cymbopogon-citratus-d5de29a9fd-e689e46df3",
     "subject_type": "plant_taxonomy",
     "subject_id": "plant-cymbopogon-citratus-d5de29a9fd",
@@ -1887,6 +3255,24 @@
       "confidence": 100,
       "usage_key": "5291553",
       "accepted_usage_key": "2714453"
+    }
+  },
+  {
+    "id": "review-plant-cyperus-haspan-217666b992-a60b0e1539",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-cyperus-haspan-217666b992",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 98,
+      "usage_key": "2715828",
+      "accepted_usage_key": "2715828"
     }
   },
   {
@@ -1944,6 +3330,96 @@
     }
   },
   {
+    "id": "review-plant-daucus-carota-58a61f368b-aa8ae65998",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-daucus-carota-58a61f368b",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "3034742",
+      "accepted_usage_key": "3034742"
+    }
+  },
+  {
+    "id": "review-plant-deinbollia-pinnata-156e35f648-36e493111f",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-deinbollia-pinnata-156e35f648",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 99,
+      "usage_key": "3787801",
+      "accepted_usage_key": "3787801"
+    }
+  },
+  {
+    "id": "review-plant-delonix-regia-3ed2efae89-e883326cc6",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-delonix-regia-3ed2efae89",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 99,
+      "usage_key": "2956176",
+      "accepted_usage_key": "2956176"
+    }
+  },
+  {
+    "id": "review-plant-detarium-senegalense-f3fc183e6c-1a63699b1a",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-detarium-senegalense-f3fc183e6c",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 99,
+      "usage_key": "2961177",
+      "accepted_usage_key": "2961177"
+    }
+  },
+  {
+    "id": "review-plant-dialium-guineense-2d704aeaf1-d322c647c5",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-dialium-guineense-2d704aeaf1",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "2971007",
+      "accepted_usage_key": "2971007"
+    }
+  },
+  {
     "id": "review-plant-dichrostachys-cinerea-9b29a4536d-8d294a9143",
     "subject_type": "plant_taxonomy",
     "subject_id": "plant-dichrostachys-cinerea-9b29a4536d",
@@ -1959,6 +3435,42 @@
       "confidence": 100,
       "usage_key": "2975891",
       "accepted_usage_key": "2975891"
+    }
+  },
+  {
+    "id": "review-plant-dioscorea-cayenensis-1aa6f3d7de-1d498c8a0f",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-dioscorea-cayenensis-1aa6f3d7de",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 99,
+      "usage_key": "6406374",
+      "accepted_usage_key": "6406374"
+    }
+  },
+  {
+    "id": "review-plant-dioscorea-cayenensis-rotundata-669d4d8fab-06289764c4",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-dioscorea-cayenensis-rotundata-669d4d8fab",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "2755105",
+      "accepted_usage_key": "2755104"
     }
   },
   {
@@ -1980,6 +3492,78 @@
     }
   },
   {
+    "id": "review-plant-dioscorea-villosa-a0504add04-da76476487",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-dioscorea-villosa-a0504add04",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "2754553",
+      "accepted_usage_key": "2754553"
+    }
+  },
+  {
+    "id": "review-plant-distemonanthus-benthamianus-0eb85759e1-11dd781994",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-distemonanthus-benthamianus-0eb85759e1",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "2964857",
+      "accepted_usage_key": "2964857"
+    }
+  },
+  {
+    "id": "review-plant-dracaena-arborea-ee89df3436-d04e8fa233",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-dracaena-arborea-ee89df3436",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 97,
+      "usage_key": "5304485",
+      "accepted_usage_key": "5304485"
+    }
+  },
+  {
+    "id": "review-plant-eclipta-alba-7fe12d0580-2badaff529",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-eclipta-alba-7fe12d0580",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "8703380",
+      "accepted_usage_key": "7664274"
+    }
+  },
+  {
     "id": "review-plant-eclipta-prostrata-468c1b5738-bc2c1a001f",
     "subject_type": "plant_taxonomy",
     "subject_id": "plant-eclipta-prostrata-468c1b5738",
@@ -1995,6 +3579,24 @@
       "confidence": 100,
       "usage_key": "5384950",
       "accepted_usage_key": "5384950"
+    }
+  },
+  {
+    "id": "review-plant-elaeis-guineensis-dfe692912b-b6a4a1ede8",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-elaeis-guineensis-dfe692912b",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "2731882",
+      "accepted_usage_key": "2731882"
     }
   },
   {
@@ -2034,6 +3636,24 @@
     }
   },
   {
+    "id": "review-plant-eleusine-indica-8202987ea8-1c97ac81e9",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-eleusine-indica-8202987ea8",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "2705953",
+      "accepted_usage_key": "2705953"
+    }
+  },
+  {
     "id": "review-plant-eleutheranthera-ruderalis-b62caa9726-b5c39d5ad1",
     "subject_type": "plant_taxonomy",
     "subject_id": "plant-eleutheranthera-ruderalis-b62caa9726",
@@ -2049,6 +3669,24 @@
       "confidence": 100,
       "usage_key": "3119915",
       "accepted_usage_key": "3119915"
+    }
+  },
+  {
+    "id": "review-plant-emilia-coccinea-21288937f6-9d4e14daf8",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-emilia-coccinea-21288937f6",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "5401509",
+      "accepted_usage_key": "5401509"
     }
   },
   {
@@ -2088,6 +3726,42 @@
     }
   },
   {
+    "id": "review-plant-equisetum-arvense-bb7e4a7d37-08666a92dc",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-equisetum-arvense-bb7e4a7d37",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "7924597",
+      "accepted_usage_key": "7924597"
+    }
+  },
+  {
+    "id": "review-plant-eragrostis-namaquensis-4b8626dca7-cddd2667ac",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-eragrostis-namaquensis-4b8626dca7",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 97,
+      "usage_key": "8090166",
+      "accepted_usage_key": "8090166"
+    }
+  },
+  {
     "id": "review-plant-erigeron-floribundus-1f54647f52-b7ea945223",
     "subject_type": "plant_taxonomy",
     "subject_id": "plant-erigeron-floribundus-1f54647f52",
@@ -2103,6 +3777,24 @@
       "confidence": 100,
       "usage_key": "3147018",
       "accepted_usage_key": "3147018"
+    }
+  },
+  {
+    "id": "review-plant-erythrina-senegalensis-1cdd79dd96-6dc9388e21",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-erythrina-senegalensis-1cdd79dd96",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "5349683",
+      "accepted_usage_key": "5349683"
     }
   },
   {
@@ -2124,6 +3816,24 @@
     }
   },
   {
+    "id": "review-plant-erythrophleum-africanum-631688e601-bf8cbe9fe1",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-erythrophleum-africanum-631688e601",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 99,
+      "usage_key": "2971189",
+      "accepted_usage_key": "2971189"
+    }
+  },
+  {
     "id": "review-plant-erythrophleum-suaveolens-f9140c6ab0-43ef138da4",
     "subject_type": "plant_taxonomy",
     "subject_id": "plant-erythrophleum-suaveolens-f9140c6ab0",
@@ -2137,6 +3847,24 @@
     "details": {
       "match_type": "EXACT",
       "confidence": 100,
+      "usage_key": "2971196",
+      "accepted_usage_key": "2971196"
+    }
+  },
+  {
+    "id": "review-plant-erythrophleum-suaveolens-f9140c6ab0-0bf7d4b965",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-erythrophleum-suaveolens-f9140c6ab0",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 97,
       "usage_key": "2971196",
       "accepted_usage_key": "2971196"
     }
@@ -2160,6 +3888,24 @@
     }
   },
   {
+    "id": "review-plant-euphorbia-glaucophylla-5b11408796-1ce7d30a6c",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-euphorbia-glaucophylla-5b11408796",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 99,
+      "usage_key": "3066980",
+      "accepted_usage_key": "3066980"
+    }
+  },
+  {
     "id": "review-plant-euphorbia-heterophylla-e1fd31cb69-5ce0dc58e1",
     "subject_type": "plant_taxonomy",
     "subject_id": "plant-euphorbia-heterophylla-e1fd31cb69",
@@ -2175,6 +3921,24 @@
       "confidence": 100,
       "usage_key": "3064495",
       "accepted_usage_key": "3064495"
+    }
+  },
+  {
+    "id": "review-plant-euphorbia-hirta-bbd342281e-c20a4319cf",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-euphorbia-hirta-bbd342281e",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "3068937",
+      "accepted_usage_key": "3068937"
     }
   },
   {
@@ -2214,6 +3978,24 @@
     }
   },
   {
+    "id": "review-plant-faidherbia-albida-2d917220af-e223984ede",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-faidherbia-albida-2d917220af",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 99,
+      "usage_key": "5360150",
+      "accepted_usage_key": "5360150"
+    }
+  },
+  {
     "id": "review-plant-ficus-benjamina-f9e1afbebf-dd67cc5f75",
     "subject_type": "plant_taxonomy",
     "subject_id": "plant-ficus-benjamina-f9e1afbebf",
@@ -2229,6 +4011,24 @@
       "confidence": 100,
       "usage_key": "5361932",
       "accepted_usage_key": "5361932"
+    }
+  },
+  {
+    "id": "review-plant-ficus-carica-b1bdd0a7eb-7d2f1b4c06",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-ficus-carica-b1bdd0a7eb",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "5361909",
+      "accepted_usage_key": "5361909"
     }
   },
   {
@@ -2265,6 +4065,24 @@
       "confidence": 99,
       "usage_key": "5570086",
       "accepted_usage_key": "5570086"
+    }
+  },
+  {
+    "id": "review-plant-ficus-lutea-8cb94278b9-2ca2e1cdb9",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-ficus-lutea-8cb94278b9",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "5571832",
+      "accepted_usage_key": "5571832"
     }
   },
   {
@@ -2322,6 +4140,24 @@
     }
   },
   {
+    "id": "review-plant-ficus-sur-7df96d2df3-5306c75a3f",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-ficus-sur-7df96d2df3",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 99,
+      "usage_key": "5569827",
+      "accepted_usage_key": "5569827"
+    }
+  },
+  {
     "id": "review-plant-ficus-sycomorus-750402904b-8e341b8efb",
     "subject_type": "plant_taxonomy",
     "subject_id": "plant-ficus-sycomorus-750402904b",
@@ -2358,6 +4194,60 @@
     }
   },
   {
+    "id": "review-plant-foeniculum-vulgare-996fdef83f-912a2b1168",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-foeniculum-vulgare-996fdef83f",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "3034922",
+      "accepted_usage_key": "3034922"
+    }
+  },
+  {
+    "id": "review-plant-funtumia-elastica-2b42d35433-aee071d304",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-funtumia-elastica-2b42d35433",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "3169843",
+      "accepted_usage_key": "3169843"
+    }
+  },
+  {
+    "id": "review-plant-galium-aparine-3b1166679a-dbb2b18e6a",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-galium-aparine-3b1166679a",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "2913548",
+      "accepted_usage_key": "2913548"
+    }
+  },
+  {
     "id": "review-plant-gambeya-africana-403b912f8d-be2b2d8ed9",
     "subject_type": "plant_taxonomy",
     "subject_id": "plant-gambeya-africana-403b912f8d",
@@ -2376,7 +4266,7 @@
     }
   },
   {
-    "id": "review-plant-gambeya-albida-99898dfcc8-3d82f0333d",
+    "id": "review-plant-gambeya-albida-99898dfcc8-cd1653a9f1",
     "subject_type": "plant_taxonomy",
     "subject_id": "plant-gambeya-albida-99898dfcc8",
     "review_type": "automated_taxonomy_match",
@@ -2384,7 +4274,7 @@
       "type": "service",
       "name": "GBIF Species API"
     },
-    "reviewed_at": "2026-11-09",
+    "reviewed_at": "2026-09-13",
     "status": "passed",
     "details": {
       "match_type": "EXACT",
@@ -2412,7 +4302,7 @@
     }
   },
   {
-    "id": "review-plant-garcinia-kola-b2da88781b-ddb89cc373",
+    "id": "review-plant-garcinia-kola-b2da88781b-264cfeddbb",
     "subject_type": "plant_taxonomy",
     "subject_id": "plant-garcinia-kola-b2da88781b",
     "review_type": "automated_taxonomy_match",
@@ -2420,7 +4310,7 @@
       "type": "service",
       "name": "GBIF Species API"
     },
-    "reviewed_at": "2026-11-09",
+    "reviewed_at": "2026-09-13",
     "status": "passed",
     "details": {
       "match_type": "EXACT",
@@ -2463,6 +4353,78 @@
       "confidence": 100,
       "usage_key": "2953986",
       "accepted_usage_key": "8082978"
+    }
+  },
+  {
+    "id": "review-plant-gloriosa-superba-b53c62037f-a10d3a3ff8",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-gloriosa-superba-b53c62037f",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "2740024",
+      "accepted_usage_key": "2740024"
+    }
+  },
+  {
+    "id": "review-plant-glycine-max-ed20f6c59d-018a2c0c27",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-glycine-max-ed20f6c59d",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 99,
+      "usage_key": "5359660",
+      "accepted_usage_key": "5359660"
+    }
+  },
+  {
+    "id": "review-plant-glycyrrhiza-glabra-1972260a05-3230802eaa",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-glycyrrhiza-glabra-1972260a05",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "2965732",
+      "accepted_usage_key": "2965732"
+    }
+  },
+  {
+    "id": "review-plant-glyphaea-brevis-1200ccc8ac-39d1a823ca",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-glyphaea-brevis-1200ccc8ac",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "5706200",
+      "accepted_usage_key": "5706200"
     }
   },
   {
@@ -2520,6 +4482,24 @@
     }
   },
   {
+    "id": "review-plant-gongronemopsis-latifolia-5a28c814ce-6a1dd4aeae",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-gongronemopsis-latifolia-5a28c814ce",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 98,
+      "usage_key": "3572834",
+      "accepted_usage_key": "12248822"
+    }
+  },
+  {
     "id": "review-plant-gossypium-barbadense-65985e0c97-bf2ed5f0b8",
     "subject_type": "plant_taxonomy",
     "subject_id": "plant-gossypium-barbadense-65985e0c97",
@@ -2556,6 +4536,24 @@
     }
   },
   {
+    "id": "review-plant-gossypium-hirsutum-a59aaaf8e2-2e24b772ea",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-gossypium-hirsutum-a59aaaf8e2",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "3152661",
+      "accepted_usage_key": "3152661"
+    }
+  },
+  {
     "id": "review-plant-grewia-pubescens-f45f2325b0-27d9dbf526",
     "subject_type": "plant_taxonomy",
     "subject_id": "plant-grewia-pubescens-f45f2325b0",
@@ -2571,6 +4569,24 @@
       "confidence": 100,
       "usage_key": "4260830",
       "accepted_usage_key": "4260830"
+    }
+  },
+  {
+    "id": "review-plant-gymnanthemum-amygdalinum-5dbeaea320-8bdd37ccbc",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-gymnanthemum-amygdalinum-5dbeaea320",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "5397785",
+      "accepted_usage_key": "3130899"
     }
   },
   {
@@ -2592,6 +4608,42 @@
     }
   },
   {
+    "id": "review-plant-gymnema-sylvestre-8f07488e57-87e3bd71d5",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-gymnema-sylvestre-8f07488e57",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 97,
+      "usage_key": "8040540",
+      "accepted_usage_key": "8040540"
+    }
+  },
+  {
+    "id": "review-plant-hamamelis-virginiana-028abad914-726a2a9bfc",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-hamamelis-virginiana-028abad914",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "3152827",
+      "accepted_usage_key": "3152827"
+    }
+  },
+  {
     "id": "review-plant-harungana-madagascariensis-210b6b89a5-954c68c8bb",
     "subject_type": "plant_taxonomy",
     "subject_id": "plant-harungana-madagascariensis-210b6b89a5",
@@ -2610,6 +4662,42 @@
     }
   },
   {
+    "id": "review-plant-harungana-madagascariensis-210b6b89a5-33d05c9da1",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-harungana-madagascariensis-210b6b89a5",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 99,
+      "usage_key": "3711847",
+      "accepted_usage_key": "3711847"
+    }
+  },
+  {
+    "id": "review-plant-heinsia-crinita-32b86053f1-94b6cca5ae",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-heinsia-crinita-32b86053f1",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "2899496",
+      "accepted_usage_key": "2899496"
+    }
+  },
+  {
     "id": "review-plant-heliotropium-indicum-12da75c03e-bca4a219ee",
     "subject_type": "plant_taxonomy",
     "subject_id": "plant-heliotropium-indicum-12da75c03e",
@@ -2619,6 +4707,24 @@
       "name": "GBIF Species API"
     },
     "reviewed_at": "2026-08-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "2925788",
+      "accepted_usage_key": "2925788"
+    }
+  },
+  {
+    "id": "review-plant-heliotropium-indicum-12da75c03e-c1806bb835",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-heliotropium-indicum-12da75c03e",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
     "status": "passed",
     "details": {
       "match_type": "EXACT",
@@ -2643,6 +4749,42 @@
       "confidence": 100,
       "usage_key": "3188496",
       "accepted_usage_key": "5599385"
+    }
+  },
+  {
+    "id": "review-plant-hexasepalum-sarmentosum-5b68682a4c-4c4a560ed8",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-hexasepalum-sarmentosum-5b68682a4c",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "2908640",
+      "accepted_usage_key": "9070905"
+    }
+  },
+  {
+    "id": "review-plant-hibiscus-acetosella-578b5b6aec-fb489085b1",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-hibiscus-acetosella-578b5b6aec",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 97,
+      "usage_key": "7802717",
+      "accepted_usage_key": "7802717"
     }
   },
   {
@@ -2697,6 +4839,42 @@
       "confidence": 100,
       "usage_key": "3884477",
       "accepted_usage_key": "3884477"
+    }
+  },
+  {
+    "id": "review-plant-humulus-lupulus-8b6b0bf667-e723f37c50",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-humulus-lupulus-8b6b0bf667",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "2984535",
+      "accepted_usage_key": "2984535"
+    }
+  },
+  {
+    "id": "review-plant-hyssopus-officinalis-4b42557557-25b06b9421",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-hyssopus-officinalis-4b42557557",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "5341387",
+      "accepted_usage_key": "5341387"
     }
   },
   {
@@ -2772,6 +4950,42 @@
     }
   },
   {
+    "id": "review-plant-ipomoea-batatas-0854e36722-7848dcdc3c",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-ipomoea-batatas-0854e36722",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "2928551",
+      "accepted_usage_key": "2928551"
+    }
+  },
+  {
+    "id": "review-plant-ipomoea-involucrata-fe66b623b6-130661383e",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-ipomoea-involucrata-fe66b623b6",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "7323903",
+      "accepted_usage_key": "7323903"
+    }
+  },
+  {
     "id": "review-plant-ipomoea-involucrata-fe66b623b6-5cbdb91388",
     "subject_type": "plant_taxonomy",
     "subject_id": "plant-ipomoea-involucrata-fe66b623b6",
@@ -2787,6 +5001,78 @@
       "confidence": 100,
       "usage_key": "7323903",
       "accepted_usage_key": "7323903"
+    }
+  },
+  {
+    "id": "review-plant-ipomoea-mauritiana-ea4de5147a-4e2bbf4a52",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-ipomoea-mauritiana-ea4de5147a",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 99,
+      "usage_key": "4927144",
+      "accepted_usage_key": "4927144"
+    }
+  },
+  {
+    "id": "review-plant-ipomoea-quamoclit-7b2a9d1240-d6d4fdd66d",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-ipomoea-quamoclit-7b2a9d1240",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "2928562",
+      "accepted_usage_key": "2928562"
+    }
+  },
+  {
+    "id": "review-plant-irvingia-gabonensis-6202d9e552-2acbed015e",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-irvingia-gabonensis-6202d9e552",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 98,
+      "usage_key": "5380976",
+      "accepted_usage_key": "5380976"
+    }
+  },
+  {
+    "id": "review-plant-ixora-coccinea-6caa364af8-7b7f13bef8",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-ixora-coccinea-6caa364af8",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 97,
+      "usage_key": "8793122",
+      "accepted_usage_key": "8793122"
     }
   },
   {
@@ -2826,6 +5112,24 @@
     }
   },
   {
+    "id": "review-plant-jatropha-gossypiifolia-35ffa8d665-531b5861eb",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-jatropha-gossypiifolia-35ffa8d665",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 99,
+      "usage_key": "3072900",
+      "accepted_usage_key": "3072900"
+    }
+  },
+  {
     "id": "review-plant-jatropha-multifida-a57466d05a-48d2465b6d",
     "subject_type": "plant_taxonomy",
     "subject_id": "plant-jatropha-multifida-a57466d05a",
@@ -2844,6 +5148,42 @@
     }
   },
   {
+    "id": "review-plant-jatropha-tanjorensis-955b3c5303-e56ed89568",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-jatropha-tanjorensis-955b3c5303",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "3072833",
+      "accepted_usage_key": "3072833"
+    }
+  },
+  {
+    "id": "review-plant-kalanchoe-pinnata-f601832f73-662668b038",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-kalanchoe-pinnata-f601832f73",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 97,
+      "usage_key": "5362077",
+      "accepted_usage_key": "2985930"
+    }
+  },
+  {
     "id": "review-plant-kalanchoe-pinnata-f601832f73-e4606fb528",
     "subject_type": "plant_taxonomy",
     "subject_id": "plant-kalanchoe-pinnata-f601832f73",
@@ -2858,6 +5198,24 @@
       "match_type": "EXACT",
       "confidence": 100,
       "usage_key": "5362077",
+      "accepted_usage_key": "2985930"
+    }
+  },
+  {
+    "id": "review-plant-kalanchoe-pinnata-f601832f73-293ed0f1ab",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-kalanchoe-pinnata-f601832f73",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 99,
+      "usage_key": "2985930",
       "accepted_usage_key": "2985930"
     }
   },
@@ -2934,6 +5292,42 @@
     }
   },
   {
+    "id": "review-plant-kigelia-africana-46d315983f-2ece30b75b",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-kigelia-africana-46d315983f",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 99,
+      "usage_key": "3172561",
+      "accepted_usage_key": "3172561"
+    }
+  },
+  {
+    "id": "review-plant-lagenaria-breviflora-089483a486-6416b7e91b",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-lagenaria-breviflora-089483a486",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "3625168",
+      "accepted_usage_key": "3623452"
+    }
+  },
+  {
     "id": "review-plant-lagenaria-breviflora-089483a486-e400474cef",
     "subject_type": "plant_taxonomy",
     "subject_id": "plant-lagenaria-breviflora-089483a486",
@@ -2970,6 +5364,24 @@
     }
   },
   {
+    "id": "review-plant-laportea-aestuans-fa05aa7c1d-f28f2a8c63",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-laportea-aestuans-fa05aa7c1d",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "2984466",
+      "accepted_usage_key": "2984466"
+    }
+  },
+  {
     "id": "review-plant-laportea-aestuans-fa05aa7c1d-066db9f486",
     "subject_type": "plant_taxonomy",
     "subject_id": "plant-laportea-aestuans-fa05aa7c1d",
@@ -2988,6 +5400,24 @@
     }
   },
   {
+    "id": "review-plant-lasianthera-africana-3220dfc6c0-cc4a61faef",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-lasianthera-africana-3220dfc6c0",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "7314409",
+      "accepted_usage_key": "7314409"
+    }
+  },
+  {
     "id": "review-plant-launaea-taraxacifolia-590cac3ea3-5d43ee6112",
     "subject_type": "plant_taxonomy",
     "subject_id": "plant-launaea-taraxacifolia-590cac3ea3",
@@ -3001,6 +5431,24 @@
     "details": {
       "match_type": "EXACT",
       "confidence": 100,
+      "usage_key": "3144875",
+      "accepted_usage_key": "3144875"
+    }
+  },
+  {
+    "id": "review-plant-launaea-taraxacifolia-590cac3ea3-8bcefb9192",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-launaea-taraxacifolia-590cac3ea3",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 97,
       "usage_key": "3144875",
       "accepted_usage_key": "3144875"
     }
@@ -3024,6 +5472,24 @@
     }
   },
   {
+    "id": "review-plant-lawsonia-inermis-7ff9dfd7a9-472345e18c",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-lawsonia-inermis-7ff9dfd7a9",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 99,
+      "usage_key": "5420912",
+      "accepted_usage_key": "5420912"
+    }
+  },
+  {
     "id": "review-plant-leucaena-leucocephala-4412e0bdea-3e7ec333bf",
     "subject_type": "plant_taxonomy",
     "subject_id": "plant-leucaena-leucocephala-4412e0bdea",
@@ -3039,6 +5505,42 @@
       "confidence": 100,
       "usage_key": "2970418",
       "accepted_usage_key": "2970418"
+    }
+  },
+  {
+    "id": "review-plant-ludwigia-octovalvis-f1f8e175eb-0a531bb879",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-ludwigia-octovalvis-f1f8e175eb",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 99,
+      "usage_key": "5420987",
+      "accepted_usage_key": "5420987"
+    }
+  },
+  {
+    "id": "review-plant-luffa-aegyptiaca-4ec47a92a4-07881d50db",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-luffa-aegyptiaca-4ec47a92a4",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 99,
+      "usage_key": "2874599",
+      "accepted_usage_key": "2874599"
     }
   },
   {
@@ -3132,6 +5634,24 @@
     }
   },
   {
+    "id": "review-plant-mangifera-indica-4d66bda6d8-e5aa0b62c0",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-mangifera-indica-4d66bda6d8",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "3190638",
+      "accepted_usage_key": "3190638"
+    }
+  },
+  {
     "id": "review-plant-margaritaria-discoidea-d6d8d4a920-a8fc6f4d62",
     "subject_type": "plant_taxonomy",
     "subject_id": "plant-margaritaria-discoidea-d6d8d4a920",
@@ -3147,6 +5667,24 @@
       "confidence": 100,
       "usage_key": "5383225",
       "accepted_usage_key": "5383225"
+    }
+  },
+  {
+    "id": "review-plant-marrubium-vulgare-08489f05d7-dd70089d83",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-marrubium-vulgare-08489f05d7",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "2927069",
+      "accepted_usage_key": "2927069"
     }
   },
   {
@@ -3204,6 +5742,24 @@
     }
   },
   {
+    "id": "review-plant-mesosphaerum-pectinatum-f506adb7d8-98b1997acb",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-mesosphaerum-pectinatum-f506adb7d8",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "2926820",
+      "accepted_usage_key": "3889976"
+    }
+  },
+  {
     "id": "review-plant-mesosphaerum-suaveolens-290130fed4-a5db5a058f",
     "subject_type": "plant_taxonomy",
     "subject_id": "plant-mesosphaerum-suaveolens-290130fed4",
@@ -3258,6 +5814,42 @@
     }
   },
   {
+    "id": "review-plant-milicia-excelsa-113df15e5a-92bfaa81ca",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-milicia-excelsa-113df15e5a",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "3763589",
+      "accepted_usage_key": "3763589"
+    }
+  },
+  {
+    "id": "review-plant-millettia-thonningii-431f82a0c3-c8c7ce49e4",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-millettia-thonningii-431f82a0c3",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 99,
+      "usage_key": "5355788",
+      "accepted_usage_key": "5355788"
+    }
+  },
+  {
     "id": "review-plant-mimosa-pigra-5ec752cb81-96bf99b297",
     "subject_type": "plant_taxonomy",
     "subject_id": "plant-mimosa-pigra-5ec752cb81",
@@ -3291,6 +5883,78 @@
       "confidence": 100,
       "usage_key": "2969284",
       "accepted_usage_key": "2969284"
+    }
+  },
+  {
+    "id": "review-plant-mimosa-pudica-22130774b9-67d12da900",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-mimosa-pudica-22130774b9",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 98,
+      "usage_key": "2969284",
+      "accepted_usage_key": "2969284"
+    }
+  },
+  {
+    "id": "review-plant-mimusops-kummel-b71fc2f154-d238ad4c01",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-mimusops-kummel-b71fc2f154",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 97,
+      "usage_key": "2883747",
+      "accepted_usage_key": "2883747"
+    }
+  },
+  {
+    "id": "review-plant-mitracarpus-hirtus-153212d7cc-cd5fe73fec",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-mitracarpus-hirtus-153212d7cc",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "2912993",
+      "accepted_usage_key": "2912993"
+    }
+  },
+  {
+    "id": "review-plant-mitracarpus-hirtus-153212d7cc-e75957bd68",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-mitracarpus-hirtus-153212d7cc",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 98,
+      "usage_key": "2913010",
+      "accepted_usage_key": "2912993"
     }
   },
   {
@@ -3330,7 +5994,25 @@
     }
   },
   {
-    "id": "review-plant-momordica-charantia-2e38e78d6e-f5ff30acda",
+    "id": "review-plant-momordica-balsamina-acee42927e-2f7336da5f",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-momordica-balsamina-acee42927e",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "2874582",
+      "accepted_usage_key": "2874582"
+    }
+  },
+  {
+    "id": "review-plant-momordica-charantia-2e38e78d6e-28ce625bc0",
     "subject_type": "plant_taxonomy",
     "subject_id": "plant-momordica-charantia-2e38e78d6e",
     "review_type": "automated_taxonomy_match",
@@ -3338,7 +6020,7 @@
       "type": "service",
       "name": "GBIF Species API"
     },
-    "reviewed_at": "2026-11-09",
+    "reviewed_at": "2026-09-13",
     "status": "passed",
     "details": {
       "match_type": "EXACT",
@@ -3363,6 +6045,42 @@
       "confidence": 100,
       "usage_key": "5339834",
       "accepted_usage_key": "5339834"
+    }
+  },
+  {
+    "id": "review-plant-morinda-lucida-a896aeef86-08fd81c70b",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-morinda-lucida-a896aeef86",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "5339834",
+      "accepted_usage_key": "5339834"
+    }
+  },
+  {
+    "id": "review-plant-morinda-morindoides-5f08c6bcba-ba46fd07c9",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-morinda-morindoides-5f08c6bcba",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 99,
+      "usage_key": "5339914",
+      "accepted_usage_key": "5339914"
     }
   },
   {
@@ -3402,7 +6120,43 @@
     }
   },
   {
-    "id": "review-plant-musa-paradisiaca-ee9a078e9c-0907443327",
+    "id": "review-plant-mucuna-pruriens-9a97c35409-e822f4f421",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-mucuna-pruriens-9a97c35409",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 99,
+      "usage_key": "2951499",
+      "accepted_usage_key": "2951499"
+    }
+  },
+  {
+    "id": "review-plant-mucuna-sloanei-e783a0cd7c-43d0813614",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-mucuna-sloanei-e783a0cd7c",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 99,
+      "usage_key": "2951571",
+      "accepted_usage_key": "2951571"
+    }
+  },
+  {
+    "id": "review-plant-musa-paradisiaca-ee9a078e9c-4921bd2433",
     "subject_type": "plant_taxonomy",
     "subject_id": "plant-musa-paradisiaca-ee9a078e9c",
     "review_type": "automated_taxonomy_match",
@@ -3410,7 +6164,7 @@
       "type": "service",
       "name": "GBIF Species API"
     },
-    "reviewed_at": "2026-11-09",
+    "reviewed_at": "2026-09-13",
     "status": "passed",
     "details": {
       "match_type": "EXACT",
@@ -3438,6 +6192,24 @@
     }
   },
   {
+    "id": "review-plant-musanga-cecropioides-7f1e0723ba-b9dfbd7b4b",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-musanga-cecropioides-7f1e0723ba",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 98,
+      "usage_key": "5643189",
+      "accepted_usage_key": "5643189"
+    }
+  },
+  {
     "id": "review-plant-myrianthus-arboreus-9e695982c1-9de89ff575",
     "subject_type": "plant_taxonomy",
     "subject_id": "plant-myrianthus-arboreus-9e695982c1",
@@ -3453,6 +6225,60 @@
       "confidence": 100,
       "usage_key": "4013416",
       "accepted_usage_key": "4013416"
+    }
+  },
+  {
+    "id": "review-plant-myristica-fragrans-5fa608361f-19a673854c",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-myristica-fragrans-5fa608361f",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "5406817",
+      "accepted_usage_key": "5406817"
+    }
+  },
+  {
+    "id": "review-plant-nasturtium-officinale-ed6604434f-249753dad0",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-nasturtium-officinale-ed6604434f",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "7701037",
+      "accepted_usage_key": "7701037"
+    }
+  },
+  {
+    "id": "review-plant-nauclea-latifolia-53fa5cb38c-b19c8bc67e",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-nauclea-latifolia-53fa5cb38c",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "2897763",
+      "accepted_usage_key": "5336165"
     }
   },
   {
@@ -3510,6 +6336,24 @@
     }
   },
   {
+    "id": "review-plant-newbouldia-laevis-d699306785-f0ca3882ac",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-newbouldia-laevis-d699306785",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 97,
+      "usage_key": "4091370",
+      "accepted_usage_key": "4091370"
+    }
+  },
+  {
     "id": "review-plant-newbouldia-laevis-d699306785-d225a8b63e",
     "subject_type": "plant_taxonomy",
     "subject_id": "plant-newbouldia-laevis-d699306785",
@@ -3525,6 +6369,24 @@
       "confidence": 100,
       "usage_key": "4091370",
       "accepted_usage_key": "4091370"
+    }
+  },
+  {
+    "id": "review-plant-nicotiana-rustica-77ef8a8bda-00a98b603e",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-nicotiana-rustica-77ef8a8bda",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "2928775",
+      "accepted_usage_key": "2928775"
     }
   },
   {
@@ -3582,6 +6444,24 @@
     }
   },
   {
+    "id": "review-plant-ocimum-basilicum-aea107c25b-740db61e30",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-ocimum-basilicum-aea107c25b",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "2927096",
+      "accepted_usage_key": "2927096"
+    }
+  },
+  {
     "id": "review-plant-ocimum-gratissimum-db8de35590-fb79d2b095",
     "subject_type": "plant_taxonomy",
     "subject_id": "plant-ocimum-gratissimum-db8de35590",
@@ -3594,9 +6474,63 @@
     "status": "passed",
     "details": {
       "match_type": "EXACT",
+      "confidence": 97,
+      "usage_key": "2927094",
+      "accepted_usage_key": "2927094"
+    }
+  },
+  {
+    "id": "review-plant-ocimum-gratissimum-db8de35590-33397e3e44",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-ocimum-gratissimum-db8de35590",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
       "confidence": 100,
       "usage_key": "2927094",
       "accepted_usage_key": "2927094"
+    }
+  },
+  {
+    "id": "review-plant-oenothera-biennis-de18b60f3d-7f6487e10e",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-oenothera-biennis-de18b60f3d",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "3188924",
+      "accepted_usage_key": "3188924"
+    }
+  },
+  {
+    "id": "review-plant-olax-subscorpioidea-9c6ff5ee9e-f392a7d9a2",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-olax-subscorpioidea-9c6ff5ee9e",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "7397039",
+      "accepted_usage_key": "7397039"
     }
   },
   {
@@ -3618,6 +6552,60 @@
     }
   },
   {
+    "id": "review-plant-olea-europaea-5ab7d0e369-1954606ac0",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-olea-europaea-5ab7d0e369",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "5415040",
+      "accepted_usage_key": "5415040"
+    }
+  },
+  {
+    "id": "review-plant-origanum-majorana-b926c640ff-1dd0c3b657",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-origanum-majorana-b926c640ff",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "2926615",
+      "accepted_usage_key": "2926615"
+    }
+  },
+  {
+    "id": "review-plant-ouret-lanata-a3d295d882-eeabaeea69",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-ouret-lanata-a3d295d882",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 97,
+      "usage_key": "3085014",
+      "accepted_usage_key": "10974033"
+    }
+  },
+  {
     "id": "review-plant-oxytenanthera-abyssinica-0e95f7d332-4e8266451b",
     "subject_type": "plant_taxonomy",
     "subject_id": "plant-oxytenanthera-abyssinica-0e95f7d332",
@@ -3633,6 +6621,60 @@
       "confidence": 100,
       "usage_key": "2703308",
       "accepted_usage_key": "2703308"
+    }
+  },
+  {
+    "id": "review-plant-ozoroa-pulcherrima-dd89f09865-6d4ac7879d",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-ozoroa-pulcherrima-dd89f09865",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 98,
+      "usage_key": "5544437",
+      "accepted_usage_key": "3662750"
+    }
+  },
+  {
+    "id": "review-plant-pachylobus-edulis-5b5e4fdfab-aa008e7472",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-pachylobus-edulis-5b5e4fdfab",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "3190456",
+      "accepted_usage_key": "3993252"
+    }
+  },
+  {
+    "id": "review-plant-palisota-hirsuta-b86a5e76ef-5350f9ef8e",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-palisota-hirsuta-b86a5e76ef",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "2763821",
+      "accepted_usage_key": "2763821"
     }
   },
   {
@@ -3690,6 +6732,24 @@
     }
   },
   {
+    "id": "review-plant-pastinaca-sativa-dc13662e69-d018676af3",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-pastinaca-sativa-dc13662e69",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "8262702",
+      "accepted_usage_key": "8262702"
+    }
+  },
+  {
     "id": "review-plant-paullinia-pinnata-59253250f8-b6fb4275d9",
     "subject_type": "plant_taxonomy",
     "subject_id": "plant-paullinia-pinnata-59253250f8",
@@ -3705,6 +6765,60 @@
       "confidence": 100,
       "usage_key": "3189950",
       "accepted_usage_key": "3189950"
+    }
+  },
+  {
+    "id": "review-plant-pausinystalia-yohimba-5a677def3f-b86e62fd85",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-pausinystalia-yohimba-5a677def3f",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 97,
+      "usage_key": "8637691",
+      "accepted_usage_key": "8637691"
+    }
+  },
+  {
+    "id": "review-plant-pelargonium-graveolens-aed2f3d2a9-e532dd4227",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-pelargonium-graveolens-aed2f3d2a9",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 99,
+      "usage_key": "2891608",
+      "accepted_usage_key": "2891608"
+    }
+  },
+  {
+    "id": "review-plant-pergularia-daemia-c48e5f4c77-f73d041e7f",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-pergularia-daemia-c48e5f4c77",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 97,
+      "usage_key": "3170445",
+      "accepted_usage_key": "3170445"
     }
   },
   {
@@ -3744,6 +6858,24 @@
     }
   },
   {
+    "id": "review-plant-persea-americana-4797acba26-c8d486679b",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-persea-americana-4797acba26",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "3034046",
+      "accepted_usage_key": "3034046"
+    }
+  },
+  {
     "id": "review-plant-phaulopsis-ciliata-253b73b0e3-621a0f8a3c",
     "subject_type": "plant_taxonomy",
     "subject_id": "plant-phaulopsis-ciliata-253b73b0e3",
@@ -3762,6 +6894,42 @@
     }
   },
   {
+    "id": "review-plant-philenoptera-cyanescens-30aaacd49f-0ffca809bf",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-philenoptera-cyanescens-30aaacd49f",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "2944765",
+      "accepted_usage_key": "2944764"
+    }
+  },
+  {
+    "id": "review-plant-phyllanthus-amarus-fc5ef3c93c-c8fd1b5cfd",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-phyllanthus-amarus-fc5ef3c93c",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "5382589",
+      "accepted_usage_key": "5382589"
+    }
+  },
+  {
     "id": "review-plant-phyllanthus-amarus-fc5ef3c93c-c82e8224b7",
     "subject_type": "plant_taxonomy",
     "subject_id": "plant-phyllanthus-amarus-fc5ef3c93c",
@@ -3777,6 +6945,24 @@
       "confidence": 100,
       "usage_key": "5382589",
       "accepted_usage_key": "5382589"
+    }
+  },
+  {
+    "id": "review-plant-phyllanthus-emblica-e50ad00f92-6ec2335d3b",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-phyllanthus-emblica-e50ad00f92",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 98,
+      "usage_key": "3077565",
+      "accepted_usage_key": "5381660"
     }
   },
   {
@@ -3852,7 +7038,7 @@
     }
   },
   {
-    "id": "review-plant-pigea-enneasperma-1b4e74c557-5c3b194cd1",
+    "id": "review-plant-pigea-enneasperma-1b4e74c557-b5533dcca6",
     "subject_type": "plant_taxonomy",
     "subject_id": "plant-pigea-enneasperma-1b4e74c557",
     "review_type": "automated_taxonomy_match",
@@ -3860,7 +7046,7 @@
       "type": "service",
       "name": "GBIF Species API"
     },
-    "reviewed_at": "2026-11-09",
+    "reviewed_at": "2026-09-13",
     "status": "passed",
     "details": {
       "match_type": "EXACT",
@@ -3906,6 +7092,24 @@
     }
   },
   {
+    "id": "review-plant-pimenta-dioica-d26f3f70e3-d0fde47a5d",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-pimenta-dioica-d26f3f70e3",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "3186061",
+      "accepted_usage_key": "3186061"
+    }
+  },
+  {
     "id": "review-plant-pinus-caribaea-f7e58bdb4e-d7cd40f23d",
     "subject_type": "plant_taxonomy",
     "subject_id": "plant-pinus-caribaea-f7e58bdb4e",
@@ -3921,6 +7125,24 @@
       "confidence": 100,
       "usage_key": "5285740",
       "accepted_usage_key": "5285740"
+    }
+  },
+  {
+    "id": "review-plant-piper-guineense-b925235b59-cd3ad3e86a",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-piper-guineense-b925235b59",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "3086326",
+      "accepted_usage_key": "3086326"
     }
   },
   {
@@ -3942,6 +7164,24 @@
     }
   },
   {
+    "id": "review-plant-pistacia-vera-ceff7a9b4c-78191d8863",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-pistacia-vera-ceff7a9b4c",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "3190585",
+      "accepted_usage_key": "3190585"
+    }
+  },
+  {
     "id": "review-plant-pleioceras-barteri-26dcb5e147-b6563fafd9",
     "subject_type": "plant_taxonomy",
     "subject_id": "plant-pleioceras-barteri-26dcb5e147",
@@ -3957,6 +7197,24 @@
       "confidence": 100,
       "usage_key": "3616481",
       "accepted_usage_key": "3616481"
+    }
+  },
+  {
+    "id": "review-plant-plukenetia-conophora-cc3947ab65-d3c97ef21e",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-plukenetia-conophora-cc3947ab65",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 98,
+      "usage_key": "3070703",
+      "accepted_usage_key": "3070702"
     }
   },
   {
@@ -4032,6 +7290,42 @@
     }
   },
   {
+    "id": "review-plant-portulaca-oleracea-5f30eeb357-a6e93af2ee",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-portulaca-oleracea-5f30eeb357",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "3084719",
+      "accepted_usage_key": "3084719"
+    }
+  },
+  {
+    "id": "review-plant-prosopis-africana-f699fc148f-c485128c71",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-prosopis-africana-f699fc148f",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 99,
+      "usage_key": "5358514",
+      "accepted_usage_key": "5358514"
+    }
+  },
+  {
     "id": "review-plant-psidium-guajava-ef93129072-506145611d",
     "subject_type": "plant_taxonomy",
     "subject_id": "plant-psidium-guajava-ef93129072",
@@ -4047,6 +7341,78 @@
       "confidence": 100,
       "usage_key": "5420380",
       "accepted_usage_key": "5420380"
+    }
+  },
+  {
+    "id": "review-plant-psidium-guajava-ef93129072-868863e5be",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-psidium-guajava-ef93129072",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "5420380",
+      "accepted_usage_key": "5420380"
+    }
+  },
+  {
+    "id": "review-plant-pterocarpus-erinaceus-60f1cd2b28-2aea9c6ebd",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-pterocarpus-erinaceus-60f1cd2b28",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "5349317",
+      "accepted_usage_key": "5349317"
+    }
+  },
+  {
+    "id": "review-plant-punica-granatum-9805b363cf-ed26ec2ebe",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-punica-granatum-9805b363cf",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "5420901",
+      "accepted_usage_key": "5420901"
+    }
+  },
+  {
+    "id": "review-plant-rauvolfia-vomitoria-348e38edc6-f6b19c130c",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-rauvolfia-vomitoria-348e38edc6",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 98,
+      "usage_key": "3169770",
+      "accepted_usage_key": "3169770"
     }
   },
   {
@@ -4068,6 +7434,24 @@
     }
   },
   {
+    "id": "review-plant-rheum-palmatum-8b8e6dc3ee-913840da12",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-rheum-palmatum-8b8e6dc3ee",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "2888864",
+      "accepted_usage_key": "2888864"
+    }
+  },
+  {
     "id": "review-plant-ricinus-communis-deda1fad54-a695aa29cc",
     "subject_type": "plant_taxonomy",
     "subject_id": "plant-ricinus-communis-deda1fad54",
@@ -4083,6 +7467,42 @@
       "confidence": 100,
       "usage_key": "5380041",
       "accepted_usage_key": "5380041"
+    }
+  },
+  {
+    "id": "review-plant-rosa-canina-7bbe818632-d37a53ff4e",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-rosa-canina-7bbe818632",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "3002461",
+      "accepted_usage_key": "3002461"
+    }
+  },
+  {
+    "id": "review-plant-rubus-idaeus-047cd63767-1ca7698f1b",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-rubus-idaeus-047cd63767",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "2993094",
+      "accepted_usage_key": "2993094"
     }
   },
   {
@@ -4119,6 +7539,60 @@
       "confidence": 100,
       "usage_key": "2703912",
       "accepted_usage_key": "2703912"
+    }
+  },
+  {
+    "id": "review-plant-salvia-officinalis-35cedcdf53-8d02cdae15",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-salvia-officinalis-35cedcdf53",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "2927004",
+      "accepted_usage_key": "2927004"
+    }
+  },
+  {
+    "id": "review-plant-salvia-rosmarinus-4f80c27bed-59ce1b319f",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-salvia-rosmarinus-4f80c27bed",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "2926634",
+      "accepted_usage_key": "10902460"
+    }
+  },
+  {
+    "id": "review-plant-satureja-hortensis-3938335d59-674fe6cfd0",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-satureja-hortensis-3938335d59",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "2926885",
+      "accepted_usage_key": "2926885"
     }
   },
   {
@@ -4194,6 +7668,24 @@
     }
   },
   {
+    "id": "review-plant-senna-alata-6d79b20446-ea8499b349",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-senna-alata-6d79b20446",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 99,
+      "usage_key": "2956947",
+      "accepted_usage_key": "2956947"
+    }
+  },
+  {
     "id": "review-plant-senna-hirsuta-54a358cbb9-c82cb6dbe8",
     "subject_type": "plant_taxonomy",
     "subject_id": "plant-senna-hirsuta-54a358cbb9",
@@ -4227,6 +7719,24 @@
       "confidence": 100,
       "usage_key": "2957408",
       "accepted_usage_key": "2957408"
+    }
+  },
+  {
+    "id": "review-plant-senna-occidentalis-9d5c9f2d10-36ac964d46",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-senna-occidentalis-9d5c9f2d10",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "2957966",
+      "accepted_usage_key": "2957966"
     }
   },
   {
@@ -4338,6 +7848,24 @@
     }
   },
   {
+    "id": "review-plant-sida-acuta-b47c40cd00-f4dbfde105",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-sida-acuta-b47c40cd00",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 99,
+      "usage_key": "3933670",
+      "accepted_usage_key": "3933670"
+    }
+  },
+  {
     "id": "review-plant-sida-acuta-b47c40cd00-2f6207e7c0",
     "subject_type": "plant_taxonomy",
     "subject_id": "plant-sida-acuta-b47c40cd00",
@@ -4392,6 +7920,42 @@
     }
   },
   {
+    "id": "review-plant-sieruela-rutidosperma-7aafc1c2e5-e36c0c068c",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-sieruela-rutidosperma-7aafc1c2e5",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 99,
+      "usage_key": "9778787",
+      "accepted_usage_key": "9778787"
+    }
+  },
+  {
+    "id": "review-plant-smilax-anceps-9d29d0116d-a8637ba89b",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-smilax-anceps-9d29d0116d",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 99,
+      "usage_key": "5295301",
+      "accepted_usage_key": "5295301"
+    }
+  },
+  {
     "id": "review-plant-solanum-americanum-9cb89dbd51-63b4b3ec09",
     "subject_type": "plant_taxonomy",
     "subject_id": "plant-solanum-americanum-9cb89dbd51",
@@ -4428,6 +7992,42 @@
     }
   },
   {
+    "id": "review-plant-solanum-lycopersicum-fa2a0683a3-5e1c93ed13",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-solanum-lycopersicum-fa2a0683a3",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 98,
+      "usage_key": "2930137",
+      "accepted_usage_key": "2930137"
+    }
+  },
+  {
+    "id": "review-plant-solanum-nigrum-40e84f0f17-c295487730",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-solanum-nigrum-40e84f0f17",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "9150405",
+      "accepted_usage_key": "9150405"
+    }
+  },
+  {
     "id": "review-plant-solanum-nigrum-40e84f0f17-b2088ca632",
     "subject_type": "plant_taxonomy",
     "subject_id": "plant-solanum-nigrum-40e84f0f17",
@@ -4443,6 +8043,24 @@
       "confidence": 100,
       "usage_key": "9150405",
       "accepted_usage_key": "9150405"
+    }
+  },
+  {
+    "id": "review-plant-solanum-torvum-57970b7ec0-0e0b4cc029",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-solanum-torvum-57970b7ec0",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "2932389",
+      "accepted_usage_key": "2932389"
     }
   },
   {
@@ -4464,6 +8082,24 @@
     }
   },
   {
+    "id": "review-plant-solanum-tuberosum-b2574c34d7-18f2e7ef8a",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-solanum-tuberosum-b2574c34d7",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "2930262",
+      "accepted_usage_key": "2930262"
+    }
+  },
+  {
     "id": "review-plant-sorghum-bicolor-43dce6dca3-dca88e6e85",
     "subject_type": "plant_taxonomy",
     "subject_id": "plant-sorghum-bicolor-43dce6dca3",
@@ -4479,6 +8115,24 @@
       "confidence": 100,
       "usage_key": "2705181",
       "accepted_usage_key": "2705181"
+    }
+  },
+  {
+    "id": "review-plant-spathodea-campanulata-75974a3121-8547494f87",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-spathodea-campanulata-75974a3121",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "3172574",
+      "accepted_usage_key": "3172574"
     }
   },
   {
@@ -4572,6 +8226,24 @@
     }
   },
   {
+    "id": "review-plant-spondias-mombin-e4158596a0-93aa3c244c",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-spondias-mombin-e4158596a0",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 98,
+      "usage_key": "8185571",
+      "accepted_usage_key": "8185571"
+    }
+  },
+  {
     "id": "review-plant-sporobolus-indicus-3d9a8d71d0-4a881cfa6d",
     "subject_type": "plant_taxonomy",
     "subject_id": "plant-sporobolus-indicus-3d9a8d71d0",
@@ -4590,6 +8262,42 @@
     }
   },
   {
+    "id": "review-plant-stachytarpheta-cayennensis-86755efae1-71b40a9d27",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-stachytarpheta-cayennensis-86755efae1",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "2925454",
+      "accepted_usage_key": "2925454"
+    }
+  },
+  {
+    "id": "review-plant-stachytarpheta-indica-fa0bd8a9d6-b20755ca9c",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-stachytarpheta-indica-fa0bd8a9d6",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 98,
+      "usage_key": "7297356",
+      "accepted_usage_key": "2925465"
+    }
+  },
+  {
     "id": "review-plant-stachytarpheta-indica-fa0bd8a9d6-b586af6fa2",
     "subject_type": "plant_taxonomy",
     "subject_id": "plant-stachytarpheta-indica-fa0bd8a9d6",
@@ -4605,6 +8313,24 @@
       "confidence": 100,
       "usage_key": "2925465",
       "accepted_usage_key": "2925465"
+    }
+  },
+  {
+    "id": "review-plant-stellaria-media-5e76a3b347-843161480a",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-stellaria-media-5e76a3b347",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "5384604",
+      "accepted_usage_key": "5384604"
     }
   },
   {
@@ -4770,6 +8496,24 @@
     }
   },
   {
+    "id": "review-plant-talinum-fruticosum-35add5c378-e903e75569",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-talinum-fruticosum-35add5c378",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 98,
+      "usage_key": "3084671",
+      "accepted_usage_key": "3084670"
+    }
+  },
+  {
     "id": "review-plant-talinum-fruticosum-35add5c378-7ac91fdc31",
     "subject_type": "plant_taxonomy",
     "subject_id": "plant-talinum-fruticosum-35add5c378",
@@ -4821,6 +8565,24 @@
       "confidence": 100,
       "usage_key": "7288131",
       "accepted_usage_key": "7288131"
+    }
+  },
+  {
+    "id": "review-plant-telfairia-occidentalis-c587f41c87-6cc366e34b",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-telfairia-occidentalis-c587f41c87",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 99,
+      "usage_key": "2874669",
+      "accepted_usage_key": "2874669"
     }
   },
   {
@@ -4878,6 +8640,24 @@
     }
   },
   {
+    "id": "review-plant-terminalia-leiocarpa-9d4b38908e-9cf19feca8",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-terminalia-leiocarpa-9d4b38908e",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 98,
+      "usage_key": "3699245",
+      "accepted_usage_key": "3698332"
+    }
+  },
+  {
     "id": "review-plant-terminalia-macroptera-95bc93c88f-a3cb76ed27",
     "subject_type": "plant_taxonomy",
     "subject_id": "plant-terminalia-macroptera-95bc93c88f",
@@ -4911,6 +8691,42 @@
       "confidence": 97,
       "usage_key": "7375947",
       "accepted_usage_key": "7375947"
+    }
+  },
+  {
+    "id": "review-plant-terminalia-schimperiana-582c75f824-0857002996",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-terminalia-schimperiana-582c75f824",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 97,
+      "usage_key": "3699081",
+      "accepted_usage_key": "3699820"
+    }
+  },
+  {
+    "id": "review-plant-terminalia-superba-137d7bda68-fc845de08a",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-terminalia-superba-137d7bda68",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "3189393",
+      "accepted_usage_key": "3189393"
     }
   },
   {
@@ -5004,6 +8820,42 @@
     }
   },
   {
+    "id": "review-plant-theobroma-cacao-777fc47af0-1f57076680",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-theobroma-cacao-777fc47af0",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "3152205",
+      "accepted_usage_key": "3152205"
+    }
+  },
+  {
+    "id": "review-plant-thymus-vulgaris-fdce8967e1-cab008b8cc",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-thymus-vulgaris-fdce8967e1",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 98,
+      "usage_key": "5341442",
+      "accepted_usage_key": "5341442"
+    }
+  },
+  {
     "id": "review-plant-tithonia-diversifolia-92b473c089-668d896c53",
     "subject_type": "plant_taxonomy",
     "subject_id": "plant-tithonia-diversifolia-92b473c089",
@@ -5019,6 +8871,24 @@
       "confidence": 100,
       "usage_key": "5396557",
       "accepted_usage_key": "5396557"
+    }
+  },
+  {
+    "id": "review-plant-trema-orientale-33e2daec4c-d87bdfa41d",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-trema-orientale-33e2daec4c",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "7141659",
+      "accepted_usage_key": "2984508"
     }
   },
   {
@@ -5040,6 +8910,24 @@
     }
   },
   {
+    "id": "review-plant-tridax-procumbens-dc1eac7267-09025a5b5c",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-tridax-procumbens-dc1eac7267",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "3149462",
+      "accepted_usage_key": "3149462"
+    }
+  },
+  {
     "id": "review-plant-tridax-procumbens-dc1eac7267-8816dff12a",
     "subject_type": "plant_taxonomy",
     "subject_id": "plant-tridax-procumbens-dc1eac7267",
@@ -5058,6 +8946,42 @@
     }
   },
   {
+    "id": "review-plant-trigonella-foenum-graecum-60ff2fafb6-a0b9f3d206",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-trigonella-foenum-graecum-60ff2fafb6",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 98,
+      "usage_key": "5360475",
+      "accepted_usage_key": "5360475"
+    }
+  },
+  {
+    "id": "review-plant-triticum-aestivum-11e69b02bb-d9747a7b5a",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-triticum-aestivum-11e69b02bb",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "2706392",
+      "accepted_usage_key": "7795888"
+    }
+  },
+  {
     "id": "review-plant-triumfetta-cordifolia-ff9125fc4e-0c4691f730",
     "subject_type": "plant_taxonomy",
     "subject_id": "plant-triumfetta-cordifolia-ff9125fc4e",
@@ -5073,6 +8997,60 @@
       "confidence": 100,
       "usage_key": "3152073",
       "accepted_usage_key": "3152073"
+    }
+  },
+  {
+    "id": "review-plant-triumfetta-rhomboidea-5eb751c0fc-3452b1bc0a",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-triumfetta-rhomboidea-5eb751c0fc",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "3152069",
+      "accepted_usage_key": "3152069"
+    }
+  },
+  {
+    "id": "review-plant-tussilago-farfara-d2e8e1c3d2-c1247e6290",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-tussilago-farfara-d2e8e1c3d2",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "3149879",
+      "accepted_usage_key": "3149879"
+    }
+  },
+  {
+    "id": "review-plant-urena-lobata-2de6de90f9-cf92997f66",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-urena-lobata-2de6de90f9",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 99,
+      "usage_key": "3152253",
+      "accepted_usage_key": "3152253"
     }
   },
   {
@@ -5112,6 +9090,150 @@
     }
   },
   {
+    "id": "review-plant-uvaria-chamae-958a5ab447-2e7aeb403e",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-uvaria-chamae-958a5ab447",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 99,
+      "usage_key": "3154319",
+      "accepted_usage_key": "3154319"
+    }
+  },
+  {
+    "id": "review-plant-uvariopsis-tripetala-5f05834323-3484a01009",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-uvariopsis-tripetala-5f05834323",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 98,
+      "usage_key": "3157443",
+      "accepted_usage_key": "3157442"
+    }
+  },
+  {
+    "id": "review-plant-vaccinium-myrtillus-6958820a9e-b2e6bf4054",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-vaccinium-myrtillus-6958820a9e",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "2882833",
+      "accepted_usage_key": "2882833"
+    }
+  },
+  {
+    "id": "review-plant-vachellia-nilotica-f76029b6d9-b0c4dc2d42",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-vachellia-nilotica-f76029b6d9",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 97,
+      "usage_key": "2978421",
+      "accepted_usage_key": "3974744"
+    }
+  },
+  {
+    "id": "review-plant-vachellia-sieberiana-9e9d74a39d-e4b917b5ea",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-vachellia-sieberiana-9e9d74a39d",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 97,
+      "usage_key": "7564113",
+      "accepted_usage_key": "7564113"
+    }
+  },
+  {
+    "id": "review-plant-valeriana-officinalis-d57bcdb940-5150516962",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-valeriana-officinalis-d57bcdb940",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "2888763",
+      "accepted_usage_key": "2888763"
+    }
+  },
+  {
+    "id": "review-plant-verbena-officinalis-d4a1fba7f3-793b93adb3",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-verbena-officinalis-d4a1fba7f3",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "2925529",
+      "accepted_usage_key": "2925529"
+    }
+  },
+  {
+    "id": "review-plant-viola-tricolor-d7904d7840-26dc0f27b1",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-viola-tricolor-d7904d7840",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "5331347",
+      "accepted_usage_key": "5331347"
+    }
+  },
+  {
     "id": "review-plant-vitellaria-paradoxa-de73616dac-e57e89f674",
     "subject_type": "plant_taxonomy",
     "subject_id": "plant-vitellaria-paradoxa-de73616dac",
@@ -5125,6 +9247,24 @@
     "details": {
       "match_type": "EXACT",
       "confidence": 100,
+      "usage_key": "2886750",
+      "accepted_usage_key": "2886750"
+    }
+  },
+  {
+    "id": "review-plant-vitellaria-paradoxa-de73616dac-5e83afa6bf",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-vitellaria-paradoxa-de73616dac",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 99,
       "usage_key": "2886750",
       "accepted_usage_key": "2886750"
     }
@@ -5166,6 +9306,42 @@
     }
   },
   {
+    "id": "review-plant-xanthosoma-sagittifolium-8a70915241-e30bdcb08a",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-xanthosoma-sagittifolium-8a70915241",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "5330901",
+      "accepted_usage_key": "5330901"
+    }
+  },
+  {
+    "id": "review-plant-xylopia-aethiopica-d5773119a0-1b36bbd826",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-xylopia-aethiopica-d5773119a0",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "usage_key": "3157151",
+      "accepted_usage_key": "3157151"
+    }
+  },
+  {
     "id": "review-plant-xylopia-aethiopica-d5773119a0-9d85641d7f",
     "subject_type": "plant_taxonomy",
     "subject_id": "plant-xylopia-aethiopica-d5773119a0",
@@ -5181,6 +9357,24 @@
       "confidence": 99,
       "usage_key": "3157151",
       "accepted_usage_key": "3157151"
+    }
+  },
+  {
+    "id": "review-plant-zanthoxylum-gilletii-3749a9eb45-c112bb56d5",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-zanthoxylum-gilletii-3749a9eb45",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 98,
+      "usage_key": "5593108",
+      "accepted_usage_key": "3838162"
     }
   },
   {
@@ -5233,6 +9427,24 @@
     "details": {
       "match_type": "EXACT",
       "confidence": 100,
+      "usage_key": "2757280",
+      "accepted_usage_key": "2757280"
+    }
+  },
+  {
+    "id": "review-plant-zingiber-officinale-8932efc2ae-a3da19d49c",
+    "subject_type": "plant_taxonomy",
+    "subject_id": "plant-zingiber-officinale-8932efc2ae",
+    "review_type": "automated_taxonomy_match",
+    "reviewer": {
+      "type": "service",
+      "name": "GBIF Species API"
+    },
+    "reviewed_at": "2026-09-13",
+    "status": "passed",
+    "details": {
+      "match_type": "EXACT",
+      "confidence": 99,
       "usage_key": "2757280",
       "accepted_usage_key": "2757280"
     }

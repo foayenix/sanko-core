@@ -2,6 +2,8 @@ const crypto = require('crypto');
 const fs = require('fs');
 const path = require('path');
 
+const { strikes, validate: validateAdjudications } = require('./adjudicate-names');
+
 const root = path.join(__dirname, '..');
 const plantsDirectory = path.join(root, 'data', 'plants');
 
@@ -69,7 +71,17 @@ function build({ plantsDir = plantsDirectory, runtimeFile = path.join(root, 'dat
   const taxonomy = fs.existsSync(combinedTaxonomyPath)
     ? readJson(combinedTaxonomyPath)
     : readJson(plantsDir, 'taxonomy', 'gbif-plateau.json');
+  // Nomenclature for the legacy tier, written by scripts/resolve-legacy-taxonomy.js.
+  // Optional: a clone without it builds exactly as before, using the legacy
+  // strings as published.
+  const legacyTaxonomy = readJsonIfPresent(plantsDir, 'taxonomy', 'gbif-legacy.json') ?? [];
+  const legacyTaxonomyByPublished = new Map(legacyTaxonomy.map(match => [match.botanical_as_published, match]));
   const humanReviews = readJson(plantsDir, 'human_reviews.json');
+  // Decisions about contested names, from scripts/adjudicate-names.js. Only
+  // entries that name a reason and a reviewer count; the rest stay pending.
+  const { applied: adjudications, problems: adjudicationProblems } =
+    validateAdjudications(readJsonIfPresent(plantsDir, 'name_adjudications.json') ?? []);
+  for (const problem of adjudicationProblems) console.warn(`  name adjudication ignored — ${problem}`);
   const confirmations = readJson(plantsDir, 'practitioner_confirmations.json');
   const sourceById = new Map(sources.map(source => [source.id, source]));
   const taxonomyByPublished = new Map(taxonomy.map(match => [match.botanical_as_published, match]));
@@ -145,7 +157,16 @@ function build({ plantsDir = plantsDirectory, runtimeFile = path.join(root, 'dat
       continue;
     }
 
-    const plant = ensurePlant(row.botanical, row.common_english, row.botanical);
+    // The name is resolved; the row is not promoted. What a plant is called
+    // today is a question GBIF answers whatever the row's provenance, and it is
+    // a different question from whether a practitioner ever called it this —
+    // which the legacy tier still cannot answer, so the vernacular record below
+    // stays legacy_unverified. Without this, a legacy row reading "Bryophyllum
+    // pinnatum" and a survey row reading "Kalanchoe pinnata" named one plant
+    // twice and the build read them as two species disagreeing.
+    const legacyMatch = legacyTaxonomyByPublished.get(row.botanical);
+    const acceptedBotanical = legacyMatch?.export_eligible ? legacyMatch.accepted_botanical : row.botanical;
+    const plant = ensurePlant(acceptedBotanical, row.common_english, row.botanical, legacyMatch);
     const normalizedName = normalizeLocalName(row.local_name);
     vernacularNames.push({
       id: stableId('name', row.local_name, 'legacy-lookup-v1', row.botanical),
@@ -155,9 +176,11 @@ function build({ plantsDir = plantsDirectory, runtimeFile = path.join(root, 'dat
       language: null,
       region: { country: 'Nigeria', state: null, localities: [] },
       botanical_as_published: row.botanical,
-      accepted_botanical: row.botanical,
+      accepted_botanical: acceptedBotanical,
       source_id: 'legacy-lookup-v1',
       source_locator: null,
+      // Unchanged on purpose. A current name for the plant is not evidence
+      // that this local name refers to it.
       verification_status: 'legacy_unverified',
       reviewed_by: null,
       export_eligible: true
@@ -167,6 +190,7 @@ function build({ plantsDir = plantsDirectory, runtimeFile = path.join(root, 'dat
       id: stableId('observation', plant.id, 'legacy-lookup-v1'),
       plant_id: plant.id,
       botanical_as_published: row.botanical,
+      accepted_botanical: acceptedBotanical,
       source_id: 'legacy-lookup-v1',
       source_locator: null,
       parts_reported: [],
@@ -180,7 +204,6 @@ function build({ plantsDir = plantsDirectory, runtimeFile = path.join(root, 'dat
   }
   observations.push(...legacyGroups.values());
 
-  const surveyNameIds = new Set();
   for (const row of survey) {
     const source = sourceById.get(row.source_id);
     if (!source || source.publication_status !== 'active' || source.ingestion_status !== 'included') continue;
@@ -197,13 +220,8 @@ function build({ plantsDir = plantsDirectory, runtimeFile = path.join(root, 'dat
     const locator = { table: row.source_table ?? source.table, row: row.source_table_row ?? row.source_row };
 
     for (const name of row.vernacular_names) {
-      // The same name for the same published taxon, repeated in a second table
-      // of one article, is one fact: keep the first locator, not two records.
-      const nameId = stableId('name', name.local_name, row.source_id, row.botanical_as_published, name.language);
-      if (surveyNameIds.has(nameId)) continue;
-      surveyNameIds.add(nameId);
       vernacularNames.push({
-        id: nameId,
+        id: stableId('name', name.local_name, row.source_id, row.botanical_as_published, name.language),
         plant_id: plant?.id ?? null,
         local_name: name.local_name,
         normalized_name: normalizeLocalName(name.local_name),
@@ -325,6 +343,41 @@ function build({ plantsDir = plantsDirectory, runtimeFile = path.join(root, 'dat
 
   reviews.push(...humanReviews);
 
+  // A struck row keeps its place in vernacular_names.json — nothing is hidden —
+  // but stops counting as a candidate for the name it was reported under.
+  for (const adjudication of adjudications.filter(entry => entry.decision === 'source_row_error')) {
+    for (const name of vernacularNames) {
+      if (!strikes(adjudication, name)) continue;
+      name.adjudicated_out = true;
+      name.export_eligible = false;
+      name.adjudication = {
+        decision: adjudication.decision,
+        reason: adjudication.reason,
+        reviewed_by: adjudication.reviewed_by,
+        reviewed_at: adjudication.reviewed_at ?? null
+      };
+    }
+  }
+
+  for (const adjudication of adjudications) {
+    reviews.push({
+      id: stableId('review', 'name-adjudication', adjudication.normalized_name, adjudication.decision),
+      subject_type: 'contested_name',
+      subject_id: adjudication.normalized_name,
+      review_type: 'name_adjudication',
+      reviewer: { type: 'reviewer', name: adjudication.reviewed_by },
+      reviewed_at: adjudication.reviewed_at ?? null,
+      status: adjudication.decision === 'source_row_error' ? 'struck' : 'upheld',
+      details: {
+        decision: adjudication.decision,
+        reason: adjudication.reason,
+        strike: adjudication.strike ?? null
+      }
+    });
+  }
+
+  const upheldNames = new Set(adjudications.filter(entry => entry.decision === 'contest_upheld').map(entry => entry.normalized_name));
+
   const namesByNormalized = new Map();
   for (const name of vernacularNames) {
     const values = namesByNormalized.get(name.normalized_name) ?? [];
@@ -334,7 +387,12 @@ function build({ plantsDir = plantsDirectory, runtimeFile = path.join(root, 'dat
 
   const ambiguities = [];
   const runtime = [];
-  for (const [normalizedName, names] of namesByNormalized) {
+  for (const [normalizedName, allNames] of namesByNormalized) {
+    // Struck rows are excluded from the candidates entirely rather than merely
+    // made ineligible: a row a reviewer has called an error should not keep a
+    // name contested.
+    const names = allNames.filter(name => !name.adjudicated_out);
+    if (!names.length) continue;
     const publishedCandidates = uniqueSorted(names.map(name => name.accepted_botanical ?? name.botanical_as_published));
     const eligible = names.filter(name => name.export_eligible);
     const acceptedCandidates = uniqueSorted(eligible.map(name => name.accepted_botanical));
@@ -348,6 +406,9 @@ function build({ plantsDir = plantsDirectory, runtimeFile = path.join(root, 'dat
     if (publishedCandidates.length > 1 || acceptedCandidates.length > 1) {
       ambiguities.push({
         normalized_name: normalizedName,
+        // Examined by a reviewer who decided the disagreement is real, rather
+        // than merely never looked at.
+        contest_upheld: upheldNames.has(normalizedName),
         source_spellings: uniqueSorted(names.map(name => name.local_name)),
         candidates: names.map(name => ({
           botanical_as_published: name.botanical_as_published,
@@ -416,6 +477,8 @@ function build({ plantsDir = plantsDirectory, runtimeFile = path.join(root, 'dat
     build_id: buildId,
     generated_at: uniqueSorted(taxonomy.map(match => match.checked_at)).at(-1) ?? null,
     legacy_runtime_rows: legacy.length,
+    legacy_botanical_names_resolved: legacyTaxonomy.filter(match => match.export_eligible).length,
+    legacy_botanical_names_renamed: legacyTaxonomy.filter(match => match.export_eligible && match.accepted_botanical !== match.botanical_as_published).length,
     source_rows_ingested: survey.length,
     source_rows_by_source: Object.fromEntries(
       sources
@@ -423,7 +486,6 @@ function build({ plantsDir = plantsDirectory, runtimeFile = path.join(root, 'dat
         .map(source => [source.id, survey.filter(row => row.source_id === source.id).length])
     ),
     staged_source_rows: {
-      'weli-2013-port-harcourt': readJson(plantsDir, 'surveys', 'staged', 'weli-2013-port-harcourt.json').length,
       'mukaila-2021-ile-ife': readJson(plantsDir, 'surveys', 'quarantine', 'mukaila-2021-ile-ife-retracted.json').inventory.length,
       'anumudu-2025-nigeria-review-original-studies': readJson(plantsDir, 'surveys', 'discovery', 'anumudu-2025-nigeria-review.json').original_study_catalogue.length,
       'iwu-2014-african-medicinal-plants': readJsonIfPresent(plantsDir, 'references', 'staged', 'iwu-2014-african-medicinal-plants.json')?.records.length ?? null,
@@ -436,6 +498,9 @@ function build({ plantsDir = plantsDirectory, runtimeFile = path.join(root, 'dat
     runtime_mappings: runtime.length,
     resolved_runtime_mappings: runtime.filter(row => row.botanical).length,
     ambiguous_runtime_names: runtime.filter(row => !row.botanical).length,
+    contested_names_adjudicated: adjudications.length,
+    contested_names_resolved_by_striking_a_row: adjudications.filter(entry => entry.decision === 'source_row_error').length,
+    contested_names_upheld: upheldNames.size,
     staged_unresolved_names: vernacularNames.filter(name => !name.export_eligible).length
   };
   writeJson(plantsDir, 'build_report.json', report);

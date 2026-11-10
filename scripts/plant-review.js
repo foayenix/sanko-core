@@ -39,10 +39,8 @@ const CONTEXT_EXCERPTS = 3;
 const EXCERPT_CHARS = 320;
 const DECISIONS = ['pending', 'confirmed', 'rejected', 'unclear', 'promoted'];
 
-// A reviewer reference is a stable pseudonym — the same rule evals/README.md
-// applies to case reviewers. Anything that looks like a name, phone number,
-// email or database id is refused rather than quietly committed to a public file.
-const REVIEWER_REF = /^[A-Z]{2,4}-[A-Z0-9]{4,8}$/;
+// Shared with the contested-name loop; see scripts/reviewer-ref.js.
+const { REVIEWER_REF } = require('./reviewer-ref');
 
 function readJson(file, fallback) {
   if (!fs.existsSync(file)) return fallback;
