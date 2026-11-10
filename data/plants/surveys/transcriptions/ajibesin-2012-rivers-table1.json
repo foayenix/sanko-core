@@ -1,0 +1,1327 @@
+[
+ {
+  "pnm": 1,
+  "family": "Acanthaceae",
+  "botanical": "Justicia shimperi (Hochst) Danby",
+  "local": "Ekpegwo (Kalabari)",
+  "parts": "Leaves (12,13, 16,18, 19,21)"
+ },
+ {
+  "pnm": 2,
+  "family": "Acanthaceae",
+  "botanical": "Acanthus montanus (Nees) T. Anders",
+  "local": "Oga (Ikwerre)",
+  "parts": "Leaves (1-5,7, 11,12)"
+ },
+ {
+  "pnm": 3,
+  "family": "Agavaceae",
+  "botanical": "Dracaena arborea (Willd.) Link. Enum. Hort.",
+  "local": "Odo (Ikwerre)",
+  "parts": "Bark, leaves (2-4,7,8,11)"
+ },
+ {
+  "pnm": 4,
+  "family": "Anacardiaceae",
+  "botanical": "Anacardium occidentale L.",
+  "local": "Kasiu (Kalabari)",
+  "parts": "Bark, Twigs Leaves (1-23)"
+ },
+ {
+  "pnm": 5,
+  "family": "Anacardiaceae",
+  "botanical": "Spondias mombin L.",
+  "local": "Aginiran (Ogoni)",
+  "parts": "Leaves, Bark (1-23)"
+ },
+ {
+  "pnm": 6,
+  "family": "Anacardiaceae",
+  "botanical": "Mangifera indica L.",
+  "local": "Manko (Ikwerre)",
+  "parts": "Leaves and bark (1-23), leaves"
+ },
+ {
+  "pnm": 7,
+  "family": "Anacardiaceae",
+  "botanical": "Pistacia vera L.",
+  "local": "Kasiu (Ikwerre)",
+  "parts": "Nut (1-3,7)"
+ },
+ {
+  "pnm": 8,
+  "family": "Annonaceae",
+  "botanical": "Annona muricata L.",
+  "local": "Nangi (Kalabari)",
+  "parts": "Leaves (12, 14-19,22)"
+ },
+ {
+  "pnm": 9,
+  "family": "Annonaceae",
+  "botanical": "Xylopia aethiopica (Dunal) A. Rich.",
+  "local": "Enyi (Kalabari)",
+  "parts": "Seeds, Seeds and fruit Fruits (1-23)"
+ },
+ {
+  "pnm": 10,
+  "family": "Annonaceae",
+  "botanical": "Uvaria chamae P. Beauv.",
+  "local": "Mfee (Ikwerre)",
+  "parts": "Root Leaves (5,9)"
+ },
+ {
+  "pnm": 11,
+  "family": "Apiaceae",
+  "botanical": "Anethum graveolens L.",
+  "local": "Udumie (Kalabari)",
+  "parts": "Seed (2,3,9)"
+ },
+ {
+  "pnm": 12,
+  "family": "Apiaceae",
+  "botanical": "Foeniculum vulgare Mill.",
+  "local": "Icheje (Ikwerre)",
+  "parts": "Seed (5,6,7,8,9)"
+ },
+ {
+  "pnm": 13,
+  "family": "Apiaceae",
+  "botanical": "Pastinaca sativa L.",
+  "local": "Udeghe (Kalabari)",
+  "parts": "Leaves (9,13,15, 17,19)"
+ },
+ {
+  "pnm": 14,
+  "family": "Apiaceae",
+  "botanical": "Daucus carota L.",
+  "local": "Nsoro (Ikwerre)",
+  "parts": "Root (1-13,15, 18,21)"
+ },
+ {
+  "pnm": 15,
+  "family": "Apocynaceae",
+  "botanical": "Alstonia boonei De Willd",
+  "local": "Ulodiri (Ekpeye)",
+  "parts": "Bark, Bark and leaves (1-23)"
+ },
+ {
+  "pnm": 16,
+  "family": "Apocynaceae",
+  "botanical": "Funtumia elastica (Preuss) Staff",
+  "local": "Mini-eme (Ikwerre)",
+  "parts": "Bark (1-5)"
+ },
+ {
+  "pnm": 17,
+  "family": "Apocynaceae",
+  "botanical": "Rauwolfia vomitoria Afzel",
+  "local": "Donuinya (Kalabari)",
+  "parts": "RootLeaves (1-23)"
+ },
+ {
+  "pnm": 18,
+  "family": "Araceae",
+  "botanical": "Xanthosoma sagittifolium (L.) Schott",
+  "local": "Edebra (Ogoni)",
+  "parts": "Leaves Tuber (1-23)"
+ },
+ {
+  "pnm": 19,
+  "family": "Araceae",
+  "botanical": "Caladium bicolor (Ait) Vent",
+  "local": "Honya (Ekpeye)",
+  "parts": "Corm (3-21)"
+ },
+ {
+  "pnm": 20,
+  "family": "Araceae",
+  "botanical": "Colocasia esculenta (L.) Schott",
+  "local": "Inodin (Ekpeye)",
+  "parts": "Whole plant (13-17, 19,21,23)"
+ },
+ {
+  "pnm": 21,
+  "family": "Asclepiadaceae",
+  "botanical": "Gongronema latifolium Benth.",
+  "local": "Utazi (Ikwerre)",
+  "parts": "Leaves (6-14,17-20)"
+ },
+ {
+  "pnm": 22,
+  "family": "Asclepiadaceae",
+  "botanical": "Pergularia dermia (Forsk) Chiov.",
+  "local": "Utazi (Ikwerre)",
+  "parts": "Leaves (1-23)"
+ },
+ {
+  "pnm": 23,
+  "family": "Asteraceae",
+  "botanical": "Aspilia africana Oliv. & Hiern",
+  "local": "Oranjila (Ikwere)",
+  "parts": "Leaves (1-8,9,11)"
+ },
+ {
+  "pnm": 24,
+  "family": "Asteraceae",
+  "botanical": "Chromolaena odorata (L.) King & Robinson",
+  "local": "Nshegbu awom (Ekpeye)",
+  "merged_cell": true,
+  "parts": "Leaves (1-23)"
+ },
+ {
+  "pnm": 25,
+  "family": "Asteraceae",
+  "botanical": "Artemisia dracunculus L.",
+  "local": "Ukuro (Ogoni)",
+  "merged_cell": true,
+  "parts": "Leaves (8,9,11)"
+ },
+ {
+  "pnm": 26,
+  "family": "Asteraceae",
+  "botanical": "Emilia coccinea (Sims) G. Don.",
+  "local": "Ntiene (Ekpeye)",
+  "parts": "Leaves (2-5,8)"
+ },
+ {
+  "pnm": 27,
+  "family": "Asteraceae",
+  "botanical": "Ageratum conyzoides L.",
+  "local": "Ogba Okukpo (Kalabari)",
+  "parts": "Leaves (1,3,4, 9,11-23)"
+ },
+ {
+  "pnm": 28,
+  "family": "Asteraceae",
+  "botanical": "Calendula officinalis L.",
+  "local": "Ukpuda (Ikwerre)",
+  "parts": "Leaves (12-21)"
+ },
+ {
+  "pnm": 29,
+  "family": "Asteraceae",
+  "botanical": "Tridax procumbens L.",
+  "local": "Mbuli (Ikwerre)",
+  "parts": "Leaves (1-23)"
+ },
+ {
+  "pnm": 30,
+  "family": "Asteraceae",
+  "botanical": "Adenostemma mauritianum DC.",
+  "local": "Oforu (Ikwerre)",
+  "parts": "Leaves (12-23)"
+ },
+ {
+  "pnm": 31,
+  "family": "Asteraceae",
+  "botanical": "Vernonia amygdalina Del.",
+  "local": "Olugbu (Ekpeye)",
+  "parts": "LeavesBark (1-23)"
+ },
+ {
+  "pnm": 32,
+  "family": "Asteraceae",
+  "botanical": "Tussilago farfara L.",
+  "local": "Odoupo (Ekpeye)",
+  "parts": "Leaves (4,9)"
+ },
+ {
+  "pnm": 33,
+  "family": "Bassellaceae",
+  "botanical": "Bassella alba L.",
+  "local": "Gbologi (Ikwerre)",
+  "parts": "Whole plant (1-3,6,8)"
+ },
+ {
+  "pnm": 34,
+  "family": "Betulaceae",
+  "botanical": "Corylus avellana L.",
+  "local": "'Hazel' (Ikwerre)",
+  "parts": "Leaves Leaves and flowers (1,4,5,7,9)"
+ },
+ {
+  "pnm": 35,
+  "family": "Bignoniaceae",
+  "botanical": "Newbouldia laevis (P. Beauv.) Seeman ex Beauv.",
+  "local": "Ogilisi (Ogoni)",
+  "parts": "Leaves and root; leaves Bark (1-8,11)"
+ },
+ {
+  "pnm": 36,
+  "family": "Bignoniaceae",
+  "botanical": "Spathodea campanulata P. Beauv.",
+  "local": "Arochukwu (Ikwerre)",
+  "parts": "Leaves Bark (5,6,9,11)"
+ },
+ {
+  "pnm": 37,
+  "family": "Boraginaceae",
+  "botanical": "Heliotropium indicum L.",
+  "local": "Azu (Ekpeye)",
+  "parts": "Whole plant (1,3,4,7)"
+ },
+ {
+  "pnm": 38,
+  "family": "Brassicaceae",
+  "botanical": "Brassica nigra (L.) W.D.J. Koch",
+  "local": "Ogwu nje (Kalabari)",
+  "parts": "Leaves Seeds (2,6,8,10,11)"
+ },
+ {
+  "pnm": 39,
+  "family": "Brassicaceae",
+  "botanical": "Brassica oleracea L.",
+  "local": "Ogbeagu (kalabari)",
+  "parts": "Leaves (2,3,5,9)"
+ },
+ {
+  "pnm": 40,
+  "family": "Brassicaceae",
+  "botanical": "Nasturtium officinale R. Br",
+  "local": "Aguba (Ikwerre)",
+  "parts": "Leaves (3,9,11)"
+ },
+ {
+  "pnm": 41,
+  "family": "Bromeliaceae",
+  "botanical": "Ananas comosus (L.) Merrill",
+  "local": "Ediebo (Ekpeye)",
+  "parts": "Fruit (1-23)"
+ },
+ {
+  "pnm": 42,
+  "family": "Burseraceae",
+  "botanical": "Dacryodes edulis (G. Don) H.J. Lam",
+  "local": "Eben (Ikwerre)",
+  "parts": "Leaves (1-23)"
+ },
+ {
+  "pnm": 43,
+  "family": "Caesalpiniaceae",
+  "botanical": "Dialium guineense Willd",
+  "local": "Ugbe-him (Ikwerre)",
+  "parts": "Leaves (4-8)"
+ },
+ {
+  "pnm": 44,
+  "family": "Caesalpiniaceae",
+  "botanical": "Senna alata L.",
+  "local": "Nduruchi (Ikwerre)",
+  "merged_cell": true,
+  "parts": "Leaves"
+ },
+ {
+  "pnm": 45,
+  "family": "Caesalpiniaceae",
+  "botanical": "Senna occidentalis (L.) Link",
+  "local": "Agbara (Ogoni)",
+  "merged_cell": true,
+  "parts": "Root (1-23)"
+ },
+ {
+  "pnm": 46,
+  "family": "Caesalpiniaceae",
+  "botanical": "Distemonanthus benthamianus Baill.",
+  "local": "Osashi (Ikwerre)",
+  "parts": "Bark (4,5,7,11)"
+ },
+ {
+  "pnm": 47,
+  "family": "Cannabaceae",
+  "botanical": "Humulus lupulus L.",
+  "local": "Oshikapa (Ogoni)",
+  "parts": "Leaves Bark (9,10)"
+ },
+ {
+  "pnm": 48,
+  "family": "Capparaceae",
+  "botanical": "Crateva adansonii DC",
+  "local": "Amakarode (Kalabari)",
+  "parts": "Leaves Bark (1-9, 19, 21, 22)"
+ },
+ {
+  "pnm": 49,
+  "family": "Caricaceae",
+  "botanical": "Carica papaya L.",
+  "local": "“Pawpaw” (Ogoni)",
+  "parts": "Leaves (1-23) Fruit Root"
+ },
+ {
+  "pnm": 50,
+  "family": "Caryophyllaceae",
+  "botanical": "Stellaria media (L) Vill..",
+  "local": "Ahilia okuko (Ikwerre)",
+  "parts": "Leaves (3,8,9,11)"
+ },
+ {
+  "pnm": 51,
+  "family": "Clusiaceae",
+  "botanical": "Garcinia kola Heckel",
+  "local": "Akilu, akama (Ikwerre)",
+  "parts": "Seed (1-23)"
+ },
+ {
+  "pnm": 52,
+  "family": "Combretaceae",
+  "botanical": "Terminalia superba Engl and Diels",
+  "local": "Egae (Ogoni)",
+  "parts": "Leaves Stem, root (1,3,4,6,8)"
+ },
+ {
+  "pnm": 53,
+  "family": "Combretaceae",
+  "botanical": "Combretum racemosum P. Beauv.",
+  "local": "Adallabanya (Kalabari)",
+  "parts": "Leaves (12,15,16,18,19,21-23-W)"
+ },
+ {
+  "pnm": 54,
+  "family": "Commelinaceae",
+  "botanical": "Palisota hirsuta (Thunb.) K. Schum.",
+  "local": "Asatie (Ekpeye)",
+  "parts": "Leaves (8,10)"
+ },
+ {
+  "pnm": 55,
+  "family": "Convolvulaceae",
+  "botanical": "Ipomoea involucrata P. Beauv.",
+  "local": "Fifilori (Kalabari)",
+  "parts": "Leaves Leaves and stem (1-8,9)"
+ },
+ {
+  "pnm": 56,
+  "family": "Convolvulaceae",
+  "botanical": "Ipomoea mauritania Jacq.",
+  "local": "Mgba-ala",
+  "language_missing": true,
+  "parts": "Root (1,2,6,8,11)"
+ },
+ {
+  "pnm": 57,
+  "family": "Convolvulaceae",
+  "botanical": "Ipomoea quamoclit L.",
+  "local": "Kpulibo (Ogoni)",
+  "parts": "Leaves (12-23)"
+ },
+ {
+  "pnm": 58,
+  "family": "Connaraceae",
+  "botanical": "Cnestis ferruginea DC.",
+  "local": "Okpe-nketa (Ikwerre)",
+  "parts": "Leaves (12,13,14,17)"
+ },
+ {
+  "pnm": 59,
+  "family": "Crassulaceae",
+  "botanical": "Bryophyllum pinnatum (Lam) Oken",
+  "local": "Nkwaaka (Ekpeye)",
+  "parts": "Leaves (4,6,7,8,9)"
+ },
+ {
+  "pnm": 60,
+  "family": "Cucurbitaceae",
+  "botanical": "Adenopus breviflorus Benth",
+  "local": "Ukuro (Ekpeye)",
+  "parts": "Fruit Leaves (1-11)"
+ },
+ {
+  "pnm": 61,
+  "family": "Cucurbitaceae",
+  "botanical": "Citrullus colocynthis (L.) Schrad",
+  "local": "Egusi (Kalabari)",
+  "parts": "Fruit Leaves and fruit Seed shell (1-8,11)"
+ },
+ {
+  "pnm": 62,
+  "family": "Cucurbitaceae",
+  "botanical": "Momordica charantia L.",
+  "local": "Alo ose (Ogoni)",
+  "parts": "Leaves and fruit Fruit (1,4,5,7,10,11)"
+ },
+ {
+  "pnm": 63,
+  "family": "Cucurbitaceae",
+  "botanical": "Momordica balsamina L.",
+  "local": "Sibifuka (Kalabari)",
+  "parts": "Whole plant (12,13)"
+ },
+ {
+  "pnm": 64,
+  "family": "Cucurbitaceae",
+  "botanical": "Cucurbita maxima Duchesne",
+  "local": "Akumocha (Ikwerre)",
+  "parts": "Leaves (14-20,22)"
+ },
+ {
+  "pnm": 65,
+  "family": "Cucurbitaceae",
+  "botanical": "Luffa cylindrica (L.) M.J. Roem",
+  "local": "Ania mme",
+  "language_missing": true,
+  "parts": "Leaves Root (2-8,11)"
+ },
+ {
+  "pnm": 66,
+  "family": "Cucurbitaceae",
+  "botanical": "Telfaria occidentalis Hook. F.",
+  "local": "Mkpuru ugu",
+  "language_missing": true,
+  "parts": "Flowers, leaves (1-23)"
+ },
+ {
+  "pnm": 67,
+  "family": "Dioscoreaceae",
+  "botanical": "Dioscorea villosa L.",
+  "local": "Ododo (Kalabari)",
+  "parts": "Tuber (12,13,16,19,20,21)"
+ },
+ {
+  "pnm": 68,
+  "family": "Dioscoreaceae",
+  "botanical": "Dioscorea rotundata Poir",
+  "local": "Fingi (Kalabari)",
+  "parts": "Leaves (13-17,20,22,23)"
+ },
+ {
+  "pnm": 69,
+  "family": "Equisetaceae",
+  "botanical": "Equisetum arvense L.",
+  "local": "Oru etemi (Kalabari)",
+  "parts": "Leaves (4-21)"
+ },
+ {
+  "pnm": 70,
+  "family": "Ericaceae",
+  "botanical": "Vaccinium myrtillus L.",
+  "local": "Anyaoka (Ikwerre)",
+  "parts": "Leaves (15-20,21,23)"
+ },
+ {
+  "pnm": 71,
+  "family": "Euphorbiaceae",
+  "botanical": "Croton lobatus L.",
+  "local": "Okwe (Ikwerre)",
+  "parts": "Leaves (1,5,7,8,11)"
+ },
+ {
+  "pnm": 72,
+  "family": "Euphorbiaceae",
+  "botanical": "Ricinus communis L.",
+  "local": "Ogiri aro (Ogoni)",
+  "parts": "Seed Leaves (2-8,9-14)"
+ },
+ {
+  "pnm": 73,
+  "family": "Euphorbiaceae",
+  "botanical": "Alchornea cordifolia (Schum & Thonn.) Muell. Arg.",
+  "local": "Epai (Ikwerre)",
+  "parts": "Leaves Leaves and root (3,6,7,9,11)"
+ },
+ {
+  "pnm": 74,
+  "family": "Euphorbiaceae",
+  "botanical": "Acalypha fimbriata (Schum & Thonn) Forsk",
+  "local": "Abalebaji (Kalabari)",
+  "parts": "Leaves Leaves and twigs (1-7,9,11)"
+ },
+ {
+  "pnm": 75,
+  "family": "Euphorbiaceae",
+  "botanical": "Jatropha curcas L.",
+  "local": "Olulu idu (Ogoni)",
+  "parts": "Leaves Twigs Root ((1-23)"
+ },
+ {
+  "pnm": 76,
+  "family": "Euphorbiaceae",
+  "botanical": "Tetracarpidium conophorum (Mull. Arg.) Hutch & dalz.",
+  "local": "Ukpa (Ikwerre)",
+  "parts": "Leaves and seeds (5,8,9)"
+ },
+ {
+  "pnm": 77,
+  "family": "Euphorbiaceae",
+  "botanical": "Euphorbia hirta L.",
+  "local": "Okwu ngwo (Ikwerre)",
+  "parts": "Whole plant (12,15,16,18,19,20)"
+ },
+ {
+  "pnm": 78,
+  "family": "Euphorbiaceae",
+  "botanical": "Croton zambesicus L.",
+  "local": "Alele (Ogoni)",
+  "parts": "Leaves (12-15,17,22,23)"
+ },
+ {
+  "pnm": 79,
+  "family": "Fabaceae",
+  "botanical": "Glycine max L.",
+  "local": "Mmanu agwa (Ekpeye)",
+  "parts": "Seed (2,3,4,6,11,7,9,10,13,16,17,21,22)"
+ },
+ {
+  "pnm": 80,
+  "family": "Flacourtiaceae",
+  "botanical": "Caloncoba echinata (Oliv.) Glig",
+  "local": "Uhie (Kalabari)",
+  "parts": "Leaves Seed (6,8,9,13,14,19)"
+ },
+ {
+  "pnm": 81,
+  "family": "Geraniaceae",
+  "botanical": "Pelargonium graveolens L.",
+  "local": "Apara (Ikwerre)",
+  "parts": "Seed and fruit (3,5,8,10)"
+ },
+ {
+  "pnm": 82,
+  "family": "Grossulariaceae",
+  "botanical": "Emblica officinalis L.",
+  "local": "Igbero (Kalabari)",
+  "parts": "Leaves (16,17,19,20,21,23)"
+ },
+ {
+  "pnm": 83,
+  "family": "Hamamelidaceae",
+  "botanical": "Hamamelis virginiana L.",
+  "local": "Ogwu ogwu (Ikwerre)",
+  "parts": "Leaves and stem (1-23)"
+ },
+ {
+  "pnm": 84,
+  "family": "Icacinaceae",
+  "botanical": "Lasianthera africana P. Beauv",
+  "local": "Turumma (Ekpeye)",
+  "parts": "LeavesFruit (1-23)"
+ },
+ {
+  "pnm": 85,
+  "family": "Icacinaceae",
+  "botanical": "Icacina trichantha Oliv.",
+  "local": "Mbia (Ikwerre)",
+  "parts": "Leaves (12-15,18,22)"
+ },
+ {
+  "pnm": 86,
+  "family": "Irvingiaceae",
+  "botanical": "Irvingia gabonensis (Ambry-lecomte ex O' Rorke) Baill.",
+  "local": "Ugili (Ikwerre)",
+  "parts": "Leaves Bark Seed (1-23)"
+ },
+ {
+  "pnm": 87,
+  "family": "Lamiaceae",
+  "botanical": "Origanum majorana L.",
+  "local": "Atagbasi (Kalabari)",
+  "parts": "Flower (2-9,11)"
+ },
+ {
+  "pnm": 88,
+  "family": "Lamiaceae",
+  "botanical": "Rosmarinus officinalis L.",
+  "local": "Imerewo (Ogoni)",
+  "parts": "Leaves (9,11)"
+ },
+ {
+  "pnm": 89,
+  "family": "Lamiaceae",
+  "botanical": "Marrubium vulgare L.",
+  "local": "Oguru (Ogoni)",
+  "parts": "Leaves Leaves and seeds (1-23)"
+ },
+ {
+  "pnm": 90,
+  "family": "Lamiaceae",
+  "botanical": "Thymus vulgaris L.",
+  "local": "Akuko (Ikwerre)",
+  "parts": "Leaves (1-8,10,11)"
+ },
+ {
+  "pnm": 91,
+  "family": "Lamiaceae",
+  "botanical": "Ocimum basilicum L.",
+  "local": "Ihiri (Kalabari)",
+  "parts": "Leaves (1,4,7,9,11)"
+ },
+ {
+  "pnm": 92,
+  "family": "Lamiaceae",
+  "botanical": "Ocimum gratissimum L.",
+  "local": "Odukwu (Ekpeye)",
+  "parts": "Leaves (1-23)"
+ },
+ {
+  "pnm": 93,
+  "family": "Lamiaceae",
+  "botanical": "Solenostemon monostachyus (P. Beauv.) Briq.",
+  "local": "Egba (Ikwerre)",
+  "parts": "Leaves (5-11)"
+ },
+ {
+  "pnm": 94,
+  "family": "Lamiaceae",
+  "botanical": "Hyptis pectinata (L.) Poit",
+  "local": "Tululie (Ekpeye)",
+  "parts": "Whole plant (4-8)"
+ },
+ {
+  "pnm": 95,
+  "family": "Lamiaceae",
+  "botanical": "Salvia officinalis L.",
+  "local": "Uzi (Ikwerre)",
+  "parts": "Leaves, stem (12-19,21)"
+ },
+ {
+  "pnm": 96,
+  "family": "Lamiaceae",
+  "botanical": "Hyssopus officinalis L.",
+  "local": "Ofete (Ikwerre)",
+  "parts": "Root, stem (13,15,16,18,20,22)"
+ },
+ {
+  "pnm": 97,
+  "family": "Lamiaceae",
+  "botanical": "Satureja hortensis L.",
+  "local": "Aghara (Ikwerre)",
+  "parts": "Leaves, stem (12-14,16,17,19,21)"
+ },
+ {
+  "pnm": 98,
+  "family": "Lauraceae",
+  "botanical": "Cassytha filiformis L.",
+  "local": "Ngbu akpu (Ikwerre)",
+  "parts": "Whole plant (2-10)"
+ },
+ {
+  "pnm": 99,
+  "family": "Lauraceae",
+  "botanical": "Persea americana Mill.",
+  "local": "Ube (Ikwerre)",
+  "parts": "Fruits and leaves Fruit (1-23)"
+ },
+ {
+  "pnm": 100,
+  "family": "Liliaceae",
+  "botanical": "Allium cepa L.",
+  "local": "Ayo (Ikwerre)",
+  "parts": "Bulb (1-23)"
+ },
+ {
+  "pnm": 101,
+  "family": "Liliaceae",
+  "botanical": "Allium sativum L.",
+  "local": "Ayo odi (Ikwerre)",
+  "parts": "Clove (1-23)"
+ },
+ {
+  "pnm": 102,
+  "family": "Liliaceae",
+  "botanical": "Allium ascalonicum L.",
+  "local": "Mbele (Ikwerre)",
+  "parts": "Leaves (12-18,20,22)"
+ },
+ {
+  "pnm": 103,
+  "family": "Liliaceae",
+  "botanical": "Allium schoenoprasum L.",
+  "local": "Ayo ohia (Ikwerre)",
+  "parts": "Leaves (13,15,16,18,19,23)"
+ },
+ {
+  "pnm": 104,
+  "family": "Liliaceae",
+  "botanical": "Aloe vera L.",
+  "local": "“Aloe vera”",
+  "not_a_local_name": true,
+  "parts": "Leaves (1-23)"
+ },
+ {
+  "pnm": 105,
+  "family": "Liliaceae",
+  "botanical": "Gloriosa superba L.",
+  "local": "Ugu-ele",
+  "language_missing": true,
+  "parts": "Tuber and leavesTuber (2,6,10,11)"
+ },
+ {
+  "pnm": 106,
+  "family": "Loganiaceae",
+  "botanical": "Anthocleista djalonensis L.",
+  "local": "Aga okpolo (Kalabari)",
+  "parts": "Bark Whole plant (2-8)"
+ },
+ {
+  "pnm": 107,
+  "family": "Malvaceae",
+  "botanical": "Hibiscus rosa-sinensis L.",
+  "local": "Ireagu (Ekpeye)",
+  "parts": "Leaves Flowers (5,6,7,9,10,11)"
+ },
+ {
+  "pnm": 108,
+  "family": "Malvaceae",
+  "botanical": "Sida acuta L.",
+  "local": "Nkwoda (Ikwerre)",
+  "parts": "Leaves Root (1-7,9)"
+ },
+ {
+  "pnm": 109,
+  "family": "Malvaceae",
+  "botanical": "Gossypium hirsutum L.",
+  "local": "Ngobe (Ikwerre)",
+  "parts": "Leaves (1-23)"
+ },
+ {
+  "pnm": 110,
+  "family": "Malvaceae",
+  "botanical": "Hibiscus surattensis L.",
+  "local": "Ubabara (Ikwerre)",
+  "parts": "Leaves, flower (12,14,17,18,19,21)"
+ },
+ {
+  "pnm": 111,
+  "family": "Malvaceae",
+  "botanical": "Althaea rosea Cav.",
+  "local": "Nshi atu (Ikwerre)",
+  "parts": "Leaves (14,16,17,19,22)"
+ },
+ {
+  "pnm": 112,
+  "family": "Meliaceae",
+  "botanical": "Carapa procera DC",
+  "local": "Mbete (Ekpeye)",
+  "parts": "Leaves (2-7,9,11)"
+ },
+ {
+  "pnm": 113,
+  "family": "Meliaceae",
+  "botanical": "Azadirachta indica A. Juss",
+  "local": "Dongoyaro (Ikwerre)",
+  "parts": "Leaves and bark (1-23)"
+ },
+ {
+  "pnm": 114,
+  "family": "Mimosaceae",
+  "botanical": "Mimosa pudica L.",
+  "local": "Onwueke (Kalabari)",
+  "parts": "Whole plant (3-7,9,10,11)"
+ },
+ {
+  "pnm": 115,
+  "family": "Mimosaceae",
+  "botanical": "Albizia zygia (DC.) J.F. Macbr.",
+  "local": "Mgbeobi (Ekpeye)",
+  "parts": "Leaves (12,14,15,17,18,20,21)"
+ },
+ {
+  "pnm": 116,
+  "family": "Moraceae",
+  "botanical": "Milicia excelsa (Welw.) C.C. Berg",
+  "local": "Oji (Ikwerre)",
+  "parts": "Stem and bark (4-7)"
+ },
+ {
+  "pnm": 117,
+  "family": "Moraceae",
+  "botanical": "Ficus exasperata Vahl",
+  "local": "Asesa (Ikwerre)",
+  "parts": "Leaves Bark Root (1-23)"
+ },
+ {
+  "pnm": 118,
+  "family": "Moraceae",
+  "botanical": "Ficus carica L.",
+  "local": "Oshishitu (Ikwerre)",
+  "parts": "Leaves or stem (12-23)"
+ },
+ {
+  "pnm": 119,
+  "family": "Musaceae",
+  "botanical": "Musa paradisiaca L.",
+  "local": "Okirima (Kalabari)",
+  "parts": "Root Stem Leaves (1-11)"
+ },
+ {
+  "pnm": 120,
+  "family": "Myristicaceae",
+  "botanical": "Myristica fragrans Houtt",
+  "local": "Nto (Ikwerre)",
+  "parts": "Leaves (12-15,17,18,21)"
+ },
+ {
+  "pnm": 121,
+  "family": "Myrtaceae",
+  "botanical": "Psidium guajava L.",
+  "local": "“Guava” (Ogoni)",
+  "parts": "Leaves (1-23)"
+ },
+ {
+  "pnm": 122,
+  "family": "Myrtaceae",
+  "botanical": "Pimenta dioica (L.) Merr.",
+  "local": "Utashidiri (Ikwerre)",
+  "parts": "Leaves, stem (12-23)"
+ },
+ {
+  "pnm": 123,
+  "family": "Nyctaginaceae",
+  "botanical": "Boerhavia diffusa L.",
+  "local": "Azu-igwe (Ikwerre)",
+  "parts": "Whole plant (12-23)"
+ },
+ {
+  "pnm": 124,
+  "family": "Olacaceae",
+  "botanical": "Olax subscorpioidea Oliv.",
+  "local": "Uburubu (Ogoni)",
+  "parts": "Leaves, stem and root Root (2,3,4,8,9,11)"
+ },
+ {
+  "pnm": 125,
+  "family": "Oleaceae",
+  "botanical": "Olea europaea L.",
+  "local": "Mkpuru ada (Ekpeye)",
+  "parts": "Fruit and seed (13-19)"
+ },
+ {
+  "pnm": 126,
+  "family": "Onagraceae",
+  "botanical": "Oenothera biennis L.",
+  "local": "Obimara (Ikwerre)",
+  "parts": "Leaves and flower (1-3,9)"
+ },
+ {
+  "pnm": 127,
+  "family": "Palmae",
+  "botanical": "Elaeis guineensis Jacq",
+  "local": "Nkwo (Ikwerre)",
+  "parts": "Fruit pericarp (1-23)"
+ },
+ {
+  "pnm": 128,
+  "family": "Papilionaceae",
+  "botanical": "Abrus precatorius L.",
+  "local": "Anya nnunu (Kalabari)",
+  "parts": "Leaves (1-23)"
+ },
+ {
+  "pnm": 129,
+  "family": "Papilionaceae",
+  "botanical": "Baphia nitida Lodd.",
+  "local": "Abode (Ekpeye)",
+  "parts": "Leaves (1-23)"
+ },
+ {
+  "pnm": 130,
+  "family": "Papilionaceae",
+  "botanical": "Erythrina senegalensis DC.",
+  "local": "Echichi (Ekpeye)",
+  "parts": "Whole plant (2,5,6,8,11)"
+ },
+ {
+  "pnm": 131,
+  "family": "Papilionaceae",
+  "botanical": "Lonchocarpus cyanescens (Schum. & Thonn.) Benth.",
+  "local": "Nji (Kalabari)",
+  "parts": "Root Root and stem Leaves (1-23)"
+ },
+ {
+  "pnm": 132,
+  "family": "Papilionaceae",
+  "botanical": "Trigonella foenumgraecum L.",
+  "local": "Akidoucha (Ekpeye)",
+  "parts": "Leaves and seed Seed (1-23)"
+ },
+ {
+  "pnm": 133,
+  "family": "Papilionaceae",
+  "botanical": "Glycyrrhiza glabra L.",
+  "local": "Uziza (Ikwerre)",
+  "parts": "Leaves or seed (12-20,23)"
+ },
+ {
+  "pnm": 134,
+  "family": "Papilionaceae",
+  "botanical": "Pterocarpus erinaceus Poir.",
+  "local": "Aja (Ikwerre)",
+  "parts": "Leaves and bark (12,13,15,16,18,19)"
+ },
+ {
+  "pnm": 135,
+  "family": "Pedaliaceae",
+  "botanical": "Sesamum indicum L.",
+  "local": "Ulogbo (Ogoni)",
+  "parts": "Seed (1-8,11)"
+ },
+ {
+  "pnm": 136,
+  "family": "Phyllanthaceae",
+  "botanical": "Phyllanthus amarus Schum. & Thonn.",
+  "local": "Ngwu (Ikwerre)",
+  "parts": "Whole plant (1-23)"
+ },
+ {
+  "pnm": 137,
+  "family": "Phyllanthaceae",
+  "botanical": "Bridelia ferruginea Benth",
+  "local": "Mmahu (Ekpeye)",
+  "parts": "Leaves and bark Leaves (1,3,5,8,9,10)"
+ },
+ {
+  "pnm": 138,
+  "family": "Pinaceae",
+  "botanical": "Pinus caribaea Morelet",
+  "local": "Afoma (Ikwerre)",
+  "parts": "Seed Leaves (12-23)"
+ },
+ {
+  "pnm": 139,
+  "family": "Piperaceae",
+  "botanical": "Piper guineense Schum. & Thonn.",
+  "local": "Uziza (Ikwerre)",
+  "parts": "Seed (12-23)"
+ },
+ {
+  "pnm": 140,
+  "family": "Poaceae",
+  "botanical": "Cymbopogon citratus (DC) Stapf",
+  "local": "Achara (Ikwerre)",
+  "parts": "Leaves (1,4,10,11)"
+ },
+ {
+  "pnm": 141,
+  "family": "Poaceae",
+  "botanical": "Triticum sativum Lam.",
+  "local": "Mmahuta (Ogoni)",
+  "parts": "LeavesBran (1-23)"
+ },
+ {
+  "pnm": 142,
+  "family": "Polygalaceae",
+  "botanical": "Carpolobia lutea G. Don",
+  "local": "Anagalagala (Kalabari)",
+  "parts": "Root (1-4,9,10,11)"
+ },
+ {
+  "pnm": 143,
+  "family": "Polygonaceae",
+  "botanical": "Rheum palmatum L.",
+  "local": "Oshishili (Kalabari)",
+  "parts": "Leaf and stem (9,11)"
+ },
+ {
+  "pnm": 144,
+  "family": "Portulacaceae",
+  "botanical": "Talinum triangulare (Jacq.) Willd",
+  "local": "Anyiri (Ogoni)",
+  "parts": "Whole plant (1-11)"
+ },
+ {
+  "pnm": 145,
+  "family": "Portulacaceae",
+  "botanical": "Portulaca oleracea L.",
+  "local": "Nti-odu (Ikwerre)",
+  "parts": "Whole plant (12-17,19,20)"
+ },
+ {
+  "pnm": 146,
+  "family": "Punicaceae",
+  "botanical": "Punica granatum L.",
+  "local": "Nsoba (Ekpeye)",
+  "parts": "Leaves, flower bud and bark Fruit pericarp (1-23)"
+ },
+ {
+  "pnm": 147,
+  "family": "Rosaceae",
+  "botanical": "Pyrus cydonia L.",
+  "local": "Bunyga (Kalabari)",
+  "parts": "Leaves, stem (1-23)"
+ },
+ {
+  "pnm": 148,
+  "family": "Rosaceae",
+  "botanical": "Rosa canina L.",
+  "local": "Ughele (Ikwerre)",
+  "parts": "Leaves, stem (12-23)"
+ },
+ {
+  "pnm": 149,
+  "family": "Rosaceae",
+  "botanical": "Rubus idaeus L.",
+  "local": "Oracha (Ikwerre)",
+  "parts": "Leaves (12-19)"
+ },
+ {
+  "pnm": 150,
+  "family": "Rubiaceae",
+  "botanical": "Galium aparine L.",
+  "local": "Akara (Ogoni)",
+  "parts": "Leaves (2,3,9,10)"
+ },
+ {
+  "pnm": 151,
+  "family": "Rubiaceae",
+  "botanical": "Mitracarpus hirtus (L.) DC.",
+  "local": "Obwa (Ikwerre)",
+  "parts": "Leaves and stem (2,4,6,7,8)"
+ },
+ {
+  "pnm": 152,
+  "family": "Rubiaceae",
+  "botanical": "Diodia sarmentosa L.",
+  "local": "Abayin (Ogoni)",
+  "parts": "Leaves (12,14,15,17,20,21)"
+ },
+ {
+  "pnm": 153,
+  "family": "Rubiaceae",
+  "botanical": "Heinsia crinita G. Tayl.",
+  "local": "Amateme (Ogoni)",
+  "parts": "Leaves (12-23)"
+ },
+ {
+  "pnm": 154,
+  "family": "Rubiaceae",
+  "botanical": "Ixora coccinea L.",
+  "local": "Orsu (Ogoni)",
+  "parts": "Whole plant (12-23)"
+ },
+ {
+  "pnm": 155,
+  "family": "Rubiaceae",
+  "botanical": "Sarcocephalus latifolius (Sm) E.A. Bruce",
+  "local": "Kulata (Ogoni)",
+  "parts": "Root (12-17,20,23)"
+ },
+ {
+  "pnm": 156,
+  "family": "Rubiaceae",
+  "botanical": "Pausinystalia yohimbe Pierre ex Beille",
+  "local": "Mmatu (Ikwerre)",
+  "parts": "Flower (13-20,22)"
+ },
+ {
+  "pnm": 157,
+  "family": "Rutaceae",
+  "botanical": "Citrus sinensis (L.) Osbeck.",
+  "local": "Appe (Ogoni)",
+  "parts": "Fruit (1-23)"
+ },
+ {
+  "pnm": 158,
+  "family": "Rutaceae",
+  "botanical": "Citrus limon L.",
+  "local": "Puloumbiya (Ekpeye)",
+  "parts": "Fruit (1-23)"
+ },
+ {
+  "pnm": 159,
+  "family": "Rutaceae",
+  "botanical": "Citrus aurantium L.",
+  "local": "Oroma (Ikwerre)",
+  "parts": "Fruit (1-23)"
+ },
+ {
+  "pnm": 160,
+  "family": "Rutaceae",
+  "botanical": "Citrus paradisi Macfad.",
+  "local": "Ogbe (Ikwerre)",
+  "parts": "Fruit (1-23)"
+ },
+ {
+  "pnm": 161,
+  "family": "Rutaceae",
+  "botanical": "Fagara mycrophylla Engl.",
+  "local": "Duku (Ekpeye)",
+  "parts": "Root Bark (11-23)"
+ },
+ {
+  "pnm": 162,
+  "family": "Sapindaceae",
+  "botanical": "Blighia sapida Konig",
+  "local": "Orugbo (Ekpeye)",
+  "parts": "Leaves (10,13,14,17,19)"
+ },
+ {
+  "pnm": 163,
+  "family": "Sapotaceae",
+  "botanical": "Chrysophyllum albidum G.Don",
+  "local": "Udara (Ogoni)",
+  "parts": "Stem Seed Whole plant (13,15,16,19,20,22)"
+ },
+ {
+  "pnm": 164,
+  "family": "Scrophulariaceae",
+  "botanical": "Sapora dulcis L.",
+  "local": "Dweinakum (Ekpeye)",
+  "parts": "Whole plant (14, 16, 17, 18, 20, 21-23)"
+ },
+ {
+  "pnm": 165,
+  "family": "Smilacaceae",
+  "botanical": "Smilax anceps Willd",
+  "local": "Jiabana (Ekpeye)",
+  "parts": "Root (1-23)"
+ },
+ {
+  "pnm": 166,
+  "family": "Solanaceae",
+  "botanical": "Nicotiana rustica L.",
+  "local": "Utaba (Ikwerre)",
+  "parts": "Leaves (1-7,9,11)"
+ },
+ {
+  "pnm": 167,
+  "family": "Solanaceae",
+  "botanical": "Solanum nigrum L.",
+  "local": "Anara (Ogoni)",
+  "parts": "Leaves (1-5,8)"
+ },
+ {
+  "pnm": 168,
+  "family": "Solanaceae",
+  "botanical": "Solanum tuberosum L.",
+  "local": "Mkwutu (Ikwerre)",
+  "parts": "Tuber (4,8,9,10)"
+ },
+ {
+  "pnm": 169,
+  "family": "Solanaceae",
+  "botanical": "Solanum torvum Sw",
+  "local": "Kilali (Kalabari)",
+  "parts": "Fruit (16, 17, 20, 22, 23)"
+ },
+ {
+  "pnm": 170,
+  "family": "Solanaceae",
+  "botanical": "Physalis angulata L.",
+  "local": "Numu (Kalabari)",
+  "parts": "Leaves and stem (14, 17, 20, 21, 23)"
+ },
+ {
+  "pnm": 171,
+  "family": "Sterculiaceae",
+  "botanical": "Sterculia tragacantha Lindl.",
+  "local": "Obiribo (Kalabari)",
+  "parts": "Leaves (12-23)"
+ },
+ {
+  "pnm": 172,
+  "family": "Sterculiaceae",
+  "botanical": "Cola nitida (Vent) Schott and Endl.",
+  "local": "Eji (Ikwerre)",
+  "parts": "Bark (12,14,16,17,21,22)"
+ },
+ {
+  "pnm": 173,
+  "family": "Tiliaceae",
+  "botanical": "Corchorus olitorius L.",
+  "local": "Ahihara (Kalabari)",
+  "parts": "Leaves (5-11)"
+ },
+ {
+  "pnm": 174,
+  "family": "Tiliaceae",
+  "botanical": "Glyphaea brevis Spreng",
+  "local": "Itono (Ikwerre)",
+  "parts": "Leaves and bark Leaves and fruit Leaves, stem and root (1,2,4,7,9)"
+ },
+ {
+  "pnm": 175,
+  "family": "Tiliaceae",
+  "botanical": "Triumfetta rhomboidea Jacq.",
+  "local": "Udoho (Ogoni)",
+  "parts": "Leaves Bark (4-7,9,11)"
+ },
+ {
+  "pnm": 176,
+  "family": "Ulmaceae",
+  "botanical": "Trema orientalis (L.) Blume",
+  "local": "Elemukien (Ogoni)",
+  "parts": "Leaves Bark (1,3,4,5,7,9)"
+ },
+ {
+  "pnm": 177,
+  "family": "Urticaceae",
+  "botanical": "Laportea aestuans (L.) Chew.",
+  "local": "Ile (Ikwerre)",
+  "parts": "Leaves (1-23)"
+ },
+ {
+  "pnm": 178,
+  "family": "Valerianaceae",
+  "botanical": "Valeriana officinalis L.",
+  "local": "Odukwu (Ikwerre)",
+  "parts": "Leaves (10-13)"
+ },
+ {
+  "pnm": 179,
+  "family": "Verbenaceae",
+  "botanical": "Verbena officinalis L.",
+  "local": "Agwa (Ikwerre)",
+  "parts": "Stem, leaves (14,15,18,19,21,23)"
+ },
+ {
+  "pnm": 180,
+  "family": "Verbenaceae",
+  "botanical": "Stachytarpheta cayennensis (Rich.) Vahl",
+  "local": "Mbeku (Kalabari)",
+  "parts": "Leaves (12-15,22)"
+ },
+ {
+  "pnm": 181,
+  "family": "Violaceae",
+  "botanical": "Viola tricolor L.",
+  "local": "Ekpeobi (Kalabari)",
+  "parts": "Leaves (13-20,22)"
+ },
+ {
+  "pnm": 182,
+  "family": "Violaceae",
+  "botanical": "Hybanthus enneaspermus (L.) F. Muell.",
+  "local": "Ocha (Ikwerre)",
+  "parts": "Whole plant (1,2,4,7,9,11)"
+ },
+ {
+  "pnm": 183,
+  "family": "Vitaceae",
+  "botanical": "Cissus quadrangularis L.",
+  "local": "Ogbagi (Ekpeye)",
+  "parts": "Whole plant (1-23)"
+ },
+ {
+  "pnm": 184,
+  "family": "Vitaceae",
+  "botanical": "Vitex doniana Sweet",
+  "local": "Nalele (Ogoni)",
+  "parts": "Fruit (12-17,19)"
+ },
+ {
+  "pnm": 185,
+  "family": "Zingiberaceae",
+  "botanical": "Zingiber officinale Roscoe",
+  "local": "Oseojiala (Ikwerre)",
+  "parts": "Rhizome (1-23)"
+ },
+ {
+  "pnm": 186,
+  "family": "Zingiberaceae",
+  "botanical": "Aframomum melegueta K. Schum",
+  "local": "Ojili (Ikwerre)",
+  "parts": "Seed Root (1-23)"
+ },
+ {
+  "pnm": 187,
+  "family": "Zingiberaceae",
+  "botanical": "Curcuma longa L.",
+  "local": "Ukufo (Ogoni)",
+  "parts": "Rhizome (4,5,7,9,10)"
+ },
+ {
+  "pnm": 188,
+  "family": "Zingiberaceae",
+  "botanical": "Costus afer Ker. Gawl",
+  "local": "Biringbe (Kalabari)",
+  "parts": "Stem (15-23)"
+ }
+]

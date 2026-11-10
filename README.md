@@ -872,7 +872,7 @@ data/
 | Item | Status |
 |------|--------|
 | Six keyword flows → conversational agent | ✅ Superseded by A1 |
-| Plant lookup (479 runtime names; 442 resolved), provenance data, privacy disclosure, `PRIVACY.md` | ✅ Done |
+| Plant lookup (950 runtime names; 898 resolved), provenance data, privacy disclosure, `PRIVACY.md` | ✅ Done |
 | Institutional dashboard at `/dashboard` | ✅ Done |
 | Hardening: webhook signatures, dedup, RLS lockdown, send retries | ✅ Done |
 | A1 · Tool-calling agent replaces the keyword state machine | ✅ Done |

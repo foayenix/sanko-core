@@ -1,0 +1,2372 @@
+[
+  {
+    "source_id": "odebunmi-2022-ogbomosho",
+    "source_row": 1,
+    "source_table": "Table 2",
+    "source_table_row": 1,
+    "botanical_as_published": "Allium sativum L.",
+    "family_as_published": "Amaryllidaceae",
+    "common_english_as_published": "Garlic",
+    "vernacular_as_published": "Ayu",
+    "vernacular_names": [
+      {
+        "local_name": "Ayu",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "bulb"
+    ],
+    "preparations_reported": [
+      "frying"
+    ],
+    "voucher_specimen": "IFE18082",
+    "life_form_as_published": "Herb",
+    "use_context": "plant reported for COVID-19 in Ogbomosho North and South, Oyo State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "odebunmi-2022-ogbomosho",
+    "source_row": 2,
+    "source_table": "Table 2",
+    "source_table_row": 2,
+    "botanical_as_published": "Alstonia boonei De Wild.",
+    "family_as_published": "Apocynaceae",
+    "common_english_as_published": "Stool weed",
+    "vernacular_as_published": "Doctor igbo",
+    "vernacular_names": [
+      {
+        "local_name": "Doctor igbo",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "IFE18083",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for COVID-19 in Ogbomosho North and South, Oyo State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "odebunmi-2022-ogbomosho",
+    "source_row": 3,
+    "source_table": "Table 2",
+    "source_table_row": 3,
+    "botanical_as_published": "Azadirachta indica A. Juss.",
+    "family_as_published": "Meliaceae",
+    "common_english_as_published": "Neem",
+    "vernacular_as_published": "Dongoyaro",
+    "vernacular_names": [
+      {
+        "local_name": "Dongoyaro",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "bark"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "IFE18086",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for COVID-19 in Ogbomosho North and South, Oyo State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "odebunmi-2022-ogbomosho",
+    "source_row": 4,
+    "source_table": "Table 2",
+    "source_table_row": 4,
+    "botanical_as_published": "Capsicum frutescens L.",
+    "family_as_published": "Solanaceae",
+    "common_english_as_published": "Pepper",
+    "vernacular_as_published": "Ata wewe",
+    "vernacular_names": [
+      {
+        "local_name": "Ata wewe",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "fruit"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "IFE18088",
+    "life_form_as_published": "Herb",
+    "use_context": "plant reported for COVID-19 in Ogbomosho North and South, Oyo State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "odebunmi-2022-ogbomosho",
+    "source_row": 5,
+    "source_table": "Table 2",
+    "source_table_row": 5,
+    "botanical_as_published": "Cinnamomum camphora (L.) J. Presl",
+    "family_as_published": "Lauraceae",
+    "common_english_as_published": "Camphor",
+    "vernacular_as_published": "Kafura",
+    "vernacular_names": [
+      {
+        "local_name": "Kafura",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "bark"
+    ],
+    "preparations_reported": [
+      "heating"
+    ],
+    "voucher_specimen": "IFE18091",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for COVID-19 in Ogbomosho North and South, Oyo State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "odebunmi-2022-ogbomosho",
+    "source_row": 6,
+    "source_table": "Table 2",
+    "source_table_row": 6,
+    "botanical_as_published": "Citrus limon (L.) Osbeck",
+    "family_as_published": "Rutaceae",
+    "common_english_as_published": "Lime",
+    "vernacular_as_published": "Oronbo",
+    "vernacular_names": [
+      {
+        "local_name": "Oronbo",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "fruit"
+    ],
+    "preparations_reported": [
+      "juice extraction"
+    ],
+    "voucher_specimen": "IFE18093",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for COVID-19 in Ogbomosho North and South, Oyo State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "odebunmi-2022-ogbomosho",
+    "source_row": 7,
+    "source_table": "Table 2",
+    "source_table_row": 7,
+    "botanical_as_published": "Clausena anisata (Willd.) Hook.f. ex Benth.",
+    "family_as_published": "Rutaceae",
+    "common_english_as_published": "Horsewood",
+    "vernacular_as_published": "Agbasa",
+    "vernacular_names": [
+      {
+        "local_name": "Agbasa",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "IFE18094",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for COVID-19 in Ogbomosho North and South, Oyo State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "odebunmi-2022-ogbomosho",
+    "source_row": 8,
+    "source_table": "Table 2",
+    "source_table_row": 8,
+    "botanical_as_published": "Curcuma longa L.",
+    "family_as_published": "Zingiberaceae",
+    "common_english_as_published": "Turmeric",
+    "vernacular_as_published": "Ata ile pupa",
+    "vernacular_names": [
+      {
+        "local_name": "Ata ile pupa",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "rhizome"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "IFE18134",
+    "life_form_as_published": "Herb",
+    "use_context": "plant reported for COVID-19 in Ogbomosho North and South, Oyo State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "odebunmi-2022-ogbomosho",
+    "source_row": 9,
+    "source_table": "Table 2",
+    "source_table_row": 9,
+    "botanical_as_published": "Cymbopogon citratus (DC.) Stapf",
+    "family_as_published": "Poaceae",
+    "common_english_as_published": "Lemon Grass",
+    "vernacular_as_published": "Ewe tea",
+    "vernacular_names": [
+      {
+        "local_name": "Ewe tea",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "IFE18097",
+    "life_form_as_published": "Grass",
+    "use_context": "plant reported for COVID-19 in Ogbomosho North and South, Oyo State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "odebunmi-2022-ogbomosho",
+    "source_row": 10,
+    "source_table": "Table 2",
+    "source_table_row": 10,
+    "botanical_as_published": "Drypetes gossweileri S.Moore",
+    "family_as_published": "Putranjivaceae",
+    "common_english_as_published": "Horse radish Tree",
+    "vernacular_as_published": "Epo aganwo",
+    "vernacular_names": [
+      {
+        "local_name": "Epo aganwo",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "bark"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "IFE18099",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for COVID-19 in Ogbomosho North and South, Oyo State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "odebunmi-2022-ogbomosho",
+    "source_row": 11,
+    "source_table": "Table 2",
+    "source_table_row": 11,
+    "botanical_as_published": "Gymnanthemum amygdalinum (Delile) Sch.Bip.",
+    "family_as_published": "Asteraceae",
+    "common_english_as_published": "Bitter leaf",
+    "vernacular_as_published": "Ewuro",
+    "vernacular_names": [
+      {
+        "local_name": "Ewuro",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "IFE18127",
+    "life_form_as_published": "Shrub",
+    "use_context": "plant reported for COVID-19 in Ogbomosho North and South, Oyo State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "odebunmi-2022-ogbomosho",
+    "source_row": 12,
+    "source_table": "Table 2",
+    "source_table_row": 12,
+    "botanical_as_published": "Momordica charantia L.",
+    "family_as_published": "Cucurbitaceae",
+    "common_english_as_published": "Bitter lemon",
+    "vernacular_as_published": "Ejinrin",
+    "vernacular_names": [
+      {
+        "local_name": "Ejinrin",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "IFE18108",
+    "life_form_as_published": "Climber",
+    "use_context": "plant reported for COVID-19 in Ogbomosho North and South, Oyo State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "odebunmi-2022-ogbomosho",
+    "source_row": 13,
+    "source_table": "Table 2",
+    "source_table_row": 13,
+    "botanical_as_published": "Morinda lucida Benth.",
+    "family_as_published": "Rubiaceae",
+    "common_english_as_published": "Brimstone Tree",
+    "vernacular_as_published": "Oruwo",
+    "vernacular_names": [
+      {
+        "local_name": "Oruwo",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "bark"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "IFE18109",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for COVID-19 in Ogbomosho North and South, Oyo State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "odebunmi-2022-ogbomosho",
+    "source_row": 14,
+    "source_table": "Table 2",
+    "source_table_row": 14,
+    "botanical_as_published": "Neonauclea excelsa (Blume) Merr.",
+    "family_as_published": "Rubiaceae",
+    "common_english_as_published": "Nauclea",
+    "vernacular_as_published": "Egbeesi",
+    "vernacular_names": [
+      {
+        "local_name": "Egbeesi",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "bark"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "IFE18111",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for COVID-19 in Ogbomosho North and South, Oyo State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "odebunmi-2022-ogbomosho",
+    "source_row": 15,
+    "source_table": "Table 2",
+    "source_table_row": 15,
+    "botanical_as_published": "Nigella sativa L.",
+    "family_as_published": "Ranunculaceae",
+    "common_english_as_published": "Black seed",
+    "vernacular_as_published": "Asofeyeje",
+    "vernacular_names": [
+      {
+        "local_name": "Asofeyeje",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "seed"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "IFE18113",
+    "life_form_as_published": "Herb",
+    "use_context": "plant reported for COVID-19 in Ogbomosho North and South, Oyo State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "odebunmi-2022-ogbomosho",
+    "source_row": 16,
+    "source_table": "Table 2",
+    "source_table_row": 16,
+    "botanical_as_published": "Peperomia pellucida (L.) Kunth",
+    "family_as_published": "Piperaceae",
+    "common_english_as_published": "Shiny bush",
+    "vernacular_as_published": "Ewe rinrin",
+    "vernacular_names": [
+      {
+        "local_name": "Ewe rinrin",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [
+      "pulverizing"
+    ],
+    "voucher_specimen": "IFE18115",
+    "life_form_as_published": "Herb",
+    "use_context": "plant reported for COVID-19 in Ogbomosho North and South, Oyo State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "odebunmi-2022-ogbomosho",
+    "source_row": 17,
+    "source_table": "Table 2",
+    "source_table_row": 17,
+    "botanical_as_published": "Pseudocedrela kotschyi Harms",
+    "family_as_published": "Meliaceae",
+    "common_english_as_published": "Dry zone cedar",
+    "vernacular_as_published": "Emigbegi",
+    "vernacular_names": [
+      {
+        "local_name": "Emigbegi",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "IFE18117",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for COVID-19 in Ogbomosho North and South, Oyo State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "odebunmi-2022-ogbomosho",
+    "source_row": 18,
+    "source_table": "Table 2",
+    "source_table_row": 18,
+    "botanical_as_published": "Senna alata (L.) Roxb.",
+    "family_as_published": "Fabaceae",
+    "common_english_as_published": "Candle bush",
+    "vernacular_as_published": "Asunwon oyinbo",
+    "vernacular_names": [
+      {
+        "local_name": "Asunwon oyinbo",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "IFE18121",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for COVID-19 in Ogbomosho North and South, Oyo State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "odebunmi-2022-ogbomosho",
+    "source_row": 19,
+    "source_table": "Table 2",
+    "source_table_row": 19,
+    "botanical_as_published": "Tetrapleura tetraptera (Schum. and Thonn.) Taub.",
+    "family_as_published": "Fabaceae",
+    "common_english_as_published": "Aidan Tree",
+    "vernacular_as_published": "Aridan",
+    "vernacular_names": [
+      {
+        "local_name": "Aridan",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "fruit"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "IFE18123",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for COVID-19 in Ogbomosho North and South, Oyo State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "odebunmi-2022-ogbomosho",
+    "source_row": 20,
+    "source_table": "Table 2",
+    "source_table_row": 20,
+    "botanical_as_published": "Tithonia diversifolia (Hemsl.) A.Gray",
+    "family_as_published": "Asteraceae",
+    "common_english_as_published": "Tree marigold",
+    "vernacular_as_published": "Sepeleba",
+    "vernacular_names": [
+      {
+        "local_name": "Sepeleba",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "IFE18124",
+    "life_form_as_published": "Herb",
+    "use_context": "plant reported for COVID-19 in Ogbomosho North and South, Oyo State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "odebunmi-2022-ogbomosho",
+    "source_row": 21,
+    "source_table": "Table 2",
+    "source_table_row": 21,
+    "botanical_as_published": "Uvaria afzelii Scott. Elliot",
+    "family_as_published": "Annonaceae",
+    "common_english_as_published": "Monkey finger",
+    "vernacular_as_published": "Gbogbonise",
+    "vernacular_names": [
+      {
+        "local_name": "Gbogbonise",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "bark"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "IFE18125",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for COVID-19 in Ogbomosho North and South, Oyo State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "odebunmi-2022-ogbomosho",
+    "source_row": 22,
+    "source_table": "Table 2",
+    "source_table_row": 22,
+    "botanical_as_published": "Uvaria chamae P. Beauv.",
+    "family_as_published": "Annonaceae",
+    "common_english_as_published": "Finger root",
+    "vernacular_as_published": "Eruiju",
+    "vernacular_names": [
+      {
+        "local_name": "Eruiju",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "bark"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "IFE18126",
+    "life_form_as_published": "Herb",
+    "use_context": "plant reported for COVID-19 in Ogbomosho North and South, Oyo State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "odebunmi-2022-ogbomosho",
+    "source_row": 23,
+    "source_table": "Table 2",
+    "source_table_row": 23,
+    "botanical_as_published": "Vitellaria paradoxa C.F Gaertn",
+    "family_as_published": "Sapotaceae",
+    "common_english_as_published": "Shea butter",
+    "vernacular_as_published": "Ori",
+    "vernacular_names": [
+      {
+        "local_name": "Ori",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "seed"
+    ],
+    "preparations_reported": [
+      "heating"
+    ],
+    "voucher_specimen": "IFE18128",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for COVID-19 in Ogbomosho North and South, Oyo State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "odebunmi-2022-ogbomosho",
+    "source_row": 24,
+    "source_table": "Table 2",
+    "source_table_row": 24,
+    "botanical_as_published": "Xylopia villosa Chipp",
+    "family_as_published": "Annonaceae",
+    "common_english_as_published": "Black palufon",
+    "vernacular_as_published": "Eeru awonka",
+    "vernacular_names": [
+      {
+        "local_name": "Eeru awonka",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "IFE18130",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for COVID-19 in Ogbomosho North and South, Oyo State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "odebunmi-2022-ogbomosho",
+    "source_row": 25,
+    "source_table": "Table 2",
+    "source_table_row": 25,
+    "botanical_as_published": "Zea mays L.",
+    "family_as_published": "Poaceae",
+    "common_english_as_published": "Maize",
+    "vernacular_as_published": "Agbado",
+    "vernacular_names": [
+      {
+        "local_name": "Agbado",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "seed"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "IFE18131",
+    "life_form_as_published": "Grass",
+    "use_context": "plant reported for COVID-19 in Ogbomosho North and South, Oyo State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "odebunmi-2022-ogbomosho",
+    "source_row": 26,
+    "source_table": "Table 2",
+    "source_table_row": 26,
+    "botanical_as_published": "Zingiber officinale Roscoe",
+    "family_as_published": "Zingiberaceae",
+    "common_english_as_published": "Ginger",
+    "vernacular_as_published": "Ata ile",
+    "vernacular_names": [
+      {
+        "local_name": "Ata ile",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "rhizome"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "IFE18132",
+    "life_form_as_published": "Herb",
+    "use_context": "plant reported for COVID-19 in Ogbomosho North and South, Oyo State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "odebunmi-2022-ogbomosho",
+    "source_row": 27,
+    "source_table": "Table 3",
+    "source_table_row": 1,
+    "botanical_as_published": "Abrus precatorius L.",
+    "family_as_published": "Fabaceae",
+    "common_english_as_published": "Rosary pea",
+    "vernacular_as_published": "Omisinmisin",
+    "vernacular_names": [
+      {
+        "local_name": "Omisinmisin",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "IFE18077",
+    "life_form_as_published": "Climber",
+    "use_context": "plant reported for cough in Ogbomosho North and South, Oyo State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "odebunmi-2022-ogbomosho",
+    "source_row": 28,
+    "source_table": "Table 3",
+    "source_table_row": 2,
+    "botanical_as_published": "Aframomum melegueta K. Schum.",
+    "family_as_published": "Zingiberaceae",
+    "common_english_as_published": "Alligator pepper",
+    "vernacular_as_published": "Ataare",
+    "vernacular_names": [
+      {
+        "local_name": "Ataare",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "seed",
+      "fruit"
+    ],
+    "preparations_reported": [
+      "pulverizing"
+    ],
+    "voucher_specimen": "IFE18079",
+    "life_form_as_published": "Herb",
+    "use_context": "plant reported for cough in Ogbomosho North and South, Oyo State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "odebunmi-2022-ogbomosho",
+    "source_row": 29,
+    "source_table": "Table 3",
+    "source_table_row": 3,
+    "botanical_as_published": "Allium ascalonicum L.",
+    "family_as_published": "Amaryllidaceae",
+    "common_english_as_published": "Spring onion",
+    "vernacular_as_published": "Alubosa elewe",
+    "vernacular_names": [
+      {
+        "local_name": "Alubosa elewe",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "bulb"
+    ],
+    "preparations_reported": [
+      "grating",
+      "infusion"
+    ],
+    "voucher_specimen": "IFE18080",
+    "life_form_as_published": "Herb",
+    "use_context": "plant reported for cough in Ogbomosho North and South, Oyo State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "odebunmi-2022-ogbomosho",
+    "source_row": 30,
+    "source_table": "Table 3",
+    "source_table_row": 4,
+    "botanical_as_published": "Allium cepa L.",
+    "family_as_published": "Amaryllidaceae",
+    "common_english_as_published": "Onion",
+    "vernacular_as_published": "Alubosa",
+    "vernacular_names": [
+      {
+        "local_name": "Alubosa",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "bulb"
+    ],
+    "preparations_reported": [
+      "pulverizing"
+    ],
+    "voucher_specimen": "IFE18081",
+    "life_form_as_published": "Shrub",
+    "use_context": "plant reported for cough in Ogbomosho North and South, Oyo State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "odebunmi-2022-ogbomosho",
+    "source_row": 31,
+    "source_table": "Table 3",
+    "source_table_row": 5,
+    "botanical_as_published": "Allium sativum L.",
+    "family_as_published": "Amaryllidaceae",
+    "common_english_as_published": "Garlic",
+    "vernacular_as_published": "Ayu",
+    "vernacular_names": [
+      {
+        "local_name": "Ayu",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "bulb"
+    ],
+    "preparations_reported": [
+      "frying"
+    ],
+    "voucher_specimen": "IFE18082",
+    "life_form_as_published": "Herb",
+    "use_context": "plant reported for cough in Ogbomosho North and South, Oyo State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "odebunmi-2022-ogbomosho",
+    "source_row": 32,
+    "source_table": "Table 3",
+    "source_table_row": 6,
+    "botanical_as_published": "Amaranthus spinosus L.",
+    "family_as_published": "Amaranthaceae",
+    "common_english_as_published": "Spinach",
+    "vernacular_as_published": "Igi teteregun",
+    "vernacular_names": [
+      {
+        "local_name": "Igi teteregun",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "bark"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "IFE18084",
+    "life_form_as_published": "Herb",
+    "use_context": "plant reported for cough in Ogbomosho North and South, Oyo State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "odebunmi-2022-ogbomosho",
+    "source_row": 33,
+    "source_table": "Table 3",
+    "source_table_row": 7,
+    "botanical_as_published": "Capsicum frutescens L.",
+    "family_as_published": "Solanaceae",
+    "common_english_as_published": "Hot pepper",
+    "vernacular_as_published": "Ata wewe",
+    "vernacular_names": [
+      {
+        "local_name": "Ata wewe",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "seed"
+    ],
+    "preparations_reported": [
+      "pulverizing",
+      "infusion"
+    ],
+    "voucher_specimen": "IFE18088",
+    "life_form_as_published": "Herb",
+    "use_context": "plant reported for cough in Ogbomosho North and South, Oyo State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "odebunmi-2022-ogbomosho",
+    "source_row": 34,
+    "source_table": "Table 3",
+    "source_table_row": 8,
+    "botanical_as_published": "Citrus aurantiifolia (Christm.) Swingle",
+    "family_as_published": "Rutaceae",
+    "common_english_as_published": "Lemon",
+    "vernacular_as_published": "Osan wewe",
+    "vernacular_names": [
+      {
+        "local_name": "Osan wewe",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "fruit"
+    ],
+    "preparations_reported": [
+      "juice extraction"
+    ],
+    "voucher_specimen": "IFE18092",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for cough in Ogbomosho North and South, Oyo State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "odebunmi-2022-ogbomosho",
+    "source_row": 35,
+    "source_table": "Table 3",
+    "source_table_row": 9,
+    "botanical_as_published": "Citrus limon (L.) Osbeck",
+    "family_as_published": "Rutaceae",
+    "common_english_as_published": "Lime",
+    "vernacular_as_published": "Orombo",
+    "vernacular_names": [
+      {
+        "local_name": "Orombo",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "fruit"
+    ],
+    "preparations_reported": [
+      "juice extraction"
+    ],
+    "voucher_specimen": "IFE18093",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for cough in Ogbomosho North and South, Oyo State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "odebunmi-2022-ogbomosho",
+    "source_row": 36,
+    "source_table": "Table 3",
+    "source_table_row": 10,
+    "botanical_as_published": "Cocos nucifera L.",
+    "family_as_published": "Arecaceae",
+    "common_english_as_published": "Coconut",
+    "vernacular_as_published": "Agbon",
+    "vernacular_names": [
+      {
+        "local_name": "Agbon",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "pod"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "IFE18095",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for cough in Ogbomosho North and South, Oyo State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "odebunmi-2022-ogbomosho",
+    "source_row": 37,
+    "source_table": "Table 3",
+    "source_table_row": 11,
+    "botanical_as_published": "Crinum jagus (J.Thomps.) Dandy",
+    "family_as_published": "Amaryllidaceae",
+    "common_english_as_published": "Poison bulb",
+    "vernacular_as_published": "Ogede odo",
+    "vernacular_names": [
+      {
+        "local_name": "Ogede odo",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "bulb"
+    ],
+    "preparations_reported": [
+      "pulverizing",
+      "grating",
+      "infusion"
+    ],
+    "voucher_specimen": "IFE18096",
+    "life_form_as_published": "Herb",
+    "use_context": "plant reported for cough in Ogbomosho North and South, Oyo State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "odebunmi-2022-ogbomosho",
+    "source_row": 38,
+    "source_table": "Table 3",
+    "source_table_row": 12,
+    "botanical_as_published": "Cymbopogon citratus Stapf",
+    "family_as_published": "Poaceae",
+    "common_english_as_published": "Lemon Grass",
+    "vernacular_as_published": "Ewe tea",
+    "vernacular_names": [
+      {
+        "local_name": "Ewe tea",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "IFE18097",
+    "life_form_as_published": "Grass",
+    "use_context": "plant reported for cough in Ogbomosho North and South, Oyo State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "odebunmi-2022-ogbomosho",
+    "source_row": 39,
+    "source_table": "Table 3",
+    "source_table_row": 13,
+    "botanical_as_published": "Elaeis guineensis Jacq.",
+    "family_as_published": "Arecaceae",
+    "common_english_as_published": "Palm Tree",
+    "vernacular_as_published": "Ope",
+    "vernacular_names": [
+      {
+        "local_name": "Ope",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "seed"
+    ],
+    "preparations_reported": [
+      "infusion"
+    ],
+    "voucher_specimen": "IFE18100",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for cough in Ogbomosho North and South, Oyo State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "odebunmi-2022-ogbomosho",
+    "source_row": 40,
+    "source_table": "Table 3",
+    "source_table_row": 14,
+    "botanical_as_published": "Eucalyptus globulus Labill",
+    "family_as_published": "Myrtaceae",
+    "common_english_as_published": "Bluegum Eucalyptus",
+    "vernacular_as_published": "Eucalyptus",
+    "vernacular_names": [],
+    "vernacular_entries_excluded": [
+      {
+        "text": "Eucalyptus",
+        "reason": "botanical genus used as the name"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "IFE18101",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for cough in Ogbomosho North and South, Oyo State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "odebunmi-2022-ogbomosho",
+    "source_row": 41,
+    "source_table": "Table 3",
+    "source_table_row": 15,
+    "botanical_as_published": "Ficus asperifolia Hook. ex Miq.",
+    "family_as_published": "Moraceae",
+    "common_english_as_published": "Sandpaper",
+    "vernacular_as_published": "Ewe ipin",
+    "vernacular_names": [
+      {
+        "local_name": "Ewe ipin",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [
+      "infusion"
+    ],
+    "voucher_specimen": "IFE18103",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for cough in Ogbomosho North and South, Oyo State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "odebunmi-2022-ogbomosho",
+    "source_row": 42,
+    "source_table": "Table 3",
+    "source_table_row": 16,
+    "botanical_as_published": "Garcinia kola Heckel",
+    "family_as_published": "Clusiaceae",
+    "common_english_as_published": "Bitter cola",
+    "vernacular_as_published": "Orogbo",
+    "vernacular_names": [
+      {
+        "local_name": "Orogbo",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "seed"
+    ],
+    "preparations_reported": [
+      "infusion",
+      "pulverizing"
+    ],
+    "voucher_specimen": "IFE18105",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for cough in Ogbomosho North and South, Oyo State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "odebunmi-2022-ogbomosho",
+    "source_row": 43,
+    "source_table": "Table 3",
+    "source_table_row": 17,
+    "botanical_as_published": "Gymnanthemum amygdalinum (Delile) Sch.Bip.",
+    "family_as_published": "Asteraceae",
+    "common_english_as_published": "Bitter leaf",
+    "vernacular_as_published": "Ewuro",
+    "vernacular_names": [
+      {
+        "local_name": "Ewuro",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "flower"
+    ],
+    "preparations_reported": [
+      "pulverizing",
+      "infusion"
+    ],
+    "voucher_specimen": "IFE18127",
+    "life_form_as_published": "Shrub",
+    "use_context": "plant reported for cough in Ogbomosho North and South, Oyo State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "odebunmi-2022-ogbomosho",
+    "source_row": 44,
+    "source_table": "Table 3",
+    "source_table_row": 18,
+    "botanical_as_published": "Jatropha curcas L.",
+    "family_as_published": "Euphorbiaceae",
+    "common_english_as_published": "Jatropha",
+    "vernacular_as_published": "Lapalapa",
+    "vernacular_names": [
+      {
+        "local_name": "Lapalapa",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "fruit"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "IFE18106",
+    "life_form_as_published": "Shrub",
+    "use_context": "plant reported for cough in Ogbomosho North and South, Oyo State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "odebunmi-2022-ogbomosho",
+    "source_row": 45,
+    "source_table": "Table 3",
+    "source_table_row": 19,
+    "botanical_as_published": "Mangifera indica L.",
+    "family_as_published": "Anacardiaceae",
+    "common_english_as_published": "Mango",
+    "vernacular_as_published": "Mangoro",
+    "vernacular_names": [
+      {
+        "local_name": "Mangoro",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "bark"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "IFE18107",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for cough in Ogbomosho North and South, Oyo State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "odebunmi-2022-ogbomosho",
+    "source_row": 46,
+    "source_table": "Table 3",
+    "source_table_row": 20,
+    "botanical_as_published": "Marsdenia latifolia (Benth.) K.Schum.",
+    "family_as_published": "Apocynaceae",
+    "common_english_as_published": "Bush buck",
+    "vernacular_as_published": "Arokeke, Madunmaro",
+    "vernacular_names": [
+      {
+        "local_name": "Arokeke",
+        "language": "yo"
+      },
+      {
+        "local_name": "Madunmaro",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "bark"
+    ],
+    "preparations_reported": [
+      "maceration",
+      "infusion"
+    ],
+    "voucher_specimen": "IFE18104",
+    "life_form_as_published": "Shrub",
+    "use_context": "plant reported for cough in Ogbomosho North and South, Oyo State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "odebunmi-2022-ogbomosho",
+    "source_row": 47,
+    "source_table": "Table 3",
+    "source_table_row": 21,
+    "botanical_as_published": "Neonauclea excelsa (Blume) Merr.",
+    "family_as_published": "Rubiaceae",
+    "common_english_as_published": "Nauclea",
+    "vernacular_as_published": "Egbeesi",
+    "vernacular_names": [
+      {
+        "local_name": "Egbeesi",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "root"
+    ],
+    "preparations_reported": [
+      "infusion"
+    ],
+    "voucher_specimen": "IFE18111",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for cough in Ogbomosho North and South, Oyo State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "odebunmi-2022-ogbomosho",
+    "source_row": 48,
+    "source_table": "Table 3",
+    "source_table_row": 22,
+    "botanical_as_published": "Olax subscorpioidea Oliv.",
+    "family_as_published": "Olacaceae",
+    "common_english_as_published": "Ivory coast",
+    "vernacular_as_published": "Ifon",
+    "vernacular_names": [
+      {
+        "local_name": "Ifon",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "bark"
+    ],
+    "preparations_reported": [
+      "pulverizing"
+    ],
+    "voucher_specimen": "IFE18114",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for cough in Ogbomosho North and South, Oyo State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "odebunmi-2022-ogbomosho",
+    "source_row": 49,
+    "source_table": "Table 3",
+    "source_table_row": 23,
+    "botanical_as_published": "Psidium guajava L.",
+    "family_as_published": "Myrtaceae",
+    "common_english_as_published": "Guava",
+    "vernacular_as_published": "Groofa",
+    "vernacular_names": [
+      {
+        "local_name": "Groofa",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "bark",
+      "leaf"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "IFE18118",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for cough in Ogbomosho North and South, Oyo State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "odebunmi-2022-ogbomosho",
+    "source_row": 50,
+    "source_table": "Table 3",
+    "source_table_row": 24,
+    "botanical_as_published": "Saccharum officinarum L.",
+    "family_as_published": "Poaceae",
+    "common_english_as_published": "Sugarcane",
+    "vernacular_as_published": "Ireke",
+    "vernacular_names": [
+      {
+        "local_name": "Ireke",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "stem"
+    ],
+    "preparations_reported": [
+      "pounding",
+      "infusion"
+    ],
+    "voucher_specimen": "IFE18119",
+    "life_form_as_published": "Grass",
+    "use_context": "plant reported for cough in Ogbomosho North and South, Oyo State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "odebunmi-2022-ogbomosho",
+    "source_row": 51,
+    "source_table": "Table 3",
+    "source_table_row": 25,
+    "botanical_as_published": "Securidaca longipedunculata Fresen.",
+    "family_as_published": "Polygalaceae",
+    "common_english_as_published": "Violet Tree",
+    "vernacular_as_published": "Ipeta",
+    "vernacular_names": [
+      {
+        "local_name": "Ipeta",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "bark"
+    ],
+    "preparations_reported": [
+      "pulverizing"
+    ],
+    "voucher_specimen": "IFE18120",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for cough in Ogbomosho North and South, Oyo State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "odebunmi-2022-ogbomosho",
+    "source_row": 52,
+    "source_table": "Table 3",
+    "source_table_row": 26,
+    "botanical_as_published": "Spondias mombin L.",
+    "family_as_published": "Anacardiaceae",
+    "common_english_as_published": "Hog plum",
+    "vernacular_as_published": "Iyeye",
+    "vernacular_names": [
+      {
+        "local_name": "Iyeye",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "bark"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "IFE18122",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for cough in Ogbomosho North and South, Oyo State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "odebunmi-2022-ogbomosho",
+    "source_row": 53,
+    "source_table": "Table 3",
+    "source_table_row": 27,
+    "botanical_as_published": "Tetrapleura tetraptera (Schum. and Thonn.) Taub.",
+    "family_as_published": "Fabaceae",
+    "common_english_as_published": "Aidan Tree",
+    "vernacular_as_published": "Aridan/ Aidan",
+    "vernacular_names": [
+      {
+        "local_name": "Aridan",
+        "language": "yo"
+      },
+      {
+        "local_name": "Aidan",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "fruit"
+    ],
+    "preparations_reported": [
+      "pulverizing",
+      "grating",
+      "infusion"
+    ],
+    "voucher_specimen": "IFE18123",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for cough in Ogbomosho North and South, Oyo State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "odebunmi-2022-ogbomosho",
+    "source_row": 54,
+    "source_table": "Table 3",
+    "source_table_row": 28,
+    "botanical_as_published": "Vitellaria paradoxa C.F Gaertn",
+    "family_as_published": "Sapotaceae",
+    "common_english_as_published": "Shea butter",
+    "vernacular_as_published": "Ori",
+    "vernacular_names": [
+      {
+        "local_name": "Ori",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "seed"
+    ],
+    "preparations_reported": [
+      "frying"
+    ],
+    "voucher_specimen": "IFE18128",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for cough in Ogbomosho North and South, Oyo State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "odebunmi-2022-ogbomosho",
+    "source_row": 55,
+    "source_table": "Table 3",
+    "source_table_row": 29,
+    "botanical_as_published": "Xylopia aethiopica A. Rich",
+    "family_as_published": "Annonaceae",
+    "common_english_as_published": "African pepper",
+    "vernacular_as_published": "Eeru",
+    "vernacular_names": [
+      {
+        "local_name": "Eeru",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "seed"
+    ],
+    "preparations_reported": [
+      "pulverizing",
+      "infusion"
+    ],
+    "voucher_specimen": "IFE18129",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for cough in Ogbomosho North and South, Oyo State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "odebunmi-2022-ogbomosho",
+    "source_row": 56,
+    "source_table": "Table 3",
+    "source_table_row": 30,
+    "botanical_as_published": "Zea mays L.",
+    "family_as_published": "Poaceae",
+    "common_english_as_published": "Maize",
+    "vernacular_as_published": "Agbado",
+    "vernacular_names": [
+      {
+        "local_name": "Agbado",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "husk"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "IFE18131",
+    "life_form_as_published": "Grass",
+    "use_context": "plant reported for cough in Ogbomosho North and South, Oyo State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "odebunmi-2022-ogbomosho",
+    "source_row": 57,
+    "source_table": "Table 3",
+    "source_table_row": 31,
+    "botanical_as_published": "Zingiber officinale Roscoe",
+    "family_as_published": "Zingiberaceae",
+    "common_english_as_published": "Ginger",
+    "vernacular_as_published": "Ata ile",
+    "vernacular_names": [
+      {
+        "local_name": "Ata ile",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "rhizome",
+      "root"
+    ],
+    "preparations_reported": [
+      "decoction",
+      "pulverizing"
+    ],
+    "voucher_specimen": "IFE18132",
+    "life_form_as_published": "Herb",
+    "use_context": "plant reported for cough in Ogbomosho North and South, Oyo State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "odebunmi-2022-ogbomosho",
+    "source_row": 58,
+    "source_table": "Table 4",
+    "source_table_row": 1,
+    "botanical_as_published": "Aframomum melegueta K. Schum.",
+    "family_as_published": "Zingiberaceae",
+    "common_english_as_published": "Alligator pepper",
+    "vernacular_as_published": "Ataare",
+    "vernacular_names": [
+      {
+        "local_name": "Ataare",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "seed"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "IFE18079",
+    "life_form_as_published": "Herb",
+    "use_context": "plant reported for flu in Ogbomosho North and South, Oyo State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "odebunmi-2022-ogbomosho",
+    "source_row": 59,
+    "source_table": "Table 4",
+    "source_table_row": 2,
+    "botanical_as_published": "Allium ascalonicum L.",
+    "family_as_published": "Amaryllidaceae",
+    "common_english_as_published": "Spring onion",
+    "vernacular_as_published": "Alubosa elewe",
+    "vernacular_names": [
+      {
+        "local_name": "Alubosa elewe",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "bulb"
+    ],
+    "preparations_reported": [
+      "juice extraction"
+    ],
+    "voucher_specimen": "IFE18080",
+    "life_form_as_published": "Herb",
+    "use_context": "plant reported for flu in Ogbomosho North and South, Oyo State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "odebunmi-2022-ogbomosho",
+    "source_row": 60,
+    "source_table": "Table 4",
+    "source_table_row": 3,
+    "botanical_as_published": "Allium cepa L.",
+    "family_as_published": "Amaryllidaceae",
+    "common_english_as_published": "White onion",
+    "vernacular_as_published": "Alubosa funfun",
+    "vernacular_names": [
+      {
+        "local_name": "Alubosa funfun",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "bulb"
+    ],
+    "preparations_reported": [
+      "infusion"
+    ],
+    "voucher_specimen": "IFE18081",
+    "life_form_as_published": "Shrub",
+    "use_context": "plant reported for flu in Ogbomosho North and South, Oyo State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "odebunmi-2022-ogbomosho",
+    "source_row": 61,
+    "source_table": "Table 4",
+    "source_table_row": 4,
+    "botanical_as_published": "Allium sativum L.",
+    "family_as_published": "Amaryllidaceae",
+    "common_english_as_published": "Garlic",
+    "vernacular_as_published": "Ayu",
+    "vernacular_names": [
+      {
+        "local_name": "Ayu",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "bulb"
+    ],
+    "preparations_reported": [
+      "chewing",
+      "frying"
+    ],
+    "voucher_specimen": "IFE18082",
+    "life_form_as_published": "Herb",
+    "use_context": "plant reported for flu in Ogbomosho North and South, Oyo State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "odebunmi-2022-ogbomosho",
+    "source_row": 62,
+    "source_table": "Table 4",
+    "source_table_row": 5,
+    "botanical_as_published": "Annona senegalensis Pers.",
+    "family_as_published": "Annonaceae",
+    "common_english_as_published": "Wild soursop",
+    "vernacular_as_published": "Ewe abo",
+    "vernacular_names": [
+      {
+        "local_name": "Ewe abo",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "IFE18085",
+    "life_form_as_published": "Shrub",
+    "use_context": "plant reported for flu in Ogbomosho North and South, Oyo State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "odebunmi-2022-ogbomosho",
+    "source_row": 63,
+    "source_table": "Table 4",
+    "source_table_row": 6,
+    "botanical_as_published": "Azadirachta indica A. Juss",
+    "family_as_published": "Meliaceae",
+    "common_english_as_published": "Neem",
+    "vernacular_as_published": "Dongoyaro",
+    "vernacular_names": [
+      {
+        "local_name": "Dongoyaro",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "bark"
+    ],
+    "preparations_reported": [
+      "decoction",
+      "infusion"
+    ],
+    "voucher_specimen": "IFE18086",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for flu in Ogbomosho North and South, Oyo State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "odebunmi-2022-ogbomosho",
+    "source_row": 64,
+    "source_table": "Table 4",
+    "source_table_row": 7,
+    "botanical_as_published": "Capsicum annuum L.",
+    "family_as_published": "Solanaceae",
+    "common_english_as_published": "Hot pepper",
+    "vernacular_as_published": "Ata ijoosi",
+    "vernacular_names": [
+      {
+        "local_name": "Ata ijoosi",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "seed"
+    ],
+    "preparations_reported": [
+      "pulverizing"
+    ],
+    "voucher_specimen": "IFE18087",
+    "life_form_as_published": "Herb",
+    "use_context": "plant reported for flu in Ogbomosho North and South, Oyo State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "odebunmi-2022-ogbomosho",
+    "source_row": 65,
+    "source_table": "Table 4",
+    "source_table_row": 8,
+    "botanical_as_published": "Carica papaya L.",
+    "family_as_published": "Caricaceae",
+    "common_english_as_published": "Pawpaw",
+    "vernacular_as_published": "Eso ibepe",
+    "vernacular_names": [
+      {
+        "local_name": "Eso ibepe",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "seed"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "IFE18089",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for flu in Ogbomosho North and South, Oyo State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "odebunmi-2022-ogbomosho",
+    "source_row": 66,
+    "source_table": "Table 4",
+    "source_table_row": 9,
+    "botanical_as_published": "Chromolaena odorata (L.) R.M.King and H.Rob.",
+    "family_as_published": "Asteraceae",
+    "common_english_as_published": "Siam weed",
+    "vernacular_as_published": "Ewe akintola",
+    "vernacular_names": [
+      {
+        "local_name": "Ewe akintola",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [
+      "pulverizing",
+      "infusion"
+    ],
+    "voucher_specimen": "IFE18090",
+    "life_form_as_published": "Shrub",
+    "use_context": "plant reported for flu in Ogbomosho North and South, Oyo State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "odebunmi-2022-ogbomosho",
+    "source_row": 67,
+    "source_table": "Table 4",
+    "source_table_row": 10,
+    "botanical_as_published": "Cinnamomum camphora (L.) J.Presl",
+    "family_as_published": "Lauraceae",
+    "common_english_as_published": "Camphor",
+    "vernacular_as_published": "Kafura",
+    "vernacular_names": [
+      {
+        "local_name": "Kafura",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "bark"
+    ],
+    "preparations_reported": [
+      "frying"
+    ],
+    "voucher_specimen": "IFE18091",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for flu in Ogbomosho North and South, Oyo State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "odebunmi-2022-ogbomosho",
+    "source_row": 68,
+    "source_table": "Table 4",
+    "source_table_row": 11,
+    "botanical_as_published": "Citrus limon (L.) Osbeck",
+    "family_as_published": "Rutaceae",
+    "common_english_as_published": "Lime",
+    "vernacular_as_published": "Oronbo",
+    "vernacular_names": [
+      {
+        "local_name": "Oronbo",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "fruit"
+    ],
+    "preparations_reported": [
+      "juice extraction"
+    ],
+    "voucher_specimen": "IFE18093",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for flu in Ogbomosho North and South, Oyo State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "odebunmi-2022-ogbomosho",
+    "source_row": 69,
+    "source_table": "Table 4",
+    "source_table_row": 12,
+    "botanical_as_published": "Crinum jagus (J.Thomps.) Dandy",
+    "family_as_published": "Amaryllidaceae",
+    "common_english_as_published": "Poison bulb",
+    "vernacular_as_published": "Ogede odo",
+    "vernacular_names": [
+      {
+        "local_name": "Ogede odo",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "bulb"
+    ],
+    "preparations_reported": [
+      "pounding"
+    ],
+    "voucher_specimen": "IFE18096",
+    "life_form_as_published": "Herb",
+    "use_context": "plant reported for flu in Ogbomosho North and South, Oyo State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "odebunmi-2022-ogbomosho",
+    "source_row": 70,
+    "source_table": "Table 4",
+    "source_table_row": 13,
+    "botanical_as_published": "Cymbopogon citratus (DC.) Stapf",
+    "family_as_published": "Poaceae",
+    "common_english_as_published": "Lemon Grass",
+    "vernacular_as_published": "Ewe tea",
+    "vernacular_names": [
+      {
+        "local_name": "Ewe tea",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [
+      "decoction",
+      "infusion"
+    ],
+    "voucher_specimen": "IFE18097",
+    "life_form_as_published": "Grass",
+    "use_context": "plant reported for flu in Ogbomosho North and South, Oyo State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "odebunmi-2022-ogbomosho",
+    "source_row": 71,
+    "source_table": "Table 4",
+    "source_table_row": 14,
+    "botanical_as_published": "Eucalyptus globulus Labill",
+    "family_as_published": "Myrtaceae",
+    "common_english_as_published": "Bluegum Eucalyptus",
+    "vernacular_as_published": "Eucalyptus",
+    "vernacular_names": [],
+    "vernacular_entries_excluded": [
+      {
+        "text": "Eucalyptus",
+        "reason": "botanical genus used as the name"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [
+      "juice extraction"
+    ],
+    "voucher_specimen": "IFE18101",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for flu in Ogbomosho North and South, Oyo State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "odebunmi-2022-ogbomosho",
+    "source_row": 72,
+    "source_table": "Table 4",
+    "source_table_row": 15,
+    "botanical_as_published": "Garcinia kola Heckel",
+    "family_as_published": "Clusiaceae",
+    "common_english_as_published": "Bitter cola",
+    "vernacular_as_published": "Orogbo",
+    "vernacular_names": [
+      {
+        "local_name": "Orogbo",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "seed"
+    ],
+    "preparations_reported": [
+      "pulverizing"
+    ],
+    "voucher_specimen": "IFE18105",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for flu in Ogbomosho North and South, Oyo State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "odebunmi-2022-ogbomosho",
+    "source_row": 73,
+    "source_table": "Table 4",
+    "source_table_row": 16,
+    "botanical_as_published": "Gymnanthemum amygdalinum (Delile) Sch.Bip",
+    "family_as_published": "Asteraceae",
+    "common_english_as_published": "Bitter leaf",
+    "vernacular_as_published": "Ewuro",
+    "vernacular_names": [
+      {
+        "local_name": "Ewuro",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [
+      "pulverizing",
+      "infusion"
+    ],
+    "voucher_specimen": "IFE18127",
+    "life_form_as_published": "Shrub",
+    "use_context": "plant reported for flu in Ogbomosho North and South, Oyo State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "odebunmi-2022-ogbomosho",
+    "source_row": 74,
+    "source_table": "Table 4",
+    "source_table_row": 17,
+    "botanical_as_published": "Kigelia africana (Lam.) Benth.",
+    "family_as_published": "Bignoniaceae",
+    "common_english_as_published": "Sausage Tree",
+    "vernacular_as_published": "Pandoro",
+    "vernacular_names": [
+      {
+        "local_name": "Pandoro",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "bark"
+    ],
+    "preparations_reported": [
+      "pulverizing",
+      "infusion"
+    ],
+    "voucher_specimen": "IFE18133",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for flu in Ogbomosho North and South, Oyo State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "odebunmi-2022-ogbomosho",
+    "source_row": 75,
+    "source_table": "Table 4",
+    "source_table_row": 18,
+    "botanical_as_published": "Mangifera indica L.",
+    "family_as_published": "Anacardiaceae",
+    "common_english_as_published": "Mango",
+    "vernacular_as_published": "Mango",
+    "vernacular_names": [],
+    "vernacular_entries_excluded": [
+      {
+        "text": "Mango",
+        "reason": "English common name"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [
+      "infusion"
+    ],
+    "voucher_specimen": "IFE18107",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for flu in Ogbomosho North and South, Oyo State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "odebunmi-2022-ogbomosho",
+    "source_row": 76,
+    "source_table": "Table 4",
+    "source_table_row": 19,
+    "botanical_as_published": "Morinda lucida Benth.",
+    "family_as_published": "Rubiaceae",
+    "common_english_as_published": "Brimstone Tree",
+    "vernacular_as_published": "Oruwo",
+    "vernacular_names": [
+      {
+        "local_name": "Oruwo",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "bark"
+    ],
+    "preparations_reported": [
+      "pulverizing",
+      "infusion"
+    ],
+    "voucher_specimen": "IFE18109",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for flu in Ogbomosho North and South, Oyo State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "odebunmi-2022-ogbomosho",
+    "source_row": 77,
+    "source_table": "Table 4",
+    "source_table_row": 20,
+    "botanical_as_published": "Musa × paradisiaca L.",
+    "family_as_published": "Musaceae",
+    "common_english_as_published": "Banana",
+    "vernacular_as_published": "Ogede",
+    "vernacular_names": [
+      {
+        "local_name": "Ogede",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [
+      "juice extraction"
+    ],
+    "voucher_specimen": "IFE18110",
+    "life_form_as_published": "Herb",
+    "use_context": "plant reported for flu in Ogbomosho North and South, Oyo State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "odebunmi-2022-ogbomosho",
+    "source_row": 78,
+    "source_table": "Table 4",
+    "source_table_row": 21,
+    "botanical_as_published": "Nicotiana tabacum L.",
+    "family_as_published": "Solanaceae",
+    "common_english_as_published": "Tobacco",
+    "vernacular_as_published": "Taba",
+    "vernacular_names": [
+      {
+        "local_name": "Taba",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [
+      "infusion"
+    ],
+    "voucher_specimen": "IFE18112",
+    "life_form_as_published": "Herb",
+    "use_context": "plant reported for flu in Ogbomosho North and South, Oyo State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "odebunmi-2022-ogbomosho",
+    "source_row": 79,
+    "source_table": "Table 4",
+    "source_table_row": 22,
+    "botanical_as_published": "Piper nigrum L.",
+    "family_as_published": "Piperaceae",
+    "common_english_as_published": "Black pepper",
+    "vernacular_as_published": "Iyere",
+    "vernacular_names": [
+      {
+        "local_name": "Iyere",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "seed"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "IFE18116",
+    "life_form_as_published": "Climber",
+    "use_context": "plant reported for flu in Ogbomosho North and South, Oyo State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "odebunmi-2022-ogbomosho",
+    "source_row": 80,
+    "source_table": "Table 4",
+    "source_table_row": 23,
+    "botanical_as_published": "Syzygium aromaticum (L.) Merr. and L.M. Perry",
+    "family_as_published": "Myrtaceae",
+    "common_english_as_published": "Cloves",
+    "vernacular_as_published": "kannafuru",
+    "vernacular_names": [
+      {
+        "local_name": "kannafuru",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "seed"
+    ],
+    "preparations_reported": [
+      "infusion",
+      "pulverizing"
+    ],
+    "voucher_specimen": "IFE18102",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for flu in Ogbomosho North and South, Oyo State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "odebunmi-2022-ogbomosho",
+    "source_row": 81,
+    "source_table": "Table 4",
+    "source_table_row": 24,
+    "botanical_as_published": "Tetrapleura tetraptera (Schum. and Thonn.) Taub.",
+    "family_as_published": "Fabaceae",
+    "common_english_as_published": "Aidan Tree",
+    "vernacular_as_published": "Aridan",
+    "vernacular_names": [
+      {
+        "local_name": "Aridan",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "fruit"
+    ],
+    "preparations_reported": [
+      "decoction",
+      "infusion",
+      "pulverizing"
+    ],
+    "voucher_specimen": "IFE18123",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for flu in Ogbomosho North and South, Oyo State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "odebunmi-2022-ogbomosho",
+    "source_row": 82,
+    "source_table": "Table 4",
+    "source_table_row": 25,
+    "botanical_as_published": "Uvariopsis tripetala (Baker f.) G.E.Schatz",
+    "family_as_published": "Annonaceae",
+    "common_english_as_published": "Pepper fruit",
+    "vernacular_as_published": "Ata dudu, ata igbere",
+    "vernacular_names": [
+      {
+        "local_name": "Ata dudu",
+        "language": "yo"
+      },
+      {
+        "local_name": "ata igbere",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "seed"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "IFE18098",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for flu in Ogbomosho North and South, Oyo State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "odebunmi-2022-ogbomosho",
+    "source_row": 83,
+    "source_table": "Table 4",
+    "source_table_row": 26,
+    "botanical_as_published": "Vachellia nilotica (L.) P.J.H.Hurter and Mabb.",
+    "family_as_published": "Fabaceae",
+    "common_english_as_published": "Gum Arabic Tree",
+    "vernacular_as_published": "Booni",
+    "vernacular_names": [
+      {
+        "local_name": "Booni",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "seed"
+    ],
+    "preparations_reported": [
+      "pulverizing",
+      "infusion"
+    ],
+    "voucher_specimen": "IFE18078",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for flu in Ogbomosho North and South, Oyo State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "odebunmi-2022-ogbomosho",
+    "source_row": 84,
+    "source_table": "Table 4",
+    "source_table_row": 27,
+    "botanical_as_published": "Vitellaria paradoxa C.F.Gaertn",
+    "family_as_published": "Sapotaceae",
+    "common_english_as_published": "Shea butter",
+    "vernacular_as_published": "Ori",
+    "vernacular_names": [
+      {
+        "local_name": "Ori",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "seed"
+    ],
+    "preparations_reported": [
+      "frying"
+    ],
+    "voucher_specimen": "IFE18128",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for flu in Ogbomosho North and South, Oyo State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "odebunmi-2022-ogbomosho",
+    "source_row": 85,
+    "source_table": "Table 4",
+    "source_table_row": 28,
+    "botanical_as_published": "Xylopia aethiopica A. Rich.",
+    "family_as_published": "Annonaceae",
+    "common_english_as_published": "African pepper",
+    "vernacular_as_published": "Eeru",
+    "vernacular_names": [
+      {
+        "local_name": "Eeru",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "seed"
+    ],
+    "preparations_reported": [
+      "pulverizing",
+      "infusion",
+      "decoction"
+    ],
+    "voucher_specimen": "IFE18129",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for flu in Ogbomosho North and South, Oyo State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "odebunmi-2022-ogbomosho",
+    "source_row": 86,
+    "source_table": "Table 4",
+    "source_table_row": 29,
+    "botanical_as_published": "Zingiber officinale Roscoe",
+    "family_as_published": "Zingiberaceae",
+    "common_english_as_published": "Ginger",
+    "vernacular_as_published": "Ata ile",
+    "vernacular_names": [
+      {
+        "local_name": "Ata ile",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "root"
+    ],
+    "preparations_reported": [
+      "pulverizing",
+      "infusion"
+    ],
+    "voucher_specimen": "IFE18132",
+    "life_form_as_published": "Herb",
+    "use_context": "plant reported for flu in Ogbomosho North and South, Oyo State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  }
+]

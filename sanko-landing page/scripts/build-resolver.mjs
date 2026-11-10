@@ -1,6 +1,9 @@
 import { mkdir, readFile, rm, writeFile } from 'node:fs/promises';
+import { whatsappHref } from './whatsapp-link.mjs';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
+
+import { titleCase } from './display-name.mjs';
 
 // Builds the public plant-name resolver from data/plants/. Every page is a published
 // vernacular-to-botanical mapping with its source named, so the export gate below is the
@@ -26,6 +29,12 @@ const sitemapPath = path.resolve(projectDirectory, 'public', 'sitemap-plants.xml
 const reportPath = path.resolve(plantDataDirectory, 'resolver_build_report.json');
 
 const SITE = 'https://www.sanko.africa';
+
+// Sanko's WhatsApp number, in E.164 without the plus, as wa.me wants it. There is no
+// default and no placeholder: an "Ask Sanko" button that opens a chat with a number
+// nobody owns is worse than no button, so when this is unset the CTA is not rendered at
+// all and the pages build exactly as they did before it existed.
+const WHATSAPP_NUMBER = (process.env.SANKO_WHATSAPP_NUMBER ?? '').replace(/[^0-9]/g, '');
 // CI pins the recorded publication date so a later checkout reproduces the pages.
 const BUILT_ON = process.env.RESOLVER_BUILD_DATE || new Date().toISOString().slice(0, 10);
 if (!/^\d{4}-\d{2}-\d{2}$/.test(BUILT_ON)) throw new Error('RESOLVER_BUILD_DATE must be YYYY-MM-DD');
@@ -79,9 +88,6 @@ const slugify = (value) =>
     .replace(/[^a-z0-9]+/g, '-')
     .replace(/^-+|-+$/g, '');
 
-const titleCase = (value) =>
-  String(value ?? '').replace(/\b[a-z]/g, (character) => character.toUpperCase());
-
 const isUndetermined = (code) => code == null || code === UNDETERMINED;
 
 // For table cells and index links, where "Language not recorded" reads correctly.
@@ -112,6 +118,22 @@ const regionLabel = (region) => {
   ].filter(Boolean);
   return unique(parts).join(', ');
 };
+
+// Search folding, which is deliberately not the shared normaliser. `slugify` decomposes
+// diacritics, and data/plants/README.md records what that cannot reach: ɓ, ɗ, ƴ and ŋ are
+// distinct letters with no decomposition, so a Fulfulde name like *Ɓowre* would only ever
+// match a reader who types the hook letter. Folding them here changes what the site
+// matches, not what the index says — the committed rows keep their spelling.
+const HOOK_LETTERS = { 'ɓ': 'b', 'ɗ': 'd', 'ƴ': 'y', 'ŋ': 'n' };
+
+const foldForSearch = (value) =>
+  String(value ?? '')
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase()
+    .replace(/[ɓɗƴŋ]/g, (character) => HOOK_LETTERS[character])
+    .replace(/[^a-z0-9]+/g, ' ')
+    .trim();
 
 const readJson = async (name) =>
   JSON.parse(await readFile(path.resolve(plantDataDirectory, name), 'utf8'));
@@ -152,7 +174,7 @@ const DISCLAIMER =
   'Sanko publishes plant name mappings and the parts reported in the source literature. ' +
   'It does not publish therapeutic claims, and nothing here is medical guidance.';
 
-function layout({ title, description, canonical, jsonLd, breadcrumb, body }) {
+function layout({ title, description, canonical, jsonLd, breadcrumb, body, script = false }) {
   const crumbs = breadcrumb
     .map((crumb, index) =>
       index === breadcrumb.length - 1
@@ -198,7 +220,7 @@ ${body}
   <p>${escapeHtml(DISCLAIMER)}</p>
   <p><a href="/plants/">Plant name resolver</a> · <a href="/plants/sources/">Sources</a> · <a href="/">Sanko</a></p>
 </footer>
-</body>
+${script ? '<script src="/plants/resolver.js" defer></script>\n' : ''}</body>
 </html>
 `;
 }
@@ -219,6 +241,24 @@ function sourceCitation(source, locator) {
     ? `<a href="${escapeHtml(source.url)}" rel="nofollow">${escapeHtml(source.title)}</a>`
     : escapeHtml(source.title);
   return `${link}${where ? ` — ${escapeHtml(where)}` : ''}`;
+}
+
+// The link is only rendered when a number is configured; whatsapp-link.mjs decides that,
+// and this decides what the button says around it.
+function whatsappLink({ display, languageLabel, slug, contested }) {
+  const href = whatsappHref({
+    number: WHATSAPP_NUMBER,
+    display,
+    languageLabel,
+    slug,
+    contested,
+    site: SITE,
+  });
+  if (!href) return '';
+
+  return `<p class="ask"><a class="ask-link" href="${escapeHtml(href)}" rel="nofollow noopener" target="_blank">Ask Sanko about ${escapeHtml(display)} on WhatsApp</a>
+<span class="ask-note">Sanko answers from the same published sources this page cites, and says so when it cannot place a name. It is a documentation assistant for practitioners, not a medical service.</span></p>
+`;
 }
 
 // ---------------------------------------------------------------- page builders
@@ -270,7 +310,7 @@ ${
     ? `<div class="conflict"><p class="eyebrow">Sources disagree</p><p>Two or more published surveys record ${escapeHtml(display)} against different species. Both readings are shown below with their sources. Sanko keeps the name unresolved rather than choosing between them.</p></div>`
     : ''
 }
-<h2>${contested ? 'What the sources say' : 'The record'}</h2>
+${whatsappLink({ display, languageLabel, slug: slugify(name), contested })}<h2>${contested ? 'What the sources say' : 'The record'}</h2>
 <ul class="candidates">
 ${candidates}
 </ul>
@@ -587,7 +627,7 @@ ${rows
   .sort((a, b) => a.local_name.localeCompare(b.local_name))
   .map(
     (row) =>
-      `<li><a href="/plants/${slugify(row.normalized_name)}/">${escapeHtml(titleCase(row.local_name))}</a> <em>${escapeHtml(row.contested ? 'contested' : row.accepted_botanical)}</em></li>`,
+      `<li data-find="${escapeHtml(row.search_text)}"><a href="/plants/${slugify(row.normalized_name)}/">${escapeHtml(titleCase(row.local_name))}</a> <em>${escapeHtml(row.contested ? 'contested' : row.accepted_botanical)}</em></li>`,
   )
   .join('\n')}
 </ul>
@@ -647,8 +687,25 @@ ${languageLinks}
 </ul>
 
 <h2>All names</h2>
+
+<form class="name-search" role="search" hidden>
+  <label for="plant-search">Search ${names.length} names</label>
+  <input id="plant-search" type="search" name="q" autocomplete="off" autocapitalize="none"
+         spellcheck="false" enterkeyhint="search"
+         placeholder="ewuro · bitter leaf · Vernonia amygdalina · Hausa">
+  <p class="search-note">Accents are optional, and a botanical name matches whether you type
+  the accepted name or the one its source published.</p>
+  <p class="search-status" role="status" aria-live="polite"></p>
+</form>
+
+<p class="search-empty" hidden>Nothing here matches that. These ${names.length} names come from
+${sources.length} published Nigerian surveys, so this is a record of what those surveys wrote
+down — not a complete flora. A name missing from it has not been ruled out; it has not been
+read yet. <a href="/plants/sources/">See which sources are in →</a></p>
+
 ${index}
 </article>`,
+      script: true,
     }),
   };
 }
@@ -701,6 +758,14 @@ ul.stats{list-style:none;margin:26px 0 0;padding:22px 0;display:flex;flex-wrap:w
 ul.stats li{font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.09em;text-transform:uppercase;color:var(--muted)}
 ul.stats b{display:block;font-family:"Archivo",sans-serif;font-size:34px;font-weight:800;letter-spacing:-.02em;color:var(--accent)}
 .letter h3{margin-top:26px;padding-bottom:5px;border-bottom:1px solid var(--rule);font-family:"IBM Plex Mono",monospace;font-size:12px;letter-spacing:.1em;color:var(--accent)}
+form.name-search{margin:16px 0 4px}
+form.name-search label{display:block;font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.09em;text-transform:uppercase;color:var(--muted);margin-bottom:7px}
+form.name-search input{width:100%;padding:13px 15px;font:inherit;font-size:16px;color:var(--text);background:var(--surface);border:1px solid var(--rule);border-radius:0;-webkit-appearance:none;appearance:none}
+form.name-search input::placeholder{color:var(--muted)}
+form.name-search input:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.search-note{margin:8px 0 0;font-size:13px;color:var(--muted)}
+.search-status{margin:6px 0 0;min-height:1.3em;font-family:"IBM Plex Mono",monospace;font-size:12px;color:var(--accent)}
+.search-empty{margin:18px 0 0;padding:18px 20px;background:var(--surface);font-size:14.5px;color:var(--muted)}
 .table-scroll{overflow-x:auto;margin-top:16px}
 table{width:100%;border-collapse:collapse;font-size:14.5px;min-width:560px}
 th,td{padding:10px 14px 10px 0;text-align:left;vertical-align:top;border-bottom:1px solid var(--rule)}
@@ -709,10 +774,105 @@ tbody th{font-weight:600}
 .num{font-variant-numeric:tabular-nums}
 .scope{margin-top:12px;font-size:13.5px;color:var(--muted)}
 .backlink{margin-top:36px;font-size:15px}
+.ask{margin:26px 0 0;padding:20px 22px;background:var(--surface);border-left:3px solid var(--accent)}
+.ask-link{display:inline-block;font-weight:700;font-size:16px}
+.ask-note{display:block;margin-top:8px;font-size:13px;color:var(--muted)}
 footer{width:min(860px,calc(100% - 44px));margin:48px auto 0;padding:22px 0 44px;border-top:1px solid var(--rule)}
 footer p{margin:0;font-size:13px;color:var(--muted)}
 footer p+p{margin-top:8px}
 @media(max-width:640px){dl.record{grid-template-columns:1fr;gap:2px}dl.record dd{margin-bottom:10px}}
+`;
+
+// ---------------------------------------------------------------- search
+
+// The index page carries every name already, so search filters the list that is on the
+// page rather than fetching one. No index file to serve, no keystroke that waits on the
+// network, and a reader with JavaScript off keeps the A-Z list they always had — which is
+// why the form is written `hidden` and only revealed here, once it can do something.
+const SEARCH_SCRIPT = `/* Generated by scripts/build-resolver.mjs. */
+(function () {
+  var form = document.querySelector('.name-search');
+  var input = document.getElementById('plant-search');
+  var status = document.querySelector('.search-status');
+  var empty = document.querySelector('.search-empty');
+  if (!form || !input) return;
+
+  var rows = Array.prototype.slice.call(document.querySelectorAll('.name-index > li'));
+  var sections = Array.prototype.slice.call(document.querySelectorAll('section.letter'));
+  if (!rows.length) return;
+
+  var HOOKS = { '\\u0253': 'b', '\\u0257': 'd', '\\u01b4': 'y', '\\u014b': 'n' };
+
+  // Kept in step with foldForSearch in the generator: fold the accents a reader will not
+  // type, and the four hook letters that do not decompose.
+  function fold(value) {
+    return String(value)
+      .normalize('NFD')
+      .replace(/[\\u0300-\\u036f]/g, '')
+      .toLowerCase()
+      .replace(/[\\u0253\\u0257\\u01b4\\u014b]/g, function (character) { return HOOKS[character]; })
+      .replace(/[^a-z0-9]+/g, ' ')
+      .trim();
+  }
+
+  var haystacks = rows.map(function (row) { return row.getAttribute('data-find') || ''; });
+  var visible = rows.length;
+
+  function apply(query) {
+    var tokens = fold(query).split(' ').filter(Boolean);
+    visible = 0;
+
+    for (var i = 0; i < rows.length; i++) {
+      var hay = haystacks[i];
+      var match = true;
+      for (var t = 0; t < tokens.length; t++) {
+        if (hay.indexOf(tokens[t]) === -1) { match = false; break; }
+      }
+      rows[i].hidden = !match;
+      if (match) visible++;
+    }
+
+    // A letter heading with nothing under it is just noise in a filtered list.
+    for (var s = 0; s < sections.length; s++) {
+      var list = sections[s].querySelectorAll('.name-index > li:not([hidden])');
+      sections[s].hidden = tokens.length > 0 && list.length === 0;
+    }
+
+    if (empty) empty.hidden = !(tokens.length > 0 && visible === 0);
+    if (status) {
+      status.textContent = tokens.length === 0
+        ? ''
+        : visible === 0
+          ? 'No matches'
+          : visible === 1 ? '1 name — press Enter to open it' : visible + ' of ' + rows.length + ' names';
+    }
+  }
+
+  form.hidden = false;
+
+  input.addEventListener('input', function () {
+    apply(input.value);
+    // Replace rather than push: a search is worth sharing, but not worth forty back presses.
+    if (window.history && history.replaceState) {
+      var url = input.value ? '?q=' + encodeURIComponent(input.value) : location.pathname;
+      history.replaceState(null, '', url);
+    }
+  });
+
+  form.addEventListener('submit', function (event) {
+    event.preventDefault();
+    if (visible !== 1) return;
+    var only = document.querySelector('.name-index > li:not([hidden]) a');
+    if (only) location.href = only.getAttribute('href');
+  });
+
+  // ?q= makes a search shareable, and is how a link from elsewhere can land on one name.
+  var initial = new URLSearchParams(location.search).get('q');
+  if (initial) {
+    input.value = initial;
+    apply(initial);
+  }
+})();
 `;
 
 // ---------------------------------------------------------------- build
@@ -819,6 +979,7 @@ for (const record of published) {
 await rm(outputDirectory, { recursive: true, force: true });
 await mkdir(outputDirectory, { recursive: true });
 await writeFile(path.resolve(outputDirectory, 'resolver.css'), STYLESHEET, 'utf8');
+await writeFile(path.resolve(outputDirectory, 'resolver.js'), SEARCH_SCRIPT, 'utf8');
 
 const pages = [];
 
@@ -861,12 +1022,33 @@ pages.push(
   }),
 );
 
-const hubNames = [...byName.entries()].map(([name, attestations]) => ({
-  normalized_name: name,
-  local_name: attestations[0].local_name,
-  accepted_botanical: attestations[0].accepted_botanical,
-  contested: unique(attestations.map((row) => row.accepted_botanical)).length > 1,
-}));
+// What a reader can type and still arrive at this row. The name itself is the least of
+// it: people search the botanical name their source printed rather than the accepted one
+// (*Vernonia amygdalina*, not *Gymnanthemum amygdalinum*), they search the English name,
+// and they search the language. All of it is folded once here so the browser does not
+// refold 800 rows on every keystroke.
+const hubNames = [...byName.entries()].map(([name, attestations]) => {
+  const taxa = unique(attestations.map((row) => row.accepted_botanical));
+  const terms = [
+    name,
+    ...attestations.map((row) => row.local_name),
+    ...taxa,
+    ...attestations.map((row) => row.botanical_as_published),
+    ...taxa.flatMap((taxon) => plantsByTaxon.get(taxon)?.common_english ?? []),
+    // An unassigned name is not searchable as "Language not recorded".
+    ...attestations.flatMap((row) =>
+      isUndetermined(row.language) ? [] : [row.language, languageName(row.language)],
+    ),
+  ];
+
+  return {
+    normalized_name: name,
+    local_name: attestations[0].local_name,
+    accepted_botanical: attestations[0].accepted_botanical,
+    contested: taxa.length > 1,
+    search_text: unique(terms.map(foldForSearch)).join(' '),
+  };
+});
 
 const contestedCount = hubNames.filter((row) => row.contested).length;
 

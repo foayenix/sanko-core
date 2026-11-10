@@ -1,25 +1,34 @@
 {
-  "built_at": "2026-09-17",
-  "pages_written": 582,
-  "vernacular_rows_considered": 565,
-  "vernacular_rows_published": 371,
-  "unique_names_published": 347,
-  "taxa_published": 226,
-  "contested_names_published": 18,
+  "built_at": "2026-11-10",
+  "pages_written": 1272,
+  "vernacular_rows_considered": 1124,
+  "vernacular_rows_published": 966,
+  "unique_names_published": 845,
+  "taxa_published": 409,
+  "contested_names_published": 41,
   "languages_published": {
-    "yo": 305,
-    "ha": 46,
-    "ff": 16,
-    "ig": 4
+    "yo": 504,
+    "ijn": 37,
+    "und": 36,
+    "ha": 141,
+    "ekp": 30,
+    "ig": 74,
+    "ikw": 83,
+    "ijc": 43,
+    "ff": 18
   },
   "sources_published": [
+    "weli-2013-port-harcourt",
     "olanipekun-2022-lagos",
     "sonibare-2008-anti-asthmatic",
-    "offiah-2011-plateau"
+    "offiah-2011-plateau",
+    "ajibesin-2012-rivers",
+    "lawal-2020-ede-south",
+    "olatokunbo-2022-bayelsa"
   ],
   "rows_withheld": {
     "source legacy_unverified": 152,
-    "taxonomy_unresolved": 42
+    "taxonomy_unresolved": 6
   },
   "sources_withheld": [
     {
@@ -33,7 +42,12 @@
       "publication_status": "retracted"
     },
     {
-      "id": "weli-2013-port-harcourt",
+      "id": "odebunmi-2022-ogbomosho",
+      "ingestion_status": "staged_review",
+      "publication_status": "active"
+    },
+    {
+      "id": "evbuomwan-2023-kwara",
       "ingestion_status": "staged_review",
       "publication_status": "active"
     },
