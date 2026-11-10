@@ -1,6 +1,7 @@
 [
   {
     "normalized_name": "abafe",
+    "contest_upheld": false,
     "source_spellings": [
       "Abafe"
     ],
@@ -50,44 +51,45 @@
     ]
   },
   {
-    "normalized_name": "abamoda",
+    "normalized_name": "aduruku",
+    "contest_upheld": false,
     "source_spellings": [
-      "abamoda",
-      "Abamoda"
+      "Aduruku"
     ],
     "candidates": [
       {
-        "botanical_as_published": "Bryophyllum pinnatum",
-        "accepted_botanical": "Bryophyllum pinnatum",
-        "language": null,
+        "botanical_as_published": "Newbouldia laevis",
+        "accepted_botanical": "Newbouldia laevis",
+        "language": "ha",
         "region": {
           "country": "Nigeria",
-          "state": null,
-          "localities": []
-        },
-        "source_id": "legacy-lookup-v1",
-        "source_locator": null,
-        "verification_status": "legacy_unverified"
-      },
-      {
-        "botanical_as_published": "Bryophyllum pinnatum (Lam.) Oken",
-        "accepted_botanical": "Kalanchoe pinnata",
-        "language": "yo",
-        "region": {
-          "country": "Nigeria",
-          "state": "Lagos",
+          "state": "Rivers",
           "localities": [
-            "Alimosho",
-            "Badagry",
-            "Eti-Osa",
-            "Ijebu",
-            "Imota"
+            "Port Harcourt"
           ]
         },
-        "source_id": "olanipekun-2022-lagos",
+        "source_id": "weli-2013-port-harcourt",
         "source_locator": {
-          "table": "Supplementary Table S1",
-          "row": 31
+          "table": "Table 1",
+          "row": 28
+        },
+        "verification_status": "taxonomy_checked"
+      },
+      {
+        "botanical_as_published": "Spathodea campanulata (P. Beauv.)",
+        "accepted_botanical": "Spathodea campanulata",
+        "language": "ha",
+        "region": {
+          "country": "Nigeria",
+          "state": "Rivers",
+          "localities": [
+            "Port Harcourt"
+          ]
+        },
+        "source_id": "weli-2013-port-harcourt",
+        "source_locator": {
+          "table": "Table 1",
+          "row": 29
         },
         "verification_status": "taxonomy_checked"
       }
@@ -95,6 +97,7 @@
   },
   {
     "normalized_name": "afomo",
+    "contest_upheld": false,
     "source_spellings": [
       "afomo",
       "Afomo"
@@ -112,6 +115,24 @@
         "source_id": "legacy-lookup-v1",
         "source_locator": null,
         "verification_status": "legacy_unverified"
+      },
+      {
+        "botanical_as_published": "Crudia klainei De Wild.",
+        "accepted_botanical": "Crudia klainei",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": "Osun",
+          "localities": [
+            "Ede South"
+          ]
+        },
+        "source_id": "lawal-2020-ede-south",
+        "source_locator": {
+          "table": "Table 2",
+          "row": 34
+        },
+        "verification_status": "taxonomy_checked"
       },
       {
         "botanical_as_published": "Tapinanthus globiferus (A.Rich.) Tiegh.",
@@ -138,49 +159,8 @@
     ]
   },
   {
-    "normalized_name": "agbalumo",
-    "source_spellings": [
-      "agbalumo",
-      "Agbalumo"
-    ],
-    "candidates": [
-      {
-        "botanical_as_published": "Chrysophyllum albidum",
-        "accepted_botanical": "Chrysophyllum albidum",
-        "language": null,
-        "region": {
-          "country": "Nigeria",
-          "state": null,
-          "localities": []
-        },
-        "source_id": "legacy-lookup-v1",
-        "source_locator": null,
-        "verification_status": "legacy_unverified"
-      },
-      {
-        "botanical_as_published": "Chrysophyllum albidum Linn.",
-        "accepted_botanical": "Gambeya albida",
-        "language": "yo",
-        "region": {
-          "country": "Nigeria",
-          "state": null,
-          "localities": [
-            "Ogun State",
-            "Osun State",
-            "Oyo State"
-          ]
-        },
-        "source_id": "sonibare-2008-anti-asthmatic",
-        "source_locator": {
-          "table": "Table 1",
-          "row": 13
-        },
-        "verification_status": "taxonomy_checked"
-      }
-    ]
-  },
-  {
     "normalized_name": "ako rere",
+    "contest_upheld": false,
     "source_spellings": [
       "Ako rere",
       "Ako-rere"
@@ -233,14 +213,29 @@
     ]
   },
   {
-    "normalized_name": "amuje",
+    "normalized_name": "akoko",
+    "contest_upheld": false,
     "source_spellings": [
-      "Amuje"
+      "akoko",
+      "Akoko"
     ],
     "candidates": [
       {
-        "botanical_as_published": "Harungana madagascariensis Lam. ex Poir.",
-        "accepted_botanical": "Harungana madagascariensis",
+        "botanical_as_published": "Newbouldia laevis",
+        "accepted_botanical": "Newbouldia laevis",
+        "language": null,
+        "region": {
+          "country": "Nigeria",
+          "state": null,
+          "localities": []
+        },
+        "source_id": "legacy-lookup-v1",
+        "source_locator": null,
+        "verification_status": "legacy_unverified"
+      },
+      {
+        "botanical_as_published": "Newbouldia laevis (P.Beauv.) Seem.",
+        "accepted_botanical": "Newbouldia laevis",
         "language": "yo",
         "region": {
           "country": "Nigeria",
@@ -256,34 +251,110 @@
         "source_id": "olanipekun-2022-lagos",
         "source_locator": {
           "table": "Supplementary Table S1",
-          "row": 88
+          "row": 121
         },
         "verification_status": "taxonomy_checked"
       },
       {
-        "botanical_as_published": "Harungana madagascariens Lam.",
-        "accepted_botanical": null,
+        "botanical_as_published": "Newbouldia laevis",
+        "accepted_botanical": "Newbouldia laevis",
         "language": "yo",
         "region": {
           "country": "Nigeria",
-          "state": null,
+          "state": "Rivers",
           "localities": [
-            "Ogun State",
-            "Osun State",
-            "Oyo State"
+            "Port Harcourt"
           ]
         },
-        "source_id": "sonibare-2008-anti-asthmatic",
+        "source_id": "weli-2013-port-harcourt",
         "source_locator": {
           "table": "Table 1",
-          "row": 24
+          "row": 28
         },
-        "verification_status": "taxonomy_unresolved"
+        "verification_status": "taxonomy_checked"
+      },
+      {
+        "botanical_as_published": "Spathodea campanulata (P. Beauv.)",
+        "accepted_botanical": "Spathodea campanulata",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": "Rivers",
+          "localities": [
+            "Port Harcourt"
+          ]
+        },
+        "source_id": "weli-2013-port-harcourt",
+        "source_locator": {
+          "table": "Table 1",
+          "row": 29
+        },
+        "verification_status": "taxonomy_checked"
+      }
+    ]
+  },
+  {
+    "normalized_name": "ata wewe",
+    "contest_upheld": false,
+    "source_spellings": [
+      "ata wewe",
+      "Ata wewe"
+    ],
+    "candidates": [
+      {
+        "botanical_as_published": "Capsicum frutescens",
+        "accepted_botanical": "Capsicum frutescens",
+        "language": null,
+        "region": {
+          "country": "Nigeria",
+          "state": null,
+          "localities": []
+        },
+        "source_id": "legacy-lookup-v1",
+        "source_locator": null,
+        "verification_status": "legacy_unverified"
+      },
+      {
+        "botanical_as_published": "Capsicum annuum L.",
+        "accepted_botanical": "Capsicum annuum",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": "Rivers",
+          "localities": [
+            "Port Harcourt"
+          ]
+        },
+        "source_id": "weli-2013-port-harcourt",
+        "source_locator": {
+          "table": "Table 1",
+          "row": 9
+        },
+        "verification_status": "taxonomy_checked"
+      },
+      {
+        "botanical_as_published": "Capsicum annuum L.",
+        "accepted_botanical": "Capsicum annuum",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": "Rivers",
+          "localities": [
+            "Port Harcourt"
+          ]
+        },
+        "source_id": "weli-2013-port-harcourt",
+        "source_locator": {
+          "table": "Table 1",
+          "row": 60
+        },
+        "verification_status": "taxonomy_checked"
       }
     ]
   },
   {
     "normalized_name": "awede",
+    "contest_upheld": false,
     "source_spellings": [
       "Awede"
     ],
@@ -357,7 +428,49 @@
     ]
   },
   {
+    "normalized_name": "awopa",
+    "contest_upheld": false,
+    "source_spellings": [
+      "awopa",
+      "Awopa"
+    ],
+    "candidates": [
+      {
+        "botanical_as_published": "Alstonia boonei",
+        "accepted_botanical": "Alstonia boonei",
+        "language": null,
+        "region": {
+          "country": "Nigeria",
+          "state": null,
+          "localities": []
+        },
+        "source_id": "legacy-lookup-v1",
+        "source_locator": null,
+        "verification_status": "legacy_unverified"
+      },
+      {
+        "botanical_as_published": "Annickia chlorantha (Oliv.) Setten & Maas = Enantia chlorantha )",
+        "accepted_botanical": "Annickia chlorantha",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": "Osun",
+          "localities": [
+            "Ede South"
+          ]
+        },
+        "source_id": "lawal-2020-ede-south",
+        "source_locator": {
+          "table": "Table 2",
+          "row": 10
+        },
+        "verification_status": "taxonomy_checked"
+      }
+    ]
+  },
+  {
     "normalized_name": "aworo ona",
+    "contest_upheld": false,
     "source_spellings": [
       "Aworo-ona"
     ],
@@ -410,14 +523,16 @@
   },
   {
     "normalized_name": "ayin",
+    "contest_upheld": false,
     "source_spellings": [
       "ayin",
-      "Ayin"
+      "Ayin",
+      "ayin."
     ],
     "candidates": [
       {
         "botanical_as_published": "Anogeissus leiocarpus",
-        "accepted_botanical": null,
+        "accepted_botanical": "Terminalia leiocarpa",
         "language": "yo",
         "region": {
           "country": "Nigeria",
@@ -440,11 +555,11 @@
           "table": "Table 1",
           "row": 6
         },
-        "verification_status": "taxonomy_unresolved"
+        "verification_status": "taxonomy_checked"
       },
       {
         "botanical_as_published": "Anogeissus leiocarpus (DC.) Guill. & Perr.",
-        "accepted_botanical": null,
+        "accepted_botanical": "Terminalia leiocarpa",
         "language": "yo",
         "region": {
           "country": "Nigeria",
@@ -460,12 +575,31 @@
           "table": "Table 1",
           "row": 7
         },
-        "verification_status": "taxonomy_unresolved"
+        "verification_status": "taxonomy_checked"
+      },
+      {
+        "botanical_as_published": "Delonix regia",
+        "accepted_botanical": "Delonix regia",
+        "language": "ha",
+        "region": {
+          "country": "Nigeria",
+          "state": "Rivers",
+          "localities": [
+            "Port Harcourt"
+          ]
+        },
+        "source_id": "weli-2013-port-harcourt",
+        "source_locator": {
+          "table": "Table 1",
+          "row": 84
+        },
+        "verification_status": "taxonomy_checked"
       }
     ]
   },
   {
     "normalized_name": "ayunre",
+    "contest_upheld": false,
     "source_spellings": [
       "Ayunre"
     ],
@@ -518,6 +652,7 @@
   },
   {
     "normalized_name": "baushe",
+    "contest_upheld": false,
     "source_spellings": [
       "Baushe"
     ],
@@ -606,11 +741,138 @@
     ]
   },
   {
+    "normalized_name": "dagunro",
+    "contest_upheld": false,
+    "source_spellings": [
+      "Dagunro"
+    ],
+    "candidates": [
+      {
+        "botanical_as_published": "Amaranthus spinosus L.",
+        "accepted_botanical": "Amaranthus spinosus",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": "Osun",
+          "localities": [
+            "Ede South"
+          ]
+        },
+        "source_id": "lawal-2020-ede-south",
+        "source_locator": {
+          "table": "Table 2",
+          "row": 7
+        },
+        "verification_status": "taxonomy_checked"
+      },
+      {
+        "botanical_as_published": "Acanthospermum hispidum DC.",
+        "accepted_botanical": "Acanthospermum hispidum",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": "Lagos",
+          "localities": [
+            "Alimosho",
+            "Badagry",
+            "Eti-Osa",
+            "Ijebu",
+            "Imota"
+          ]
+        },
+        "source_id": "olanipekun-2022-lagos",
+        "source_locator": {
+          "table": "Supplementary Table S1",
+          "row": 3
+        },
+        "verification_status": "taxonomy_checked"
+      }
+    ]
+  },
+  {
+    "normalized_name": "efinrin wewe",
+    "contest_upheld": false,
+    "source_spellings": [
+      "efinrin wewe",
+      "Efinrin wewe"
+    ],
+    "candidates": [
+      {
+        "botanical_as_published": "Ocimum canum",
+        "accepted_botanical": "Ocimum americanum",
+        "language": null,
+        "region": {
+          "country": "Nigeria",
+          "state": null,
+          "localities": []
+        },
+        "source_id": "legacy-lookup-v1",
+        "source_locator": null,
+        "verification_status": "legacy_unverified"
+      },
+      {
+        "botanical_as_published": "Ocimum americanum L. ( Ocimum canum )",
+        "accepted_botanical": "Ocimum americanum",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": "Osun",
+          "localities": [
+            "Ede South"
+          ]
+        },
+        "source_id": "lawal-2020-ede-south",
+        "source_locator": {
+          "table": "Table 2",
+          "row": 62
+        },
+        "verification_status": "taxonomy_checked"
+      },
+      {
+        "botanical_as_published": "Thymus vulgaris",
+        "accepted_botanical": "Thymus vulgaris",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": "Rivers",
+          "localities": [
+            "Port Harcourt"
+          ]
+        },
+        "source_id": "weli-2013-port-harcourt",
+        "source_locator": {
+          "table": "Table 1",
+          "row": 10
+        },
+        "verification_status": "taxonomy_checked"
+      }
+    ]
+  },
+  {
     "normalized_name": "egbesi",
+    "contest_upheld": false,
     "source_spellings": [
       "Egbesi"
     ],
     "candidates": [
+      {
+        "botanical_as_published": "Sarcocephalus latifolius (Sm.) E.A.Bruce",
+        "accepted_botanical": "Nauclea latifolia",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": "Osun",
+          "localities": [
+            "Ede South"
+          ]
+        },
+        "source_id": "lawal-2020-ede-south",
+        "source_locator": {
+          "table": "Table 2",
+          "row": 72
+        },
+        "verification_status": "taxonomy_checked"
+      },
       {
         "botanical_as_published": "Nauclea latifolia Sm. (Synonym: Sarcocephalus latifolius (Sm.) E.A.Bruce)",
         "accepted_botanical": "Nauclea latifolia",
@@ -656,7 +918,49 @@
     ]
   },
   {
+    "normalized_name": "egusi",
+    "contest_upheld": false,
+    "source_spellings": [
+      "egusi",
+      "Egusi"
+    ],
+    "candidates": [
+      {
+        "botanical_as_published": "Citrullus lanatus",
+        "accepted_botanical": "Citrullus lanatus",
+        "language": null,
+        "region": {
+          "country": "Nigeria",
+          "state": null,
+          "localities": []
+        },
+        "source_id": "legacy-lookup-v1",
+        "source_locator": null,
+        "verification_status": "legacy_unverified"
+      },
+      {
+        "botanical_as_published": "Citrullus colocynthis (L.) Schrad",
+        "accepted_botanical": "Citrullus colocynthis",
+        "language": "ijn",
+        "region": {
+          "country": "Nigeria",
+          "state": "Rivers",
+          "localities": [
+            "all local government areas of Rivers State"
+          ]
+        },
+        "source_id": "ajibesin-2012-rivers",
+        "source_locator": {
+          "table": "Table 1",
+          "row": 61
+        },
+        "verification_status": "taxonomy_checked"
+      }
+    ]
+  },
+  {
     "normalized_name": "ekuku gogoro",
+    "contest_upheld": false,
     "source_spellings": [
       "Ekuku gogoro",
       "Ekuku Gogoro"
@@ -710,6 +1014,7 @@
   },
   {
     "normalized_name": "emi ile",
+    "contest_upheld": false,
     "source_spellings": [
       "emi ile",
       "Emi-ile"
@@ -752,6 +1057,7 @@
   },
   {
     "normalized_name": "epa ikun",
+    "contest_upheld": false,
     "source_spellings": [
       "Epa ikun",
       "Epa-ikun"
@@ -805,6 +1111,7 @@
   },
   {
     "normalized_name": "ewon agogo",
+    "contest_upheld": false,
     "source_spellings": [
       "Ewon agogo",
       "Ewon-agogo"
@@ -855,55 +1162,31 @@
     ]
   },
   {
-    "normalized_name": "ewuro",
+    "normalized_name": "eyin olobe",
+    "contest_upheld": false,
     "source_spellings": [
-      "ewuro",
-      "Ewuro"
+      "Eyin olobe",
+      "Eyin-olobe"
     ],
     "candidates": [
       {
-        "botanical_as_published": "Vernonia amygdalina",
-        "accepted_botanical": "Vernonia amygdalina",
-        "language": null,
-        "region": {
-          "country": "Nigeria",
-          "state": null,
-          "localities": []
-        },
-        "source_id": "legacy-lookup-v1",
-        "source_locator": null,
-        "verification_status": "legacy_unverified"
-      },
-      {
-        "botanical_as_published": "Vernonia amygdalina Delile",
-        "accepted_botanical": "Gymnanthemum amygdalinum",
+        "botanical_as_published": "Phyllanthus amarus Schumach. & Thonn.",
+        "accepted_botanical": "Phyllanthus amarus",
         "language": "yo",
         "region": {
           "country": "Nigeria",
-          "state": "Lagos",
+          "state": "Osun",
           "localities": [
-            "Alimosho",
-            "Badagry",
-            "Eti-Osa",
-            "Ijebu",
-            "Imota"
+            "Ede South"
           ]
         },
-        "source_id": "olanipekun-2022-lagos",
+        "source_id": "lawal-2020-ede-south",
         "source_locator": {
-          "table": "Supplementary Table S1",
-          "row": 179
+          "table": "Table 2",
+          "row": 66
         },
         "verification_status": "taxonomy_checked"
-      }
-    ]
-  },
-  {
-    "normalized_name": "eyin olobe",
-    "source_spellings": [
-      "Eyin olobe"
-    ],
-    "candidates": [
+      },
       {
         "botanical_as_published": "Phyllanthus amarus Schumach. & Thonn.",
         "accepted_botanical": "Phyllanthus amarus",
@@ -952,6 +1235,7 @@
   },
   {
     "normalized_name": "gbegi",
+    "contest_upheld": false,
     "source_spellings": [
       "gbegi",
       "Gbegi"
@@ -1005,6 +1289,7 @@
   },
   {
     "normalized_name": "igba",
+    "contest_upheld": false,
     "source_spellings": [
       "igba",
       "Igba"
@@ -1022,6 +1307,24 @@
         "source_id": "legacy-lookup-v1",
         "source_locator": null,
         "verification_status": "legacy_unverified"
+      },
+      {
+        "botanical_as_published": "Parkia biglobosa (Jacq.) G.Don",
+        "accepted_botanical": "Parkia biglobosa",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": "Osun",
+          "localities": [
+            "Ede South"
+          ]
+        },
+        "source_id": "lawal-2020-ede-south",
+        "source_locator": {
+          "table": "Table 2",
+          "row": 64
+        },
+        "verification_status": "taxonomy_checked"
       },
       {
         "botanical_as_published": "Solanum nigrum L. (Synonym: Solanum americanum Mill.)",
@@ -1049,6 +1352,7 @@
   },
   {
     "normalized_name": "ipa",
+    "contest_upheld": false,
     "source_spellings": [
       "Ipa"
     ],
@@ -1101,6 +1405,7 @@
   },
   {
     "normalized_name": "isapa",
+    "contest_upheld": false,
     "source_spellings": [
       "isapa",
       "Isapa"
@@ -1145,6 +1450,7 @@
   },
   {
     "normalized_name": "isedun",
+    "contest_upheld": false,
     "source_spellings": [
       "Isedun"
     ],
@@ -1196,51 +1502,53 @@
     ]
   },
   {
-    "normalized_name": "iyeye",
+    "normalized_name": "jinwinini",
+    "contest_upheld": false,
     "source_spellings": [
-      "iyeye",
-      "Iyeye"
+      "Jinwinini"
     ],
     "candidates": [
       {
-        "botanical_as_published": "Spondias mombin",
-        "accepted_botanical": "Spondias mombin",
-        "language": null,
-        "region": {
-          "country": "Nigeria",
-          "state": null,
-          "localities": []
-        },
-        "source_id": "legacy-lookup-v1",
-        "source_locator": null,
-        "verification_status": "legacy_unverified"
-      },
-      {
-        "botanical_as_published": "Spondias mombin L.",
-        "accepted_botanical": null,
+        "botanical_as_published": "Acalypha fimbriata",
+        "accepted_botanical": "Acalypha fimbriata",
         "language": "yo",
         "region": {
           "country": "Nigeria",
-          "state": "Lagos",
+          "state": "Rivers",
           "localities": [
-            "Alimosho",
-            "Badagry",
-            "Eti-Osa",
-            "Ijebu",
-            "Imota"
+            "Port Harcourt"
           ]
         },
-        "source_id": "olanipekun-2022-lagos",
+        "source_id": "weli-2013-port-harcourt",
         "source_locator": {
-          "table": "Supplementary Table S1",
-          "row": 160
+          "table": "Table 1",
+          "row": 67
         },
-        "verification_status": "taxonomy_unresolved"
+        "verification_status": "taxonomy_checked"
+      },
+      {
+        "botanical_as_published": "Acalypha godseffiana",
+        "accepted_botanical": "Acalypha wilkesiana",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": "Rivers",
+          "localities": [
+            "Port Harcourt"
+          ]
+        },
+        "source_id": "weli-2013-port-harcourt",
+        "source_locator": {
+          "table": "Table 1",
+          "row": 68
+        },
+        "verification_status": "taxonomy_checked"
       }
     ]
   },
   {
     "normalized_name": "kaju",
+    "contest_upheld": false,
     "source_spellings": [
       "Kaju"
     ],
@@ -1286,11 +1594,89 @@
           "row": 6
         },
         "verification_status": "taxonomy_unresolved"
+      },
+      {
+        "botanical_as_published": "Anacardium occidentale L.",
+        "accepted_botanical": "Anacardium occidentale",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": "Rivers",
+          "localities": [
+            "Port Harcourt"
+          ]
+        },
+        "source_id": "weli-2013-port-harcourt",
+        "source_locator": {
+          "table": "Table 1",
+          "row": 17
+        },
+        "verification_status": "taxonomy_checked"
+      }
+    ]
+  },
+  {
+    "normalized_name": "kakara",
+    "contest_upheld": false,
+    "source_spellings": [
+      "kakara",
+      "Kakara"
+    ],
+    "candidates": [
+      {
+        "botanical_as_published": "Momordica charantia",
+        "accepted_botanical": "Momordica charantia",
+        "language": null,
+        "region": {
+          "country": "Nigeria",
+          "state": null,
+          "localities": []
+        },
+        "source_id": "legacy-lookup-v1",
+        "source_locator": null,
+        "verification_status": "legacy_unverified"
+      },
+      {
+        "botanical_as_published": "Mucuna sloanei",
+        "accepted_botanical": "Mucuna sloanei",
+        "language": "ha",
+        "region": {
+          "country": "Nigeria",
+          "state": "Rivers",
+          "localities": [
+            "Port Harcourt"
+          ]
+        },
+        "source_id": "weli-2013-port-harcourt",
+        "source_locator": {
+          "table": "Table 1",
+          "row": 71
+        },
+        "verification_status": "taxonomy_checked"
+      },
+      {
+        "botanical_as_published": "Mucuna pruriens",
+        "accepted_botanical": "Mucuna pruriens",
+        "language": "ha",
+        "region": {
+          "country": "Nigeria",
+          "state": "Rivers",
+          "localities": [
+            "Port Harcourt"
+          ]
+        },
+        "source_id": "weli-2013-port-harcourt",
+        "source_locator": {
+          "table": "Table 1",
+          "row": 72
+        },
+        "verification_status": "taxonomy_checked"
       }
     ]
   },
   {
     "normalized_name": "kalgo",
+    "contest_upheld": false,
     "source_spellings": [
       "kalgo",
       "Kalgo"
@@ -1353,14 +1739,60 @@
     ]
   },
   {
+    "normalized_name": "kasiu",
+    "contest_upheld": false,
+    "source_spellings": [
+      "Kasiu"
+    ],
+    "candidates": [
+      {
+        "botanical_as_published": "Anacardium occidentale L.",
+        "accepted_botanical": "Anacardium occidentale",
+        "language": "ijn",
+        "region": {
+          "country": "Nigeria",
+          "state": "Rivers",
+          "localities": [
+            "all local government areas of Rivers State"
+          ]
+        },
+        "source_id": "ajibesin-2012-rivers",
+        "source_locator": {
+          "table": "Table 1",
+          "row": 4
+        },
+        "verification_status": "taxonomy_checked"
+      },
+      {
+        "botanical_as_published": "Pistacia vera L.",
+        "accepted_botanical": "Pistacia vera",
+        "language": "ikw",
+        "region": {
+          "country": "Nigeria",
+          "state": "Rivers",
+          "localities": [
+            "all local government areas of Rivers State"
+          ]
+        },
+        "source_id": "ajibesin-2012-rivers",
+        "source_locator": {
+          "table": "Table 1",
+          "row": 7
+        },
+        "verification_status": "taxonomy_checked"
+      }
+    ]
+  },
+  {
     "normalized_name": "kauchi",
+    "contest_upheld": false,
     "source_spellings": [
       "Kauchi"
     ],
     "candidates": [
       {
         "botanical_as_published": "Tapinanthus dodoniefolius",
-        "accepted_botanical": null,
+        "accepted_botanical": "Agelanthus dodoneifolius",
         "language": "ha",
         "region": {
           "country": "Nigeria",
@@ -1383,7 +1815,7 @@
           "table": "Table 1",
           "row": 49
         },
-        "verification_status": "taxonomy_unresolved"
+        "verification_status": "taxonomy_checked"
       },
       {
         "botanical_as_published": "Tapinanthus globiferus",
@@ -1415,7 +1847,165 @@
     ]
   },
   {
+    "normalized_name": "koko",
+    "contest_upheld": false,
+    "source_spellings": [
+      "Koko"
+    ],
+    "candidates": [
+      {
+        "botanical_as_published": "Theobroma cacao L.",
+        "accepted_botanical": "Theobroma cacao",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": "Osun",
+          "localities": [
+            "Ede South"
+          ]
+        },
+        "source_id": "lawal-2020-ede-south",
+        "source_locator": {
+          "table": "Table 2",
+          "row": 83
+        },
+        "verification_status": "taxonomy_checked"
+      },
+      {
+        "botanical_as_published": "Colocasia esculentum (L.) Schott",
+        "accepted_botanical": "Colocasia esculenta",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": "Rivers",
+          "localities": [
+            "Port Harcourt"
+          ]
+        },
+        "source_id": "weli-2013-port-harcourt",
+        "source_locator": {
+          "table": "Table 1",
+          "row": 19
+        },
+        "verification_status": "taxonomy_checked"
+      }
+    ]
+  },
+  {
+    "normalized_name": "koropo",
+    "contest_upheld": false,
+    "source_spellings": [
+      "Koropo"
+    ],
+    "candidates": [
+      {
+        "botanical_as_published": "Crotalaria retusa L.",
+        "accepted_botanical": "Crotalaria retusa",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": "Osun",
+          "localities": [
+            "Ede South"
+          ]
+        },
+        "source_id": "lawal-2020-ede-south",
+        "source_locator": {
+          "table": "Table 2",
+          "row": 33
+        },
+        "verification_status": "taxonomy_checked"
+      },
+      {
+        "botanical_as_published": "Physalis angulata L.",
+        "accepted_botanical": "Physalis angulata",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": "Lagos",
+          "localities": [
+            "Alimosho",
+            "Badagry",
+            "Eti-Osa",
+            "Ijebu",
+            "Imota"
+          ]
+        },
+        "source_id": "olanipekun-2022-lagos",
+        "source_locator": {
+          "table": "Supplementary Table S1",
+          "row": 131
+        },
+        "verification_status": "taxonomy_checked"
+      },
+      {
+        "botanical_as_published": "Crotalaria retusa",
+        "accepted_botanical": "Crotalaria retusa",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": "Rivers",
+          "localities": [
+            "Port Harcourt"
+          ]
+        },
+        "source_id": "weli-2013-port-harcourt",
+        "source_locator": {
+          "table": "Table 1",
+          "row": 82
+        },
+        "verification_status": "taxonomy_checked"
+      }
+    ]
+  },
+  {
+    "normalized_name": "nch anwu",
+    "contest_upheld": false,
+    "source_spellings": [
+      "Nch-anwu"
+    ],
+    "candidates": [
+      {
+        "botanical_as_published": "Thymus vulgaris",
+        "accepted_botanical": "Thymus vulgaris",
+        "language": "ig",
+        "region": {
+          "country": "Nigeria",
+          "state": "Rivers",
+          "localities": [
+            "Port Harcourt"
+          ]
+        },
+        "source_id": "weli-2013-port-harcourt",
+        "source_locator": {
+          "table": "Table 1",
+          "row": 10
+        },
+        "verification_status": "taxonomy_checked"
+      },
+      {
+        "botanical_as_published": "Cymbopogon citratus",
+        "accepted_botanical": "Cymbopogon citratus",
+        "language": "ig",
+        "region": {
+          "country": "Nigeria",
+          "state": "Rivers",
+          "localities": [
+            "Port Harcourt"
+          ]
+        },
+        "source_id": "weli-2013-port-harcourt",
+        "source_locator": {
+          "table": "Table 1",
+          "row": 15
+        },
+        "verification_status": "taxonomy_checked"
+      }
+    ]
+  },
+  {
     "normalized_name": "odan",
+    "contest_upheld": false,
     "source_spellings": [
       "odan",
       "Odan"
@@ -1481,7 +2071,98 @@
     ]
   },
   {
+    "normalized_name": "odo",
+    "contest_upheld": false,
+    "source_spellings": [
+      "Odo"
+    ],
+    "candidates": [
+      {
+        "botanical_as_published": "Dracaena arborea (Willd.) Link. Enum. Hort.",
+        "accepted_botanical": "Dracaena arborea",
+        "language": "ikw",
+        "region": {
+          "country": "Nigeria",
+          "state": "Rivers",
+          "localities": [
+            "all local government areas of Rivers State"
+          ]
+        },
+        "source_id": "ajibesin-2012-rivers",
+        "source_locator": {
+          "table": "Table 1",
+          "row": 3
+        },
+        "verification_status": "taxonomy_checked"
+      },
+      {
+        "botanical_as_published": "Triumfetta rhomboidea (Jacaq.)",
+        "accepted_botanical": "Triumfetta rhomboidea",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": "Rivers",
+          "localities": [
+            "Port Harcourt"
+          ]
+        },
+        "source_id": "weli-2013-port-harcourt",
+        "source_locator": {
+          "table": "Table 1",
+          "row": 4
+        },
+        "verification_status": "taxonomy_checked"
+      }
+    ]
+  },
+  {
+    "normalized_name": "odukwu",
+    "contest_upheld": false,
+    "source_spellings": [
+      "Odukwu"
+    ],
+    "candidates": [
+      {
+        "botanical_as_published": "Ocimum gratissimum L.",
+        "accepted_botanical": "Ocimum gratissimum",
+        "language": "ekp",
+        "region": {
+          "country": "Nigeria",
+          "state": "Rivers",
+          "localities": [
+            "all local government areas of Rivers State"
+          ]
+        },
+        "source_id": "ajibesin-2012-rivers",
+        "source_locator": {
+          "table": "Table 1",
+          "row": 92
+        },
+        "verification_status": "taxonomy_checked"
+      },
+      {
+        "botanical_as_published": "Valeriana officinalis L.",
+        "accepted_botanical": "Valeriana officinalis",
+        "language": "ikw",
+        "region": {
+          "country": "Nigeria",
+          "state": "Rivers",
+          "localities": [
+            "all local government areas of Rivers State"
+          ]
+        },
+        "source_id": "ajibesin-2012-rivers",
+        "source_locator": {
+          "table": "Table 1",
+          "row": 178
+        },
+        "verification_status": "taxonomy_checked"
+      }
+    ]
+  },
+  {
     "normalized_name": "oganwo",
+    "contest_upheld": false,
     "source_spellings": [
       "oganwo",
       "Oganwo"
@@ -1499,6 +2180,24 @@
         "source_id": "legacy-lookup-v1",
         "source_locator": null,
         "verification_status": "legacy_unverified"
+      },
+      {
+        "botanical_as_published": "Khaya grandifoliola C.DC.",
+        "accepted_botanical": "Khaya grandifoliola",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": "Osun",
+          "localities": [
+            "Ede South"
+          ]
+        },
+        "source_id": "lawal-2020-ede-south",
+        "source_locator": {
+          "table": "Table 2",
+          "row": 49
+        },
+        "verification_status": "taxonomy_checked"
       },
       {
         "botanical_as_published": "Khaya ivorensis A. Juss.",
@@ -1523,36 +2222,79 @@
     ]
   },
   {
-    "normalized_name": "okeriri",
+    "normalized_name": "ogirisi",
+    "contest_upheld": false,
     "source_spellings": [
-      "Okeriri"
+      "ogirisi",
+      "Ogirisi"
     ],
     "candidates": [
       {
-        "botanical_as_published": "Urena lobata L. var. glauca (Blume) Borss. Waalk.",
-        "accepted_botanical": null,
-        "language": "yo",
+        "botanical_as_published": "Newbouldia laevis",
+        "accepted_botanical": "Newbouldia laevis",
+        "language": "ig",
         "region": {
           "country": "Nigeria",
-          "state": "Lagos",
+          "state": "Rivers",
           "localities": [
-            "Alimosho",
-            "Badagry",
-            "Eti-Osa",
-            "Ijebu",
-            "Imota"
+            "Port Harcourt"
           ]
         },
-        "source_id": "olanipekun-2022-lagos",
+        "source_id": "weli-2013-port-harcourt",
         "source_locator": {
-          "table": "Supplementary Table S1",
-          "row": 177
+          "table": "Table 1",
+          "row": 28
         },
-        "verification_status": "taxonomy_unresolved"
+        "verification_status": "taxonomy_checked"
       },
       {
-        "botanical_as_published": "Urena lobata L.",
-        "accepted_botanical": "Urena lobata",
+        "botanical_as_published": "Spathodea campanulata (P. Beauv.)",
+        "accepted_botanical": "Spathodea campanulata",
+        "language": "ig",
+        "region": {
+          "country": "Nigeria",
+          "state": "Rivers",
+          "localities": [
+            "Port Harcourt"
+          ]
+        },
+        "source_id": "weli-2013-port-harcourt",
+        "source_locator": {
+          "table": "Table 1",
+          "row": 29
+        },
+        "verification_status": "taxonomy_checked"
+      }
+    ]
+  },
+  {
+    "normalized_name": "ooro",
+    "contest_upheld": false,
+    "source_spellings": [
+      "Ooro"
+    ],
+    "candidates": [
+      {
+        "botanical_as_published": "Antiaris toxicaria Lesch.",
+        "accepted_botanical": "Antiaris toxicaria",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": "Osun",
+          "localities": [
+            "Ede South"
+          ]
+        },
+        "source_id": "lawal-2020-ede-south",
+        "source_locator": {
+          "table": "Table 2",
+          "row": 11
+        },
+        "verification_status": "taxonomy_checked"
+      },
+      {
+        "botanical_as_published": "Polyalthia suaveolens Engl. & Diels (Synonym: Greenwayodendron suaveolens (Engl. & Diels) Verdc.)",
+        "accepted_botanical": "Polyalthia suaveolens",
         "language": "yo",
         "region": {
           "country": "Nigeria",
@@ -1568,7 +2310,66 @@
         "source_id": "olanipekun-2022-lagos",
         "source_locator": {
           "table": "Supplementary Table S1",
-          "row": 178
+          "row": 135
+        },
+        "verification_status": "taxonomy_checked"
+      }
+    ]
+  },
+  {
+    "normalized_name": "ose",
+    "contest_upheld": false,
+    "source_spellings": [
+      "ose",
+      "Ose"
+    ],
+    "candidates": [
+      {
+        "botanical_as_published": "Adansonia digitata",
+        "accepted_botanical": "Adansonia digitata",
+        "language": null,
+        "region": {
+          "country": "Nigeria",
+          "state": null,
+          "localities": []
+        },
+        "source_id": "legacy-lookup-v1",
+        "source_locator": null,
+        "verification_status": "legacy_unverified"
+      },
+      {
+        "botanical_as_published": "Capsicum annuum L.",
+        "accepted_botanical": "Capsicum annuum",
+        "language": "ig",
+        "region": {
+          "country": "Nigeria",
+          "state": "Rivers",
+          "localities": [
+            "Port Harcourt"
+          ]
+        },
+        "source_id": "weli-2013-port-harcourt",
+        "source_locator": {
+          "table": "Table 1",
+          "row": 9
+        },
+        "verification_status": "taxonomy_checked"
+      },
+      {
+        "botanical_as_published": "Adansonia digitata",
+        "accepted_botanical": "Adansonia digitata",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": "Rivers",
+          "localities": [
+            "Port Harcourt"
+          ]
+        },
+        "source_id": "weli-2013-port-harcourt",
+        "source_locator": {
+          "table": "Table 1",
+          "row": 64
         },
         "verification_status": "taxonomy_checked"
       }
@@ -1576,6 +2377,7 @@
   },
   {
     "normalized_name": "osekutu",
+    "contest_upheld": false,
     "source_spellings": [
       "Osekutu"
     ],
@@ -1627,57 +2429,8 @@
     ]
   },
   {
-    "normalized_name": "pandoro",
-    "source_spellings": [
-      "Pandoro"
-    ],
-    "candidates": [
-      {
-        "botanical_as_published": "Kigelia africana (Lam.) Benth.",
-        "accepted_botanical": "Kigelia africana",
-        "language": "yo",
-        "region": {
-          "country": "Nigeria",
-          "state": "Lagos",
-          "localities": [
-            "Alimosho",
-            "Badagry",
-            "Eti-Osa",
-            "Ijebu",
-            "Imota"
-          ]
-        },
-        "source_id": "olanipekun-2022-lagos",
-        "source_locator": {
-          "table": "Supplementary Table S1",
-          "row": 101
-        },
-        "verification_status": "taxonomy_checked"
-      },
-      {
-        "botanical_as_published": "Kigelia Africana (Lam.) Benth",
-        "accepted_botanical": null,
-        "language": "yo",
-        "region": {
-          "country": "Nigeria",
-          "state": null,
-          "localities": [
-            "Ogun State",
-            "Osun State",
-            "Oyo State"
-          ]
-        },
-        "source_id": "sonibare-2008-anti-asthmatic",
-        "source_locator": {
-          "table": "Table 1",
-          "row": 26
-        },
-        "verification_status": "taxonomy_unresolved"
-      }
-    ]
-  },
-  {
     "normalized_name": "sapo",
+    "contest_upheld": false,
     "source_spellings": [
       "Sapo"
     ],
@@ -1750,6 +2503,7 @@
   },
   {
     "normalized_name": "tete",
+    "contest_upheld": false,
     "source_spellings": [
       "tete",
       "Tete"
@@ -1787,6 +2541,228 @@
         "source_locator": {
           "table": "Supplementary Table S1",
           "row": 14
+        },
+        "verification_status": "taxonomy_checked"
+      }
+    ]
+  },
+  {
+    "normalized_name": "ube",
+    "contest_upheld": false,
+    "source_spellings": [
+      "ube",
+      "Ube"
+    ],
+    "candidates": [
+      {
+        "botanical_as_published": "Dacryodes edulis",
+        "accepted_botanical": "Pachylobus edulis",
+        "language": null,
+        "region": {
+          "country": "Nigeria",
+          "state": null,
+          "localities": []
+        },
+        "source_id": "legacy-lookup-v1",
+        "source_locator": null,
+        "verification_status": "legacy_unverified"
+      },
+      {
+        "botanical_as_published": "Persea americana Mill.",
+        "accepted_botanical": "Persea americana",
+        "language": "ikw",
+        "region": {
+          "country": "Nigeria",
+          "state": "Rivers",
+          "localities": [
+            "all local government areas of Rivers State"
+          ]
+        },
+        "source_id": "ajibesin-2012-rivers",
+        "source_locator": {
+          "table": "Table 1",
+          "row": 99
+        },
+        "verification_status": "taxonomy_checked"
+      }
+    ]
+  },
+  {
+    "normalized_name": "ukuro",
+    "contest_upheld": false,
+    "source_spellings": [
+      "Ukuro"
+    ],
+    "candidates": [
+      {
+        "botanical_as_published": "Artemisia dracunculus L.",
+        "accepted_botanical": "Artemisia dracunculus",
+        "language": null,
+        "region": {
+          "country": "Nigeria",
+          "state": "Rivers",
+          "localities": [
+            "all local government areas of Rivers State"
+          ]
+        },
+        "source_id": "ajibesin-2012-rivers",
+        "source_locator": {
+          "table": "Table 1",
+          "row": 25
+        },
+        "verification_status": "taxonomy_checked"
+      },
+      {
+        "botanical_as_published": "Adenopus breviflorus Benth",
+        "accepted_botanical": "Lagenaria breviflora",
+        "language": "ekp",
+        "region": {
+          "country": "Nigeria",
+          "state": "Rivers",
+          "localities": [
+            "all local government areas of Rivers State"
+          ]
+        },
+        "source_id": "ajibesin-2012-rivers",
+        "source_locator": {
+          "table": "Table 1",
+          "row": 60
+        },
+        "verification_status": "taxonomy_checked"
+      }
+    ]
+  },
+  {
+    "normalized_name": "utazi",
+    "contest_upheld": false,
+    "source_spellings": [
+      "utazi",
+      "Utazi"
+    ],
+    "candidates": [
+      {
+        "botanical_as_published": "Gongronema latifolium",
+        "accepted_botanical": "Gongronemopsis latifolia",
+        "language": null,
+        "region": {
+          "country": "Nigeria",
+          "state": null,
+          "localities": []
+        },
+        "source_id": "legacy-lookup-v1",
+        "source_locator": null,
+        "verification_status": "legacy_unverified"
+      },
+      {
+        "botanical_as_published": "Gongronema latifolium Benth.",
+        "accepted_botanical": "Gongronemopsis latifolia",
+        "language": "ikw",
+        "region": {
+          "country": "Nigeria",
+          "state": "Rivers",
+          "localities": [
+            "all local government areas of Rivers State"
+          ]
+        },
+        "source_id": "ajibesin-2012-rivers",
+        "source_locator": {
+          "table": "Table 1",
+          "row": 21
+        },
+        "verification_status": "taxonomy_checked"
+      },
+      {
+        "botanical_as_published": "Pergularia dermia (Forsk) Chiov.",
+        "accepted_botanical": "Pergularia daemia",
+        "language": "ikw",
+        "region": {
+          "country": "Nigeria",
+          "state": "Rivers",
+          "localities": [
+            "all local government areas of Rivers State"
+          ]
+        },
+        "source_id": "ajibesin-2012-rivers",
+        "source_locator": {
+          "table": "Table 1",
+          "row": 22
+        },
+        "verification_status": "taxonomy_checked"
+      }
+    ]
+  },
+  {
+    "normalized_name": "uziza",
+    "contest_upheld": false,
+    "source_spellings": [
+      "uziza",
+      "Uziza"
+    ],
+    "candidates": [
+      {
+        "botanical_as_published": "Piper guineense",
+        "accepted_botanical": "Piper guineense",
+        "language": null,
+        "region": {
+          "country": "Nigeria",
+          "state": null,
+          "localities": []
+        },
+        "source_id": "legacy-lookup-v1",
+        "source_locator": null,
+        "verification_status": "legacy_unverified"
+      },
+      {
+        "botanical_as_published": "Glycyrrhiza glabra L.",
+        "accepted_botanical": "Glycyrrhiza glabra",
+        "language": "ikw",
+        "region": {
+          "country": "Nigeria",
+          "state": "Rivers",
+          "localities": [
+            "all local government areas of Rivers State"
+          ]
+        },
+        "source_id": "ajibesin-2012-rivers",
+        "source_locator": {
+          "table": "Table 1",
+          "row": 133
+        },
+        "verification_status": "taxonomy_checked"
+      },
+      {
+        "botanical_as_published": "Piper guineense Schum. & Thonn.",
+        "accepted_botanical": "Piper guineense",
+        "language": "ikw",
+        "region": {
+          "country": "Nigeria",
+          "state": "Rivers",
+          "localities": [
+            "all local government areas of Rivers State"
+          ]
+        },
+        "source_id": "ajibesin-2012-rivers",
+        "source_locator": {
+          "table": "Table 1",
+          "row": 139
+        },
+        "verification_status": "taxonomy_checked"
+      },
+      {
+        "botanical_as_published": "Piper guineense (Schum. &Thonn.)",
+        "accepted_botanical": "Piper guineense",
+        "language": "ijc",
+        "region": {
+          "country": "Nigeria",
+          "state": "Bayelsa",
+          "localities": [
+            "Bayelsa Central Senatorial District"
+          ]
+        },
+        "source_id": "olatokunbo-2022-bayelsa",
+        "source_locator": {
+          "table": "Table 2",
+          "row": 31
         },
         "verification_status": "taxonomy_checked"
       }

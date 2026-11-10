@@ -39,7 +39,7 @@ const ctx = (practitioner, currentUserText = '') => ({ practitioner, currentUser
 // Fixtures drawn from the real runtime index, so a rebuild that changes what is
 // resolvable fails these tests rather than letting them quietly test nothing.
 const RESOLVED = 'abeere';        // → Hunteria umbellata
-const AMBIGUOUS = 'abamoda';      // in the index, mapped to more than one taxon
+const AMBIGUOUS = 'kauchi';       // in the index, mapped to more than one taxon
 const UNKNOWN = 'ewe ajidewe tuntun';
 
 describe('specimen fixtures still describe the shipped index', () => {

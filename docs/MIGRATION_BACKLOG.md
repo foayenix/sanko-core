@@ -32,18 +32,21 @@ local agent before inclusion; copying its generated output alone loses provenanc
 
 | Work | Archive PR / branch | Acceptance gate |
 | --- | --- | --- |
-| Port Harcourt source adjudication | #8 `plants/port-harcourt` | Port evidence, builder changes and tests together; verify provenance and regenerated index. |
-| Published name corrections | #9 `plants/resolve-unmatched-names` | Preserve correction provenance, ambiguity and unresolved-name safeguards. |
-| Bayelsa/Ijaw survey | #10 `plants/bayelsa-ijaw-survey` | Review source eligibility and language metadata; reproduce all generated output. |
-| Rivers survey and plant parts | #11/#14 `plants/rivers-state-survey`, `plants/rivers-plant-parts` | Port source tables, extraction/review records and tests as one reviewed change. |
-| Legacy botanical taxonomy | #12 `plants/legacy-taxonomy` | Keep legacy status distinct from practitioner verification. |
-| Contested-name adjudication | #13 `plants/adjudicate-contested` | Verify reviewer attribution and exclusions; no automatic winner selection. |
-| Photo identification guard | #15 `plants/photo-identification-guard` | Compare with the existing specimen grounding tests; verify no model-origin species can persist. |
-| Resolver search, diacritics, chat links | #16/#17/#18 `plants/name-search`, `plants/title-case-diacritics`, `plants/whatsapp-deep-link` | Port associated tests and builders; verify data parity, URL escaping and mobile interactions. |
+| Port Harcourt source adjudication | #8 `plants/port-harcourt` | **Ported.** Evidence, builder changes and tests together. |
+| Published name corrections | #9 `plants/resolve-unmatched-names` | **Ported.** `name_corrections.json` carried over unchanged, plus one new decision (Bambusa vulgaris Schrad.). |
+| Bayelsa/Ijaw survey | #10 `plants/bayelsa-ijaw-survey` | **Ported**, by the owner's decision of 2026-11-10 with its licence position as recorded in `sources.json`: no reuse licence is stated. |
+| Rivers survey and plant parts | #11/#14 `plants/rivers-state-survey`, `plants/rivers-plant-parts` | **Ported**, by the owner's decision of 2026-11-10 with its licence position as recorded in `sources.json`: free to read, no reuse licence stated. |
+| Legacy botanical taxonomy | #12 `plants/legacy-taxonomy` | **Ported.** Legacy rows stay `legacy_unverified`. |
+| Contested-name adjudication | #13 `plants/adjudicate-contested` | **Ported.** All 45 proposals in `name_adjudications.json` are still pending; none is applied. |
+| Photo identification guard | #15 `plants/photo-identification-guard` | Not ported: it conflicts with this repository's own specimen flow, which already resolves every botanical name from the index in code. Compare with the existing specimen grounding tests; verify no model-origin species can persist. |
+| Resolver search, diacritics, chat links | #16/#17/#18 `plants/name-search`, `plants/title-case-diacritics`, `plants/whatsapp-deep-link` | **Builders and their tests ported.** Not ported: the agent side of #18 (the prompt section and tool change for readers arriving from a plant page), which changes onboarding and needs its own review. The chat link renders only when `SANKO_WHATSAPP_NUMBER` is set at build time. |
 | Landing hero rewrite and product images | #19 `claude/happy-pasteur-kbu21a` (archive) | **Ported.** `landing-v2/index.html`, `styles.css` and `landing-v2/img/` are byte-identical to archive `main` at `983f9d7`. |
 
-The baseline remains at 479 names / 442 resolved. This is a deliberate source
-selection, not a claim to include every improvement already merged in the archive.
+The plant data of archive PRs #8–#14 was ported on 2026-11-10. Built from the
+archive's six sources alone, this repository reproduces the archive's runtime
+index, provenance files and all 1,200 resolver pages byte for byte (905 names /
+857 resolved; 793 published names). With the Ede South survey added here, the
+index stands at 950 names / 898 resolved and the resolver at 845 published names.
 
 ## Deployment and operations
 

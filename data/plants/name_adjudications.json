@@ -1,0 +1,2155 @@
+[
+  {
+    "normalized_name": "abafe",
+    "source_spellings": [
+      "Abafe"
+    ],
+    "candidates": [
+      {
+        "accepted_botanical": "Piliostigma thonningii",
+        "botanical_as_published": "Piliostigma thonningii (Schum.) Milne-Redh. (Synonym: Bauhinia thonningii Schum.)",
+        "language": "yo",
+        "source_id": "olanipekun-2022-lagos",
+        "source_row": 132,
+        "table": "Supplementary Table S1"
+      },
+      {
+        "accepted_botanical": "Piliostigma reticulatum",
+        "botanical_as_published": "Piliostigma reticulatum (Stapf.) Th. & H. Dur",
+        "language": "yo",
+        "source_id": "sonibare-2008-anti-asthmatic",
+        "source_row": 36,
+        "table": "Table 1"
+      }
+    ],
+    "shape": {
+      "taxa": [
+        "Piliostigma reticulatum",
+        "Piliostigma thonningii"
+      ],
+      "sources": [
+        "olanipekun-2022-lagos",
+        "sonibare-2008-anti-asthmatic"
+      ],
+      "within_one_source": false,
+      "same_genus": true,
+      "rows_per_taxon": {
+        "Piliostigma thonningii": 1,
+        "Piliostigma reticulatum": 1
+      }
+    },
+    "decision": "pending",
+    "strike": null,
+    "reason": null,
+    "reviewed_by": null,
+    "reviewed_at": null
+  },
+  {
+    "normalized_name": "aduruku",
+    "source_spellings": [
+      "Aduruku"
+    ],
+    "candidates": [
+      {
+        "accepted_botanical": "Newbouldia laevis",
+        "botanical_as_published": "Newbouldia laevis",
+        "language": "ha",
+        "source_id": "weli-2013-port-harcourt",
+        "source_row": 28,
+        "table": "Table 1"
+      },
+      {
+        "accepted_botanical": "Spathodea campanulata",
+        "botanical_as_published": "Spathodea campanulata (P. Beauv.)",
+        "language": "ha",
+        "source_id": "weli-2013-port-harcourt",
+        "source_row": 29,
+        "table": "Table 1"
+      }
+    ],
+    "shape": {
+      "taxa": [
+        "Newbouldia laevis",
+        "Spathodea campanulata"
+      ],
+      "sources": [
+        "weli-2013-port-harcourt"
+      ],
+      "within_one_source": true,
+      "same_genus": false,
+      "rows_per_taxon": {
+        "Newbouldia laevis": 1,
+        "Spathodea campanulata": 1
+      }
+    },
+    "decision": "pending",
+    "strike": null,
+    "reason": null,
+    "reviewed_by": null,
+    "reviewed_at": null
+  },
+  {
+    "normalized_name": "afomo",
+    "source_spellings": [
+      "afomo",
+      "Afomo"
+    ],
+    "candidates": [
+      {
+        "accepted_botanical": "Loranthus micranthus",
+        "botanical_as_published": "Loranthus micranthus",
+        "language": null,
+        "source_id": "legacy-lookup-v1",
+        "source_row": null,
+        "table": null
+      },
+      {
+        "accepted_botanical": "Tapinanthus globiferus",
+        "botanical_as_published": "Tapinanthus globiferus (A.Rich.) Tiegh.",
+        "language": "yo",
+        "source_id": "olanipekun-2022-lagos",
+        "source_row": 167,
+        "table": "Supplementary Table S1"
+      }
+    ],
+    "shape": {
+      "taxa": [
+        "Loranthus micranthus",
+        "Tapinanthus globiferus"
+      ],
+      "sources": [
+        "legacy-lookup-v1",
+        "olanipekun-2022-lagos"
+      ],
+      "within_one_source": false,
+      "same_genus": false,
+      "rows_per_taxon": {
+        "Loranthus micranthus": 1,
+        "Tapinanthus globiferus": 1
+      }
+    },
+    "decision": "pending",
+    "strike": null,
+    "reason": null,
+    "reviewed_by": null,
+    "reviewed_at": null
+  },
+  {
+    "normalized_name": "ako rere",
+    "source_spellings": [
+      "Ako rere",
+      "Ako-rere"
+    ],
+    "candidates": [
+      {
+        "accepted_botanical": "Senna obtusifolia",
+        "botanical_as_published": "Senna obtusifolia (L.) H.S.Irwin & Barneby",
+        "language": "yo",
+        "source_id": "olanipekun-2022-lagos",
+        "source_row": 144,
+        "table": "Supplementary Table S1"
+      },
+      {
+        "accepted_botanical": "Trichilia monadelpha",
+        "botanical_as_published": "Trichilia monadelpha (Thonn.) J.J.de Wilde",
+        "language": "yo",
+        "source_id": "olanipekun-2022-lagos",
+        "source_row": 174,
+        "table": "Supplementary Table S1"
+      }
+    ],
+    "shape": {
+      "taxa": [
+        "Senna obtusifolia",
+        "Trichilia monadelpha"
+      ],
+      "sources": [
+        "olanipekun-2022-lagos"
+      ],
+      "within_one_source": true,
+      "same_genus": false,
+      "rows_per_taxon": {
+        "Senna obtusifolia": 1,
+        "Trichilia monadelpha": 1
+      }
+    },
+    "decision": "pending",
+    "strike": null,
+    "reason": null,
+    "reviewed_by": null,
+    "reviewed_at": null
+  },
+  {
+    "normalized_name": "akoko",
+    "source_spellings": [
+      "akoko",
+      "Akoko"
+    ],
+    "candidates": [
+      {
+        "accepted_botanical": "Newbouldia laevis",
+        "botanical_as_published": "Newbouldia laevis",
+        "language": null,
+        "source_id": "legacy-lookup-v1",
+        "source_row": null,
+        "table": null
+      },
+      {
+        "accepted_botanical": "Newbouldia laevis",
+        "botanical_as_published": "Newbouldia laevis (P.Beauv.) Seem.",
+        "language": "yo",
+        "source_id": "olanipekun-2022-lagos",
+        "source_row": 121,
+        "table": "Supplementary Table S1"
+      },
+      {
+        "accepted_botanical": "Newbouldia laevis",
+        "botanical_as_published": "Newbouldia laevis",
+        "language": "yo",
+        "source_id": "weli-2013-port-harcourt",
+        "source_row": 28,
+        "table": "Table 1"
+      },
+      {
+        "accepted_botanical": "Spathodea campanulata",
+        "botanical_as_published": "Spathodea campanulata (P. Beauv.)",
+        "language": "yo",
+        "source_id": "weli-2013-port-harcourt",
+        "source_row": 29,
+        "table": "Table 1"
+      }
+    ],
+    "shape": {
+      "taxa": [
+        "Newbouldia laevis",
+        "Spathodea campanulata"
+      ],
+      "sources": [
+        "legacy-lookup-v1",
+        "olanipekun-2022-lagos",
+        "weli-2013-port-harcourt"
+      ],
+      "within_one_source": true,
+      "same_genus": false,
+      "rows_per_taxon": {
+        "Newbouldia laevis": 3,
+        "Spathodea campanulata": 1
+      }
+    },
+    "decision": "pending",
+    "strike": null,
+    "reason": null,
+    "reviewed_by": null,
+    "reviewed_at": null
+  },
+  {
+    "normalized_name": "ata wewe",
+    "source_spellings": [
+      "ata wewe",
+      "Ata wewe"
+    ],
+    "candidates": [
+      {
+        "accepted_botanical": "Capsicum frutescens",
+        "botanical_as_published": "Capsicum frutescens",
+        "language": null,
+        "source_id": "legacy-lookup-v1",
+        "source_row": null,
+        "table": null
+      },
+      {
+        "accepted_botanical": "Capsicum annuum",
+        "botanical_as_published": "Capsicum annuum L.",
+        "language": "yo",
+        "source_id": "weli-2013-port-harcourt",
+        "source_row": 9,
+        "table": "Table 1"
+      },
+      {
+        "accepted_botanical": "Capsicum annuum",
+        "botanical_as_published": "Capsicum annuum L.",
+        "language": "yo",
+        "source_id": "weli-2013-port-harcourt",
+        "source_row": 60,
+        "table": "Table 1"
+      }
+    ],
+    "shape": {
+      "taxa": [
+        "Capsicum annuum",
+        "Capsicum frutescens"
+      ],
+      "sources": [
+        "legacy-lookup-v1",
+        "weli-2013-port-harcourt"
+      ],
+      "within_one_source": true,
+      "same_genus": true,
+      "rows_per_taxon": {
+        "Capsicum frutescens": 1,
+        "Capsicum annuum": 2
+      }
+    },
+    "decision": "pending",
+    "strike": null,
+    "reason": null,
+    "reviewed_by": null,
+    "reviewed_at": null
+  },
+  {
+    "normalized_name": "awede",
+    "source_spellings": [
+      "Awede"
+    ],
+    "candidates": [
+      {
+        "accepted_botanical": "Spermacoce ruelliae",
+        "botanical_as_published": "Borreria scabra (Schumach. & Thonn.) K.Schum. (Synonym: Spermacoce ruelliae DC.)",
+        "language": "yo",
+        "source_id": "olanipekun-2022-lagos",
+        "source_row": 28,
+        "table": "Supplementary Table S1"
+      },
+      {
+        "accepted_botanical": "Spermacoce verticillata",
+        "botanical_as_published": "Borreria verticillata (L.) G.Mey. (Synonym: Spermacoce verticillata L.)",
+        "language": "yo",
+        "source_id": "olanipekun-2022-lagos",
+        "source_row": 29,
+        "table": "Supplementary Table S1"
+      },
+      {
+        "accepted_botanical": "Heterotis rotundifolia",
+        "botanical_as_published": "Dissotis rotundifolia (Sm.) Triana (Synonym Heterotis rotundifolia (Sm.) Jacq.-Fél.)",
+        "language": "yo",
+        "source_id": "olanipekun-2022-lagos",
+        "source_row": 67,
+        "table": "Supplementary Table S1"
+      }
+    ],
+    "shape": {
+      "taxa": [
+        "Heterotis rotundifolia",
+        "Spermacoce ruelliae",
+        "Spermacoce verticillata"
+      ],
+      "sources": [
+        "olanipekun-2022-lagos"
+      ],
+      "within_one_source": true,
+      "same_genus": false,
+      "rows_per_taxon": {
+        "Spermacoce ruelliae": 1,
+        "Spermacoce verticillata": 1,
+        "Heterotis rotundifolia": 1
+      }
+    },
+    "decision": "pending",
+    "strike": null,
+    "reason": null,
+    "reviewed_by": null,
+    "reviewed_at": null
+  },
+  {
+    "normalized_name": "aworo ona",
+    "source_spellings": [
+      "Aworo-ona"
+    ],
+    "candidates": [
+      {
+        "accepted_botanical": "Eleutheranthera ruderalis",
+        "botanical_as_published": "Eleutheranthera ruderalis (Swartz) Sch.-Bip.",
+        "language": "yo",
+        "source_id": "olanipekun-2022-lagos",
+        "source_row": 71,
+        "table": "Supplementary Table S1"
+      },
+      {
+        "accepted_botanical": "Synedrella nodiflora",
+        "botanical_as_published": "Synedrella nodiflora (L.) Gaertn.",
+        "language": "yo",
+        "source_id": "olanipekun-2022-lagos",
+        "source_row": 164,
+        "table": "Supplementary Table S1"
+      }
+    ],
+    "shape": {
+      "taxa": [
+        "Eleutheranthera ruderalis",
+        "Synedrella nodiflora"
+      ],
+      "sources": [
+        "olanipekun-2022-lagos"
+      ],
+      "within_one_source": true,
+      "same_genus": false,
+      "rows_per_taxon": {
+        "Eleutheranthera ruderalis": 1,
+        "Synedrella nodiflora": 1
+      }
+    },
+    "decision": "pending",
+    "strike": null,
+    "reason": null,
+    "reviewed_by": null,
+    "reviewed_at": null
+  },
+  {
+    "normalized_name": "ayin",
+    "source_spellings": [
+      "ayin",
+      "Ayin",
+      "ayin."
+    ],
+    "candidates": [
+      {
+        "accepted_botanical": "Terminalia leiocarpa",
+        "botanical_as_published": "Anogeissus leiocarpus",
+        "language": "yo",
+        "source_id": "offiah-2011-plateau",
+        "source_row": 6,
+        "table": "Table 1"
+      },
+      {
+        "accepted_botanical": "Terminalia leiocarpa",
+        "botanical_as_published": "Anogeissus leiocarpus (DC.) Guill. & Perr.",
+        "language": "yo",
+        "source_id": "sonibare-2008-anti-asthmatic",
+        "source_row": 7,
+        "table": "Table 1"
+      },
+      {
+        "accepted_botanical": "Delonix regia",
+        "botanical_as_published": "Delonix regia",
+        "language": "ha",
+        "source_id": "weli-2013-port-harcourt",
+        "source_row": 84,
+        "table": "Table 1"
+      }
+    ],
+    "shape": {
+      "taxa": [
+        "Delonix regia",
+        "Terminalia leiocarpa"
+      ],
+      "sources": [
+        "offiah-2011-plateau",
+        "sonibare-2008-anti-asthmatic",
+        "weli-2013-port-harcourt"
+      ],
+      "within_one_source": false,
+      "same_genus": false,
+      "rows_per_taxon": {
+        "Terminalia leiocarpa": 2,
+        "Delonix regia": 1
+      }
+    },
+    "decision": "pending",
+    "strike": null,
+    "reason": null,
+    "reviewed_by": null,
+    "reviewed_at": null
+  },
+  {
+    "normalized_name": "ayunre",
+    "source_spellings": [
+      "Ayunre"
+    ],
+    "candidates": [
+      {
+        "accepted_botanical": "Albizia ferruginea",
+        "botanical_as_published": "Albizia ferruginea (Guill. & Perr.) Benth.",
+        "language": "yo",
+        "source_id": "olanipekun-2022-lagos",
+        "source_row": 7,
+        "table": "Supplementary Table S1"
+      },
+      {
+        "accepted_botanical": "Albizia lebbeck",
+        "botanical_as_published": "Albizia lebbeck (L.) Benth.",
+        "language": "yo",
+        "source_id": "olanipekun-2022-lagos",
+        "source_row": 8,
+        "table": "Supplementary Table S1"
+      }
+    ],
+    "shape": {
+      "taxa": [
+        "Albizia ferruginea",
+        "Albizia lebbeck"
+      ],
+      "sources": [
+        "olanipekun-2022-lagos"
+      ],
+      "within_one_source": true,
+      "same_genus": true,
+      "rows_per_taxon": {
+        "Albizia ferruginea": 1,
+        "Albizia lebbeck": 1
+      }
+    },
+    "decision": "pending",
+    "strike": null,
+    "reason": null,
+    "reviewed_by": null,
+    "reviewed_at": null
+  },
+  {
+    "normalized_name": "baushe",
+    "source_spellings": [
+      "Baushe"
+    ],
+    "candidates": [
+      {
+        "accepted_botanical": "Combretum glutinosum",
+        "botanical_as_published": "Combretum glutinosum",
+        "language": "ha",
+        "source_id": "offiah-2011-plateau",
+        "source_row": 12,
+        "table": "Table 1"
+      },
+      {
+        "accepted_botanical": "Terminalia avicennioides",
+        "botanical_as_published": "Terminalia avicennioides",
+        "language": "ha",
+        "source_id": "offiah-2011-plateau",
+        "source_row": 51,
+        "table": "Table 1"
+      },
+      {
+        "accepted_botanical": "Terminalia macroptera",
+        "botanical_as_published": "Terminalia macroptera",
+        "language": "ha",
+        "source_id": "offiah-2011-plateau",
+        "source_row": 52,
+        "table": "Table 1"
+      }
+    ],
+    "shape": {
+      "taxa": [
+        "Combretum glutinosum",
+        "Terminalia avicennioides",
+        "Terminalia macroptera"
+      ],
+      "sources": [
+        "offiah-2011-plateau"
+      ],
+      "within_one_source": true,
+      "same_genus": false,
+      "rows_per_taxon": {
+        "Combretum glutinosum": 1,
+        "Terminalia avicennioides": 1,
+        "Terminalia macroptera": 1
+      }
+    },
+    "decision": "pending",
+    "strike": null,
+    "reason": null,
+    "reviewed_by": null,
+    "reviewed_at": null
+  },
+  {
+    "normalized_name": "efinrin wewe",
+    "source_spellings": [
+      "efinrin wewe",
+      "Efinrin wewe"
+    ],
+    "candidates": [
+      {
+        "accepted_botanical": "Ocimum americanum",
+        "botanical_as_published": "Ocimum canum",
+        "language": null,
+        "source_id": "legacy-lookup-v1",
+        "source_row": null,
+        "table": null
+      },
+      {
+        "accepted_botanical": "Thymus vulgaris",
+        "botanical_as_published": "Thymus vulgaris",
+        "language": "yo",
+        "source_id": "weli-2013-port-harcourt",
+        "source_row": 10,
+        "table": "Table 1"
+      }
+    ],
+    "shape": {
+      "taxa": [
+        "Ocimum americanum",
+        "Thymus vulgaris"
+      ],
+      "sources": [
+        "legacy-lookup-v1",
+        "weli-2013-port-harcourt"
+      ],
+      "within_one_source": false,
+      "same_genus": false,
+      "rows_per_taxon": {
+        "Ocimum americanum": 1,
+        "Thymus vulgaris": 1
+      }
+    },
+    "decision": "pending",
+    "strike": null,
+    "reason": null,
+    "reviewed_by": null,
+    "reviewed_at": null
+  },
+  {
+    "normalized_name": "egbesi",
+    "source_spellings": [
+      "Egbesi"
+    ],
+    "candidates": [
+      {
+        "accepted_botanical": "Nauclea latifolia",
+        "botanical_as_published": "Nauclea latifolia Sm. (Synonym: Sarcocephalus latifolius (Sm.) E.A.Bruce)",
+        "language": "yo",
+        "source_id": "olanipekun-2022-lagos",
+        "source_row": 120,
+        "table": "Supplementary Table S1"
+      },
+      {
+        "accepted_botanical": "Mitragyna inermis",
+        "botanical_as_published": "Nauclea africana Wild.",
+        "language": "yo",
+        "source_id": "sonibare-2008-anti-asthmatic",
+        "source_row": 31,
+        "table": "Table 1"
+      }
+    ],
+    "shape": {
+      "taxa": [
+        "Mitragyna inermis",
+        "Nauclea latifolia"
+      ],
+      "sources": [
+        "olanipekun-2022-lagos",
+        "sonibare-2008-anti-asthmatic"
+      ],
+      "within_one_source": false,
+      "same_genus": false,
+      "rows_per_taxon": {
+        "Nauclea latifolia": 1,
+        "Mitragyna inermis": 1
+      }
+    },
+    "decision": "pending",
+    "strike": null,
+    "reason": null,
+    "reviewed_by": null,
+    "reviewed_at": null
+  },
+  {
+    "normalized_name": "egusi",
+    "source_spellings": [
+      "egusi",
+      "Egusi"
+    ],
+    "candidates": [
+      {
+        "accepted_botanical": "Citrullus lanatus",
+        "botanical_as_published": "Citrullus lanatus",
+        "language": null,
+        "source_id": "legacy-lookup-v1",
+        "source_row": null,
+        "table": null
+      },
+      {
+        "accepted_botanical": "Citrullus colocynthis",
+        "botanical_as_published": "Citrullus colocynthis (L.) Schrad",
+        "language": "ijn",
+        "source_id": "ajibesin-2012-rivers",
+        "source_row": 61,
+        "table": "Table 1"
+      }
+    ],
+    "shape": {
+      "taxa": [
+        "Citrullus colocynthis",
+        "Citrullus lanatus"
+      ],
+      "sources": [
+        "ajibesin-2012-rivers",
+        "legacy-lookup-v1"
+      ],
+      "within_one_source": false,
+      "same_genus": true,
+      "rows_per_taxon": {
+        "Citrullus lanatus": 1,
+        "Citrullus colocynthis": 1
+      }
+    },
+    "decision": "pending",
+    "strike": null,
+    "reason": null,
+    "reviewed_by": null,
+    "reviewed_at": null
+  },
+  {
+    "normalized_name": "ekuku gogoro",
+    "source_spellings": [
+      "Ekuku gogoro",
+      "Ekuku Gogoro"
+    ],
+    "candidates": [
+      {
+        "accepted_botanical": "Sesamum indicum",
+        "botanical_as_published": "Sesamum indicum L.",
+        "language": "yo",
+        "source_id": "olanipekun-2022-lagos",
+        "source_row": 148,
+        "table": "Supplementary Table S1"
+      },
+      {
+        "accepted_botanical": "Sesamum radiatum",
+        "botanical_as_published": "Sesamum radiatum Schumach. & Thonn.",
+        "language": "yo",
+        "source_id": "olanipekun-2022-lagos",
+        "source_row": 149,
+        "table": "Supplementary Table S1"
+      }
+    ],
+    "shape": {
+      "taxa": [
+        "Sesamum indicum",
+        "Sesamum radiatum"
+      ],
+      "sources": [
+        "olanipekun-2022-lagos"
+      ],
+      "within_one_source": true,
+      "same_genus": true,
+      "rows_per_taxon": {
+        "Sesamum indicum": 1,
+        "Sesamum radiatum": 1
+      }
+    },
+    "decision": "pending",
+    "strike": null,
+    "reason": null,
+    "reviewed_by": null,
+    "reviewed_at": null
+  },
+  {
+    "normalized_name": "emi ile",
+    "source_spellings": [
+      "emi ile",
+      "Emi-ile"
+    ],
+    "candidates": [
+      {
+        "accepted_botanical": "Hoslundia opposita",
+        "botanical_as_published": "Hoslundia opposita",
+        "language": null,
+        "source_id": "legacy-lookup-v1",
+        "source_row": null,
+        "table": null
+      },
+      {
+        "accepted_botanical": "Euphorbia hirta",
+        "botanical_as_published": "Euphorbia hirta Linn.",
+        "language": "yo",
+        "source_id": "sonibare-2008-anti-asthmatic",
+        "source_row": 18,
+        "table": "Table 1"
+      }
+    ],
+    "shape": {
+      "taxa": [
+        "Euphorbia hirta",
+        "Hoslundia opposita"
+      ],
+      "sources": [
+        "legacy-lookup-v1",
+        "sonibare-2008-anti-asthmatic"
+      ],
+      "within_one_source": false,
+      "same_genus": false,
+      "rows_per_taxon": {
+        "Hoslundia opposita": 1,
+        "Euphorbia hirta": 1
+      }
+    },
+    "decision": "pending",
+    "strike": null,
+    "reason": null,
+    "reviewed_by": null,
+    "reviewed_at": null
+  },
+  {
+    "normalized_name": "epa ikun",
+    "source_spellings": [
+      "Epa ikun",
+      "Epa-ikun"
+    ],
+    "candidates": [
+      {
+        "accepted_botanical": "Senna obtusifolia",
+        "botanical_as_published": "Senna obtusifolia (L.) H.S.Irwin & Barneby",
+        "language": "yo",
+        "source_id": "olanipekun-2022-lagos",
+        "source_row": 144,
+        "table": "Supplementary Table S1"
+      },
+      {
+        "accepted_botanical": "Senna tora",
+        "botanical_as_published": "Senna tora (L.) Roxb.",
+        "language": "yo",
+        "source_id": "olanipekun-2022-lagos",
+        "source_row": 147,
+        "table": "Supplementary Table S1"
+      }
+    ],
+    "shape": {
+      "taxa": [
+        "Senna obtusifolia",
+        "Senna tora"
+      ],
+      "sources": [
+        "olanipekun-2022-lagos"
+      ],
+      "within_one_source": true,
+      "same_genus": true,
+      "rows_per_taxon": {
+        "Senna obtusifolia": 1,
+        "Senna tora": 1
+      }
+    },
+    "decision": "pending",
+    "strike": null,
+    "reason": null,
+    "reviewed_by": null,
+    "reviewed_at": null
+  },
+  {
+    "normalized_name": "ewon agogo",
+    "source_spellings": [
+      "Ewon agogo",
+      "Ewon-agogo"
+    ],
+    "candidates": [
+      {
+        "accepted_botanical": "Lantana camara",
+        "botanical_as_published": "Lantana camara L.",
+        "language": "yo",
+        "source_id": "olanipekun-2022-lagos",
+        "source_row": 102,
+        "table": "Supplementary Table S1"
+      },
+      {
+        "accepted_botanical": "Mimosa pigra",
+        "botanical_as_published": "Mimosa pigra Linn.",
+        "language": "yo",
+        "source_id": "sonibare-2008-anti-asthmatic",
+        "source_row": 28,
+        "table": "Table 1"
+      }
+    ],
+    "shape": {
+      "taxa": [
+        "Lantana camara",
+        "Mimosa pigra"
+      ],
+      "sources": [
+        "olanipekun-2022-lagos",
+        "sonibare-2008-anti-asthmatic"
+      ],
+      "within_one_source": false,
+      "same_genus": false,
+      "rows_per_taxon": {
+        "Lantana camara": 1,
+        "Mimosa pigra": 1
+      }
+    },
+    "decision": "pending",
+    "strike": null,
+    "reason": null,
+    "reviewed_by": null,
+    "reviewed_at": null
+  },
+  {
+    "normalized_name": "eyin olobe",
+    "source_spellings": [
+      "Eyin olobe"
+    ],
+    "candidates": [
+      {
+        "accepted_botanical": "Phyllanthus amarus",
+        "botanical_as_published": "Phyllanthus amarus Schumach. & Thonn.",
+        "language": "yo",
+        "source_id": "olanipekun-2022-lagos",
+        "source_row": 129,
+        "table": "Supplementary Table S1"
+      },
+      {
+        "accepted_botanical": "Phyllanthus niruri",
+        "botanical_as_published": "Phyllanthus niruri L.",
+        "language": "yo",
+        "source_id": "olanipekun-2022-lagos",
+        "source_row": 130,
+        "table": "Supplementary Table S1"
+      }
+    ],
+    "shape": {
+      "taxa": [
+        "Phyllanthus amarus",
+        "Phyllanthus niruri"
+      ],
+      "sources": [
+        "olanipekun-2022-lagos"
+      ],
+      "within_one_source": true,
+      "same_genus": true,
+      "rows_per_taxon": {
+        "Phyllanthus amarus": 1,
+        "Phyllanthus niruri": 1
+      }
+    },
+    "decision": "pending",
+    "strike": null,
+    "reason": null,
+    "reviewed_by": null,
+    "reviewed_at": null
+  },
+  {
+    "normalized_name": "gbegi",
+    "source_spellings": [
+      "gbegi",
+      "Gbegi"
+    ],
+    "candidates": [
+      {
+        "accepted_botanical": "Eleusine indica",
+        "botanical_as_published": "Eleusine indica (L.) Gaertn.",
+        "language": "yo",
+        "source_id": "olanipekun-2022-lagos",
+        "source_row": 70,
+        "table": "Supplementary Table S1"
+      },
+      {
+        "accepted_botanical": "Sida acuta",
+        "botanical_as_published": "Sida acuta Burm.f.",
+        "language": "yo",
+        "source_id": "olanipekun-2022-lagos",
+        "source_row": 150,
+        "table": "Supplementary Table S1"
+      }
+    ],
+    "shape": {
+      "taxa": [
+        "Eleusine indica",
+        "Sida acuta"
+      ],
+      "sources": [
+        "olanipekun-2022-lagos"
+      ],
+      "within_one_source": true,
+      "same_genus": false,
+      "rows_per_taxon": {
+        "Eleusine indica": 1,
+        "Sida acuta": 1
+      }
+    },
+    "decision": "pending",
+    "strike": null,
+    "reason": null,
+    "reviewed_by": null,
+    "reviewed_at": null
+  },
+  {
+    "normalized_name": "igba",
+    "source_spellings": [
+      "igba",
+      "Igba"
+    ],
+    "candidates": [
+      {
+        "accepted_botanical": "Lagenaria siceraria",
+        "botanical_as_published": "Lagenaria siceraria",
+        "language": null,
+        "source_id": "legacy-lookup-v1",
+        "source_row": null,
+        "table": null
+      },
+      {
+        "accepted_botanical": "Solanum nigrum",
+        "botanical_as_published": "Solanum nigrum L. (Synonym: Solanum americanum Mill.)",
+        "language": "yo",
+        "source_id": "olanipekun-2022-lagos",
+        "source_row": 154,
+        "table": "Supplementary Table S1"
+      }
+    ],
+    "shape": {
+      "taxa": [
+        "Lagenaria siceraria",
+        "Solanum nigrum"
+      ],
+      "sources": [
+        "legacy-lookup-v1",
+        "olanipekun-2022-lagos"
+      ],
+      "within_one_source": false,
+      "same_genus": false,
+      "rows_per_taxon": {
+        "Lagenaria siceraria": 1,
+        "Solanum nigrum": 1
+      }
+    },
+    "decision": "pending",
+    "strike": null,
+    "reason": null,
+    "reviewed_by": null,
+    "reviewed_at": null
+  },
+  {
+    "normalized_name": "ipa",
+    "source_spellings": [
+      "Ipa"
+    ],
+    "candidates": [
+      {
+        "accepted_botanical": "Alchornea cordifolia",
+        "botanical_as_published": "Alchornea cordifolia (Schumach. & Thonn.) Müll.Arg.",
+        "language": "yo",
+        "source_id": "olanipekun-2022-lagos",
+        "source_row": 10,
+        "table": "Supplementary Table S1"
+      },
+      {
+        "accepted_botanical": "Mallotus oppositifolius",
+        "botanical_as_published": "Mallotus oppositifolius (Geiseler) Müll.Arg.",
+        "language": "yo",
+        "source_id": "olanipekun-2022-lagos",
+        "source_row": 108,
+        "table": "Supplementary Table S1"
+      }
+    ],
+    "shape": {
+      "taxa": [
+        "Alchornea cordifolia",
+        "Mallotus oppositifolius"
+      ],
+      "sources": [
+        "olanipekun-2022-lagos"
+      ],
+      "within_one_source": true,
+      "same_genus": false,
+      "rows_per_taxon": {
+        "Alchornea cordifolia": 1,
+        "Mallotus oppositifolius": 1
+      }
+    },
+    "decision": "pending",
+    "strike": null,
+    "reason": null,
+    "reviewed_by": null,
+    "reviewed_at": null
+  },
+  {
+    "normalized_name": "isapa",
+    "source_spellings": [
+      "isapa",
+      "Isapa"
+    ],
+    "candidates": [
+      {
+        "accepted_botanical": "Hibiscus sabdariffa",
+        "botanical_as_published": "Hibiscus sabdariffa",
+        "language": null,
+        "source_id": "legacy-lookup-v1",
+        "source_row": null,
+        "table": null
+      },
+      {
+        "accepted_botanical": "Hibiscus rosa-sinensis",
+        "botanical_as_published": "Hibiscus rosa-sinensis L.",
+        "language": "yo",
+        "source_id": "olanipekun-2022-lagos",
+        "source_row": 90,
+        "table": "Supplementary Table S1"
+      }
+    ],
+    "shape": {
+      "taxa": [
+        "Hibiscus rosa-sinensis",
+        "Hibiscus sabdariffa"
+      ],
+      "sources": [
+        "legacy-lookup-v1",
+        "olanipekun-2022-lagos"
+      ],
+      "within_one_source": false,
+      "same_genus": true,
+      "rows_per_taxon": {
+        "Hibiscus sabdariffa": 1,
+        "Hibiscus rosa-sinensis": 1
+      }
+    },
+    "decision": "pending",
+    "strike": null,
+    "reason": null,
+    "reviewed_by": null,
+    "reviewed_at": null
+  },
+  {
+    "normalized_name": "isedun",
+    "source_spellings": [
+      "Isedun"
+    ],
+    "candidates": [
+      {
+        "accepted_botanical": "Clerodendrum paniculatum",
+        "botanical_as_published": "Clerodendrum paniculatum L.",
+        "language": "yo",
+        "source_id": "olanipekun-2022-lagos",
+        "source_row": 48,
+        "table": "Supplementary Table S1"
+      },
+      {
+        "accepted_botanical": "Clerodendrum umbellatum",
+        "botanical_as_published": "Clerodendrum umbellatum Poir.",
+        "language": "yo",
+        "source_id": "olanipekun-2022-lagos",
+        "source_row": 49,
+        "table": "Supplementary Table S1"
+      }
+    ],
+    "shape": {
+      "taxa": [
+        "Clerodendrum paniculatum",
+        "Clerodendrum umbellatum"
+      ],
+      "sources": [
+        "olanipekun-2022-lagos"
+      ],
+      "within_one_source": true,
+      "same_genus": true,
+      "rows_per_taxon": {
+        "Clerodendrum paniculatum": 1,
+        "Clerodendrum umbellatum": 1
+      }
+    },
+    "decision": "pending",
+    "strike": null,
+    "reason": null,
+    "reviewed_by": null,
+    "reviewed_at": null
+  },
+  {
+    "normalized_name": "jinwinini",
+    "source_spellings": [
+      "Jinwinini"
+    ],
+    "candidates": [
+      {
+        "accepted_botanical": "Acalypha fimbriata",
+        "botanical_as_published": "Acalypha fimbriata",
+        "language": "yo",
+        "source_id": "weli-2013-port-harcourt",
+        "source_row": 67,
+        "table": "Table 1"
+      },
+      {
+        "accepted_botanical": "Acalypha wilkesiana",
+        "botanical_as_published": "Acalypha godseffiana",
+        "language": "yo",
+        "source_id": "weli-2013-port-harcourt",
+        "source_row": 68,
+        "table": "Table 1"
+      }
+    ],
+    "shape": {
+      "taxa": [
+        "Acalypha fimbriata",
+        "Acalypha wilkesiana"
+      ],
+      "sources": [
+        "weli-2013-port-harcourt"
+      ],
+      "within_one_source": true,
+      "same_genus": true,
+      "rows_per_taxon": {
+        "Acalypha fimbriata": 1,
+        "Acalypha wilkesiana": 1
+      }
+    },
+    "decision": "pending",
+    "strike": null,
+    "reason": null,
+    "reviewed_by": null,
+    "reviewed_at": null
+  },
+  {
+    "normalized_name": "kaju",
+    "source_spellings": [
+      "Kaju"
+    ],
+    "candidates": [
+      {
+        "accepted_botanical": "Anacardium occidentale",
+        "botanical_as_published": "Anacardium occidentale L.",
+        "language": "yo",
+        "source_id": "olanipekun-2022-lagos",
+        "source_row": 15,
+        "table": "Supplementary Table S1"
+      },
+      {
+        "accepted_botanical": "Anacardium occidentalis Linn.",
+        "botanical_as_published": "Anacardium occidentalis Linn.",
+        "language": "yo",
+        "source_id": "sonibare-2008-anti-asthmatic",
+        "source_row": 6,
+        "table": "Table 1"
+      },
+      {
+        "accepted_botanical": "Anacardium occidentale",
+        "botanical_as_published": "Anacardium occidentale L.",
+        "language": "yo",
+        "source_id": "weli-2013-port-harcourt",
+        "source_row": 17,
+        "table": "Table 1"
+      }
+    ],
+    "shape": {
+      "taxa": [
+        "Anacardium occidentale",
+        "Anacardium occidentalis Linn."
+      ],
+      "sources": [
+        "olanipekun-2022-lagos",
+        "sonibare-2008-anti-asthmatic",
+        "weli-2013-port-harcourt"
+      ],
+      "within_one_source": false,
+      "same_genus": true,
+      "rows_per_taxon": {
+        "Anacardium occidentale": 2,
+        "Anacardium occidentalis Linn.": 1
+      }
+    },
+    "decision": "pending",
+    "strike": null,
+    "reason": null,
+    "reviewed_by": null,
+    "reviewed_at": null
+  },
+  {
+    "normalized_name": "kakara",
+    "source_spellings": [
+      "kakara",
+      "Kakara"
+    ],
+    "candidates": [
+      {
+        "accepted_botanical": "Momordica charantia",
+        "botanical_as_published": "Momordica charantia",
+        "language": null,
+        "source_id": "legacy-lookup-v1",
+        "source_row": null,
+        "table": null
+      },
+      {
+        "accepted_botanical": "Mucuna sloanei",
+        "botanical_as_published": "Mucuna sloanei",
+        "language": "ha",
+        "source_id": "weli-2013-port-harcourt",
+        "source_row": 71,
+        "table": "Table 1"
+      },
+      {
+        "accepted_botanical": "Mucuna pruriens",
+        "botanical_as_published": "Mucuna pruriens",
+        "language": "ha",
+        "source_id": "weli-2013-port-harcourt",
+        "source_row": 72,
+        "table": "Table 1"
+      }
+    ],
+    "shape": {
+      "taxa": [
+        "Momordica charantia",
+        "Mucuna pruriens",
+        "Mucuna sloanei"
+      ],
+      "sources": [
+        "legacy-lookup-v1",
+        "weli-2013-port-harcourt"
+      ],
+      "within_one_source": true,
+      "same_genus": false,
+      "rows_per_taxon": {
+        "Momordica charantia": 1,
+        "Mucuna sloanei": 1,
+        "Mucuna pruriens": 1
+      }
+    },
+    "decision": "pending",
+    "strike": null,
+    "reason": null,
+    "reviewed_by": null,
+    "reviewed_at": null
+  },
+  {
+    "normalized_name": "kalgo",
+    "source_spellings": [
+      "kalgo",
+      "Kalgo"
+    ],
+    "candidates": [
+      {
+        "accepted_botanical": "Piliostigma reticulatum",
+        "botanical_as_published": "Piliostigma reticulatum",
+        "language": "ha",
+        "source_id": "offiah-2011-plateau",
+        "source_row": 39,
+        "table": "Table 1"
+      },
+      {
+        "accepted_botanical": "Piliostigma thonningii",
+        "botanical_as_published": "Piliostigma thonningii",
+        "language": "ha",
+        "source_id": "offiah-2011-plateau",
+        "source_row": 40,
+        "table": "Table 1"
+      }
+    ],
+    "shape": {
+      "taxa": [
+        "Piliostigma reticulatum",
+        "Piliostigma thonningii"
+      ],
+      "sources": [
+        "offiah-2011-plateau"
+      ],
+      "within_one_source": true,
+      "same_genus": true,
+      "rows_per_taxon": {
+        "Piliostigma reticulatum": 1,
+        "Piliostigma thonningii": 1
+      }
+    },
+    "decision": "pending",
+    "strike": null,
+    "reason": null,
+    "reviewed_by": null,
+    "reviewed_at": null
+  },
+  {
+    "normalized_name": "kasiu",
+    "source_spellings": [
+      "Kasiu"
+    ],
+    "candidates": [
+      {
+        "accepted_botanical": "Anacardium occidentale",
+        "botanical_as_published": "Anacardium occidentale L.",
+        "language": "ijn",
+        "source_id": "ajibesin-2012-rivers",
+        "source_row": 4,
+        "table": "Table 1"
+      },
+      {
+        "accepted_botanical": "Pistacia vera",
+        "botanical_as_published": "Pistacia vera L.",
+        "language": "ikw",
+        "source_id": "ajibesin-2012-rivers",
+        "source_row": 7,
+        "table": "Table 1"
+      }
+    ],
+    "shape": {
+      "taxa": [
+        "Anacardium occidentale",
+        "Pistacia vera"
+      ],
+      "sources": [
+        "ajibesin-2012-rivers"
+      ],
+      "within_one_source": true,
+      "same_genus": false,
+      "rows_per_taxon": {
+        "Anacardium occidentale": 1,
+        "Pistacia vera": 1
+      }
+    },
+    "decision": "pending",
+    "strike": null,
+    "reason": null,
+    "reviewed_by": null,
+    "reviewed_at": null
+  },
+  {
+    "normalized_name": "kauchi",
+    "source_spellings": [
+      "Kauchi"
+    ],
+    "candidates": [
+      {
+        "accepted_botanical": "Agelanthus dodoneifolius",
+        "botanical_as_published": "Tapinanthus dodoniefolius",
+        "language": "ha",
+        "source_id": "offiah-2011-plateau",
+        "source_row": 49,
+        "table": "Table 1"
+      },
+      {
+        "accepted_botanical": "Tapinanthus globiferus",
+        "botanical_as_published": "Tapinanthus globiferus",
+        "language": "ha",
+        "source_id": "offiah-2011-plateau",
+        "source_row": 50,
+        "table": "Table 1"
+      }
+    ],
+    "shape": {
+      "taxa": [
+        "Agelanthus dodoneifolius",
+        "Tapinanthus globiferus"
+      ],
+      "sources": [
+        "offiah-2011-plateau"
+      ],
+      "within_one_source": true,
+      "same_genus": false,
+      "rows_per_taxon": {
+        "Agelanthus dodoneifolius": 1,
+        "Tapinanthus globiferus": 1
+      }
+    },
+    "decision": "pending",
+    "strike": null,
+    "reason": null,
+    "reviewed_by": null,
+    "reviewed_at": null
+  },
+  {
+    "normalized_name": "koropo",
+    "source_spellings": [
+      "Koropo"
+    ],
+    "candidates": [
+      {
+        "accepted_botanical": "Physalis angulata",
+        "botanical_as_published": "Physalis angulata L.",
+        "language": "yo",
+        "source_id": "olanipekun-2022-lagos",
+        "source_row": 131,
+        "table": "Supplementary Table S1"
+      },
+      {
+        "accepted_botanical": "Crotalaria retusa",
+        "botanical_as_published": "Crotalaria retusa",
+        "language": "yo",
+        "source_id": "weli-2013-port-harcourt",
+        "source_row": 82,
+        "table": "Table 1"
+      }
+    ],
+    "shape": {
+      "taxa": [
+        "Crotalaria retusa",
+        "Physalis angulata"
+      ],
+      "sources": [
+        "olanipekun-2022-lagos",
+        "weli-2013-port-harcourt"
+      ],
+      "within_one_source": false,
+      "same_genus": false,
+      "rows_per_taxon": {
+        "Physalis angulata": 1,
+        "Crotalaria retusa": 1
+      }
+    },
+    "decision": "pending",
+    "strike": null,
+    "reason": null,
+    "reviewed_by": null,
+    "reviewed_at": null
+  },
+  {
+    "normalized_name": "nch anwu",
+    "source_spellings": [
+      "Nch-anwu"
+    ],
+    "candidates": [
+      {
+        "accepted_botanical": "Thymus vulgaris",
+        "botanical_as_published": "Thymus vulgaris",
+        "language": "ig",
+        "source_id": "weli-2013-port-harcourt",
+        "source_row": 10,
+        "table": "Table 1"
+      },
+      {
+        "accepted_botanical": "Cymbopogon citratus",
+        "botanical_as_published": "Cymbopogon citratus",
+        "language": "ig",
+        "source_id": "weli-2013-port-harcourt",
+        "source_row": 15,
+        "table": "Table 1"
+      }
+    ],
+    "shape": {
+      "taxa": [
+        "Cymbopogon citratus",
+        "Thymus vulgaris"
+      ],
+      "sources": [
+        "weli-2013-port-harcourt"
+      ],
+      "within_one_source": true,
+      "same_genus": false,
+      "rows_per_taxon": {
+        "Thymus vulgaris": 1,
+        "Cymbopogon citratus": 1
+      }
+    },
+    "decision": "pending",
+    "strike": null,
+    "reason": null,
+    "reviewed_by": null,
+    "reviewed_at": null
+  },
+  {
+    "normalized_name": "odan",
+    "source_spellings": [
+      "odan",
+      "Odan"
+    ],
+    "candidates": [
+      {
+        "accepted_botanical": "Ficus thonningii",
+        "botanical_as_published": "Ficus thonningii",
+        "language": null,
+        "source_id": "legacy-lookup-v1",
+        "source_row": null,
+        "table": null
+      },
+      {
+        "accepted_botanical": "Ficus benjamina",
+        "botanical_as_published": "Ficus benjamina L. (Synonym:",
+        "language": "yo",
+        "source_id": "olanipekun-2022-lagos",
+        "source_row": 79,
+        "table": "Supplementary Table S1"
+      },
+      {
+        "accepted_botanical": "Ficus polita",
+        "botanical_as_published": "Ficus polita Vahl",
+        "language": "yo",
+        "source_id": "olanipekun-2022-lagos",
+        "source_row": 82,
+        "table": "Supplementary Table S1"
+      }
+    ],
+    "shape": {
+      "taxa": [
+        "Ficus benjamina",
+        "Ficus polita",
+        "Ficus thonningii"
+      ],
+      "sources": [
+        "legacy-lookup-v1",
+        "olanipekun-2022-lagos"
+      ],
+      "within_one_source": true,
+      "same_genus": true,
+      "rows_per_taxon": {
+        "Ficus thonningii": 1,
+        "Ficus benjamina": 1,
+        "Ficus polita": 1
+      }
+    },
+    "decision": "pending",
+    "strike": null,
+    "reason": null,
+    "reviewed_by": null,
+    "reviewed_at": null
+  },
+  {
+    "normalized_name": "odo",
+    "source_spellings": [
+      "Odo"
+    ],
+    "candidates": [
+      {
+        "accepted_botanical": "Dracaena arborea",
+        "botanical_as_published": "Dracaena arborea (Willd.) Link. Enum. Hort.",
+        "language": "ikw",
+        "source_id": "ajibesin-2012-rivers",
+        "source_row": 3,
+        "table": "Table 1"
+      },
+      {
+        "accepted_botanical": "Triumfetta rhomboidea",
+        "botanical_as_published": "Triumfetta rhomboidea (Jacaq.)",
+        "language": "yo",
+        "source_id": "weli-2013-port-harcourt",
+        "source_row": 4,
+        "table": "Table 1"
+      }
+    ],
+    "shape": {
+      "taxa": [
+        "Dracaena arborea",
+        "Triumfetta rhomboidea"
+      ],
+      "sources": [
+        "ajibesin-2012-rivers",
+        "weli-2013-port-harcourt"
+      ],
+      "within_one_source": false,
+      "same_genus": false,
+      "rows_per_taxon": {
+        "Dracaena arborea": 1,
+        "Triumfetta rhomboidea": 1
+      }
+    },
+    "decision": "pending",
+    "strike": null,
+    "reason": null,
+    "reviewed_by": null,
+    "reviewed_at": null
+  },
+  {
+    "normalized_name": "odukwu",
+    "source_spellings": [
+      "Odukwu"
+    ],
+    "candidates": [
+      {
+        "accepted_botanical": "Ocimum gratissimum",
+        "botanical_as_published": "Ocimum gratissimum L.",
+        "language": "ekp",
+        "source_id": "ajibesin-2012-rivers",
+        "source_row": 92,
+        "table": "Table 1"
+      },
+      {
+        "accepted_botanical": "Valeriana officinalis",
+        "botanical_as_published": "Valeriana officinalis L.",
+        "language": "ikw",
+        "source_id": "ajibesin-2012-rivers",
+        "source_row": 178,
+        "table": "Table 1"
+      }
+    ],
+    "shape": {
+      "taxa": [
+        "Ocimum gratissimum",
+        "Valeriana officinalis"
+      ],
+      "sources": [
+        "ajibesin-2012-rivers"
+      ],
+      "within_one_source": true,
+      "same_genus": false,
+      "rows_per_taxon": {
+        "Ocimum gratissimum": 1,
+        "Valeriana officinalis": 1
+      }
+    },
+    "decision": "pending",
+    "strike": null,
+    "reason": null,
+    "reviewed_by": null,
+    "reviewed_at": null
+  },
+  {
+    "normalized_name": "oganwo",
+    "source_spellings": [
+      "oganwo",
+      "Oganwo"
+    ],
+    "candidates": [
+      {
+        "accepted_botanical": "Khaya senegalensis",
+        "botanical_as_published": "Khaya senegalensis",
+        "language": null,
+        "source_id": "legacy-lookup-v1",
+        "source_row": null,
+        "table": null
+      },
+      {
+        "accepted_botanical": "Khaya ivorensis",
+        "botanical_as_published": "Khaya ivorensis A. Juss.",
+        "language": "yo",
+        "source_id": "sonibare-2008-anti-asthmatic",
+        "source_row": 25,
+        "table": "Table 1"
+      }
+    ],
+    "shape": {
+      "taxa": [
+        "Khaya ivorensis",
+        "Khaya senegalensis"
+      ],
+      "sources": [
+        "legacy-lookup-v1",
+        "sonibare-2008-anti-asthmatic"
+      ],
+      "within_one_source": false,
+      "same_genus": true,
+      "rows_per_taxon": {
+        "Khaya senegalensis": 1,
+        "Khaya ivorensis": 1
+      }
+    },
+    "decision": "pending",
+    "strike": null,
+    "reason": null,
+    "reviewed_by": null,
+    "reviewed_at": null
+  },
+  {
+    "normalized_name": "ogirisi",
+    "source_spellings": [
+      "ogirisi",
+      "Ogirisi"
+    ],
+    "candidates": [
+      {
+        "accepted_botanical": "Newbouldia laevis",
+        "botanical_as_published": "Newbouldia laevis",
+        "language": "ig",
+        "source_id": "weli-2013-port-harcourt",
+        "source_row": 28,
+        "table": "Table 1"
+      },
+      {
+        "accepted_botanical": "Spathodea campanulata",
+        "botanical_as_published": "Spathodea campanulata (P. Beauv.)",
+        "language": "ig",
+        "source_id": "weli-2013-port-harcourt",
+        "source_row": 29,
+        "table": "Table 1"
+      }
+    ],
+    "shape": {
+      "taxa": [
+        "Newbouldia laevis",
+        "Spathodea campanulata"
+      ],
+      "sources": [
+        "weli-2013-port-harcourt"
+      ],
+      "within_one_source": true,
+      "same_genus": false,
+      "rows_per_taxon": {
+        "Newbouldia laevis": 1,
+        "Spathodea campanulata": 1
+      }
+    },
+    "decision": "pending",
+    "strike": null,
+    "reason": null,
+    "reviewed_by": null,
+    "reviewed_at": null
+  },
+  {
+    "normalized_name": "ose",
+    "source_spellings": [
+      "ose",
+      "Ose"
+    ],
+    "candidates": [
+      {
+        "accepted_botanical": "Adansonia digitata",
+        "botanical_as_published": "Adansonia digitata",
+        "language": null,
+        "source_id": "legacy-lookup-v1",
+        "source_row": null,
+        "table": null
+      },
+      {
+        "accepted_botanical": "Capsicum annuum",
+        "botanical_as_published": "Capsicum annuum L.",
+        "language": "ig",
+        "source_id": "weli-2013-port-harcourt",
+        "source_row": 9,
+        "table": "Table 1"
+      },
+      {
+        "accepted_botanical": "Adansonia digitata",
+        "botanical_as_published": "Adansonia digitata",
+        "language": "yo",
+        "source_id": "weli-2013-port-harcourt",
+        "source_row": 64,
+        "table": "Table 1"
+      }
+    ],
+    "shape": {
+      "taxa": [
+        "Adansonia digitata",
+        "Capsicum annuum"
+      ],
+      "sources": [
+        "legacy-lookup-v1",
+        "weli-2013-port-harcourt"
+      ],
+      "within_one_source": true,
+      "same_genus": false,
+      "rows_per_taxon": {
+        "Adansonia digitata": 2,
+        "Capsicum annuum": 1
+      }
+    },
+    "decision": "pending",
+    "strike": null,
+    "reason": null,
+    "reviewed_by": null,
+    "reviewed_at": null
+  },
+  {
+    "normalized_name": "osekutu",
+    "source_spellings": [
+      "Osekutu"
+    ],
+    "candidates": [
+      {
+        "accepted_botanical": "Sida acuta",
+        "botanical_as_published": "Sida acuta Burm.f.",
+        "language": "yo",
+        "source_id": "olanipekun-2022-lagos",
+        "source_row": 150,
+        "table": "Supplementary Table S1"
+      },
+      {
+        "accepted_botanical": "Sida linifolia",
+        "botanical_as_published": "Sida linifolia Juss. ex Cav. (Synonym:",
+        "language": "yo",
+        "source_id": "olanipekun-2022-lagos",
+        "source_row": 152,
+        "table": "Supplementary Table S1"
+      }
+    ],
+    "shape": {
+      "taxa": [
+        "Sida acuta",
+        "Sida linifolia"
+      ],
+      "sources": [
+        "olanipekun-2022-lagos"
+      ],
+      "within_one_source": true,
+      "same_genus": true,
+      "rows_per_taxon": {
+        "Sida acuta": 1,
+        "Sida linifolia": 1
+      }
+    },
+    "decision": "pending",
+    "strike": null,
+    "reason": null,
+    "reviewed_by": null,
+    "reviewed_at": null
+  },
+  {
+    "normalized_name": "sapo",
+    "source_spellings": [
+      "Sapo"
+    ],
+    "candidates": [
+      {
+        "accepted_botanical": "Anthocleista djalonensis",
+        "botanical_as_published": "Anthocleista djalonensis A.Chev.",
+        "language": "yo",
+        "source_id": "olanipekun-2022-lagos",
+        "source_row": 18,
+        "table": "Supplementary Table S1"
+      },
+      {
+        "accepted_botanical": "Anthocleista vogelii",
+        "botanical_as_published": "Anthocleista vogelii Planch.",
+        "language": "yo",
+        "source_id": "olanipekun-2022-lagos",
+        "source_row": 19,
+        "table": "Supplementary Table S1"
+      },
+      {
+        "accepted_botanical": "Anthocleista djalonensis",
+        "botanical_as_published": "Anthocleista djalonensis A.Chev.",
+        "language": "yo",
+        "source_id": "sonibare-2008-anti-asthmatic",
+        "source_row": 8,
+        "table": "Table 1"
+      }
+    ],
+    "shape": {
+      "taxa": [
+        "Anthocleista djalonensis",
+        "Anthocleista vogelii"
+      ],
+      "sources": [
+        "olanipekun-2022-lagos",
+        "sonibare-2008-anti-asthmatic"
+      ],
+      "within_one_source": true,
+      "same_genus": true,
+      "rows_per_taxon": {
+        "Anthocleista djalonensis": 2,
+        "Anthocleista vogelii": 1
+      }
+    },
+    "decision": "pending",
+    "strike": null,
+    "reason": null,
+    "reviewed_by": null,
+    "reviewed_at": null
+  },
+  {
+    "normalized_name": "tete",
+    "source_spellings": [
+      "tete",
+      "Tete"
+    ],
+    "candidates": [
+      {
+        "accepted_botanical": "Amaranthus hybridus",
+        "botanical_as_published": "Amaranthus hybridus",
+        "language": null,
+        "source_id": "legacy-lookup-v1",
+        "source_row": null,
+        "table": null
+      },
+      {
+        "accepted_botanical": "Amaranthus viridis",
+        "botanical_as_published": "Amaranthus viridis L.",
+        "language": "yo",
+        "source_id": "olanipekun-2022-lagos",
+        "source_row": 14,
+        "table": "Supplementary Table S1"
+      }
+    ],
+    "shape": {
+      "taxa": [
+        "Amaranthus hybridus",
+        "Amaranthus viridis"
+      ],
+      "sources": [
+        "legacy-lookup-v1",
+        "olanipekun-2022-lagos"
+      ],
+      "within_one_source": false,
+      "same_genus": true,
+      "rows_per_taxon": {
+        "Amaranthus hybridus": 1,
+        "Amaranthus viridis": 1
+      }
+    },
+    "decision": "pending",
+    "strike": null,
+    "reason": null,
+    "reviewed_by": null,
+    "reviewed_at": null
+  },
+  {
+    "normalized_name": "ube",
+    "source_spellings": [
+      "ube",
+      "Ube"
+    ],
+    "candidates": [
+      {
+        "accepted_botanical": "Pachylobus edulis",
+        "botanical_as_published": "Dacryodes edulis",
+        "language": null,
+        "source_id": "legacy-lookup-v1",
+        "source_row": null,
+        "table": null
+      },
+      {
+        "accepted_botanical": "Persea americana",
+        "botanical_as_published": "Persea americana Mill.",
+        "language": "ikw",
+        "source_id": "ajibesin-2012-rivers",
+        "source_row": 99,
+        "table": "Table 1"
+      }
+    ],
+    "shape": {
+      "taxa": [
+        "Pachylobus edulis",
+        "Persea americana"
+      ],
+      "sources": [
+        "ajibesin-2012-rivers",
+        "legacy-lookup-v1"
+      ],
+      "within_one_source": false,
+      "same_genus": false,
+      "rows_per_taxon": {
+        "Pachylobus edulis": 1,
+        "Persea americana": 1
+      }
+    },
+    "decision": "pending",
+    "strike": null,
+    "reason": null,
+    "reviewed_by": null,
+    "reviewed_at": null
+  },
+  {
+    "normalized_name": "ukuro",
+    "source_spellings": [
+      "Ukuro"
+    ],
+    "candidates": [
+      {
+        "accepted_botanical": "Artemisia dracunculus",
+        "botanical_as_published": "Artemisia dracunculus L.",
+        "language": null,
+        "source_id": "ajibesin-2012-rivers",
+        "source_row": 25,
+        "table": "Table 1"
+      },
+      {
+        "accepted_botanical": "Lagenaria breviflora",
+        "botanical_as_published": "Adenopus breviflorus Benth",
+        "language": "ekp",
+        "source_id": "ajibesin-2012-rivers",
+        "source_row": 60,
+        "table": "Table 1"
+      }
+    ],
+    "shape": {
+      "taxa": [
+        "Artemisia dracunculus",
+        "Lagenaria breviflora"
+      ],
+      "sources": [
+        "ajibesin-2012-rivers"
+      ],
+      "within_one_source": true,
+      "same_genus": false,
+      "rows_per_taxon": {
+        "Artemisia dracunculus": 1,
+        "Lagenaria breviflora": 1
+      }
+    },
+    "decision": "pending",
+    "strike": null,
+    "reason": null,
+    "reviewed_by": null,
+    "reviewed_at": null
+  },
+  {
+    "normalized_name": "utazi",
+    "source_spellings": [
+      "utazi",
+      "Utazi"
+    ],
+    "candidates": [
+      {
+        "accepted_botanical": "Gongronemopsis latifolia",
+        "botanical_as_published": "Gongronema latifolium",
+        "language": null,
+        "source_id": "legacy-lookup-v1",
+        "source_row": null,
+        "table": null
+      },
+      {
+        "accepted_botanical": "Gongronemopsis latifolia",
+        "botanical_as_published": "Gongronema latifolium Benth.",
+        "language": "ikw",
+        "source_id": "ajibesin-2012-rivers",
+        "source_row": 21,
+        "table": "Table 1"
+      },
+      {
+        "accepted_botanical": "Pergularia daemia",
+        "botanical_as_published": "Pergularia dermia (Forsk) Chiov.",
+        "language": "ikw",
+        "source_id": "ajibesin-2012-rivers",
+        "source_row": 22,
+        "table": "Table 1"
+      }
+    ],
+    "shape": {
+      "taxa": [
+        "Gongronemopsis latifolia",
+        "Pergularia daemia"
+      ],
+      "sources": [
+        "ajibesin-2012-rivers",
+        "legacy-lookup-v1"
+      ],
+      "within_one_source": true,
+      "same_genus": false,
+      "rows_per_taxon": {
+        "Gongronemopsis latifolia": 2,
+        "Pergularia daemia": 1
+      }
+    },
+    "decision": "pending",
+    "strike": null,
+    "reason": null,
+    "reviewed_by": null,
+    "reviewed_at": null
+  },
+  {
+    "normalized_name": "uziza",
+    "source_spellings": [
+      "uziza",
+      "Uziza"
+    ],
+    "candidates": [
+      {
+        "accepted_botanical": "Piper guineense",
+        "botanical_as_published": "Piper guineense",
+        "language": null,
+        "source_id": "legacy-lookup-v1",
+        "source_row": null,
+        "table": null
+      },
+      {
+        "accepted_botanical": "Glycyrrhiza glabra",
+        "botanical_as_published": "Glycyrrhiza glabra L.",
+        "language": "ikw",
+        "source_id": "ajibesin-2012-rivers",
+        "source_row": 133,
+        "table": "Table 1"
+      },
+      {
+        "accepted_botanical": "Piper guineense",
+        "botanical_as_published": "Piper guineense Schum. & Thonn.",
+        "language": "ikw",
+        "source_id": "ajibesin-2012-rivers",
+        "source_row": 139,
+        "table": "Table 1"
+      },
+      {
+        "accepted_botanical": "Piper guineense",
+        "botanical_as_published": "Piper guineense (Schum. &Thonn.)",
+        "language": "ijc",
+        "source_id": "olatokunbo-2022-bayelsa",
+        "source_row": 31,
+        "table": "Table 2"
+      }
+    ],
+    "shape": {
+      "taxa": [
+        "Glycyrrhiza glabra",
+        "Piper guineense"
+      ],
+      "sources": [
+        "ajibesin-2012-rivers",
+        "legacy-lookup-v1",
+        "olatokunbo-2022-bayelsa"
+      ],
+      "within_one_source": true,
+      "same_genus": false,
+      "rows_per_taxon": {
+        "Piper guineense": 3,
+        "Glycyrrhiza glabra": 1
+      }
+    },
+    "decision": "pending",
+    "strike": null,
+    "reason": null,
+    "reviewed_by": null,
+    "reviewed_at": null
+  }
+]

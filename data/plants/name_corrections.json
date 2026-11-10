@@ -1,0 +1,2578 @@
+[
+  {
+    "botanical_as_published": "Acacia albida",
+    "published_genus": "Acacia",
+    "unmatched_as": {
+      "match_type": "HIGHERRANK",
+      "confidence": 97,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Fabaceae"
+    },
+    "decided_at": "2026-09-13",
+    "status": "corrected",
+    "rule": "gbif_alternative_keeping_the_epithet",
+    "corrected_query": "Faidherbia albida",
+    "accepted_botanical": "Faidherbia albida",
+    "evidence": {
+      "queried": "Faidherbia albida",
+      "match_type": "EXACT",
+      "confidence": 99,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Faidherbia albida",
+      "usage_key": "5360150",
+      "accepted_usage_key": "5360150",
+      "genus_changed": true,
+      "epithet_changed": false
+    },
+    "attempts": [
+      {
+        "query": "Fabaceae",
+        "rule": "gbif_variant_suggestion",
+        "match_type": "EXACT",
+        "confidence": 94,
+        "status": "ACCEPTED",
+        "accepted": "Fabaceae",
+        "eligible": false
+      },
+      {
+        "query": "Acacia albida",
+        "rule": "authority_removed",
+        "match_type": "HIGHERRANK",
+        "confidence": 97,
+        "status": "ACCEPTED",
+        "accepted": "Fabaceae",
+        "eligible": false
+      },
+      {
+        "query": "Faidherbia albida",
+        "rule": "gbif_alternative_keeping_the_epithet",
+        "match_type": "EXACT",
+        "confidence": 99,
+        "status": "ACCEPTED",
+        "accepted": "Faidherbia albida",
+        "eligible": true
+      }
+    ]
+  },
+  {
+    "botanical_as_published": "Acacia nilotica (Guill. Et. Perr.) O. Ketze",
+    "published_genus": "Acacia",
+    "unmatched_as": {
+      "match_type": "HIGHERRANK",
+      "confidence": 94,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Acacia"
+    },
+    "decided_at": "2026-09-13",
+    "status": "corrected",
+    "rule": "authority_removed",
+    "corrected_query": "Acacia nilotica",
+    "accepted_botanical": "Vachellia nilotica",
+    "evidence": {
+      "queried": "Acacia nilotica",
+      "match_type": "EXACT",
+      "confidence": 97,
+      "taxonomic_status": "SYNONYM",
+      "matched_canonical": "Acacia nilotica",
+      "usage_key": "2978421",
+      "accepted_usage_key": "3974744",
+      "genus_changed": true,
+      "epithet_changed": false
+    },
+    "attempts": [
+      {
+        "query": "Acacia",
+        "rule": "gbif_variant_suggestion",
+        "match_type": "EXACT",
+        "confidence": 94,
+        "status": "ACCEPTED",
+        "accepted": "Acacia",
+        "eligible": false
+      },
+      {
+        "query": "Acacia nilotica",
+        "rule": "authority_removed",
+        "match_type": "EXACT",
+        "confidence": 97,
+        "status": "SYNONYM",
+        "accepted": "Vachellia nilotica",
+        "eligible": true
+      }
+    ]
+  },
+  {
+    "botanical_as_published": "Acacia sieberiana",
+    "published_genus": "Acacia",
+    "unmatched_as": {
+      "match_type": "HIGHERRANK",
+      "confidence": 97,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Fabaceae"
+    },
+    "decided_at": "2026-09-13",
+    "status": "corrected",
+    "rule": "gbif_alternative_keeping_the_epithet",
+    "corrected_query": "Vachellia sieberiana",
+    "accepted_botanical": "Vachellia sieberiana",
+    "evidence": {
+      "queried": "Vachellia sieberiana",
+      "match_type": "EXACT",
+      "confidence": 97,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Vachellia sieberiana",
+      "usage_key": "7564113",
+      "accepted_usage_key": "7564113",
+      "genus_changed": true,
+      "epithet_changed": false
+    },
+    "attempts": [
+      {
+        "query": "Fabaceae",
+        "rule": "gbif_variant_suggestion",
+        "match_type": "EXACT",
+        "confidence": 94,
+        "status": "ACCEPTED",
+        "accepted": "Fabaceae",
+        "eligible": false
+      },
+      {
+        "query": "Acacia sieberiana",
+        "rule": "authority_removed",
+        "match_type": "HIGHERRANK",
+        "confidence": 97,
+        "status": "ACCEPTED",
+        "accepted": "Fabaceae",
+        "eligible": false
+      },
+      {
+        "query": "Vachellia sieberiana",
+        "rule": "gbif_alternative_keeping_the_epithet",
+        "match_type": "EXACT",
+        "confidence": 97,
+        "status": "ACCEPTED",
+        "accepted": "Vachellia sieberiana",
+        "eligible": true
+      }
+    ]
+  },
+  {
+    "botanical_as_published": "Acalypha fimbriata (Schum & Thonn) Forsk",
+    "published_genus": "Acalypha",
+    "unmatched_as": {
+      "match_type": "HIGHERRANK",
+      "confidence": 92,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Acalypha"
+    },
+    "decided_at": "2026-09-13",
+    "status": "corrected",
+    "rule": "authority_removed",
+    "corrected_query": "Acalypha fimbriata",
+    "accepted_botanical": "Acalypha fimbriata",
+    "evidence": {
+      "queried": "Acalypha fimbriata",
+      "match_type": "EXACT",
+      "confidence": 97,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Acalypha fimbriata",
+      "usage_key": "3056270",
+      "accepted_usage_key": "3056270",
+      "genus_changed": false,
+      "epithet_changed": false
+    },
+    "attempts": [
+      {
+        "query": "Acalypha",
+        "rule": "gbif_variant_suggestion",
+        "match_type": "HIGHERRANK",
+        "confidence": 92,
+        "status": "ACCEPTED",
+        "accepted": "Acalypha",
+        "eligible": false
+      },
+      {
+        "query": "Acalypha fimbriata",
+        "rule": "authority_removed",
+        "match_type": "EXACT",
+        "confidence": 97,
+        "status": "ACCEPTED",
+        "accepted": "Acalypha fimbriata",
+        "eligible": true
+      }
+    ]
+  },
+  {
+    "botanical_as_published": "Aloe vera L.",
+    "published_genus": "Aloe",
+    "unmatched_as": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "taxonomic_status": "PROVISIONALLY_ACCEPTED",
+      "matched_canonical": "Aloe vera"
+    },
+    "decided_at": "2026-09-13",
+    "status": "corrected",
+    "rule": "gbif_variant_suggestion",
+    "corrected_query": "Aloe vera",
+    "accepted_botanical": "Aloe vera",
+    "evidence": {
+      "queried": "Aloe vera",
+      "match_type": "EXACT",
+      "confidence": 97,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Aloe vera",
+      "usage_key": "2777724",
+      "accepted_usage_key": "2777724",
+      "genus_changed": false,
+      "epithet_changed": false
+    },
+    "attempts": [
+      {
+        "query": "Aloe vera",
+        "rule": "gbif_variant_suggestion",
+        "match_type": "EXACT",
+        "confidence": 97,
+        "status": "ACCEPTED",
+        "accepted": "Aloe vera",
+        "eligible": true
+      }
+    ]
+  },
+  {
+    "botanical_as_published": "Alternanthera sessillis (L R.Br. ex DC).",
+    "published_genus": "Alternanthera",
+    "unmatched_as": {
+      "match_type": "VARIANT",
+      "confidence": 99,
+      "taxonomic_status": "SYNONYM",
+      "matched_canonical": "Alternanthera sessilis"
+    },
+    "decided_at": "2026-09-13",
+    "status": "corrected",
+    "rule": "gbif_variant_suggestion",
+    "corrected_query": "Alternanthera sessilis",
+    "accepted_botanical": "Alternanthera sessilis",
+    "evidence": {
+      "queried": "Alternanthera sessilis",
+      "match_type": "EXACT",
+      "confidence": 97,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Alternanthera sessilis",
+      "usage_key": "3084939",
+      "accepted_usage_key": "3084939",
+      "genus_changed": false,
+      "epithet_changed": true
+    },
+    "attempts": [
+      {
+        "query": "Alternanthera sessilis",
+        "rule": "gbif_variant_suggestion",
+        "match_type": "EXACT",
+        "confidence": 97,
+        "status": "ACCEPTED",
+        "accepted": "Alternanthera sessilis",
+        "eligible": true
+      }
+    ]
+  },
+  {
+    "botanical_as_published": "Anacardium occidentalis Linn.",
+    "published_genus": "Anacardium",
+    "unmatched_as": {
+      "match_type": "HIGHERRANK",
+      "confidence": 98,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Anacardium"
+    },
+    "decided_at": "2026-09-13",
+    "status": "deferred",
+    "competing_accepted_names": [
+      "Anacardium occidentala",
+      "Anacardium occidentale"
+    ],
+    "attempts": [
+      {
+        "query": "Anacardium",
+        "rule": "gbif_variant_suggestion",
+        "match_type": "HIGHERRANK",
+        "confidence": 92,
+        "status": "ACCEPTED",
+        "accepted": "Anacardium",
+        "eligible": false
+      },
+      {
+        "query": "Anacardium occidentalis",
+        "rule": "authority_removed",
+        "match_type": "HIGHERRANK",
+        "confidence": 95,
+        "status": "ACCEPTED",
+        "accepted": "Anacardium",
+        "eligible": false
+      }
+    ],
+    "reason": "GBIF offers more than one accepted species for this name and none is distinguished by the published genus or epithet. A botanist has to choose; the rows stay withheld until one does."
+  },
+  {
+    "botanical_as_published": "Anogeissus leiocarpus",
+    "published_genus": "Anogeissus",
+    "unmatched_as": {
+      "match_type": "VARIANT",
+      "confidence": 96,
+      "taxonomic_status": "SYNONYM",
+      "matched_canonical": "Anogeissus leiocarpa"
+    },
+    "decided_at": "2026-09-13",
+    "status": "corrected",
+    "rule": "gbif_variant_suggestion",
+    "corrected_query": "Anogeissus leiocarpa",
+    "accepted_botanical": "Terminalia leiocarpa",
+    "evidence": {
+      "queried": "Anogeissus leiocarpa",
+      "match_type": "EXACT",
+      "confidence": 98,
+      "taxonomic_status": "SYNONYM",
+      "matched_canonical": "Anogeissus leiocarpa",
+      "usage_key": "3699245",
+      "accepted_usage_key": "3698332",
+      "genus_changed": true,
+      "epithet_changed": true
+    },
+    "attempts": [
+      {
+        "query": "Anogeissus leiocarpa",
+        "rule": "gbif_variant_suggestion",
+        "match_type": "EXACT",
+        "confidence": 98,
+        "status": "SYNONYM",
+        "accepted": "Terminalia leiocarpa",
+        "eligible": true
+      }
+    ]
+  },
+  {
+    "botanical_as_published": "Anogeissus leiocarpus (DC.) Guill. & Perr.",
+    "published_genus": "Anogeissus",
+    "unmatched_as": {
+      "match_type": "VARIANT",
+      "confidence": 100,
+      "taxonomic_status": "SYNONYM",
+      "matched_canonical": "Anogeissus leiocarpa"
+    },
+    "decided_at": "2026-09-13",
+    "status": "corrected",
+    "rule": "gbif_variant_suggestion",
+    "corrected_query": "Anogeissus leiocarpa",
+    "accepted_botanical": "Terminalia leiocarpa",
+    "evidence": {
+      "queried": "Anogeissus leiocarpa",
+      "match_type": "EXACT",
+      "confidence": 98,
+      "taxonomic_status": "SYNONYM",
+      "matched_canonical": "Anogeissus leiocarpa",
+      "usage_key": "3699245",
+      "accepted_usage_key": "3698332",
+      "genus_changed": true,
+      "epithet_changed": true
+    },
+    "attempts": [
+      {
+        "query": "Anogeissus leiocarpa",
+        "rule": "gbif_variant_suggestion",
+        "match_type": "EXACT",
+        "confidence": 98,
+        "status": "SYNONYM",
+        "accepted": "Terminalia leiocarpa",
+        "eligible": true
+      }
+    ]
+  },
+  {
+    "botanical_as_published": "Bambusa vulgaris L.",
+    "published_genus": "Bambusa",
+    "unmatched_as": {
+      "match_type": "HIGHERRANK",
+      "confidence": 92,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Bambusa"
+    },
+    "decided_at": "2026-09-13",
+    "status": "corrected",
+    "rule": "authority_removed",
+    "corrected_query": "Bambusa vulgaris",
+    "accepted_botanical": "Bambusa vulgaris",
+    "evidence": {
+      "queried": "Bambusa vulgaris",
+      "match_type": "EXACT",
+      "confidence": 97,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Bambusa vulgaris",
+      "usage_key": "7661971",
+      "accepted_usage_key": "7661971",
+      "genus_changed": false,
+      "epithet_changed": false
+    },
+    "attempts": [
+      {
+        "query": "Bambusa",
+        "rule": "gbif_variant_suggestion",
+        "match_type": "HIGHERRANK",
+        "confidence": 92,
+        "status": "ACCEPTED",
+        "accepted": "Bambusa",
+        "eligible": false
+      },
+      {
+        "query": "Bambusa vulgaris",
+        "rule": "authority_removed",
+        "match_type": "EXACT",
+        "confidence": 97,
+        "status": "ACCEPTED",
+        "accepted": "Bambusa vulgaris",
+        "eligible": true
+      }
+    ]
+  },
+  {
+    "botanical_as_published": "Bambusa vulgaris Schrad.",
+    "published_genus": "Bambusa",
+    "unmatched_as": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "taxonomic_status": "PROVISIONALLY_ACCEPTED",
+      "matched_canonical": "Bambusa vulgaris"
+    },
+    "decided_at": "2026-11-10",
+    "status": "corrected",
+    "rule": "gbif_variant_suggestion",
+    "corrected_query": "Bambusa vulgaris",
+    "accepted_botanical": "Bambusa vulgaris",
+    "evidence": {
+      "queried": "Bambusa vulgaris",
+      "match_type": "EXACT",
+      "confidence": 97,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Bambusa vulgaris",
+      "usage_key": "7661971",
+      "accepted_usage_key": "7661971",
+      "genus_changed": false,
+      "epithet_changed": false
+    },
+    "attempts": [
+      {
+        "query": "Bambusa vulgaris",
+        "rule": "gbif_variant_suggestion",
+        "match_type": "EXACT",
+        "confidence": 97,
+        "status": "ACCEPTED",
+        "accepted": "Bambusa vulgaris",
+        "eligible": true
+      }
+    ]
+  },
+  {
+    "botanical_as_published": "Bassella alba L.",
+    "published_genus": "Bassella",
+    "unmatched_as": {
+      "match_type": "VARIANT",
+      "confidence": 95,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Basella alba"
+    },
+    "decided_at": "2026-09-13",
+    "status": "corrected",
+    "rule": "gbif_variant_suggestion",
+    "corrected_query": "Basella alba",
+    "accepted_botanical": "Basella alba",
+    "evidence": {
+      "queried": "Basella alba",
+      "match_type": "EXACT",
+      "confidence": 99,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Basella alba",
+      "usage_key": "3083504",
+      "accepted_usage_key": "3083504",
+      "genus_changed": true,
+      "epithet_changed": false
+    },
+    "attempts": [
+      {
+        "query": "Basella alba",
+        "rule": "gbif_variant_suggestion",
+        "match_type": "EXACT",
+        "confidence": 99,
+        "status": "ACCEPTED",
+        "accepted": "Basella alba",
+        "eligible": true
+      }
+    ]
+  },
+  {
+    "botanical_as_published": "Citrus aurantifolia (Christm) Swingle",
+    "published_genus": "Citrus",
+    "unmatched_as": {
+      "match_type": "VARIANT",
+      "confidence": 100,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Citrus aurantiifolia"
+    },
+    "decided_at": "2026-09-13",
+    "status": "corrected",
+    "rule": "gbif_variant_suggestion",
+    "corrected_query": "Citrus aurantiifolia",
+    "accepted_botanical": "Citrus aurantiifolia",
+    "evidence": {
+      "queried": "Citrus aurantiifolia",
+      "match_type": "EXACT",
+      "confidence": 99,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Citrus aurantiifolia",
+      "usage_key": "3190164",
+      "accepted_usage_key": "3190164",
+      "genus_changed": false,
+      "epithet_changed": true
+    },
+    "attempts": [
+      {
+        "query": "Citrus aurantiifolia",
+        "rule": "gbif_variant_suggestion",
+        "match_type": "EXACT",
+        "confidence": 99,
+        "status": "ACCEPTED",
+        "accepted": "Citrus aurantiifolia",
+        "eligible": true
+      }
+    ]
+  },
+  {
+    "botanical_as_published": "Citrus limon L.",
+    "published_genus": "Citrus",
+    "unmatched_as": {
+      "match_type": "VARIANT",
+      "confidence": 99,
+      "taxonomic_status": "SYNONYM",
+      "matched_canonical": "Citrus lemon"
+    },
+    "decided_at": "2026-09-13",
+    "status": "corrected",
+    "rule": "gbif_variant_suggestion",
+    "corrected_query": "Citrus lemon",
+    "accepted_botanical": "Citrus limon",
+    "evidence": {
+      "queried": "Citrus lemon",
+      "match_type": "EXACT",
+      "confidence": 98,
+      "taxonomic_status": "SYNONYM",
+      "matched_canonical": "Citrus lemon",
+      "usage_key": "10989409",
+      "accepted_usage_key": "7647136",
+      "genus_changed": false,
+      "epithet_changed": false
+    },
+    "attempts": [
+      {
+        "query": "Citrus lemon",
+        "rule": "gbif_variant_suggestion",
+        "match_type": "EXACT",
+        "confidence": 98,
+        "status": "SYNONYM",
+        "accepted": "Citrus limon",
+        "eligible": true
+      }
+    ]
+  },
+  {
+    "botanical_as_published": "Cleome ciliate (L.) Briq.",
+    "published_genus": "Cleome",
+    "unmatched_as": {
+      "match_type": "HIGHERRANK",
+      "confidence": 94,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Cleome"
+    },
+    "decided_at": "2026-09-13",
+    "status": "corrected",
+    "rule": "gbif_single_species",
+    "corrected_query": "Sieruela rutidosperma",
+    "accepted_botanical": "Sieruela rutidosperma",
+    "evidence": {
+      "queried": "Sieruela rutidosperma",
+      "match_type": "EXACT",
+      "confidence": 99,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Sieruela rutidosperma",
+      "usage_key": "9778787",
+      "accepted_usage_key": "9778787",
+      "genus_changed": true,
+      "epithet_changed": true
+    },
+    "attempts": [
+      {
+        "query": "Cleome",
+        "rule": "gbif_variant_suggestion",
+        "match_type": "EXACT",
+        "confidence": 94,
+        "status": "ACCEPTED",
+        "accepted": "Cleome",
+        "eligible": false
+      },
+      {
+        "query": "Cleome ciliate",
+        "rule": "authority_removed",
+        "match_type": "VARIANT",
+        "confidence": 96,
+        "status": "SYNONYM",
+        "accepted": "Sieruela rutidosperma",
+        "eligible": false
+      },
+      {
+        "query": "Sieruela rutidosperma",
+        "rule": "gbif_single_species",
+        "match_type": "EXACT",
+        "confidence": 99,
+        "status": "ACCEPTED",
+        "accepted": "Sieruela rutidosperma",
+        "eligible": true
+      }
+    ]
+  },
+  {
+    "botanical_as_published": "Colocasia esculentum (L.) Schott",
+    "published_genus": "Colocasia",
+    "unmatched_as": {
+      "match_type": "VARIANT",
+      "confidence": 100,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Colocasia esculenta"
+    },
+    "decided_at": "2026-09-13",
+    "status": "corrected",
+    "rule": "gbif_variant_suggestion",
+    "corrected_query": "Colocasia esculenta",
+    "accepted_botanical": "Colocasia esculenta",
+    "evidence": {
+      "queried": "Colocasia esculenta",
+      "match_type": "EXACT",
+      "confidence": 99,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Colocasia esculenta",
+      "usage_key": "5330776",
+      "accepted_usage_key": "5330776",
+      "genus_changed": false,
+      "epithet_changed": true
+    },
+    "attempts": [
+      {
+        "query": "Colocasia esculenta",
+        "rule": "gbif_variant_suggestion",
+        "match_type": "EXACT",
+        "confidence": 99,
+        "status": "ACCEPTED",
+        "accepted": "Colocasia esculenta",
+        "eligible": true
+      }
+    ]
+  },
+  {
+    "botanical_as_published": "Cyperus haspans L.",
+    "published_genus": "Cyperus",
+    "unmatched_as": {
+      "match_type": "VARIANT",
+      "confidence": 100,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Cyperus haspan"
+    },
+    "decided_at": "2026-09-13",
+    "status": "corrected",
+    "rule": "gbif_variant_suggestion",
+    "corrected_query": "Cyperus haspan",
+    "accepted_botanical": "Cyperus haspan",
+    "evidence": {
+      "queried": "Cyperus haspan",
+      "match_type": "EXACT",
+      "confidence": 98,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Cyperus haspan",
+      "usage_key": "2715828",
+      "accepted_usage_key": "2715828",
+      "genus_changed": false,
+      "epithet_changed": true
+    },
+    "attempts": [
+      {
+        "query": "Cyperus haspan",
+        "rule": "gbif_variant_suggestion",
+        "match_type": "EXACT",
+        "confidence": 98,
+        "status": "ACCEPTED",
+        "accepted": "Cyperus haspan",
+        "eligible": true
+      }
+    ]
+  },
+  {
+    "botanical_as_published": "Detarium senegalensis",
+    "published_genus": "Detarium",
+    "unmatched_as": {
+      "match_type": "VARIANT",
+      "confidence": 96,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Detarium senegalense"
+    },
+    "decided_at": "2026-09-13",
+    "status": "corrected",
+    "rule": "gbif_variant_suggestion",
+    "corrected_query": "Detarium senegalense",
+    "accepted_botanical": "Detarium senegalense",
+    "evidence": {
+      "queried": "Detarium senegalense",
+      "match_type": "EXACT",
+      "confidence": 99,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Detarium senegalense",
+      "usage_key": "2961177",
+      "accepted_usage_key": "2961177",
+      "genus_changed": false,
+      "epithet_changed": true
+    },
+    "attempts": [
+      {
+        "query": "Detarium senegalense",
+        "rule": "gbif_variant_suggestion",
+        "match_type": "EXACT",
+        "confidence": 99,
+        "status": "ACCEPTED",
+        "accepted": "Detarium senegalense",
+        "eligible": true
+      }
+    ]
+  },
+  {
+    "botanical_as_published": "Dioscoreae cayennensis",
+    "published_genus": "Dioscoreae",
+    "unmatched_as": {
+      "match_type": "VARIANT",
+      "confidence": 92,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Dioscorea cayenensis"
+    },
+    "decided_at": "2026-09-13",
+    "status": "corrected",
+    "rule": "gbif_variant_suggestion",
+    "corrected_query": "Dioscorea cayenensis",
+    "accepted_botanical": "Dioscorea cayenensis",
+    "evidence": {
+      "queried": "Dioscorea cayenensis",
+      "match_type": "EXACT",
+      "confidence": 99,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Dioscorea cayenensis",
+      "usage_key": "6406374",
+      "accepted_usage_key": "6406374",
+      "genus_changed": true,
+      "epithet_changed": true
+    },
+    "attempts": [
+      {
+        "query": "Dioscorea cayenensis",
+        "rule": "gbif_variant_suggestion",
+        "match_type": "EXACT",
+        "confidence": 99,
+        "status": "ACCEPTED",
+        "accepted": "Dioscorea cayenensis",
+        "eligible": true
+      }
+    ]
+  },
+  {
+    "botanical_as_published": "Dracaena arborea (Willd.) Link. Enum. Hort.",
+    "published_genus": "Dracaena",
+    "unmatched_as": {
+      "match_type": "NONE",
+      "confidence": 100,
+      "taxonomic_status": null,
+      "matched_canonical": null
+    },
+    "decided_at": "2026-09-13",
+    "status": "corrected",
+    "rule": "authority_removed",
+    "corrected_query": "Dracaena arborea",
+    "accepted_botanical": "Dracaena arborea",
+    "evidence": {
+      "queried": "Dracaena arborea",
+      "match_type": "EXACT",
+      "confidence": 97,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Dracaena arborea",
+      "usage_key": "5304485",
+      "accepted_usage_key": "5304485",
+      "genus_changed": false,
+      "epithet_changed": false
+    },
+    "attempts": [
+      {
+        "query": "Dracaena arborea",
+        "rule": "authority_removed",
+        "match_type": "EXACT",
+        "confidence": 97,
+        "status": "ACCEPTED",
+        "accepted": "Dracaena arborea",
+        "eligible": true
+      }
+    ]
+  },
+  {
+    "botanical_as_published": "Eragrostis namaquennsis Nees ex Schrad. (Synonym: Eragrostis japonica (Thunb.) Trin.)",
+    "published_genus": "Eragrostis",
+    "unmatched_as": {
+      "match_type": "VARIANT",
+      "confidence": 100,
+      "taxonomic_status": "SYNONYM",
+      "matched_canonical": "Eragrostis namaquensis"
+    },
+    "decided_at": "2026-09-13",
+    "status": "corrected",
+    "rule": "gbif_variant_suggestion",
+    "corrected_query": "Eragrostis namaquensis",
+    "accepted_botanical": "Eragrostis namaquensis",
+    "evidence": {
+      "queried": "Eragrostis namaquensis",
+      "match_type": "EXACT",
+      "confidence": 97,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Eragrostis namaquensis",
+      "usage_key": "8090166",
+      "accepted_usage_key": "8090166",
+      "genus_changed": false,
+      "epithet_changed": true
+    },
+    "attempts": [
+      {
+        "query": "Eragrostis namaquensis",
+        "rule": "gbif_variant_suggestion",
+        "match_type": "EXACT",
+        "confidence": 97,
+        "status": "ACCEPTED",
+        "accepted": "Eragrostis namaquensis",
+        "eligible": true
+      }
+    ]
+  },
+  {
+    "botanical_as_published": "Erythrophleum sauveolens",
+    "published_genus": "Erythrophleum",
+    "unmatched_as": {
+      "match_type": "VARIANT",
+      "confidence": 93,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Erythrophleum suaveolens"
+    },
+    "decided_at": "2026-09-13",
+    "status": "corrected",
+    "rule": "gbif_variant_suggestion",
+    "corrected_query": "Erythrophleum suaveolens",
+    "accepted_botanical": "Erythrophleum suaveolens",
+    "evidence": {
+      "queried": "Erythrophleum suaveolens",
+      "match_type": "EXACT",
+      "confidence": 97,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Erythrophleum suaveolens",
+      "usage_key": "2971196",
+      "accepted_usage_key": "2971196",
+      "genus_changed": false,
+      "epithet_changed": true
+    },
+    "attempts": [
+      {
+        "query": "Erythrophleum suaveolens",
+        "rule": "gbif_variant_suggestion",
+        "match_type": "EXACT",
+        "confidence": 97,
+        "status": "ACCEPTED",
+        "accepted": "Erythrophleum suaveolens",
+        "eligible": true
+      }
+    ]
+  },
+  {
+    "botanical_as_published": "Erythrophloem africanum",
+    "published_genus": "Erythrophloem",
+    "unmatched_as": {
+      "match_type": "HIGHERRANK",
+      "confidence": 92,
+      "taxonomic_status": "PROVISIONALLY_ACCEPTED",
+      "matched_canonical": "Erythrophloem"
+    },
+    "decided_at": "2026-09-13",
+    "status": "corrected",
+    "rule": "gbif_single_species",
+    "corrected_query": "Erythrophleum africanum",
+    "accepted_botanical": "Erythrophleum africanum",
+    "evidence": {
+      "queried": "Erythrophleum africanum",
+      "match_type": "EXACT",
+      "confidence": 99,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Erythrophleum africanum",
+      "usage_key": "2971189",
+      "accepted_usage_key": "2971189",
+      "genus_changed": true,
+      "epithet_changed": false
+    },
+    "attempts": [
+      {
+        "query": "Erythrophloem",
+        "rule": "gbif_variant_suggestion",
+        "match_type": "EXACT",
+        "confidence": 92,
+        "status": "PROVISIONALLY_ACCEPTED",
+        "accepted": "Erythrophloem",
+        "eligible": false
+      },
+      {
+        "query": "Erythrophloem africanum",
+        "rule": "authority_removed",
+        "match_type": "HIGHERRANK",
+        "confidence": 92,
+        "status": "PROVISIONALLY_ACCEPTED",
+        "accepted": "Erythrophloem",
+        "eligible": false
+      },
+      {
+        "query": "Erythrophleum africanum",
+        "rule": "gbif_single_species",
+        "match_type": "EXACT",
+        "confidence": 99,
+        "status": "ACCEPTED",
+        "accepted": "Erythrophleum africanum",
+        "eligible": true
+      }
+    ]
+  },
+  {
+    "botanical_as_published": "Euphorbia glaucophylla Poir. Euphorbia trinervia Schumach. & Thonn.)",
+    "published_genus": "Euphorbia",
+    "unmatched_as": {
+      "match_type": "HIGHERRANK",
+      "confidence": 99,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Euphorbia glaucophylla"
+    },
+    "decided_at": "2026-09-13",
+    "status": "corrected",
+    "rule": "gbif_variant_suggestion",
+    "corrected_query": "Euphorbia glaucophylla",
+    "accepted_botanical": "Euphorbia glaucophylla",
+    "evidence": {
+      "queried": "Euphorbia glaucophylla",
+      "match_type": "EXACT",
+      "confidence": 99,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Euphorbia glaucophylla",
+      "usage_key": "3066980",
+      "accepted_usage_key": "3066980",
+      "genus_changed": false,
+      "epithet_changed": false
+    },
+    "attempts": [
+      {
+        "query": "Euphorbia trinervia",
+        "rule": "second_name_in_cell",
+        "match_type": "HIGHERRANK",
+        "confidence": 97,
+        "status": "PROVISIONALLY_ACCEPTED",
+        "accepted": "Euphorbia",
+        "eligible": false
+      },
+      {
+        "query": "Euphorbia glaucophylla",
+        "rule": "gbif_variant_suggestion",
+        "match_type": "EXACT",
+        "confidence": 99,
+        "status": "ACCEPTED",
+        "accepted": "Euphorbia glaucophylla",
+        "eligible": true
+      }
+    ]
+  },
+  {
+    "botanical_as_published": "Fagara mycrophylla Engl.",
+    "published_genus": "Fagara",
+    "unmatched_as": {
+      "match_type": "VARIANT",
+      "confidence": 98,
+      "taxonomic_status": "SYNONYM",
+      "matched_canonical": "Fagara macrophylla"
+    },
+    "decided_at": "2026-09-13",
+    "status": "corrected",
+    "rule": "gbif_variant_suggestion",
+    "corrected_query": "Fagara macrophylla",
+    "accepted_botanical": "Zanthoxylum gilletii",
+    "evidence": {
+      "queried": "Fagara macrophylla",
+      "match_type": "EXACT",
+      "confidence": 98,
+      "taxonomic_status": "SYNONYM",
+      "matched_canonical": "Fagara macrophylla",
+      "usage_key": "5593108",
+      "accepted_usage_key": "3838162",
+      "genus_changed": true,
+      "epithet_changed": true
+    },
+    "attempts": [
+      {
+        "query": "Fagara macrophylla",
+        "rule": "gbif_variant_suggestion",
+        "match_type": "EXACT",
+        "confidence": 98,
+        "status": "SYNONYM",
+        "accepted": "Zanthoxylum gilletii",
+        "eligible": true
+      }
+    ]
+  },
+  {
+    "botanical_as_published": "Ficus capensis Thunb. Ficus sur Forssk.)",
+    "published_genus": "Ficus",
+    "unmatched_as": {
+      "match_type": "HIGHERRANK",
+      "confidence": 97,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Ficus"
+    },
+    "decided_at": "2026-09-13",
+    "status": "corrected",
+    "rule": "second_name_in_cell",
+    "corrected_query": "Ficus sur",
+    "accepted_botanical": "Ficus sur",
+    "evidence": {
+      "queried": "Ficus sur",
+      "match_type": "EXACT",
+      "confidence": 99,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Ficus sur",
+      "usage_key": "5569827",
+      "accepted_usage_key": "5569827",
+      "genus_changed": false,
+      "epithet_changed": true
+    },
+    "attempts": [
+      {
+        "query": "Ficus sur",
+        "rule": "second_name_in_cell",
+        "match_type": "EXACT",
+        "confidence": 99,
+        "status": "ACCEPTED",
+        "accepted": "Ficus sur",
+        "eligible": true
+      }
+    ]
+  },
+  {
+    "botanical_as_published": "Geranium spp",
+    "published_genus": "Geranium",
+    "unmatched_as": {
+      "match_type": "HIGHERRANK",
+      "confidence": 94,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Geranium"
+    },
+    "decided_at": "2026-09-13",
+    "status": "deferred",
+    "competing_accepted_names": [
+      "Geranium hybr",
+      "Geranium macrostylum",
+      "Geranium nakaoanum",
+      "Geranium phaeum",
+      "Geranium umbelliforme",
+      "Pelargonium abrotanifolium",
+      "Pelargonium bubonifolium",
+      "Pelargonium chelidonium",
+      "Erodium cicutarium",
+      "Pelargonium pinnatum",
+      "Erodium laciniatum",
+      "Pelargonium elegans",
+      "Pelargonium auritum",
+      "Pelargonium fissifolium",
+      "Grielum grandiflorum",
+      "Pelargonium grossularioides",
+      "Geranium caespitosum",
+      "Pelargonium cordifolium",
+      "Pelargonium minimum",
+      "Pelargonium myrrhifolium",
+      "Pelargonium rapaceum",
+      "Geranium robertianum",
+      "Geranium purpureum",
+      "Pelargonium tomentellum",
+      "Pelargonium ovale",
+      "Pelargonium villiferum",
+      "Geranium shikokianum",
+      "Pelargonium radicatum"
+    ],
+    "attempts": [
+      {
+        "query": "Geranium",
+        "rule": "gbif_variant_suggestion",
+        "match_type": "EXACT",
+        "confidence": 94,
+        "status": "ACCEPTED",
+        "accepted": "Geranium",
+        "eligible": false
+      },
+      {
+        "query": "Geranium spp",
+        "rule": "authority_removed",
+        "match_type": "HIGHERRANK",
+        "confidence": 94,
+        "status": "ACCEPTED",
+        "accepted": "Geranium",
+        "eligible": false
+      }
+    ],
+    "reason": "GBIF offers more than one accepted species for this name and none is distinguished by the published genus or epithet. A botanist has to choose; the rows stay withheld until one does."
+  },
+  {
+    "botanical_as_published": "Gongronema latifolia Benth.",
+    "published_genus": "Gongronema",
+    "unmatched_as": {
+      "match_type": "VARIANT",
+      "confidence": 100,
+      "taxonomic_status": "SYNONYM",
+      "matched_canonical": "Gongronema latifolium"
+    },
+    "decided_at": "2026-09-13",
+    "status": "corrected",
+    "rule": "gbif_variant_suggestion",
+    "corrected_query": "Gongronema latifolium",
+    "accepted_botanical": "Gongronemopsis latifolia",
+    "evidence": {
+      "queried": "Gongronema latifolium",
+      "match_type": "EXACT",
+      "confidence": 98,
+      "taxonomic_status": "SYNONYM",
+      "matched_canonical": "Gongronema latifolium",
+      "usage_key": "3572834",
+      "accepted_usage_key": "12248822",
+      "genus_changed": true,
+      "epithet_changed": false
+    },
+    "attempts": [
+      {
+        "query": "Gongronema latifolium",
+        "rule": "gbif_variant_suggestion",
+        "match_type": "EXACT",
+        "confidence": 98,
+        "status": "SYNONYM",
+        "accepted": "Gongronemopsis latifolia",
+        "eligible": true
+      }
+    ]
+  },
+  {
+    "botanical_as_published": "Grewia sp",
+    "published_genus": "Grewia",
+    "unmatched_as": {
+      "match_type": "HIGHERRANK",
+      "confidence": 94,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Grewia"
+    },
+    "decided_at": "2026-09-13",
+    "status": "deferred",
+    "competing_accepted_names": [
+      "Grewia andramparo",
+      "Grewia apetala",
+      "Grewia boehmiana",
+      "Grewia bracteata",
+      "Grewia comorensis",
+      "Grewia cuspidatoserrata",
+      "Grewia eriocarpa",
+      "Grewia ferruginea",
+      "Grewia langsonensis",
+      "Grewia lasiocarpa",
+      "Grewia limae",
+      "Grewia macrophylla",
+      "Grewia megalocarpa",
+      "Grewia nagensium",
+      "Grewia newtonii",
+      "Grewia peekelii",
+      "Grewia plagiophylla",
+      "Grewia populoides",
+      "Grewia ritchiei",
+      "Grewia rizalensis",
+      "Grewia scabrella",
+      "Grewia scabrifolia",
+      "Grewia suarezensis",
+      "Grewia tiliaecarpa",
+      "Grewia trifolia",
+      "Grewia forbesii",
+      "Trichospermum javanicum",
+      "Grewia capitellata",
+      "Grewia permagna"
+    ],
+    "attempts": [
+      {
+        "query": "Grewia",
+        "rule": "gbif_variant_suggestion",
+        "match_type": "EXACT",
+        "confidence": 94,
+        "status": "ACCEPTED",
+        "accepted": "Grewia",
+        "eligible": false
+      },
+      {
+        "query": "Grewia sp",
+        "rule": "authority_removed",
+        "match_type": "HIGHERRANK",
+        "confidence": 94,
+        "status": "ACCEPTED",
+        "accepted": "Grewia",
+        "eligible": false
+      }
+    ],
+    "reason": "GBIF offers more than one accepted species for this name and none is distinguished by the published genus or epithet. A botanist has to choose; the rows stay withheld until one does."
+  },
+  {
+    "botanical_as_published": "Gymnema sylvestris",
+    "published_genus": "Gymnema",
+    "unmatched_as": {
+      "match_type": "VARIANT",
+      "confidence": 95,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Gymnema sylvestre"
+    },
+    "decided_at": "2026-09-13",
+    "status": "corrected",
+    "rule": "gbif_variant_suggestion",
+    "corrected_query": "Gymnema sylvestre",
+    "accepted_botanical": "Gymnema sylvestre",
+    "evidence": {
+      "queried": "Gymnema sylvestre",
+      "match_type": "EXACT",
+      "confidence": 97,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Gymnema sylvestre",
+      "usage_key": "8040540",
+      "accepted_usage_key": "8040540",
+      "genus_changed": false,
+      "epithet_changed": true
+    },
+    "attempts": [
+      {
+        "query": "Gymnema sylvestre",
+        "rule": "gbif_variant_suggestion",
+        "match_type": "EXACT",
+        "confidence": 97,
+        "status": "ACCEPTED",
+        "accepted": "Gymnema sylvestre",
+        "eligible": true
+      }
+    ]
+  },
+  {
+    "botanical_as_published": "Harungana madagascariens Lam.",
+    "published_genus": "Harungana",
+    "unmatched_as": {
+      "match_type": "HIGHERRANK",
+      "confidence": 94,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Harungana"
+    },
+    "decided_at": "2026-09-13",
+    "status": "corrected",
+    "rule": "gbif_single_species",
+    "corrected_query": "Harungana madagascariensis",
+    "accepted_botanical": "Harungana madagascariensis",
+    "evidence": {
+      "queried": "Harungana madagascariensis",
+      "match_type": "EXACT",
+      "confidence": 99,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Harungana madagascariensis",
+      "usage_key": "3711847",
+      "accepted_usage_key": "3711847",
+      "genus_changed": false,
+      "epithet_changed": true
+    },
+    "attempts": [
+      {
+        "query": "Harungana",
+        "rule": "gbif_variant_suggestion",
+        "match_type": "EXACT",
+        "confidence": 94,
+        "status": "ACCEPTED",
+        "accepted": "Harungana",
+        "eligible": false
+      },
+      {
+        "query": "Harungana madagascariens",
+        "rule": "authority_removed",
+        "match_type": "VARIANT",
+        "confidence": 96,
+        "status": "ACCEPTED",
+        "accepted": "Harungana madagascariensis",
+        "eligible": false
+      },
+      {
+        "query": "Harungana madagascariensis",
+        "rule": "gbif_single_species",
+        "match_type": "EXACT",
+        "confidence": 99,
+        "status": "ACCEPTED",
+        "accepted": "Harungana madagascariensis",
+        "eligible": true
+      }
+    ]
+  },
+  {
+    "botanical_as_published": "Heeri pulcherrima",
+    "published_genus": "Heeri",
+    "unmatched_as": {
+      "match_type": "VARIANT",
+      "confidence": 84,
+      "taxonomic_status": "SYNONYM",
+      "matched_canonical": "Heeria pulcherrima"
+    },
+    "decided_at": "2026-09-13",
+    "status": "corrected",
+    "rule": "gbif_variant_suggestion",
+    "corrected_query": "Heeria pulcherrima",
+    "accepted_botanical": "Ozoroa pulcherrima",
+    "evidence": {
+      "queried": "Heeria pulcherrima",
+      "match_type": "EXACT",
+      "confidence": 98,
+      "taxonomic_status": "SYNONYM",
+      "matched_canonical": "Heeria pulcherrima",
+      "usage_key": "5544437",
+      "accepted_usage_key": "3662750",
+      "genus_changed": true,
+      "epithet_changed": false
+    },
+    "attempts": [
+      {
+        "query": "Heeria pulcherrima",
+        "rule": "gbif_variant_suggestion",
+        "match_type": "EXACT",
+        "confidence": 98,
+        "status": "SYNONYM",
+        "accepted": "Ozoroa pulcherrima",
+        "eligible": true
+      }
+    ]
+  },
+  {
+    "botanical_as_published": "Ipomoea mauritania Jacq.",
+    "published_genus": "Ipomoea",
+    "unmatched_as": {
+      "match_type": "VARIANT",
+      "confidence": 99,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Ipomoea mauritiana"
+    },
+    "decided_at": "2026-09-13",
+    "status": "corrected",
+    "rule": "gbif_variant_suggestion",
+    "corrected_query": "Ipomoea mauritiana",
+    "accepted_botanical": "Ipomoea mauritiana",
+    "evidence": {
+      "queried": "Ipomoea mauritiana",
+      "match_type": "EXACT",
+      "confidence": 99,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Ipomoea mauritiana",
+      "usage_key": "4927144",
+      "accepted_usage_key": "4927144",
+      "genus_changed": false,
+      "epithet_changed": true
+    },
+    "attempts": [
+      {
+        "query": "Ipomoea mauritiana",
+        "rule": "gbif_variant_suggestion",
+        "match_type": "EXACT",
+        "confidence": 99,
+        "status": "ACCEPTED",
+        "accepted": "Ipomoea mauritiana",
+        "eligible": true
+      }
+    ]
+  },
+  {
+    "botanical_as_published": "Ixora coccinea L.",
+    "published_genus": "Ixora",
+    "unmatched_as": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "taxonomic_status": "PROVISIONALLY_ACCEPTED",
+      "matched_canonical": "Ixora coccinea"
+    },
+    "decided_at": "2026-09-13",
+    "status": "corrected",
+    "rule": "gbif_variant_suggestion",
+    "corrected_query": "Ixora coccinea",
+    "accepted_botanical": "Ixora coccinea",
+    "evidence": {
+      "queried": "Ixora coccinea",
+      "match_type": "EXACT",
+      "confidence": 97,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Ixora coccinea",
+      "usage_key": "8793122",
+      "accepted_usage_key": "8793122",
+      "genus_changed": false,
+      "epithet_changed": false
+    },
+    "attempts": [
+      {
+        "query": "Ixora coccinea",
+        "rule": "gbif_variant_suggestion",
+        "match_type": "EXACT",
+        "confidence": 97,
+        "status": "ACCEPTED",
+        "accepted": "Ixora coccinea",
+        "eligible": true
+      }
+    ]
+  },
+  {
+    "botanical_as_published": "Jatropha gossypifolia",
+    "published_genus": "Jatropha",
+    "unmatched_as": {
+      "match_type": "VARIANT",
+      "confidence": 96,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Jatropha gossypiifolia"
+    },
+    "decided_at": "2026-09-13",
+    "status": "corrected",
+    "rule": "gbif_variant_suggestion",
+    "corrected_query": "Jatropha gossypiifolia",
+    "accepted_botanical": "Jatropha gossypiifolia",
+    "evidence": {
+      "queried": "Jatropha gossypiifolia",
+      "match_type": "EXACT",
+      "confidence": 99,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Jatropha gossypiifolia",
+      "usage_key": "3072900",
+      "accepted_usage_key": "3072900",
+      "genus_changed": false,
+      "epithet_changed": true
+    },
+    "attempts": [
+      {
+        "query": "Jatropha gossypiifolia",
+        "rule": "gbif_variant_suggestion",
+        "match_type": "EXACT",
+        "confidence": 99,
+        "status": "ACCEPTED",
+        "accepted": "Jatropha gossypiifolia",
+        "eligible": true
+      }
+    ]
+  },
+  {
+    "botanical_as_published": "Justicia shimperi (Hochst) Danby",
+    "published_genus": "Justicia",
+    "unmatched_as": {
+      "match_type": "HIGHERRANK",
+      "confidence": 92,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Justicia"
+    },
+    "decided_at": "2026-09-13",
+    "status": "deferred",
+    "competing_accepted_names": [
+      "Justicia"
+    ],
+    "attempts": [
+      {
+        "query": "Justicia",
+        "rule": "gbif_variant_suggestion",
+        "match_type": "HIGHERRANK",
+        "confidence": 92,
+        "status": "ACCEPTED",
+        "accepted": "Justicia",
+        "eligible": false
+      },
+      {
+        "query": "Justicia shimperi",
+        "rule": "authority_removed",
+        "match_type": "HIGHERRANK",
+        "confidence": 92,
+        "status": "ACCEPTED",
+        "accepted": "Justicia",
+        "eligible": false
+      },
+      {
+        "query": "Justicia",
+        "rule": "gbif_single_species",
+        "match_type": "HIGHERRANK",
+        "confidence": 92,
+        "status": "ACCEPTED",
+        "accepted": "Justicia",
+        "eligible": false
+      }
+    ],
+    "reason": "GBIF offers more than one accepted species for this name and none is distinguished by the published genus or epithet. A botanist has to choose; the rows stay withheld until one does."
+  },
+  {
+    "botanical_as_published": "Kalanchoe pinnatum (Lam).",
+    "published_genus": "Kalanchoe",
+    "unmatched_as": {
+      "match_type": "VARIANT",
+      "confidence": 99,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Kalanchoe pinnata"
+    },
+    "decided_at": "2026-09-13",
+    "status": "corrected",
+    "rule": "gbif_variant_suggestion",
+    "corrected_query": "Kalanchoe pinnata",
+    "accepted_botanical": "Kalanchoe pinnata",
+    "evidence": {
+      "queried": "Kalanchoe pinnata",
+      "match_type": "EXACT",
+      "confidence": 99,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Kalanchoe pinnata",
+      "usage_key": "2985930",
+      "accepted_usage_key": "2985930",
+      "genus_changed": false,
+      "epithet_changed": true
+    },
+    "attempts": [
+      {
+        "query": "Kalanchoe pinnata",
+        "rule": "gbif_variant_suggestion",
+        "match_type": "EXACT",
+        "confidence": 99,
+        "status": "ACCEPTED",
+        "accepted": "Kalanchoe pinnata",
+        "eligible": true
+      }
+    ]
+  },
+  {
+    "botanical_as_published": "Kigelia Africana (Lam.) Benth",
+    "published_genus": "Kigelia",
+    "unmatched_as": {
+      "match_type": "NONE",
+      "confidence": 100,
+      "taxonomic_status": null,
+      "matched_canonical": null
+    },
+    "decided_at": "2026-09-13",
+    "status": "corrected",
+    "rule": "capitalised_epithet_lowercased",
+    "corrected_query": "Kigelia africana",
+    "accepted_botanical": "Kigelia africana",
+    "evidence": {
+      "queried": "Kigelia africana",
+      "match_type": "EXACT",
+      "confidence": 99,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Kigelia africana",
+      "usage_key": "3172561",
+      "accepted_usage_key": "3172561",
+      "genus_changed": false,
+      "epithet_changed": false
+    },
+    "attempts": [
+      {
+        "query": "Kigelia Africana",
+        "rule": "authority_removed",
+        "match_type": "NONE",
+        "confidence": 100,
+        "status": null,
+        "accepted": null,
+        "eligible": false
+      },
+      {
+        "query": "Kigelia africana",
+        "rule": "capitalised_epithet_lowercased",
+        "match_type": "EXACT",
+        "confidence": 99,
+        "status": "ACCEPTED",
+        "accepted": "Kigelia africana",
+        "eligible": true
+      }
+    ]
+  },
+  {
+    "botanical_as_published": "Lactuca taraxifolia (Wild.) Schum ex Horn Moore",
+    "published_genus": "Lactuca",
+    "unmatched_as": {
+      "match_type": "VARIANT",
+      "confidence": 96,
+      "taxonomic_status": "SYNONYM",
+      "matched_canonical": "Lactuca taraxacifolia"
+    },
+    "decided_at": "2026-09-13",
+    "status": "corrected",
+    "rule": "gbif_alternative_keeping_the_epithet",
+    "corrected_query": "Launaea taraxacifolia",
+    "accepted_botanical": "Launaea taraxacifolia",
+    "evidence": {
+      "queried": "Launaea taraxacifolia",
+      "match_type": "EXACT",
+      "confidence": 97,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Launaea taraxacifolia",
+      "usage_key": "3144875",
+      "accepted_usage_key": "3144875",
+      "genus_changed": true,
+      "epithet_changed": true
+    },
+    "attempts": [
+      {
+        "query": "Lactuca taraxacifolia",
+        "rule": "gbif_variant_suggestion",
+        "match_type": "HIGHERRANK",
+        "confidence": 97,
+        "status": "ACCEPTED",
+        "accepted": "Asteraceae",
+        "eligible": false
+      },
+      {
+        "query": "Lactuca taraxifolia",
+        "rule": "authority_removed",
+        "match_type": "HIGHERRANK",
+        "confidence": 90,
+        "status": "ACCEPTED",
+        "accepted": "Asteraceae",
+        "eligible": false
+      },
+      {
+        "query": "Launaea taraxacifolia",
+        "rule": "gbif_alternative_keeping_the_epithet",
+        "match_type": "EXACT",
+        "confidence": 97,
+        "status": "ACCEPTED",
+        "accepted": "Launaea taraxacifolia",
+        "eligible": true
+      }
+    ]
+  },
+  {
+    "botanical_as_published": "Luffa cylindrica (L.) M.J. Roem",
+    "published_genus": "Luffa",
+    "unmatched_as": {
+      "match_type": "HIGHERRANK",
+      "confidence": 100,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Cucurbitaceae"
+    },
+    "decided_at": "2026-09-13",
+    "status": "corrected",
+    "rule": "gbif_alternative_keeping_the_genus",
+    "corrected_query": "Luffa aegyptiaca",
+    "accepted_botanical": "Luffa aegyptiaca",
+    "evidence": {
+      "queried": "Luffa aegyptiaca",
+      "match_type": "EXACT",
+      "confidence": 99,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Luffa aegyptiaca",
+      "usage_key": "2874599",
+      "accepted_usage_key": "2874599",
+      "genus_changed": false,
+      "epithet_changed": true
+    },
+    "attempts": [
+      {
+        "query": "Cucurbitaceae",
+        "rule": "gbif_variant_suggestion",
+        "match_type": "EXACT",
+        "confidence": 94,
+        "status": "ACCEPTED",
+        "accepted": "Cucurbitaceae",
+        "eligible": false
+      },
+      {
+        "query": "Luffa cylindrica",
+        "rule": "authority_removed",
+        "match_type": "HIGHERRANK",
+        "confidence": 97,
+        "status": "ACCEPTED",
+        "accepted": "Cucurbitaceae",
+        "eligible": false
+      },
+      {
+        "query": "Luffa aegyptiaca",
+        "rule": "gbif_alternative_keeping_the_genus",
+        "match_type": "EXACT",
+        "confidence": 99,
+        "status": "ACCEPTED",
+        "accepted": "Luffa aegyptiaca",
+        "eligible": true
+      }
+    ]
+  },
+  {
+    "botanical_as_published": "Luffa cylindrica (L.) M.Roem.",
+    "published_genus": "Luffa",
+    "unmatched_as": {
+      "match_type": "HIGHERRANK",
+      "confidence": 100,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Cucurbitaceae"
+    },
+    "decided_at": "2026-09-13",
+    "status": "corrected",
+    "rule": "gbif_alternative_keeping_the_genus",
+    "corrected_query": "Luffa aegyptiaca",
+    "accepted_botanical": "Luffa aegyptiaca",
+    "evidence": {
+      "queried": "Luffa aegyptiaca",
+      "match_type": "EXACT",
+      "confidence": 99,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Luffa aegyptiaca",
+      "usage_key": "2874599",
+      "accepted_usage_key": "2874599",
+      "genus_changed": false,
+      "epithet_changed": true
+    },
+    "attempts": [
+      {
+        "query": "Cucurbitaceae",
+        "rule": "gbif_variant_suggestion",
+        "match_type": "EXACT",
+        "confidence": 94,
+        "status": "ACCEPTED",
+        "accepted": "Cucurbitaceae",
+        "eligible": false
+      },
+      {
+        "query": "Luffa cylindrica",
+        "rule": "authority_removed",
+        "match_type": "HIGHERRANK",
+        "confidence": 97,
+        "status": "ACCEPTED",
+        "accepted": "Cucurbitaceae",
+        "eligible": false
+      },
+      {
+        "query": "Luffa aegyptiaca",
+        "rule": "gbif_alternative_keeping_the_genus",
+        "match_type": "EXACT",
+        "confidence": 99,
+        "status": "ACCEPTED",
+        "accepted": "Luffa aegyptiaca",
+        "eligible": true
+      }
+    ]
+  },
+  {
+    "botanical_as_published": "Milletia thonningii",
+    "published_genus": "Milletia",
+    "unmatched_as": {
+      "match_type": "VARIANT",
+      "confidence": 85,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Millettia thonningii"
+    },
+    "decided_at": "2026-09-13",
+    "status": "corrected",
+    "rule": "gbif_variant_suggestion",
+    "corrected_query": "Millettia thonningii",
+    "accepted_botanical": "Millettia thonningii",
+    "evidence": {
+      "queried": "Millettia thonningii",
+      "match_type": "EXACT",
+      "confidence": 99,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Millettia thonningii",
+      "usage_key": "5355788",
+      "accepted_usage_key": "5355788",
+      "genus_changed": true,
+      "epithet_changed": false
+    },
+    "attempts": [
+      {
+        "query": "Millettia thonningii",
+        "rule": "gbif_variant_suggestion",
+        "match_type": "EXACT",
+        "confidence": 99,
+        "status": "ACCEPTED",
+        "accepted": "Millettia thonningii",
+        "eligible": true
+      }
+    ]
+  },
+  {
+    "botanical_as_published": "Musanga cecropioides R. Br.",
+    "published_genus": "Musanga",
+    "unmatched_as": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "taxonomic_status": "PROVISIONALLY_ACCEPTED",
+      "matched_canonical": "Musanga cecropioides"
+    },
+    "decided_at": "2026-09-13",
+    "status": "corrected",
+    "rule": "gbif_variant_suggestion",
+    "corrected_query": "Musanga cecropioides",
+    "accepted_botanical": "Musanga cecropioides",
+    "evidence": {
+      "queried": "Musanga cecropioides",
+      "match_type": "EXACT",
+      "confidence": 98,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Musanga cecropioides",
+      "usage_key": "5643189",
+      "accepted_usage_key": "5643189",
+      "genus_changed": false,
+      "epithet_changed": false
+    },
+    "attempts": [
+      {
+        "query": "Musanga cecropioides",
+        "rule": "gbif_variant_suggestion",
+        "match_type": "EXACT",
+        "confidence": 98,
+        "status": "ACCEPTED",
+        "accepted": "Musanga cecropioides",
+        "eligible": true
+      }
+    ]
+  },
+  {
+    "botanical_as_published": "Newbouldia laevis (Seem. ex Bureau.)",
+    "published_genus": "Newbouldia",
+    "unmatched_as": {
+      "match_type": "HIGHERRANK",
+      "confidence": 94,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Newbouldia"
+    },
+    "decided_at": "2026-09-13",
+    "status": "corrected",
+    "rule": "authority_removed",
+    "corrected_query": "Newbouldia laevis",
+    "accepted_botanical": "Newbouldia laevis",
+    "evidence": {
+      "queried": "Newbouldia laevis",
+      "match_type": "EXACT",
+      "confidence": 97,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Newbouldia laevis",
+      "usage_key": "4091370",
+      "accepted_usage_key": "4091370",
+      "genus_changed": false,
+      "epithet_changed": false
+    },
+    "attempts": [
+      {
+        "query": "Newbouldia",
+        "rule": "gbif_variant_suggestion",
+        "match_type": "EXACT",
+        "confidence": 94,
+        "status": "ACCEPTED",
+        "accepted": "Newbouldia",
+        "eligible": false
+      },
+      {
+        "query": "Newbouldia laevis",
+        "rule": "authority_removed",
+        "match_type": "EXACT",
+        "confidence": 97,
+        "status": "ACCEPTED",
+        "accepted": "Newbouldia laevis",
+        "eligible": true
+      }
+    ]
+  },
+  {
+    "botanical_as_published": "Pausinystalia yohimbe Pierre ex Beille",
+    "published_genus": "Pausinystalia",
+    "unmatched_as": {
+      "match_type": "VARIANT",
+      "confidence": 100,
+      "taxonomic_status": "SYNONYM",
+      "matched_canonical": "Pausinystalia yohimba"
+    },
+    "decided_at": "2026-09-13",
+    "status": "corrected",
+    "rule": "gbif_variant_suggestion",
+    "corrected_query": "Pausinystalia yohimba",
+    "accepted_botanical": "Pausinystalia yohimba",
+    "evidence": {
+      "queried": "Pausinystalia yohimba",
+      "match_type": "EXACT",
+      "confidence": 97,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Pausinystalia yohimba",
+      "usage_key": "8637691",
+      "accepted_usage_key": "8637691",
+      "genus_changed": false,
+      "epithet_changed": true
+    },
+    "attempts": [
+      {
+        "query": "Pausinystalia yohimba",
+        "rule": "gbif_variant_suggestion",
+        "match_type": "EXACT",
+        "confidence": 97,
+        "status": "ACCEPTED",
+        "accepted": "Pausinystalia yohimba",
+        "eligible": true
+      }
+    ]
+  },
+  {
+    "botanical_as_published": "Pergularia dermia (Forsk) Chiov.",
+    "published_genus": "Pergularia",
+    "unmatched_as": {
+      "match_type": "HIGHERRANK",
+      "confidence": 94,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Pergularia"
+    },
+    "decided_at": "2026-09-13",
+    "status": "corrected",
+    "rule": "gbif_single_species",
+    "corrected_query": "Pergularia daemia",
+    "accepted_botanical": "Pergularia daemia",
+    "evidence": {
+      "queried": "Pergularia daemia",
+      "match_type": "EXACT",
+      "confidence": 97,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Pergularia daemia",
+      "usage_key": "3170445",
+      "accepted_usage_key": "3170445",
+      "genus_changed": false,
+      "epithet_changed": true
+    },
+    "attempts": [
+      {
+        "query": "Pergularia",
+        "rule": "gbif_variant_suggestion",
+        "match_type": "EXACT",
+        "confidence": 94,
+        "status": "ACCEPTED",
+        "accepted": "Pergularia",
+        "eligible": false
+      },
+      {
+        "query": "Pergularia dermia",
+        "rule": "authority_removed",
+        "match_type": "HIGHERRANK",
+        "confidence": 94,
+        "status": "ACCEPTED",
+        "accepted": "Pergularia",
+        "eligible": false
+      },
+      {
+        "query": "Pergularia daemia",
+        "rule": "gbif_single_species",
+        "match_type": "EXACT",
+        "confidence": 97,
+        "status": "ACCEPTED",
+        "accepted": "Pergularia daemia",
+        "eligible": true
+      }
+    ]
+  },
+  {
+    "botanical_as_published": "Prosopis Africana",
+    "published_genus": "Prosopis",
+    "unmatched_as": {
+      "match_type": "NONE",
+      "confidence": 100,
+      "taxonomic_status": null,
+      "matched_canonical": null
+    },
+    "decided_at": "2026-09-13",
+    "status": "corrected",
+    "rule": "capitalised_epithet_lowercased",
+    "corrected_query": "Prosopis africana",
+    "accepted_botanical": "Prosopis africana",
+    "evidence": {
+      "queried": "Prosopis africana",
+      "match_type": "EXACT",
+      "confidence": 99,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Prosopis africana",
+      "usage_key": "5358514",
+      "accepted_usage_key": "5358514",
+      "genus_changed": false,
+      "epithet_changed": false
+    },
+    "attempts": [
+      {
+        "query": "Prosopis Africana",
+        "rule": "authority_removed",
+        "match_type": "NONE",
+        "confidence": 100,
+        "status": null,
+        "accepted": null,
+        "eligible": false
+      },
+      {
+        "query": "Prosopis africana",
+        "rule": "capitalised_epithet_lowercased",
+        "match_type": "EXACT",
+        "confidence": 99,
+        "status": "ACCEPTED",
+        "accepted": "Prosopis africana",
+        "eligible": true
+      }
+    ]
+  },
+  {
+    "botanical_as_published": "Rauwolfia vomitoria Afzel",
+    "published_genus": "Rauwolfia",
+    "unmatched_as": {
+      "match_type": "VARIANT",
+      "confidence": 95,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Rauvolfia vomitoria"
+    },
+    "decided_at": "2026-09-13",
+    "status": "corrected",
+    "rule": "gbif_variant_suggestion",
+    "corrected_query": "Rauvolfia vomitoria",
+    "accepted_botanical": "Rauvolfia vomitoria",
+    "evidence": {
+      "queried": "Rauvolfia vomitoria",
+      "match_type": "EXACT",
+      "confidence": 98,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Rauvolfia vomitoria",
+      "usage_key": "3169770",
+      "accepted_usage_key": "3169770",
+      "genus_changed": true,
+      "epithet_changed": false
+    },
+    "attempts": [
+      {
+        "query": "Rauvolfia vomitoria",
+        "rule": "gbif_variant_suggestion",
+        "match_type": "EXACT",
+        "confidence": 98,
+        "status": "ACCEPTED",
+        "accepted": "Rauvolfia vomitoria",
+        "eligible": true
+      }
+    ]
+  },
+  {
+    "botanical_as_published": "Sapora dulcis L.",
+    "published_genus": "Sapora",
+    "unmatched_as": {
+      "match_type": "NONE",
+      "confidence": 100,
+      "taxonomic_status": null,
+      "matched_canonical": null
+    },
+    "decided_at": "2026-09-13",
+    "status": "deferred",
+    "competing_accepted_names": [],
+    "attempts": [
+      {
+        "query": "Sapora dulcis",
+        "rule": "authority_removed",
+        "match_type": "NONE",
+        "confidence": 100,
+        "status": null,
+        "accepted": null,
+        "eligible": false
+      }
+    ],
+    "reason": "GBIF offers no accepted species for this name or any mechanical correction of it."
+  },
+  {
+    "botanical_as_published": "Smilax kraussiana Meisn. Smilax anceps Willd.)",
+    "published_genus": "Smilax",
+    "unmatched_as": {
+      "match_type": "HIGHERRANK",
+      "confidence": 98,
+      "taxonomic_status": "SYNONYM",
+      "matched_canonical": "Smilax kraussiana"
+    },
+    "decided_at": "2026-09-13",
+    "status": "corrected",
+    "rule": "second_name_in_cell",
+    "corrected_query": "Smilax anceps",
+    "accepted_botanical": "Smilax anceps",
+    "evidence": {
+      "queried": "Smilax anceps",
+      "match_type": "EXACT",
+      "confidence": 99,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Smilax anceps",
+      "usage_key": "5295301",
+      "accepted_usage_key": "5295301",
+      "genus_changed": false,
+      "epithet_changed": true
+    },
+    "attempts": [
+      {
+        "query": "Smilax anceps",
+        "rule": "second_name_in_cell",
+        "match_type": "EXACT",
+        "confidence": 99,
+        "status": "ACCEPTED",
+        "accepted": "Smilax anceps",
+        "eligible": true
+      }
+    ]
+  },
+  {
+    "botanical_as_published": "Spermacoce villosus",
+    "published_genus": "Spermacoce",
+    "unmatched_as": {
+      "match_type": "VARIANT",
+      "confidence": 96,
+      "taxonomic_status": "SYNONYM",
+      "matched_canonical": "Spermacoce villosa"
+    },
+    "decided_at": "2026-09-13",
+    "status": "corrected",
+    "rule": "gbif_variant_suggestion",
+    "corrected_query": "Spermacoce villosa",
+    "accepted_botanical": "Mitracarpus hirtus",
+    "evidence": {
+      "queried": "Spermacoce villosa",
+      "match_type": "EXACT",
+      "confidence": 98,
+      "taxonomic_status": "SYNONYM",
+      "matched_canonical": "Spermacoce villosa",
+      "usage_key": "2913010",
+      "accepted_usage_key": "2912993",
+      "genus_changed": true,
+      "epithet_changed": true
+    },
+    "attempts": [
+      {
+        "query": "Spermacoce villosa",
+        "rule": "gbif_variant_suggestion",
+        "match_type": "EXACT",
+        "confidence": 98,
+        "status": "SYNONYM",
+        "accepted": "Mitracarpus hirtus",
+        "eligible": true
+      }
+    ]
+  },
+  {
+    "botanical_as_published": "Spondias mombin L.",
+    "published_genus": "Spondias",
+    "unmatched_as": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "taxonomic_status": "PROVISIONALLY_ACCEPTED",
+      "matched_canonical": "Spondias mombin"
+    },
+    "decided_at": "2026-09-13",
+    "status": "corrected",
+    "rule": "gbif_variant_suggestion",
+    "corrected_query": "Spondias mombin",
+    "accepted_botanical": "Spondias mombin",
+    "evidence": {
+      "queried": "Spondias mombin",
+      "match_type": "EXACT",
+      "confidence": 98,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Spondias mombin",
+      "usage_key": "8185571",
+      "accepted_usage_key": "8185571",
+      "genus_changed": false,
+      "epithet_changed": false
+    },
+    "attempts": [
+      {
+        "query": "Spondias mombin",
+        "rule": "gbif_variant_suggestion",
+        "match_type": "EXACT",
+        "confidence": 98,
+        "status": "ACCEPTED",
+        "accepted": "Spondias mombin",
+        "eligible": true
+      }
+    ]
+  },
+  {
+    "botanical_as_published": "Spondias mombis (L.)",
+    "published_genus": "Spondias",
+    "unmatched_as": {
+      "match_type": "VARIANT",
+      "confidence": 97,
+      "taxonomic_status": "PROVISIONALLY_ACCEPTED",
+      "matched_canonical": "Spondias mombin"
+    },
+    "decided_at": "2026-09-13",
+    "status": "corrected",
+    "rule": "gbif_variant_suggestion",
+    "corrected_query": "Spondias mombin",
+    "accepted_botanical": "Spondias mombin",
+    "evidence": {
+      "queried": "Spondias mombin",
+      "match_type": "EXACT",
+      "confidence": 98,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Spondias mombin",
+      "usage_key": "8185571",
+      "accepted_usage_key": "8185571",
+      "genus_changed": false,
+      "epithet_changed": true
+    },
+    "attempts": [
+      {
+        "query": "Spondias mombin",
+        "rule": "gbif_variant_suggestion",
+        "match_type": "EXACT",
+        "confidence": 98,
+        "status": "ACCEPTED",
+        "accepted": "Spondias mombin",
+        "eligible": true
+      }
+    ]
+  },
+  {
+    "botanical_as_published": "Starchytarpheta angustifolia",
+    "published_genus": "Starchytarpheta",
+    "unmatched_as": {
+      "match_type": "VARIANT",
+      "confidence": 84,
+      "taxonomic_status": "SYNONYM",
+      "matched_canonical": "Stachytarpheta angustifolia"
+    },
+    "decided_at": "2026-09-13",
+    "status": "corrected",
+    "rule": "gbif_variant_suggestion",
+    "corrected_query": "Stachytarpheta angustifolia",
+    "accepted_botanical": "Stachytarpheta indica",
+    "evidence": {
+      "queried": "Stachytarpheta angustifolia",
+      "match_type": "EXACT",
+      "confidence": 98,
+      "taxonomic_status": "SYNONYM",
+      "matched_canonical": "Stachytarpheta angustifolia",
+      "usage_key": "7297356",
+      "accepted_usage_key": "2925465",
+      "genus_changed": true,
+      "epithet_changed": true
+    },
+    "attempts": [
+      {
+        "query": "Stachytarpheta angustifolia",
+        "rule": "gbif_variant_suggestion",
+        "match_type": "EXACT",
+        "confidence": 98,
+        "status": "SYNONYM",
+        "accepted": "Stachytarpheta indica",
+        "eligible": true
+      }
+    ]
+  },
+  {
+    "botanical_as_published": "Tapinanthus dodoniefolius",
+    "published_genus": "Tapinanthus",
+    "unmatched_as": {
+      "match_type": "VARIANT",
+      "confidence": 93,
+      "taxonomic_status": "SYNONYM",
+      "matched_canonical": "Tapinanthus dodoneifolius"
+    },
+    "decided_at": "2026-09-13",
+    "status": "corrected",
+    "rule": "gbif_variant_suggestion",
+    "corrected_query": "Tapinanthus dodoneifolius",
+    "accepted_botanical": "Agelanthus dodoneifolius",
+    "evidence": {
+      "queried": "Tapinanthus dodoneifolius",
+      "match_type": "EXACT",
+      "confidence": 98,
+      "taxonomic_status": "SYNONYM",
+      "matched_canonical": "Tapinanthus dodoneifolius",
+      "usage_key": "7288163",
+      "accepted_usage_key": "4003333",
+      "genus_changed": true,
+      "epithet_changed": true
+    },
+    "attempts": [
+      {
+        "query": "Tapinanthus dodoneifolius",
+        "rule": "gbif_variant_suggestion",
+        "match_type": "EXACT",
+        "confidence": 98,
+        "status": "SYNONYM",
+        "accepted": "Agelanthus dodoneifolius",
+        "eligible": true
+      }
+    ]
+  },
+  {
+    "botanical_as_published": "Telfaria occidentalis Hook. F.",
+    "published_genus": "Telfaria",
+    "unmatched_as": {
+      "match_type": "NONE",
+      "confidence": 100,
+      "taxonomic_status": null,
+      "matched_canonical": null
+    },
+    "decided_at": "2026-09-13",
+    "status": "corrected",
+    "rule": "gbif_single_species",
+    "corrected_query": "Telfairia occidentalis",
+    "accepted_botanical": "Telfairia occidentalis",
+    "evidence": {
+      "queried": "Telfairia occidentalis",
+      "match_type": "EXACT",
+      "confidence": 99,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Telfairia occidentalis",
+      "usage_key": "2874669",
+      "accepted_usage_key": "2874669",
+      "genus_changed": true,
+      "epithet_changed": false
+    },
+    "attempts": [
+      {
+        "query": "Telfaria occidentalis",
+        "rule": "authority_removed",
+        "match_type": "VARIANT",
+        "confidence": 85,
+        "status": "ACCEPTED",
+        "accepted": "Telfairia occidentalis",
+        "eligible": false
+      },
+      {
+        "query": "Telfairia occidentalis",
+        "rule": "gbif_single_species",
+        "match_type": "EXACT",
+        "confidence": 99,
+        "status": "ACCEPTED",
+        "accepted": "Telfairia occidentalis",
+        "eligible": true
+      }
+    ]
+  },
+  {
+    "botanical_as_published": "Terminalia glauccesens Planch. Ex Benth",
+    "published_genus": "Terminalia",
+    "unmatched_as": {
+      "match_type": "VARIANT",
+      "confidence": 99,
+      "taxonomic_status": "SYNONYM",
+      "matched_canonical": "Terminalia glaucescens"
+    },
+    "decided_at": "2026-09-13",
+    "status": "corrected",
+    "rule": "gbif_variant_suggestion",
+    "corrected_query": "Terminalia glaucescens",
+    "accepted_botanical": "Terminalia schimperiana",
+    "evidence": {
+      "queried": "Terminalia glaucescens",
+      "match_type": "EXACT",
+      "confidence": 97,
+      "taxonomic_status": "SYNONYM",
+      "matched_canonical": "Terminalia glaucescens",
+      "usage_key": "3699081",
+      "accepted_usage_key": "3699820",
+      "genus_changed": false,
+      "epithet_changed": true
+    },
+    "attempts": [
+      {
+        "query": "Terminalia glaucescens",
+        "rule": "gbif_variant_suggestion",
+        "match_type": "EXACT",
+        "confidence": 97,
+        "status": "SYNONYM",
+        "accepted": "Terminalia schimperiana",
+        "eligible": true
+      }
+    ]
+  },
+  {
+    "botanical_as_published": "Trigonella foenumgraecum L.",
+    "published_genus": "Trigonella",
+    "unmatched_as": {
+      "match_type": "VARIANT",
+      "confidence": 100,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Trigonella foenum-graecum"
+    },
+    "decided_at": "2026-09-13",
+    "status": "corrected",
+    "rule": "gbif_variant_suggestion",
+    "corrected_query": "Trigonella foenum-graecum",
+    "accepted_botanical": "Trigonella foenum-graecum",
+    "evidence": {
+      "queried": "Trigonella foenum-graecum",
+      "match_type": "EXACT",
+      "confidence": 98,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Trigonella foenum-graecum",
+      "usage_key": "5360475",
+      "accepted_usage_key": "5360475",
+      "genus_changed": false,
+      "epithet_changed": true
+    },
+    "attempts": [
+      {
+        "query": "Trigonella foenum-graecum",
+        "rule": "gbif_variant_suggestion",
+        "match_type": "EXACT",
+        "confidence": 98,
+        "status": "ACCEPTED",
+        "accepted": "Trigonella foenum-graecum",
+        "eligible": true
+      }
+    ]
+  },
+  {
+    "botanical_as_published": "Urena lobata L. var. glauca (Blume) Borss. Waalk.",
+    "published_genus": "Urena",
+    "unmatched_as": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Urena lobata glauca"
+    },
+    "decided_at": "2026-09-13",
+    "status": "corrected",
+    "rule": "authority_removed",
+    "corrected_query": "Urena lobata",
+    "accepted_botanical": "Urena lobata",
+    "evidence": {
+      "queried": "Urena lobata",
+      "match_type": "EXACT",
+      "confidence": 99,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Urena lobata",
+      "usage_key": "3152253",
+      "accepted_usage_key": "3152253",
+      "genus_changed": false,
+      "epithet_changed": false
+    },
+    "attempts": [
+      {
+        "query": "Urena lobata glauca",
+        "rule": "gbif_variant_suggestion",
+        "match_type": "EXACT",
+        "confidence": 98,
+        "status": "ACCEPTED",
+        "accepted": "Urena lobata glauca",
+        "eligible": false
+      },
+      {
+        "query": "Urena lobata",
+        "rule": "authority_removed",
+        "match_type": "EXACT",
+        "confidence": 99,
+        "status": "ACCEPTED",
+        "accepted": "Urena lobata",
+        "eligible": true
+      }
+    ]
+  },
+  {
+    "botanical_as_published": "Uvaria chammae Linn.",
+    "published_genus": "Uvaria",
+    "unmatched_as": {
+      "match_type": "HIGHERRANK",
+      "confidence": 94,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Uvaria"
+    },
+    "decided_at": "2026-09-13",
+    "status": "corrected",
+    "rule": "gbif_single_species",
+    "corrected_query": "Uvaria chamae",
+    "accepted_botanical": "Uvaria chamae",
+    "evidence": {
+      "queried": "Uvaria chamae",
+      "match_type": "EXACT",
+      "confidence": 99,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Uvaria chamae",
+      "usage_key": "3154319",
+      "accepted_usage_key": "3154319",
+      "genus_changed": false,
+      "epithet_changed": true
+    },
+    "attempts": [
+      {
+        "query": "Uvaria",
+        "rule": "gbif_variant_suggestion",
+        "match_type": "EXACT",
+        "confidence": 94,
+        "status": "ACCEPTED",
+        "accepted": "Uvaria",
+        "eligible": false
+      },
+      {
+        "query": "Uvaria chammae",
+        "rule": "authority_removed",
+        "match_type": "VARIANT",
+        "confidence": 96,
+        "status": "ACCEPTED",
+        "accepted": "Uvaria chamae",
+        "eligible": false
+      },
+      {
+        "query": "Uvaria chamae",
+        "rule": "gbif_single_species",
+        "match_type": "EXACT",
+        "confidence": 99,
+        "status": "ACCEPTED",
+        "accepted": "Uvaria chamae",
+        "eligible": true
+      }
+    ]
+  },
+  {
+    "botanical_as_published": "Vitellaria paradoxa Gaertn. (Butyrospermum paradoxum)",
+    "published_genus": "Vitellaria",
+    "unmatched_as": {
+      "match_type": "VARIANT",
+      "confidence": 92,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Vitellaria paradoxa paradoxa"
+    },
+    "decided_at": "2026-09-13",
+    "status": "corrected",
+    "rule": "authority_removed",
+    "corrected_query": "Vitellaria paradoxa",
+    "accepted_botanical": "Vitellaria paradoxa",
+    "evidence": {
+      "queried": "Vitellaria paradoxa",
+      "match_type": "EXACT",
+      "confidence": 99,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Vitellaria paradoxa",
+      "usage_key": "2886750",
+      "accepted_usage_key": "2886750",
+      "genus_changed": false,
+      "epithet_changed": false
+    },
+    "attempts": [
+      {
+        "query": "Vitellaria paradoxa paradoxa",
+        "rule": "gbif_variant_suggestion",
+        "match_type": "EXACT",
+        "confidence": 98,
+        "status": "ACCEPTED",
+        "accepted": "Vitellaria paradoxa paradoxa",
+        "eligible": false
+      },
+      {
+        "query": "Vitellaria paradoxa",
+        "rule": "authority_removed",
+        "match_type": "EXACT",
+        "confidence": 99,
+        "status": "ACCEPTED",
+        "accepted": "Vitellaria paradoxa",
+        "eligible": true
+      }
+    ]
+  }
+]
