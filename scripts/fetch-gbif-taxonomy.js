@@ -13,8 +13,14 @@ async function getJson(url) {
   return response.json();
 }
 
+// A published name may carry a synonym after it: "(Synonym: …)", "(Syn: …)",
+// "= Enantia chlorantha", or a bare parenthesised binomial. Only the name the
+// authors chose is matched; an author citation such as "(L.) Merr." is kept.
 function taxonomyQueryName(botanicalAsPublished) {
-  return botanicalAsPublished.split(/\s*\(Synonym:/i)[0].replace(/[.]$/, '').trim();
+  return botanicalAsPublished
+    .split(/\s*(?:\((?:Synonym|Syn):|=|\(\s*[A-Z][a-z]+\s+[a-z]{3,}\s*\))/)[0]
+    .replace(/[.]$/, '')
+    .trim();
 }
 
 async function matchTaxon(botanicalAsPublished) {

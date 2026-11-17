@@ -137,7 +137,9 @@ describe('what the build does with it', () => {
       .map(name => name.accepted_botanical)
       .sort();
 
-    assert.deepEqual(candidates, ['Loranthus micranthus', 'Tapinanthus globiferus']);
+    // The Ede South survey adds a third reading, Crudia klainei, which keeps
+    // the name contested and changes nothing about the point made here.
+    assert.deepEqual(candidates, ['Crudia klainei', 'Loranthus micranthus', 'Tapinanthus globiferus']);
     assert.equal(withCache.runtime.find(row => row.local_name === 'afomo').botanical, null);
   });
 

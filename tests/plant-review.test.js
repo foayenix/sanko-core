@@ -151,6 +151,9 @@ describe('confirmations reaching the runtime index', () => {
     }
   }
 
+  // A name no registered source prints. It used to be "Ewé ìná", until the Port
+  // Harcourt survey — which maps Ewe ina to Mucuna sloanei — was included and a
+  // confirmation for Laportea aestuans became a disagreement rather than a gain.
   const confirmation = overrides => ({
     local_name: 'Ewé èsìsì',
     language: 'yo',

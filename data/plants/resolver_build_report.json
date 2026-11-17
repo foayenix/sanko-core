@@ -1,13 +1,13 @@
 {
   "built_at": "2026-11-17",
-  "pages_written": 1200,
-  "vernacular_rows_considered": 1026,
-  "vernacular_rows_published": 868,
-  "unique_names_published": 793,
-  "taxa_published": 390,
-  "contested_names_published": 34,
+  "pages_written": 1272,
+  "vernacular_rows_considered": 1124,
+  "vernacular_rows_published": 966,
+  "unique_names_published": 845,
+  "taxa_published": 409,
+  "contested_names_published": 41,
   "languages_published": {
-    "yo": 406,
+    "yo": 504,
     "ijn": 37,
     "und": 36,
     "ha": 141,
@@ -23,6 +23,7 @@
     "sonibare-2008-anti-asthmatic",
     "offiah-2011-plateau",
     "ajibesin-2012-rivers",
+    "lawal-2020-ede-south",
     "olatokunbo-2022-bayelsa"
   ],
   "rows_withheld": {
@@ -39,6 +40,16 @@
       "id": "mukaila-2021-ile-ife",
       "ingestion_status": "quarantined",
       "publication_status": "retracted"
+    },
+    {
+      "id": "odebunmi-2022-ogbomosho",
+      "ingestion_status": "staged_review",
+      "publication_status": "active"
+    },
+    {
+      "id": "evbuomwan-2023-kwara",
+      "ingestion_status": "staged_review",
+      "publication_status": "active"
     },
     {
       "id": "anumudu-2025-nigeria-review",
