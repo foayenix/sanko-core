@@ -93,8 +93,13 @@ describe('W5 — plant lookup expanded', () => {
     assert.equal(lookup('oruwo').botanical, 'Morinda lucida');
   });
 
-  it('finds Igbo name: utazi', () => {
-    assert.equal(lookup('utazi').botanical, 'Gongronema latifolium');
+  it('holds utazi as contested rather than choosing for the agent', () => {
+    // It used to resolve to Gongronema latifolium. The Rivers State survey
+    // prints "Utazi (Ikwerre)" twice — at PNM 21 for Gongronema latifolium and
+    // at PNM 22 for Pergularia dermia — so the name now points at two species
+    // and the build withholds it. A null here is the ambiguity rule working:
+    // the agent is not given a species the sources disagree about.
+    assert.equal(lookup('utazi').botanical, null);
   });
 
   it('finds Hausa name: tafarnuwa (garlic)', () => {

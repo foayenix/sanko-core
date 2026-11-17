@@ -1,5 +1,19 @@
 [
   {
+    "local_name": "aayu",
+    "botanical": "Allium sativum",
+    "common_english": "Garlic",
+    "parts_commonly_used": [
+      "bulb",
+      "clove"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "infusion",
+      "raw"
+    ]
+  },
+  {
     "local_name": "abafe",
     "botanical": null,
     "common_english": null,
@@ -21,12 +35,26 @@
     "typical_preparations": []
   },
   {
-    "local_name": "abamoda",
-    "botanical": null,
-    "common_english": null,
+    "local_name": "abalebaji",
+    "botanical": "Acalypha fimbriata",
+    "common_english": "Acalypha",
     "parts_commonly_used": [
+      "leaf",
+      "leaves",
+      "stem",
+      "twigs"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "abamoda",
+    "botanical": "Kalanchoe pinnata",
+    "common_english": "Air Plant",
+    "parts_commonly_used": [
+      "leaf sap",
       "leaves",
       "root",
+      "roots",
       "stem"
     ],
     "typical_preparations": [
@@ -34,6 +62,24 @@
       "juice",
       "poultice"
     ]
+  },
+  {
+    "local_name": "abayin",
+    "botanical": "Hexasepalum sarmentosum",
+    "common_english": "Button weed",
+    "parts_commonly_used": [
+      "leaves"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "abbala",
+    "botanical": "Mucuna pruriens",
+    "common_english": "Cow-hage, cow-itch plant, velvet bean",
+    "parts_commonly_used": [
+      "hairs on the pods"
+    ],
+    "typical_preparations": []
   },
   {
     "local_name": "abeere",
@@ -79,6 +125,15 @@
     "typical_preparations": []
   },
   {
+    "local_name": "abilere",
+    "botanical": "Chrysanthellum indicum",
+    "common_english": "Indian chrysanthemum",
+    "parts_commonly_used": [
+      "whole plant"
+    ],
+    "typical_preparations": []
+  },
+  {
     "local_name": "abo",
     "botanical": "Annona senegalensis",
     "common_english": null,
@@ -98,6 +153,38 @@
     "typical_preparations": []
   },
   {
+    "local_name": "abode",
+    "botanical": "Baphia nitida",
+    "common_english": "Cam wood",
+    "parts_commonly_used": [
+      "heartwood",
+      "latex",
+      "leaf",
+      "leaves"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "powder paste"
+    ]
+  },
+  {
+    "local_name": "abomoda",
+    "botanical": "Kalanchoe pinnata",
+    "common_english": "Air Plant",
+    "parts_commonly_used": [
+      "leaf sap",
+      "leaves",
+      "root",
+      "roots",
+      "stem"
+    ],
+    "typical_preparations": [
+      "infusion",
+      "juice",
+      "poultice"
+    ]
+  },
+  {
     "local_name": "aborisawaye",
     "botanical": "Malvastrum coromandelianum",
     "common_english": null,
@@ -105,6 +192,69 @@
       "stem"
     ],
     "typical_preparations": []
+  },
+  {
+    "local_name": "abrika okirima",
+    "botanical": "Musa paradisiaca",
+    "common_english": "Plantain",
+    "parts_commonly_used": [
+      "fruit",
+      "leaves",
+      "peel",
+      "root",
+      "stem",
+      "stem sap",
+      "unripe fruit"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "eaten cooked",
+      "juice",
+      "poultice",
+      "powder"
+    ]
+  },
+  {
+    "local_name": "achara",
+    "botanical": "Cymbopogon citratus",
+    "common_english": "Lemon grass",
+    "parts_commonly_used": [
+      "leaf",
+      "leaves",
+      "root",
+      "stems"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "infusion"
+    ]
+  },
+  {
+    "local_name": "adallabanya",
+    "botanical": "Combretum racemosum",
+    "common_english": null,
+    "parts_commonly_used": [
+      "leaves"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "adeginapumue",
+    "botanical": "Alchornea cordifolia",
+    "common_english": "Christmas Bush",
+    "parts_commonly_used": [
+      "bark",
+      "leaf",
+      "leaves",
+      "root",
+      "roots",
+      "stem"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "infusion",
+      "poultice"
+    ]
   },
   {
     "local_name": "adere",
@@ -116,12 +266,39 @@
     "typical_preparations": []
   },
   {
+    "local_name": "aduruku",
+    "botanical": null,
+    "common_english": null,
+    "parts_commonly_used": [
+      "bark",
+      "leaf",
+      "leaves",
+      "root",
+      "roots"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "infusion"
+    ]
+  },
+  {
     "local_name": "afara",
     "botanical": "Terminalia ivorensis",
     "common_english": null,
     "parts_commonly_used": [
       "leaf",
       "stem-bark"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "afoma",
+    "botanical": "Pinus caribaea",
+    "common_english": null,
+    "parts_commonly_used": [
+      "leaf",
+      "leaves",
+      "seed"
     ],
     "typical_preparations": []
   },
@@ -156,12 +333,39 @@
     ]
   },
   {
+    "local_name": "aga okpolo",
+    "botanical": "Anthocleista djalonensis",
+    "common_english": null,
+    "parts_commonly_used": [
+      "bark",
+      "stem",
+      "whole plant"
+    ],
+    "typical_preparations": []
+  },
+  {
     "local_name": "agaga odan",
     "botanical": "Margaritaria discoidea",
     "common_english": null,
     "parts_commonly_used": [
       "leaf"
     ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "agbado esin",
+    "botanical": "Eragrostis namaquensis",
+    "common_english": null,
+    "parts_commonly_used": [
+      "stem"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "agbalala",
+    "botanical": "Sieruela rutidosperma",
+    "common_english": "Cleome",
+    "parts_commonly_used": [],
     "typical_preparations": []
   },
   {
@@ -175,20 +379,47 @@
   },
   {
     "local_name": "agbalumo",
-    "botanical": null,
-    "common_english": null,
+    "botanical": "Gambeya albida",
+    "common_english": "African star apple",
     "parts_commonly_used": [
       "bark",
       "fruit",
       "leaves",
+      "seed",
       "seeds",
-      "stem-bark"
+      "stem",
+      "stem-bark",
+      "whole plant"
     ],
     "typical_preparations": [
       "decoction",
       "eaten raw",
       "powder"
     ]
+  },
+  {
+    "local_name": "agbara",
+    "botanical": "Senna occidentalis",
+    "common_english": "Coffee Senna",
+    "parts_commonly_used": [
+      "leaves",
+      "root",
+      "roots",
+      "seeds"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "infusion"
+    ]
+  },
+  {
+    "local_name": "agbawo",
+    "botanical": "Musanga cecropioides",
+    "common_english": null,
+    "parts_commonly_used": [
+      "bark"
+    ],
+    "typical_preparations": []
   },
   {
     "local_name": "agbo",
@@ -207,6 +438,7 @@
       "flesh",
       "fruit",
       "fruit water",
+      "nut",
       "oil",
       "shell"
     ],
@@ -237,6 +469,79 @@
     "typical_preparations": []
   },
   {
+    "local_name": "aghara",
+    "botanical": "Satureja hortensis",
+    "common_english": null,
+    "parts_commonly_used": [
+      "leaves",
+      "stem"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "aginiran",
+    "botanical": "Spondias mombin",
+    "common_english": "Cat’s tail grass",
+    "parts_commonly_used": [
+      "bark",
+      "fruit",
+      "fruits",
+      "leaf",
+      "leaves",
+      "root",
+      "stem"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "infusion"
+    ]
+  },
+  {
+    "local_name": "agogo igun",
+    "botanical": "Heliotropium indicum",
+    "common_english": "Cock’s comb, Heliotrope",
+    "parts_commonly_used": [
+      "leaf",
+      "whole plant"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "agolo",
+    "botanical": "Eleusine indica",
+    "common_english": "Bermuda grass",
+    "parts_commonly_used": [
+      "root",
+      "stem"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "aguava",
+    "botanical": "Psidium guajava",
+    "common_english": "Guava",
+    "parts_commonly_used": [
+      "bark",
+      "fruit",
+      "leaf",
+      "leaves"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "eaten raw",
+      "infusion"
+    ]
+  },
+  {
+    "local_name": "aguba",
+    "botanical": "Nasturtium officinale",
+    "common_english": null,
+    "parts_commonly_used": [
+      "leaves"
+    ],
+    "typical_preparations": []
+  },
+  {
     "local_name": "agudugbu",
     "botanical": "Polyalthia suaveolens",
     "common_english": null,
@@ -256,11 +561,84 @@
     "typical_preparations": []
   },
   {
+    "local_name": "agwa",
+    "botanical": "Verbena officinalis",
+    "common_english": null,
+    "parts_commonly_used": [
+      "leaves",
+      "stem"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "agwaliba",
+    "botanical": "Gambeya albida",
+    "common_english": "African star apple",
+    "parts_commonly_used": [
+      "bark",
+      "fruit",
+      "leaves",
+      "seed",
+      "seeds",
+      "stem",
+      "stem-bark",
+      "whole plant"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "eaten raw",
+      "powder"
+    ]
+  },
+  {
+    "local_name": "ahenhen",
+    "botanical": "Ageratum conyzoides",
+    "common_english": "Goat weed, floss flower",
+    "parts_commonly_used": [
+      "leaf",
+      "leaves",
+      "root",
+      "whole plant"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "ahihara",
+    "botanical": "Corchorus olitorius",
+    "common_english": "Bush okra/Jew fiber telteria/Jews Mallow",
+    "parts_commonly_used": [
+      "leaf",
+      "leaves"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "ahilia okuko",
+    "botanical": "Stellaria media",
+    "common_english": null,
+    "parts_commonly_used": [
+      "leaves"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "ahon ekun",
+    "botanical": "Acanthus montanus",
+    "common_english": "False thistle, leopard’s tongue Bear′s breech, white′s ginger,",
+    "parts_commonly_used": [
+      "leaves",
+      "roots",
+      "stem-twig"
+    ],
+    "typical_preparations": []
+  },
+  {
     "local_name": "ahun",
     "botanical": "Alstonia boonei",
     "common_english": "Pattern Wood",
     "parts_commonly_used": [
       "bark",
+      "leaves",
       "roots"
     ],
     "typical_preparations": [
@@ -310,6 +688,16 @@
     "typical_preparations": []
   },
   {
+    "local_name": "aja",
+    "botanical": "Pterocarpus erinaceus",
+    "common_english": null,
+    "parts_commonly_used": [
+      "bark",
+      "leaves"
+    ],
+    "typical_preparations": []
+  },
+  {
     "local_name": "aja rere",
     "botanical": "Senna podocarpa",
     "common_english": null,
@@ -355,11 +743,21 @@
     "typical_preparations": []
   },
   {
+    "local_name": "aje",
+    "botanical": "Ouret lanata",
+    "common_english": "Bhadram, cherula",
+    "parts_commonly_used": [
+      "whole plant"
+    ],
+    "typical_preparations": []
+  },
+  {
     "local_name": "aje kofole",
     "botanical": "Croton gratissimus gratissimus",
     "common_english": "Tiger bush",
     "parts_commonly_used": [
       "leaf",
+      "leaves",
       "root"
     ],
     "typical_preparations": []
@@ -370,7 +768,17 @@
     "common_english": "Tiger bush",
     "parts_commonly_used": [
       "leaf",
+      "leaves",
       "root"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "ajemawofo",
+    "botanical": "Celosia trigyna",
+    "common_english": "Celosia",
+    "parts_commonly_used": [
+      "leaves"
     ],
     "typical_preparations": []
   },
@@ -381,6 +789,51 @@
     "parts_commonly_used": [
       "leaf",
       "stem"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "ajukwu",
+    "botanical": "Millettia thonningii",
+    "common_english": "Millet",
+    "parts_commonly_used": [
+      "bark",
+      "roots"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "akama",
+    "botanical": "Garcinia kola",
+    "common_english": "Bitter kola",
+    "parts_commonly_used": [
+      "bark",
+      "seed",
+      "seeds"
+    ],
+    "typical_preparations": [
+      "chewed raw",
+      "decoction",
+      "powder"
+    ]
+  },
+  {
+    "local_name": "akara",
+    "botanical": "Galium aparine",
+    "common_english": null,
+    "parts_commonly_used": [
+      "leaves"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "ake mbogho",
+    "botanical": "Jatropha gossypiifolia",
+    "common_english": "Wild Cassava",
+    "parts_commonly_used": [
+      "leaf",
+      "root",
+      "stem latex"
     ],
     "typical_preparations": []
   },
@@ -405,23 +858,78 @@
     "typical_preparations": []
   },
   {
+    "local_name": "akese",
+    "botanical": "Hibiscus acetosella",
+    "common_english": "Hibiscus",
+    "parts_commonly_used": [
+      "leaves"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "akidimuo",
+    "botanical": "Crotalaria retusa",
+    "common_english": "Rattle box, rattle pea",
+    "parts_commonly_used": [
+      "juice of pods",
+      "leaves",
+      "root",
+      "seeds"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "akidoucha",
+    "botanical": "Trigonella foenum-graecum",
+    "common_english": "Fenugreek",
+    "parts_commonly_used": [
+      "leaves",
+      "seed",
+      "seeds"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "infusion",
+      "powder"
+    ]
+  },
+  {
+    "local_name": "akilu",
+    "botanical": "Garcinia kola",
+    "common_english": "Bitter kola",
+    "parts_commonly_used": [
+      "bark",
+      "seed",
+      "seeds"
+    ],
+    "typical_preparations": [
+      "chewed raw",
+      "decoction",
+      "powder"
+    ]
+  },
+  {
     "local_name": "akintola",
     "botanical": "Chromolaena odorata",
-    "common_english": null,
+    "common_english": "Siam weed",
     "parts_commonly_used": [
       "leaf",
+      "leaves",
       "root",
-      "stem"
+      "stem",
+      "stem-twigs"
     ],
     "typical_preparations": []
   },
   {
     "local_name": "akisan",
     "botanical": "Stachytarpheta indica",
-    "common_english": null,
+    "common_english": "Devil's coach whip",
     "parts_commonly_used": [
       "leaf",
-      "root"
+      "leaves",
+      "root",
+      "roots"
     ],
     "typical_preparations": []
   },
@@ -431,6 +939,15 @@
     "common_english": null,
     "parts_commonly_used": [
       "root"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "ako isu",
+    "botanical": "Dioscorea cayenensis",
+    "common_english": "White yam",
+    "parts_commonly_used": [
+      "tubers"
     ],
     "typical_preparations": []
   },
@@ -455,12 +972,13 @@
   },
   {
     "local_name": "akoko",
-    "botanical": "Newbouldia laevis",
-    "common_english": "African Oak",
+    "botanical": null,
+    "common_english": null,
     "parts_commonly_used": [
       "bark",
       "leaf",
       "leaves",
+      "root",
       "roots"
     ],
     "typical_preparations": [
@@ -469,10 +987,63 @@
     ]
   },
   {
+    "local_name": "aku beke",
+    "botanical": "Cocos nucifera",
+    "common_english": "Coconut",
+    "parts_commonly_used": [
+      "flesh",
+      "fruit",
+      "fruit water",
+      "nut",
+      "oil",
+      "shell"
+    ],
+    "typical_preparations": [
+      "drunk raw",
+      "eaten raw",
+      "oil topical"
+    ]
+  },
+  {
+    "local_name": "aku malapa",
+    "botanical": "Vitellaria paradoxa",
+    "common_english": "Shea Butter Tree",
+    "parts_commonly_used": [
+      "fat",
+      "seeds",
+      "stem bark"
+    ],
+    "typical_preparations": [
+      "decoction of bark",
+      "shea butter topical"
+    ]
+  },
+  {
+    "local_name": "akuko",
+    "botanical": "Thymus vulgaris",
+    "common_english": "Curry leaf",
+    "parts_commonly_used": [
+      "leaves"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "akumocha",
+    "botanical": "Cucurbita maxima",
+    "common_english": "Melon-pumpkin",
+    "parts_commonly_used": [
+      "fruits",
+      "leaves",
+      "seeds"
+    ],
+    "typical_preparations": []
+  },
+  {
     "local_name": "alawefon",
     "botanical": "Sterculia tragacantha",
     "common_english": null,
     "parts_commonly_used": [
+      "leaves",
       "root"
     ],
     "typical_preparations": []
@@ -492,8 +1063,90 @@
     ]
   },
   {
+    "local_name": "alele",
+    "botanical": "Croton gratissimus gratissimus",
+    "common_english": "Tiger bush",
+    "parts_commonly_used": [
+      "leaf",
+      "leaves",
+      "root"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "alenyruw a",
+    "botanical": "Talinum fruticosum",
+    "common_english": "Water leaf",
+    "parts_commonly_used": [
+      "leaf",
+      "leaves",
+      "root",
+      "root leaf",
+      "stems",
+      "whole plant"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "eaten cooked",
+      "juice"
+    ]
+  },
+  {
+    "local_name": "alenyruwa",
+    "botanical": "Talinum fruticosum",
+    "common_english": "Water leaf",
+    "parts_commonly_used": [
+      "leaf",
+      "leaves",
+      "root",
+      "root leaf",
+      "stems",
+      "whole plant"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "eaten cooked",
+      "juice"
+    ]
+  },
+  {
+    "local_name": "alhaji",
+    "botanical": "Ouret lanata",
+    "common_english": "Bhadram, cherula",
+    "parts_commonly_used": [
+      "whole plant"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "alo ose",
+    "botanical": "Momordica charantia",
+    "common_english": "African cucumber, bitter gourd, balsam pear",
+    "parts_commonly_used": [
+      "fruit",
+      "fruit root",
+      "leaves",
+      "seeds",
+      "whole plant"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "eaten raw",
+      "juice"
+    ]
+  },
+  {
+    "local_name": "aloe",
+    "botanical": "Aloe schweinfurthii",
+    "common_english": "Aloe, West African aloe",
+    "parts_commonly_used": [
+      "leaves"
+    ],
+    "typical_preparations": []
+  },
+  {
     "local_name": "aloe vera",
-    "botanical": "Aloe barbadensis",
+    "botanical": "Aloe vera",
     "common_english": "Aloe Vera",
     "parts_commonly_used": [
       "gel",
@@ -502,6 +1155,20 @@
     "typical_preparations": [
       "juice",
       "topical gel"
+    ]
+  },
+  {
+    "local_name": "alu bosa",
+    "botanical": "Allium cepa",
+    "common_english": "Onion",
+    "parts_commonly_used": [
+      "bulb",
+      "skin"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "juice",
+      "raw"
     ]
   },
   {
@@ -523,7 +1190,8 @@
     "botanical": "Allium ascalonicum",
     "common_english": null,
     "parts_commonly_used": [
-      "leaf"
+      "leaf",
+      "leaves"
     ],
     "typical_preparations": []
   },
@@ -538,10 +1206,42 @@
     "typical_preparations": []
   },
   {
-    "local_name": "amuje",
-    "botanical": null,
+    "local_name": "aluro",
+    "botanical": "Mimosa pudica",
+    "common_english": "Sensitive plant",
+    "parts_commonly_used": [
+      "leaf",
+      "leaves",
+      "stem",
+      "whole plant"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "amakarode",
+    "botanical": "Crateva adansonii",
     "common_english": null,
     "parts_commonly_used": [
+      "bark",
+      "leaves"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "amateme",
+    "botanical": "Heinsia crinita",
+    "common_english": null,
+    "parts_commonly_used": [
+      "leaves"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "amuje",
+    "botanical": "Harungana madagascariensis",
+    "common_english": "Haronga",
+    "parts_commonly_used": [
+      "bark",
       "leaf",
       "stem"
     ],
@@ -566,6 +1266,75 @@
       "leaf"
     ],
     "typical_preparations": []
+  },
+  {
+    "local_name": "anagalagala",
+    "botanical": "Carpolobia lutea",
+    "common_english": null,
+    "parts_commonly_used": [
+      "root"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "anara",
+    "botanical": "Solanum nigrum",
+    "common_english": null,
+    "parts_commonly_used": [
+      "leaves",
+      "stem"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "ania mme",
+    "botanical": "Luffa aegyptiaca",
+    "common_english": null,
+    "parts_commonly_used": [
+      "leaf",
+      "leaves",
+      "root",
+      "stem"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "anya nnunu",
+    "botanical": "Abrus precatorius",
+    "common_english": "Crab’s eye",
+    "parts_commonly_used": [
+      "leaf",
+      "leaves",
+      "stem"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "anyaoka",
+    "botanical": "Vaccinium myrtillus",
+    "common_english": null,
+    "parts_commonly_used": [
+      "leaves"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "anyiri",
+    "botanical": "Talinum fruticosum",
+    "common_english": "Water leaf",
+    "parts_commonly_used": [
+      "leaf",
+      "leaves",
+      "root",
+      "root leaf",
+      "stems",
+      "whole plant"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "eaten cooked",
+      "juice"
+    ]
   },
   {
     "local_name": "apa ogbe",
@@ -595,12 +1364,43 @@
     "typical_preparations": []
   },
   {
+    "local_name": "apala",
+    "botanical": "Cucurbita maxima",
+    "common_english": "Melon-pumpkin",
+    "parts_commonly_used": [
+      "fruits",
+      "leaves",
+      "seeds"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "apara",
+    "botanical": "Pelargonium graveolens",
+    "common_english": null,
+    "parts_commonly_used": [
+      "fruit",
+      "seed"
+    ],
+    "typical_preparations": []
+  },
+  {
     "local_name": "aparan",
     "botanical": "Spigelia anthelmia",
     "common_english": null,
     "parts_commonly_used": [
       "leaf",
       "stem"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "apari igun",
+    "botanical": "Heliotropium indicum",
+    "common_english": "Cock’s comb, Heliotrope",
+    "parts_commonly_used": [
+      "leaf",
+      "whole plant"
     ],
     "typical_preparations": []
   },
@@ -625,19 +1425,23 @@
   {
     "local_name": "apoka",
     "botanical": "Persea americana",
-    "common_english": null,
+    "common_english": "Avocado pear",
     "parts_commonly_used": [
-      "leaf"
+      "fruit",
+      "fruits",
+      "leaf",
+      "leaves"
     ],
     "typical_preparations": []
   },
   {
     "local_name": "apon",
     "botanical": "Irvingia gabonensis",
-    "common_english": "Bush Mango",
+    "common_english": "African/Native/Bush mango",
     "parts_commonly_used": [
       "bark",
       "leaves",
+      "seed",
       "seeds"
     ],
     "typical_preparations": [
@@ -647,10 +1451,31 @@
     ]
   },
   {
+    "local_name": "appe",
+    "botanical": "Citrus aurantium",
+    "common_english": "Orange",
+    "parts_commonly_used": [
+      "fruit",
+      "fruits",
+      "juice",
+      "leaves",
+      "peel",
+      "rind",
+      "stem bark",
+      "twigs"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "decoction of rind",
+      "juice"
+    ]
+  },
+  {
     "local_name": "araailomi",
     "botanical": "Laportea aestuans",
     "common_english": null,
     "parts_commonly_used": [
+      "leaves",
       "whole plant"
     ],
     "typical_preparations": []
@@ -668,9 +1493,10 @@
   {
     "local_name": "aranpolo",
     "botanical": "Coleus monostachyus",
-    "common_english": null,
+    "common_english": "Catnip",
     "parts_commonly_used": [
       "leaf",
+      "leaves",
       "stem"
     ],
     "typical_preparations": []
@@ -725,6 +1551,26 @@
     "typical_preparations": []
   },
   {
+    "local_name": "ariraa ulogburu",
+    "botanical": "Corchorus olitorius",
+    "common_english": "Bush okra/Jew fiber telteria/Jews Mallow",
+    "parts_commonly_used": [
+      "leaf",
+      "leaves"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "arochukwu",
+    "botanical": "Spathodea campanulata",
+    "common_english": "African tulip",
+    "parts_commonly_used": [
+      "bark",
+      "leaves"
+    ],
+    "typical_preparations": []
+  },
+  {
     "local_name": "arojoku",
     "botanical": "Eclipta prostrata",
     "common_english": null,
@@ -773,11 +1619,12 @@
     "typical_preparations": []
   },
   {
-    "local_name": "asala",
-    "botanical": "Tetracarpidium conophorum",
+    "local_name": "asal",
+    "botanical": "Plukenetia conophora",
     "common_english": "African Walnut",
     "parts_commonly_used": [
       "bark",
+      "fruit",
       "leaves",
       "seeds"
     ],
@@ -787,12 +1634,55 @@
     ]
   },
   {
+    "local_name": "asala",
+    "botanical": "Plukenetia conophora",
+    "common_english": "African Walnut",
+    "parts_commonly_used": [
+      "bark",
+      "fruit",
+      "leaves",
+      "seeds"
+    ],
+    "typical_preparations": [
+      "boiled seeds",
+      "decoction"
+    ]
+  },
+  {
+    "local_name": "asatie",
+    "botanical": "Palisota hirsuta",
+    "common_english": null,
+    "parts_commonly_used": [
+      "leaves"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "asesa",
+    "botanical": "Ficus exasperata",
+    "common_english": null,
+    "parts_commonly_used": [
+      "bark",
+      "leaf",
+      "leaves",
+      "root"
+    ],
+    "typical_preparations": []
+  },
+  {
     "local_name": "aseta",
     "botanical": "Mezoneuron benthamianum",
     "common_english": null,
     "parts_commonly_used": [
       "leaf"
     ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "asisaye",
+    "botanical": "Ceiba pentandra",
+    "common_english": "Cotton tree",
+    "parts_commonly_used": [],
     "typical_preparations": []
   },
   {
@@ -837,7 +1727,7 @@
   {
     "local_name": "ata",
     "botanical": "Capsicum annuum",
-    "common_english": "Red Pepper",
+    "common_english": "African pepper",
     "parts_commonly_used": [
       "fruit",
       "seeds"
@@ -862,6 +1752,7 @@
     "botanical": "Zingiber officinale",
     "common_english": "Ginger",
     "parts_commonly_used": [
+      "corm",
       "rhizome",
       "root"
     ],
@@ -873,8 +1764,8 @@
   },
   {
     "local_name": "ata wewe",
-    "botanical": "Capsicum frutescens",
-    "common_english": "Bird Pepper",
+    "botanical": null,
+    "common_english": null,
     "parts_commonly_used": [
       "fruit",
       "seeds"
@@ -886,10 +1777,20 @@
     ]
   },
   {
+    "local_name": "atagbasi",
+    "botanical": "Origanum majorana",
+    "common_english": null,
+    "parts_commonly_used": [
+      "flower"
+    ],
+    "typical_preparations": []
+  },
+  {
     "local_name": "ataile",
     "botanical": "Zingiber officinale",
     "common_english": "Ginger",
     "parts_commonly_used": [
+      "corm",
       "rhizome",
       "root"
     ],
@@ -904,6 +1805,7 @@
     "botanical": "Zingiber officinale",
     "common_english": "Ginger",
     "parts_commonly_used": [
+      "corm",
       "rhizome",
       "root"
     ],
@@ -937,9 +1839,11 @@
   {
     "local_name": "atare",
     "botanical": "Aframomum melegueta",
-    "common_english": "Grains of Paradise",
+    "common_english": "Alligator pepper",
     "parts_commonly_used": [
       "rhizome",
+      "root",
+      "seed",
       "seeds"
     ],
     "typical_preparations": [
@@ -958,6 +1862,16 @@
     "typical_preparations": []
   },
   {
+    "local_name": "atewogba",
+    "botanical": "Ipomoea mauritiana",
+    "common_english": "Morning glory",
+    "parts_commonly_used": [
+      "root",
+      "whole plant"
+    ],
+    "typical_preparations": []
+  },
+  {
     "local_name": "ato",
     "botanical": "Chasmanthera dependens",
     "common_english": null,
@@ -971,7 +1885,22 @@
     "botanical": "Glyphaea brevis",
     "common_english": null,
     "parts_commonly_used": [
-      "leaf"
+      "bark",
+      "fruit",
+      "leaf",
+      "leaves",
+      "root",
+      "stem"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "atosi",
+    "botanical": "Bambusa vulgaris",
+    "common_english": "Bamboo",
+    "parts_commonly_used": [
+      "leaves",
+      "young shoots"
     ],
     "typical_preparations": []
   },
@@ -1022,7 +1951,8 @@
     "parts_commonly_used": [
       "bark",
       "fruit",
-      "leaves"
+      "leaves",
+      "twigs"
     ],
     "typical_preparations": [
       "chewed raw",
@@ -1031,11 +1961,25 @@
     ]
   },
   {
+    "local_name": "awo lowo",
+    "botanical": "Chromolaena odorata",
+    "common_english": "Siam weed",
+    "parts_commonly_used": [
+      "leaf",
+      "leaves",
+      "root",
+      "stem",
+      "stem-twigs"
+    ],
+    "typical_preparations": []
+  },
+  {
     "local_name": "awopa",
     "botanical": "Alstonia boonei",
     "common_english": "Pattern Wood",
     "parts_commonly_used": [
       "bark",
+      "leaves",
       "roots"
     ],
     "typical_preparations": [
@@ -1054,10 +1998,11 @@
   },
   {
     "local_name": "awusa",
-    "botanical": "Tetracarpidium conophorum",
+    "botanical": "Plukenetia conophora",
     "common_english": "African Walnut",
     "parts_commonly_used": [
       "bark",
+      "fruit",
       "leaves",
       "seeds"
     ],
@@ -1065,6 +2010,27 @@
       "boiled seeds",
       "decoction"
     ]
+  },
+  {
+    "local_name": "aya oyinbo",
+    "botanical": "Luffa aegyptiaca",
+    "common_english": null,
+    "parts_commonly_used": [
+      "leaf",
+      "leaves",
+      "root",
+      "stem"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "ayaa ayaa",
+    "botanical": "Cyperus haspan",
+    "common_english": null,
+    "parts_commonly_used": [
+      "stem"
+    ],
+    "typical_preparations": []
   },
   {
     "local_name": "ayagba",
@@ -1080,7 +2046,65 @@
     "local_name": "ayin",
     "botanical": null,
     "common_english": null,
-    "parts_commonly_used": [],
+    "parts_commonly_used": [
+      "bark",
+      "flower",
+      "leaves",
+      "seeds",
+      "stem bark",
+      "stem-bark"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "ayo",
+    "botanical": "Allium cepa",
+    "common_english": "Onion",
+    "parts_commonly_used": [
+      "bulb",
+      "skin"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "juice",
+      "raw"
+    ]
+  },
+  {
+    "local_name": "ayo ishi",
+    "botanical": "Allium sativum",
+    "common_english": "Garlic",
+    "parts_commonly_used": [
+      "bulb",
+      "clove"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "infusion",
+      "raw"
+    ]
+  },
+  {
+    "local_name": "ayo odi",
+    "botanical": "Allium sativum",
+    "common_english": "Garlic",
+    "parts_commonly_used": [
+      "bulb",
+      "clove"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "infusion",
+      "raw"
+    ]
+  },
+  {
+    "local_name": "ayo ohia",
+    "botanical": "Allium schoenoprasum",
+    "common_english": null,
+    "parts_commonly_used": [
+      "leaves"
+    ],
     "typical_preparations": []
   },
   {
@@ -1088,7 +2112,8 @@
     "botanical": "Allium sativum",
     "common_english": "Garlic",
     "parts_commonly_used": [
-      "bulb"
+      "bulb",
+      "clove"
     ],
     "typical_preparations": [
       "decoction",
@@ -1111,7 +2136,8 @@
     "botanical": "Albizia zygia",
     "common_english": null,
     "parts_commonly_used": [
-      "leaf"
+      "leaf",
+      "leaves"
     ],
     "typical_preparations": []
   },
@@ -1120,12 +2146,55 @@
     "botanical": "Allium sativum",
     "common_english": "Garlic",
     "parts_commonly_used": [
-      "bulb"
+      "bulb",
+      "clove"
     ],
     "typical_preparations": [
       "decoction",
       "infusion",
       "raw"
+    ]
+  },
+  {
+    "local_name": "aziza",
+    "botanical": "Piper guineense",
+    "common_english": "African black pepper",
+    "parts_commonly_used": [
+      "fruits",
+      "leaves",
+      "seed"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "powder",
+      "soup",
+      "spice"
+    ]
+  },
+  {
+    "local_name": "azu",
+    "botanical": "Heliotropium indicum",
+    "common_english": "Cock’s comb, Heliotrope",
+    "parts_commonly_used": [
+      "leaf",
+      "whole plant"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "azu igwe",
+    "botanical": "Boerhavia diffusa",
+    "common_english": "Hogweed",
+    "parts_commonly_used": [
+      "leaves",
+      "roots",
+      "stem",
+      "whole plant"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "infusion",
+      "juice"
     ]
   },
   {
@@ -1136,6 +2205,25 @@
       "fruit"
     ],
     "typical_preparations": []
+  },
+  {
+    "local_name": "bagaaruwar makka",
+    "botanical": "Moringa oleifera",
+    "common_english": "Drumstick Tree",
+    "parts_commonly_used": [
+      "fruit",
+      "leaves",
+      "pods",
+      "roots",
+      "seeds",
+      "stem",
+      "stem bark"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "infusion",
+      "powder"
+    ]
   },
   {
     "local_name": "bakin makarfo",
@@ -1167,6 +2255,20 @@
       "decoction",
       "eaten raw",
       "infusion",
+      "powder"
+    ]
+  },
+  {
+    "local_name": "barkono",
+    "botanical": "Capsicum annuum",
+    "common_english": "African pepper",
+    "parts_commonly_used": [
+      "fruit",
+      "seeds"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "eaten raw",
       "powder"
     ]
   },
@@ -1209,6 +2311,38 @@
     "typical_preparations": []
   },
   {
+    "local_name": "bekepiri",
+    "botanical": "Cymbopogon citratus",
+    "common_english": "Lemon grass",
+    "parts_commonly_used": [
+      "leaf",
+      "leaves",
+      "root",
+      "stems"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "infusion"
+    ]
+  },
+  {
+    "local_name": "beri",
+    "botanical": "Kalanchoe pinnata",
+    "common_english": "Air Plant",
+    "parts_commonly_used": [
+      "leaf sap",
+      "leaves",
+      "root",
+      "roots",
+      "stem"
+    ],
+    "typical_preparations": [
+      "infusion",
+      "juice",
+      "poultice"
+    ]
+  },
+  {
     "local_name": "bibiimbel emo",
     "botanical": "Erigeron floribundus",
     "common_english": null,
@@ -1220,14 +2354,19 @@
   {
     "local_name": "bini da zugu",
     "botanical": "Jatropha curcas",
-    "common_english": "Physic Nut",
+    "common_english": "Physic nut",
     "parts_commonly_used": [
       "flower",
       "latex",
       "leaf",
       "leaves",
+      "root",
       "roots",
-      "stem bark"
+      "sap",
+      "seed",
+      "stem",
+      "stem bark",
+      "twigs"
     ],
     "typical_preparations": [
       "decoction",
@@ -1236,9 +2375,30 @@
     ]
   },
   {
+    "local_name": "binidi zugu",
+    "botanical": "Jatropha gossypiifolia",
+    "common_english": "Wild Cassava",
+    "parts_commonly_used": [
+      "leaf",
+      "root",
+      "stem latex"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "biringbe",
+    "botanical": "Costus afer",
+    "common_english": "Ginger lily",
+    "parts_commonly_used": [
+      "root",
+      "stem"
+    ],
+    "typical_preparations": []
+  },
+  {
     "local_name": "bitter kola",
     "botanical": "Garcinia kola",
-    "common_english": "Bitter Kola",
+    "common_english": "Bitter kola",
     "parts_commonly_used": [
       "bark",
       "seed",
@@ -1252,10 +2412,13 @@
   },
   {
     "local_name": "bitter leaf",
-    "botanical": "Vernonia amygdalina",
-    "common_english": "Bitter Leaf",
+    "botanical": "Gymnanthemum amygdalinum",
+    "common_english": "Bitter leaf",
     "parts_commonly_used": [
-      "leaves"
+      "bark",
+      "leaf",
+      "leaves",
+      "stem"
     ],
     "typical_preparations": [
       "decoction",
@@ -1305,6 +2468,7 @@
     "common_english": "black plum",
     "parts_commonly_used": [
       "bark",
+      "fruit",
       "fruits",
       "leaves",
       "root",
@@ -1324,9 +2488,9 @@
     "typical_preparations": []
   },
   {
-    "local_name": "bomu bomu",
+    "local_name": "bom ubomu",
     "botanical": "Calotropis procera",
-    "common_english": "Sodom Apple",
+    "common_english": "Giant milk weed/sodom apple",
     "parts_commonly_used": [
       "latex",
       "leaf",
@@ -1339,16 +2503,56 @@
     ]
   },
   {
+    "local_name": "bomu bomu",
+    "botanical": "Calotropis procera",
+    "common_english": "Giant milk weed/sodom apple",
+    "parts_commonly_used": [
+      "latex",
+      "leaf",
+      "leaves",
+      "roots"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "poultice"
+    ]
+  },
+  {
+    "local_name": "booni",
+    "botanical": "Vachellia nilotica",
+    "common_english": null,
+    "parts_commonly_used": [
+      "fruit"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "boopulo",
+    "botanical": "Harungana madagascariensis",
+    "common_english": "Haronga",
+    "parts_commonly_used": [
+      "bark",
+      "leaf",
+      "stem"
+    ],
+    "typical_preparations": []
+  },
+  {
     "local_name": "botuje",
     "botanical": "Jatropha curcas",
-    "common_english": "Physic Nut",
+    "common_english": "Physic nut",
     "parts_commonly_used": [
       "flower",
       "latex",
       "leaf",
       "leaves",
+      "root",
       "roots",
-      "stem bark"
+      "sap",
+      "seed",
+      "stem",
+      "stem bark",
+      "twigs"
     ],
     "typical_preparations": [
       "decoction",
@@ -1357,9 +2561,20 @@
     ]
   },
   {
+    "local_name": "botuje pupa",
+    "botanical": "Jatropha gossypiifolia",
+    "common_english": "Wild Cassava",
+    "parts_commonly_used": [
+      "leaf",
+      "root",
+      "stem latex"
+    ],
+    "typical_preparations": []
+  },
+  {
     "local_name": "buchi",
     "botanical": "Phyllanthus amarus",
-    "common_english": "Leafflower",
+    "common_english": "Amarus",
     "parts_commonly_used": [
       "leaf",
       "leaves",
@@ -1371,6 +2586,16 @@
       "decoction",
       "infusion"
     ]
+  },
+  {
+    "local_name": "bunyga",
+    "botanical": "Cydonia oblonga",
+    "common_english": null,
+    "parts_commonly_used": [
+      "leaves",
+      "stem"
+    ],
+    "typical_preparations": []
   },
   {
     "local_name": "buski daneehi",
@@ -1393,6 +2618,31 @@
       "decoction",
       "paste",
       "powder"
+    ]
+  },
+  {
+    "local_name": "canapunu",
+    "botanical": "Alternanthera sessilis",
+    "common_english": null,
+    "parts_commonly_used": [
+      "leaf",
+      "root"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "chita",
+    "botanical": "Zingiber officinale",
+    "common_english": "Ginger",
+    "parts_commonly_used": [
+      "corm",
+      "rhizome",
+      "root"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "infusion",
+      "raw"
     ]
   },
   {
@@ -1433,6 +2683,7 @@
       "flesh",
       "fruit",
       "fruit water",
+      "nut",
       "oil",
       "shell"
     ],
@@ -1440,6 +2691,56 @@
       "drunk raw",
       "eaten raw",
       "oil topical"
+    ]
+  },
+  {
+    "local_name": "da marzaya",
+    "botanical": "Abrus precatorius",
+    "common_english": "Crab’s eye",
+    "parts_commonly_used": [
+      "leaf",
+      "leaves",
+      "stem"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "dabomenetibigban",
+    "botanical": "Mimosa pudica",
+    "common_english": "Sensitive plant",
+    "parts_commonly_used": [
+      "leaf",
+      "leaves",
+      "stem",
+      "whole plant"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "daddor",
+    "botanical": "Cissus quadrangularis",
+    "common_english": "Edible-stemmed vine",
+    "parts_commonly_used": [
+      "stem",
+      "tuber",
+      "whole plant"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "dadoya",
+    "botanical": "Ocimum gratissimum",
+    "common_english": "African Basil",
+    "parts_commonly_used": [
+      "leaf",
+      "leaves",
+      "root",
+      "whole plant"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "infusion",
+      "steam inhalation"
     ]
   },
   {
@@ -1491,6 +2792,7 @@
     "common_english": "Neem",
     "parts_commonly_used": [
       "bark",
+      "leaf",
       "leaves",
       "seeds",
       "stem"
@@ -1506,6 +2808,7 @@
     "common_english": "black plum",
     "parts_commonly_used": [
       "bark",
+      "fruit",
       "fruits",
       "leaves",
       "root",
@@ -1519,6 +2822,7 @@
     "common_english": "Neem",
     "parts_commonly_used": [
       "bark",
+      "leaf",
       "leaves",
       "seeds",
       "stem"
@@ -1534,6 +2838,7 @@
     "common_english": "Neem",
     "parts_commonly_used": [
       "bark",
+      "leaf",
       "leaves",
       "seeds",
       "stem"
@@ -1549,9 +2854,26 @@
     "common_english": "Neem",
     "parts_commonly_used": [
       "bark",
+      "leaf",
       "leaves",
       "seeds",
       "stem"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "infusion"
+    ]
+  },
+  {
+    "local_name": "donuinya",
+    "botanical": "Rauvolfia vomitoria",
+    "common_english": "Swizzle Stick",
+    "parts_commonly_used": [
+      "bark",
+      "leaf",
+      "leaves",
+      "root",
+      "roots"
     ],
     "typical_preparations": [
       "decoction",
@@ -1591,6 +2913,25 @@
     ]
   },
   {
+    "local_name": "doya",
+    "botanical": "Dioscorea cayenensis",
+    "common_english": "White yam",
+    "parts_commonly_used": [
+      "tubers"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "duku",
+    "botanical": "Zanthoxylum gilletii",
+    "common_english": null,
+    "parts_commonly_used": [
+      "bark",
+      "root"
+    ],
+    "typical_preparations": []
+  },
+  {
     "local_name": "dundehi",
     "botanical": "Ficus platyphylla",
     "common_english": "Flake/Red Kano rubber tree",
@@ -1607,11 +2948,85 @@
     "typical_preparations": []
   },
   {
+    "local_name": "eben",
+    "botanical": "Pachylobus edulis",
+    "common_english": "African Pear",
+    "parts_commonly_used": [
+      "bark",
+      "fruit",
+      "leaves"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "eaten cooked"
+    ]
+  },
+  {
     "local_name": "ebolo",
     "botanical": "Crassocephalum rubens",
     "common_english": null,
     "parts_commonly_used": [
       "leaf"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "echichi",
+    "botanical": "Erythrina senegalensis",
+    "common_english": null,
+    "parts_commonly_used": [
+      "root",
+      "whole plant"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "ede",
+    "botanical": "Colocasia esculenta",
+    "common_english": "Cocoyam, Wild taro",
+    "parts_commonly_used": [
+      "leaf",
+      "leaves",
+      "tuber",
+      "whole plant"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "edebra",
+    "botanical": "Xanthosoma sagittifolium",
+    "common_english": null,
+    "parts_commonly_used": [
+      "leaves",
+      "tuber"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "edemudepumue",
+    "botanical": "Carica papaya",
+    "common_english": "Papaya",
+    "parts_commonly_used": [
+      "fruit",
+      "latex fruit",
+      "leaves",
+      "root",
+      "roots",
+      "seeds",
+      "stem bark"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "juice"
+    ]
+  },
+  {
+    "local_name": "ediebo",
+    "botanical": "Ananas comosus",
+    "common_english": "Pineapple",
+    "parts_commonly_used": [
+      "fruit",
+      "unripe fruit"
     ],
     "typical_preparations": []
   },
@@ -1625,7 +3040,7 @@
   {
     "local_name": "eegun",
     "botanical": "Calotropis procera",
-    "common_english": "Sodom Apple",
+    "common_english": "Giant milk weed/sodom apple",
     "parts_commonly_used": [
       "latex",
       "leaf",
@@ -1649,11 +3064,12 @@
   {
     "local_name": "eeru",
     "botanical": "Xylopia aethiopica",
-    "common_english": "Ethiopian Pepper",
+    "common_english": "Ethiopian pepper",
     "parts_commonly_used": [
       "bark",
       "fruit",
-      "fruits"
+      "fruits",
+      "seeds"
     ],
     "typical_preparations": [
       "decoction",
@@ -1664,11 +3080,12 @@
   {
     "local_name": "eeru alamo",
     "botanical": "Xylopia aethiopica",
-    "common_english": "Ethiopian Pepper",
+    "common_english": "Ethiopian pepper",
     "parts_commonly_used": [
       "bark",
       "fruit",
-      "fruits"
+      "fruits",
+      "seeds"
     ],
     "typical_preparations": [
       "decoction",
@@ -1678,6 +3095,22 @@
   },
   {
     "local_name": "efinrin",
+    "botanical": "Ocimum gratissimum",
+    "common_english": "African Basil",
+    "parts_commonly_used": [
+      "leaf",
+      "leaves",
+      "root",
+      "whole plant"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "infusion",
+      "steam inhalation"
+    ]
+  },
+  {
+    "local_name": "efinrin nla",
     "botanical": "Ocimum gratissimum",
     "common_english": "African Basil",
     "parts_commonly_used": [
@@ -1704,8 +3137,8 @@
   },
   {
     "local_name": "efinrin wewe",
-    "botanical": "Ocimum canum",
-    "common_english": "Hoary Basil",
+    "botanical": null,
+    "common_english": null,
     "parts_commonly_used": [
       "leaves",
       "whole plant"
@@ -1757,10 +3190,42 @@
     ]
   },
   {
+    "local_name": "efunile",
+    "botanical": "Ouret lanata",
+    "common_english": "Bhadram, cherula",
+    "parts_commonly_used": [
+      "whole plant"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "egae",
+    "botanical": "Terminalia superba",
+    "common_english": null,
+    "parts_commonly_used": [
+      "leaves",
+      "root",
+      "stem"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "egba",
+    "botanical": "Coleus monostachyus",
+    "common_english": "Catnip",
+    "parts_commonly_used": [
+      "leaf",
+      "leaves",
+      "stem"
+    ],
+    "typical_preparations": []
+  },
+  {
     "local_name": "egbesi",
     "botanical": null,
     "common_english": null,
     "parts_commonly_used": [
+      "bark",
       "leaf",
       "leaves",
       "root",
@@ -1776,8 +3241,20 @@
     "parts_commonly_used": [
       "leaf",
       "leaves",
+      "root",
       "roots",
       "stem bark"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "egbsi guna",
+    "botanical": "Citrullus colocynthis",
+    "common_english": "Colocynth, wild gourd.",
+    "parts_commonly_used": [
+      "fruit",
+      "leaves",
+      "seed shell"
     ],
     "typical_preparations": []
   },
@@ -1791,11 +3268,53 @@
     "typical_preparations": []
   },
   {
-    "local_name": "egusi",
-    "botanical": "Citrullus lanatus",
-    "common_english": "Watermelon Seed",
+    "local_name": "egina",
+    "botanical": "Capsicum annuum",
+    "common_english": "African pepper",
+    "parts_commonly_used": [
+      "fruit",
+      "seeds"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "eaten raw",
+      "powder"
+    ]
+  },
+  {
+    "local_name": "egpa",
+    "botanical": "Arachis hypogaea",
+    "common_english": "Groundnut",
     "parts_commonly_used": [
       "leaves",
+      "nuts",
+      "oil",
+      "seeds"
+    ],
+    "typical_preparations": [
+      "decoction of leaves",
+      "oil topical"
+    ]
+  },
+  {
+    "local_name": "egunsi",
+    "botanical": "Citrullus colocynthis",
+    "common_english": "Colocynth, wild gourd.",
+    "parts_commonly_used": [
+      "fruit",
+      "leaves",
+      "seed shell"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "egusi",
+    "botanical": null,
+    "common_english": null,
+    "parts_commonly_used": [
+      "fruit",
+      "leaves",
+      "seed shell",
       "seeds"
     ],
     "typical_preparations": [
@@ -1838,19 +3357,37 @@
     "botanical": "Caladium bicolor",
     "common_english": null,
     "parts_commonly_used": [
+      "corm",
       "root",
       "stem"
     ],
     "typical_preparations": []
   },
   {
+    "local_name": "eji",
+    "botanical": "Cola nitida",
+    "common_english": "Kola Nut",
+    "parts_commonly_used": [
+      "bark",
+      "seed cotyledon",
+      "skin/husk"
+    ],
+    "typical_preparations": [
+      "chewed raw",
+      "decoction",
+      "powder"
+    ]
+  },
+  {
     "local_name": "ejinrin wewe",
     "botanical": "Momordica charantia",
-    "common_english": "Bitter Melon",
+    "common_english": "African cucumber, bitter gourd, balsam pear",
     "parts_commonly_used": [
       "fruit",
+      "fruit root",
       "leaves",
-      "seeds"
+      "seeds",
+      "whole plant"
     ],
     "typical_preparations": [
       "decoction",
@@ -1859,11 +3396,62 @@
     ]
   },
   {
+    "local_name": "ejinrinw",
+    "botanical": "Momordica charantia",
+    "common_english": "African cucumber, bitter gourd, balsam pear",
+    "parts_commonly_used": [
+      "fruit",
+      "fruit root",
+      "leaves",
+      "seeds",
+      "whole plant"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "eaten raw",
+      "juice"
+    ]
+  },
+  {
+    "local_name": "eka",
+    "botanical": "Garcinia kola",
+    "common_english": "Bitter kola",
+    "parts_commonly_used": [
+      "bark",
+      "seed",
+      "seeds"
+    ],
+    "typical_preparations": [
+      "chewed raw",
+      "decoction",
+      "powder"
+    ]
+  },
+  {
+    "local_name": "eka nawodi",
+    "botanical": "Capparis brassii",
+    "common_english": "Caper bush",
+    "parts_commonly_used": [
+      "root"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "ekanamagbo",
+    "botanical": "Smilax anceps",
+    "common_english": null,
+    "parts_commonly_used": [
+      "root"
+    ],
+    "typical_preparations": []
+  },
+  {
     "local_name": "eke oyibo",
     "botanical": "Azadirachta indica",
     "common_english": "Neem",
     "parts_commonly_used": [
       "bark",
+      "leaf",
       "leaves",
       "seeds",
       "stem"
@@ -1874,12 +3462,29 @@
     ]
   },
   {
+    "local_name": "ekigaliapumue",
+    "botanical": "Eclipta alba",
+    "common_english": "Eclipta",
+    "parts_commonly_used": [],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "ekpeobi",
+    "botanical": "Viola tricolor",
+    "common_english": null,
+    "parts_commonly_used": [
+      "leaves"
+    ],
+    "typical_preparations": []
+  },
+  {
     "local_name": "ekuku",
     "botanical": "Sesamum indicum",
     "common_english": "Sesame",
     "parts_commonly_used": [
       "oil",
       "root",
+      "seed",
       "seeds"
     ],
     "typical_preparations": [
@@ -1894,6 +3499,7 @@
     "parts_commonly_used": [
       "oil",
       "root",
+      "seed",
       "seeds"
     ],
     "typical_preparations": [
@@ -1902,12 +3508,54 @@
     ]
   },
   {
+    "local_name": "ekusi oloko",
+    "botanical": "Deinbollia pinnata",
+    "common_english": "Water willow",
+    "parts_commonly_used": [
+      "leaves",
+      "root"
+    ],
+    "typical_preparations": []
+  },
+  {
     "local_name": "ekuya",
     "botanical": "Cadaba fruticosa",
     "common_english": null,
     "parts_commonly_used": [
       "leaf",
       "root"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "elegede",
+    "botanical": "Cucurbita maxima",
+    "common_english": "Melon-pumpkin",
+    "parts_commonly_used": [
+      "fruits",
+      "leaves",
+      "seeds"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "elemukien",
+    "botanical": "Trema orientale",
+    "common_english": null,
+    "parts_commonly_used": [
+      "bark",
+      "leaves"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "elili egwusi",
+    "botanical": "Citrullus colocynthis",
+    "common_english": "Colocynth, wild gourd.",
+    "parts_commonly_used": [
+      "fruit",
+      "leaves",
+      "seed shell"
     ],
     "typical_preparations": []
   },
@@ -1926,6 +3574,7 @@
     "common_english": null,
     "parts_commonly_used": [
       "leaf",
+      "leaves",
       "root",
       "stem"
     ],
@@ -1950,6 +3599,51 @@
     ]
   },
   {
+    "local_name": "emido",
+    "botanical": "Mimusops kummel",
+    "common_english": "Bullet wood",
+    "parts_commonly_used": [
+      "seeds",
+      "stem bark"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "emile",
+    "botanical": "Euphorbia glaucophylla",
+    "common_english": null,
+    "parts_commonly_used": [
+      "leaf",
+      "stem"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "enge",
+    "botanical": "Xylopia aethiopica",
+    "common_english": "Ethiopian pepper",
+    "parts_commonly_used": [
+      "bark",
+      "fruit",
+      "fruits",
+      "seeds"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "powder",
+      "soup spice"
+    ]
+  },
+  {
+    "local_name": "enina",
+    "botanical": "Amaranthus viridis",
+    "common_english": "Green amaranth",
+    "parts_commonly_used": [
+      "root"
+    ],
+    "typical_preparations": []
+  },
+  {
     "local_name": "enu opiri",
     "botanical": "Euphorbia lateriflora",
     "common_english": null,
@@ -1959,11 +3653,28 @@
     "typical_preparations": []
   },
   {
+    "local_name": "enyi",
+    "botanical": "Xylopia aethiopica",
+    "common_english": "Ethiopian pepper",
+    "parts_commonly_used": [
+      "bark",
+      "fruit",
+      "fruits",
+      "seeds"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "powder",
+      "soup spice"
+    ]
+  },
+  {
     "local_name": "epa",
     "botanical": "Arachis hypogaea",
     "common_english": "Groundnut",
     "parts_commonly_used": [
       "leaves",
+      "nuts",
       "oil",
       "seeds"
     ],
@@ -1984,6 +3695,24 @@
     "typical_preparations": []
   },
   {
+    "local_name": "epai",
+    "botanical": "Alchornea cordifolia",
+    "common_english": "Christmas Bush",
+    "parts_commonly_used": [
+      "bark",
+      "leaf",
+      "leaves",
+      "root",
+      "roots",
+      "stem"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "infusion",
+      "poultice"
+    ]
+  },
+  {
     "local_name": "epaja abo",
     "botanical": "Senna tora",
     "common_english": null,
@@ -1998,7 +3727,10 @@
     "botanical": "Ficus exasperata",
     "common_english": null,
     "parts_commonly_used": [
-      "leaf"
+      "bark",
+      "leaf",
+      "leaves",
+      "root"
     ],
     "typical_preparations": []
   },
@@ -2031,7 +3763,34 @@
     "botanical": "Astraea lobata",
     "common_english": null,
     "parts_commonly_used": [
+      "leaves",
       "root"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "eru odundun",
+    "botanical": "Kalanchoe pinnata",
+    "common_english": "Air Plant",
+    "parts_commonly_used": [
+      "leaf sap",
+      "leaves",
+      "root",
+      "roots",
+      "stem"
+    ],
+    "typical_preparations": [
+      "infusion",
+      "juice",
+      "poultice"
+    ]
+  },
+  {
+    "local_name": "esisi",
+    "botanical": "Mucuna pruriens",
+    "common_english": "Cow-hage, cow-itch plant, velvet bean",
+    "parts_commonly_used": [
+      "hairs on the pods"
     ],
     "typical_preparations": []
   },
@@ -2061,6 +3820,23 @@
     ]
   },
   {
+    "local_name": "eviesaberi",
+    "botanical": "Ludwigia octovalvis",
+    "common_english": null,
+    "parts_commonly_used": [],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "ewa",
+    "botanical": "Glycine max",
+    "common_english": "Soya bean",
+    "parts_commonly_used": [
+      "seed",
+      "seeds"
+    ],
+    "typical_preparations": []
+  },
+  {
     "local_name": "ewa ahun",
     "botanical": "Centrosema pubescens",
     "common_english": null,
@@ -2081,10 +3857,14 @@
   },
   {
     "local_name": "ewe agogo",
-    "botanical": "Bryophyllum pinnatum",
+    "botanical": "Kalanchoe pinnata",
     "common_english": "Air Plant",
     "parts_commonly_used": [
-      "leaves"
+      "leaf sap",
+      "leaves",
+      "root",
+      "roots",
+      "stem"
     ],
     "typical_preparations": [
       "infusion",
@@ -2095,14 +3875,19 @@
   {
     "local_name": "ewe akintola",
     "botanical": "Jatropha curcas",
-    "common_english": "Physic Nut",
+    "common_english": "Physic nut",
     "parts_commonly_used": [
       "flower",
       "latex",
       "leaf",
       "leaves",
+      "root",
       "roots",
-      "stem bark"
+      "sap",
+      "seed",
+      "stem",
+      "stem bark",
+      "twigs"
     ],
     "typical_preparations": [
       "decoction",
@@ -2125,6 +3910,7 @@
     "common_english": "Coffee Senna",
     "parts_commonly_used": [
       "leaves",
+      "root",
       "roots",
       "seeds"
     ],
@@ -2141,7 +3927,8 @@
       "bark",
       "leaves",
       "root",
-      "roots"
+      "roots",
+      "stem"
     ],
     "typical_preparations": [
       "decoction",
@@ -2154,6 +3941,7 @@
     "common_english": "Neem",
     "parts_commonly_used": [
       "bark",
+      "leaf",
       "leaves",
       "seeds",
       "stem"
@@ -2182,6 +3970,8 @@
     "botanical": "Hibiscus surattensis",
     "common_english": null,
     "parts_commonly_used": [
+      "flower",
+      "leaves",
       "root",
       "stem"
     ],
@@ -2219,8 +4009,10 @@
     "botanical": "Moringa oleifera",
     "common_english": "Drumstick Tree",
     "parts_commonly_used": [
+      "fruit",
       "leaves",
       "pods",
+      "roots",
       "seeds",
       "stem",
       "stem bark"
@@ -2236,6 +4028,7 @@
     "botanical": "Solanum torvum",
     "common_english": null,
     "parts_commonly_used": [
+      "fruit",
       "root"
     ],
     "typical_preparations": []
@@ -2245,8 +4038,10 @@
     "botanical": "Moringa oleifera",
     "common_english": "Drumstick Tree",
     "parts_commonly_used": [
+      "fruit",
       "leaves",
       "pods",
+      "roots",
       "seeds",
       "stem",
       "stem bark"
@@ -2272,6 +4067,16 @@
       "infusion",
       "juice"
     ]
+  },
+  {
+    "local_name": "ewe ina",
+    "botanical": "Mucuna sloanei",
+    "common_english": "Stinging bean",
+    "parts_commonly_used": [
+      "roots",
+      "seeds"
+    ],
+    "typical_preparations": []
   },
   {
     "local_name": "ewe ipin",
@@ -2305,7 +4110,9 @@
     "botanical": "Ricinus communis",
     "common_english": null,
     "parts_commonly_used": [
-      "leaf"
+      "leaf",
+      "leaves",
+      "seed"
     ],
     "typical_preparations": []
   },
@@ -2334,7 +4141,7 @@
   {
     "local_name": "ewe ode",
     "botanical": "Phyllanthus amarus",
-    "common_english": "Leafflower",
+    "common_english": "Amarus",
     "parts_commonly_used": [
       "leaf",
       "leaves",
@@ -2362,6 +4169,15 @@
     ]
   },
   {
+    "local_name": "ewe oju",
+    "botanical": "Coccinia barteri",
+    "common_english": "Fruited gourd",
+    "parts_commonly_used": [
+      "whole plant"
+    ],
+    "typical_preparations": []
+  },
+  {
     "local_name": "ewe oku",
     "botanical": "Polhillides velutina",
     "common_english": null,
@@ -2377,6 +4193,7 @@
     "parts_commonly_used": [
       "leaf",
       "leaves",
+      "root",
       "roots",
       "whole plant"
     ],
@@ -2389,7 +4206,7 @@
   {
     "local_name": "ewe tea",
     "botanical": "Cymbopogon citratus",
-    "common_english": "Lemon Grass",
+    "common_english": "Lemon grass",
     "parts_commonly_used": [
       "leaf",
       "leaves",
@@ -2439,10 +4256,49 @@
     "typical_preparations": []
   },
   {
+    "local_name": "ewedu",
+    "botanical": "Corchorus olitorius",
+    "common_english": "Bush okra/Jew fiber telteria/Jews Mallow",
+    "parts_commonly_used": [
+      "leaf",
+      "leaves"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "eweigbale",
+    "botanical": "Moringa oleifera",
+    "common_english": "Drumstick Tree",
+    "parts_commonly_used": [
+      "fruit",
+      "leaves",
+      "pods",
+      "roots",
+      "seeds",
+      "stem",
+      "stem bark"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "infusion",
+      "powder"
+    ]
+  },
+  {
+    "local_name": "eweowo",
+    "botanical": "Ouret lanata",
+    "common_english": "Bhadram, cherula",
+    "parts_commonly_used": [
+      "whole plant"
+    ],
+    "typical_preparations": []
+  },
+  {
     "local_name": "eweroko",
     "botanical": "Telfairia occidentalis",
-    "common_english": "Fluted Pumpkin",
+    "common_english": "Fluted pumpkin",
     "parts_commonly_used": [
+      "flowers",
       "leaf",
       "leaves",
       "seeds"
@@ -2473,10 +4329,20 @@
     "typical_preparations": []
   },
   {
-    "local_name": "ewuro",
-    "botanical": null,
-    "common_english": null,
+    "local_name": "ewon ekiri",
+    "botanical": "Capparis brassii",
+    "common_english": "Caper bush",
     "parts_commonly_used": [
+      "root"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "ewuro",
+    "botanical": "Gymnanthemum amygdalinum",
+    "common_english": "Bitter leaf",
+    "parts_commonly_used": [
+      "bark",
       "leaf",
       "leaves",
       "stem"
@@ -2503,6 +4369,21 @@
     ]
   },
   {
+    "local_name": "eze ogu",
+    "botanical": "Morinda lucida",
+    "common_english": "Brimstone tree",
+    "parts_commonly_used": [
+      "bark",
+      "leaves",
+      "roots",
+      "stem"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "infusion"
+    ]
+  },
+  {
     "local_name": "fagara",
     "botanical": "Zanthoxylum zanthoxyloides",
     "common_english": "Senegal Prickly Ash",
@@ -2518,11 +4399,42 @@
     ]
   },
   {
+    "local_name": "farar kaya",
+    "botanical": "Vachellia sieberiana",
+    "common_english": "White thorn, African laburnum",
+    "parts_commonly_used": [
+      "leaves",
+      "stem bark"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "farar taura",
+    "botanical": "Detarium senegalense",
+    "common_english": "Sweet detar",
+    "parts_commonly_used": [
+      "leaves",
+      "roots",
+      "stem bark"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "fatumi",
+    "botanical": "Ouret lanata",
+    "common_english": "Bhadram, cherula",
+    "parts_commonly_used": [
+      "whole plant"
+    ],
+    "typical_preparations": []
+  },
+  {
     "local_name": "fenugreek",
     "botanical": "Trigonella foenum-graecum",
     "common_english": "Fenugreek",
     "parts_commonly_used": [
       "leaves",
+      "seed",
       "seeds"
     ],
     "typical_preparations": [
@@ -2542,10 +4454,32 @@
     "typical_preparations": []
   },
   {
+    "local_name": "fifilori",
+    "botanical": "Ipomoea involucrata",
+    "common_english": null,
+    "parts_commonly_used": [
+      "leaf",
+      "leaves",
+      "root",
+      "stem"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "fingi",
+    "botanical": "Dioscorea cayenensis rotundata",
+    "common_english": null,
+    "parts_commonly_used": [
+      "leaves"
+    ],
+    "typical_preparations": []
+  },
+  {
     "local_name": "fluted pumpkin",
     "botanical": "Telfairia occidentalis",
-    "common_english": "Fluted Pumpkin",
+    "common_english": "Fluted pumpkin",
     "parts_commonly_used": [
+      "flowers",
       "leaf",
       "leaves",
       "seeds"
@@ -2555,6 +4489,15 @@
       "juice",
       "soup"
     ]
+  },
+  {
+    "local_name": "furfurata",
+    "botanical": "Ouret lanata",
+    "common_english": "Bhadram, cherula",
+    "parts_commonly_used": [
+      "whole plant"
+    ],
+    "typical_preparations": []
   },
   {
     "local_name": "gaingain",
@@ -2585,7 +4528,8 @@
     "botanical": "Allium sativum",
     "common_english": "Garlic",
     "parts_commonly_used": [
-      "bulb"
+      "bulb",
+      "clove"
     ],
     "typical_preparations": [
       "decoction",
@@ -2599,6 +4543,16 @@
     "common_english": null,
     "parts_commonly_used": [
       "fruits"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "gawo",
+    "botanical": "Faidherbia albida",
+    "common_english": "Apple-ring Acacia, Winter Thorn",
+    "parts_commonly_used": [
+      "leaves",
+      "stem bark"
     ],
     "typical_preparations": []
   },
@@ -2617,6 +4571,7 @@
     "common_english": null,
     "parts_commonly_used": [
       "leaf",
+      "leaves",
       "stem"
     ],
     "typical_preparations": []
@@ -2652,22 +4607,47 @@
     ]
   },
   {
+    "local_name": "gbogbonse",
+    "botanical": "Uvaria chamae",
+    "common_english": null,
+    "parts_commonly_used": [
+      "leaves",
+      "root",
+      "root-bark"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "gbologi",
+    "botanical": "Basella alba",
+    "common_english": null,
+    "parts_commonly_used": [
+      "whole plant"
+    ],
+    "typical_preparations": []
+  },
+  {
     "local_name": "gboyin gboyin",
     "botanical": "Cnestis ferruginea",
     "common_english": null,
     "parts_commonly_used": [
       "leaf",
+      "leaves",
       "stem"
     ],
     "typical_preparations": []
   },
   {
     "local_name": "gbure",
-    "botanical": "Talinum triangulare",
-    "common_english": "Water Leaf",
+    "botanical": "Talinum fruticosum",
+    "common_english": "Water leaf",
     "parts_commonly_used": [
+      "leaf",
       "leaves",
-      "stems"
+      "root",
+      "root leaf",
+      "stems",
+      "whole plant"
     ],
     "typical_preparations": [
       "decoction",
@@ -2676,10 +4656,26 @@
     ]
   },
   {
+    "local_name": "gedda",
+    "botanical": "Arachis hypogaea",
+    "common_english": "Groundnut",
+    "parts_commonly_used": [
+      "leaves",
+      "nuts",
+      "oil",
+      "seeds"
+    ],
+    "typical_preparations": [
+      "decoction of leaves",
+      "oil topical"
+    ]
+  },
+  {
     "local_name": "ginger",
     "botanical": "Zingiber officinale",
     "common_english": "Ginger",
     "parts_commonly_used": [
+      "corm",
       "rhizome",
       "root"
     ],
@@ -2708,11 +4704,56 @@
   {
     "local_name": "giyayya",
     "botanical": "Mitragyna inermis",
-    "common_english": "False abura",
+    "common_english": "African Linden",
     "parts_commonly_used": [
+      "bark",
       "root"
     ],
     "typical_preparations": []
+  },
+  {
+    "local_name": "giyeya",
+    "botanical": "Mitragyna inermis",
+    "common_english": "African Linden",
+    "parts_commonly_used": [
+      "bark",
+      "root"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "gobodo",
+    "botanical": "Detarium senegalense",
+    "common_english": "Sweet detar",
+    "parts_commonly_used": [
+      "leaves",
+      "roots",
+      "stem bark"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "goska",
+    "botanical": "Erythrophleum africanum",
+    "common_english": "African blackwood",
+    "parts_commonly_used": [],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "gova",
+    "botanical": "Psidium guajava",
+    "common_english": "Guava",
+    "parts_commonly_used": [
+      "bark",
+      "fruit",
+      "leaf",
+      "leaves"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "eaten raw",
+      "infusion"
+    ]
   },
   {
     "local_name": "groundnut",
@@ -2720,6 +4761,7 @@
     "common_english": "Groundnut",
     "parts_commonly_used": [
       "leaves",
+      "nuts",
       "oil",
       "seeds"
     ],
@@ -2745,11 +4787,29 @@
     ]
   },
   {
+    "local_name": "guava",
+    "botanical": "Psidium guajava",
+    "common_english": "Guava",
+    "parts_commonly_used": [
+      "bark",
+      "fruit",
+      "leaf",
+      "leaves"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "eaten raw",
+      "infusion"
+    ]
+  },
+  {
     "local_name": "guinea pepper",
     "botanical": "Aframomum melegueta",
-    "common_english": "Grains of Paradise",
+    "common_english": "Alligator pepper",
     "parts_commonly_used": [
       "rhizome",
+      "root",
+      "seed",
       "seeds"
     ],
     "typical_preparations": [
@@ -2761,12 +4821,52 @@
   {
     "local_name": "gure",
     "botanical": "Talinum fruticosum",
-    "common_english": null,
+    "common_english": "Water leaf",
     "parts_commonly_used": [
       "leaf",
-      "root"
+      "leaves",
+      "root",
+      "root leaf",
+      "stems",
+      "whole plant"
     ],
-    "typical_preparations": []
+    "typical_preparations": [
+      "decoction",
+      "eaten cooked",
+      "juice"
+    ]
+  },
+  {
+    "local_name": "gurofa",
+    "botanical": "Psidium guajava",
+    "common_english": "Guava",
+    "parts_commonly_used": [
+      "bark",
+      "fruit",
+      "leaf",
+      "leaves"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "eaten raw",
+      "infusion"
+    ]
+  },
+  {
+    "local_name": "gwaabaa",
+    "botanical": "Psidium guajava",
+    "common_english": "Guava",
+    "parts_commonly_used": [
+      "bark",
+      "fruit",
+      "leaf",
+      "leaves"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "eaten raw",
+      "infusion"
+    ]
   },
   {
     "local_name": "gwaiva",
@@ -2785,11 +4885,26 @@
     ]
   },
   {
+    "local_name": "gwamba",
+    "botanical": "Colocasia esculenta",
+    "common_english": "Cocoyam, Wild taro",
+    "parts_commonly_used": [
+      "leaf",
+      "leaves",
+      "tuber",
+      "whole plant"
+    ],
+    "typical_preparations": []
+  },
+  {
     "local_name": "gwanda",
     "botanical": "Carica papaya",
     "common_english": "Papaya",
     "parts_commonly_used": [
+      "fruit",
+      "latex fruit",
       "leaves",
+      "root",
       "roots",
       "seeds",
       "stem bark"
@@ -2798,6 +4913,13 @@
       "decoction",
       "juice"
     ]
+  },
+  {
+    "local_name": "gwaska",
+    "botanical": "Erythrophleum suaveolens",
+    "common_english": "Ordeal tree, Sasswood tree",
+    "parts_commonly_used": [],
+    "typical_preparations": []
   },
   {
     "local_name": "gwazan kura",
@@ -2822,14 +4944,19 @@
   {
     "local_name": "halallamai mamulu",
     "botanical": "Jatropha curcas",
-    "common_english": "Physic Nut",
+    "common_english": "Physic nut",
     "parts_commonly_used": [
       "flower",
       "latex",
       "leaf",
       "leaves",
+      "root",
       "roots",
-      "stem bark"
+      "sap",
+      "seed",
+      "stem",
+      "stem bark",
+      "twigs"
     ],
     "typical_preparations": [
       "decoction",
@@ -2845,11 +4972,55 @@
     "typical_preparations": []
   },
   {
+    "local_name": "hawayen zaki",
+    "botanical": "Ozoroa pulcherrima",
+    "common_english": null,
+    "parts_commonly_used": [],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "hawuusa",
+    "botanical": "Plukenetia conophora",
+    "common_english": "African Walnut",
+    "parts_commonly_used": [
+      "bark",
+      "fruit",
+      "leaves",
+      "seeds"
+    ],
+    "typical_preparations": [
+      "boiled seeds",
+      "decoction"
+    ]
+  },
+  {
+    "local_name": "hazel",
+    "botanical": "Corylus avellana",
+    "common_english": null,
+    "parts_commonly_used": [
+      "flowers",
+      "leaves"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "honya",
+    "botanical": "Caladium bicolor",
+    "common_english": null,
+    "parts_commonly_used": [
+      "corm",
+      "root",
+      "stem"
+    ],
+    "typical_preparations": []
+  },
+  {
     "local_name": "hulba",
     "botanical": "Trigonella foenum-graecum",
     "common_english": "Fenugreek",
     "parts_commonly_used": [
       "leaves",
+      "seed",
       "seeds"
     ],
     "typical_preparations": [
@@ -2863,7 +5034,10 @@
     "botanical": "Carica papaya",
     "common_english": "Papaya",
     "parts_commonly_used": [
+      "fruit",
+      "latex fruit",
       "leaves",
+      "root",
       "roots",
       "seeds",
       "stem bark"
@@ -2879,6 +5053,40 @@
     "common_english": null,
     "parts_commonly_used": [
       "leaf"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "icheje",
+    "botanical": "Foeniculum vulgare",
+    "common_english": null,
+    "parts_commonly_used": [
+      "seed"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "icheku",
+    "botanical": "Dialium guineense",
+    "common_english": "Velvet Tamarind",
+    "parts_commonly_used": [
+      "bark",
+      "fruit",
+      "leaves",
+      "twigs"
+    ],
+    "typical_preparations": [
+      "chewed raw",
+      "decoction",
+      "infusion"
+    ]
+  },
+  {
+    "local_name": "idi odan",
+    "botanical": "Terminalia schimperiana",
+    "common_english": null,
+    "parts_commonly_used": [
+      "stem-bark"
     ],
     "typical_preparations": []
   },
@@ -2919,7 +5127,8 @@
       "bark",
       "leaves",
       "root",
-      "roots"
+      "roots",
+      "stem"
     ],
     "typical_preparations": [
       "decoction",
@@ -2943,6 +5152,18 @@
     ]
   },
   {
+    "local_name": "igba apoka",
+    "botanical": "Persea americana",
+    "common_english": "Avocado pear",
+    "parts_commonly_used": [
+      "fruit",
+      "fruits",
+      "leaf",
+      "leaves"
+    ],
+    "typical_preparations": []
+  },
+  {
     "local_name": "igbabgo",
     "botanical": "Albizia lebbeck",
     "common_english": null,
@@ -2964,6 +5185,7 @@
     "common_english": "Coat buttons",
     "parts_commonly_used": [
       "leaf",
+      "leaves",
       "root"
     ],
     "typical_preparations": []
@@ -2973,7 +5195,41 @@
     "botanical": "Solanum torvum",
     "common_english": null,
     "parts_commonly_used": [
+      "fruit",
       "root"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "igbanagbana",
+    "botanical": "Mimosa pudica",
+    "common_english": "Sensitive plant",
+    "parts_commonly_used": [
+      "leaf",
+      "leaves",
+      "stem",
+      "whole plant"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "igbere",
+    "botanical": "Uvariopsis tripetala",
+    "common_english": "Pepper fruit",
+    "parts_commonly_used": [
+      "fruit",
+      "leaves",
+      "stem",
+      "twigs"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "igbero",
+    "botanical": "Phyllanthus emblica",
+    "common_english": null,
+    "parts_commonly_used": [
+      "leaves"
     ],
     "typical_preparations": []
   },
@@ -2994,6 +5250,7 @@
     "common_english": "African Copaiba Balsam",
     "parts_commonly_used": [
       "bark",
+      "gum",
       "leaves",
       "resin"
     ],
@@ -3025,7 +5282,7 @@
   },
   {
     "local_name": "igi arun",
-    "botanical": "Enantia chlorantha",
+    "botanical": "Annickia chlorantha",
     "common_english": "Yellow Bark",
     "parts_commonly_used": [
       "stem bark"
@@ -3038,11 +5295,15 @@
   {
     "local_name": "igi iyeye",
     "botanical": "Spondias mombin",
-    "common_english": "Yellow Mombin",
+    "common_english": "Cat’s tail grass",
     "parts_commonly_used": [
       "bark",
+      "fruit",
       "fruits",
-      "leaves"
+      "leaf",
+      "leaves",
+      "root",
+      "stem"
     ],
     "typical_preparations": [
       "decoction",
@@ -3098,11 +5359,12 @@
   {
     "local_name": "igi ose",
     "botanical": "Xylopia aethiopica",
-    "common_english": "Ethiopian Pepper",
+    "common_english": "Ethiopian pepper",
     "parts_commonly_used": [
       "bark",
       "fruit",
-      "fruits"
+      "fruits",
+      "seeds"
     ],
     "typical_preparations": [
       "decoction",
@@ -3127,7 +5389,7 @@
   {
     "local_name": "igi pako",
     "botanical": "Garcinia kola",
-    "common_english": "Bitter Kola",
+    "common_english": "Bitter kola",
     "parts_commonly_used": [
       "bark",
       "seed",
@@ -3147,6 +5409,35 @@
     "typical_preparations": []
   },
   {
+    "local_name": "igiose",
+    "botanical": "Adansonia digitata",
+    "common_english": "Baobab",
+    "parts_commonly_used": [
+      "bark",
+      "fruit pulp",
+      "leaves",
+      "seeds"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "eaten raw",
+      "infusion",
+      "powder"
+    ]
+  },
+  {
+    "local_name": "ihiri",
+    "botanical": "Ocimum basilicum",
+    "common_english": "Sweet Basil",
+    "parts_commonly_used": [
+      "leaves"
+    ],
+    "typical_preparations": [
+      "infusion",
+      "steam"
+    ]
+  },
+  {
     "local_name": "ijan",
     "botanical": "Alchornea laxiflora",
     "common_english": null,
@@ -3162,6 +5453,15 @@
     "parts_commonly_used": [
       "leaf",
       "root"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "ikinrinrin",
+    "botanical": "Hexasepalum sarmentosum",
+    "common_english": "Button weed",
+    "parts_commonly_used": [
+      "leaves"
     ],
     "typical_preparations": []
   },
@@ -3196,6 +5496,16 @@
     "typical_preparations": []
   },
   {
+    "local_name": "ile",
+    "botanical": "Laportea aestuans",
+    "common_english": null,
+    "parts_commonly_used": [
+      "leaves",
+      "whole plant"
+    ],
+    "typical_preparations": []
+  },
+  {
     "local_name": "ileke op olo",
     "botanical": "Commelina erecta",
     "common_english": null,
@@ -3205,11 +5515,35 @@
     "typical_preparations": []
   },
   {
-    "local_name": "imi esu",
-    "botanical": "Ageratum conyzoides",
+    "local_name": "imerewo",
+    "botanical": "Salvia rosmarinus",
     "common_english": null,
     "parts_commonly_used": [
-      "leaf"
+      "leaves"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "imi esu",
+    "botanical": "Ageratum conyzoides",
+    "common_english": "Goat weed, floss flower",
+    "parts_commonly_used": [
+      "leaf",
+      "leaves",
+      "root",
+      "whole plant"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "inodin",
+    "botanical": "Colocasia esculenta",
+    "common_english": "Cocoyam, Wild taro",
+    "parts_commonly_used": [
+      "leaf",
+      "leaves",
+      "tuber",
+      "whole plant"
     ],
     "typical_preparations": []
   },
@@ -3230,6 +5564,17 @@
       "infusion",
       "poultice"
     ]
+  },
+  {
+    "local_name": "ipain",
+    "botanical": "Coleus monostachyus",
+    "common_english": "Catnip",
+    "parts_commonly_used": [
+      "leaf",
+      "leaves",
+      "stem"
+    ],
+    "typical_preparations": []
   },
   {
     "local_name": "ipeta",
@@ -3286,6 +5631,17 @@
     "typical_preparations": []
   },
   {
+    "local_name": "ireagu",
+    "botanical": "Hibiscus rosa-sinensis",
+    "common_english": null,
+    "parts_commonly_used": [
+      "flowers",
+      "leaf",
+      "leaves"
+    ],
+    "typical_preparations": []
+  },
+  {
     "local_name": "ireke",
     "botanical": "Saccharum officinarum",
     "common_english": null,
@@ -3297,7 +5653,7 @@
   {
     "local_name": "ireke omode",
     "botanical": "Costus afer",
-    "common_english": null,
+    "common_english": "Ginger lily",
     "parts_commonly_used": [
       "root",
       "stem"
@@ -3311,7 +5667,8 @@
     "parts_commonly_used": [
       "bark",
       "leaves",
-      "roots"
+      "roots",
+      "stem"
     ],
     "typical_preparations": [
       "decoction",
@@ -3321,10 +5678,12 @@
   {
     "local_name": "irosun",
     "botanical": "Baphia nitida",
-    "common_english": "Camwood / African Sandalwood",
+    "common_english": "Cam wood",
     "parts_commonly_used": [
       "heartwood",
-      "leaf"
+      "latex",
+      "leaf",
+      "leaves"
     ],
     "typical_preparations": [
       "decoction",
@@ -3334,22 +5693,55 @@
   {
     "local_name": "iru alangba",
     "botanical": "Stachytarpheta indica",
-    "common_english": null,
+    "common_english": "Devil's coach whip",
     "parts_commonly_used": [
       "leaf",
-      "root"
+      "leaves",
+      "root",
+      "roots"
     ],
     "typical_preparations": []
   },
   {
     "local_name": "iru eku",
     "botanical": "Stachytarpheta indica",
-    "common_english": null,
+    "common_english": "Devil's coach whip",
     "parts_commonly_used": [
       "leaf",
-      "root"
+      "leaves",
+      "root",
+      "roots"
     ],
     "typical_preparations": []
+  },
+  {
+    "local_name": "irunmuarugbo",
+    "botanical": "Acanthus montanus",
+    "common_english": "False thistle, leopard’s tongue Bear′s breech, white′s ginger,",
+    "parts_commonly_used": [
+      "leaves",
+      "roots",
+      "stem-twig"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "isada",
+    "botanical": "Spondias mombin",
+    "common_english": "Cat’s tail grass",
+    "parts_commonly_used": [
+      "bark",
+      "fruit",
+      "fruits",
+      "leaf",
+      "leaves",
+      "root",
+      "stem"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "infusion"
+    ]
   },
   {
     "local_name": "isapa",
@@ -3357,6 +5749,7 @@
     "common_english": null,
     "parts_commonly_used": [
       "calyx",
+      "flowers",
       "leaf",
       "leaves"
     ],
@@ -3370,6 +5763,8 @@
     "botanical": "Hibiscus surattensis",
     "common_english": null,
     "parts_commonly_used": [
+      "flower",
+      "leaves",
       "root",
       "stem"
     ],
@@ -3411,6 +5806,7 @@
     "parts_commonly_used": [
       "leaf",
       "leaves",
+      "root",
       "roots",
       "whole plant"
     ],
@@ -3433,9 +5829,50 @@
   {
     "local_name": "isu koko",
     "botanical": "Colocasia esculenta",
+    "common_english": "Cocoyam, Wild taro",
+    "parts_commonly_used": [
+      "leaf",
+      "leaves",
+      "tuber",
+      "whole plant"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "ito",
+    "botanical": "Millettia thonningii",
+    "common_english": "Millet",
+    "parts_commonly_used": [
+      "bark",
+      "roots"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "itolo",
+    "botanical": "Glyphaea brevis",
     "common_english": null,
     "parts_commonly_used": [
-      "leaf"
+      "bark",
+      "fruit",
+      "leaf",
+      "leaves",
+      "root",
+      "stem"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "itono",
+    "botanical": "Glyphaea brevis",
+    "common_english": null,
+    "parts_commonly_used": [
+      "bark",
+      "fruit",
+      "leaf",
+      "leaves",
+      "root",
+      "stem"
     ],
     "typical_preparations": []
   },
@@ -3456,6 +5893,32 @@
     ]
   },
   {
+    "local_name": "iwerejeje ojuologbo",
+    "botanical": "Abrus precatorius",
+    "common_english": "Crab’s eye",
+    "parts_commonly_used": [
+      "leaf",
+      "leaves",
+      "stem"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "iya",
+    "botanical": "Daniellia oliveri",
+    "common_english": "African Copaiba Balsam",
+    "parts_commonly_used": [
+      "bark",
+      "gum",
+      "leaves",
+      "resin"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "topical resin"
+    ]
+  },
+  {
     "local_name": "iyadudu",
     "botanical": "Mallotus oppositifolius",
     "common_english": null,
@@ -3466,12 +5929,22 @@
     "typical_preparations": []
   },
   {
+    "local_name": "iyaimo",
+    "botanical": "Hexasepalum sarmentosum",
+    "common_english": "Button weed",
+    "parts_commonly_used": [
+      "leaves"
+    ],
+    "typical_preparations": []
+  },
+  {
     "local_name": "iyere",
     "botanical": "Piper guineense",
-    "common_english": "Ashanti Pepper",
+    "common_english": "African black pepper",
     "parts_commonly_used": [
       "fruits",
-      "leaves"
+      "leaves",
+      "seed"
     ],
     "typical_preparations": [
       "decoction",
@@ -3497,10 +5970,12 @@
   {
     "local_name": "iyerosun",
     "botanical": "Baphia nitida",
-    "common_english": "Camwood / African Sandalwood",
+    "common_english": "Cam wood",
     "parts_commonly_used": [
       "heartwood",
-      "leaf"
+      "latex",
+      "leaf",
+      "leaves"
     ],
     "typical_preparations": [
       "decoction",
@@ -3509,12 +5984,16 @@
   },
   {
     "local_name": "iyeye",
-    "botanical": null,
-    "common_english": null,
+    "botanical": "Spondias mombin",
+    "common_english": "Cat’s tail grass",
     "parts_commonly_used": [
       "bark",
+      "fruit",
       "fruits",
-      "leaves"
+      "leaf",
+      "leaves",
+      "root",
+      "stem"
     ],
     "typical_preparations": [
       "decoction",
@@ -3569,6 +6048,24 @@
     "typical_preparations": []
   },
   {
+    "local_name": "ji ocha",
+    "botanical": "Dioscorea cayenensis",
+    "common_english": "White yam",
+    "parts_commonly_used": [
+      "tubers"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "jiabana",
+    "botanical": "Smilax anceps",
+    "common_english": null,
+    "parts_commonly_used": [
+      "root"
+    ],
+    "typical_preparations": []
+  },
+  {
     "local_name": "jill arab",
     "botanical": "Burkea africana",
     "common_english": "Wild seringa, Rhodesian ash, seringa tree",
@@ -3587,12 +6084,41 @@
     "typical_preparations": []
   },
   {
+    "local_name": "jinga",
+    "botanical": "Zingiber officinale",
+    "common_english": "Ginger",
+    "parts_commonly_used": [
+      "corm",
+      "rhizome",
+      "root"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "infusion",
+      "raw"
+    ]
+  },
+  {
     "local_name": "jinwini",
     "botanical": "Acalypha fimbriata",
+    "common_english": "Acalypha",
+    "parts_commonly_used": [
+      "leaf",
+      "leaves",
+      "stem",
+      "twigs"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "jinwinini",
+    "botanical": null,
     "common_english": null,
     "parts_commonly_used": [
       "leaf",
-      "stem"
+      "leaves",
+      "stem",
+      "twigs"
     ],
     "typical_preparations": []
   },
@@ -3607,11 +6133,37 @@
     "typical_preparations": []
   },
   {
+    "local_name": "kabeewaa",
+    "botanical": "Cucurbita maxima",
+    "common_english": "Melon-pumpkin",
+    "parts_commonly_used": [
+      "fruits",
+      "leaves",
+      "seeds"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "kadanya",
+    "botanical": "Vitellaria paradoxa",
+    "common_english": "Shea Butter Tree",
+    "parts_commonly_used": [
+      "fat",
+      "seeds",
+      "stem bark"
+    ],
+    "typical_preparations": [
+      "decoction of bark",
+      "shea butter topical"
+    ]
+  },
+  {
     "local_name": "kadaura",
     "botanical": "Daniellia oliveri",
     "common_english": "African Copaiba Balsam",
     "parts_commonly_used": [
       "bark",
+      "gum",
       "leaves",
       "resin"
     ],
@@ -3625,8 +6177,19 @@
     "botanical": null,
     "common_english": null,
     "parts_commonly_used": [
-      "leaf"
+      "bark",
+      "fruit",
+      "leaf",
+      "leaves",
+      "twigs"
     ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "kakagben",
+    "botanical": "Sieruela rutidosperma",
+    "common_english": "Cleome",
+    "parts_commonly_used": [],
     "typical_preparations": []
   },
   {
@@ -3640,18 +6203,49 @@
   },
   {
     "local_name": "kakara",
-    "botanical": "Momordica charantia",
-    "common_english": "Bitter Melon",
+    "botanical": null,
+    "common_english": null,
     "parts_commonly_used": [
       "fruit",
+      "fruit root",
+      "hairs on the pods",
       "leaves",
-      "seeds"
+      "roots",
+      "seeds",
+      "whole plant"
     ],
     "typical_preparations": [
       "decoction",
       "eaten raw",
       "juice"
     ]
+  },
+  {
+    "local_name": "kakayi",
+    "botanical": "Momordica charantia",
+    "common_english": "African cucumber, bitter gourd, balsam pear",
+    "parts_commonly_used": [
+      "fruit",
+      "fruit root",
+      "leaves",
+      "seeds",
+      "whole plant"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "eaten raw",
+      "juice"
+    ]
+  },
+  {
+    "local_name": "kalaorwoegina",
+    "botanical": "Portulaca oleracea",
+    "common_english": "Purslane",
+    "parts_commonly_used": [
+      "leaf",
+      "whole plant"
+    ],
+    "typical_preparations": []
   },
   {
     "local_name": "kalgo",
@@ -3674,6 +6268,16 @@
     "typical_preparations": []
   },
   {
+    "local_name": "kalkashin korama",
+    "botanical": "Heliotropium indicum",
+    "common_english": "Cock’s comb, Heliotrope",
+    "parts_commonly_used": [
+      "leaf",
+      "whole plant"
+    ],
+    "typical_preparations": []
+  },
+  {
     "local_name": "kanafuru",
     "botanical": "Syzygium aromaticum",
     "common_english": "Clove",
@@ -3688,6 +6292,43 @@
       "infusion",
       "oil topical"
     ]
+  },
+  {
+    "local_name": "kandiri",
+    "botanical": "Acalypha fimbriata",
+    "common_english": "Acalypha",
+    "parts_commonly_used": [
+      "leaf",
+      "leaves",
+      "stem",
+      "twigs"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "kanju",
+    "botanical": "Anacardium occidentale",
+    "common_english": "Cashew nut",
+    "parts_commonly_used": [
+      "bark",
+      "fruit",
+      "leaf",
+      "leaves",
+      "twigs"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "kankan ayaba",
+    "botanical": "Luffa aegyptiaca",
+    "common_english": null,
+    "parts_commonly_used": [
+      "leaf",
+      "leaves",
+      "root",
+      "stem"
+    ],
+    "typical_preparations": []
   },
   {
     "local_name": "kanminko",
@@ -3719,12 +6360,49 @@
     "typical_preparations": []
   },
   {
+    "local_name": "kara furu",
+    "botanical": "Ocimum gratissimum",
+    "common_english": "African Basil",
+    "parts_commonly_used": [
+      "leaf",
+      "leaves",
+      "root",
+      "whole plant"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "infusion",
+      "steam inhalation"
+    ]
+  },
+  {
     "local_name": "kargo",
     "botanical": "Piliostigma thonningii",
     "common_english": "camel's foot, monkey bread, Rhodesian bauhinia",
     "parts_commonly_used": [
       "leaves",
       "stem-bark"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "kashe zaki",
+    "botanical": "Gymnema sylvestre",
+    "common_english": "Miracle fruit, australian cowplant",
+    "parts_commonly_used": [],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "kasiu",
+    "botanical": null,
+    "common_english": null,
+    "parts_commonly_used": [
+      "bark",
+      "fruit",
+      "leaf",
+      "leaves",
+      "nut",
+      "twigs"
     ],
     "typical_preparations": []
   },
@@ -3749,6 +6427,16 @@
     "typical_preparations": []
   },
   {
+    "local_name": "kilali",
+    "botanical": "Solanum torvum",
+    "common_english": null,
+    "parts_commonly_used": [
+      "fruit",
+      "root"
+    ],
+    "typical_preparations": []
+  },
+  {
     "local_name": "kirfa",
     "botanical": "Cinnamomum verum",
     "common_english": "Cinnamon",
@@ -3761,6 +6449,73 @@
       "infusion",
       "powder"
     ]
+  },
+  {
+    "local_name": "kiriorugbo",
+    "botanical": "Gymnanthemum amygdalinum",
+    "common_english": "Bitter leaf",
+    "parts_commonly_used": [
+      "bark",
+      "leaf",
+      "leaves",
+      "stem"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "juice"
+    ]
+  },
+  {
+    "local_name": "kirya",
+    "botanical": "Prosopis africana",
+    "common_english": "Iron wood; Axlewood",
+    "parts_commonly_used": [
+      "stem bark"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "kiyabu",
+    "botanical": "Abelmoschus esculentus",
+    "common_english": "Okro",
+    "parts_commonly_used": [],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "koko",
+    "botanical": "Colocasia esculenta",
+    "common_english": "Cocoyam, Wild taro",
+    "parts_commonly_used": [
+      "leaf",
+      "leaves",
+      "tuber",
+      "whole plant"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "kokof un",
+    "botanical": "Colocasia esculenta",
+    "common_english": "Cocoyam, Wild taro",
+    "parts_commonly_used": [
+      "leaf",
+      "leaves",
+      "tuber",
+      "whole plant"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "kokoibile",
+    "botanical": "Colocasia esculenta",
+    "common_english": "Cocoyam, Wild taro",
+    "parts_commonly_used": [
+      "leaf",
+      "leaves",
+      "tuber",
+      "whole plant"
+    ],
+    "typical_preparations": []
   },
   {
     "local_name": "kola nut",
@@ -3780,8 +6535,9 @@
   {
     "local_name": "koli",
     "botanical": "Mitragyna inermis",
-    "common_english": "False abura",
+    "common_english": "African Linden",
     "parts_commonly_used": [
+      "bark",
       "root"
     ],
     "typical_preparations": []
@@ -3789,7 +6545,22 @@
   {
     "local_name": "kooko oba",
     "botanical": "Cymbopogon citratus",
-    "common_english": "Lemon Grass",
+    "common_english": "Lemon grass",
+    "parts_commonly_used": [
+      "leaf",
+      "leaves",
+      "root",
+      "stems"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "infusion"
+    ]
+  },
+  {
+    "local_name": "koriko oba",
+    "botanical": "Cymbopogon citratus",
+    "common_english": "Lemon grass",
     "parts_commonly_used": [
       "leaf",
       "leaves",
@@ -3812,10 +6583,23 @@
   },
   {
     "local_name": "koropo",
-    "botanical": "Physalis angulata",
+    "botanical": null,
     "common_english": null,
     "parts_commonly_used": [
-      "root"
+      "juice of pods",
+      "leaves",
+      "root",
+      "seeds",
+      "stem"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "kpulibo",
+    "botanical": "Ipomoea quamoclit",
+    "common_english": null,
+    "parts_commonly_used": [
+      "leaves"
     ],
     "typical_preparations": []
   },
@@ -3837,6 +6621,53 @@
     ]
   },
   {
+    "local_name": "kukaa",
+    "botanical": "Adansonia digitata",
+    "common_english": "Baobab",
+    "parts_commonly_used": [
+      "bark",
+      "fruit pulp",
+      "leaves",
+      "seeds"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "eaten raw",
+      "infusion",
+      "powder"
+    ]
+  },
+  {
+    "local_name": "kulambali",
+    "botanical": "Adansonia digitata",
+    "common_english": "Baobab",
+    "parts_commonly_used": [
+      "bark",
+      "fruit pulp",
+      "leaves",
+      "seeds"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "eaten raw",
+      "infusion",
+      "powder"
+    ]
+  },
+  {
+    "local_name": "kulata",
+    "botanical": "Nauclea latifolia",
+    "common_english": "African peach, Pin cushion tree",
+    "parts_commonly_used": [
+      "leaf",
+      "leaves",
+      "root",
+      "roots",
+      "stem bark"
+    ],
+    "typical_preparations": []
+  },
+  {
     "local_name": "kurere",
     "botanical": "Adenia lobata",
     "common_english": null,
@@ -3846,26 +6677,79 @@
     "typical_preparations": []
   },
   {
+    "local_name": "kwahi",
+    "botanical": "Prosopis africana",
+    "common_english": "Iron wood; Axlewood",
+    "parts_commonly_used": [
+      "stem bark"
+    ],
+    "typical_preparations": []
+  },
+  {
     "local_name": "laali",
     "botanical": "Lawsonia inermis",
-    "common_english": null,
+    "common_english": "Hennaplant",
+    "parts_commonly_used": [
+      "bark",
+      "flowers",
+      "leaf",
+      "leaves",
+      "stem"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "lali",
+    "botanical": "Lawsonia inermis",
+    "common_english": "Hennaplant",
+    "parts_commonly_used": [
+      "bark",
+      "flowers",
+      "leaf",
+      "leaves",
+      "stem"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "lallee",
+    "botanical": "Lawsonia inermis",
+    "common_english": "Hennaplant",
+    "parts_commonly_used": [
+      "bark",
+      "flowers",
+      "leaf",
+      "leaves",
+      "stem"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "lalo",
+    "botanical": "Corchorus olitorius",
+    "common_english": "Bush okra/Jew fiber telteria/Jews Mallow",
     "parts_commonly_used": [
       "leaf",
-      "stem"
+      "leaves"
     ],
     "typical_preparations": []
   },
   {
     "local_name": "lapalapa",
     "botanical": "Jatropha curcas",
-    "common_english": "Physic Nut",
+    "common_english": "Physic nut",
     "parts_commonly_used": [
       "flower",
       "latex",
       "leaf",
       "leaves",
+      "root",
       "roots",
-      "stem bark"
+      "sap",
+      "seed",
+      "stem",
+      "stem bark",
+      "twigs"
     ],
     "typical_preparations": [
       "decoction",
@@ -3876,17 +6760,18 @@
   {
     "local_name": "lapalapa pupa",
     "botanical": "Jatropha gossypiifolia",
-    "common_english": null,
+    "common_english": "Wild Cassava",
     "parts_commonly_used": [
       "leaf",
-      "root"
+      "root",
+      "stem latex"
     ],
     "typical_preparations": []
   },
   {
     "local_name": "lemon grass",
     "botanical": "Cymbopogon citratus",
-    "common_english": "Lemon Grass",
+    "common_english": "Lemon grass",
     "parts_commonly_used": [
       "leaf",
       "leaves",
@@ -3929,11 +6814,42 @@
     ]
   },
   {
+    "local_name": "lmu",
+    "botanical": "Citrus aurantium",
+    "common_english": "Orange",
+    "parts_commonly_used": [
+      "fruit",
+      "fruits",
+      "juice",
+      "leaves",
+      "peel",
+      "rind",
+      "stem bark",
+      "twigs"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "decoction of rind",
+      "juice"
+    ]
+  },
+  {
     "local_name": "lobiri",
     "botanical": "Asystasia gangetica",
     "common_english": null,
     "parts_commonly_used": [
       "leaf",
+      "stem"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "lobolou",
+    "botanical": "Elaeis guineensis",
+    "common_english": "Oil palm",
+    "parts_commonly_used": [
+      "fruit pericarp",
+      "root",
       "stem"
     ],
     "typical_preparations": []
@@ -3963,6 +6879,17 @@
       "fermented",
       "fermented condiment"
     ]
+  },
+  {
+    "local_name": "lugutin",
+    "botanical": "Elaeis guineensis",
+    "common_english": "Oil palm",
+    "parts_commonly_used": [
+      "fruit pericarp",
+      "root",
+      "stem"
+    ],
+    "typical_preparations": []
   },
   {
     "local_name": "lusina",
@@ -3999,11 +6926,42 @@
     "typical_preparations": []
   },
   {
+    "local_name": "madunmaro",
+    "botanical": "Gongronemopsis latifolia",
+    "common_english": "Utazi",
+    "parts_commonly_used": [
+      "leaves",
+      "root"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "juice",
+      "soup"
+    ]
+  },
+  {
+    "local_name": "maina",
+    "botanical": "Azadirachta indica",
+    "common_english": "Neem",
+    "parts_commonly_used": [
+      "bark",
+      "leaf",
+      "leaves",
+      "seeds",
+      "stem"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "infusion"
+    ]
+  },
+  {
     "local_name": "maje",
     "botanical": "Daniellia oliveri",
     "common_english": "African Copaiba Balsam",
     "parts_commonly_used": [
       "bark",
+      "gum",
       "leaves",
       "resin"
     ],
@@ -4013,10 +6971,38 @@
     ]
   },
   {
+    "local_name": "mamujigoro",
+    "botanical": "Irvingia gabonensis",
+    "common_english": "African/Native/Bush mango",
+    "parts_commonly_used": [
+      "bark",
+      "leaves",
+      "seed",
+      "seeds"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "eaten cooked",
+      "powder"
+    ]
+  },
+  {
     "local_name": "mangalede",
     "botanical": "Boswellia dalzielii",
     "common_english": "Frankincense tree",
     "parts_commonly_used": [],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "mango",
+    "botanical": "Mangifera indica",
+    "common_english": "Mango",
+    "parts_commonly_used": [
+      "bark",
+      "leaf",
+      "leaves",
+      "stem- bark"
+    ],
     "typical_preparations": []
   },
   {
@@ -4029,14 +7015,48 @@
     "typical_preparations": []
   },
   {
+    "local_name": "manko",
+    "botanical": "Mangifera indica",
+    "common_english": "Mango",
+    "parts_commonly_used": [
+      "bark",
+      "leaf",
+      "leaves",
+      "stem- bark"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "mannafaa",
+    "botanical": "Celosia trigyna",
+    "common_english": "Celosia",
+    "parts_commonly_used": [
+      "leaves"
+    ],
+    "typical_preparations": []
+  },
+  {
     "local_name": "marga",
     "botanical": "Nauclea latifolia",
     "common_english": "African peach, Pin cushion tree",
     "parts_commonly_used": [
       "leaf",
       "leaves",
+      "root",
       "roots",
       "stem bark"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "marke",
+    "botanical": "Terminalia leiocarpa",
+    "common_english": "African Birch",
+    "parts_commonly_used": [
+      "leaves",
+      "seeds",
+      "stem bark",
+      "stem-bark"
     ],
     "typical_preparations": []
   },
@@ -4046,6 +7066,15 @@
     "common_english": null,
     "parts_commonly_used": [
       "leaf"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "marugbo sanyantan",
+    "botanical": "Celosia trigyna",
+    "common_english": "Celosia",
+    "parts_commonly_used": [
+      "leaves"
     ],
     "typical_preparations": []
   },
@@ -4068,6 +7097,96 @@
     "typical_preparations": []
   },
   {
+    "local_name": "mbeku",
+    "botanical": "Stachytarpheta cayennensis",
+    "common_english": null,
+    "parts_commonly_used": [
+      "leaves"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "mbele",
+    "botanical": "Allium ascalonicum",
+    "common_english": null,
+    "parts_commonly_used": [
+      "leaf",
+      "leaves"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "mbete",
+    "botanical": "Carapa procera",
+    "common_english": null,
+    "parts_commonly_used": [
+      "leaves"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "mbia",
+    "botanical": "Icacina trichantha",
+    "common_english": null,
+    "parts_commonly_used": [
+      "leaf",
+      "leaves",
+      "stem"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "mbuli",
+    "botanical": "Tridax procumbens",
+    "common_english": "Coat buttons",
+    "parts_commonly_used": [
+      "leaf",
+      "leaves",
+      "root"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "mfee",
+    "botanical": "Uvaria chamae",
+    "common_english": null,
+    "parts_commonly_used": [
+      "leaves",
+      "root",
+      "root-bark"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "mgba ala",
+    "botanical": "Ipomoea mauritiana",
+    "common_english": "Morning glory",
+    "parts_commonly_used": [
+      "root",
+      "whole plant"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "mgbeobi",
+    "botanical": "Albizia zygia",
+    "common_english": null,
+    "parts_commonly_used": [
+      "leaf",
+      "leaves"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "mini eme",
+    "botanical": "Funtumia elastica",
+    "common_english": null,
+    "parts_commonly_used": [
+      "bark"
+    ],
+    "typical_preparations": []
+  },
+  {
     "local_name": "mint",
     "botanical": "Mentha piperita",
     "common_english": "Peppermint",
@@ -4080,11 +7199,117 @@
     ]
   },
   {
-    "local_name": "mongoro",
-    "botanical": "Mangifera indica",
+    "local_name": "mkpuru ada",
+    "botanical": "Olea europaea",
     "common_english": null,
     "parts_commonly_used": [
+      "fruit",
+      "seed"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "mkpuru ugu",
+    "botanical": "Telfairia occidentalis",
+    "common_english": "Fluted pumpkin",
+    "parts_commonly_used": [
+      "flowers",
       "leaf",
+      "leaves",
+      "seeds"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "juice",
+      "soup"
+    ]
+  },
+  {
+    "local_name": "mkwutu",
+    "botanical": "Solanum tuberosum",
+    "common_english": null,
+    "parts_commonly_used": [
+      "tuber"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "mmahu",
+    "botanical": "Bridelia ferruginea",
+    "common_english": "Bridelia",
+    "parts_commonly_used": [
+      "bark",
+      "leaves",
+      "root",
+      "roots",
+      "stem",
+      "stem-bark"
+    ],
+    "typical_preparations": [
+      "decoction"
+    ]
+  },
+  {
+    "local_name": "mmahuta",
+    "botanical": "Triticum aestivum",
+    "common_english": null,
+    "parts_commonly_used": [
+      "bran",
+      "leaves"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "mmanu agwa",
+    "botanical": "Glycine max",
+    "common_english": "Soya bean",
+    "parts_commonly_used": [
+      "seed",
+      "seeds"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "mmatu",
+    "botanical": "Pausinystalia yohimba",
+    "common_english": null,
+    "parts_commonly_used": [
+      "flower"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "molanganrsn ako bolobolo",
+    "botanical": "Triumfetta rhomboidea",
+    "common_english": "Chinese pur/Burweed",
+    "parts_commonly_used": [
+      "bark",
+      "flower fruit",
+      "leaf",
+      "leaves"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "mongora",
+    "botanical": "Mangifera indica",
+    "common_english": "Mango",
+    "parts_commonly_used": [
+      "bark",
+      "leaf",
+      "leaves",
+      "stem- bark"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "mongoro",
+    "botanical": "Mangifera indica",
+    "common_english": "Mango",
+    "parts_commonly_used": [
+      "bark",
+      "leaf",
+      "leaves",
       "stem- bark"
     ],
     "typical_preparations": []
@@ -4094,8 +7319,10 @@
     "botanical": "Moringa oleifera",
     "common_english": "Drumstick Tree",
     "parts_commonly_used": [
+      "fruit",
       "leaves",
       "pods",
+      "roots",
       "seeds",
       "stem",
       "stem bark"
@@ -4104,6 +7331,24 @@
       "decoction",
       "infusion",
       "powder"
+    ]
+  },
+  {
+    "local_name": "mosara",
+    "botanical": "Cocos nucifera",
+    "common_english": "Coconut",
+    "parts_commonly_used": [
+      "flesh",
+      "fruit",
+      "fruit water",
+      "nut",
+      "oil",
+      "shell"
+    ],
+    "typical_preparations": [
+      "drunk raw",
+      "eaten raw",
+      "oil topical"
     ]
   },
   {
@@ -4117,6 +7362,20 @@
     "typical_preparations": []
   },
   {
+    "local_name": "nalele",
+    "botanical": "Vitex doniana",
+    "common_english": "black plum",
+    "parts_commonly_used": [
+      "bark",
+      "fruit",
+      "fruits",
+      "leaves",
+      "root",
+      "stem bark"
+    ],
+    "typical_preparations": []
+  },
+  {
     "local_name": "nammare",
     "botanical": "Bauhinia rufescens",
     "common_english": "Bauhinia",
@@ -4124,6 +7383,45 @@
       "leaves"
     ],
     "typical_preparations": []
+  },
+  {
+    "local_name": "nangi",
+    "botanical": "Annona muricata",
+    "common_english": "Soursop",
+    "parts_commonly_used": [
+      "bark",
+      "fruit",
+      "leaf",
+      "leaves",
+      "seeds"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "eaten raw",
+      "infusion"
+    ]
+  },
+  {
+    "local_name": "naretibahi",
+    "botanical": "Erythrophleum africanum",
+    "common_english": "African blackwood",
+    "parts_commonly_used": [],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "nch anwu",
+    "botanical": null,
+    "common_english": null,
+    "parts_commonly_used": [
+      "leaf",
+      "leaves",
+      "root",
+      "stems"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "infusion"
+    ]
   },
   {
     "local_name": "nchanwu",
@@ -4142,12 +7440,182 @@
     ]
   },
   {
+    "local_name": "nche awula",
+    "botanical": "Cymbopogon citratus",
+    "common_english": "Lemon grass",
+    "parts_commonly_used": [
+      "leaf",
+      "leaves",
+      "root",
+      "stems"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "infusion"
+    ]
+  },
+  {
+    "local_name": "nduruchi",
+    "botanical": "Senna alata",
+    "common_english": "Ringworm Bush",
+    "parts_commonly_used": [
+      "bark",
+      "leaves"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "paste",
+      "poultice"
+    ]
+  },
+  {
+    "local_name": "ngbu akpu",
+    "botanical": "Cassytha filiformis",
+    "common_english": "Devil′s gut, parasitic vine",
+    "parts_commonly_used": [
+      "stem twigs",
+      "whole plant"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "ngobe",
+    "botanical": "Gossypium hirsutum",
+    "common_english": null,
+    "parts_commonly_used": [
+      "leaves"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "ngu lung wu",
+    "botanical": "Spondias mombin",
+    "common_english": "Cat’s tail grass",
+    "parts_commonly_used": [
+      "bark",
+      "fruit",
+      "fruits",
+      "leaf",
+      "leaves",
+      "root",
+      "stem"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "infusion"
+    ]
+  },
+  {
+    "local_name": "ngwu",
+    "botanical": "Phyllanthus amarus",
+    "common_english": "Amarus",
+    "parts_commonly_used": [
+      "leaf",
+      "leaves",
+      "root",
+      "stem",
+      "whole plant"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "infusion"
+    ]
+  },
+  {
     "local_name": "nine nine",
     "botanical": "Passiflora foetida",
     "common_english": null,
     "parts_commonly_used": [
       "leaf",
       "stem"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "nji",
+    "botanical": "Philenoptera cyanescens",
+    "common_english": null,
+    "parts_commonly_used": [
+      "leaves",
+      "root",
+      "stem"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "nkw aba",
+    "botanical": "Ananas comosus",
+    "common_english": "Pineapple",
+    "parts_commonly_used": [
+      "fruit",
+      "unripe fruit"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "nkwaaka",
+    "botanical": "Kalanchoe pinnata",
+    "common_english": "Air Plant",
+    "parts_commonly_used": [
+      "leaf sap",
+      "leaves",
+      "root",
+      "roots",
+      "stem"
+    ],
+    "typical_preparations": [
+      "infusion",
+      "juice",
+      "poultice"
+    ]
+  },
+  {
+    "local_name": "nkwo",
+    "botanical": "Elaeis guineensis",
+    "common_english": "Oil palm",
+    "parts_commonly_used": [
+      "fruit pericarp",
+      "root",
+      "stem"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "nkwoda",
+    "botanical": "Sida acuta",
+    "common_english": "Broom Weed",
+    "parts_commonly_used": [
+      "leaf",
+      "leaves",
+      "root",
+      "roots",
+      "whole plant"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "infusion",
+      "poultice"
+    ]
+  },
+  {
+    "local_name": "nmi mi",
+    "botanical": "Uvariopsis tripetala",
+    "common_english": "Pepper fruit",
+    "parts_commonly_used": [
+      "fruit",
+      "leaves",
+      "stem",
+      "twigs"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "nonanbarya",
+    "botanical": "Launaea taraxacifolia",
+    "common_english": "Wild lettuce",
+    "parts_commonly_used": [
+      "leaf",
+      "leaves"
     ],
     "typical_preparations": []
   },
@@ -4177,6 +7645,109 @@
     ]
   },
   {
+    "local_name": "nshegbu awom",
+    "botanical": "Chromolaena odorata",
+    "common_english": "Siam weed",
+    "parts_commonly_used": [
+      "leaf",
+      "leaves",
+      "root",
+      "stem",
+      "stem-twigs"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "nshi atu",
+    "botanical": "Alcea rosea",
+    "common_english": null,
+    "parts_commonly_used": [
+      "leaves"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "nsoba",
+    "botanical": "Punica granatum",
+    "common_english": null,
+    "parts_commonly_used": [
+      "bark",
+      "flower bud",
+      "fruit pericarp",
+      "leaves"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "nsoro",
+    "botanical": "Daucus carota",
+    "common_english": null,
+    "parts_commonly_used": [
+      "root"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "nte oka inene",
+    "botanical": "Talinum fruticosum",
+    "common_english": "Water leaf",
+    "parts_commonly_used": [
+      "leaf",
+      "leaves",
+      "root",
+      "root leaf",
+      "stems",
+      "whole plant"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "eaten cooked",
+      "juice"
+    ]
+  },
+  {
+    "local_name": "nti odu",
+    "botanical": "Portulaca oleracea",
+    "common_english": "Purslane",
+    "parts_commonly_used": [
+      "leaf",
+      "whole plant"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "ntiene",
+    "botanical": "Emilia coccinea",
+    "common_english": null,
+    "parts_commonly_used": [
+      "leaf",
+      "leaves",
+      "root",
+      "stem"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "nto",
+    "botanical": "Myristica fragrans",
+    "common_english": null,
+    "parts_commonly_used": [
+      "leaves"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "numu",
+    "botanical": "Physalis angulata",
+    "common_english": null,
+    "parts_commonly_used": [
+      "leaves",
+      "root",
+      "stem"
+    ],
+    "typical_preparations": []
+  },
+  {
     "local_name": "nunahi",
     "botanical": "Ficus ingens",
     "common_english": "Red-leaved fig",
@@ -4192,8 +7763,20 @@
     "parts_commonly_used": [
       "leaf",
       "leaves",
+      "root",
       "roots",
       "stem bark"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "nyin yiog wu",
+    "botanical": "Acanthus montanus",
+    "common_english": "False thistle, leopard’s tongue Bear′s breech, white′s ginger,",
+    "parts_commonly_used": [
+      "leaves",
+      "roots",
+      "stem-twig"
     ],
     "typical_preparations": []
   },
@@ -4253,11 +7836,72 @@
     ]
   },
   {
+    "local_name": "obiarakara",
+    "botanical": "Chromolaena odorata",
+    "common_english": "Siam weed",
+    "parts_commonly_used": [
+      "leaf",
+      "leaves",
+      "root",
+      "stem",
+      "stem-twigs"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "obimara",
+    "botanical": "Oenothera biennis",
+    "common_english": null,
+    "parts_commonly_used": [
+      "flower",
+      "leaves"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "obiribo",
+    "botanical": "Sterculia tragacantha",
+    "common_english": null,
+    "parts_commonly_used": [
+      "leaves",
+      "root"
+    ],
+    "typical_preparations": []
+  },
+  {
     "local_name": "obisere",
     "botanical": "Myrianthus arboreus",
     "common_english": null,
     "parts_commonly_used": [
       "leaf"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "oborikorigha",
+    "botanical": "Cyathula prostrata",
+    "common_english": "Pasture weed",
+    "parts_commonly_used": [
+      "leaf"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "obwa",
+    "botanical": "Mitracarpus hirtus",
+    "common_english": "False buttonweed",
+    "parts_commonly_used": [
+      "leaves",
+      "stem"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "ocha",
+    "botanical": "Pigea enneasperma",
+    "common_english": null,
+    "parts_commonly_used": [
+      "whole plant"
     ],
     "typical_preparations": []
   },
@@ -4280,13 +7924,64 @@
     ]
   },
   {
+    "local_name": "odara udala",
+    "botanical": "Gambeya albida",
+    "common_english": "African star apple",
+    "parts_commonly_used": [
+      "bark",
+      "fruit",
+      "leaves",
+      "seed",
+      "seeds",
+      "stem",
+      "stem-bark",
+      "whole plant"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "eaten raw",
+      "powder"
+    ]
+  },
+  {
+    "local_name": "odo",
+    "botanical": null,
+    "common_english": null,
+    "parts_commonly_used": [
+      "bark",
+      "flower fruit",
+      "leaf",
+      "leaves"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "ododo",
+    "botanical": "Dioscorea villosa",
+    "common_english": null,
+    "parts_commonly_used": [
+      "tuber"
+    ],
+    "typical_preparations": []
+  },
+  {
     "local_name": "ododo odo",
     "botanical": "Ipomoea involucrata",
     "common_english": null,
     "parts_commonly_used": [
       "leaf",
+      "leaves",
       "root",
       "stem"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "odoupo",
+    "botanical": "Tussilago farfara",
+    "common_english": null,
+    "parts_commonly_used": [
+      "leaves"
     ],
     "typical_preparations": []
   },
@@ -4295,9 +7990,33 @@
     "botanical": "Solanum nigrum",
     "common_english": null,
     "parts_commonly_used": [
+      "leaves",
       "stem"
     ],
     "typical_preparations": []
+  },
+  {
+    "local_name": "odukuku",
+    "botanical": "Theobroma cacao",
+    "common_english": "Cocoa",
+    "parts_commonly_used": [],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "odukwu",
+    "botanical": null,
+    "common_english": null,
+    "parts_commonly_used": [
+      "leaf",
+      "leaves",
+      "root",
+      "whole plant"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "infusion",
+      "steam inhalation"
+    ]
   },
   {
     "local_name": "odundun owo",
@@ -4305,8 +8024,66 @@
     "common_english": null,
     "parts_commonly_used": [
       "leaf",
+      "leaves",
       "root",
       "stem"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "ofete",
+    "botanical": "Hyssopus officinalis",
+    "common_english": null,
+    "parts_commonly_used": [
+      "root",
+      "stem"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "oforu",
+    "botanical": "Adenostemma mauritianum",
+    "common_english": null,
+    "parts_commonly_used": [
+      "leaves"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "ofun",
+    "botanical": "Avicennia germinans",
+    "common_english": "Black Mangrove",
+    "parts_commonly_used": [
+      "leaves",
+      "stem",
+      "twigs"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "og wu akom",
+    "botanical": "Azadirachta indica",
+    "common_english": "Neem",
+    "parts_commonly_used": [
+      "bark",
+      "leaf",
+      "leaves",
+      "seeds",
+      "stem"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "infusion"
+    ]
+  },
+  {
+    "local_name": "oga",
+    "botanical": "Acanthus montanus",
+    "common_english": "False thistle, leopard’s tongue Bear′s breech, white′s ginger,",
+    "parts_commonly_used": [
+      "leaves",
+      "roots",
+      "stem-twig"
     ],
     "typical_preparations": []
   },
@@ -4327,30 +8104,121 @@
     ]
   },
   {
+    "local_name": "ogb eria kuko",
+    "botanical": "Heliotropium indicum",
+    "common_english": "Cock’s comb, Heliotrope",
+    "parts_commonly_used": [
+      "leaf",
+      "whole plant"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "ogb ono",
+    "botanical": "Irvingia gabonensis",
+    "common_english": "African/Native/Bush mango",
+    "parts_commonly_used": [
+      "bark",
+      "leaves",
+      "seed",
+      "seeds"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "eaten cooked",
+      "powder"
+    ]
+  },
+  {
+    "local_name": "ogba okukpo",
+    "botanical": "Ageratum conyzoides",
+    "common_english": "Goat weed, floss flower",
+    "parts_commonly_used": [
+      "leaf",
+      "leaves",
+      "root",
+      "whole plant"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "ogbagi",
+    "botanical": "Cissus quadrangularis",
+    "common_english": "Edible-stemmed vine",
+    "parts_commonly_used": [
+      "stem",
+      "tuber",
+      "whole plant"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "ogbakiiki",
+    "botanical": "Cissus quadrangularis",
+    "common_english": "Edible-stemmed vine",
+    "parts_commonly_used": [
+      "stem",
+      "tuber",
+      "whole plant"
+    ],
+    "typical_preparations": []
+  },
+  {
     "local_name": "ogbase",
     "botanical": "Nauclea latifolia",
     "common_english": "African peach, Pin cushion tree",
     "parts_commonly_used": [
       "leaf",
       "leaves",
+      "root",
       "roots",
       "stem bark"
     ],
     "typical_preparations": []
   },
   {
+    "local_name": "ogbe",
+    "botanical": "Citrus aurantium",
+    "common_english": "Orange",
+    "parts_commonly_used": [
+      "fruit",
+      "fruits",
+      "juice",
+      "leaves",
+      "peel",
+      "rind",
+      "stem bark",
+      "twigs"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "decoction of rind",
+      "juice"
+    ]
+  },
+  {
     "local_name": "ogbe akuko",
     "botanical": "Heliotropium indicum",
+    "common_english": "Cock’s comb, Heliotrope",
+    "parts_commonly_used": [
+      "leaf",
+      "whole plant"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "ogbeagu",
+    "botanical": "Brassica oleracea",
     "common_english": null,
     "parts_commonly_used": [
-      "leaf"
+      "leaves"
     ],
     "typical_preparations": []
   },
   {
     "local_name": "ogbo",
     "botanical": "Garcinia kola",
-    "common_english": "Bitter Kola",
+    "common_english": "Bitter kola",
     "parts_commonly_used": [
       "bark",
       "seed",
@@ -4363,17 +8231,60 @@
     ]
   },
   {
+    "local_name": "ogbodo",
+    "botanical": "Costus afer",
+    "common_english": "Ginger lily",
+    "parts_commonly_used": [
+      "root",
+      "stem"
+    ],
+    "typical_preparations": []
+  },
+  {
     "local_name": "ogbono",
     "botanical": "Irvingia gabonensis",
-    "common_english": "Bush Mango",
+    "common_english": "African/Native/Bush mango",
     "parts_commonly_used": [
       "bark",
       "leaves",
+      "seed",
       "seeds"
     ],
     "typical_preparations": [
       "decoction",
       "eaten cooked",
+      "powder"
+    ]
+  },
+  {
+    "local_name": "ogbun",
+    "botanical": "Avicennia germinans",
+    "common_english": "Black Mangrove",
+    "parts_commonly_used": [
+      "leaves",
+      "stem",
+      "twigs"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "ogede agagba",
+    "botanical": "Musa paradisiaca",
+    "common_english": "Plantain",
+    "parts_commonly_used": [
+      "fruit",
+      "leaves",
+      "peel",
+      "root",
+      "stem",
+      "stem sap",
+      "unripe fruit"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "eaten cooked",
+      "juice",
+      "poultice",
       "powder"
     ]
   },
@@ -4385,6 +8296,8 @@
       "fruit",
       "leaves",
       "peel",
+      "root",
+      "stem",
       "stem sap",
       "unripe fruit"
     ],
@@ -4422,6 +8335,8 @@
       "fruit",
       "leaves",
       "peel",
+      "root",
+      "stem",
       "stem sap",
       "unripe fruit"
     ],
@@ -4431,6 +8346,32 @@
       "juice",
       "poultice",
       "powder"
+    ]
+  },
+  {
+    "local_name": "ogili si",
+    "botanical": "Spathodea campanulata",
+    "common_english": "African tulip",
+    "parts_commonly_used": [
+      "bark",
+      "leaves"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "ogilisi",
+    "botanical": "Newbouldia laevis",
+    "common_english": "African Oak",
+    "parts_commonly_used": [
+      "bark",
+      "leaf",
+      "leaves",
+      "root",
+      "roots"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "infusion"
     ]
   },
   {
@@ -4450,6 +8391,27 @@
     ]
   },
   {
+    "local_name": "ogiri aro",
+    "botanical": "Ricinus communis",
+    "common_english": null,
+    "parts_commonly_used": [
+      "leaf",
+      "leaves",
+      "seed"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "ogiri egba",
+    "botanical": "Deinbollia pinnata",
+    "common_english": "Water willow",
+    "parts_commonly_used": [
+      "leaves",
+      "root"
+    ],
+    "typical_preparations": []
+  },
+  {
     "local_name": "ogirisako",
     "botanical": "Anchomanes difformis",
     "common_english": null,
@@ -4457,6 +8419,22 @@
       "stem"
     ],
     "typical_preparations": []
+  },
+  {
+    "local_name": "ogirisi",
+    "botanical": null,
+    "common_english": null,
+    "parts_commonly_used": [
+      "bark",
+      "leaf",
+      "leaves",
+      "root",
+      "roots"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "infusion"
+    ]
   },
   {
     "local_name": "ogundu",
@@ -4468,6 +8446,79 @@
     "typical_preparations": []
   },
   {
+    "local_name": "ogune",
+    "botanical": "Mangifera indica",
+    "common_english": "Mango",
+    "parts_commonly_used": [
+      "bark",
+      "leaf",
+      "leaves",
+      "stem- bark"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "ogurizi",
+    "botanical": "Newbouldia laevis",
+    "common_english": "African Oak",
+    "parts_commonly_used": [
+      "bark",
+      "leaf",
+      "leaves",
+      "root",
+      "roots"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "infusion"
+    ]
+  },
+  {
+    "local_name": "oguru",
+    "botanical": "Marrubium vulgare",
+    "common_english": null,
+    "parts_commonly_used": [
+      "leaves",
+      "seeds"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "ogwu nje",
+    "botanical": "Brassica nigra",
+    "common_english": null,
+    "parts_commonly_used": [
+      "leaves",
+      "seeds"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "ogwu ogwu",
+    "botanical": "Hamamelis virginiana",
+    "common_english": null,
+    "parts_commonly_used": [
+      "leaves",
+      "stem"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "oji",
+    "botanical": "Milicia excelsa",
+    "common_english": "Iroko",
+    "parts_commonly_used": [
+      "bark",
+      "leaves",
+      "roots",
+      "stem"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "infusion"
+    ]
+  },
+  {
     "local_name": "ojiji",
     "botanical": "Dalbergia saxatilis",
     "common_english": null,
@@ -4477,12 +8528,40 @@
     "typical_preparations": []
   },
   {
+    "local_name": "ojili",
+    "botanical": "Aframomum melegueta",
+    "common_english": "Alligator pepper",
+    "parts_commonly_used": [
+      "rhizome",
+      "root",
+      "seed",
+      "seeds"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "powder",
+      "spice"
+    ]
+  },
+  {
     "local_name": "oju eja",
     "botanical": "Mallotus oppositifolius",
     "common_english": null,
     "parts_commonly_used": [
       "root",
       "stem"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "oju ologbo",
+    "botanical": "Morinda morindoides",
+    "common_english": "Morinda",
+    "parts_commonly_used": [
+      "bark",
+      "fruit",
+      "leaves",
+      "root"
     ],
     "typical_preparations": []
   },
@@ -4519,16 +8598,90 @@
     "botanical": "Sterculia tragacantha",
     "common_english": null,
     "parts_commonly_used": [
+      "leaves",
       "root"
     ],
     "typical_preparations": []
   },
   {
+    "local_name": "okamu ayaba",
+    "botanical": "Musa paradisiaca",
+    "common_english": "Plantain",
+    "parts_commonly_used": [
+      "fruit",
+      "leaves",
+      "peel",
+      "root",
+      "stem",
+      "stem sap",
+      "unripe fruit"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "eaten cooked",
+      "juice",
+      "poultice",
+      "powder"
+    ]
+  },
+  {
+    "local_name": "okeokpa",
+    "botanical": "Millettia thonningii",
+    "common_english": "Millet",
+    "parts_commonly_used": [
+      "bark",
+      "roots"
+    ],
+    "typical_preparations": []
+  },
+  {
     "local_name": "okeriri",
-    "botanical": null,
+    "botanical": "Urena lobata",
     "common_english": null,
     "parts_commonly_used": [
       "leaf",
+      "stem"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "okirima",
+    "botanical": "Musa paradisiaca",
+    "common_english": "Plantain",
+    "parts_commonly_used": [
+      "fruit",
+      "leaves",
+      "peel",
+      "root",
+      "stem",
+      "stem sap",
+      "unripe fruit"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "eaten cooked",
+      "juice",
+      "poultice",
+      "powder"
+    ]
+  },
+  {
+    "local_name": "okobo",
+    "botanical": "Mitragyna inermis",
+    "common_english": "African Linden",
+    "parts_commonly_used": [
+      "bark",
+      "root"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "okpe nketa",
+    "botanical": "Cnestis ferruginea",
+    "common_english": null,
+    "parts_commonly_used": [
+      "leaf",
+      "leaves",
       "stem"
     ],
     "typical_preparations": []
@@ -4544,6 +8697,104 @@
     "typical_preparations": []
   },
   {
+    "local_name": "okwe",
+    "botanical": "Astraea lobata",
+    "common_english": null,
+    "parts_commonly_used": [
+      "leaves",
+      "root"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "okweoyeibe",
+    "botanical": "Moringa oleifera",
+    "common_english": "Drumstick Tree",
+    "parts_commonly_used": [
+      "fruit",
+      "leaves",
+      "pods",
+      "roots",
+      "seeds",
+      "stem",
+      "stem bark"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "infusion",
+      "powder"
+    ]
+  },
+  {
+    "local_name": "okworo gbogbo",
+    "botanical": "Carica papaya",
+    "common_english": "Papaya",
+    "parts_commonly_used": [
+      "fruit",
+      "latex fruit",
+      "leaves",
+      "root",
+      "roots",
+      "seeds",
+      "stem bark"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "juice"
+    ]
+  },
+  {
+    "local_name": "okwu ngwo",
+    "botanical": "Euphorbia hirta",
+    "common_english": "Asthma Weed",
+    "parts_commonly_used": [
+      "leaves",
+      "plant",
+      "whole plant"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "infusion"
+    ]
+  },
+  {
+    "local_name": "okwuma",
+    "botanical": "Vitellaria paradoxa",
+    "common_english": "Shea Butter Tree",
+    "parts_commonly_used": [
+      "fat",
+      "seeds",
+      "stem bark"
+    ],
+    "typical_preparations": [
+      "decoction of bark",
+      "shea butter topical"
+    ]
+  },
+  {
+    "local_name": "ol",
+    "botanical": "Jatropha curcas",
+    "common_english": "Physic nut",
+    "parts_commonly_used": [
+      "flower",
+      "latex",
+      "leaf",
+      "leaves",
+      "root",
+      "roots",
+      "sap",
+      "seed",
+      "stem",
+      "stem bark",
+      "twigs"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "poultice",
+      "topical"
+    ]
+  },
+  {
     "local_name": "ologbon gburu",
     "botanical": "Secamone afzelii",
     "common_english": null,
@@ -4557,16 +8808,18 @@
     "botanical": "Erythrina senegalensis",
     "common_english": null,
     "parts_commonly_used": [
-      "root"
+      "root",
+      "whole plant"
     ],
     "typical_preparations": []
   },
   {
     "local_name": "olojongbodu",
     "botanical": "Coleus monostachyus",
-    "common_english": null,
+    "common_english": "Catnip",
     "parts_commonly_used": [
       "leaf",
+      "leaves",
       "stem"
     ],
     "typical_preparations": []
@@ -4590,11 +8843,65 @@
     "typical_preparations": []
   },
   {
+    "local_name": "olug bu",
+    "botanical": "Gymnanthemum amygdalinum",
+    "common_english": "Bitter leaf",
+    "parts_commonly_used": [
+      "bark",
+      "leaf",
+      "leaves",
+      "stem"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "juice"
+    ]
+  },
+  {
+    "local_name": "olugbu",
+    "botanical": "Gymnanthemum amygdalinum",
+    "common_english": "Bitter leaf",
+    "parts_commonly_used": [
+      "bark",
+      "leaf",
+      "leaves",
+      "stem"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "juice"
+    ]
+  },
+  {
+    "local_name": "olulu idu",
+    "botanical": "Jatropha curcas",
+    "common_english": "Physic nut",
+    "parts_commonly_used": [
+      "flower",
+      "latex",
+      "leaf",
+      "leaves",
+      "root",
+      "roots",
+      "sap",
+      "seed",
+      "stem",
+      "stem bark",
+      "twigs"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "poultice",
+      "topical"
+    ]
+  },
+  {
     "local_name": "ominsinmisin",
     "botanical": "Abrus precatorius",
-    "common_english": null,
+    "common_english": "Crab’s eye",
     "parts_commonly_used": [
       "leaf",
+      "leaves",
       "stem"
     ],
     "typical_preparations": []
@@ -4602,10 +8909,31 @@
   {
     "local_name": "omisinmisin",
     "botanical": "Abrus precatorius",
-    "common_english": null,
+    "common_english": "Crab’s eye",
     "parts_commonly_used": [
       "leaf",
+      "leaves",
       "stem"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "omonigelegele",
+    "botanical": "Cassytha filiformis",
+    "common_english": "Devil′s gut, parasitic vine",
+    "parts_commonly_used": [
+      "stem twigs",
+      "whole plant"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "omoniginigini",
+    "botanical": "Cassytha filiformis",
+    "common_english": "Devil′s gut, parasitic vine",
+    "parts_commonly_used": [
+      "stem twigs",
+      "whole plant"
     ],
     "typical_preparations": []
   },
@@ -4615,9 +8943,25 @@
     "common_english": null,
     "parts_commonly_used": [
       "leaf",
+      "leaves",
       "stem"
     ],
     "typical_preparations": []
+  },
+  {
+    "local_name": "ongoberi",
+    "botanical": "Citrus aurantiifolia",
+    "common_english": "Lime",
+    "parts_commonly_used": [
+      "juice",
+      "leaf",
+      "leaves",
+      "rind"
+    ],
+    "typical_preparations": [
+      "infusion",
+      "juice"
+    ]
   },
   {
     "local_name": "onion",
@@ -4634,11 +8978,39 @@
     ]
   },
   {
+    "local_name": "onu gbu",
+    "botanical": "Gymnanthemum amygdalinum",
+    "common_english": "Bitter leaf",
+    "parts_commonly_used": [
+      "bark",
+      "leaf",
+      "leaves",
+      "stem"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "juice"
+    ]
+  },
+  {
+    "local_name": "onwueke",
+    "botanical": "Mimosa pudica",
+    "common_english": "Sensitive plant",
+    "parts_commonly_used": [
+      "leaf",
+      "leaves",
+      "stem",
+      "whole plant"
+    ],
+    "typical_preparations": []
+  },
+  {
     "local_name": "oori",
     "botanical": "Vitex doniana",
     "common_english": "black plum",
     "parts_commonly_used": [
       "bark",
+      "fruit",
       "fruits",
       "leaves",
       "root",
@@ -4672,12 +9044,33 @@
     ]
   },
   {
+    "local_name": "oparun",
+    "botanical": "Bambusa vulgaris",
+    "common_english": "Bamboo",
+    "parts_commonly_used": [
+      "leaves",
+      "young shoots"
+    ],
+    "typical_preparations": []
+  },
+  {
     "local_name": "ope",
     "botanical": "Elaeis guineensis",
-    "common_english": null,
+    "common_english": "Oil palm",
     "parts_commonly_used": [
+      "fruit pericarp",
       "root",
       "stem"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "ope oyinbo",
+    "botanical": "Ananas comosus",
+    "common_english": "Pineapple",
+    "parts_commonly_used": [
+      "fruit",
+      "unripe fruit"
     ],
     "typical_preparations": []
   },
@@ -4687,6 +9080,45 @@
     "common_english": null,
     "parts_commonly_used": [
       "leaf"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "opoto",
+    "botanical": "Ficus sur",
+    "common_english": null,
+    "parts_commonly_used": [
+      "leaf",
+      "stem"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "or oma",
+    "botanical": "Citrus aurantium",
+    "common_english": "Orange",
+    "parts_commonly_used": [
+      "fruit",
+      "fruits",
+      "juice",
+      "leaves",
+      "peel",
+      "rind",
+      "stem bark",
+      "twigs"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "decoction of rind",
+      "juice"
+    ]
+  },
+  {
+    "local_name": "oracha",
+    "botanical": "Rubus idaeus",
+    "common_english": null,
+    "parts_commonly_used": [
+      "leaves"
     ],
     "typical_preparations": []
   },
@@ -4701,12 +9133,17 @@
   },
   {
     "local_name": "orange peel",
-    "botanical": "Citrus sinensis",
+    "botanical": "Citrus aurantium",
     "common_english": "Orange",
     "parts_commonly_used": [
+      "fruit",
+      "fruits",
       "juice",
       "leaves",
-      "rind"
+      "peel",
+      "rind",
+      "stem bark",
+      "twigs"
     ],
     "typical_preparations": [
       "decoction",
@@ -4715,12 +9152,25 @@
     ]
   },
   {
+    "local_name": "oranjila",
+    "botanical": "Aspilia africana",
+    "common_english": null,
+    "parts_commonly_used": [
+      "leaf",
+      "leaves",
+      "root",
+      "stem"
+    ],
+    "typical_preparations": []
+  },
+  {
     "local_name": "ori",
     "botanical": "Vitellaria paradoxa",
     "common_english": "Shea Butter Tree",
     "parts_commonly_used": [
       "fat",
-      "seeds"
+      "seeds",
+      "stem bark"
     ],
     "typical_preparations": [
       "decoction of bark",
@@ -4733,6 +9183,7 @@
     "common_english": "black plum",
     "parts_commonly_used": [
       "bark",
+      "fruit",
       "fruits",
       "leaves",
       "root",
@@ -4770,6 +9221,7 @@
       "bark",
       "leaf",
       "leaves",
+      "root",
       "roots"
     ],
     "typical_preparations": [
@@ -4778,9 +9230,25 @@
     ]
   },
   {
+    "local_name": "oro mopa",
+    "botanical": "Irvingia gabonensis",
+    "common_english": "African/Native/Bush mango",
+    "parts_commonly_used": [
+      "bark",
+      "leaves",
+      "seed",
+      "seeds"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "eaten cooked",
+      "powder"
+    ]
+  },
+  {
     "local_name": "orogbo",
     "botanical": "Garcinia kola",
-    "common_english": "Bitter Kola",
+    "common_english": "Bitter kola",
     "parts_commonly_used": [
       "bark",
       "seed",
@@ -4803,6 +9271,26 @@
     "typical_preparations": []
   },
   {
+    "local_name": "oroma",
+    "botanical": "Citrus aurantium",
+    "common_english": "Orange",
+    "parts_commonly_used": [
+      "fruit",
+      "fruits",
+      "juice",
+      "leaves",
+      "peel",
+      "rind",
+      "stem bark",
+      "twigs"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "decoction of rind",
+      "juice"
+    ]
+  },
+  {
     "local_name": "orombo",
     "botanical": "Citrus aurantiifolia",
     "common_english": "Lime",
@@ -4818,9 +9306,36 @@
     ]
   },
   {
+    "local_name": "orsu",
+    "botanical": "Ixora coccinea",
+    "common_english": null,
+    "parts_commonly_used": [
+      "whole plant"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "oru etemi",
+    "botanical": "Equisetum arvense",
+    "common_english": null,
+    "parts_commonly_used": [
+      "leaves"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "orugbo",
+    "botanical": "Blighia sapida",
+    "common_english": null,
+    "parts_commonly_used": [
+      "leaves"
+    ],
+    "typical_preparations": []
+  },
+  {
     "local_name": "oruwo",
     "botanical": "Morinda lucida",
-    "common_english": "Brimstone Tree",
+    "common_english": "Brimstone tree",
     "parts_commonly_used": [
       "bark",
       "leaves",
@@ -4834,12 +9349,17 @@
   },
   {
     "local_name": "osan",
-    "botanical": "Citrus sinensis",
+    "botanical": "Citrus aurantium",
     "common_english": "Orange",
     "parts_commonly_used": [
+      "fruit",
+      "fruits",
       "juice",
       "leaves",
-      "rind"
+      "peel",
+      "rind",
+      "stem bark",
+      "twigs"
     ],
     "typical_preparations": [
       "decoction",
@@ -4848,11 +9368,21 @@
     ]
   },
   {
+    "local_name": "osashi",
+    "botanical": "Distemonanthus benthamianus",
+    "common_english": null,
+    "parts_commonly_used": [
+      "bark"
+    ],
+    "typical_preparations": []
+  },
+  {
     "local_name": "ose",
-    "botanical": "Adansonia digitata",
-    "common_english": "Baobab",
+    "botanical": null,
+    "common_english": null,
     "parts_commonly_used": [
       "bark",
+      "fruit",
       "fruit pulp",
       "leaves",
       "seeds"
@@ -4865,12 +9395,27 @@
     ]
   },
   {
+    "local_name": "ose totashi",
+    "botanical": "Capsicum annuum",
+    "common_english": "African pepper",
+    "parts_commonly_used": [
+      "fruit",
+      "seeds"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "eaten raw",
+      "powder"
+    ]
+  },
+  {
     "local_name": "osekutu",
     "botanical": null,
     "common_english": null,
     "parts_commonly_used": [
       "leaf",
       "leaves",
+      "root",
       "roots",
       "stem",
       "whole plant"
@@ -4880,6 +9425,61 @@
       "infusion",
       "poultice"
     ]
+  },
+  {
+    "local_name": "oseojiala",
+    "botanical": "Zingiber officinale",
+    "common_english": "Ginger",
+    "parts_commonly_used": [
+      "corm",
+      "rhizome",
+      "root"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "infusion",
+      "raw"
+    ]
+  },
+  {
+    "local_name": "osese",
+    "botanical": "Mucuna sloanei",
+    "common_english": "Stinging bean",
+    "parts_commonly_used": [
+      "roots",
+      "seeds"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "oshikapa",
+    "botanical": "Humulus lupulus",
+    "common_english": null,
+    "parts_commonly_used": [
+      "bark",
+      "leaves"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "oshishili",
+    "botanical": "Rheum palmatum",
+    "common_english": null,
+    "parts_commonly_used": [
+      "leaf",
+      "stem"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "oshishitu",
+    "botanical": "Ficus carica",
+    "common_english": null,
+    "parts_commonly_used": [
+      "leaves",
+      "stem"
+    ],
+    "typical_preparations": []
   },
   {
     "local_name": "osun",
@@ -4929,6 +9529,24 @@
     "typical_preparations": []
   },
   {
+    "local_name": "owenyaiyaitogo",
+    "botanical": "Spondias mombin",
+    "common_english": "Cat’s tail grass",
+    "parts_commonly_used": [
+      "bark",
+      "fruit",
+      "fruits",
+      "leaf",
+      "leaves",
+      "root",
+      "stem"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "infusion"
+    ]
+  },
+  {
     "local_name": "owu",
     "botanical": "Gossypium barbadense",
     "common_english": null,
@@ -4938,19 +9556,57 @@
     "typical_preparations": []
   },
   {
+    "local_name": "oyigi",
+    "botanical": "Chrysanthellum indicum",
+    "common_english": "Indian chrysanthemum",
+    "parts_commonly_used": [
+      "whole plant"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "ozabwa",
+    "botanical": "Daniellia oliveri",
+    "common_english": "African Copaiba Balsam",
+    "parts_commonly_used": [
+      "bark",
+      "gum",
+      "leaves",
+      "resin"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "topical resin"
+    ]
+  },
+  {
     "local_name": "padimo",
     "botanical": "Mimosa pudica",
-    "common_english": null,
+    "common_english": "Sensitive plant",
     "parts_commonly_used": [
       "leaf",
-      "stem"
+      "leaves",
+      "stem",
+      "whole plant"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "pako dudu",
+    "botanical": "Terminalia leiocarpa",
+    "common_english": "African Birch",
+    "parts_commonly_used": [
+      "leaves",
+      "seeds",
+      "stem bark",
+      "stem-bark"
     ],
     "typical_preparations": []
   },
   {
     "local_name": "pandoro",
-    "botanical": null,
-    "common_english": null,
+    "botanical": "Kigelia africana",
+    "common_english": "Cucumber or Sausage tree",
     "parts_commonly_used": [
       "root",
       "stem bark",
@@ -4963,7 +9619,10 @@
     "botanical": "Carica papaya",
     "common_english": "Papaya",
     "parts_commonly_used": [
+      "fruit",
+      "latex fruit",
       "leaves",
+      "root",
       "roots",
       "seeds",
       "stem bark"
@@ -4976,19 +9635,42 @@
   {
     "local_name": "patanmo",
     "botanical": "Mimosa pudica",
-    "common_english": null,
+    "common_english": "Sensitive plant",
     "parts_commonly_used": [
       "leaf",
-      "stem"
+      "leaves",
+      "stem",
+      "whole plant"
     ],
     "typical_preparations": []
+  },
+  {
+    "local_name": "pawpaw",
+    "botanical": "Carica papaya",
+    "common_english": "Papaya",
+    "parts_commonly_used": [
+      "fruit",
+      "latex fruit",
+      "leaves",
+      "root",
+      "roots",
+      "seeds",
+      "stem bark"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "juice"
+    ]
   },
   {
     "local_name": "pawpaw leaf",
     "botanical": "Carica papaya",
     "common_english": "Papaya",
     "parts_commonly_used": [
+      "fruit",
+      "latex fruit",
       "leaves",
+      "root",
       "roots",
       "seeds",
       "stem bark"
@@ -5010,9 +9692,12 @@
   {
     "local_name": "pia",
     "botanical": "Persea americana",
-    "common_english": null,
+    "common_english": "Avocado pear",
     "parts_commonly_used": [
-      "leaf"
+      "fruit",
+      "fruits",
+      "leaf",
+      "leaves"
     ],
     "typical_preparations": []
   },
@@ -5021,7 +9706,9 @@
     "botanical": "Pinus caribaea",
     "common_english": null,
     "parts_commonly_used": [
-      "leaf"
+      "leaf",
+      "leaves",
+      "seed"
     ],
     "typical_preparations": []
   },
@@ -5033,6 +9720,8 @@
       "fruit",
       "leaves",
       "peel",
+      "root",
+      "stem",
       "stem sap",
       "unripe fruit"
     ],
@@ -5045,11 +9734,28 @@
     ]
   },
   {
+    "local_name": "pokueduku",
+    "botanical": "Ipomoea batatas",
+    "common_english": "Sweet potato",
+    "parts_commonly_used": [],
+    "typical_preparations": []
+  },
+  {
     "local_name": "ponpondo",
     "botanical": "Canavalia ensiformis",
+    "common_english": "Sword bean, horse bean",
+    "parts_commonly_used": [
+      "leaf",
+      "seed"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "puloumbiya",
+    "botanical": "Citrus limon",
     "common_english": null,
     "parts_commonly_used": [
-      "leaf"
+      "fruit"
     ],
     "typical_preparations": []
   },
@@ -5076,9 +9782,12 @@
   {
     "local_name": "rerinkomi",
     "botanical": "Ageratum conyzoides",
-    "common_english": null,
+    "common_english": "Goat weed, floss flower",
     "parts_commonly_used": [
-      "leaf"
+      "leaf",
+      "leaves",
+      "root",
+      "whole plant"
     ],
     "typical_preparations": []
   },
@@ -5088,6 +9797,7 @@
     "common_english": "Coat buttons",
     "parts_commonly_used": [
       "leaf",
+      "leaves",
       "root"
     ],
     "typical_preparations": []
@@ -5102,6 +9812,13 @@
     "typical_preparations": []
   },
   {
+    "local_name": "samberu",
+    "botanical": "Erythrophleum suaveolens",
+    "common_english": "Ordeal tree, Sasswood tree",
+    "parts_commonly_used": [],
+    "typical_preparations": []
+  },
+  {
     "local_name": "samikoko",
     "botanical": "Cyperus cyperoides",
     "common_english": null,
@@ -5112,13 +9829,52 @@
     "typical_preparations": []
   },
   {
+    "local_name": "sani",
+    "botanical": "Aframomum melegueta",
+    "common_english": "Alligator pepper",
+    "parts_commonly_used": [
+      "rhizome",
+      "root",
+      "seed",
+      "seeds"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "powder",
+      "spice"
+    ]
+  },
+  {
+    "local_name": "sanyantan",
+    "botanical": "Celosia trigyna",
+    "common_english": "Celosia",
+    "parts_commonly_used": [
+      "leaves"
+    ],
+    "typical_preparations": []
+  },
+  {
     "local_name": "sapo",
     "botanical": null,
     "common_english": null,
     "parts_commonly_used": [
       "bark",
       "leaf",
-      "stem"
+      "stem",
+      "whole plant"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "sas hu",
+    "botanical": "Anacardium occidentale",
+    "common_english": "Cashew nut",
+    "parts_commonly_used": [
+      "bark",
+      "fruit",
+      "leaf",
+      "leaves",
+      "twigs"
     ],
     "typical_preparations": []
   },
@@ -5129,6 +9885,24 @@
     "parts_commonly_used": [
       "bark",
       "fruit",
+      "leaf",
+      "leaves",
+      "seeds"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "eaten raw",
+      "infusion"
+    ]
+  },
+  {
+    "local_name": "sawamsop",
+    "botanical": "Annona muricata",
+    "common_english": "Soursop",
+    "parts_commonly_used": [
+      "bark",
+      "fruit",
+      "leaf",
       "leaves",
       "seeds"
     ],
@@ -5141,9 +9915,33 @@
   {
     "local_name": "sawerepepe",
     "botanical": "Cyathula prostrata",
-    "common_english": null,
+    "common_english": "Pasture weed",
     "parts_commonly_used": [
       "leaf"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "saworo",
+    "botanical": "Crotalaria retusa",
+    "common_english": "Rattle box, rattle pea",
+    "parts_commonly_used": [
+      "juice of pods",
+      "leaves",
+      "root",
+      "seeds"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "seke",
+    "botanical": "Delonix regia",
+    "common_english": "Flame of the forest",
+    "parts_commonly_used": [
+      "bark",
+      "flower",
+      "leaves",
+      "seeds"
     ],
     "typical_preparations": []
   },
@@ -5159,9 +9957,10 @@
   {
     "local_name": "semolapa",
     "botanical": "Portulaca oleracea",
-    "common_english": null,
+    "common_english": "Purslane",
     "parts_commonly_used": [
-      "leaf"
+      "leaf",
+      "whole plant"
     ],
     "typical_preparations": []
   },
@@ -5181,12 +9980,23 @@
     "parts_commonly_used": [
       "oil",
       "root",
+      "seed",
       "seeds"
     ],
     "typical_preparations": [
       "oil topical",
       "powder"
     ]
+  },
+  {
+    "local_name": "sese nla",
+    "botanical": "Canavalia ensiformis",
+    "common_english": "Sword bean, horse bean",
+    "parts_commonly_used": [
+      "leaf",
+      "seed"
+    ],
+    "typical_preparations": []
   },
   {
     "local_name": "shani ka sanni",
@@ -5201,7 +10011,8 @@
     "common_english": "Shea Butter Tree",
     "parts_commonly_used": [
       "fat",
-      "seeds"
+      "seeds",
+      "stem bark"
     ],
     "typical_preparations": [
       "decoction of bark",
@@ -5209,9 +10020,33 @@
     ]
   },
   {
+    "local_name": "shiwaka",
+    "botanical": "Gymnanthemum amygdalinum",
+    "common_english": "Bitter leaf",
+    "parts_commonly_used": [
+      "bark",
+      "leaf",
+      "leaves",
+      "stem"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "juice"
+    ]
+  },
+  {
+    "local_name": "sibifuka",
+    "botanical": "Momordica balsamina",
+    "common_english": null,
+    "parts_commonly_used": [
+      "whole plant"
+    ],
+    "typical_preparations": []
+  },
+  {
     "local_name": "sodom apple",
     "botanical": "Calotropis procera",
-    "common_english": "Sodom Apple",
+    "common_english": "Giant milk weed/sodom apple",
     "parts_commonly_used": [
       "latex",
       "leaf",
@@ -5229,6 +10064,16 @@
     "common_english": null,
     "parts_commonly_used": [
       "leaf"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "sulunwahi",
+    "botanical": "Cassytha filiformis",
+    "common_english": "Devil′s gut, parasitic vine",
+    "parts_commonly_used": [
+      "stem twigs",
+      "whole plant"
     ],
     "typical_preparations": []
   },
@@ -5258,7 +10103,22 @@
     "botanical": "Allium sativum",
     "common_english": "Garlic",
     "parts_commonly_used": [
-      "bulb"
+      "bulb",
+      "clove"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "infusion",
+      "raw"
+    ]
+  },
+  {
+    "local_name": "tafarunua",
+    "botanical": "Allium sativum",
+    "common_english": "Garlic",
+    "parts_commonly_used": [
+      "bulb",
+      "clove"
     ],
     "typical_preparations": [
       "decoction",
@@ -5273,6 +10133,7 @@
     "parts_commonly_used": [
       "leaf",
       "leaves",
+      "root",
       "roots",
       "stem bark"
     ],
@@ -5285,6 +10146,7 @@
     "parts_commonly_used": [
       "leaf",
       "leaves",
+      "root",
       "roots",
       "stem bark"
     ],
@@ -5307,6 +10169,30 @@
     ]
   },
   {
+    "local_name": "tanpopo",
+    "botanical": "Ipomoea mauritiana",
+    "common_english": "Morning glory",
+    "parts_commonly_used": [
+      "root",
+      "whole plant"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "tatashi",
+    "botanical": "Capsicum annuum",
+    "common_english": "African pepper",
+    "parts_commonly_used": [
+      "fruit",
+      "seeds"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "eaten raw",
+      "powder"
+    ]
+  },
+  {
     "local_name": "tete",
     "botanical": null,
     "common_english": null,
@@ -5324,7 +10210,7 @@
   {
     "local_name": "tete eegungun",
     "botanical": "Costus afer",
-    "common_english": null,
+    "common_english": "Ginger lily",
     "parts_commonly_used": [
       "root",
       "stem"
@@ -5350,6 +10236,62 @@
     "typical_preparations": []
   },
   {
+    "local_name": "tomati",
+    "botanical": "Solanum lycopersicum",
+    "common_english": "Tomatoes",
+    "parts_commonly_used": [
+      "fruit"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "tomato",
+    "botanical": "Solanum lycopersicum",
+    "common_english": "Tomatoes",
+    "parts_commonly_used": [
+      "fruit"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "tsamiyar kurmi",
+    "botanical": "Dialium guineense",
+    "common_english": "Velvet Tamarind",
+    "parts_commonly_used": [
+      "bark",
+      "fruit",
+      "leaves",
+      "twigs"
+    ],
+    "typical_preparations": [
+      "chewed raw",
+      "decoction",
+      "infusion"
+    ]
+  },
+  {
+    "local_name": "tsarkiyar kuusuu",
+    "botanical": "Stachytarpheta indica",
+    "common_english": "Devil's coach whip",
+    "parts_commonly_used": [
+      "leaf",
+      "leaves",
+      "root",
+      "roots"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "tuburku",
+    "botanical": "Millettia thonningii",
+    "common_english": "Millet",
+    "parts_commonly_used": [
+      "bark",
+      "roots"
+    ],
+    "typical_preparations": []
+  },
+  {
     "local_name": "tude",
     "botanical": "Zapoteca portoricensis",
     "common_english": null,
@@ -5357,6 +10299,56 @@
       "root"
     ],
     "typical_preparations": []
+  },
+  {
+    "local_name": "tukaben",
+    "botanical": "Phyllanthus amarus",
+    "common_english": "Amarus",
+    "parts_commonly_used": [
+      "leaf",
+      "leaves",
+      "root",
+      "stem",
+      "whole plant"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "infusion"
+    ]
+  },
+  {
+    "local_name": "tululie",
+    "botanical": "Mesosphaerum pectinatum",
+    "common_english": null,
+    "parts_commonly_used": [
+      "whole plant"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "tumburku",
+    "botanical": "Millettia thonningii",
+    "common_english": "Millet",
+    "parts_commonly_used": [
+      "bark",
+      "roots"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "tumifafiya",
+    "botanical": "Calotropis procera",
+    "common_english": "Giant milk weed/sodom apple",
+    "parts_commonly_used": [
+      "latex",
+      "leaf",
+      "leaves",
+      "roots"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "poultice"
+    ]
   },
   {
     "local_name": "turare",
@@ -5387,12 +10379,36 @@
     ]
   },
   {
+    "local_name": "turumma",
+    "botanical": "Lasianthera africana",
+    "common_english": null,
+    "parts_commonly_used": [
+      "fruit",
+      "leaves"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "ubabara",
+    "botanical": "Hibiscus surattensis",
+    "common_english": null,
+    "parts_commonly_used": [
+      "flower",
+      "leaves",
+      "root",
+      "stem"
+    ],
+    "typical_preparations": []
+  },
+  {
     "local_name": "ube",
-    "botanical": "Dacryodes edulis",
-    "common_english": "African Pear",
+    "botanical": null,
+    "common_english": null,
     "parts_commonly_used": [
       "bark",
       "fruit",
+      "fruits",
+      "leaf",
       "leaves"
     ],
     "typical_preparations": [
@@ -5401,13 +10417,42 @@
     ]
   },
   {
+    "local_name": "ube beke",
+    "botanical": "Persea americana",
+    "common_english": "Avocado pear",
+    "parts_commonly_used": [
+      "fruit",
+      "fruits",
+      "leaf",
+      "leaves"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "uburubu",
+    "botanical": "Olax subscorpioidea",
+    "common_english": "Olax",
+    "parts_commonly_used": [
+      "bark",
+      "leaves",
+      "root",
+      "roots",
+      "stem"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "infusion"
+    ]
+  },
+  {
     "local_name": "uda",
     "botanical": "Xylopia aethiopica",
-    "common_english": "Ethiopian Pepper",
+    "common_english": "Ethiopian pepper",
     "parts_commonly_used": [
       "bark",
       "fruit",
-      "fruits"
+      "fruits",
+      "seeds"
     ],
     "typical_preparations": [
       "decoction",
@@ -5416,10 +10461,103 @@
     ]
   },
   {
-    "local_name": "ugwu",
-    "botanical": "Telfairia occidentalis",
-    "common_english": "Fluted Pumpkin",
+    "local_name": "udara",
+    "botanical": "Gambeya albida",
+    "common_english": "African star apple",
     "parts_commonly_used": [
+      "bark",
+      "fruit",
+      "leaves",
+      "seed",
+      "seeds",
+      "stem",
+      "stem-bark",
+      "whole plant"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "eaten raw",
+      "powder"
+    ]
+  },
+  {
+    "local_name": "udeghe",
+    "botanical": "Pastinaca sativa",
+    "common_english": null,
+    "parts_commonly_used": [
+      "leaves"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "udoho",
+    "botanical": "Triumfetta rhomboidea",
+    "common_english": "Chinese pur/Burweed",
+    "parts_commonly_used": [
+      "bark",
+      "flower fruit",
+      "leaf",
+      "leaves"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "udumie",
+    "botanical": "Anethum graveolens",
+    "common_english": null,
+    "parts_commonly_used": [
+      "seed"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "ugbe him",
+    "botanical": "Dialium guineense",
+    "common_english": "Velvet Tamarind",
+    "parts_commonly_used": [
+      "bark",
+      "fruit",
+      "leaves",
+      "twigs"
+    ],
+    "typical_preparations": [
+      "chewed raw",
+      "decoction",
+      "infusion"
+    ]
+  },
+  {
+    "local_name": "ughele",
+    "botanical": "Rosa canina",
+    "common_english": null,
+    "parts_commonly_used": [
+      "leaves",
+      "stem"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "ugili",
+    "botanical": "Irvingia gabonensis",
+    "common_english": "African/Native/Bush mango",
+    "parts_commonly_used": [
+      "bark",
+      "leaves",
+      "seed",
+      "seeds"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "eaten cooked",
+      "powder"
+    ]
+  },
+  {
+    "local_name": "ugu",
+    "botanical": "Telfairia occidentalis",
+    "common_english": "Fluted pumpkin",
+    "parts_commonly_used": [
+      "flowers",
       "leaf",
       "leaves",
       "seeds"
@@ -5431,24 +10569,24 @@
     ]
   },
   {
-    "local_name": "utakiri",
-    "botanical": "Vitex doniana",
-    "common_english": "black plum",
+    "local_name": "ugu ele",
+    "botanical": "Gloriosa superba",
+    "common_english": null,
     "parts_commonly_used": [
-      "bark",
-      "fruits",
       "leaves",
-      "root",
-      "stem bark"
+      "tuber"
     ],
     "typical_preparations": []
   },
   {
-    "local_name": "utazi",
-    "botanical": "Gongronema latifolium",
-    "common_english": "Utazi",
+    "local_name": "ugwu",
+    "botanical": "Telfairia occidentalis",
+    "common_english": "Fluted pumpkin",
     "parts_commonly_used": [
-      "leaves"
+      "flowers",
+      "leaf",
+      "leaves",
+      "seeds"
     ],
     "typical_preparations": [
       "decoction",
@@ -5457,12 +10595,198 @@
     ]
   },
   {
+    "local_name": "uhie",
+    "botanical": "Caloncoba echinata",
+    "common_english": null,
+    "parts_commonly_used": [
+      "leaves",
+      "seed"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "ukpa",
+    "botanical": "Plukenetia conophora",
+    "common_english": "African Walnut",
+    "parts_commonly_used": [
+      "bark",
+      "fruit",
+      "leaves",
+      "seeds"
+    ],
+    "typical_preparations": [
+      "boiled seeds",
+      "decoction"
+    ]
+  },
+  {
+    "local_name": "ukpuda",
+    "botanical": "Calendula officinalis",
+    "common_english": null,
+    "parts_commonly_used": [
+      "leaves"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "uku",
+    "botanical": "Mimusops kummel",
+    "common_english": "Bullet wood",
+    "parts_commonly_used": [
+      "seeds",
+      "stem bark"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "ukufo",
+    "botanical": "Curcuma longa",
+    "common_english": "Turmeric",
+    "parts_commonly_used": [
+      "rhizome"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "powder"
+    ]
+  },
+  {
+    "local_name": "ukuro",
+    "botanical": null,
+    "common_english": null,
+    "parts_commonly_used": [
+      "fruit",
+      "leaves"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "ula",
+    "botanical": "Ficus lutea",
+    "common_english": "Lagos rubber tree, Native pop",
+    "parts_commonly_used": [],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "ula ujula",
+    "botanical": "Ageratum conyzoides",
+    "common_english": "Goat weed, floss flower",
+    "parts_commonly_used": [
+      "leaf",
+      "leaves",
+      "root",
+      "whole plant"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "ulodiri",
+    "botanical": "Alstonia boonei",
+    "common_english": "Pattern Wood",
+    "parts_commonly_used": [
+      "bark",
+      "leaves",
+      "roots"
+    ],
+    "typical_preparations": [
+      "decoction"
+    ]
+  },
+  {
+    "local_name": "ulogbo",
+    "botanical": "Sesamum indicum",
+    "common_english": "Sesame",
+    "parts_commonly_used": [
+      "oil",
+      "root",
+      "seed",
+      "seeds"
+    ],
+    "typical_preparations": [
+      "oil topical",
+      "powder"
+    ]
+  },
+  {
+    "local_name": "uri",
+    "botanical": "Baphia nitida",
+    "common_english": "Cam wood",
+    "parts_commonly_used": [
+      "heartwood",
+      "latex",
+      "leaf",
+      "leaves"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "powder paste"
+    ]
+  },
+  {
+    "local_name": "utaba",
+    "botanical": "Nicotiana rustica",
+    "common_english": null,
+    "parts_commonly_used": [
+      "leaves"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "utakiri",
+    "botanical": "Vitex doniana",
+    "common_english": "black plum",
+    "parts_commonly_used": [
+      "bark",
+      "fruit",
+      "fruits",
+      "leaves",
+      "root",
+      "stem bark"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "utashidiri",
+    "botanical": "Pimenta dioica",
+    "common_english": null,
+    "parts_commonly_used": [
+      "leaves",
+      "stem"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "utazi",
+    "botanical": null,
+    "common_english": null,
+    "parts_commonly_used": [
+      "leaves",
+      "root"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "juice",
+      "soup"
+    ]
+  },
+  {
+    "local_name": "uzi",
+    "botanical": "Salvia officinalis",
+    "common_english": null,
+    "parts_commonly_used": [
+      "leaves",
+      "stem"
+    ],
+    "typical_preparations": []
+  },
+  {
     "local_name": "uziza",
-    "botanical": "Piper guineense",
-    "common_english": "Ashanti Pepper",
+    "botanical": null,
+    "common_english": null,
     "parts_commonly_used": [
       "fruits",
-      "leaves"
+      "leaves",
+      "seed"
     ],
     "typical_preparations": [
       "decoction",
@@ -5474,7 +10798,7 @@
   {
     "local_name": "waapa",
     "botanical": "Cymbopogon citratus",
-    "common_english": "Lemon Grass",
+    "common_english": "Lemon grass",
     "parts_commonly_used": [
       "leaf",
       "leaves",
@@ -5485,6 +10809,15 @@
       "decoction",
       "infusion"
     ]
+  },
+  {
+    "local_name": "werepe",
+    "botanical": "Mucuna pruriens",
+    "common_english": "Cow-hage, cow-itch plant, velvet bean",
+    "parts_commonly_used": [
+      "hairs on the pods"
+    ],
+    "typical_preparations": []
   },
   {
     "local_name": "werepe ibile",
@@ -5506,6 +10839,86 @@
     "typical_preparations": []
   },
   {
+    "local_name": "wutsiyan kadangare",
+    "botanical": "Stachytarpheta indica",
+    "common_english": "Devil's coach whip",
+    "parts_commonly_used": [
+      "leaf",
+      "leaves",
+      "root",
+      "roots"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "yabasi",
+    "botanical": "Allium cepa",
+    "common_english": "Onion",
+    "parts_commonly_used": [
+      "bulb",
+      "skin"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "juice",
+      "raw"
+    ]
+  },
+  {
+    "local_name": "yamurin",
+    "botanical": "Launaea taraxacifolia",
+    "common_english": "Wild lettuce",
+    "parts_commonly_used": [
+      "leaf",
+      "leaves"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "yanka dafi",
+    "botanical": "Triumfetta rhomboidea",
+    "common_english": "Chinese pur/Burweed",
+    "parts_commonly_used": [
+      "bark",
+      "flower fruit",
+      "leaf",
+      "leaves"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "yanrin",
+    "botanical": "Launaea taraxacifolia",
+    "common_english": "Wild lettuce",
+    "parts_commonly_used": [
+      "leaf",
+      "leaves"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "yara",
+    "botanical": "Crotalaria retusa",
+    "common_english": "Rattle box, rattle pea",
+    "parts_commonly_used": [
+      "juice of pods",
+      "leaves",
+      "root",
+      "seeds"
+    ],
+    "typical_preparations": []
+  },
+  {
+    "local_name": "yerepe werepe",
+    "botanical": "Mucuna sloanei",
+    "common_english": "Stinging bean",
+    "parts_commonly_used": [
+      "roots",
+      "seeds"
+    ],
+    "typical_preparations": []
+  },
+  {
     "local_name": "yogboro",
     "botanical": "Triumfetta cordifolia",
     "common_english": null,
@@ -5521,6 +10934,7 @@
     "common_english": null,
     "parts_commonly_used": [
       "leaf",
+      "leaves",
       "root",
       "stem"
     ],
@@ -5554,6 +10968,21 @@
     "typical_preparations": []
   },
   {
+    "local_name": "zinza",
+    "botanical": "Zingiber officinale",
+    "common_english": "Ginger",
+    "parts_commonly_used": [
+      "corm",
+      "rhizome",
+      "root"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "infusion",
+      "raw"
+    ]
+  },
+  {
     "local_name": "zobo",
     "botanical": "Hibiscus sabdariffa",
     "common_english": "Roselle",
@@ -5571,8 +11000,10 @@
     "botanical": "Moringa oleifera",
     "common_english": "Drumstick Tree",
     "parts_commonly_used": [
+      "fruit",
       "leaves",
       "pods",
+      "roots",
       "seeds",
       "stem",
       "stem bark"
@@ -5581,6 +11012,29 @@
       "decoction",
       "infusion",
       "powder"
+    ]
+  },
+  {
+    "local_name": "zugu",
+    "botanical": "Jatropha curcas",
+    "common_english": "Physic nut",
+    "parts_commonly_used": [
+      "flower",
+      "latex",
+      "leaf",
+      "leaves",
+      "root",
+      "roots",
+      "sap",
+      "seed",
+      "stem",
+      "stem bark",
+      "twigs"
+    ],
+    "typical_preparations": [
+      "decoction",
+      "poultice",
+      "topical"
     ]
   }
 ]

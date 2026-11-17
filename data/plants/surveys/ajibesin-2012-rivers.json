@@ -1,0 +1,4310 @@
+[
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 1,
+    "specimen_number": "PNM 1",
+    "botanical_as_published": "Justicia shimperi (Hochst) Danby",
+    "family_as_published": "Acanthaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ekpegwo (Kalabari)",
+    "language_as_published": "Kalabari",
+    "vernacular_names": [
+      {
+        "local_name": "Ekpegwo",
+        "language": "ijn"
+      }
+    ],
+    "parts_as_published": "Leaves (12,13, 16,18, 19,21)",
+    "parts_reported": [
+      "leaves"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 2,
+    "specimen_number": "PNM 2",
+    "botanical_as_published": "Acanthus montanus (Nees) T. Anders",
+    "family_as_published": "Acanthaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Oga (Ikwerre)",
+    "language_as_published": "Ikwerre",
+    "vernacular_names": [
+      {
+        "local_name": "Oga",
+        "language": "ikw"
+      }
+    ],
+    "parts_as_published": "Leaves (1-5,7, 11,12)",
+    "parts_reported": [
+      "leaves"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 3,
+    "specimen_number": "PNM 3",
+    "botanical_as_published": "Dracaena arborea (Willd.) Link. Enum. Hort.",
+    "family_as_published": "Agavaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Odo (Ikwerre)",
+    "language_as_published": "Ikwerre",
+    "vernacular_names": [
+      {
+        "local_name": "Odo",
+        "language": "ikw"
+      }
+    ],
+    "parts_as_published": "Bark, leaves (2-4,7,8,11)",
+    "parts_reported": [
+      "bark",
+      "leaves"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 4,
+    "specimen_number": "PNM 4",
+    "botanical_as_published": "Anacardium occidentale L.",
+    "family_as_published": "Anacardiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Kasiu (Kalabari)",
+    "language_as_published": "Kalabari",
+    "vernacular_names": [
+      {
+        "local_name": "Kasiu",
+        "language": "ijn"
+      }
+    ],
+    "parts_as_published": "Bark, Twigs Leaves (1-23)",
+    "parts_reported": [
+      "bark",
+      "twigs",
+      "leaves"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 5,
+    "specimen_number": "PNM 5",
+    "botanical_as_published": "Spondias mombin L.",
+    "family_as_published": "Anacardiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Aginiran (Ogoni)",
+    "language_as_published": "Ogoni",
+    "vernacular_names": [
+      {
+        "local_name": "Aginiran",
+        "language": null
+      }
+    ],
+    "parts_as_published": "Leaves, Bark (1-23)",
+    "parts_reported": [
+      "leaves",
+      "bark"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": [
+      "language_label_names_a_cluster"
+    ]
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 6,
+    "specimen_number": "PNM 6",
+    "botanical_as_published": "Mangifera indica L.",
+    "family_as_published": "Anacardiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Manko (Ikwerre)",
+    "language_as_published": "Ikwerre",
+    "vernacular_names": [
+      {
+        "local_name": "Manko",
+        "language": "ikw"
+      }
+    ],
+    "parts_as_published": "Leaves and bark (1-23), leaves",
+    "parts_reported": [
+      "leaves",
+      "bark"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 7,
+    "specimen_number": "PNM 7",
+    "botanical_as_published": "Pistacia vera L.",
+    "family_as_published": "Anacardiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Kasiu (Ikwerre)",
+    "language_as_published": "Ikwerre",
+    "vernacular_names": [
+      {
+        "local_name": "Kasiu",
+        "language": "ikw"
+      }
+    ],
+    "parts_as_published": "Nut (1-3,7)",
+    "parts_reported": [
+      "nut"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 8,
+    "specimen_number": "PNM 8",
+    "botanical_as_published": "Annona muricata L.",
+    "family_as_published": "Annonaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Nangi (Kalabari)",
+    "language_as_published": "Kalabari",
+    "vernacular_names": [
+      {
+        "local_name": "Nangi",
+        "language": "ijn"
+      }
+    ],
+    "parts_as_published": "Leaves (12, 14-19,22)",
+    "parts_reported": [
+      "leaves"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 9,
+    "specimen_number": "PNM 9",
+    "botanical_as_published": "Xylopia aethiopica (Dunal) A. Rich.",
+    "family_as_published": "Annonaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Enyi (Kalabari)",
+    "language_as_published": "Kalabari",
+    "vernacular_names": [
+      {
+        "local_name": "Enyi",
+        "language": "ijn"
+      }
+    ],
+    "parts_as_published": "Seeds, Seeds and fruit Fruits (1-23)",
+    "parts_reported": [
+      "seeds",
+      "fruit",
+      "fruits"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 10,
+    "specimen_number": "PNM 10",
+    "botanical_as_published": "Uvaria chamae P. Beauv.",
+    "family_as_published": "Annonaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Mfee (Ikwerre)",
+    "language_as_published": "Ikwerre",
+    "vernacular_names": [
+      {
+        "local_name": "Mfee",
+        "language": "ikw"
+      }
+    ],
+    "parts_as_published": "Root Leaves (5,9)",
+    "parts_reported": [
+      "root",
+      "leaves"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 11,
+    "specimen_number": "PNM 11",
+    "botanical_as_published": "Anethum graveolens L.",
+    "family_as_published": "Apiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Udumie (Kalabari)",
+    "language_as_published": "Kalabari",
+    "vernacular_names": [
+      {
+        "local_name": "Udumie",
+        "language": "ijn"
+      }
+    ],
+    "parts_as_published": "Seed (2,3,9)",
+    "parts_reported": [
+      "seed"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 12,
+    "specimen_number": "PNM 12",
+    "botanical_as_published": "Foeniculum vulgare Mill.",
+    "family_as_published": "Apiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Icheje (Ikwerre)",
+    "language_as_published": "Ikwerre",
+    "vernacular_names": [
+      {
+        "local_name": "Icheje",
+        "language": "ikw"
+      }
+    ],
+    "parts_as_published": "Seed (5,6,7,8,9)",
+    "parts_reported": [
+      "seed"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 13,
+    "specimen_number": "PNM 13",
+    "botanical_as_published": "Pastinaca sativa L.",
+    "family_as_published": "Apiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Udeghe (Kalabari)",
+    "language_as_published": "Kalabari",
+    "vernacular_names": [
+      {
+        "local_name": "Udeghe",
+        "language": "ijn"
+      }
+    ],
+    "parts_as_published": "Leaves (9,13,15, 17,19)",
+    "parts_reported": [
+      "leaves"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 14,
+    "specimen_number": "PNM 14",
+    "botanical_as_published": "Daucus carota L.",
+    "family_as_published": "Apiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Nsoro (Ikwerre)",
+    "language_as_published": "Ikwerre",
+    "vernacular_names": [
+      {
+        "local_name": "Nsoro",
+        "language": "ikw"
+      }
+    ],
+    "parts_as_published": "Root (1-13,15, 18,21)",
+    "parts_reported": [
+      "root"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 15,
+    "specimen_number": "PNM 15",
+    "botanical_as_published": "Alstonia boonei De Willd",
+    "family_as_published": "Apocynaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ulodiri (Ekpeye)",
+    "language_as_published": "Ekpeye",
+    "vernacular_names": [
+      {
+        "local_name": "Ulodiri",
+        "language": "ekp"
+      }
+    ],
+    "parts_as_published": "Bark, Bark and leaves (1-23)",
+    "parts_reported": [
+      "bark",
+      "leaves"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 16,
+    "specimen_number": "PNM 16",
+    "botanical_as_published": "Funtumia elastica (Preuss) Staff",
+    "family_as_published": "Apocynaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Mini-eme (Ikwerre)",
+    "language_as_published": "Ikwerre",
+    "vernacular_names": [
+      {
+        "local_name": "Mini-eme",
+        "language": "ikw"
+      }
+    ],
+    "parts_as_published": "Bark (1-5)",
+    "parts_reported": [
+      "bark"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 17,
+    "specimen_number": "PNM 17",
+    "botanical_as_published": "Rauwolfia vomitoria Afzel",
+    "family_as_published": "Apocynaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Donuinya (Kalabari)",
+    "language_as_published": "Kalabari",
+    "vernacular_names": [
+      {
+        "local_name": "Donuinya",
+        "language": "ijn"
+      }
+    ],
+    "parts_as_published": "RootLeaves (1-23)",
+    "parts_reported": [
+      "root",
+      "leaves"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 18,
+    "specimen_number": "PNM 18",
+    "botanical_as_published": "Xanthosoma sagittifolium (L.) Schott",
+    "family_as_published": "Araceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Edebra (Ogoni)",
+    "language_as_published": "Ogoni",
+    "vernacular_names": [
+      {
+        "local_name": "Edebra",
+        "language": null
+      }
+    ],
+    "parts_as_published": "Leaves Tuber (1-23)",
+    "parts_reported": [
+      "leaves",
+      "tuber"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": [
+      "language_label_names_a_cluster"
+    ]
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 19,
+    "specimen_number": "PNM 19",
+    "botanical_as_published": "Caladium bicolor (Ait) Vent",
+    "family_as_published": "Araceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Honya (Ekpeye)",
+    "language_as_published": "Ekpeye",
+    "vernacular_names": [
+      {
+        "local_name": "Honya",
+        "language": "ekp"
+      }
+    ],
+    "parts_as_published": "Corm (3-21)",
+    "parts_reported": [
+      "corm"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 20,
+    "specimen_number": "PNM 20",
+    "botanical_as_published": "Colocasia esculenta (L.) Schott",
+    "family_as_published": "Araceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Inodin (Ekpeye)",
+    "language_as_published": "Ekpeye",
+    "vernacular_names": [
+      {
+        "local_name": "Inodin",
+        "language": "ekp"
+      }
+    ],
+    "parts_as_published": "Whole plant (13-17, 19,21,23)",
+    "parts_reported": [
+      "whole plant"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 21,
+    "specimen_number": "PNM 21",
+    "botanical_as_published": "Gongronema latifolium Benth.",
+    "family_as_published": "Asclepiadaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Utazi (Ikwerre)",
+    "language_as_published": "Ikwerre",
+    "vernacular_names": [
+      {
+        "local_name": "Utazi",
+        "language": "ikw"
+      }
+    ],
+    "parts_as_published": "Leaves (6-14,17-20)",
+    "parts_reported": [
+      "leaves"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 22,
+    "specimen_number": "PNM 22",
+    "botanical_as_published": "Pergularia dermia (Forsk) Chiov.",
+    "family_as_published": "Asclepiadaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Utazi (Ikwerre)",
+    "language_as_published": "Ikwerre",
+    "vernacular_names": [
+      {
+        "local_name": "Utazi",
+        "language": "ikw"
+      }
+    ],
+    "parts_as_published": "Leaves (1-23)",
+    "parts_reported": [
+      "leaves"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 23,
+    "specimen_number": "PNM 23",
+    "botanical_as_published": "Aspilia africana Oliv. & Hiern",
+    "family_as_published": "Asteraceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Oranjila (Ikwere)",
+    "language_as_published": "Ikwerre",
+    "vernacular_names": [
+      {
+        "local_name": "Oranjila",
+        "language": "ikw"
+      }
+    ],
+    "parts_as_published": "Leaves (1-8,9,11)",
+    "parts_reported": [
+      "leaves"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 24,
+    "specimen_number": "PNM 24",
+    "botanical_as_published": "Chromolaena odorata (L.) King & Robinson",
+    "family_as_published": "Asteraceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Nshegbu awom (Ekpeye)",
+    "language_as_published": "Ekpeye",
+    "vernacular_names": [
+      {
+        "local_name": "Nshegbu awom",
+        "language": "ekp"
+      }
+    ],
+    "parts_as_published": "Leaves (1-23)",
+    "parts_reported": [
+      "leaves"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": [
+      "specimen_shares_a_merged_cell"
+    ]
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 25,
+    "specimen_number": "PNM 25",
+    "botanical_as_published": "Artemisia dracunculus L.",
+    "family_as_published": "Asteraceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ukuro (Ogoni)",
+    "language_as_published": "Ogoni",
+    "vernacular_names": [
+      {
+        "local_name": "Ukuro",
+        "language": null
+      }
+    ],
+    "parts_as_published": "Leaves (8,9,11)",
+    "parts_reported": [
+      "leaves"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": [
+      "language_label_names_a_cluster",
+      "specimen_shares_a_merged_cell"
+    ]
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 26,
+    "specimen_number": "PNM 26",
+    "botanical_as_published": "Emilia coccinea (Sims) G. Don.",
+    "family_as_published": "Asteraceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ntiene (Ekpeye)",
+    "language_as_published": "Ekpeye",
+    "vernacular_names": [
+      {
+        "local_name": "Ntiene",
+        "language": "ekp"
+      }
+    ],
+    "parts_as_published": "Leaves (2-5,8)",
+    "parts_reported": [
+      "leaves"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 27,
+    "specimen_number": "PNM 27",
+    "botanical_as_published": "Ageratum conyzoides L.",
+    "family_as_published": "Asteraceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ogba Okukpo (Kalabari)",
+    "language_as_published": "Kalabari",
+    "vernacular_names": [
+      {
+        "local_name": "Ogba Okukpo",
+        "language": "ijn"
+      }
+    ],
+    "parts_as_published": "Leaves (1,3,4, 9,11-23)",
+    "parts_reported": [
+      "leaves"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 28,
+    "specimen_number": "PNM 28",
+    "botanical_as_published": "Calendula officinalis L.",
+    "family_as_published": "Asteraceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ukpuda (Ikwerre)",
+    "language_as_published": "Ikwerre",
+    "vernacular_names": [
+      {
+        "local_name": "Ukpuda",
+        "language": "ikw"
+      }
+    ],
+    "parts_as_published": "Leaves (12-21)",
+    "parts_reported": [
+      "leaves"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 29,
+    "specimen_number": "PNM 29",
+    "botanical_as_published": "Tridax procumbens L.",
+    "family_as_published": "Asteraceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Mbuli (Ikwerre)",
+    "language_as_published": "Ikwerre",
+    "vernacular_names": [
+      {
+        "local_name": "Mbuli",
+        "language": "ikw"
+      }
+    ],
+    "parts_as_published": "Leaves (1-23)",
+    "parts_reported": [
+      "leaves"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 30,
+    "specimen_number": "PNM 30",
+    "botanical_as_published": "Adenostemma mauritianum DC.",
+    "family_as_published": "Asteraceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Oforu (Ikwerre)",
+    "language_as_published": "Ikwerre",
+    "vernacular_names": [
+      {
+        "local_name": "Oforu",
+        "language": "ikw"
+      }
+    ],
+    "parts_as_published": "Leaves (12-23)",
+    "parts_reported": [
+      "leaves"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 31,
+    "specimen_number": "PNM 31",
+    "botanical_as_published": "Vernonia amygdalina Del.",
+    "family_as_published": "Asteraceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Olugbu (Ekpeye)",
+    "language_as_published": "Ekpeye",
+    "vernacular_names": [
+      {
+        "local_name": "Olugbu",
+        "language": "ekp"
+      }
+    ],
+    "parts_as_published": "LeavesBark (1-23)",
+    "parts_reported": [
+      "leaves",
+      "bark"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 32,
+    "specimen_number": "PNM 32",
+    "botanical_as_published": "Tussilago farfara L.",
+    "family_as_published": "Asteraceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Odoupo (Ekpeye)",
+    "language_as_published": "Ekpeye",
+    "vernacular_names": [
+      {
+        "local_name": "Odoupo",
+        "language": "ekp"
+      }
+    ],
+    "parts_as_published": "Leaves (4,9)",
+    "parts_reported": [
+      "leaves"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 33,
+    "specimen_number": "PNM 33",
+    "botanical_as_published": "Bassella alba L.",
+    "family_as_published": "Bassellaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Gbologi (Ikwerre)",
+    "language_as_published": "Ikwerre",
+    "vernacular_names": [
+      {
+        "local_name": "Gbologi",
+        "language": "ikw"
+      }
+    ],
+    "parts_as_published": "Whole plant (1-3,6,8)",
+    "parts_reported": [
+      "whole plant"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 34,
+    "specimen_number": "PNM 34",
+    "botanical_as_published": "Corylus avellana L.",
+    "family_as_published": "Betulaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "'Hazel' (Ikwerre)",
+    "language_as_published": "Ikwerre",
+    "vernacular_names": [
+      {
+        "local_name": "Hazel",
+        "language": "ikw"
+      }
+    ],
+    "parts_as_published": "Leaves Leaves and flowers (1,4,5,7,9)",
+    "parts_reported": [
+      "leaves",
+      "flowers"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 35,
+    "specimen_number": "PNM 35",
+    "botanical_as_published": "Newbouldia laevis (P. Beauv.) Seeman ex Beauv.",
+    "family_as_published": "Bignoniaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ogilisi (Ogoni)",
+    "language_as_published": "Ogoni",
+    "vernacular_names": [
+      {
+        "local_name": "Ogilisi",
+        "language": null
+      }
+    ],
+    "parts_as_published": "Leaves and root; leaves Bark (1-8,11)",
+    "parts_reported": [
+      "leaves",
+      "root",
+      "bark"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": [
+      "language_label_names_a_cluster"
+    ]
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 36,
+    "specimen_number": "PNM 36",
+    "botanical_as_published": "Spathodea campanulata P. Beauv.",
+    "family_as_published": "Bignoniaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Arochukwu (Ikwerre)",
+    "language_as_published": "Ikwerre",
+    "vernacular_names": [
+      {
+        "local_name": "Arochukwu",
+        "language": "ikw"
+      }
+    ],
+    "parts_as_published": "Leaves Bark (5,6,9,11)",
+    "parts_reported": [
+      "leaves",
+      "bark"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 37,
+    "specimen_number": "PNM 37",
+    "botanical_as_published": "Heliotropium indicum L.",
+    "family_as_published": "Boraginaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Azu (Ekpeye)",
+    "language_as_published": "Ekpeye",
+    "vernacular_names": [
+      {
+        "local_name": "Azu",
+        "language": "ekp"
+      }
+    ],
+    "parts_as_published": "Whole plant (1,3,4,7)",
+    "parts_reported": [
+      "whole plant"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 38,
+    "specimen_number": "PNM 38",
+    "botanical_as_published": "Brassica nigra (L.) W.D.J. Koch",
+    "family_as_published": "Brassicaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ogwu nje (Kalabari)",
+    "language_as_published": "Kalabari",
+    "vernacular_names": [
+      {
+        "local_name": "Ogwu nje",
+        "language": "ijn"
+      }
+    ],
+    "parts_as_published": "Leaves Seeds (2,6,8,10,11)",
+    "parts_reported": [
+      "leaves",
+      "seeds"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 39,
+    "specimen_number": "PNM 39",
+    "botanical_as_published": "Brassica oleracea L.",
+    "family_as_published": "Brassicaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ogbeagu (kalabari)",
+    "language_as_published": "Kalabari",
+    "vernacular_names": [
+      {
+        "local_name": "Ogbeagu",
+        "language": "ijn"
+      }
+    ],
+    "parts_as_published": "Leaves (2,3,5,9)",
+    "parts_reported": [
+      "leaves"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 40,
+    "specimen_number": "PNM 40",
+    "botanical_as_published": "Nasturtium officinale R. Br",
+    "family_as_published": "Brassicaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Aguba (Ikwerre)",
+    "language_as_published": "Ikwerre",
+    "vernacular_names": [
+      {
+        "local_name": "Aguba",
+        "language": "ikw"
+      }
+    ],
+    "parts_as_published": "Leaves (3,9,11)",
+    "parts_reported": [
+      "leaves"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 41,
+    "specimen_number": "PNM 41",
+    "botanical_as_published": "Ananas comosus (L.) Merrill",
+    "family_as_published": "Bromeliaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ediebo (Ekpeye)",
+    "language_as_published": "Ekpeye",
+    "vernacular_names": [
+      {
+        "local_name": "Ediebo",
+        "language": "ekp"
+      }
+    ],
+    "parts_as_published": "Fruit (1-23)",
+    "parts_reported": [
+      "fruit"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 42,
+    "specimen_number": "PNM 42",
+    "botanical_as_published": "Dacryodes edulis (G. Don) H.J. Lam",
+    "family_as_published": "Burseraceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Eben (Ikwerre)",
+    "language_as_published": "Ikwerre",
+    "vernacular_names": [
+      {
+        "local_name": "Eben",
+        "language": "ikw"
+      }
+    ],
+    "parts_as_published": "Leaves (1-23)",
+    "parts_reported": [
+      "leaves"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 43,
+    "specimen_number": "PNM 43",
+    "botanical_as_published": "Dialium guineense Willd",
+    "family_as_published": "Caesalpiniaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ugbe-him (Ikwerre)",
+    "language_as_published": "Ikwerre",
+    "vernacular_names": [
+      {
+        "local_name": "Ugbe-him",
+        "language": "ikw"
+      }
+    ],
+    "parts_as_published": "Leaves (4-8)",
+    "parts_reported": [
+      "leaves"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 44,
+    "specimen_number": "PNM 44",
+    "botanical_as_published": "Senna alata L.",
+    "family_as_published": "Caesalpiniaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Nduruchi (Ikwerre)",
+    "language_as_published": "Ikwerre",
+    "vernacular_names": [
+      {
+        "local_name": "Nduruchi",
+        "language": "ikw"
+      }
+    ],
+    "parts_as_published": "Leaves",
+    "parts_reported": [
+      "leaves"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": [
+      "specimen_shares_a_merged_cell"
+    ]
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 45,
+    "specimen_number": "PNM 45",
+    "botanical_as_published": "Senna occidentalis (L.) Link",
+    "family_as_published": "Caesalpiniaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Agbara (Ogoni)",
+    "language_as_published": "Ogoni",
+    "vernacular_names": [
+      {
+        "local_name": "Agbara",
+        "language": null
+      }
+    ],
+    "parts_as_published": "Root (1-23)",
+    "parts_reported": [
+      "root"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": [
+      "language_label_names_a_cluster",
+      "specimen_shares_a_merged_cell"
+    ]
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 46,
+    "specimen_number": "PNM 46",
+    "botanical_as_published": "Distemonanthus benthamianus Baill.",
+    "family_as_published": "Caesalpiniaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Osashi (Ikwerre)",
+    "language_as_published": "Ikwerre",
+    "vernacular_names": [
+      {
+        "local_name": "Osashi",
+        "language": "ikw"
+      }
+    ],
+    "parts_as_published": "Bark (4,5,7,11)",
+    "parts_reported": [
+      "bark"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 47,
+    "specimen_number": "PNM 47",
+    "botanical_as_published": "Humulus lupulus L.",
+    "family_as_published": "Cannabaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Oshikapa (Ogoni)",
+    "language_as_published": "Ogoni",
+    "vernacular_names": [
+      {
+        "local_name": "Oshikapa",
+        "language": null
+      }
+    ],
+    "parts_as_published": "Leaves Bark (9,10)",
+    "parts_reported": [
+      "leaves",
+      "bark"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": [
+      "language_label_names_a_cluster"
+    ]
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 48,
+    "specimen_number": "PNM 48",
+    "botanical_as_published": "Crateva adansonii DC",
+    "family_as_published": "Capparaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Amakarode (Kalabari)",
+    "language_as_published": "Kalabari",
+    "vernacular_names": [
+      {
+        "local_name": "Amakarode",
+        "language": "ijn"
+      }
+    ],
+    "parts_as_published": "Leaves Bark (1-9, 19, 21, 22)",
+    "parts_reported": [
+      "leaves",
+      "bark"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 49,
+    "specimen_number": "PNM 49",
+    "botanical_as_published": "Carica papaya L.",
+    "family_as_published": "Caricaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "“Pawpaw” (Ogoni)",
+    "language_as_published": "Ogoni",
+    "vernacular_names": [
+      {
+        "local_name": "Pawpaw",
+        "language": null
+      }
+    ],
+    "parts_as_published": "Leaves (1-23) Fruit Root",
+    "parts_reported": [
+      "leaves",
+      "fruit",
+      "root"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": [
+      "language_label_names_a_cluster"
+    ]
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 50,
+    "specimen_number": "PNM 50",
+    "botanical_as_published": "Stellaria media (L) Vill..",
+    "family_as_published": "Caryophyllaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ahilia okuko (Ikwerre)",
+    "language_as_published": "Ikwerre",
+    "vernacular_names": [
+      {
+        "local_name": "Ahilia okuko",
+        "language": "ikw"
+      }
+    ],
+    "parts_as_published": "Leaves (3,8,9,11)",
+    "parts_reported": [
+      "leaves"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 51,
+    "specimen_number": "PNM 51",
+    "botanical_as_published": "Garcinia kola Heckel",
+    "family_as_published": "Clusiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Akilu, akama (Ikwerre)",
+    "language_as_published": "Ikwerre",
+    "vernacular_names": [
+      {
+        "local_name": "Akilu",
+        "language": "ikw"
+      },
+      {
+        "local_name": "akama",
+        "language": "ikw"
+      }
+    ],
+    "parts_as_published": "Seed (1-23)",
+    "parts_reported": [
+      "seed"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 52,
+    "specimen_number": "PNM 52",
+    "botanical_as_published": "Terminalia superba Engl and Diels",
+    "family_as_published": "Combretaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Egae (Ogoni)",
+    "language_as_published": "Ogoni",
+    "vernacular_names": [
+      {
+        "local_name": "Egae",
+        "language": null
+      }
+    ],
+    "parts_as_published": "Leaves Stem, root (1,3,4,6,8)",
+    "parts_reported": [
+      "leaves",
+      "stem",
+      "root"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": [
+      "language_label_names_a_cluster"
+    ]
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 53,
+    "specimen_number": "PNM 53",
+    "botanical_as_published": "Combretum racemosum P. Beauv.",
+    "family_as_published": "Combretaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Adallabanya (Kalabari)",
+    "language_as_published": "Kalabari",
+    "vernacular_names": [
+      {
+        "local_name": "Adallabanya",
+        "language": "ijn"
+      }
+    ],
+    "parts_as_published": "Leaves (12,15,16,18,19,21-23-W)",
+    "parts_reported": [
+      "leaves"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 54,
+    "specimen_number": "PNM 54",
+    "botanical_as_published": "Palisota hirsuta (Thunb.) K. Schum.",
+    "family_as_published": "Commelinaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Asatie (Ekpeye)",
+    "language_as_published": "Ekpeye",
+    "vernacular_names": [
+      {
+        "local_name": "Asatie",
+        "language": "ekp"
+      }
+    ],
+    "parts_as_published": "Leaves (8,10)",
+    "parts_reported": [
+      "leaves"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 55,
+    "specimen_number": "PNM 55",
+    "botanical_as_published": "Ipomoea involucrata P. Beauv.",
+    "family_as_published": "Convolvulaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Fifilori (Kalabari)",
+    "language_as_published": "Kalabari",
+    "vernacular_names": [
+      {
+        "local_name": "Fifilori",
+        "language": "ijn"
+      }
+    ],
+    "parts_as_published": "Leaves Leaves and stem (1-8,9)",
+    "parts_reported": [
+      "leaves",
+      "stem"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 56,
+    "specimen_number": "PNM 56",
+    "botanical_as_published": "Ipomoea mauritania Jacq.",
+    "family_as_published": "Convolvulaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Mgba-ala",
+    "language_as_published": null,
+    "vernacular_names": [
+      {
+        "local_name": "Mgba-ala",
+        "language": null
+      }
+    ],
+    "parts_as_published": "Root (1,2,6,8,11)",
+    "parts_reported": [
+      "root"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": [
+      "language_not_printed"
+    ]
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 57,
+    "specimen_number": "PNM 57",
+    "botanical_as_published": "Ipomoea quamoclit L.",
+    "family_as_published": "Convolvulaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Kpulibo (Ogoni)",
+    "language_as_published": "Ogoni",
+    "vernacular_names": [
+      {
+        "local_name": "Kpulibo",
+        "language": null
+      }
+    ],
+    "parts_as_published": "Leaves (12-23)",
+    "parts_reported": [
+      "leaves"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": [
+      "language_label_names_a_cluster"
+    ]
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 58,
+    "specimen_number": "PNM 58",
+    "botanical_as_published": "Cnestis ferruginea DC.",
+    "family_as_published": "Connaraceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Okpe-nketa (Ikwerre)",
+    "language_as_published": "Ikwerre",
+    "vernacular_names": [
+      {
+        "local_name": "Okpe-nketa",
+        "language": "ikw"
+      }
+    ],
+    "parts_as_published": "Leaves (12,13,14,17)",
+    "parts_reported": [
+      "leaves"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 59,
+    "specimen_number": "PNM 59",
+    "botanical_as_published": "Bryophyllum pinnatum (Lam) Oken",
+    "family_as_published": "Crassulaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Nkwaaka (Ekpeye)",
+    "language_as_published": "Ekpeye",
+    "vernacular_names": [
+      {
+        "local_name": "Nkwaaka",
+        "language": "ekp"
+      }
+    ],
+    "parts_as_published": "Leaves (4,6,7,8,9)",
+    "parts_reported": [
+      "leaves"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 60,
+    "specimen_number": "PNM 60",
+    "botanical_as_published": "Adenopus breviflorus Benth",
+    "family_as_published": "Cucurbitaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ukuro (Ekpeye)",
+    "language_as_published": "Ekpeye",
+    "vernacular_names": [
+      {
+        "local_name": "Ukuro",
+        "language": "ekp"
+      }
+    ],
+    "parts_as_published": "Fruit Leaves (1-11)",
+    "parts_reported": [
+      "fruit",
+      "leaves"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 61,
+    "specimen_number": "PNM 61",
+    "botanical_as_published": "Citrullus colocynthis (L.) Schrad",
+    "family_as_published": "Cucurbitaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Egusi (Kalabari)",
+    "language_as_published": "Kalabari",
+    "vernacular_names": [
+      {
+        "local_name": "Egusi",
+        "language": "ijn"
+      }
+    ],
+    "parts_as_published": "Fruit Leaves and fruit Seed shell (1-8,11)",
+    "parts_reported": [
+      "fruit",
+      "leaves",
+      "seed shell"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 62,
+    "specimen_number": "PNM 62",
+    "botanical_as_published": "Momordica charantia L.",
+    "family_as_published": "Cucurbitaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Alo ose (Ogoni)",
+    "language_as_published": "Ogoni",
+    "vernacular_names": [
+      {
+        "local_name": "Alo ose",
+        "language": null
+      }
+    ],
+    "parts_as_published": "Leaves and fruit Fruit (1,4,5,7,10,11)",
+    "parts_reported": [
+      "leaves",
+      "fruit"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": [
+      "language_label_names_a_cluster"
+    ]
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 63,
+    "specimen_number": "PNM 63",
+    "botanical_as_published": "Momordica balsamina L.",
+    "family_as_published": "Cucurbitaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Sibifuka (Kalabari)",
+    "language_as_published": "Kalabari",
+    "vernacular_names": [
+      {
+        "local_name": "Sibifuka",
+        "language": "ijn"
+      }
+    ],
+    "parts_as_published": "Whole plant (12,13)",
+    "parts_reported": [
+      "whole plant"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 64,
+    "specimen_number": "PNM 64",
+    "botanical_as_published": "Cucurbita maxima Duchesne",
+    "family_as_published": "Cucurbitaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Akumocha (Ikwerre)",
+    "language_as_published": "Ikwerre",
+    "vernacular_names": [
+      {
+        "local_name": "Akumocha",
+        "language": "ikw"
+      }
+    ],
+    "parts_as_published": "Leaves (14-20,22)",
+    "parts_reported": [
+      "leaves"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 65,
+    "specimen_number": "PNM 65",
+    "botanical_as_published": "Luffa cylindrica (L.) M.J. Roem",
+    "family_as_published": "Cucurbitaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ania mme",
+    "language_as_published": null,
+    "vernacular_names": [
+      {
+        "local_name": "Ania mme",
+        "language": null
+      }
+    ],
+    "parts_as_published": "Leaves Root (2-8,11)",
+    "parts_reported": [
+      "leaves",
+      "root"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": [
+      "language_not_printed"
+    ]
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 66,
+    "specimen_number": "PNM 66",
+    "botanical_as_published": "Telfaria occidentalis Hook. F.",
+    "family_as_published": "Cucurbitaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Mkpuru ugu",
+    "language_as_published": null,
+    "vernacular_names": [
+      {
+        "local_name": "Mkpuru ugu",
+        "language": null
+      }
+    ],
+    "parts_as_published": "Flowers, leaves (1-23)",
+    "parts_reported": [
+      "flowers",
+      "leaves"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": [
+      "language_not_printed"
+    ]
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 67,
+    "specimen_number": "PNM 67",
+    "botanical_as_published": "Dioscorea villosa L.",
+    "family_as_published": "Dioscoreaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ododo (Kalabari)",
+    "language_as_published": "Kalabari",
+    "vernacular_names": [
+      {
+        "local_name": "Ododo",
+        "language": "ijn"
+      }
+    ],
+    "parts_as_published": "Tuber (12,13,16,19,20,21)",
+    "parts_reported": [
+      "tuber"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 68,
+    "specimen_number": "PNM 68",
+    "botanical_as_published": "Dioscorea rotundata Poir",
+    "family_as_published": "Dioscoreaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Fingi (Kalabari)",
+    "language_as_published": "Kalabari",
+    "vernacular_names": [
+      {
+        "local_name": "Fingi",
+        "language": "ijn"
+      }
+    ],
+    "parts_as_published": "Leaves (13-17,20,22,23)",
+    "parts_reported": [
+      "leaves"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 69,
+    "specimen_number": "PNM 69",
+    "botanical_as_published": "Equisetum arvense L.",
+    "family_as_published": "Equisetaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Oru etemi (Kalabari)",
+    "language_as_published": "Kalabari",
+    "vernacular_names": [
+      {
+        "local_name": "Oru etemi",
+        "language": "ijn"
+      }
+    ],
+    "parts_as_published": "Leaves (4-21)",
+    "parts_reported": [
+      "leaves"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 70,
+    "specimen_number": "PNM 70",
+    "botanical_as_published": "Vaccinium myrtillus L.",
+    "family_as_published": "Ericaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Anyaoka (Ikwerre)",
+    "language_as_published": "Ikwerre",
+    "vernacular_names": [
+      {
+        "local_name": "Anyaoka",
+        "language": "ikw"
+      }
+    ],
+    "parts_as_published": "Leaves (15-20,21,23)",
+    "parts_reported": [
+      "leaves"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 71,
+    "specimen_number": "PNM 71",
+    "botanical_as_published": "Croton lobatus L.",
+    "family_as_published": "Euphorbiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Okwe (Ikwerre)",
+    "language_as_published": "Ikwerre",
+    "vernacular_names": [
+      {
+        "local_name": "Okwe",
+        "language": "ikw"
+      }
+    ],
+    "parts_as_published": "Leaves (1,5,7,8,11)",
+    "parts_reported": [
+      "leaves"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 72,
+    "specimen_number": "PNM 72",
+    "botanical_as_published": "Ricinus communis L.",
+    "family_as_published": "Euphorbiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ogiri aro (Ogoni)",
+    "language_as_published": "Ogoni",
+    "vernacular_names": [
+      {
+        "local_name": "Ogiri aro",
+        "language": null
+      }
+    ],
+    "parts_as_published": "Seed Leaves (2-8,9-14)",
+    "parts_reported": [
+      "seed",
+      "leaves"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": [
+      "language_label_names_a_cluster"
+    ]
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 73,
+    "specimen_number": "PNM 73",
+    "botanical_as_published": "Alchornea cordifolia (Schum & Thonn.) Muell. Arg.",
+    "family_as_published": "Euphorbiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Epai (Ikwerre)",
+    "language_as_published": "Ikwerre",
+    "vernacular_names": [
+      {
+        "local_name": "Epai",
+        "language": "ikw"
+      }
+    ],
+    "parts_as_published": "Leaves Leaves and root (3,6,7,9,11)",
+    "parts_reported": [
+      "leaves",
+      "root"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 74,
+    "specimen_number": "PNM 74",
+    "botanical_as_published": "Acalypha fimbriata (Schum & Thonn) Forsk",
+    "family_as_published": "Euphorbiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Abalebaji (Kalabari)",
+    "language_as_published": "Kalabari",
+    "vernacular_names": [
+      {
+        "local_name": "Abalebaji",
+        "language": "ijn"
+      }
+    ],
+    "parts_as_published": "Leaves Leaves and twigs (1-7,9,11)",
+    "parts_reported": [
+      "leaves",
+      "twigs"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 75,
+    "specimen_number": "PNM 75",
+    "botanical_as_published": "Jatropha curcas L.",
+    "family_as_published": "Euphorbiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Olulu idu (Ogoni)",
+    "language_as_published": "Ogoni",
+    "vernacular_names": [
+      {
+        "local_name": "Olulu idu",
+        "language": null
+      }
+    ],
+    "parts_as_published": "Leaves Twigs Root ((1-23)",
+    "parts_reported": [
+      "leaves",
+      "twigs",
+      "root"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": [
+      "language_label_names_a_cluster"
+    ]
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 76,
+    "specimen_number": "PNM 76",
+    "botanical_as_published": "Tetracarpidium conophorum (Mull. Arg.) Hutch & dalz.",
+    "family_as_published": "Euphorbiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ukpa (Ikwerre)",
+    "language_as_published": "Ikwerre",
+    "vernacular_names": [
+      {
+        "local_name": "Ukpa",
+        "language": "ikw"
+      }
+    ],
+    "parts_as_published": "Leaves and seeds (5,8,9)",
+    "parts_reported": [
+      "leaves",
+      "seeds"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 77,
+    "specimen_number": "PNM 77",
+    "botanical_as_published": "Euphorbia hirta L.",
+    "family_as_published": "Euphorbiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Okwu ngwo (Ikwerre)",
+    "language_as_published": "Ikwerre",
+    "vernacular_names": [
+      {
+        "local_name": "Okwu ngwo",
+        "language": "ikw"
+      }
+    ],
+    "parts_as_published": "Whole plant (12,15,16,18,19,20)",
+    "parts_reported": [
+      "whole plant"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 78,
+    "specimen_number": "PNM 78",
+    "botanical_as_published": "Croton zambesicus L.",
+    "family_as_published": "Euphorbiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Alele (Ogoni)",
+    "language_as_published": "Ogoni",
+    "vernacular_names": [
+      {
+        "local_name": "Alele",
+        "language": null
+      }
+    ],
+    "parts_as_published": "Leaves (12-15,17,22,23)",
+    "parts_reported": [
+      "leaves"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": [
+      "language_label_names_a_cluster"
+    ]
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 79,
+    "specimen_number": "PNM 79",
+    "botanical_as_published": "Glycine max L.",
+    "family_as_published": "Fabaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Mmanu agwa (Ekpeye)",
+    "language_as_published": "Ekpeye",
+    "vernacular_names": [
+      {
+        "local_name": "Mmanu agwa",
+        "language": "ekp"
+      }
+    ],
+    "parts_as_published": "Seed (2,3,4,6,11,7,9,10,13,16,17,21,22)",
+    "parts_reported": [
+      "seed"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 80,
+    "specimen_number": "PNM 80",
+    "botanical_as_published": "Caloncoba echinata (Oliv.) Glig",
+    "family_as_published": "Flacourtiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Uhie (Kalabari)",
+    "language_as_published": "Kalabari",
+    "vernacular_names": [
+      {
+        "local_name": "Uhie",
+        "language": "ijn"
+      }
+    ],
+    "parts_as_published": "Leaves Seed (6,8,9,13,14,19)",
+    "parts_reported": [
+      "leaves",
+      "seed"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 81,
+    "specimen_number": "PNM 81",
+    "botanical_as_published": "Pelargonium graveolens L.",
+    "family_as_published": "Geraniaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Apara (Ikwerre)",
+    "language_as_published": "Ikwerre",
+    "vernacular_names": [
+      {
+        "local_name": "Apara",
+        "language": "ikw"
+      }
+    ],
+    "parts_as_published": "Seed and fruit (3,5,8,10)",
+    "parts_reported": [
+      "seed",
+      "fruit"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 82,
+    "specimen_number": "PNM 82",
+    "botanical_as_published": "Emblica officinalis L.",
+    "family_as_published": "Grossulariaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Igbero (Kalabari)",
+    "language_as_published": "Kalabari",
+    "vernacular_names": [
+      {
+        "local_name": "Igbero",
+        "language": "ijn"
+      }
+    ],
+    "parts_as_published": "Leaves (16,17,19,20,21,23)",
+    "parts_reported": [
+      "leaves"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 83,
+    "specimen_number": "PNM 83",
+    "botanical_as_published": "Hamamelis virginiana L.",
+    "family_as_published": "Hamamelidaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ogwu ogwu (Ikwerre)",
+    "language_as_published": "Ikwerre",
+    "vernacular_names": [
+      {
+        "local_name": "Ogwu ogwu",
+        "language": "ikw"
+      }
+    ],
+    "parts_as_published": "Leaves and stem (1-23)",
+    "parts_reported": [
+      "leaves",
+      "stem"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 84,
+    "specimen_number": "PNM 84",
+    "botanical_as_published": "Lasianthera africana P. Beauv",
+    "family_as_published": "Icacinaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Turumma (Ekpeye)",
+    "language_as_published": "Ekpeye",
+    "vernacular_names": [
+      {
+        "local_name": "Turumma",
+        "language": "ekp"
+      }
+    ],
+    "parts_as_published": "LeavesFruit (1-23)",
+    "parts_reported": [
+      "leaves",
+      "fruit"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 85,
+    "specimen_number": "PNM 85",
+    "botanical_as_published": "Icacina trichantha Oliv.",
+    "family_as_published": "Icacinaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Mbia (Ikwerre)",
+    "language_as_published": "Ikwerre",
+    "vernacular_names": [
+      {
+        "local_name": "Mbia",
+        "language": "ikw"
+      }
+    ],
+    "parts_as_published": "Leaves (12-15,18,22)",
+    "parts_reported": [
+      "leaves"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 86,
+    "specimen_number": "PNM 86",
+    "botanical_as_published": "Irvingia gabonensis (Ambry-lecomte ex O' Rorke) Baill.",
+    "family_as_published": "Irvingiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ugili (Ikwerre)",
+    "language_as_published": "Ikwerre",
+    "vernacular_names": [
+      {
+        "local_name": "Ugili",
+        "language": "ikw"
+      }
+    ],
+    "parts_as_published": "Leaves Bark Seed (1-23)",
+    "parts_reported": [
+      "leaves",
+      "bark",
+      "seed"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 87,
+    "specimen_number": "PNM 87",
+    "botanical_as_published": "Origanum majorana L.",
+    "family_as_published": "Lamiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Atagbasi (Kalabari)",
+    "language_as_published": "Kalabari",
+    "vernacular_names": [
+      {
+        "local_name": "Atagbasi",
+        "language": "ijn"
+      }
+    ],
+    "parts_as_published": "Flower (2-9,11)",
+    "parts_reported": [
+      "flower"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 88,
+    "specimen_number": "PNM 88",
+    "botanical_as_published": "Rosmarinus officinalis L.",
+    "family_as_published": "Lamiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Imerewo (Ogoni)",
+    "language_as_published": "Ogoni",
+    "vernacular_names": [
+      {
+        "local_name": "Imerewo",
+        "language": null
+      }
+    ],
+    "parts_as_published": "Leaves (9,11)",
+    "parts_reported": [
+      "leaves"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": [
+      "language_label_names_a_cluster"
+    ]
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 89,
+    "specimen_number": "PNM 89",
+    "botanical_as_published": "Marrubium vulgare L.",
+    "family_as_published": "Lamiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Oguru (Ogoni)",
+    "language_as_published": "Ogoni",
+    "vernacular_names": [
+      {
+        "local_name": "Oguru",
+        "language": null
+      }
+    ],
+    "parts_as_published": "Leaves Leaves and seeds (1-23)",
+    "parts_reported": [
+      "leaves",
+      "seeds"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": [
+      "language_label_names_a_cluster"
+    ]
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 90,
+    "specimen_number": "PNM 90",
+    "botanical_as_published": "Thymus vulgaris L.",
+    "family_as_published": "Lamiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Akuko (Ikwerre)",
+    "language_as_published": "Ikwerre",
+    "vernacular_names": [
+      {
+        "local_name": "Akuko",
+        "language": "ikw"
+      }
+    ],
+    "parts_as_published": "Leaves (1-8,10,11)",
+    "parts_reported": [
+      "leaves"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 91,
+    "specimen_number": "PNM 91",
+    "botanical_as_published": "Ocimum basilicum L.",
+    "family_as_published": "Lamiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ihiri (Kalabari)",
+    "language_as_published": "Kalabari",
+    "vernacular_names": [
+      {
+        "local_name": "Ihiri",
+        "language": "ijn"
+      }
+    ],
+    "parts_as_published": "Leaves (1,4,7,9,11)",
+    "parts_reported": [
+      "leaves"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 92,
+    "specimen_number": "PNM 92",
+    "botanical_as_published": "Ocimum gratissimum L.",
+    "family_as_published": "Lamiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Odukwu (Ekpeye)",
+    "language_as_published": "Ekpeye",
+    "vernacular_names": [
+      {
+        "local_name": "Odukwu",
+        "language": "ekp"
+      }
+    ],
+    "parts_as_published": "Leaves (1-23)",
+    "parts_reported": [
+      "leaves"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 93,
+    "specimen_number": "PNM 93",
+    "botanical_as_published": "Solenostemon monostachyus (P. Beauv.) Briq.",
+    "family_as_published": "Lamiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Egba (Ikwerre)",
+    "language_as_published": "Ikwerre",
+    "vernacular_names": [
+      {
+        "local_name": "Egba",
+        "language": "ikw"
+      }
+    ],
+    "parts_as_published": "Leaves (5-11)",
+    "parts_reported": [
+      "leaves"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 94,
+    "specimen_number": "PNM 94",
+    "botanical_as_published": "Hyptis pectinata (L.) Poit",
+    "family_as_published": "Lamiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Tululie (Ekpeye)",
+    "language_as_published": "Ekpeye",
+    "vernacular_names": [
+      {
+        "local_name": "Tululie",
+        "language": "ekp"
+      }
+    ],
+    "parts_as_published": "Whole plant (4-8)",
+    "parts_reported": [
+      "whole plant"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 95,
+    "specimen_number": "PNM 95",
+    "botanical_as_published": "Salvia officinalis L.",
+    "family_as_published": "Lamiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Uzi (Ikwerre)",
+    "language_as_published": "Ikwerre",
+    "vernacular_names": [
+      {
+        "local_name": "Uzi",
+        "language": "ikw"
+      }
+    ],
+    "parts_as_published": "Leaves, stem (12-19,21)",
+    "parts_reported": [
+      "leaves",
+      "stem"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 96,
+    "specimen_number": "PNM 96",
+    "botanical_as_published": "Hyssopus officinalis L.",
+    "family_as_published": "Lamiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ofete (Ikwerre)",
+    "language_as_published": "Ikwerre",
+    "vernacular_names": [
+      {
+        "local_name": "Ofete",
+        "language": "ikw"
+      }
+    ],
+    "parts_as_published": "Root, stem (13,15,16,18,20,22)",
+    "parts_reported": [
+      "root",
+      "stem"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 97,
+    "specimen_number": "PNM 97",
+    "botanical_as_published": "Satureja hortensis L.",
+    "family_as_published": "Lamiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Aghara (Ikwerre)",
+    "language_as_published": "Ikwerre",
+    "vernacular_names": [
+      {
+        "local_name": "Aghara",
+        "language": "ikw"
+      }
+    ],
+    "parts_as_published": "Leaves, stem (12-14,16,17,19,21)",
+    "parts_reported": [
+      "leaves",
+      "stem"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 98,
+    "specimen_number": "PNM 98",
+    "botanical_as_published": "Cassytha filiformis L.",
+    "family_as_published": "Lauraceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ngbu akpu (Ikwerre)",
+    "language_as_published": "Ikwerre",
+    "vernacular_names": [
+      {
+        "local_name": "Ngbu akpu",
+        "language": "ikw"
+      }
+    ],
+    "parts_as_published": "Whole plant (2-10)",
+    "parts_reported": [
+      "whole plant"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 99,
+    "specimen_number": "PNM 99",
+    "botanical_as_published": "Persea americana Mill.",
+    "family_as_published": "Lauraceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ube (Ikwerre)",
+    "language_as_published": "Ikwerre",
+    "vernacular_names": [
+      {
+        "local_name": "Ube",
+        "language": "ikw"
+      }
+    ],
+    "parts_as_published": "Fruits and leaves Fruit (1-23)",
+    "parts_reported": [
+      "fruits",
+      "leaves",
+      "fruit"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 100,
+    "specimen_number": "PNM 100",
+    "botanical_as_published": "Allium cepa L.",
+    "family_as_published": "Liliaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ayo (Ikwerre)",
+    "language_as_published": "Ikwerre",
+    "vernacular_names": [
+      {
+        "local_name": "Ayo",
+        "language": "ikw"
+      }
+    ],
+    "parts_as_published": "Bulb (1-23)",
+    "parts_reported": [
+      "bulb"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 101,
+    "specimen_number": "PNM 101",
+    "botanical_as_published": "Allium sativum L.",
+    "family_as_published": "Liliaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ayo odi (Ikwerre)",
+    "language_as_published": "Ikwerre",
+    "vernacular_names": [
+      {
+        "local_name": "Ayo odi",
+        "language": "ikw"
+      }
+    ],
+    "parts_as_published": "Clove (1-23)",
+    "parts_reported": [
+      "clove"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 102,
+    "specimen_number": "PNM 102",
+    "botanical_as_published": "Allium ascalonicum L.",
+    "family_as_published": "Liliaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Mbele (Ikwerre)",
+    "language_as_published": "Ikwerre",
+    "vernacular_names": [
+      {
+        "local_name": "Mbele",
+        "language": "ikw"
+      }
+    ],
+    "parts_as_published": "Leaves (12-18,20,22)",
+    "parts_reported": [
+      "leaves"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 103,
+    "specimen_number": "PNM 103",
+    "botanical_as_published": "Allium schoenoprasum L.",
+    "family_as_published": "Liliaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ayo ohia (Ikwerre)",
+    "language_as_published": "Ikwerre",
+    "vernacular_names": [
+      {
+        "local_name": "Ayo ohia",
+        "language": "ikw"
+      }
+    ],
+    "parts_as_published": "Leaves (13,15,16,18,19,23)",
+    "parts_reported": [
+      "leaves"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 104,
+    "specimen_number": "PNM 104",
+    "botanical_as_published": "Aloe vera L.",
+    "family_as_published": "Liliaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "“Aloe vera”",
+    "language_as_published": null,
+    "vernacular_names": [],
+    "parts_as_published": "Leaves (1-23)",
+    "parts_reported": [
+      "leaves"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": [
+      "language_not_printed",
+      "local_name_column_repeats_the_botanical_name"
+    ]
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 105,
+    "specimen_number": "PNM 105",
+    "botanical_as_published": "Gloriosa superba L.",
+    "family_as_published": "Liliaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ugu-ele",
+    "language_as_published": null,
+    "vernacular_names": [
+      {
+        "local_name": "Ugu-ele",
+        "language": null
+      }
+    ],
+    "parts_as_published": "Tuber and leavesTuber (2,6,10,11)",
+    "parts_reported": [
+      "tuber",
+      "leaves"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": [
+      "language_not_printed"
+    ]
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 106,
+    "specimen_number": "PNM 106",
+    "botanical_as_published": "Anthocleista djalonensis L.",
+    "family_as_published": "Loganiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Aga okpolo (Kalabari)",
+    "language_as_published": "Kalabari",
+    "vernacular_names": [
+      {
+        "local_name": "Aga okpolo",
+        "language": "ijn"
+      }
+    ],
+    "parts_as_published": "Bark Whole plant (2-8)",
+    "parts_reported": [
+      "bark",
+      "whole plant"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 107,
+    "specimen_number": "PNM 107",
+    "botanical_as_published": "Hibiscus rosa-sinensis L.",
+    "family_as_published": "Malvaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ireagu (Ekpeye)",
+    "language_as_published": "Ekpeye",
+    "vernacular_names": [
+      {
+        "local_name": "Ireagu",
+        "language": "ekp"
+      }
+    ],
+    "parts_as_published": "Leaves Flowers (5,6,7,9,10,11)",
+    "parts_reported": [
+      "leaves",
+      "flowers"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 108,
+    "specimen_number": "PNM 108",
+    "botanical_as_published": "Sida acuta L.",
+    "family_as_published": "Malvaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Nkwoda (Ikwerre)",
+    "language_as_published": "Ikwerre",
+    "vernacular_names": [
+      {
+        "local_name": "Nkwoda",
+        "language": "ikw"
+      }
+    ],
+    "parts_as_published": "Leaves Root (1-7,9)",
+    "parts_reported": [
+      "leaves",
+      "root"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 109,
+    "specimen_number": "PNM 109",
+    "botanical_as_published": "Gossypium hirsutum L.",
+    "family_as_published": "Malvaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ngobe (Ikwerre)",
+    "language_as_published": "Ikwerre",
+    "vernacular_names": [
+      {
+        "local_name": "Ngobe",
+        "language": "ikw"
+      }
+    ],
+    "parts_as_published": "Leaves (1-23)",
+    "parts_reported": [
+      "leaves"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 110,
+    "specimen_number": "PNM 110",
+    "botanical_as_published": "Hibiscus surattensis L.",
+    "family_as_published": "Malvaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ubabara (Ikwerre)",
+    "language_as_published": "Ikwerre",
+    "vernacular_names": [
+      {
+        "local_name": "Ubabara",
+        "language": "ikw"
+      }
+    ],
+    "parts_as_published": "Leaves, flower (12,14,17,18,19,21)",
+    "parts_reported": [
+      "leaves",
+      "flower"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 111,
+    "specimen_number": "PNM 111",
+    "botanical_as_published": "Althaea rosea Cav.",
+    "family_as_published": "Malvaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Nshi atu (Ikwerre)",
+    "language_as_published": "Ikwerre",
+    "vernacular_names": [
+      {
+        "local_name": "Nshi atu",
+        "language": "ikw"
+      }
+    ],
+    "parts_as_published": "Leaves (14,16,17,19,22)",
+    "parts_reported": [
+      "leaves"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 112,
+    "specimen_number": "PNM 112",
+    "botanical_as_published": "Carapa procera DC",
+    "family_as_published": "Meliaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Mbete (Ekpeye)",
+    "language_as_published": "Ekpeye",
+    "vernacular_names": [
+      {
+        "local_name": "Mbete",
+        "language": "ekp"
+      }
+    ],
+    "parts_as_published": "Leaves (2-7,9,11)",
+    "parts_reported": [
+      "leaves"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 113,
+    "specimen_number": "PNM 113",
+    "botanical_as_published": "Azadirachta indica A. Juss",
+    "family_as_published": "Meliaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Dongoyaro (Ikwerre)",
+    "language_as_published": "Ikwerre",
+    "vernacular_names": [
+      {
+        "local_name": "Dongoyaro",
+        "language": "ikw"
+      }
+    ],
+    "parts_as_published": "Leaves and bark (1-23)",
+    "parts_reported": [
+      "leaves",
+      "bark"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 114,
+    "specimen_number": "PNM 114",
+    "botanical_as_published": "Mimosa pudica L.",
+    "family_as_published": "Mimosaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Onwueke (Kalabari)",
+    "language_as_published": "Kalabari",
+    "vernacular_names": [
+      {
+        "local_name": "Onwueke",
+        "language": "ijn"
+      }
+    ],
+    "parts_as_published": "Whole plant (3-7,9,10,11)",
+    "parts_reported": [
+      "whole plant"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 115,
+    "specimen_number": "PNM 115",
+    "botanical_as_published": "Albizia zygia (DC.) J.F. Macbr.",
+    "family_as_published": "Mimosaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Mgbeobi (Ekpeye)",
+    "language_as_published": "Ekpeye",
+    "vernacular_names": [
+      {
+        "local_name": "Mgbeobi",
+        "language": "ekp"
+      }
+    ],
+    "parts_as_published": "Leaves (12,14,15,17,18,20,21)",
+    "parts_reported": [
+      "leaves"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 116,
+    "specimen_number": "PNM 116",
+    "botanical_as_published": "Milicia excelsa (Welw.) C.C. Berg",
+    "family_as_published": "Moraceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Oji (Ikwerre)",
+    "language_as_published": "Ikwerre",
+    "vernacular_names": [
+      {
+        "local_name": "Oji",
+        "language": "ikw"
+      }
+    ],
+    "parts_as_published": "Stem and bark (4-7)",
+    "parts_reported": [
+      "stem",
+      "bark"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 117,
+    "specimen_number": "PNM 117",
+    "botanical_as_published": "Ficus exasperata Vahl",
+    "family_as_published": "Moraceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Asesa (Ikwerre)",
+    "language_as_published": "Ikwerre",
+    "vernacular_names": [
+      {
+        "local_name": "Asesa",
+        "language": "ikw"
+      }
+    ],
+    "parts_as_published": "Leaves Bark Root (1-23)",
+    "parts_reported": [
+      "leaves",
+      "bark",
+      "root"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 118,
+    "specimen_number": "PNM 118",
+    "botanical_as_published": "Ficus carica L.",
+    "family_as_published": "Moraceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Oshishitu (Ikwerre)",
+    "language_as_published": "Ikwerre",
+    "vernacular_names": [
+      {
+        "local_name": "Oshishitu",
+        "language": "ikw"
+      }
+    ],
+    "parts_as_published": "Leaves or stem (12-23)",
+    "parts_reported": [
+      "leaves",
+      "stem"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 119,
+    "specimen_number": "PNM 119",
+    "botanical_as_published": "Musa paradisiaca L.",
+    "family_as_published": "Musaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Okirima (Kalabari)",
+    "language_as_published": "Kalabari",
+    "vernacular_names": [
+      {
+        "local_name": "Okirima",
+        "language": "ijn"
+      }
+    ],
+    "parts_as_published": "Root Stem Leaves (1-11)",
+    "parts_reported": [
+      "root",
+      "stem",
+      "leaves"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 120,
+    "specimen_number": "PNM 120",
+    "botanical_as_published": "Myristica fragrans Houtt",
+    "family_as_published": "Myristicaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Nto (Ikwerre)",
+    "language_as_published": "Ikwerre",
+    "vernacular_names": [
+      {
+        "local_name": "Nto",
+        "language": "ikw"
+      }
+    ],
+    "parts_as_published": "Leaves (12-15,17,18,21)",
+    "parts_reported": [
+      "leaves"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 121,
+    "specimen_number": "PNM 121",
+    "botanical_as_published": "Psidium guajava L.",
+    "family_as_published": "Myrtaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "“Guava” (Ogoni)",
+    "language_as_published": "Ogoni",
+    "vernacular_names": [
+      {
+        "local_name": "Guava",
+        "language": null
+      }
+    ],
+    "parts_as_published": "Leaves (1-23)",
+    "parts_reported": [
+      "leaves"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": [
+      "language_label_names_a_cluster"
+    ]
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 122,
+    "specimen_number": "PNM 122",
+    "botanical_as_published": "Pimenta dioica (L.) Merr.",
+    "family_as_published": "Myrtaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Utashidiri (Ikwerre)",
+    "language_as_published": "Ikwerre",
+    "vernacular_names": [
+      {
+        "local_name": "Utashidiri",
+        "language": "ikw"
+      }
+    ],
+    "parts_as_published": "Leaves, stem (12-23)",
+    "parts_reported": [
+      "leaves",
+      "stem"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 123,
+    "specimen_number": "PNM 123",
+    "botanical_as_published": "Boerhavia diffusa L.",
+    "family_as_published": "Nyctaginaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Azu-igwe (Ikwerre)",
+    "language_as_published": "Ikwerre",
+    "vernacular_names": [
+      {
+        "local_name": "Azu-igwe",
+        "language": "ikw"
+      }
+    ],
+    "parts_as_published": "Whole plant (12-23)",
+    "parts_reported": [
+      "whole plant"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 124,
+    "specimen_number": "PNM 124",
+    "botanical_as_published": "Olax subscorpioidea Oliv.",
+    "family_as_published": "Olacaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Uburubu (Ogoni)",
+    "language_as_published": "Ogoni",
+    "vernacular_names": [
+      {
+        "local_name": "Uburubu",
+        "language": null
+      }
+    ],
+    "parts_as_published": "Leaves, stem and root Root (2,3,4,8,9,11)",
+    "parts_reported": [
+      "leaves",
+      "stem",
+      "root"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": [
+      "language_label_names_a_cluster"
+    ]
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 125,
+    "specimen_number": "PNM 125",
+    "botanical_as_published": "Olea europaea L.",
+    "family_as_published": "Oleaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Mkpuru ada (Ekpeye)",
+    "language_as_published": "Ekpeye",
+    "vernacular_names": [
+      {
+        "local_name": "Mkpuru ada",
+        "language": "ekp"
+      }
+    ],
+    "parts_as_published": "Fruit and seed (13-19)",
+    "parts_reported": [
+      "fruit",
+      "seed"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 126,
+    "specimen_number": "PNM 126",
+    "botanical_as_published": "Oenothera biennis L.",
+    "family_as_published": "Onagraceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Obimara (Ikwerre)",
+    "language_as_published": "Ikwerre",
+    "vernacular_names": [
+      {
+        "local_name": "Obimara",
+        "language": "ikw"
+      }
+    ],
+    "parts_as_published": "Leaves and flower (1-3,9)",
+    "parts_reported": [
+      "leaves",
+      "flower"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 127,
+    "specimen_number": "PNM 127",
+    "botanical_as_published": "Elaeis guineensis Jacq",
+    "family_as_published": "Palmae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Nkwo (Ikwerre)",
+    "language_as_published": "Ikwerre",
+    "vernacular_names": [
+      {
+        "local_name": "Nkwo",
+        "language": "ikw"
+      }
+    ],
+    "parts_as_published": "Fruit pericarp (1-23)",
+    "parts_reported": [
+      "fruit pericarp"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 128,
+    "specimen_number": "PNM 128",
+    "botanical_as_published": "Abrus precatorius L.",
+    "family_as_published": "Papilionaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Anya nnunu (Kalabari)",
+    "language_as_published": "Kalabari",
+    "vernacular_names": [
+      {
+        "local_name": "Anya nnunu",
+        "language": "ijn"
+      }
+    ],
+    "parts_as_published": "Leaves (1-23)",
+    "parts_reported": [
+      "leaves"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 129,
+    "specimen_number": "PNM 129",
+    "botanical_as_published": "Baphia nitida Lodd.",
+    "family_as_published": "Papilionaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Abode (Ekpeye)",
+    "language_as_published": "Ekpeye",
+    "vernacular_names": [
+      {
+        "local_name": "Abode",
+        "language": "ekp"
+      }
+    ],
+    "parts_as_published": "Leaves (1-23)",
+    "parts_reported": [
+      "leaves"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 130,
+    "specimen_number": "PNM 130",
+    "botanical_as_published": "Erythrina senegalensis DC.",
+    "family_as_published": "Papilionaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Echichi (Ekpeye)",
+    "language_as_published": "Ekpeye",
+    "vernacular_names": [
+      {
+        "local_name": "Echichi",
+        "language": "ekp"
+      }
+    ],
+    "parts_as_published": "Whole plant (2,5,6,8,11)",
+    "parts_reported": [
+      "whole plant"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 131,
+    "specimen_number": "PNM 131",
+    "botanical_as_published": "Lonchocarpus cyanescens (Schum. & Thonn.) Benth.",
+    "family_as_published": "Papilionaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Nji (Kalabari)",
+    "language_as_published": "Kalabari",
+    "vernacular_names": [
+      {
+        "local_name": "Nji",
+        "language": "ijn"
+      }
+    ],
+    "parts_as_published": "Root Root and stem Leaves (1-23)",
+    "parts_reported": [
+      "root",
+      "stem",
+      "leaves"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 132,
+    "specimen_number": "PNM 132",
+    "botanical_as_published": "Trigonella foenumgraecum L.",
+    "family_as_published": "Papilionaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Akidoucha (Ekpeye)",
+    "language_as_published": "Ekpeye",
+    "vernacular_names": [
+      {
+        "local_name": "Akidoucha",
+        "language": "ekp"
+      }
+    ],
+    "parts_as_published": "Leaves and seed Seed (1-23)",
+    "parts_reported": [
+      "leaves",
+      "seed"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 133,
+    "specimen_number": "PNM 133",
+    "botanical_as_published": "Glycyrrhiza glabra L.",
+    "family_as_published": "Papilionaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Uziza (Ikwerre)",
+    "language_as_published": "Ikwerre",
+    "vernacular_names": [
+      {
+        "local_name": "Uziza",
+        "language": "ikw"
+      }
+    ],
+    "parts_as_published": "Leaves or seed (12-20,23)",
+    "parts_reported": [
+      "leaves",
+      "seed"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 134,
+    "specimen_number": "PNM 134",
+    "botanical_as_published": "Pterocarpus erinaceus Poir.",
+    "family_as_published": "Papilionaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Aja (Ikwerre)",
+    "language_as_published": "Ikwerre",
+    "vernacular_names": [
+      {
+        "local_name": "Aja",
+        "language": "ikw"
+      }
+    ],
+    "parts_as_published": "Leaves and bark (12,13,15,16,18,19)",
+    "parts_reported": [
+      "leaves",
+      "bark"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 135,
+    "specimen_number": "PNM 135",
+    "botanical_as_published": "Sesamum indicum L.",
+    "family_as_published": "Pedaliaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ulogbo (Ogoni)",
+    "language_as_published": "Ogoni",
+    "vernacular_names": [
+      {
+        "local_name": "Ulogbo",
+        "language": null
+      }
+    ],
+    "parts_as_published": "Seed (1-8,11)",
+    "parts_reported": [
+      "seed"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": [
+      "language_label_names_a_cluster"
+    ]
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 136,
+    "specimen_number": "PNM 136",
+    "botanical_as_published": "Phyllanthus amarus Schum. & Thonn.",
+    "family_as_published": "Phyllanthaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ngwu (Ikwerre)",
+    "language_as_published": "Ikwerre",
+    "vernacular_names": [
+      {
+        "local_name": "Ngwu",
+        "language": "ikw"
+      }
+    ],
+    "parts_as_published": "Whole plant (1-23)",
+    "parts_reported": [
+      "whole plant"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 137,
+    "specimen_number": "PNM 137",
+    "botanical_as_published": "Bridelia ferruginea Benth",
+    "family_as_published": "Phyllanthaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Mmahu (Ekpeye)",
+    "language_as_published": "Ekpeye",
+    "vernacular_names": [
+      {
+        "local_name": "Mmahu",
+        "language": "ekp"
+      }
+    ],
+    "parts_as_published": "Leaves and bark Leaves (1,3,5,8,9,10)",
+    "parts_reported": [
+      "leaves",
+      "bark"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 138,
+    "specimen_number": "PNM 138",
+    "botanical_as_published": "Pinus caribaea Morelet",
+    "family_as_published": "Pinaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Afoma (Ikwerre)",
+    "language_as_published": "Ikwerre",
+    "vernacular_names": [
+      {
+        "local_name": "Afoma",
+        "language": "ikw"
+      }
+    ],
+    "parts_as_published": "Seed Leaves (12-23)",
+    "parts_reported": [
+      "seed",
+      "leaves"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 139,
+    "specimen_number": "PNM 139",
+    "botanical_as_published": "Piper guineense Schum. & Thonn.",
+    "family_as_published": "Piperaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Uziza (Ikwerre)",
+    "language_as_published": "Ikwerre",
+    "vernacular_names": [
+      {
+        "local_name": "Uziza",
+        "language": "ikw"
+      }
+    ],
+    "parts_as_published": "Seed (12-23)",
+    "parts_reported": [
+      "seed"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 140,
+    "specimen_number": "PNM 140",
+    "botanical_as_published": "Cymbopogon citratus (DC) Stapf",
+    "family_as_published": "Poaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Achara (Ikwerre)",
+    "language_as_published": "Ikwerre",
+    "vernacular_names": [
+      {
+        "local_name": "Achara",
+        "language": "ikw"
+      }
+    ],
+    "parts_as_published": "Leaves (1,4,10,11)",
+    "parts_reported": [
+      "leaves"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 141,
+    "specimen_number": "PNM 141",
+    "botanical_as_published": "Triticum sativum Lam.",
+    "family_as_published": "Poaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Mmahuta (Ogoni)",
+    "language_as_published": "Ogoni",
+    "vernacular_names": [
+      {
+        "local_name": "Mmahuta",
+        "language": null
+      }
+    ],
+    "parts_as_published": "LeavesBran (1-23)",
+    "parts_reported": [
+      "leaves",
+      "bran"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": [
+      "language_label_names_a_cluster"
+    ]
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 142,
+    "specimen_number": "PNM 142",
+    "botanical_as_published": "Carpolobia lutea G. Don",
+    "family_as_published": "Polygalaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Anagalagala (Kalabari)",
+    "language_as_published": "Kalabari",
+    "vernacular_names": [
+      {
+        "local_name": "Anagalagala",
+        "language": "ijn"
+      }
+    ],
+    "parts_as_published": "Root (1-4,9,10,11)",
+    "parts_reported": [
+      "root"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 143,
+    "specimen_number": "PNM 143",
+    "botanical_as_published": "Rheum palmatum L.",
+    "family_as_published": "Polygonaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Oshishili (Kalabari)",
+    "language_as_published": "Kalabari",
+    "vernacular_names": [
+      {
+        "local_name": "Oshishili",
+        "language": "ijn"
+      }
+    ],
+    "parts_as_published": "Leaf and stem (9,11)",
+    "parts_reported": [
+      "leaf",
+      "stem"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 144,
+    "specimen_number": "PNM 144",
+    "botanical_as_published": "Talinum triangulare (Jacq.) Willd",
+    "family_as_published": "Portulacaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Anyiri (Ogoni)",
+    "language_as_published": "Ogoni",
+    "vernacular_names": [
+      {
+        "local_name": "Anyiri",
+        "language": null
+      }
+    ],
+    "parts_as_published": "Whole plant (1-11)",
+    "parts_reported": [
+      "whole plant"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": [
+      "language_label_names_a_cluster"
+    ]
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 145,
+    "specimen_number": "PNM 145",
+    "botanical_as_published": "Portulaca oleracea L.",
+    "family_as_published": "Portulacaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Nti-odu (Ikwerre)",
+    "language_as_published": "Ikwerre",
+    "vernacular_names": [
+      {
+        "local_name": "Nti-odu",
+        "language": "ikw"
+      }
+    ],
+    "parts_as_published": "Whole plant (12-17,19,20)",
+    "parts_reported": [
+      "whole plant"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 146,
+    "specimen_number": "PNM 146",
+    "botanical_as_published": "Punica granatum L.",
+    "family_as_published": "Punicaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Nsoba (Ekpeye)",
+    "language_as_published": "Ekpeye",
+    "vernacular_names": [
+      {
+        "local_name": "Nsoba",
+        "language": "ekp"
+      }
+    ],
+    "parts_as_published": "Leaves, flower bud and bark Fruit pericarp (1-23)",
+    "parts_reported": [
+      "leaves",
+      "flower bud",
+      "bark",
+      "fruit pericarp"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 147,
+    "specimen_number": "PNM 147",
+    "botanical_as_published": "Pyrus cydonia L.",
+    "family_as_published": "Rosaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Bunyga (Kalabari)",
+    "language_as_published": "Kalabari",
+    "vernacular_names": [
+      {
+        "local_name": "Bunyga",
+        "language": "ijn"
+      }
+    ],
+    "parts_as_published": "Leaves, stem (1-23)",
+    "parts_reported": [
+      "leaves",
+      "stem"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 148,
+    "specimen_number": "PNM 148",
+    "botanical_as_published": "Rosa canina L.",
+    "family_as_published": "Rosaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ughele (Ikwerre)",
+    "language_as_published": "Ikwerre",
+    "vernacular_names": [
+      {
+        "local_name": "Ughele",
+        "language": "ikw"
+      }
+    ],
+    "parts_as_published": "Leaves, stem (12-23)",
+    "parts_reported": [
+      "leaves",
+      "stem"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 149,
+    "specimen_number": "PNM 149",
+    "botanical_as_published": "Rubus idaeus L.",
+    "family_as_published": "Rosaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Oracha (Ikwerre)",
+    "language_as_published": "Ikwerre",
+    "vernacular_names": [
+      {
+        "local_name": "Oracha",
+        "language": "ikw"
+      }
+    ],
+    "parts_as_published": "Leaves (12-19)",
+    "parts_reported": [
+      "leaves"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 150,
+    "specimen_number": "PNM 150",
+    "botanical_as_published": "Galium aparine L.",
+    "family_as_published": "Rubiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Akara (Ogoni)",
+    "language_as_published": "Ogoni",
+    "vernacular_names": [
+      {
+        "local_name": "Akara",
+        "language": null
+      }
+    ],
+    "parts_as_published": "Leaves (2,3,9,10)",
+    "parts_reported": [
+      "leaves"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": [
+      "language_label_names_a_cluster"
+    ]
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 151,
+    "specimen_number": "PNM 151",
+    "botanical_as_published": "Mitracarpus hirtus (L.) DC.",
+    "family_as_published": "Rubiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Obwa (Ikwerre)",
+    "language_as_published": "Ikwerre",
+    "vernacular_names": [
+      {
+        "local_name": "Obwa",
+        "language": "ikw"
+      }
+    ],
+    "parts_as_published": "Leaves and stem (2,4,6,7,8)",
+    "parts_reported": [
+      "leaves",
+      "stem"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 152,
+    "specimen_number": "PNM 152",
+    "botanical_as_published": "Diodia sarmentosa L.",
+    "family_as_published": "Rubiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Abayin (Ogoni)",
+    "language_as_published": "Ogoni",
+    "vernacular_names": [
+      {
+        "local_name": "Abayin",
+        "language": null
+      }
+    ],
+    "parts_as_published": "Leaves (12,14,15,17,20,21)",
+    "parts_reported": [
+      "leaves"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": [
+      "language_label_names_a_cluster"
+    ]
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 153,
+    "specimen_number": "PNM 153",
+    "botanical_as_published": "Heinsia crinita G. Tayl.",
+    "family_as_published": "Rubiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Amateme (Ogoni)",
+    "language_as_published": "Ogoni",
+    "vernacular_names": [
+      {
+        "local_name": "Amateme",
+        "language": null
+      }
+    ],
+    "parts_as_published": "Leaves (12-23)",
+    "parts_reported": [
+      "leaves"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": [
+      "language_label_names_a_cluster"
+    ]
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 154,
+    "specimen_number": "PNM 154",
+    "botanical_as_published": "Ixora coccinea L.",
+    "family_as_published": "Rubiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Orsu (Ogoni)",
+    "language_as_published": "Ogoni",
+    "vernacular_names": [
+      {
+        "local_name": "Orsu",
+        "language": null
+      }
+    ],
+    "parts_as_published": "Whole plant (12-23)",
+    "parts_reported": [
+      "whole plant"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": [
+      "language_label_names_a_cluster"
+    ]
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 155,
+    "specimen_number": "PNM 155",
+    "botanical_as_published": "Sarcocephalus latifolius (Sm) E.A. Bruce",
+    "family_as_published": "Rubiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Kulata (Ogoni)",
+    "language_as_published": "Ogoni",
+    "vernacular_names": [
+      {
+        "local_name": "Kulata",
+        "language": null
+      }
+    ],
+    "parts_as_published": "Root (12-17,20,23)",
+    "parts_reported": [
+      "root"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": [
+      "language_label_names_a_cluster"
+    ]
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 156,
+    "specimen_number": "PNM 156",
+    "botanical_as_published": "Pausinystalia yohimbe Pierre ex Beille",
+    "family_as_published": "Rubiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Mmatu (Ikwerre)",
+    "language_as_published": "Ikwerre",
+    "vernacular_names": [
+      {
+        "local_name": "Mmatu",
+        "language": "ikw"
+      }
+    ],
+    "parts_as_published": "Flower (13-20,22)",
+    "parts_reported": [
+      "flower"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 157,
+    "specimen_number": "PNM 157",
+    "botanical_as_published": "Citrus sinensis (L.) Osbeck.",
+    "family_as_published": "Rutaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Appe (Ogoni)",
+    "language_as_published": "Ogoni",
+    "vernacular_names": [
+      {
+        "local_name": "Appe",
+        "language": null
+      }
+    ],
+    "parts_as_published": "Fruit (1-23)",
+    "parts_reported": [
+      "fruit"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": [
+      "language_label_names_a_cluster"
+    ]
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 158,
+    "specimen_number": "PNM 158",
+    "botanical_as_published": "Citrus limon L.",
+    "family_as_published": "Rutaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Puloumbiya (Ekpeye)",
+    "language_as_published": "Ekpeye",
+    "vernacular_names": [
+      {
+        "local_name": "Puloumbiya",
+        "language": "ekp"
+      }
+    ],
+    "parts_as_published": "Fruit (1-23)",
+    "parts_reported": [
+      "fruit"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 159,
+    "specimen_number": "PNM 159",
+    "botanical_as_published": "Citrus aurantium L.",
+    "family_as_published": "Rutaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Oroma (Ikwerre)",
+    "language_as_published": "Ikwerre",
+    "vernacular_names": [
+      {
+        "local_name": "Oroma",
+        "language": "ikw"
+      }
+    ],
+    "parts_as_published": "Fruit (1-23)",
+    "parts_reported": [
+      "fruit"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 160,
+    "specimen_number": "PNM 160",
+    "botanical_as_published": "Citrus paradisi Macfad.",
+    "family_as_published": "Rutaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ogbe (Ikwerre)",
+    "language_as_published": "Ikwerre",
+    "vernacular_names": [
+      {
+        "local_name": "Ogbe",
+        "language": "ikw"
+      }
+    ],
+    "parts_as_published": "Fruit (1-23)",
+    "parts_reported": [
+      "fruit"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 161,
+    "specimen_number": "PNM 161",
+    "botanical_as_published": "Fagara mycrophylla Engl.",
+    "family_as_published": "Rutaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Duku (Ekpeye)",
+    "language_as_published": "Ekpeye",
+    "vernacular_names": [
+      {
+        "local_name": "Duku",
+        "language": "ekp"
+      }
+    ],
+    "parts_as_published": "Root Bark (11-23)",
+    "parts_reported": [
+      "root",
+      "bark"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 162,
+    "specimen_number": "PNM 162",
+    "botanical_as_published": "Blighia sapida Konig",
+    "family_as_published": "Sapindaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Orugbo (Ekpeye)",
+    "language_as_published": "Ekpeye",
+    "vernacular_names": [
+      {
+        "local_name": "Orugbo",
+        "language": "ekp"
+      }
+    ],
+    "parts_as_published": "Leaves (10,13,14,17,19)",
+    "parts_reported": [
+      "leaves"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 163,
+    "specimen_number": "PNM 163",
+    "botanical_as_published": "Chrysophyllum albidum G.Don",
+    "family_as_published": "Sapotaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Udara (Ogoni)",
+    "language_as_published": "Ogoni",
+    "vernacular_names": [
+      {
+        "local_name": "Udara",
+        "language": null
+      }
+    ],
+    "parts_as_published": "Stem Seed Whole plant (13,15,16,19,20,22)",
+    "parts_reported": [
+      "stem",
+      "seed",
+      "whole plant"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": [
+      "language_label_names_a_cluster"
+    ]
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 164,
+    "specimen_number": "PNM 164",
+    "botanical_as_published": "Sapora dulcis L.",
+    "family_as_published": "Scrophulariaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Dweinakum (Ekpeye)",
+    "language_as_published": "Ekpeye",
+    "vernacular_names": [
+      {
+        "local_name": "Dweinakum",
+        "language": "ekp"
+      }
+    ],
+    "parts_as_published": "Whole plant (14, 16, 17, 18, 20, 21-23)",
+    "parts_reported": [
+      "whole plant"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 165,
+    "specimen_number": "PNM 165",
+    "botanical_as_published": "Smilax anceps Willd",
+    "family_as_published": "Smilacaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Jiabana (Ekpeye)",
+    "language_as_published": "Ekpeye",
+    "vernacular_names": [
+      {
+        "local_name": "Jiabana",
+        "language": "ekp"
+      }
+    ],
+    "parts_as_published": "Root (1-23)",
+    "parts_reported": [
+      "root"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 166,
+    "specimen_number": "PNM 166",
+    "botanical_as_published": "Nicotiana rustica L.",
+    "family_as_published": "Solanaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Utaba (Ikwerre)",
+    "language_as_published": "Ikwerre",
+    "vernacular_names": [
+      {
+        "local_name": "Utaba",
+        "language": "ikw"
+      }
+    ],
+    "parts_as_published": "Leaves (1-7,9,11)",
+    "parts_reported": [
+      "leaves"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 167,
+    "specimen_number": "PNM 167",
+    "botanical_as_published": "Solanum nigrum L.",
+    "family_as_published": "Solanaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Anara (Ogoni)",
+    "language_as_published": "Ogoni",
+    "vernacular_names": [
+      {
+        "local_name": "Anara",
+        "language": null
+      }
+    ],
+    "parts_as_published": "Leaves (1-5,8)",
+    "parts_reported": [
+      "leaves"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": [
+      "language_label_names_a_cluster"
+    ]
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 168,
+    "specimen_number": "PNM 168",
+    "botanical_as_published": "Solanum tuberosum L.",
+    "family_as_published": "Solanaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Mkwutu (Ikwerre)",
+    "language_as_published": "Ikwerre",
+    "vernacular_names": [
+      {
+        "local_name": "Mkwutu",
+        "language": "ikw"
+      }
+    ],
+    "parts_as_published": "Tuber (4,8,9,10)",
+    "parts_reported": [
+      "tuber"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 169,
+    "specimen_number": "PNM 169",
+    "botanical_as_published": "Solanum torvum Sw",
+    "family_as_published": "Solanaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Kilali (Kalabari)",
+    "language_as_published": "Kalabari",
+    "vernacular_names": [
+      {
+        "local_name": "Kilali",
+        "language": "ijn"
+      }
+    ],
+    "parts_as_published": "Fruit (16, 17, 20, 22, 23)",
+    "parts_reported": [
+      "fruit"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 170,
+    "specimen_number": "PNM 170",
+    "botanical_as_published": "Physalis angulata L.",
+    "family_as_published": "Solanaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Numu (Kalabari)",
+    "language_as_published": "Kalabari",
+    "vernacular_names": [
+      {
+        "local_name": "Numu",
+        "language": "ijn"
+      }
+    ],
+    "parts_as_published": "Leaves and stem (14, 17, 20, 21, 23)",
+    "parts_reported": [
+      "leaves",
+      "stem"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 171,
+    "specimen_number": "PNM 171",
+    "botanical_as_published": "Sterculia tragacantha Lindl.",
+    "family_as_published": "Sterculiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Obiribo (Kalabari)",
+    "language_as_published": "Kalabari",
+    "vernacular_names": [
+      {
+        "local_name": "Obiribo",
+        "language": "ijn"
+      }
+    ],
+    "parts_as_published": "Leaves (12-23)",
+    "parts_reported": [
+      "leaves"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 172,
+    "specimen_number": "PNM 172",
+    "botanical_as_published": "Cola nitida (Vent) Schott and Endl.",
+    "family_as_published": "Sterculiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Eji (Ikwerre)",
+    "language_as_published": "Ikwerre",
+    "vernacular_names": [
+      {
+        "local_name": "Eji",
+        "language": "ikw"
+      }
+    ],
+    "parts_as_published": "Bark (12,14,16,17,21,22)",
+    "parts_reported": [
+      "bark"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 173,
+    "specimen_number": "PNM 173",
+    "botanical_as_published": "Corchorus olitorius L.",
+    "family_as_published": "Tiliaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ahihara (Kalabari)",
+    "language_as_published": "Kalabari",
+    "vernacular_names": [
+      {
+        "local_name": "Ahihara",
+        "language": "ijn"
+      }
+    ],
+    "parts_as_published": "Leaves (5-11)",
+    "parts_reported": [
+      "leaves"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 174,
+    "specimen_number": "PNM 174",
+    "botanical_as_published": "Glyphaea brevis Spreng",
+    "family_as_published": "Tiliaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Itono (Ikwerre)",
+    "language_as_published": "Ikwerre",
+    "vernacular_names": [
+      {
+        "local_name": "Itono",
+        "language": "ikw"
+      }
+    ],
+    "parts_as_published": "Leaves and bark Leaves and fruit Leaves, stem and root (1,2,4,7,9)",
+    "parts_reported": [
+      "leaves",
+      "bark",
+      "fruit",
+      "stem",
+      "root"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 175,
+    "specimen_number": "PNM 175",
+    "botanical_as_published": "Triumfetta rhomboidea Jacq.",
+    "family_as_published": "Tiliaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Udoho (Ogoni)",
+    "language_as_published": "Ogoni",
+    "vernacular_names": [
+      {
+        "local_name": "Udoho",
+        "language": null
+      }
+    ],
+    "parts_as_published": "Leaves Bark (4-7,9,11)",
+    "parts_reported": [
+      "leaves",
+      "bark"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": [
+      "language_label_names_a_cluster"
+    ]
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 176,
+    "specimen_number": "PNM 176",
+    "botanical_as_published": "Trema orientalis (L.) Blume",
+    "family_as_published": "Ulmaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Elemukien (Ogoni)",
+    "language_as_published": "Ogoni",
+    "vernacular_names": [
+      {
+        "local_name": "Elemukien",
+        "language": null
+      }
+    ],
+    "parts_as_published": "Leaves Bark (1,3,4,5,7,9)",
+    "parts_reported": [
+      "leaves",
+      "bark"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": [
+      "language_label_names_a_cluster"
+    ]
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 177,
+    "specimen_number": "PNM 177",
+    "botanical_as_published": "Laportea aestuans (L.) Chew.",
+    "family_as_published": "Urticaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ile (Ikwerre)",
+    "language_as_published": "Ikwerre",
+    "vernacular_names": [
+      {
+        "local_name": "Ile",
+        "language": "ikw"
+      }
+    ],
+    "parts_as_published": "Leaves (1-23)",
+    "parts_reported": [
+      "leaves"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 178,
+    "specimen_number": "PNM 178",
+    "botanical_as_published": "Valeriana officinalis L.",
+    "family_as_published": "Valerianaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Odukwu (Ikwerre)",
+    "language_as_published": "Ikwerre",
+    "vernacular_names": [
+      {
+        "local_name": "Odukwu",
+        "language": "ikw"
+      }
+    ],
+    "parts_as_published": "Leaves (10-13)",
+    "parts_reported": [
+      "leaves"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 179,
+    "specimen_number": "PNM 179",
+    "botanical_as_published": "Verbena officinalis L.",
+    "family_as_published": "Verbenaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Agwa (Ikwerre)",
+    "language_as_published": "Ikwerre",
+    "vernacular_names": [
+      {
+        "local_name": "Agwa",
+        "language": "ikw"
+      }
+    ],
+    "parts_as_published": "Stem, leaves (14,15,18,19,21,23)",
+    "parts_reported": [
+      "stem",
+      "leaves"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 180,
+    "specimen_number": "PNM 180",
+    "botanical_as_published": "Stachytarpheta cayennensis (Rich.) Vahl",
+    "family_as_published": "Verbenaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Mbeku (Kalabari)",
+    "language_as_published": "Kalabari",
+    "vernacular_names": [
+      {
+        "local_name": "Mbeku",
+        "language": "ijn"
+      }
+    ],
+    "parts_as_published": "Leaves (12-15,22)",
+    "parts_reported": [
+      "leaves"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 181,
+    "specimen_number": "PNM 181",
+    "botanical_as_published": "Viola tricolor L.",
+    "family_as_published": "Violaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ekpeobi (Kalabari)",
+    "language_as_published": "Kalabari",
+    "vernacular_names": [
+      {
+        "local_name": "Ekpeobi",
+        "language": "ijn"
+      }
+    ],
+    "parts_as_published": "Leaves (13-20,22)",
+    "parts_reported": [
+      "leaves"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 182,
+    "specimen_number": "PNM 182",
+    "botanical_as_published": "Hybanthus enneaspermus (L.) F. Muell.",
+    "family_as_published": "Violaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ocha (Ikwerre)",
+    "language_as_published": "Ikwerre",
+    "vernacular_names": [
+      {
+        "local_name": "Ocha",
+        "language": "ikw"
+      }
+    ],
+    "parts_as_published": "Whole plant (1,2,4,7,9,11)",
+    "parts_reported": [
+      "whole plant"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 183,
+    "specimen_number": "PNM 183",
+    "botanical_as_published": "Cissus quadrangularis L.",
+    "family_as_published": "Vitaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ogbagi (Ekpeye)",
+    "language_as_published": "Ekpeye",
+    "vernacular_names": [
+      {
+        "local_name": "Ogbagi",
+        "language": "ekp"
+      }
+    ],
+    "parts_as_published": "Whole plant (1-23)",
+    "parts_reported": [
+      "whole plant"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 184,
+    "specimen_number": "PNM 184",
+    "botanical_as_published": "Vitex doniana Sweet",
+    "family_as_published": "Vitaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Nalele (Ogoni)",
+    "language_as_published": "Ogoni",
+    "vernacular_names": [
+      {
+        "local_name": "Nalele",
+        "language": null
+      }
+    ],
+    "parts_as_published": "Fruit (12-17,19)",
+    "parts_reported": [
+      "fruit"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": [
+      "language_label_names_a_cluster"
+    ]
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 185,
+    "specimen_number": "PNM 185",
+    "botanical_as_published": "Zingiber officinale Roscoe",
+    "family_as_published": "Zingiberaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Oseojiala (Ikwerre)",
+    "language_as_published": "Ikwerre",
+    "vernacular_names": [
+      {
+        "local_name": "Oseojiala",
+        "language": "ikw"
+      }
+    ],
+    "parts_as_published": "Rhizome (1-23)",
+    "parts_reported": [
+      "rhizome"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 186,
+    "specimen_number": "PNM 186",
+    "botanical_as_published": "Aframomum melegueta K. Schum",
+    "family_as_published": "Zingiberaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ojili (Ikwerre)",
+    "language_as_published": "Ikwerre",
+    "vernacular_names": [
+      {
+        "local_name": "Ojili",
+        "language": "ikw"
+      }
+    ],
+    "parts_as_published": "Seed Root (1-23)",
+    "parts_reported": [
+      "seed",
+      "root"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 187,
+    "specimen_number": "PNM 187",
+    "botanical_as_published": "Curcuma longa L.",
+    "family_as_published": "Zingiberaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Ukufo (Ogoni)",
+    "language_as_published": "Ogoni",
+    "vernacular_names": [
+      {
+        "local_name": "Ukufo",
+        "language": null
+      }
+    ],
+    "parts_as_published": "Rhizome (4,5,7,9,10)",
+    "parts_reported": [
+      "rhizome"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": [
+      "language_label_names_a_cluster"
+    ]
+  },
+  {
+    "source_id": "ajibesin-2012-rivers",
+    "source_row": 188,
+    "specimen_number": "PNM 188",
+    "botanical_as_published": "Costus afer Ker. Gawl",
+    "family_as_published": "Zingiberaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Biringbe (Kalabari)",
+    "language_as_published": "Kalabari",
+    "vernacular_names": [
+      {
+        "local_name": "Biringbe",
+        "language": "ijn"
+      }
+    ],
+    "parts_as_published": "Stem (15-23)",
+    "parts_reported": [
+      "stem"
+    ],
+    "use_context": "medicinal plant reported across the local government areas of Rivers State",
+    "data_quality_flags": []
+  }
+]

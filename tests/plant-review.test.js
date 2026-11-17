@@ -152,7 +152,7 @@ describe('confirmations reaching the runtime index', () => {
   }
 
   const confirmation = overrides => ({
-    local_name: 'Ewé ìná',
+    local_name: 'Ewé èsìsì',
     language: 'yo',
     botanical_as_published: 'Laportea aestuans',
     common_english: 'West Indian woodnettle',
@@ -166,7 +166,7 @@ describe('confirmations reaching the runtime index', () => {
   it('makes a confirmed name resolvable, with its own verification status and attribution', () => {
     const { report, runtime, names } = buildWith([confirmation()]);
 
-    const row = runtime.find(entry => entry.local_name === 'ewe ina');
+    const row = runtime.find(entry => entry.local_name === 'ewe esisi');
     assert.equal(row.botanical, 'Laportea aestuans');
     assert.equal(row.common_english, 'West Indian woodnettle');
     assert.equal(report.practitioner_confirmations, 1);

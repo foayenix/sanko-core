@@ -34,6 +34,10 @@ const governance = require('../services/governance');
 const OPEN_BEFORE_REGISTRATION = new Set([
   'set_profile', 'set_practice_details', 'accept_contributor_terms',
   'list_formulations', 'get_formulation',
+  // The public plant index. Someone arriving from a plant page on the website
+  // asks what a name means; they are not documenting anything and should not
+  // have to register to read what the site already publishes.
+  'lookup_plant',
   'find_patient', 'list_patients', 'get_patient', 'list_due_follow_ups',
   'export_account', 'delete_account',
 ]);
