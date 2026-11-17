@@ -34,6 +34,15 @@ describe('whatsapp deep link', () => {
     assert.match(text, /Asked from https:\/\/www\.sanko\.africa\/plants\/ewuro\//);
   });
 
+  it('leaves out the brackets when the source names no language', async () => {
+    const { whatsappPrefill } = await load();
+    assert.match(whatsappPrefill({ ...ewuro, languageLabel: '' }), /what plant is "Ewuro"\?/);
+    assert.match(
+      whatsappPrefill({ ...ewuro, languageLabel: '', contested: true }),
+      /about the plant name "Ewuro"\. What does/,
+    );
+  });
+
   it('asks a contested name a different question, which does not ask for a winner', async () => {
     const { whatsappPrefill } = await load();
     const text = whatsappPrefill({ ...ewuro, display: 'Akoko', slug: 'akoko', contested: true });

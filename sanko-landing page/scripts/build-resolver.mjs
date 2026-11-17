@@ -75,6 +75,12 @@ const slugify = (value) =>
 
 const languageName = (code) => LANGUAGE_NAMES[code] ?? code ?? 'unspecified language';
 
+// Running prose ("a Yoruba name for ...") names only identified languages. A record
+// with no language, or the "und" group, contributes nothing, so a page reads "a local
+// name" instead of "a  name" or "a Language not identified name".
+const proseLanguages = (codes) =>
+  sentenceList(codes.filter((code) => code && code !== 'und').map(languageName));
+
 // "an Igbo name", "a Yoruba name": the article follows the label's first sound.
 const withArticle = (label) => `${/^[aeiou]/i.test(label) ? 'an' : 'a'} ${label}`;
 
@@ -88,9 +94,14 @@ const sentenceList = (values) => {
 
 const regionLabel = (region) => {
   if (!region) return '';
+  const state = region.state ? `${region.state} State` : '';
+  // Localities keep the survey's wording, which can already name the state ("all local
+  // government areas of Rivers State"). Appending the state again would print it twice.
+  const localitiesNameState =
+    state && (region.localities ?? []).some((locality) => locality.toLowerCase().includes(state.toLowerCase()));
   const parts = [
     region.localities?.length ? sentenceList(region.localities) : '',
-    region.state ? `${region.state} State` : '',
+    localitiesNameState ? '' : state,
     region.country ?? '',
   ].filter(Boolean);
   return unique(parts).join(', ');
@@ -244,18 +255,19 @@ function vernacularPage({ name, attestations, sourcesById, partsByTaxon }) {
   const taxa = unique(attestations.map((row) => row.accepted_botanical)).sort();
   const display = titleCase(attestations[0].local_name ?? name);
   const languages = unique(attestations.map((row) => row.language));
-  const languageLabel = sentenceList(languages.map(languageName));
+  const languageLabel = proseLanguages(languages);
   const contested = taxa.length > 1;
+  const nameKind = languageLabel ? `${languageLabel} name` : 'local name';
 
   // The lead sentence names its own subject. Retrieval chunks a page into passages, and a
   // passage that opens with "It is..." arrives at the model with the subject already gone.
   const lead = contested
-    ? `${display} is ${withArticle(languageLabel)} plant name that published sources map to more than one species: ${sentenceList(taxa)}. Sanko does not resolve it to a single taxon.`
-    : `${display} is ${withArticle(languageLabel)} name for ${taxa[0]}, recorded in ${sentenceList(attestations.map((row) => regionLabel(row.region))) || 'Nigeria'}.`;
+    ? `${display} is ${withArticle(`${languageLabel || 'local'} plant name`)} that published sources map to more than one species: ${sentenceList(taxa)}. Sanko does not resolve it to a single taxon.`
+    : `${display} is ${withArticle(nameKind)} for ${taxa[0]}, recorded in ${sentenceList(attestations.map((row) => regionLabel(row.region))) || 'Nigeria'}.`;
 
   const title = contested
-    ? `${display} — a contested ${languageLabel} plant name`
-    : `${display} — ${languageLabel} name for ${taxa[0]}`;
+    ? `${display} — a contested ${languageLabel || 'local'} plant name`
+    : `${display} — ${nameKind} for ${taxa[0]}`;
 
   const candidates = attestations
     .map((row) => {
@@ -278,7 +290,7 @@ function vernacularPage({ name, attestations, sourcesById, partsByTaxon }) {
     .join('\n');
 
   const body = `<article>
-<p class="eyebrow">${escapeHtml(languageLabel)} plant name</p>
+<p class="eyebrow">${escapeHtml(languageLabel ? `${languageLabel} plant name` : 'Local plant name')}</p>
 <h1>${escapeHtml(display)}</h1>
 <p class="lead">${escapeHtml(lead)}</p>
 ${
@@ -290,7 +302,7 @@ ${whatsappLink({ display, languageLabel, slug: slugify(name), contested })}<h2>$
 <ul class="candidates">
 ${candidates}
 </ul>
-<p class="backlink"><a href="/plants/">All ${escapeHtml(languageLabel)} and other local plant names →</a></p>
+<p class="backlink"><a href="/plants/">${languageLabel ? `All ${escapeHtml(languageLabel)} and other local plant names` : 'All local plant names'} →</a></p>
 </article>`;
 
   return {
@@ -323,8 +335,8 @@ function taxonPage({ taxon, attestations, plant, sourcesById, partsByTaxon }) {
   const names = attestations
     .slice()
     .sort((a, b) => a.local_name.localeCompare(b.local_name));
-  const languageLabel = sentenceList(unique(names.map((row) => languageName(row.language))));
-  const lead = `${taxon} is recorded under ${names.length} local ${names.length === 1 ? 'name' : 'names'} in the published Nigerian ethnobotanical literature Sanko has mapped, across ${languageLabel}.`;
+  const languageLabel = proseLanguages(names.map((row) => row.language));
+  const lead = `${taxon} is recorded under ${names.length} local ${names.length === 1 ? 'name' : 'names'} in the published Nigerian ethnobotanical literature Sanko has mapped${languageLabel ? `, across ${languageLabel}` : ''}.`;
   const parts = unique(
     names.flatMap((row) => partsByTaxon.get(row.botanical_as_published) ?? []),
   );
