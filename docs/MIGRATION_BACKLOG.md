@@ -32,18 +32,20 @@ local agent before inclusion; copying its generated output alone loses provenanc
 
 | Work | Archive PR / branch | Acceptance gate |
 | --- | --- | --- |
-| Port Harcourt source adjudication | #8 `plants/port-harcourt` | Port evidence, builder changes and tests together; verify provenance and regenerated index. |
-| Published name corrections | #9 `plants/resolve-unmatched-names` | Preserve correction provenance, ambiguity and unresolved-name safeguards. |
-| Bayelsa/Ijaw survey | #10 `plants/bayelsa-ijaw-survey` | Review source eligibility and language metadata; reproduce all generated output. |
-| Rivers survey and plant parts | #11/#14 `plants/rivers-state-survey`, `plants/rivers-plant-parts` | Port source tables, extraction/review records and tests as one reviewed change. |
-| Legacy botanical taxonomy | #12 `plants/legacy-taxonomy` | Keep legacy status distinct from practitioner verification. |
-| Contested-name adjudication | #13 `plants/adjudicate-contested` | Verify reviewer attribution and exclusions; no automatic winner selection. |
-| Photo identification guard | #15 `plants/photo-identification-guard` | Compare with the existing specimen grounding tests; verify no model-origin species can persist. |
-| Resolver search, diacritics, chat links | #16/#17/#18 `plants/name-search`, `plants/title-case-diacritics`, `plants/whatsapp-deep-link` | Port associated tests and builders; verify data parity, URL escaping and mobile interactions. |
+| Port Harcourt source adjudication | #8 `plants/port-harcourt` | **Ported** from archive `main` at `c23fec3`. Generated index, plant pages, sitemap and resolver report reproduce byte for byte with core's build. |
+| Published name corrections | #9 `plants/resolve-unmatched-names` | **Ported** from archive `main` at `c23fec3`. |
+| Bayelsa/Ijaw survey | #10 `plants/bayelsa-ijaw-survey` | **Ported** from archive `main` at `c23fec3`. |
+| Rivers survey and plant parts | #11/#14 `plants/rivers-state-survey`, `plants/rivers-plant-parts` | **Ported** from archive `main` at `c23fec3`. |
+| Legacy botanical taxonomy | #12 `plants/legacy-taxonomy` | **Ported** from archive `main` at `c23fec3`. |
+| Contested-name adjudication | #13 `plants/adjudicate-contested` | **Ported** from archive `main` at `c23fec3`. No adjudications are recorded yet (utazi and uziza are among the contested names awaiting a reviewer). |
+| Photo identification guard | #15 `plants/photo-identification-guard` | **Not ported: superseded.** Core already refuses every model-supplied botanical name on every turn (2519cb9), keeps the caption separate and routes plant photos to save_specimen. |
+| Resolver search, diacritics, chat links | #16/#17/#18 `plants/name-search`, `plants/title-case-diacritics`, `plants/whatsapp-deep-link` | **Ported** from archive `main` at `c23fec3`. The chat-link prompt section uses core's `lookup_plant`, now open before registration; the archive's duplicate `lookup_plant_name` tool was not ported. |
 | Landing hero rewrite and product images | #19 `claude/happy-pasteur-kbu21a` (archive) | **Ported.** `landing-v2/index.html`, `styles.css` and `landing-v2/img/` are byte-identical to archive `main` at `983f9d7`. |
 
-The baseline remains at 479 names / 442 resolved. This is a deliberate source
-selection, not a claim to include every improvement already merged in the archive.
+Core now holds 905 runtime names, 857 resolved, from six included sources: the
+same index the archive publishes. Eval cases 08, 10, 11 and 13 still expect the
+older botanical names (or a single species for utazi and uziza, which are now
+contested) and need review before their expectations change.
 
 ## Deployment and operations
 

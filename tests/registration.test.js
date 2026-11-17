@@ -79,6 +79,13 @@ describe('the gate', () => {
     }
   });
 
+  it('answers a plant-name question from the website without registration', async () => {
+    const result = await executeTool('lookup_plant', { local_name: 'ewuro' }, ctx(unregistered()));
+    assert.equal(result.ok, true);
+    assert.equal(result.found, true);
+    assert.equal(result.botanical, 'Gymnanthemum amygdalinum');
+  });
+
   it('blocks patient tools too, not just the Vault', async () => {
     const result = await executeTool('log_treatment', { patient_short_code: 'PT-00001' }, ctx(unregistered()));
     assert.equal(result.ok, false);

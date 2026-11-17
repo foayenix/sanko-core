@@ -1,0 +1,719 @@
+[
+  {
+    "source_id": "olatokunbo-2022-bayelsa",
+    "source_row": 1,
+    "botanical_as_published": "Abelmoschus esculentus (L.)",
+    "family_as_published": "Malvaceae",
+    "common_english_as_published": "Okro",
+    "habit_as_published": "Shrub",
+    "abundance_as_published": "Abundant",
+    "vernacular_as_published": "Okro/ Kiyabu",
+    "vernacular_names": [
+      {
+        "local_name": "Kiyabu",
+        "language": "ijc"
+      }
+    ],
+    "parts_reported": [],
+    "use_context": "plant reported in traditional orthopedic care in Bayelsa Central Senatorial District"
+  },
+  {
+    "source_id": "olatokunbo-2022-bayelsa",
+    "source_row": 2,
+    "botanical_as_published": "Aframomum melegueta (K.Schum.)",
+    "family_as_published": "Zingiberaceae",
+    "common_english_as_published": "Alligator pepper",
+    "habit_as_published": "Herb",
+    "abundance_as_published": "Abundant",
+    "vernacular_as_published": "Alligator pepper/ Sani",
+    "vernacular_names": [
+      {
+        "local_name": "Sani",
+        "language": "ijc"
+      }
+    ],
+    "parts_reported": [],
+    "use_context": "plant reported in traditional orthopedic care in Bayelsa Central Senatorial District"
+  },
+  {
+    "source_id": "olatokunbo-2022-bayelsa",
+    "source_row": 3,
+    "botanical_as_published": "Alchornea cordifolia (Mull. Arg.)",
+    "family_as_published": "Euphorbiaceae",
+    "common_english_as_published": null,
+    "habit_as_published": "Shrub",
+    "abundance_as_published": "Abundant",
+    "vernacular_as_published": "Adeginapumue",
+    "vernacular_names": [
+      {
+        "local_name": "Adeginapumue",
+        "language": "ijc"
+      }
+    ],
+    "parts_reported": [],
+    "use_context": "plant reported in traditional orthopedic care in Bayelsa Central Senatorial District"
+  },
+  {
+    "source_id": "olatokunbo-2022-bayelsa",
+    "source_row": 4,
+    "botanical_as_published": "Alternanthera sessillis (L R.Br. ex DC).",
+    "family_as_published": "Amaranthaceae",
+    "common_english_as_published": null,
+    "habit_as_published": "Herb",
+    "abundance_as_published": "Abundant",
+    "vernacular_as_published": "Canapunu",
+    "vernacular_names": [
+      {
+        "local_name": "Canapunu",
+        "language": "ijc"
+      }
+    ],
+    "parts_reported": [],
+    "use_context": "plant reported in traditional orthopedic care in Bayelsa Central Senatorial District"
+  },
+  {
+    "source_id": "olatokunbo-2022-bayelsa",
+    "source_row": 5,
+    "botanical_as_published": "Amaranthus viridis (L.)",
+    "family_as_published": "Amaranthaceae",
+    "common_english_as_published": "Green amaranth",
+    "habit_as_published": "Herb",
+    "abundance_as_published": "Abundant",
+    "vernacular_as_published": "Green amaranth /Enina",
+    "vernacular_names": [
+      {
+        "local_name": "Enina",
+        "language": "ijc"
+      }
+    ],
+    "parts_reported": [],
+    "use_context": "plant reported in traditional orthopedic care in Bayelsa Central Senatorial District"
+  },
+  {
+    "source_id": "olatokunbo-2022-bayelsa",
+    "source_row": 6,
+    "botanical_as_published": "Capsicum annuum (L.)",
+    "family_as_published": "Solanaceae",
+    "common_english_as_published": "African pepper",
+    "habit_as_published": "Herb",
+    "abundance_as_published": "Abundant",
+    "vernacular_as_published": "African pepper/Egina",
+    "vernacular_names": [
+      {
+        "local_name": "Egina",
+        "language": "ijc"
+      }
+    ],
+    "parts_reported": [],
+    "use_context": "plant reported in traditional orthopedic care in Bayelsa Central Senatorial District"
+  },
+  {
+    "source_id": "olatokunbo-2022-bayelsa",
+    "source_row": 7,
+    "botanical_as_published": "Carica papaya (L.)",
+    "family_as_published": "Caricaceae",
+    "common_english_as_published": "Pawpaw",
+    "habit_as_published": "Herb",
+    "abundance_as_published": "Abundant",
+    "vernacular_as_published": "Pawpaw /Edemudepumue",
+    "vernacular_names": [
+      {
+        "local_name": "Edemudepumue",
+        "language": "ijc"
+      }
+    ],
+    "parts_reported": [],
+    "use_context": "plant reported in traditional orthopedic care in Bayelsa Central Senatorial District"
+  },
+  {
+    "source_id": "olatokunbo-2022-bayelsa",
+    "source_row": 8,
+    "botanical_as_published": "Ceiba pentandra (L).",
+    "family_as_published": "Malvaceae",
+    "common_english_as_published": "Cotton tree",
+    "habit_as_published": "Tree",
+    "abundance_as_published": "Rare",
+    "vernacular_as_published": "Cotton tree/ Asisaye",
+    "vernacular_names": [
+      {
+        "local_name": "Asisaye",
+        "language": "ijc"
+      }
+    ],
+    "parts_reported": [],
+    "use_context": "plant reported in traditional orthopedic care in Bayelsa Central Senatorial District"
+  },
+  {
+    "source_id": "olatokunbo-2022-bayelsa",
+    "source_row": 9,
+    "botanical_as_published": "Citrus aurantifolia (Christm) Swingle",
+    "family_as_published": "Rutaceae",
+    "common_english_as_published": "Lime leave",
+    "habit_as_published": "Tree",
+    "abundance_as_published": "Frequent",
+    "vernacular_as_published": "Lime leave/Ongoberi",
+    "vernacular_names": [
+      {
+        "local_name": "Ongoberi",
+        "language": "ijc"
+      }
+    ],
+    "parts_reported": [],
+    "use_context": "plant reported in traditional orthopedic care in Bayelsa Central Senatorial District"
+  },
+  {
+    "source_id": "olatokunbo-2022-bayelsa",
+    "source_row": 10,
+    "botanical_as_published": "Cleome ciliate (L.) Briq.",
+    "family_as_published": "Cleomaceae",
+    "common_english_as_published": "Cleome",
+    "habit_as_published": "Herb",
+    "abundance_as_published": "Abundant",
+    "vernacular_as_published": "Cleome/Kakagben/ Agbalala",
+    "vernacular_names": [
+      {
+        "local_name": "Kakagben",
+        "language": "ijc"
+      },
+      {
+        "local_name": "Agbalala",
+        "language": "ijc"
+      }
+    ],
+    "parts_reported": [],
+    "use_context": "plant reported in traditional orthopedic care in Bayelsa Central Senatorial District"
+  },
+  {
+    "source_id": "olatokunbo-2022-bayelsa",
+    "source_row": 11,
+    "botanical_as_published": "Costus afer (Ker. Gaw.l)",
+    "family_as_published": "Costaceae",
+    "common_english_as_published": "Ginger lily",
+    "habit_as_published": "Herb",
+    "abundance_as_published": "Abundant",
+    "vernacular_as_published": "Ginger lily/Ogbodo",
+    "vernacular_names": [
+      {
+        "local_name": "Ogbodo",
+        "language": "ijc"
+      }
+    ],
+    "parts_reported": [],
+    "use_context": "plant reported in traditional orthopedic care in Bayelsa Central Senatorial District"
+  },
+  {
+    "source_id": "olatokunbo-2022-bayelsa",
+    "source_row": 12,
+    "botanical_as_published": "Cyathula prostrata (Linn.)",
+    "family_as_published": "Amaranthaceae",
+    "common_english_as_published": "Pasture weed",
+    "habit_as_published": "Herb",
+    "abundance_as_published": "Abundant",
+    "vernacular_as_published": "Pasture weed/ Oborikorigha",
+    "vernacular_names": [
+      {
+        "local_name": "Oborikorigha",
+        "language": "ijc"
+      }
+    ],
+    "parts_reported": [],
+    "use_context": "plant reported in traditional orthopedic care in Bayelsa Central Senatorial District"
+  },
+  {
+    "source_id": "olatokunbo-2022-bayelsa",
+    "source_row": 13,
+    "botanical_as_published": "Cymbopogon citratus (DC.) Stapf.",
+    "family_as_published": "Poaceae",
+    "common_english_as_published": "Lemon grass",
+    "habit_as_published": "Herb",
+    "abundance_as_published": "Abundant",
+    "vernacular_as_published": "Lemon grass/Bekepiri",
+    "vernacular_names": [
+      {
+        "local_name": "Bekepiri",
+        "language": "ijc"
+      }
+    ],
+    "parts_reported": [],
+    "use_context": "plant reported in traditional orthopedic care in Bayelsa Central Senatorial District"
+  },
+  {
+    "source_id": "olatokunbo-2022-bayelsa",
+    "source_row": 14,
+    "botanical_as_published": "Diodia sarmentosa (Sw.)",
+    "family_as_published": "Rubiaceae",
+    "common_english_as_published": "Button weed",
+    "habit_as_published": "Herb",
+    "abundance_as_published": "Abundant",
+    "vernacular_as_published": "Button weed/Iyaimo, Ikinrinrin",
+    "vernacular_names": [
+      {
+        "local_name": "Iyaimo",
+        "language": "ijc"
+      },
+      {
+        "local_name": "Ikinrinrin",
+        "language": "ijc"
+      }
+    ],
+    "parts_reported": [],
+    "use_context": "plant reported in traditional orthopedic care in Bayelsa Central Senatorial District"
+  },
+  {
+    "source_id": "olatokunbo-2022-bayelsa",
+    "source_row": 15,
+    "botanical_as_published": "Eclipta alba(L).",
+    "family_as_published": "Asteraceae",
+    "common_english_as_published": "Eclipta",
+    "habit_as_published": "Herb",
+    "abundance_as_published": "Abundant",
+    "vernacular_as_published": "Eclipta/Ekigaliapumue",
+    "vernacular_names": [
+      {
+        "local_name": "Ekigaliapumue",
+        "language": "ijc"
+      }
+    ],
+    "parts_reported": [],
+    "use_context": "plant reported in traditional orthopedic care in Bayelsa Central Senatorial District"
+  },
+  {
+    "source_id": "olatokunbo-2022-bayelsa",
+    "source_row": 16,
+    "botanical_as_published": "Elaeis guineensis (Jacq.)",
+    "family_as_published": "Arecaceae",
+    "common_english_as_published": "Oil palm",
+    "habit_as_published": "Tree",
+    "abundance_as_published": "Abundant",
+    "vernacular_as_published": "Oil palm/ Lobolou, Lugutin",
+    "vernacular_names": [
+      {
+        "local_name": "Lobolou",
+        "language": "ijc"
+      },
+      {
+        "local_name": "Lugutin",
+        "language": "ijc"
+      }
+    ],
+    "parts_reported": [],
+    "use_context": "plant reported in traditional orthopedic care in Bayelsa Central Senatorial District"
+  },
+  {
+    "source_id": "olatokunbo-2022-bayelsa",
+    "source_row": 17,
+    "botanical_as_published": "Eleusine indica (Linn.)",
+    "family_as_published": "Poaceae",
+    "common_english_as_published": "Bermuda grass",
+    "habit_as_published": "Grass",
+    "abundance_as_published": "Abundant",
+    "vernacular_as_published": "Bermuda grass/Agolo",
+    "vernacular_names": [
+      {
+        "local_name": "Agolo",
+        "language": "ijc"
+      }
+    ],
+    "parts_reported": [],
+    "use_context": "plant reported in traditional orthopedic care in Bayelsa Central Senatorial District"
+  },
+  {
+    "source_id": "olatokunbo-2022-bayelsa",
+    "source_row": 18,
+    "botanical_as_published": "Ficus lutea (Vahl.)",
+    "family_as_published": "Moraceae",
+    "common_english_as_published": "Lagos rubber tree, Native pop",
+    "habit_as_published": "Tree",
+    "abundance_as_published": "Rare",
+    "vernacular_as_published": "Lagos rubber tree /Ula, Native pop",
+    "vernacular_names": [
+      {
+        "local_name": "Ula",
+        "language": "ijc"
+      }
+    ],
+    "parts_reported": [],
+    "use_context": "plant reported in traditional orthopedic care in Bayelsa Central Senatorial District"
+  },
+  {
+    "source_id": "olatokunbo-2022-bayelsa",
+    "source_row": 19,
+    "botanical_as_published": "Garcinia kola (Heckel.)",
+    "family_as_published": "Guttiferae",
+    "common_english_as_published": "Bitter kola",
+    "habit_as_published": "Tree",
+    "abundance_as_published": "Rare",
+    "vernacular_as_published": "Eka/Bitter kola",
+    "vernacular_names": [
+      {
+        "local_name": "Eka",
+        "language": "ijc"
+      }
+    ],
+    "parts_reported": [],
+    "use_context": "plant reported in traditional orthopedic care in Bayelsa Central Senatorial District"
+  },
+  {
+    "source_id": "olatokunbo-2022-bayelsa",
+    "source_row": 20,
+    "botanical_as_published": "Glyphaea brevis (SprengMonach.)",
+    "family_as_published": "Tiliaceae",
+    "common_english_as_published": null,
+    "habit_as_published": "Tree",
+    "abundance_as_published": "Frequent",
+    "vernacular_as_published": "Itolo",
+    "vernacular_names": [
+      {
+        "local_name": "Itolo",
+        "language": "ijc"
+      }
+    ],
+    "parts_reported": [],
+    "use_context": "plant reported in traditional orthopedic care in Bayelsa Central Senatorial District"
+  },
+  {
+    "source_id": "olatokunbo-2022-bayelsa",
+    "source_row": 21,
+    "botanical_as_published": "Harungana madagascariensis Lam. ex Poir.",
+    "family_as_published": "Clusiaceae",
+    "common_english_as_published": "Haronga",
+    "habit_as_published": "Tree",
+    "abundance_as_published": "Rare",
+    "vernacular_as_published": "Haronga/ Boopulo",
+    "vernacular_names": [
+      {
+        "local_name": "Boopulo",
+        "language": "ijc"
+      }
+    ],
+    "parts_reported": [],
+    "use_context": "plant reported in traditional orthopedic care in Bayelsa Central Senatorial District"
+  },
+  {
+    "source_id": "olatokunbo-2022-bayelsa",
+    "source_row": 22,
+    "botanical_as_published": "Ipomoea batatas (L. Lam.)",
+    "family_as_published": "Convolvulaceae",
+    "common_english_as_published": "Sweet potato",
+    "habit_as_published": "Vine",
+    "abundance_as_published": "Abundant",
+    "vernacular_as_published": "Pokueduku/Sweet potato",
+    "vernacular_names": [
+      {
+        "local_name": "Pokueduku",
+        "language": "ijc"
+      }
+    ],
+    "parts_reported": [],
+    "use_context": "plant reported in traditional orthopedic care in Bayelsa Central Senatorial District"
+  },
+  {
+    "source_id": "olatokunbo-2022-bayelsa",
+    "source_row": 23,
+    "botanical_as_published": "Jatropha tanjorensis (Ellis & Saroja)",
+    "family_as_published": "Euphorbiaceae",
+    "common_english_as_published": "Hospital too far",
+    "habit_as_published": "Shrub",
+    "abundance_as_published": "Abundant",
+    "vernacular_as_published": "Hospital too far",
+    "vernacular_names": [],
+    "parts_reported": [],
+    "use_context": "plant reported in traditional orthopedic care in Bayelsa Central Senatorial District"
+  },
+  {
+    "source_id": "olatokunbo-2022-bayelsa",
+    "source_row": 24,
+    "botanical_as_published": "Kalanchoe pinnatum (Lam).",
+    "family_as_published": "Crassulaceae",
+    "common_english_as_published": "Live leaf",
+    "habit_as_published": "Herb",
+    "abundance_as_published": "Abundant",
+    "vernacular_as_published": "Live leaf/Beri",
+    "vernacular_names": [
+      {
+        "local_name": "Beri",
+        "language": "ijc"
+      }
+    ],
+    "parts_reported": [],
+    "use_context": "plant reported in traditional orthopedic care in Bayelsa Central Senatorial District"
+  },
+  {
+    "source_id": "olatokunbo-2022-bayelsa",
+    "source_row": 25,
+    "botanical_as_published": "Ludwigia octovalvis(W.)",
+    "family_as_published": "Onagraceae",
+    "common_english_as_published": null,
+    "habit_as_published": "Herb",
+    "abundance_as_published": "Occasional",
+    "vernacular_as_published": "Eviesaberi",
+    "vernacular_names": [
+      {
+        "local_name": "Eviesaberi",
+        "language": "ijc"
+      }
+    ],
+    "parts_reported": [],
+    "use_context": "plant reported in traditional orthopedic care in Bayelsa Central Senatorial District"
+  },
+  {
+    "source_id": "olatokunbo-2022-bayelsa",
+    "source_row": 26,
+    "botanical_as_published": "Mangifera indica (L.)",
+    "family_as_published": "Anarcardiaceae",
+    "common_english_as_published": "Mango",
+    "habit_as_published": "Tree",
+    "abundance_as_published": "Abundant",
+    "vernacular_as_published": "Mango/Ogune",
+    "vernacular_names": [
+      {
+        "local_name": "Ogune",
+        "language": "ijc"
+      }
+    ],
+    "parts_reported": [],
+    "use_context": "plant reported in traditional orthopedic care in Bayelsa Central Senatorial District"
+  },
+  {
+    "source_id": "olatokunbo-2022-bayelsa",
+    "source_row": 27,
+    "botanical_as_published": "Mimosa pudica (L.)",
+    "family_as_published": "Fabaceae",
+    "common_english_as_published": "Sensitive plant",
+    "habit_as_published": "Herb",
+    "abundance_as_published": "Abundant",
+    "vernacular_as_published": "Sensitive plant/Igbanagbana, Dabomenetibigban",
+    "vernacular_names": [
+      {
+        "local_name": "Igbanagbana",
+        "language": "ijc"
+      },
+      {
+        "local_name": "Dabomenetibigban",
+        "language": "ijc"
+      }
+    ],
+    "parts_reported": [],
+    "use_context": "plant reported in traditional orthopedic care in Bayelsa Central Senatorial District"
+  },
+  {
+    "source_id": "olatokunbo-2022-bayelsa",
+    "source_row": 28,
+    "botanical_as_published": "Newbouldia laevis (Seem. ex Bureau.)",
+    "family_as_published": "Bignoniaceae",
+    "common_english_as_published": "Tree of live",
+    "habit_as_published": "Tree",
+    "abundance_as_published": "Abundant",
+    "vernacular_as_published": "Tree of live/Ogurizi",
+    "vernacular_names": [
+      {
+        "local_name": "Ogurizi",
+        "language": "ijc"
+      }
+    ],
+    "parts_reported": [],
+    "use_context": "plant reported in traditional orthopedic care in Bayelsa Central Senatorial District"
+  },
+  {
+    "source_id": "olatokunbo-2022-bayelsa",
+    "source_row": 29,
+    "botanical_as_published": "Ocimum gratissimum(L).",
+    "family_as_published": "Lamiaceae",
+    "common_english_as_published": "Scent leaf",
+    "habit_as_published": "Shrub",
+    "abundance_as_published": "Abundant",
+    "vernacular_as_published": "Scent leaf/Kara furu",
+    "vernacular_names": [
+      {
+        "local_name": "Kara furu",
+        "language": "ijc"
+      }
+    ],
+    "parts_reported": [],
+    "use_context": "plant reported in traditional orthopedic care in Bayelsa Central Senatorial District"
+  },
+  {
+    "source_id": "olatokunbo-2022-bayelsa",
+    "source_row": 30,
+    "botanical_as_published": "Phyllanthus amarus (Schum. &Thonn.)",
+    "family_as_published": "Phyllanthaceae",
+    "common_english_as_published": "Amarus",
+    "habit_as_published": "Herb",
+    "abundance_as_published": "Frequent",
+    "vernacular_as_published": "Amarus/Tukaben",
+    "vernacular_names": [
+      {
+        "local_name": "Tukaben",
+        "language": "ijc"
+      }
+    ],
+    "parts_reported": [],
+    "use_context": "plant reported in traditional orthopedic care in Bayelsa Central Senatorial District"
+  },
+  {
+    "source_id": "olatokunbo-2022-bayelsa",
+    "source_row": 31,
+    "botanical_as_published": "Piper guineense (Schum. &Thonn.)",
+    "family_as_published": "Piperaceae",
+    "common_english_as_published": "African black pepper",
+    "habit_as_published": "Vine",
+    "abundance_as_published": "Rare",
+    "vernacular_as_published": "African black pepper/Aziza, Uziza",
+    "vernacular_names": [
+      {
+        "local_name": "Aziza",
+        "language": "ijc"
+      },
+      {
+        "local_name": "Uziza",
+        "language": "ijc"
+      }
+    ],
+    "parts_reported": [],
+    "use_context": "plant reported in traditional orthopedic care in Bayelsa Central Senatorial District"
+  },
+  {
+    "source_id": "olatokunbo-2022-bayelsa",
+    "source_row": 32,
+    "botanical_as_published": "Portulaca oleracea (L.)",
+    "family_as_published": "Portulacaceae",
+    "common_english_as_published": "Purslane",
+    "habit_as_published": "Herb",
+    "abundance_as_published": "Abundant",
+    "vernacular_as_published": "Purslane/Kalaorwoegina",
+    "vernacular_names": [
+      {
+        "local_name": "Kalaorwoegina",
+        "language": "ijc"
+      }
+    ],
+    "parts_reported": [],
+    "use_context": "plant reported in traditional orthopedic care in Bayelsa Central Senatorial District"
+  },
+  {
+    "source_id": "olatokunbo-2022-bayelsa",
+    "source_row": 33,
+    "botanical_as_published": "Psidium guajava (L).",
+    "family_as_published": "Myrtaceae",
+    "common_english_as_published": "Guava",
+    "habit_as_published": "Tree",
+    "abundance_as_published": "Abundant",
+    "vernacular_as_published": "Guava/ Aguava",
+    "vernacular_names": [
+      {
+        "local_name": "Aguava",
+        "language": "ijc"
+      }
+    ],
+    "parts_reported": [],
+    "use_context": "plant reported in traditional orthopedic care in Bayelsa Central Senatorial District"
+  },
+  {
+    "source_id": "olatokunbo-2022-bayelsa",
+    "source_row": 34,
+    "botanical_as_published": "Solenostemon monostachyus (P. Beaux.)",
+    "family_as_published": "Lamiaceae",
+    "common_english_as_published": "Catnip",
+    "habit_as_published": "Herb",
+    "abundance_as_published": "Occasional",
+    "vernacular_as_published": "Catnip/Ipain",
+    "vernacular_names": [
+      {
+        "local_name": "Ipain",
+        "language": "ijc"
+      }
+    ],
+    "parts_reported": [],
+    "use_context": "plant reported in traditional orthopedic care in Bayelsa Central Senatorial District"
+  },
+  {
+    "source_id": "olatokunbo-2022-bayelsa",
+    "source_row": 35,
+    "botanical_as_published": "Spondias mombis (L.)",
+    "family_as_published": "Anacardiaceae",
+    "common_english_as_published": "Cat’s tail grass",
+    "habit_as_published": "Tree",
+    "abundance_as_published": "Frequent",
+    "vernacular_as_published": "Cat’s tail grass/ Owenyaiyaitogo",
+    "vernacular_names": [
+      {
+        "local_name": "Owenyaiyaitogo",
+        "language": "ijc"
+      }
+    ],
+    "parts_reported": [],
+    "use_context": "plant reported in traditional orthopedic care in Bayelsa Central Senatorial District"
+  },
+  {
+    "source_id": "olatokunbo-2022-bayelsa",
+    "source_row": 36,
+    "botanical_as_published": "Theobroma cacao (L.)",
+    "family_as_published": "Malvaceae",
+    "common_english_as_published": "Cocoa",
+    "habit_as_published": "Tree",
+    "abundance_as_published": "Frequent",
+    "vernacular_as_published": "Cocoa/Odukuku",
+    "vernacular_names": [
+      {
+        "local_name": "Odukuku",
+        "language": "ijc"
+      }
+    ],
+    "parts_reported": [],
+    "use_context": "plant reported in traditional orthopedic care in Bayelsa Central Senatorial District"
+  },
+  {
+    "source_id": "olatokunbo-2022-bayelsa",
+    "source_row": 37,
+    "botanical_as_published": "Vernonia amygdalina (Del.)",
+    "family_as_published": "Compositae",
+    "common_english_as_published": "Bitter leaf",
+    "habit_as_published": "Shrub",
+    "abundance_as_published": "Abundant",
+    "vernacular_as_published": "Bitter leaf/Kiriorugbo",
+    "vernacular_names": [
+      {
+        "local_name": "Kiriorugbo",
+        "language": "ijc"
+      }
+    ],
+    "parts_reported": [],
+    "use_context": "plant reported in traditional orthopedic care in Bayelsa Central Senatorial District"
+  },
+  {
+    "source_id": "olatokunbo-2022-bayelsa",
+    "source_row": 38,
+    "botanical_as_published": "Xylopia aethiopica (Dunal) A. Rich.",
+    "family_as_published": "Annonaceae",
+    "common_english_as_published": "Ethiopian pepper",
+    "habit_as_published": "Tree",
+    "abundance_as_published": "Rare",
+    "vernacular_as_published": "Ethiopian pepper / Enge",
+    "vernacular_names": [
+      {
+        "local_name": "Enge",
+        "language": "ijc"
+      }
+    ],
+    "parts_reported": [],
+    "use_context": "plant reported in traditional orthopedic care in Bayelsa Central Senatorial District"
+  },
+  {
+    "source_id": "olatokunbo-2022-bayelsa",
+    "source_row": 39,
+    "botanical_as_published": "Zingiber officinale (Roscoe.)",
+    "family_as_published": "Zingiberaceae",
+    "common_english_as_published": "Ginger",
+    "habit_as_published": "Herb",
+    "abundance_as_published": "Rare",
+    "vernacular_as_published": "Ginger/Zinza",
+    "vernacular_names": [
+      {
+        "local_name": "Zinza",
+        "language": "ijc"
+      }
+    ],
+    "parts_reported": [],
+    "use_context": "plant reported in traditional orthopedic care in Bayelsa Central Senatorial District"
+  }
+]
