@@ -1,0 +1,1572 @@
+[
+  {
+    "source_id": "evbuomwan-2023-kwara",
+    "source_row": 1,
+    "botanical_as_published": "Mangifera indica Linn",
+    "family_as_published": "Anacardiaceae",
+    "common_english_as_published": "Common Indian mango",
+    "vernacular_as_published": "Mongoro",
+    "vernacular_names": [
+      {
+        "local_name": "Mongoro",
+        "language": null
+      }
+    ],
+    "parts_reported": [
+      "stem bark",
+      "root",
+      "leaf"
+    ],
+    "voucher_specimen": "FHI 109451",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for malaria in Kwara State",
+    "data_quality_flags": [
+      "language_not_stated_for_row"
+    ],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "evbuomwan-2023-kwara",
+    "source_row": 2,
+    "botanical_as_published": "Enantia chlorantha Oliv",
+    "family_as_published": "Annonaceae",
+    "common_english_as_published": "African yellow wood",
+    "vernacular_as_published": "Awopa or Dokita igbo",
+    "vernacular_names": [
+      {
+        "local_name": "Awopa",
+        "language": null
+      },
+      {
+        "local_name": "Dokita igbo",
+        "language": null
+      }
+    ],
+    "parts_reported": [
+      "stem bark",
+      "root",
+      "leaf"
+    ],
+    "voucher_specimen": "FHI 109950",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for malaria in Kwara State",
+    "data_quality_flags": [
+      "language_not_stated_for_row"
+    ],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "evbuomwan-2023-kwara",
+    "source_row": 3,
+    "botanical_as_published": "Alstonia boonei De Wild",
+    "family_as_published": "Apocynaceae",
+    "common_english_as_published": "Stool wood, Pattern wood",
+    "vernacular_as_published": "Ahun",
+    "vernacular_names": [
+      {
+        "local_name": "Ahun",
+        "language": null
+      }
+    ],
+    "parts_reported": [
+      "stem bark",
+      "root"
+    ],
+    "voucher_specimen": "FHI 107254",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for malaria in Kwara State",
+    "data_quality_flags": [
+      "language_not_stated_for_row"
+    ],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "evbuomwan-2023-kwara",
+    "source_row": 4,
+    "botanical_as_published": "Cymbopogon citratus (DC.) Stapf",
+    "family_as_published": "Poaceae",
+    "common_english_as_published": "Lemon grass",
+    "vernacular_as_published": "Ewe tii",
+    "vernacular_names": [
+      {
+        "local_name": "Ewe tii",
+        "language": null
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "voucher_specimen": "FHI 605214",
+    "life_form_as_published": "Grass",
+    "use_context": "plant reported for malaria in Kwara State",
+    "data_quality_flags": [
+      "language_not_stated_for_row"
+    ],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "evbuomwan-2023-kwara",
+    "source_row": 5,
+    "botanical_as_published": "Nauclea latifolia Sm",
+    "family_as_published": "Rubiaceae",
+    "common_english_as_published": "African peach",
+    "vernacular_as_published": "Egbesi",
+    "vernacular_names": [
+      {
+        "local_name": "Egbesi",
+        "language": null
+      }
+    ],
+    "parts_reported": [
+      "stem bark",
+      "root",
+      "leaf"
+    ],
+    "voucher_specimen": "FHI 112779",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for malaria in Kwara State",
+    "data_quality_flags": [
+      "language_not_stated_for_row"
+    ],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "evbuomwan-2023-kwara",
+    "source_row": 6,
+    "botanical_as_published": "Morinda lucida Benth",
+    "family_as_published": "Rubiaceae",
+    "common_english_as_published": "Brimstone tree",
+    "vernacular_as_published": "Oruwo",
+    "vernacular_names": [
+      {
+        "local_name": "Oruwo",
+        "language": null
+      }
+    ],
+    "parts_reported": [
+      "stem bark",
+      "root",
+      "leaf"
+    ],
+    "voucher_specimen": "FHI 106992",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for malaria in Kwara State",
+    "data_quality_flags": [
+      "language_not_stated_for_row"
+    ],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "evbuomwan-2023-kwara",
+    "source_row": 7,
+    "botanical_as_published": "Carica papaya Linn",
+    "family_as_published": "Caricaceae",
+    "common_english_as_published": "Pawpaw",
+    "vernacular_as_published": "Ibepe",
+    "vernacular_names": [
+      {
+        "local_name": "Ibepe",
+        "language": null
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "unripe fruit"
+    ],
+    "voucher_specimen": "FHI 109462",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for malaria in Kwara State",
+    "data_quality_flags": [
+      "language_not_stated_for_row"
+    ],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "evbuomwan-2023-kwara",
+    "source_row": 8,
+    "botanical_as_published": "Anacardium occidentale Linn",
+    "family_as_published": "Anacardiaceae",
+    "common_english_as_published": "Cashew",
+    "vernacular_as_published": "Kasu",
+    "vernacular_names": [
+      {
+        "local_name": "Kasu",
+        "language": null
+      }
+    ],
+    "parts_reported": [
+      "stem bark",
+      "root",
+      "leaf"
+    ],
+    "voucher_specimen": "FHI 109858",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for malaria in Kwara State",
+    "data_quality_flags": [
+      "language_not_stated_for_row"
+    ],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "evbuomwan-2023-kwara",
+    "source_row": 9,
+    "botanical_as_published": "Khaya ivorensis A. Chev",
+    "family_as_published": "Meliaceae",
+    "common_english_as_published": "African mahogany",
+    "vernacular_as_published": "Aganwo or Oganwo",
+    "vernacular_names": [
+      {
+        "local_name": "Aganwo",
+        "language": null
+      },
+      {
+        "local_name": "Oganwo",
+        "language": null
+      }
+    ],
+    "parts_reported": [
+      "stem bark"
+    ],
+    "voucher_specimen": "FHI 56845",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for malaria in Kwara State",
+    "data_quality_flags": [
+      "language_not_stated_for_row"
+    ],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "evbuomwan-2023-kwara",
+    "source_row": 10,
+    "botanical_as_published": "Acacia nilotica (L.) Delile",
+    "family_as_published": "Fabaceae",
+    "common_english_as_published": "Gum Arabic tree",
+    "vernacular_as_published": "Boonii",
+    "vernacular_names": [
+      {
+        "local_name": "Boonii",
+        "language": null
+      }
+    ],
+    "parts_reported": [
+      "stem bark",
+      "leaf"
+    ],
+    "voucher_specimen": "FHI 108425",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for malaria in Kwara State",
+    "data_quality_flags": [
+      "language_not_stated_for_row"
+    ],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "evbuomwan-2023-kwara",
+    "source_row": 11,
+    "botanical_as_published": "Byrsocarpus coccineus Schum. & Thonn",
+    "family_as_published": "Connaraceae",
+    "common_english_as_published": "Crimson thyme",
+    "vernacular_as_published": "Amuje wewe or Kanti-kanti",
+    "vernacular_names": [
+      {
+        "local_name": "Amuje wewe",
+        "language": null
+      },
+      {
+        "local_name": "Kanti-kanti",
+        "language": null
+      }
+    ],
+    "parts_reported": [
+      "stem bark"
+    ],
+    "voucher_specimen": "FHI 112950",
+    "life_form_as_published": "Shrub",
+    "use_context": "plant reported for malaria in Kwara State",
+    "data_quality_flags": [
+      "language_not_stated_for_row"
+    ],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "evbuomwan-2023-kwara",
+    "source_row": 12,
+    "botanical_as_published": "Waltheria indica Linn",
+    "family_as_published": "Malvaceae",
+    "common_english_as_published": "Sleeping morning",
+    "vernacular_as_published": "Epoara",
+    "vernacular_names": [
+      {
+        "local_name": "Epoara",
+        "language": null
+      }
+    ],
+    "parts_reported": [
+      "stem bark",
+      "leaf"
+    ],
+    "voucher_specimen": "FHI 92465",
+    "life_form_as_published": "Shrub",
+    "use_context": "plant reported for malaria in Kwara State",
+    "data_quality_flags": [
+      "language_not_stated_for_row"
+    ],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "evbuomwan-2023-kwara",
+    "source_row": 13,
+    "botanical_as_published": "Theobroma cacao Linn",
+    "family_as_published": "Sterculiaceae",
+    "common_english_as_published": "Cocoa",
+    "vernacular_as_published": "Koko",
+    "vernacular_names": [
+      {
+        "local_name": "Koko",
+        "language": null
+      }
+    ],
+    "parts_reported": [
+      "stem bark"
+    ],
+    "voucher_specimen": "FHI 700314",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for malaria in Kwara State",
+    "data_quality_flags": [
+      "language_not_stated_for_row"
+    ],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "evbuomwan-2023-kwara",
+    "source_row": 14,
+    "botanical_as_published": "Lawsonia inermis Linn",
+    "family_as_published": "Lythraceae",
+    "common_english_as_published": "Henna tree",
+    "vernacular_as_published": "Laali (Yoruba), Lǎli (Nupe)",
+    "vernacular_names": [
+      {
+        "local_name": "Laali",
+        "language": "yo"
+      },
+      {
+        "local_name": "Lǎli",
+        "language": "nup"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "voucher_specimen": "FHI 702616",
+    "life_form_as_published": "Shrub",
+    "use_context": "plant reported for malaria in Kwara State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "evbuomwan-2023-kwara",
+    "source_row": 15,
+    "botanical_as_published": "Sphenocentrum jollyanum Pierre",
+    "family_as_published": "Menispermaceae",
+    "common_english_as_published": "Sphenocentrum",
+    "vernacular_as_published": "Akerejupon or Ajo",
+    "vernacular_names": [
+      {
+        "local_name": "Akerejupon",
+        "language": null
+      },
+      {
+        "local_name": "Ajo",
+        "language": null
+      }
+    ],
+    "parts_reported": [
+      "root",
+      "leaf"
+    ],
+    "voucher_specimen": "FHI 108283",
+    "life_form_as_published": "Shrub",
+    "use_context": "plant reported for malaria in Kwara State",
+    "data_quality_flags": [
+      "language_not_stated_for_row"
+    ],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "evbuomwan-2023-kwara",
+    "source_row": 16,
+    "botanical_as_published": "Citrus aurantifolia (Christm.) Swingle",
+    "family_as_published": "Rutaceae",
+    "common_english_as_published": "Lime",
+    "vernacular_as_published": "Osan wewe",
+    "vernacular_names": [
+      {
+        "local_name": "Osan wewe",
+        "language": null
+      }
+    ],
+    "parts_reported": [
+      "stem bark",
+      "leaf"
+    ],
+    "voucher_specimen": "FHI 110009",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for malaria in Kwara State",
+    "data_quality_flags": [
+      "language_not_stated_for_row"
+    ],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "evbuomwan-2023-kwara",
+    "source_row": 17,
+    "botanical_as_published": "Anogeissus leiocarpus (DC.) Guill. & Perr",
+    "family_as_published": "Combretaceae",
+    "common_english_as_published": "African birch",
+    "vernacular_as_published": "Ayin",
+    "vernacular_names": [
+      {
+        "local_name": "Ayin",
+        "language": null
+      }
+    ],
+    "parts_reported": [
+      "stem bark",
+      "root",
+      "leaf"
+    ],
+    "voucher_specimen": "FHI 107122",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for malaria in Kwara State",
+    "data_quality_flags": [
+      "language_not_stated_for_row"
+    ],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "evbuomwan-2023-kwara",
+    "source_row": 18,
+    "botanical_as_published": "Axonopus compressus (Sw.) P.Beauv",
+    "family_as_published": "Poaceae",
+    "common_english_as_published": "Tropical carpet grass",
+    "vernacular_as_published": "Idi",
+    "vernacular_names": [
+      {
+        "local_name": "Idi",
+        "language": null
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "voucher_specimen": "FHI 109977",
+    "life_form_as_published": "Grass",
+    "use_context": "plant reported for malaria in Kwara State",
+    "data_quality_flags": [
+      "language_not_stated_for_row"
+    ],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "evbuomwan-2023-kwara",
+    "source_row": 19,
+    "botanical_as_published": "Citrus limon (L.) Osbeck",
+    "family_as_published": "Rutaceae",
+    "common_english_as_published": "Lemon",
+    "vernacular_as_published": "Osan-laimu or Osan agan",
+    "vernacular_names": [
+      {
+        "local_name": "Osan-laimu",
+        "language": null
+      },
+      {
+        "local_name": "Osan agan",
+        "language": null
+      }
+    ],
+    "parts_reported": [
+      "fruit"
+    ],
+    "voucher_specimen": "FHI 110008",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for malaria in Kwara State",
+    "data_quality_flags": [
+      "language_not_stated_for_row"
+    ],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "evbuomwan-2023-kwara",
+    "source_row": 20,
+    "botanical_as_published": "Lophira alata Banks ex Gaertn",
+    "family_as_published": "Ochnaceae",
+    "common_english_as_published": "Red iron wood",
+    "vernacular_as_published": "Ponhan",
+    "vernacular_names": [
+      {
+        "local_name": "Ponhan",
+        "language": null
+      }
+    ],
+    "parts_reported": [
+      "stem bark"
+    ],
+    "voucher_specimen": "FHI 109820",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for malaria in Kwara State",
+    "data_quality_flags": [
+      "language_not_stated_for_row"
+    ],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "evbuomwan-2023-kwara",
+    "source_row": 21,
+    "botanical_as_published": "Azadirachta indica A.Juss",
+    "family_as_published": "Meliaceae",
+    "common_english_as_published": "Neem",
+    "vernacular_as_published": "Dongoyaro",
+    "vernacular_names": [
+      {
+        "local_name": "Dongoyaro",
+        "language": null
+      }
+    ],
+    "parts_reported": [
+      "root",
+      "leaf"
+    ],
+    "voucher_specimen": "FHI 112927",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for malaria in Kwara State",
+    "data_quality_flags": [
+      "language_not_stated_for_row"
+    ],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "evbuomwan-2023-kwara",
+    "source_row": 22,
+    "botanical_as_published": "Gossypium barbadense Linn",
+    "family_as_published": "Malvaceae",
+    "common_english_as_published": "Cotton plant",
+    "vernacular_as_published": "Owu or Owu akese (Yoruba), Lulu fùkà (Nupe)",
+    "vernacular_names": [
+      {
+        "local_name": "Owu",
+        "language": "yo"
+      },
+      {
+        "local_name": "Owu akese",
+        "language": "yo"
+      },
+      {
+        "local_name": "Lulu fùkà",
+        "language": "nup"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "voucher_specimen": "FHI 107327",
+    "life_form_as_published": "Shrub",
+    "use_context": "plant reported for malaria in Kwara State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "evbuomwan-2023-kwara",
+    "source_row": 23,
+    "botanical_as_published": "Sorghum bicolor (L.) Moench",
+    "family_as_published": "Poaceae",
+    "common_english_as_published": "Red sorghum",
+    "vernacular_as_published": "Karandafi or Poroporo",
+    "vernacular_names": [
+      {
+        "local_name": "Karandafi",
+        "language": null
+      },
+      {
+        "local_name": "Poroporo",
+        "language": null
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "root"
+    ],
+    "voucher_specimen": "FHI 109659",
+    "life_form_as_published": "Grass",
+    "use_context": "plant reported for malaria in Kwara State",
+    "data_quality_flags": [
+      "language_not_stated_for_row"
+    ],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "evbuomwan-2023-kwara",
+    "source_row": 24,
+    "botanical_as_published": "Ancistrophyllum secundiflorum (P.Beauv.) G.Mann & H.Wendl",
+    "family_as_published": "Arecaceae",
+    "common_english_as_published": "Giant rattan",
+    "vernacular_as_published": "Okuuku",
+    "vernacular_names": [
+      {
+        "local_name": "Okuuku",
+        "language": null
+      }
+    ],
+    "parts_reported": [
+      "stem bark"
+    ],
+    "voucher_specimen": "FHI 50908",
+    "life_form_as_published": "Climber",
+    "use_context": "plant reported for malaria in Kwara State",
+    "data_quality_flags": [
+      "language_not_stated_for_row"
+    ],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "evbuomwan-2023-kwara",
+    "source_row": 25,
+    "botanical_as_published": "Tithonia diversifolia (Hemsl.) A. Gray",
+    "family_as_published": "Asteraceae",
+    "common_english_as_published": "Tree marigold or Mexican sunflower",
+    "vernacular_as_published": "June 12",
+    "vernacular_names": [
+      {
+        "local_name": "June 12",
+        "language": null
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "voucher_specimen": "FHI 108055",
+    "life_form_as_published": "Shrub",
+    "use_context": "plant reported for malaria in Kwara State",
+    "data_quality_flags": [
+      "language_not_stated_for_row",
+      "nickname_rather_than_vernacular_name"
+    ],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "evbuomwan-2023-kwara",
+    "source_row": 26,
+    "botanical_as_published": "Vitellaria paradoxa C.F. Gaertn",
+    "family_as_published": "Sapotaceae",
+    "common_english_as_published": "Shea tree",
+    "vernacular_as_published": "Emi",
+    "vernacular_names": [
+      {
+        "local_name": "Emi",
+        "language": null
+      }
+    ],
+    "parts_reported": [
+      "root",
+      "leaf"
+    ],
+    "voucher_specimen": "FHI 107924",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for malaria in Kwara State",
+    "data_quality_flags": [
+      "language_not_stated_for_row"
+    ],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "evbuomwan-2023-kwara",
+    "source_row": 27,
+    "botanical_as_published": "Zingiber officinale Roscoe",
+    "family_as_published": "Zingiberaceae",
+    "common_english_as_published": "Ginger",
+    "vernacular_as_published": "Ataile",
+    "vernacular_names": [
+      {
+        "local_name": "Ataile",
+        "language": null
+      }
+    ],
+    "parts_reported": [
+      "rhizome"
+    ],
+    "voucher_specimen": "FHI 107935",
+    "life_form_as_published": "Herb",
+    "use_context": "plant reported for malaria in Kwara State",
+    "data_quality_flags": [
+      "language_not_stated_for_row"
+    ],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "evbuomwan-2023-kwara",
+    "source_row": 28,
+    "botanical_as_published": "Kigelia africana (Lam.) Benth",
+    "family_as_published": "Bignoniaceae",
+    "common_english_as_published": "Sausage tree",
+    "vernacular_as_published": "Pandoro",
+    "vernacular_names": [
+      {
+        "local_name": "Pandoro",
+        "language": null
+      }
+    ],
+    "parts_reported": [
+      "stem bark",
+      "fruit"
+    ],
+    "voucher_specimen": "FHI 107654",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for malaria in Kwara State",
+    "data_quality_flags": [
+      "language_not_stated_for_row"
+    ],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "evbuomwan-2023-kwara",
+    "source_row": 29,
+    "botanical_as_published": "Harungana madagascariensis Lam. ex Poir",
+    "family_as_published": "Hypericaceae",
+    "common_english_as_published": "Dragon’s blood tree",
+    "vernacular_as_published": "Arunje",
+    "vernacular_names": [
+      {
+        "local_name": "Arunje",
+        "language": null
+      }
+    ],
+    "parts_reported": [
+      "stem bark",
+      "leaf"
+    ],
+    "voucher_specimen": "FHI 107392",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for malaria in Kwara State",
+    "data_quality_flags": [
+      "language_not_stated_for_row"
+    ],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "evbuomwan-2023-kwara",
+    "source_row": 30,
+    "botanical_as_published": "Psidium guajava Linn",
+    "family_as_published": "Myrtaceae",
+    "common_english_as_published": "Guava",
+    "vernacular_as_published": "Gilofa or Gurofa",
+    "vernacular_names": [
+      {
+        "local_name": "Gilofa",
+        "language": null
+      },
+      {
+        "local_name": "Gurofa",
+        "language": null
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "voucher_specimen": "FHI 110937",
+    "life_form_as_published": "Shrub",
+    "use_context": "plant reported for malaria in Kwara State",
+    "data_quality_flags": [
+      "language_not_stated_for_row"
+    ],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "evbuomwan-2023-kwara",
+    "source_row": 31,
+    "botanical_as_published": "Pseudocedrela kotschyi (Schweinf.) Harms",
+    "family_as_published": "Meliaceae",
+    "common_english_as_published": "Dry-zone cedar",
+    "vernacular_as_published": "Emi gbegiri or Akodinrin",
+    "vernacular_names": [
+      {
+        "local_name": "Emi gbegiri",
+        "language": null
+      },
+      {
+        "local_name": "Akodinrin",
+        "language": null
+      }
+    ],
+    "parts_reported": [
+      "stem bark"
+    ],
+    "voucher_specimen": "FHI 106873",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for malaria in Kwara State",
+    "data_quality_flags": [
+      "language_not_stated_for_row"
+    ],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "evbuomwan-2023-kwara",
+    "source_row": 32,
+    "botanical_as_published": "Ananas comosus (L.) Merr",
+    "family_as_published": "Bromeliaceae",
+    "common_english_as_published": "Pineapple",
+    "vernacular_as_published": "Ọpẹ oyinbo",
+    "vernacular_names": [
+      {
+        "local_name": "Ọpẹ oyinbo",
+        "language": null
+      }
+    ],
+    "parts_reported": [
+      "peel"
+    ],
+    "voucher_specimen": "FHI 58509",
+    "life_form_as_published": "Shrub",
+    "use_context": "plant reported for malaria in Kwara State",
+    "data_quality_flags": [
+      "language_not_stated_for_row"
+    ],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "evbuomwan-2023-kwara",
+    "source_row": 33,
+    "botanical_as_published": "Calliandra haematocephala Hassk",
+    "family_as_published": "Fabaceae",
+    "common_english_as_published": "Powder puff",
+    "vernacular_as_published": "Tude",
+    "vernacular_names": [
+      {
+        "local_name": "Tude",
+        "language": null
+      }
+    ],
+    "parts_reported": [
+      "root"
+    ],
+    "voucher_specimen": "FHI 45788",
+    "life_form_as_published": "Shrub",
+    "use_context": "plant reported for malaria in Kwara State",
+    "data_quality_flags": [
+      "language_not_stated_for_row"
+    ],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "evbuomwan-2023-kwara",
+    "source_row": 34,
+    "botanical_as_published": "Ocimum gratissimum Linn",
+    "family_as_published": "Lamiaceae",
+    "common_english_as_published": "Scent basil",
+    "vernacular_as_published": "Efirin",
+    "vernacular_names": [
+      {
+        "local_name": "Efirin",
+        "language": null
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "voucher_specimen": "FHI 111995",
+    "life_form_as_published": "Herb",
+    "use_context": "plant reported for malaria in Kwara State",
+    "data_quality_flags": [
+      "language_not_stated_for_row"
+    ],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "evbuomwan-2023-kwara",
+    "source_row": 35,
+    "botanical_as_published": "Vernonia amygdalina Delile",
+    "family_as_published": "Asteraceae",
+    "common_english_as_published": "Bitter leaf",
+    "vernacular_as_published": "Ewuro",
+    "vernacular_names": [
+      {
+        "local_name": "Ewuro",
+        "language": null
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "voucher_specimen": "FHI 112924",
+    "life_form_as_published": "Shrub",
+    "use_context": "plant reported for malaria in Kwara State",
+    "data_quality_flags": [
+      "language_not_stated_for_row"
+    ],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "evbuomwan-2023-kwara",
+    "source_row": 36,
+    "botanical_as_published": "Prosopis africana (Guill. & Perr.) Taub",
+    "family_as_published": "Fabaceae",
+    "common_english_as_published": "African mesquite",
+    "vernacular_as_published": "Ayan",
+    "vernacular_names": [
+      {
+        "local_name": "Ayan",
+        "language": null
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "root"
+    ],
+    "voucher_specimen": "FHI 112370",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for malaria in Kwara State",
+    "data_quality_flags": [
+      "language_not_stated_for_row"
+    ],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "evbuomwan-2023-kwara",
+    "source_row": 37,
+    "botanical_as_published": "Acanthus montanus (Nees) T. Anderson",
+    "family_as_published": "Acanthaceae",
+    "common_english_as_published": "Mountain Thistle",
+    "vernacular_as_published": "Mafowokan omomi or Ahon ekun",
+    "vernacular_names": [
+      {
+        "local_name": "Mafowokan omomi",
+        "language": null
+      },
+      {
+        "local_name": "Ahon ekun",
+        "language": null
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "voucher_specimen": "FHI 107529",
+    "life_form_as_published": "Shrub",
+    "use_context": "plant reported for malaria in Kwara State",
+    "data_quality_flags": [
+      "language_not_stated_for_row"
+    ],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "evbuomwan-2023-kwara",
+    "source_row": 38,
+    "botanical_as_published": "Aristolochia ringens Vahl",
+    "family_as_published": "Aristolochiaceae",
+    "common_english_as_published": "Dutchman’s pipe",
+    "vernacular_as_published": "Akogun (Yoruba), Kwagũ̀gi (Nupe)",
+    "vernacular_names": [
+      {
+        "local_name": "Akogun",
+        "language": "yo"
+      },
+      {
+        "local_name": "Kwagũ̀gi",
+        "language": "nup"
+      }
+    ],
+    "parts_reported": [
+      "root"
+    ],
+    "voucher_specimen": "FHI 112929",
+    "life_form_as_published": "Climber",
+    "use_context": "plant reported for malaria in Kwara State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "evbuomwan-2023-kwara",
+    "source_row": 39,
+    "botanical_as_published": "Artocarpus altilis (Parkinson) Fosberg",
+    "family_as_published": "Moraceae",
+    "common_english_as_published": "Breadfruit",
+    "vernacular_as_published": "Gbere (Nupe)",
+    "vernacular_names": [
+      {
+        "local_name": "Gbere",
+        "language": "nup"
+      }
+    ],
+    "parts_reported": [
+      "root"
+    ],
+    "voucher_specimen": "FHI 110483",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for malaria in Kwara State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "evbuomwan-2023-kwara",
+    "source_row": 40,
+    "botanical_as_published": "Citrus sinensis (L.) Osbeck",
+    "family_as_published": "Rutaceae",
+    "common_english_as_published": "Sweet orange",
+    "vernacular_as_published": "Orombo",
+    "vernacular_names": [
+      {
+        "local_name": "Orombo",
+        "language": null
+      }
+    ],
+    "parts_reported": [
+      "stem bark",
+      "leaf"
+    ],
+    "voucher_specimen": "FHI 108811",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for malaria in Kwara State",
+    "data_quality_flags": [
+      "language_not_stated_for_row"
+    ],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "evbuomwan-2023-kwara",
+    "source_row": 41,
+    "botanical_as_published": "Cocos nucifera Linn",
+    "family_as_published": "Arecaceae",
+    "common_english_as_published": "Coconut palm",
+    "vernacular_as_published": "Agbon",
+    "vernacular_names": [
+      {
+        "local_name": "Agbon",
+        "language": null
+      }
+    ],
+    "parts_reported": [
+      "husk"
+    ],
+    "voucher_specimen": "FHI 109665",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for malaria in Kwara State",
+    "data_quality_flags": [
+      "language_not_stated_for_row"
+    ],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "evbuomwan-2023-kwara",
+    "source_row": 42,
+    "botanical_as_published": "Curcuma longa Linn",
+    "family_as_published": "Zingiberaceae",
+    "common_english_as_published": "Turmeric",
+    "vernacular_as_published": "Ataile pupa",
+    "vernacular_names": [
+      {
+        "local_name": "Ataile pupa",
+        "language": null
+      }
+    ],
+    "parts_reported": [
+      "rhizome"
+    ],
+    "voucher_specimen": "FHI 106920",
+    "life_form_as_published": "Herb",
+    "use_context": "plant reported for malaria in Kwara State",
+    "data_quality_flags": [
+      "language_not_stated_for_row"
+    ],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "evbuomwan-2023-kwara",
+    "source_row": 43,
+    "botanical_as_published": "Daniellia oliveri (Rolfe) Hutch. & Dalziel",
+    "family_as_published": "Fabaceae",
+    "common_english_as_published": "African copaiba balsam tree",
+    "vernacular_as_published": "Iya",
+    "vernacular_names": [
+      {
+        "local_name": "Iya",
+        "language": null
+      }
+    ],
+    "parts_reported": [
+      "stem bark"
+    ],
+    "voucher_specimen": "FHI 36952",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for malaria in Kwara State",
+    "data_quality_flags": [
+      "language_not_stated_for_row"
+    ],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "evbuomwan-2023-kwara",
+    "source_row": 44,
+    "botanical_as_published": "Entada africana Guill. & Perr",
+    "family_as_published": "Fabaceae",
+    "common_english_as_published": "Splinter bean",
+    "vernacular_as_published": "Igbaluwere or Ogurobe",
+    "vernacular_names": [
+      {
+        "local_name": "Igbaluwere",
+        "language": null
+      },
+      {
+        "local_name": "Ogurobe",
+        "language": null
+      }
+    ],
+    "parts_reported": [
+      "stem bark"
+    ],
+    "voucher_specimen": "NIPRD/H/6412",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for malaria in Kwara State",
+    "data_quality_flags": [
+      "language_not_stated_for_row"
+    ],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "evbuomwan-2023-kwara",
+    "source_row": 45,
+    "botanical_as_published": "Ficus exasperata Vahl",
+    "family_as_published": "Moraceae",
+    "common_english_as_published": "Sandpaper",
+    "vernacular_as_published": "Ipin",
+    "vernacular_names": [
+      {
+        "local_name": "Ipin",
+        "language": null
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "voucher_specimen": "FHI 109550",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for malaria in Kwara State",
+    "data_quality_flags": [
+      "language_not_stated_for_row"
+    ],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "evbuomwan-2023-kwara",
+    "source_row": 46,
+    "botanical_as_published": "Ficus platyphylla Del. Holl",
+    "family_as_published": "Moraceae",
+    "common_english_as_published": "Gutta percha tree",
+    "vernacular_as_published": "Obo",
+    "vernacular_names": [
+      {
+        "local_name": "Obo",
+        "language": null
+      }
+    ],
+    "parts_reported": [
+      "stem bark"
+    ],
+    "voucher_specimen": "FHI 78251",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for malaria in Kwara State",
+    "data_quality_flags": [
+      "language_not_stated_for_row"
+    ],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "evbuomwan-2023-kwara",
+    "source_row": 47,
+    "botanical_as_published": "Garcinia kola Heckel",
+    "family_as_published": "Clusiaceae",
+    "common_english_as_published": "Bitter kola",
+    "vernacular_as_published": "Orogbo",
+    "vernacular_names": [
+      {
+        "local_name": "Orogbo",
+        "language": null
+      }
+    ],
+    "parts_reported": [
+      "stem bark"
+    ],
+    "voucher_specimen": "FHI 109481",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for malaria in Kwara State",
+    "data_quality_flags": [
+      "language_not_stated_for_row"
+    ],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "evbuomwan-2023-kwara",
+    "source_row": 48,
+    "botanical_as_published": "Jatropha curcas Linn",
+    "family_as_published": "Euphorbiaceae",
+    "common_english_as_published": "Bubble bush",
+    "vernacular_as_published": "Lapalapa funfun",
+    "vernacular_names": [
+      {
+        "local_name": "Lapalapa funfun",
+        "language": null
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "voucher_specimen": "FHI 109020",
+    "life_form_as_published": "Shrub",
+    "use_context": "plant reported for malaria in Kwara State",
+    "data_quality_flags": [
+      "language_not_stated_for_row"
+    ],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "evbuomwan-2023-kwara",
+    "source_row": 49,
+    "botanical_as_published": "Margaritaria discoidea (Baill.) G.L. Webster",
+    "family_as_published": "Phyllanthaceae",
+    "common_english_as_published": "Pheasant-berry",
+    "vernacular_as_published": "Ogbesi",
+    "vernacular_names": [
+      {
+        "local_name": "Ogbesi",
+        "language": null
+      }
+    ],
+    "parts_reported": [
+      "root"
+    ],
+    "voucher_specimen": "FHI 43971",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for malaria in Kwara State",
+    "data_quality_flags": [
+      "language_not_stated_for_row"
+    ],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "evbuomwan-2023-kwara",
+    "source_row": 50,
+    "botanical_as_published": "Musa paradisiaca Linn",
+    "family_as_published": "Musaceae",
+    "common_english_as_published": "Banana",
+    "vernacular_as_published": "Ogede agbagba",
+    "vernacular_names": [
+      {
+        "local_name": "Ogede agbagba",
+        "language": null
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "voucher_specimen": "FHI 110122",
+    "life_form_as_published": "Herb",
+    "use_context": "plant reported for malaria in Kwara State",
+    "data_quality_flags": [
+      "language_not_stated_for_row"
+    ],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "evbuomwan-2023-kwara",
+    "source_row": 51,
+    "botanical_as_published": "Parquetina nigrescens (Afzel.) Bullock",
+    "family_as_published": "Apocynaceae",
+    "common_english_as_published": "African Parquetina",
+    "vernacular_as_published": "Ogbo",
+    "vernacular_names": [
+      {
+        "local_name": "Ogbo",
+        "language": null
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "voucher_specimen": "FHI 110044",
+    "life_form_as_published": "Shrub",
+    "use_context": "plant reported for malaria in Kwara State",
+    "data_quality_flags": [
+      "language_not_stated_for_row"
+    ],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "evbuomwan-2023-kwara",
+    "source_row": 52,
+    "botanical_as_published": "Persea americana Mill",
+    "family_as_published": "Lauraceae",
+    "common_english_as_published": "Avocado",
+    "vernacular_as_published": "Nla",
+    "vernacular_names": [
+      {
+        "local_name": "Nla",
+        "language": null
+      }
+    ],
+    "parts_reported": [
+      "stem bark"
+    ],
+    "voucher_specimen": "FHI 109444",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for malaria in Kwara State",
+    "data_quality_flags": [
+      "language_not_stated_for_row"
+    ],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "evbuomwan-2023-kwara",
+    "source_row": 53,
+    "botanical_as_published": "Piliostigma thonningii (Schum.) Milne-Redh",
+    "family_as_published": "Fabaceae",
+    "common_english_as_published": "Wild bauhinia",
+    "vernacular_as_published": "Abafe",
+    "vernacular_names": [
+      {
+        "local_name": "Abafe",
+        "language": null
+      }
+    ],
+    "parts_reported": [
+      "stem bark"
+    ],
+    "voucher_specimen": "FHI 107815",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for malaria in Kwara State",
+    "data_quality_flags": [
+      "language_not_stated_for_row"
+    ],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "evbuomwan-2023-kwara",
+    "source_row": 54,
+    "botanical_as_published": "Piper guineense Schum. & Thonn",
+    "family_as_published": "Piperaceae",
+    "common_english_as_published": "Climbing black pepper",
+    "vernacular_as_published": "Iyere",
+    "vernacular_names": [
+      {
+        "local_name": "Iyere",
+        "language": null
+      }
+    ],
+    "parts_reported": [
+      "fruit"
+    ],
+    "voucher_specimen": "FHI 112922",
+    "life_form_as_published": "Climber",
+    "use_context": "plant reported for malaria in Kwara State",
+    "data_quality_flags": [
+      "language_not_stated_for_row"
+    ],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "evbuomwan-2023-kwara",
+    "source_row": 55,
+    "botanical_as_published": "Cussonia barteri Hochst. Ex A. Rich",
+    "family_as_published": "Araliaceae",
+    "common_english_as_published": "Elephant’s sugarcane",
+    "vernacular_as_published": "Sigo",
+    "vernacular_names": [
+      {
+        "local_name": "Sigo",
+        "language": null
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "voucher_specimen": "UBHdt/SN/173",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for malaria in Kwara State",
+    "data_quality_flags": [
+      "language_not_stated_for_row"
+    ],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "evbuomwan-2023-kwara",
+    "source_row": 56,
+    "botanical_as_published": "Senna occidentalis (L.) Link",
+    "family_as_published": "Fabaceae",
+    "common_english_as_published": "Coffee senna or septic weed",
+    "vernacular_as_published": "Jelenubenu (Yoruba), Gayà ebá (Nupe)",
+    "vernacular_names": [
+      {
+        "local_name": "Jelenubenu",
+        "language": "yo"
+      },
+      {
+        "local_name": "Gayà ebá",
+        "language": "nup"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "voucher_specimen": "FHI 109866",
+    "life_form_as_published": "Shrub",
+    "use_context": "plant reported for malaria in Kwara State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "evbuomwan-2023-kwara",
+    "source_row": 57,
+    "botanical_as_published": "Senna podocarpa (Guill. & Perr.) Lock",
+    "family_as_published": "Fabaceae",
+    "common_english_as_published": "Podocarpa leaf",
+    "vernacular_as_published": "Ajarere",
+    "vernacular_names": [
+      {
+        "local_name": "Ajarere",
+        "language": null
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "voucher_specimen": "FHI 109903",
+    "life_form_as_published": "Shrub",
+    "use_context": "plant reported for malaria in Kwara State",
+    "data_quality_flags": [
+      "language_not_stated_for_row"
+    ],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "evbuomwan-2023-kwara",
+    "source_row": 58,
+    "botanical_as_published": "Sida acuta Burm.f",
+    "family_as_published": "Malvaceae",
+    "common_english_as_published": "Common wireweed",
+    "vernacular_as_published": "Isekotu (Yoruba), Sàngi yèkó (Nupe)",
+    "vernacular_names": [
+      {
+        "local_name": "Isekotu",
+        "language": "yo"
+      },
+      {
+        "local_name": "Sàngi yèkó",
+        "language": "nup"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "voucher_specimen": "FHI 112276",
+    "life_form_as_published": "Weed",
+    "use_context": "plant reported for malaria in Kwara State",
+    "data_quality_flags": [],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "evbuomwan-2023-kwara",
+    "source_row": 59,
+    "botanical_as_published": "Tetracera potatoria Afzel. ex G. Don",
+    "family_as_published": "Dilleniaceae",
+    "common_english_as_published": "Cup of water",
+    "vernacular_as_published": "Opon",
+    "vernacular_names": [
+      {
+        "local_name": "Opon",
+        "language": null
+      }
+    ],
+    "parts_reported": [
+      "stem bark"
+    ],
+    "voucher_specimen": "FHI 105782",
+    "life_form_as_published": "Climber",
+    "use_context": "plant reported for malaria in Kwara State",
+    "data_quality_flags": [
+      "language_not_stated_for_row"
+    ],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "evbuomwan-2023-kwara",
+    "source_row": 60,
+    "botanical_as_published": "Tetrapleura tetraptera (Schum. & Thonn.) Taub",
+    "family_as_published": "Fabaceae",
+    "common_english_as_published": "Soup perfume",
+    "vernacular_as_published": "Aridan/Aidan",
+    "vernacular_names": [
+      {
+        "local_name": "Aridan",
+        "language": null
+      },
+      {
+        "local_name": "Aidan",
+        "language": null
+      }
+    ],
+    "parts_reported": [
+      "fruit"
+    ],
+    "voucher_specimen": "FHI 110141",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for malaria in Kwara State",
+    "data_quality_flags": [
+      "language_not_stated_for_row"
+    ],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "evbuomwan-2023-kwara",
+    "source_row": 61,
+    "botanical_as_published": "Xylopia aethiopica (Dunal) A. Rich",
+    "family_as_published": "Annonaceae",
+    "common_english_as_published": "Ethiopian or Negro pepper",
+    "vernacular_as_published": "Eeru alamo",
+    "vernacular_names": [
+      {
+        "local_name": "Eeru alamo",
+        "language": null
+      }
+    ],
+    "parts_reported": [
+      "stem bark"
+    ],
+    "voucher_specimen": "FHI 108978",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for malaria in Kwara State",
+    "data_quality_flags": [
+      "language_not_stated_for_row"
+    ],
+    "runtime_export_eligible": false
+  },
+  {
+    "source_id": "evbuomwan-2023-kwara",
+    "source_row": 62,
+    "botanical_as_published": "Zanthoxylum zanthoxyloides (Lam.) Zepern. & Timler",
+    "family_as_published": "Rutaceae",
+    "common_english_as_published": "Senegal prickly-ash",
+    "vernacular_as_published": "Orin ata",
+    "vernacular_names": [
+      {
+        "local_name": "Orin ata",
+        "language": null
+      }
+    ],
+    "parts_reported": [
+      "stem bark"
+    ],
+    "voucher_specimen": "NIPRD/H/7101",
+    "life_form_as_published": "Tree",
+    "use_context": "plant reported for malaria in Kwara State",
+    "data_quality_flags": [
+      "language_not_stated_for_row"
+    ],
+    "runtime_export_eligible": false
+  }
+]

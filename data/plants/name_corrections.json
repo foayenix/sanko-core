@@ -433,6 +433,43 @@
     ]
   },
   {
+    "botanical_as_published": "Bambusa vulgaris Schrad.",
+    "published_genus": "Bambusa",
+    "unmatched_as": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "taxonomic_status": "PROVISIONALLY_ACCEPTED",
+      "matched_canonical": "Bambusa vulgaris"
+    },
+    "decided_at": "2026-11-10",
+    "status": "corrected",
+    "rule": "gbif_variant_suggestion",
+    "corrected_query": "Bambusa vulgaris",
+    "accepted_botanical": "Bambusa vulgaris",
+    "evidence": {
+      "queried": "Bambusa vulgaris",
+      "match_type": "EXACT",
+      "confidence": 97,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Bambusa vulgaris",
+      "usage_key": "7661971",
+      "accepted_usage_key": "7661971",
+      "genus_changed": false,
+      "epithet_changed": false
+    },
+    "attempts": [
+      {
+        "query": "Bambusa vulgaris",
+        "rule": "gbif_variant_suggestion",
+        "match_type": "EXACT",
+        "confidence": 97,
+        "status": "ACCEPTED",
+        "accepted": "Bambusa vulgaris",
+        "eligible": true
+      }
+    ]
+  },
+  {
     "botanical_as_published": "Bassella alba L.",
     "published_genus": "Bassella",
     "unmatched_as": {

@@ -215,6 +215,10 @@ function build({ plantsDir = plantsDirectory, runtimeFile = path.join(root, 'dat
       : null;
     const status = plant ? 'taxonomy_checked' : 'taxonomy_unresolved';
 
+    // A source that spreads its inventory over several tables says which one a
+    // row came from; otherwise the source names its single table.
+    const locator = { table: row.source_table ?? source.table, row: row.source_table_row ?? row.source_row };
+
     for (const name of row.vernacular_names) {
       vernacularNames.push({
         id: stableId('name', name.local_name, row.source_id, row.botanical_as_published, name.language),
@@ -226,7 +230,7 @@ function build({ plantsDir = plantsDirectory, runtimeFile = path.join(root, 'dat
         botanical_as_published: row.botanical_as_published,
         accepted_botanical: acceptedBotanical,
         source_id: row.source_id,
-        source_locator: { table: source.table, row: row.source_row },
+        source_locator: locator,
         verification_status: status,
         reviewed_by: null,
         export_eligible: Boolean(plant)
@@ -238,7 +242,7 @@ function build({ plantsDir = plantsDirectory, runtimeFile = path.join(root, 'dat
       plant_id: plant?.id ?? null,
       botanical_as_published: row.botanical_as_published,
       source_id: row.source_id,
-      source_locator: { table: source.table, row: row.source_row },
+      source_locator: locator,
       parts_reported: row.parts_reported,
       preparations_reported: row.preparations_reported ?? [],
       voucher_specimen: row.voucher_specimen ?? null,
