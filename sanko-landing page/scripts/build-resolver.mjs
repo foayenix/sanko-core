@@ -111,9 +111,14 @@ const sentenceList = (values) => {
 
 const regionLabel = (region) => {
   if (!region) return '';
+  const state = region.state ? `${region.state} State` : '';
+  // Localities keep the survey's wording, which can already name the state ("all local
+  // government areas of Rivers State"). Appending the state again would print it twice.
+  const localitiesNameState =
+    state && (region.localities ?? []).some((locality) => locality.toLowerCase().includes(state.toLowerCase()));
   const parts = [
     region.localities?.length ? sentenceList(region.localities) : '',
-    region.state ? `${region.state} State` : '',
+    localitiesNameState ? '' : state,
     region.country ?? '',
   ].filter(Boolean);
   return unique(parts).join(', ');
