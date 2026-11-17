@@ -39,12 +39,21 @@ if (!/^\d{4}-\d{2}-\d{2}$/.test(BUILT_ON)) throw new Error('RESOLVER_BUILD_DATE 
 // all and the pages build exactly as they did before it existed.
 const WHATSAPP_NUMBER = (process.env.SANKO_WHATSAPP_NUMBER ?? '').replace(/[^0-9]/g, '');
 
+// ISO 639-3 codes as the surveys' language labels resolve to. The code stays in
+// the URL; readers see the name the source printed.
 const LANGUAGE_NAMES = {
   yo: 'Yoruba',
   ha: 'Hausa',
   ig: 'Igbo',
   ff: 'Fulfulde',
   en: 'English',
+  ikw: 'Ikwerre',
+  ijc: 'Ijaw (Izon)',
+  ijn: 'Kalabari',
+  ekp: 'Ekpeye',
+  // No single language: the source printed none, or printed a group such as
+  // "Ogoni" that covers several languages.
+  und: 'Language not identified',
 };
 
 // ---------------------------------------------------------------- utilities
@@ -65,6 +74,9 @@ const slugify = (value) =>
     .replace(/^-+|-+$/g, '');
 
 const languageName = (code) => LANGUAGE_NAMES[code] ?? code ?? 'unspecified language';
+
+// "an Igbo name", "a Yoruba name": the article follows the label's first sound.
+const withArticle = (label) => `${/^[aeiou]/i.test(label) ? 'an' : 'a'} ${label}`;
 
 const unique = (values) => [...new Set(values.filter(Boolean))];
 
@@ -238,8 +250,8 @@ function vernacularPage({ name, attestations, sourcesById, partsByTaxon }) {
   // The lead sentence names its own subject. Retrieval chunks a page into passages, and a
   // passage that opens with "It is..." arrives at the model with the subject already gone.
   const lead = contested
-    ? `${display} is a ${languageLabel} plant name that published sources map to more than one species: ${sentenceList(taxa)}. Sanko does not resolve it to a single taxon.`
-    : `${display} is a ${languageLabel} name for ${taxa[0]}, recorded in ${sentenceList(attestations.map((row) => regionLabel(row.region))) || 'Nigeria'}.`;
+    ? `${display} is ${withArticle(languageLabel)} plant name that published sources map to more than one species: ${sentenceList(taxa)}. Sanko does not resolve it to a single taxon.`
+    : `${display} is ${withArticle(languageLabel)} name for ${taxa[0]}, recorded in ${sentenceList(attestations.map((row) => regionLabel(row.region))) || 'Nigeria'}.`;
 
   const title = contested
     ? `${display} — a contested ${languageLabel} plant name`
