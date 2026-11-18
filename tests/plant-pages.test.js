@@ -39,6 +39,17 @@ describe('published plant pages', () => {
     assert.deepEqual(offenders(/(?:<title>|class="eyebrow">)[^<]*\b(?:und|[a-z]{2,3}) (?:plant )?name\b/), []);
   });
 
+  it('use one label for a missing language everywhere', () => {
+    // Table cells once said "unspecified language" while the index said "Language not identified".
+    assert.deepEqual(offenders(/unspecified language/i), []);
+  });
+
+  it('count distinct local names, not survey records, on a botanical page', () => {
+    // Orogbo is recorded by four surveys; the page once said 8 names for 5.
+    const html = fs.readFileSync(path.join(plantsDirectory, 'botanical', 'garcinia-kola', 'index.html'), 'utf8');
+    assert.match(html, /Garcinia kola is recorded under 5 local names/);
+  });
+
   it('never print a state twice in a location', () => {
     assert.deepEqual(offenders(/\b(\w+) State, \1 State\b/), []);
   });

@@ -76,7 +76,9 @@ const slugify = (value) =>
     .replace(/[^a-z0-9]+/g, '-')
     .replace(/^-+|-+$/g, '');
 
-const languageName = (code) => LANGUAGE_NAMES[code] ?? code ?? 'unspecified language';
+// A record with no language groups under "und" (see byLanguage), so it carries the same
+// label everywhere it appears: table cells, the language index and the "und" page.
+const languageName = (code) => (code == null ? LANGUAGE_NAMES.und : LANGUAGE_NAMES[code] ?? code);
 
 // Running prose ("a Yoruba name for ...") names only identified languages. A record
 // with no language, or the "und" group, contributes nothing, so a page reads "a local
@@ -339,7 +341,10 @@ function taxonPage({ taxon, attestations, plant, sourcesById, partsByTaxon }) {
     .slice()
     .sort((a, b) => a.local_name.localeCompare(b.local_name));
   const languageLabel = proseLanguages(names.map((row) => row.language));
-  const lead = `${taxon} is recorded under ${names.length} local ${names.length === 1 ? 'name' : 'names'} in the published Nigerian ethnobotanical literature Sanko has mapped${languageLabel ? `, across ${languageLabel}` : ''}.`;
+  // The table has a row per survey record; the same name recorded by three surveys is
+  // still one name.
+  const nameCount = new Set(names.map((row) => row.normalized_name)).size;
+  const lead = `${taxon} is recorded under ${nameCount} local ${nameCount === 1 ? 'name' : 'names'} in the published Nigerian ethnobotanical literature Sanko has mapped${languageLabel ? `, across ${languageLabel}` : ''}.`;
   const parts = unique(
     names.flatMap((row) => partsByTaxon.get(row.botanical_as_published) ?? []),
   );
