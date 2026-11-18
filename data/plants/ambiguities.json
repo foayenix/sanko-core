@@ -7,6 +7,22 @@
     ],
     "candidates": [
       {
+        "botanical_as_published": "Piliostigma thonningii (Schum.) Milne-Redh",
+        "accepted_botanical": "Piliostigma thonningii",
+        "language": null,
+        "region": {
+          "country": "Nigeria",
+          "state": "Kwara",
+          "localities": []
+        },
+        "source_id": "evbuomwan-2023-kwara",
+        "source_locator": {
+          "table": "Table 1",
+          "row": 53
+        },
+        "verification_status": "taxonomy_checked"
+      },
+      {
         "botanical_as_published": "Piliostigma thonningii (Schum.) Milne-Redh. (Synonym: Bauhinia thonningii Schum.)",
         "accepted_botanical": "Piliostigma thonningii",
         "language": "yo",
@@ -449,6 +465,22 @@
         "verification_status": "legacy_unverified"
       },
       {
+        "botanical_as_published": "Enantia chlorantha Oliv",
+        "accepted_botanical": "Annickia chlorantha",
+        "language": null,
+        "region": {
+          "country": "Nigeria",
+          "state": "Kwara",
+          "localities": []
+        },
+        "source_id": "evbuomwan-2023-kwara",
+        "source_locator": {
+          "table": "Table 1",
+          "row": 2
+        },
+        "verification_status": "taxonomy_checked"
+      },
+      {
         "botanical_as_published": "Annickia chlorantha (Oliv.) Setten & Maas = Enantia chlorantha )",
         "accepted_botanical": "Annickia chlorantha",
         "language": "yo",
@@ -530,6 +562,22 @@
       "ayin."
     ],
     "candidates": [
+      {
+        "botanical_as_published": "Anogeissus leiocarpus (DC.) Guill. & Perr",
+        "accepted_botanical": "Terminalia leiocarpa",
+        "language": null,
+        "region": {
+          "country": "Nigeria",
+          "state": "Kwara",
+          "localities": []
+        },
+        "source_id": "evbuomwan-2023-kwara",
+        "source_locator": {
+          "table": "Table 1",
+          "row": 17
+        },
+        "verification_status": "taxonomy_checked"
+      },
       {
         "botanical_as_published": "Anogeissus leiocarpus",
         "accepted_botanical": "Terminalia leiocarpa",
@@ -855,6 +903,22 @@
       "Egbesi"
     ],
     "candidates": [
+      {
+        "botanical_as_published": "Nauclea latifolia Sm",
+        "accepted_botanical": "Nauclea latifolia",
+        "language": null,
+        "region": {
+          "country": "Nigeria",
+          "state": "Kwara",
+          "localities": []
+        },
+        "source_id": "evbuomwan-2023-kwara",
+        "source_locator": {
+          "table": "Table 1",
+          "row": 5
+        },
+        "verification_status": "taxonomy_checked"
+      },
       {
         "botanical_as_published": "Sarcocephalus latifolius (Sm.) E.A.Bruce",
         "accepted_botanical": "Nauclea latifolia",
@@ -1854,6 +1918,22 @@
     ],
     "candidates": [
       {
+        "botanical_as_published": "Theobroma cacao Linn",
+        "accepted_botanical": "Theobroma cacao",
+        "language": null,
+        "region": {
+          "country": "Nigeria",
+          "state": "Kwara",
+          "localities": []
+        },
+        "source_id": "evbuomwan-2023-kwara",
+        "source_locator": {
+          "table": "Table 1",
+          "row": 13
+        },
+        "verification_status": "taxonomy_checked"
+      },
+      {
         "botanical_as_published": "Theobroma cacao L.",
         "accepted_botanical": "Theobroma cacao",
         "language": "yo",
@@ -2182,6 +2262,22 @@
         "verification_status": "legacy_unverified"
       },
       {
+        "botanical_as_published": "Khaya ivorensis A. Chev",
+        "accepted_botanical": "Khaya ivorensis",
+        "language": null,
+        "region": {
+          "country": "Nigeria",
+          "state": "Kwara",
+          "localities": []
+        },
+        "source_id": "evbuomwan-2023-kwara",
+        "source_locator": {
+          "table": "Table 1",
+          "row": 9
+        },
+        "verification_status": "taxonomy_checked"
+      },
+      {
         "botanical_as_published": "Khaya grandifoliola C.DC.",
         "accepted_botanical": "Khaya grandifoliola",
         "language": "yo",
@@ -2216,6 +2312,45 @@
         "source_locator": {
           "table": "Table 1",
           "row": 25
+        },
+        "verification_status": "taxonomy_checked"
+      }
+    ]
+  },
+  {
+    "normalized_name": "ogbo",
+    "contest_upheld": false,
+    "source_spellings": [
+      "ogbo",
+      "Ogbo"
+    ],
+    "candidates": [
+      {
+        "botanical_as_published": "Garcinia kola",
+        "accepted_botanical": "Garcinia kola",
+        "language": null,
+        "region": {
+          "country": "Nigeria",
+          "state": null,
+          "localities": []
+        },
+        "source_id": "legacy-lookup-v1",
+        "source_locator": null,
+        "verification_status": "legacy_unverified"
+      },
+      {
+        "botanical_as_published": "Parquetina nigrescens (Afzel.) Bullock",
+        "accepted_botanical": "Cryptolepis nigrescens",
+        "language": null,
+        "region": {
+          "country": "Nigeria",
+          "state": "Kwara",
+          "localities": []
+        },
+        "source_id": "evbuomwan-2023-kwara",
+        "source_locator": {
+          "table": "Table 1",
+          "row": 51
         },
         "verification_status": "taxonomy_checked"
       }
@@ -2311,6 +2446,131 @@
         "source_locator": {
           "table": "Supplementary Table S1",
           "row": 135
+        },
+        "verification_status": "taxonomy_checked"
+      }
+    ]
+  },
+  {
+    "normalized_name": "opon",
+    "contest_upheld": false,
+    "source_spellings": [
+      "Opon"
+    ],
+    "candidates": [
+      {
+        "botanical_as_published": "Tetracera potatoria Afzel. ex G. Don",
+        "accepted_botanical": "Tetracera potatoria",
+        "language": null,
+        "region": {
+          "country": "Nigeria",
+          "state": "Kwara",
+          "localities": []
+        },
+        "source_id": "evbuomwan-2023-kwara",
+        "source_locator": {
+          "table": "Table 1",
+          "row": 59
+        },
+        "verification_status": "taxonomy_checked"
+      },
+      {
+        "botanical_as_published": "Tetracera alnifolia Willd.",
+        "accepted_botanical": "Tetracera alnifolia",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": "Lagos",
+          "localities": [
+            "Alimosho",
+            "Badagry",
+            "Eti-Osa",
+            "Ijebu",
+            "Imota"
+          ]
+        },
+        "source_id": "olanipekun-2022-lagos",
+        "source_locator": {
+          "table": "Supplementary Table S1",
+          "row": 170
+        },
+        "verification_status": "taxonomy_checked"
+      }
+    ]
+  },
+  {
+    "normalized_name": "orin ata",
+    "contest_upheld": false,
+    "source_spellings": [
+      "orin ata",
+      "Orin ata"
+    ],
+    "candidates": [
+      {
+        "botanical_as_published": "Massularia acuminata",
+        "accepted_botanical": "Massularia acuminata",
+        "language": null,
+        "region": {
+          "country": "Nigeria",
+          "state": null,
+          "localities": []
+        },
+        "source_id": "legacy-lookup-v1",
+        "source_locator": null,
+        "verification_status": "legacy_unverified"
+      },
+      {
+        "botanical_as_published": "Zanthoxylum zanthoxyloides (Lam.) Zepern. & Timler",
+        "accepted_botanical": "Zanthoxylum zanthoxyloides",
+        "language": null,
+        "region": {
+          "country": "Nigeria",
+          "state": "Kwara",
+          "localities": []
+        },
+        "source_id": "evbuomwan-2023-kwara",
+        "source_locator": {
+          "table": "Table 1",
+          "row": 62
+        },
+        "verification_status": "taxonomy_checked"
+      }
+    ]
+  },
+  {
+    "normalized_name": "orombo",
+    "contest_upheld": false,
+    "source_spellings": [
+      "orombo",
+      "Orombo"
+    ],
+    "candidates": [
+      {
+        "botanical_as_published": "Citrus aurantiifolia",
+        "accepted_botanical": "Citrus aurantiifolia",
+        "language": null,
+        "region": {
+          "country": "Nigeria",
+          "state": null,
+          "localities": []
+        },
+        "source_id": "legacy-lookup-v1",
+        "source_locator": null,
+        "verification_status": "legacy_unverified"
+      },
+      {
+        "botanical_as_published": "Citrus sinensis (L.) Osbeck",
+        "accepted_botanical": "Citrus aurantium",
+        "language": null,
+        "region": {
+          "country": "Nigeria",
+          "state": "Kwara",
+          "localities": []
+        },
+        "source_id": "evbuomwan-2023-kwara",
+        "source_locator": {
+          "table": "Table 1",
+          "row": 40
         },
         "verification_status": "taxonomy_checked"
       }
@@ -2541,6 +2801,51 @@
         "source_locator": {
           "table": "Supplementary Table S1",
           "row": 14
+        },
+        "verification_status": "taxonomy_checked"
+      }
+    ]
+  },
+  {
+    "normalized_name": "tude",
+    "contest_upheld": false,
+    "source_spellings": [
+      "Tude"
+    ],
+    "candidates": [
+      {
+        "botanical_as_published": "Calliandra haematocephala Hassk",
+        "accepted_botanical": "Calliandra haematocephala",
+        "language": null,
+        "region": {
+          "country": "Nigeria",
+          "state": "Kwara",
+          "localities": []
+        },
+        "source_id": "evbuomwan-2023-kwara",
+        "source_locator": {
+          "table": "Table 1",
+          "row": 33
+        },
+        "verification_status": "taxonomy_checked"
+      },
+      {
+        "botanical_as_published": "Calliandra portoricensis (Jacq.) Benth",
+        "accepted_botanical": "Zapoteca portoricensis",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": null,
+          "localities": [
+            "Ogun State",
+            "Osun State",
+            "Oyo State"
+          ]
+        },
+        "source_id": "sonibare-2008-anti-asthmatic",
+        "source_locator": {
+          "table": "Table 1",
+          "row": 11
         },
         "verification_status": "taxonomy_checked"
       }

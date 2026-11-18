@@ -63,7 +63,7 @@ Entries in `practitioner_confirmations.json` are the one export path whose evide
 
 The transcripts that motivated a confirmation stay out of this directory entirely. They live only in the gitignored `review_queue.json` that `npm run plants:pull` writes.
 
-The current primary build combines the Plateau State, Lagos State, southwestern anti-asthmatic, Port Harcourt, Bayelsa, Rivers State, and Ede South (Osun State) surveys. The Ogbomosho (Oyo State) tables are staged because several of their determinations disagree with the other sources for the same Yoruba name under a different spelling, which the ambiguity rule cannot see. The Kwara State table is staged because 56 of its 62 rows do not say which language their names are in. The Ile-Ife tables are quarantined because the publisher retracted the article. The 2025 review contributes a catalogue of 79 original studies to acquire, but its secondary mappings do not feed production.
+The current primary build combines the Plateau State, Lagos State, southwestern anti-asthmatic, Port Harcourt, Bayelsa, Rivers State, Ede South (Osun State) and Kwara State surveys. The Ogbomosho (Oyo State) tables are staged because several of their determinations disagree with the other sources for the same Yoruba name under a different spelling, which the ambiguity rule cannot see. In the Kwara table, 56 of the 62 rows do not say which language their names are in; by the owner's decision of 2026-11-18 those names keep a null language and the pages say the language was not recorded, rather than guessing one from the state or the spelling. The Ile-Ife tables are quarantined because the publisher retracted the article. The 2025 review contributes a catalogue of 79 original studies to acquire, but its secondary mappings do not feed production.
 
 ### Rivers State: a source that had to be transcribed
 
@@ -103,6 +103,29 @@ Three rows print the botanical name in the common-name column and the common nam
 Two species are listed twice by the authors, with differing vernacular spellings; both printings are kept. Seven rows carry a botanical name that resolves to no accepted species — misspellings such as *Telfaria occidentalis* and *Dioscoreae cayennensis*, and one genus-only `Grewia sp`. These are left exactly as published, so the build withholds them as `taxonomy_unresolved` rather than this repository guessing at what the authors meant.
 
 Two supplied textbooks are also registered. Iwu's *Handbook of African Medicinal Plants* contributed concise staging records from 168 Chapter 3 monographs, with language labels and exact PDF/printed-page locators. Oliver-Bever's *Medicinal Plants in Tropical West Africa* is retained as a botanical and pharmacological reference; its botanical/general index is not a language-labelled vernacular index, so the importer creates no local-name mappings from it. Both works are copyrighted, and no redistribution permission was identified.
+
+## Sources with no stated reuse licence
+
+Owner's decision of 2026-11-18, extending the case-by-case decisions for Sonibare
+(2008), Bayelsa and Rivers State (2026-11-10) to every source of the same kind:
+
+- A survey whose article states no reuse licence may be included. What is used is
+  the published name mappings — local name, language, botanical name, locality,
+  parts — cited to the article with a row locator. The article's prose and its
+  tables as laid out are not republished.
+- The licence position is recorded in `sources.json` exactly as found, and where
+  it was looked for (article, journal site, Crossref, OpenAlex, Europe PMC).
+- The article has to be one Sanko can read lawfully: free to read at the
+  publisher, or obtained through a library or from the authors. "No licence
+  stated" does not mean "free to read"; most such candidates in
+  `europepmc-candidates.json` are marked `open_access: false` and still have to
+  be acquired.
+- Nothing else changes. A person still reads every source before it is
+  registered; retracted articles stay quarantined; every row still passes the
+  export policy above.
+- Not covered by this decision: articles that do state a licence restricting
+  reuse (CC BY-NC, CC BY-ND, all rights reserved). Those are still decided one by
+  one.
 
 ## Finding more sources
 
@@ -200,7 +223,7 @@ To reproduce the Ede South, Ogbomosho, and Kwara tables from their Europe PMC fu
 ```sh
 node scripts/import-jats-surveys.js lawal-2020-ede-south /path/to/PMC7286022.xml
 node scripts/import-jats-surveys.js odebunmi-2022-ogbomosho /path/to/PMC9573491.xml   # writes to surveys/staged/
-node scripts/import-jats-surveys.js evbuomwan-2023-kwara /path/to/PMC10504731.xml     # writes to surveys/staged/
+node scripts/import-jats-surveys.js evbuomwan-2023-kwara /path/to/PMC10504731.xml
 ```
 
 Adding a source can remove resolved names as well as add them: where it gives a different taxon for a name the index already had, export rule 4 turns that name ambiguous. Compare `resolved_runtime_mappings` and `ambiguities.json` before and after, and read the names that dropped out.

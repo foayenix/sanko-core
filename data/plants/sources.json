@@ -218,9 +218,9 @@
     "table": "Table 1",
     "licence": "CC BY 4.0",
     "publication_status": "active",
-    "ingestion_status": "staged_review",
+    "ingestion_status": "included",
     "checked_at": "2026-11-09",
-    "notes": "All 62 rows are preserved, but production export is blocked pending language review. Only six rows label their names Yoruba or Nupe; the other 56 state no language, interviews were conducted in both, and at least one unlabelled name is Hausa (Karandafi) and one is a nickname (June 12). Unlabelled names are staged with a null language."
+    "notes": "Included by the owner's decision of 2026-11-18. Six of the 62 rows label their names Yoruba or Nupe; the other 56 state no language (interviews were conducted in both, and at least one unlabelled name, Karandafi, is Hausa). Unlabelled names keep a null language and are published as language not recorded rather than assigned one. June 12 is a nickname; it is kept as published text and is not a mapping."
   },
   {
     "id": "anumudu-2025-nigeria-review",

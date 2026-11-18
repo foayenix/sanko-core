@@ -24,6 +24,28 @@
     "export_eligible": true
   },
   {
+    "id": "name-abafe-26ddbff7c8",
+    "plant_id": "plant-piliostigma-thonningii-54038cc24e",
+    "local_name": "Abafe",
+    "normalized_name": "abafe",
+    "language": null,
+    "region": {
+      "country": "Nigeria",
+      "state": "Kwara",
+      "localities": []
+    },
+    "botanical_as_published": "Piliostigma thonningii (Schum.) Milne-Redh",
+    "accepted_botanical": "Piliostigma thonningii",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 53
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-abafe-66e17af309",
     "plant_id": "plant-piliostigma-thonningii-54038cc24e",
     "local_name": "Abafe",
@@ -929,6 +951,28 @@
     "export_eligible": true
   },
   {
+    "id": "name-aganwo-8f035d1bb8",
+    "plant_id": "plant-khaya-ivorensis-f964de1c05",
+    "local_name": "Aganwo",
+    "normalized_name": "aganwo",
+    "language": null,
+    "region": {
+      "country": "Nigeria",
+      "state": "Kwara",
+      "localities": []
+    },
+    "botanical_as_published": "Khaya ivorensis A. Chev",
+    "accepted_botanical": "Khaya ivorensis",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 9
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-agba-ato-2ed0faf53c",
     "plant_id": "plant-chasmanthera-dependens-5328d9f7d3",
     "local_name": "Agba-ato",
@@ -1265,6 +1309,28 @@
     "verification_status": "legacy_unverified",
     "reviewed_by": null,
     "export_eligible": false
+  },
+  {
+    "id": "name-agbon-482988d9d0",
+    "plant_id": "plant-cocos-nucifera-20f1d857c6",
+    "local_name": "Agbon",
+    "normalized_name": "agbon",
+    "language": null,
+    "region": {
+      "country": "Nigeria",
+      "state": "Kwara",
+      "localities": []
+    },
+    "botanical_as_published": "Cocos nucifera Linn",
+    "accepted_botanical": "Cocos nucifera",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 41
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
   },
   {
     "id": "name-agbon-8b1af6f964",
@@ -1736,6 +1802,28 @@
     "export_eligible": true
   },
   {
+    "id": "name-ahon-ekun-0761326905",
+    "plant_id": "plant-acanthus-montanus-492ed18084",
+    "local_name": "Ahon ekun",
+    "normalized_name": "ahon ekun",
+    "language": null,
+    "region": {
+      "country": "Nigeria",
+      "state": "Kwara",
+      "localities": []
+    },
+    "botanical_as_published": "Acanthus montanus (Nees) T. Anderson",
+    "accepted_botanical": "Acanthus montanus",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 37
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-ahon-ekun-87e089536b",
     "plant_id": "plant-acanthus-montanus-492ed18084",
     "local_name": "Ahon-ekun",
@@ -1754,6 +1842,28 @@
     "source_locator": {
       "table": "Table 1",
       "row": 26
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-ahun-2c0d562c0e",
+    "plant_id": "plant-alstonia-boonei-a2b33bfa82",
+    "local_name": "Ahun",
+    "normalized_name": "ahun",
+    "language": null,
+    "region": {
+      "country": "Nigeria",
+      "state": "Kwara",
+      "localities": []
+    },
+    "botanical_as_published": "Alstonia boonei De Wild",
+    "accepted_botanical": "Alstonia boonei",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 3
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -1799,6 +1909,28 @@
     "source_id": "legacy-lookup-v1",
     "source_locator": null,
     "verification_status": "legacy_unverified",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-aidan-88e7a738b8",
+    "plant_id": "plant-tetrapleura-tetraptera-fe165781bd",
+    "local_name": "Aidan",
+    "normalized_name": "aidan",
+    "language": null,
+    "region": {
+      "country": "Nigeria",
+      "state": "Kwara",
+      "localities": []
+    },
+    "botanical_as_published": "Tetrapleura tetraptera (Schum. & Thonn.) Taub",
+    "accepted_botanical": "Tetrapleura tetraptera",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 60
+    },
+    "verification_status": "taxonomy_checked",
     "reviewed_by": null,
     "export_eligible": true
   },
@@ -2082,6 +2214,28 @@
     "export_eligible": true
   },
   {
+    "id": "name-ajarere-9b89cef536",
+    "plant_id": "plant-senna-podocarpa-e609bab427",
+    "local_name": "Ajarere",
+    "normalized_name": "ajarere",
+    "language": null,
+    "region": {
+      "country": "Nigeria",
+      "state": "Kwara",
+      "localities": []
+    },
+    "botanical_as_published": "Senna podocarpa (Guill. & Perr.) Lock",
+    "accepted_botanical": "Senna podocarpa",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 57
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-aje-74cd94e221",
     "plant_id": "plant-ouret-lanata-a3d295d882",
     "local_name": "Aje",
@@ -2214,6 +2368,28 @@
     "export_eligible": true
   },
   {
+    "id": "name-ajo-3262fed10d",
+    "plant_id": "plant-sphenocentrum-jollyanum-f555f22d0a",
+    "local_name": "Ajo",
+    "normalized_name": "ajo",
+    "language": null,
+    "region": {
+      "country": "Nigeria",
+      "state": "Kwara",
+      "localities": []
+    },
+    "botanical_as_published": "Sphenocentrum jollyanum Pierre",
+    "accepted_botanical": "Sphenocentrum jollyanum",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 15
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-ajukwu-91878fbfef",
     "plant_id": "plant-millettia-thonningii-431f82a0c3",
     "local_name": "Ajukwu",
@@ -2332,6 +2508,28 @@
     "source_locator": {
       "table": "Supplementary Table S1",
       "row": 176
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-akerejupon-4921b74fa2",
+    "plant_id": "plant-sphenocentrum-jollyanum-f555f22d0a",
+    "local_name": "Akerejupon",
+    "normalized_name": "akerejupon",
+    "language": null,
+    "region": {
+      "country": "Nigeria",
+      "state": "Kwara",
+      "localities": []
+    },
+    "botanical_as_published": "Sphenocentrum jollyanum Pierre",
+    "accepted_botanical": "Sphenocentrum jollyanum",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 15
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -2694,6 +2892,50 @@
     "source_locator": {
       "table": "Supplementary Table S1",
       "row": 164
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-akodinrin-7a49301e27",
+    "plant_id": "plant-pseudocedrela-kotschyi-994af195f8",
+    "local_name": "Akodinrin",
+    "normalized_name": "akodinrin",
+    "language": null,
+    "region": {
+      "country": "Nigeria",
+      "state": "Kwara",
+      "localities": []
+    },
+    "botanical_as_published": "Pseudocedrela kotschyi (Schweinf.) Harms",
+    "accepted_botanical": "Pseudocedrela kotschyi",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 31
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-akogun-e5aeccbdbf",
+    "plant_id": "plant-aristolochia-ringens-d314dc2b66",
+    "local_name": "Akogun",
+    "normalized_name": "akogun",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Kwara",
+      "localities": []
+    },
+    "botanical_as_published": "Aristolochia ringens Vahl",
+    "accepted_botanical": "Aristolochia ringens",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 38
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -3423,6 +3665,28 @@
     "source_locator": {
       "table": "Table 1",
       "row": 24
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-amuje-wewe-161ad0b168",
+    "plant_id": "plant-rourea-coccinea-coccinea-890f46f302",
+    "local_name": "Amuje wewe",
+    "normalized_name": "amuje wewe",
+    "language": null,
+    "region": {
+      "country": "Nigeria",
+      "state": "Kwara",
+      "localities": []
+    },
+    "botanical_as_published": "Byrsocarpus coccineus Schum. & Thonn",
+    "accepted_botanical": "Rourea coccinea coccinea",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 11
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -4183,6 +4447,28 @@
     "export_eligible": true
   },
   {
+    "id": "name-aridan-7ce9a2fc0b",
+    "plant_id": "plant-tetrapleura-tetraptera-fe165781bd",
+    "local_name": "Aridan",
+    "normalized_name": "aridan",
+    "language": null,
+    "region": {
+      "country": "Nigeria",
+      "state": "Kwara",
+      "localities": []
+    },
+    "botanical_as_published": "Tetrapleura tetraptera (Schum. & Thonn.) Taub",
+    "accepted_botanical": "Tetrapleura tetraptera",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 60
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-aridan-39a5f16e8c",
     "plant_id": "plant-tetrapleura-tetraptera-fe165781bd",
     "local_name": "Aridan",
@@ -4380,6 +4666,28 @@
     "source_locator": {
       "table": "Supplementary Table S1",
       "row": 94
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-arunje-b598e0d280",
+    "plant_id": "plant-harungana-madagascariensis-210b6b89a5",
+    "local_name": "Arunje",
+    "normalized_name": "arunje",
+    "language": null,
+    "region": {
+      "country": "Nigeria",
+      "state": "Kwara",
+      "localities": []
+    },
+    "botanical_as_published": "Harungana madagascariensis Lam. ex Poir",
+    "accepted_botanical": "Harungana madagascariensis",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 29
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -4932,6 +5240,28 @@
     "export_eligible": true
   },
   {
+    "id": "name-ataile-76927fe78f",
+    "plant_id": "plant-zingiber-officinale-8932efc2ae",
+    "local_name": "Ataile",
+    "normalized_name": "ataile",
+    "language": null,
+    "region": {
+      "country": "Nigeria",
+      "state": "Kwara",
+      "localities": []
+    },
+    "botanical_as_published": "Zingiber officinale Roscoe",
+    "accepted_botanical": "Zingiber officinale",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 27
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-ataile-2a693a78ed",
     "plant_id": "plant-zingiber-officinale-8932efc2ae",
     "local_name": "Ataile",
@@ -4952,6 +5282,28 @@
     "source_locator": {
       "table": "Table 1",
       "row": 46
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-ataile-pupa-0e819dae4f",
+    "plant_id": "plant-curcuma-longa-cac6186f50",
+    "local_name": "Ataile pupa",
+    "normalized_name": "ataile pupa",
+    "language": null,
+    "region": {
+      "country": "Nigeria",
+      "state": "Kwara",
+      "localities": []
+    },
+    "botanical_as_published": "Curcuma longa Linn",
+    "accepted_botanical": "Curcuma longa",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 42
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -5486,6 +5838,28 @@
     "export_eligible": true
   },
   {
+    "id": "name-awopa-7581eb25ea",
+    "plant_id": "plant-annickia-chlorantha-a359a63074",
+    "local_name": "Awopa",
+    "normalized_name": "awopa",
+    "language": null,
+    "region": {
+      "country": "Nigeria",
+      "state": "Kwara",
+      "localities": []
+    },
+    "botanical_as_published": "Enantia chlorantha Oliv",
+    "accepted_botanical": "Annickia chlorantha",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 2
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-awopa-c59355d93e",
     "plant_id": "plant-annickia-chlorantha-a359a63074",
     "local_name": "Awopa",
@@ -5730,6 +6104,50 @@
     "source_locator": {
       "table": "Supplementary Table S1",
       "row": 146
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-ayan-974973999f",
+    "plant_id": "plant-prosopis-africana-f699fc148f",
+    "local_name": "Ayan",
+    "normalized_name": "ayan",
+    "language": null,
+    "region": {
+      "country": "Nigeria",
+      "state": "Kwara",
+      "localities": []
+    },
+    "botanical_as_published": "Prosopis africana (Guill. & Perr.) Taub",
+    "accepted_botanical": "Prosopis africana",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 36
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-ayin-1b2bf8be8c",
+    "plant_id": "plant-terminalia-leiocarpa-9d4b38908e",
+    "local_name": "Ayin",
+    "normalized_name": "ayin",
+    "language": null,
+    "region": {
+      "country": "Nigeria",
+      "state": "Kwara",
+      "localities": []
+    },
+    "botanical_as_published": "Anogeissus leiocarpus (DC.) Guill. & Perr",
+    "accepted_botanical": "Terminalia leiocarpa",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 17
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -6926,6 +7344,28 @@
     "export_eligible": true
   },
   {
+    "id": "name-boonii-df2cbc2e9f",
+    "plant_id": "plant-vachellia-nilotica-f76029b6d9",
+    "local_name": "Boonii",
+    "normalized_name": "boonii",
+    "language": null,
+    "region": {
+      "country": "Nigeria",
+      "state": "Kwara",
+      "localities": []
+    },
+    "botanical_as_published": "Acacia nilotica (L.) Delile",
+    "accepted_botanical": "Vachellia nilotica",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 10
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-boopulo-2d30da3c74",
     "plant_id": "plant-harungana-madagascariensis-210b6b89a5",
     "local_name": "Boopulo",
@@ -7643,6 +8083,28 @@
     "export_eligible": true
   },
   {
+    "id": "name-dokita-igbo-0e922ad85a",
+    "plant_id": "plant-annickia-chlorantha-a359a63074",
+    "local_name": "Dokita igbo",
+    "normalized_name": "dokita igbo",
+    "language": null,
+    "region": {
+      "country": "Nigeria",
+      "state": "Kwara",
+      "localities": []
+    },
+    "botanical_as_published": "Enantia chlorantha Oliv",
+    "accepted_botanical": "Annickia chlorantha",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 2
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-dongoyaro-f70d5aad42",
     "plant_id": "plant-azadirachta-indica-602368d8f9",
     "local_name": "Dongoyaro",
@@ -7661,6 +8123,28 @@
     "source_locator": {
       "table": "Table 1",
       "row": 113
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-dongoyaro-d33eaf3d6c",
+    "plant_id": "plant-azadirachta-indica-602368d8f9",
+    "local_name": "Dongoyaro",
+    "normalized_name": "dongoyaro",
+    "language": null,
+    "region": {
+      "country": "Nigeria",
+      "state": "Kwara",
+      "localities": []
+    },
+    "botanical_as_published": "Azadirachta indica A.Juss",
+    "accepted_botanical": "Azadirachta indica",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 21
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -8224,6 +8708,28 @@
     "export_eligible": true
   },
   {
+    "id": "name-eeru-alamo-deafb529c1",
+    "plant_id": "plant-xylopia-aethiopica-d5773119a0",
+    "local_name": "Eeru alamo",
+    "normalized_name": "eeru alamo",
+    "language": null,
+    "region": {
+      "country": "Nigeria",
+      "state": "Kwara",
+      "localities": []
+    },
+    "botanical_as_published": "Xylopia aethiopica (Dunal) A. Rich",
+    "accepted_botanical": "Xylopia aethiopica",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 61
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-eeru-alamo-2ead5666ca",
     "plant_id": "plant-xylopia-aethiopica-d5773119a0",
     "local_name": "eeru alamo",
@@ -8414,6 +8920,28 @@
     "export_eligible": true
   },
   {
+    "id": "name-efirin-18ea08ae08",
+    "plant_id": "plant-ocimum-gratissimum-db8de35590",
+    "local_name": "Efirin",
+    "normalized_name": "efirin",
+    "language": null,
+    "region": {
+      "country": "Nigeria",
+      "state": "Kwara",
+      "localities": []
+    },
+    "botanical_as_published": "Ocimum gratissimum Linn",
+    "accepted_botanical": "Ocimum gratissimum",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 34
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-efirin-73bc44c8cd",
     "plant_id": "plant-ocimum-gratissimum-db8de35590",
     "local_name": "efirin",
@@ -8570,6 +9098,28 @@
     "source_locator": {
       "table": "Table 1",
       "row": 93
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-egbesi-b0753bb917",
+    "plant_id": "plant-nauclea-latifolia-53fa5cb38c",
+    "local_name": "Egbesi",
+    "normalized_name": "egbesi",
+    "language": null,
+    "region": {
+      "country": "Nigeria",
+      "state": "Kwara",
+      "localities": []
+    },
+    "botanical_as_published": "Nauclea latifolia Sm",
+    "accepted_botanical": "Nauclea latifolia",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 5
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -9512,6 +10062,50 @@
     "export_eligible": true
   },
   {
+    "id": "name-emi-28b871faa5",
+    "plant_id": "plant-vitellaria-paradoxa-de73616dac",
+    "local_name": "Emi",
+    "normalized_name": "emi",
+    "language": null,
+    "region": {
+      "country": "Nigeria",
+      "state": "Kwara",
+      "localities": []
+    },
+    "botanical_as_published": "Vitellaria paradoxa C.F. Gaertn",
+    "accepted_botanical": "Vitellaria paradoxa",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 26
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-emi-gbegiri-46592caab1",
+    "plant_id": "plant-pseudocedrela-kotschyi-994af195f8",
+    "local_name": "Emi gbegiri",
+    "normalized_name": "emi gbegiri",
+    "language": null,
+    "region": {
+      "country": "Nigeria",
+      "state": "Kwara",
+      "localities": []
+    },
+    "botanical_as_published": "Pseudocedrela kotschyi (Schweinf.) Harms",
+    "accepted_botanical": "Pseudocedrela kotschyi",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 31
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-emi-ile-0b68ff32b1",
     "plant_id": "plant-hoslundia-opposita-19739cc93b",
     "local_name": "emi ile",
@@ -9901,6 +10495,28 @@
     "source_id": "legacy-lookup-v1",
     "source_locator": null,
     "verification_status": "legacy_unverified",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-epoara-16f582bcfe",
+    "plant_id": "plant-waltheria-indica-aa8204fe92",
+    "local_name": "Epoara",
+    "normalized_name": "epoara",
+    "language": null,
+    "region": {
+      "country": "Nigeria",
+      "state": "Kwara",
+      "localities": []
+    },
+    "botanical_as_published": "Waltheria indica Linn",
+    "accepted_botanical": "Waltheria indica",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 12
+    },
+    "verification_status": "taxonomy_checked",
     "reviewed_by": null,
     "export_eligible": true
   },
@@ -10876,6 +11492,28 @@
     "export_eligible": true
   },
   {
+    "id": "name-ewe-tii-7018753400",
+    "plant_id": "plant-cymbopogon-citratus-d5de29a9fd",
+    "local_name": "Ewe tii",
+    "normalized_name": "ewe tii",
+    "language": null,
+    "region": {
+      "country": "Nigeria",
+      "state": "Kwara",
+      "localities": []
+    },
+    "botanical_as_published": "Cymbopogon citratus (DC.) Stapf",
+    "accepted_botanical": "Cymbopogon citratus",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 4
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-ewe-tude-b9d7d146e2",
     "plant_id": "plant-senna-alata-6d79b20446",
     "local_name": "ewe tude",
@@ -11171,6 +11809,28 @@
     "source_locator": {
       "table": "Table 1",
       "row": 39
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-ewuro-2fd4af7566",
+    "plant_id": "plant-gymnanthemum-amygdalinum-5dbeaea320",
+    "local_name": "Ewuro",
+    "normalized_name": "ewuro",
+    "language": null,
+    "region": {
+      "country": "Nigeria",
+      "state": "Kwara",
+      "localities": []
+    },
+    "botanical_as_published": "Vernonia amygdalina Delile",
+    "accepted_botanical": "Gymnanthemum amygdalinum",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 35
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -11802,6 +12462,28 @@
     "export_eligible": true
   },
   {
+    "id": "name-gaya-eba-5d1b850890",
+    "plant_id": "plant-senna-occidentalis-9d5c9f2d10",
+    "local_name": "Gayà ebá",
+    "normalized_name": "gaya eba",
+    "language": "nup",
+    "region": {
+      "country": "Nigeria",
+      "state": "Kwara",
+      "localities": []
+    },
+    "botanical_as_published": "Senna occidentalis (L.) Link",
+    "accepted_botanical": "Senna occidentalis",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 56
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-gbagodo-6ba843c107",
     "plant_id": "plant-commelina-africana-8690811949",
     "local_name": "Gbagodo",
@@ -11908,6 +12590,28 @@
     "source_locator": {
       "table": "Supplementary Table S1",
       "row": 150
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-gbere-d790cb021c",
+    "plant_id": "plant-artocarpus-altilis-0846570e26",
+    "local_name": "Gbere",
+    "normalized_name": "gbere",
+    "language": "nup",
+    "region": {
+      "country": "Nigeria",
+      "state": "Kwara",
+      "localities": []
+    },
+    "botanical_as_published": "Artocarpus altilis (Parkinson) Fosberg",
+    "accepted_botanical": "Artocarpus altilis",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 39
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -12144,6 +12848,28 @@
     "source_locator": {
       "table": "Table 1",
       "row": 53
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-gilofa-49f88ace58",
+    "plant_id": "plant-psidium-guajava-ef93129072",
+    "local_name": "Gilofa",
+    "normalized_name": "gilofa",
+    "language": null,
+    "region": {
+      "country": "Nigeria",
+      "state": "Kwara",
+      "localities": []
+    },
+    "botanical_as_published": "Psidium guajava Linn",
+    "accepted_botanical": "Psidium guajava",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 30
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -12471,6 +13197,28 @@
     "source_locator": {
       "table": "Supplementary Table S1",
       "row": 166
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-gurofa-a65fb47144",
+    "plant_id": "plant-psidium-guajava-ef93129072",
+    "local_name": "Gurofa",
+    "normalized_name": "gurofa",
+    "language": null,
+    "region": {
+      "country": "Nigeria",
+      "state": "Kwara",
+      "localities": []
+    },
+    "botanical_as_published": "Psidium guajava Linn",
+    "accepted_botanical": "Psidium guajava",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 30
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -12914,6 +13662,28 @@
     "export_eligible": true
   },
   {
+    "id": "name-ibepe-58a221211f",
+    "plant_id": "plant-carica-papaya-d45ff84fbe",
+    "local_name": "Ibepe",
+    "normalized_name": "ibepe",
+    "language": null,
+    "region": {
+      "country": "Nigeria",
+      "state": "Kwara",
+      "localities": []
+    },
+    "botanical_as_published": "Carica papaya Linn",
+    "accepted_botanical": "Carica papaya",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 7
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-ibepe-7a9cf9a445",
     "plant_id": "plant-carica-papaya-d45ff84fbe",
     "local_name": "Ibepe",
@@ -13051,6 +13821,28 @@
     "source_locator": {
       "table": "Table 1",
       "row": 36
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-idi-0ba417a788",
+    "plant_id": "plant-axonopus-compressus-1597baa325",
+    "local_name": "Idi",
+    "normalized_name": "idi",
+    "language": null,
+    "region": {
+      "country": "Nigeria",
+      "state": "Kwara",
+      "localities": []
+    },
+    "botanical_as_published": "Axonopus compressus (Sw.) P.Beauv",
+    "accepted_botanical": "Axonopus compressus",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 18
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -13397,6 +14189,28 @@
     "source_locator": {
       "table": "Supplementary Table S1",
       "row": 155
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-igbaluwere-5d4f48d30f",
+    "plant_id": "plant-entada-africana-2c0624fa5e",
+    "local_name": "Igbaluwere",
+    "normalized_name": "igbaluwere",
+    "language": null,
+    "region": {
+      "country": "Nigeria",
+      "state": "Kwara",
+      "localities": []
+    },
+    "botanical_as_published": "Entada africana Guill. & Perr",
+    "accepted_botanical": "Entada africana",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 44
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -14311,6 +15125,28 @@
     "export_eligible": true
   },
   {
+    "id": "name-ipin-4b002f15ec",
+    "plant_id": "plant-ficus-exasperata-718f240ae1",
+    "local_name": "Ipin",
+    "normalized_name": "ipin",
+    "language": null,
+    "region": {
+      "country": "Nigeria",
+      "state": "Kwara",
+      "localities": []
+    },
+    "botanical_as_published": "Ficus exasperata Vahl",
+    "accepted_botanical": "Ficus exasperata",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 45
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-ipopo-ale-c8b03322b1",
     "plant_id": "plant-gomphrena-celosioides-4e7c15c815",
     "local_name": "Ipopo ale",
@@ -14905,6 +15741,28 @@
     "export_eligible": true
   },
   {
+    "id": "name-isekotu-5bee98177f",
+    "plant_id": "plant-sida-acuta-b47c40cd00",
+    "local_name": "Isekotu",
+    "normalized_name": "isekotu",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Kwara",
+      "localities": []
+    },
+    "botanical_as_published": "Sida acuta Burm.f",
+    "accepted_botanical": "Sida acuta",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 58
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-isekutu-81fe7ef0dd",
     "plant_id": "plant-sida-cordifolia-4a4a02650e",
     "local_name": "Isekutu",
@@ -15217,6 +16075,28 @@
     "export_eligible": true
   },
   {
+    "id": "name-iya-1a64a14455",
+    "plant_id": "plant-daniellia-oliveri-fb159d05dd",
+    "local_name": "Iya",
+    "normalized_name": "iya",
+    "language": null,
+    "region": {
+      "country": "Nigeria",
+      "state": "Kwara",
+      "localities": []
+    },
+    "botanical_as_published": "Daniellia oliveri (Rolfe) Hutch. & Dalziel",
+    "accepted_botanical": "Daniellia oliveri",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 43
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-iya-f3a07bd7ea",
     "plant_id": "plant-daniellia-oliveri-fb159d05dd",
     "local_name": "Iya",
@@ -15287,6 +16167,28 @@
     "source_locator": {
       "table": "Table 2",
       "row": 14
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-iyere-bbb9f76683",
+    "plant_id": "plant-piper-guineense-b925235b59",
+    "local_name": "Iyere",
+    "normalized_name": "iyere",
+    "language": null,
+    "region": {
+      "country": "Nigeria",
+      "state": "Kwara",
+      "localities": []
+    },
+    "botanical_as_published": "Piper guineense Schum. & Thonn",
+    "accepted_botanical": "Piper guineense",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 54
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -15547,6 +16449,28 @@
     "source_locator": {
       "table": "Supplementary Table S1",
       "row": 108
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-jelenubenu-4ecc3c76ff",
+    "plant_id": "plant-senna-occidentalis-9d5c9f2d10",
+    "local_name": "Jelenubenu",
+    "normalized_name": "jelenubenu",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Kwara",
+      "localities": []
+    },
+    "botanical_as_published": "Senna occidentalis (L.) Link",
+    "accepted_botanical": "Senna occidentalis",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 56
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -16587,6 +17511,28 @@
     "export_eligible": true
   },
   {
+    "id": "name-kanti-kanti-1fd787c71e",
+    "plant_id": "plant-rourea-coccinea-coccinea-890f46f302",
+    "local_name": "Kanti-kanti",
+    "normalized_name": "kanti kanti",
+    "language": null,
+    "region": {
+      "country": "Nigeria",
+      "state": "Kwara",
+      "localities": []
+    },
+    "botanical_as_published": "Byrsocarpus coccineus Schum. & Thonn",
+    "accepted_botanical": "Rourea coccinea coccinea",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 11
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-kara-470df21fd0",
     "plant_id": "plant-dichrostachys-cinerea-9b29a4536d",
     "local_name": "Kara",
@@ -16633,6 +17579,28 @@
     "source_locator": {
       "table": "Table 2",
       "row": 29
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-karandafi-80d51f0465",
+    "plant_id": "plant-sorghum-bicolor-43dce6dca3",
+    "local_name": "Karandafi",
+    "normalized_name": "karandafi",
+    "language": null,
+    "region": {
+      "country": "Nigeria",
+      "state": "Kwara",
+      "localities": []
+    },
+    "botanical_as_published": "Sorghum bicolor (L.) Moench",
+    "accepted_botanical": "Sorghum bicolor",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 23
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -16747,6 +17715,28 @@
     "source_locator": {
       "table": "Table 1",
       "row": 7
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-kasu-93576f582b",
+    "plant_id": "plant-anacardium-occidentale-608216d147",
+    "local_name": "Kasu",
+    "normalized_name": "kasu",
+    "language": null,
+    "region": {
+      "country": "Nigeria",
+      "state": "Kwara",
+      "localities": []
+    },
+    "botanical_as_published": "Anacardium occidentale Linn",
+    "accepted_botanical": "Anacardium occidentale",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 8
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -16994,6 +17984,28 @@
     "source_locator": {
       "table": "Table 2",
       "row": 1
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-koko-f5dc309776",
+    "plant_id": "plant-theobroma-cacao-777fc47af0",
+    "local_name": "Koko",
+    "normalized_name": "koko",
+    "language": null,
+    "region": {
+      "country": "Nigeria",
+      "state": "Kwara",
+      "localities": []
+    },
+    "botanical_as_published": "Theobroma cacao Linn",
+    "accepted_botanical": "Theobroma cacao",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 13
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -17476,6 +18488,28 @@
     "export_eligible": true
   },
   {
+    "id": "name-kwagugi-0f79b4494f",
+    "plant_id": "plant-aristolochia-ringens-d314dc2b66",
+    "local_name": "Kwagũ̀gi",
+    "normalized_name": "kwagugi",
+    "language": "nup",
+    "region": {
+      "country": "Nigeria",
+      "state": "Kwara",
+      "localities": []
+    },
+    "botanical_as_published": "Aristolochia ringens Vahl",
+    "accepted_botanical": "Aristolochia ringens",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 38
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-kwahi-6de6e6464b",
     "plant_id": "plant-prosopis-africana-f699fc148f",
     "local_name": "Kwahi",
@@ -17503,6 +18537,28 @@
     "source_locator": {
       "table": "Table 1",
       "row": 41
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-laali-7ce703872b",
+    "plant_id": "plant-lawsonia-inermis-7ff9dfd7a9",
+    "local_name": "Laali",
+    "normalized_name": "laali",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Kwara",
+      "localities": []
+    },
+    "botanical_as_published": "Lawsonia inermis Linn",
+    "accepted_botanical": "Lawsonia inermis",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 14
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -17607,6 +18663,28 @@
     "verification_status": "taxonomy_unresolved",
     "reviewed_by": null,
     "export_eligible": false
+  },
+  {
+    "id": "name-lali-573106934d",
+    "plant_id": "plant-lawsonia-inermis-7ff9dfd7a9",
+    "local_name": "Lǎli",
+    "normalized_name": "lali",
+    "language": "nup",
+    "region": {
+      "country": "Nigeria",
+      "state": "Kwara",
+      "localities": []
+    },
+    "botanical_as_published": "Lawsonia inermis Linn",
+    "accepted_botanical": "Lawsonia inermis",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 14
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
   },
   {
     "id": "name-lali-bf36c795b3",
@@ -17746,6 +18824,28 @@
     "source_locator": {
       "table": "Table 1",
       "row": 38
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-lapalapa-funfun-5bbe7da089",
+    "plant_id": "plant-jatropha-curcas-b217025a04",
+    "local_name": "Lapalapa funfun",
+    "normalized_name": "lapalapa funfun",
+    "language": null,
+    "region": {
+      "country": "Nigeria",
+      "state": "Kwara",
+      "localities": []
+    },
+    "botanical_as_published": "Jatropha curcas Linn",
+    "accepted_botanical": "Jatropha curcas",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 48
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -18032,6 +19132,28 @@
     "export_eligible": true
   },
   {
+    "id": "name-lulu-fuka-061cfab197",
+    "plant_id": "plant-gossypium-barbadense-65985e0c97",
+    "local_name": "Lulu fùkà",
+    "normalized_name": "lulu fuka",
+    "language": "nup",
+    "region": {
+      "country": "Nigeria",
+      "state": "Kwara",
+      "localities": []
+    },
+    "botanical_as_published": "Gossypium barbadense Linn",
+    "accepted_botanical": "Gossypium barbadense",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 22
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-lusina-c5e9e9f1c0",
     "plant_id": "plant-leucaena-leucocephala-4412e0bdea",
     "local_name": "Lusina",
@@ -18146,6 +19268,28 @@
     "source_locator": {
       "table": "Table 1",
       "row": 22
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-mafowokan-omomi-1f56f70457",
+    "plant_id": "plant-acanthus-montanus-492ed18084",
+    "local_name": "Mafowokan omomi",
+    "normalized_name": "mafowokan omomi",
+    "language": null,
+    "region": {
+      "country": "Nigeria",
+      "state": "Kwara",
+      "localities": []
+    },
+    "botanical_as_published": "Acanthus montanus (Nees) T. Anderson",
+    "accepted_botanical": "Acanthus montanus",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 37
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -19025,6 +20169,28 @@
     "export_eligible": true
   },
   {
+    "id": "name-mongoro-e7294950ba",
+    "plant_id": "plant-mangifera-indica-4d66bda6d8",
+    "local_name": "Mongoro",
+    "normalized_name": "mongoro",
+    "language": null,
+    "region": {
+      "country": "Nigeria",
+      "state": "Kwara",
+      "localities": []
+    },
+    "botanical_as_published": "Mangifera indica Linn",
+    "accepted_botanical": "Mangifera indica",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 1
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-mongoro-3294c04f6b",
     "plant_id": "plant-mangifera-indica-4d66bda6d8",
     "local_name": "Mongoro",
@@ -19639,6 +20805,28 @@
     "source_locator": {
       "table": "Table 1",
       "row": 108
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-nla-3245cf3e84",
+    "plant_id": "plant-persea-americana-4797acba26",
+    "local_name": "Nla",
+    "normalized_name": "nla",
+    "language": null,
+    "region": {
+      "country": "Nigeria",
+      "state": "Kwara",
+      "localities": []
+    },
+    "botanical_as_published": "Persea americana Mill",
+    "accepted_botanical": "Persea americana",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 52
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -20292,6 +21480,28 @@
     "source_locator": {
       "table": "Supplementary Table S1",
       "row": 119
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-obo-561fc0c886",
+    "plant_id": "plant-ficus-platyphylla-2387ece047",
+    "local_name": "Obo",
+    "normalized_name": "obo",
+    "language": null,
+    "region": {
+      "country": "Nigeria",
+      "state": "Kwara",
+      "localities": []
+    },
+    "botanical_as_published": "Ficus platyphylla Del. Holl",
+    "accepted_botanical": "Ficus platyphylla",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 46
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -20961,6 +22171,28 @@
     "export_eligible": true
   },
   {
+    "id": "name-oganwo-96a383178e",
+    "plant_id": "plant-khaya-ivorensis-f964de1c05",
+    "local_name": "Oganwo",
+    "normalized_name": "oganwo",
+    "language": null,
+    "region": {
+      "country": "Nigeria",
+      "state": "Kwara",
+      "localities": []
+    },
+    "botanical_as_published": "Khaya ivorensis A. Chev",
+    "accepted_botanical": "Khaya ivorensis",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 9
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-oganwo-d17d0b7a1c",
     "plant_id": "plant-khaya-grandifoliola-74a21f7ce0",
     "local_name": "Oganwo",
@@ -21259,6 +22491,50 @@
     "export_eligible": true
   },
   {
+    "id": "name-ogbesi-ceed40eb03",
+    "plant_id": "plant-margaritaria-discoidea-d6d8d4a920",
+    "local_name": "Ogbesi",
+    "normalized_name": "ogbesi",
+    "language": null,
+    "region": {
+      "country": "Nigeria",
+      "state": "Kwara",
+      "localities": []
+    },
+    "botanical_as_published": "Margaritaria discoidea (Baill.) G.L. Webster",
+    "accepted_botanical": "Margaritaria discoidea",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 49
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-ogbo-7a2a435071",
+    "plant_id": "plant-cryptolepis-nigrescens-60d6d719ed",
+    "local_name": "Ogbo",
+    "normalized_name": "ogbo",
+    "language": null,
+    "region": {
+      "country": "Nigeria",
+      "state": "Kwara",
+      "localities": []
+    },
+    "botanical_as_published": "Parquetina nigrescens (Afzel.) Bullock",
+    "accepted_botanical": "Cryptolepis nigrescens",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 51
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-ogbo-1407857054",
     "plant_id": "plant-garcinia-kola-b2da88781b",
     "local_name": "ogbo",
@@ -21363,6 +22639,28 @@
     "source_locator": {
       "table": "Table 1",
       "row": 51
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-ogede-agbagba-97b59c1e96",
+    "plant_id": "plant-musa-paradisiaca-ee9a078e9c",
+    "local_name": "Ogede agbagba",
+    "normalized_name": "ogede agbagba",
+    "language": null,
+    "region": {
+      "country": "Nigeria",
+      "state": "Kwara",
+      "localities": []
+    },
+    "botanical_as_published": "Musa paradisiaca Linn",
+    "accepted_botanical": "Musa paradisiaca",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 50
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -21801,6 +23099,28 @@
     "source_locator": {
       "table": "Table 2",
       "row": 28
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-ogurobe-9f810c2f27",
+    "plant_id": "plant-entada-africana-2c0624fa5e",
+    "local_name": "Ogurobe",
+    "normalized_name": "ogurobe",
+    "language": null,
+    "region": {
+      "country": "Nigeria",
+      "state": "Kwara",
+      "localities": []
+    },
+    "botanical_as_published": "Entada africana Guill. & Perr",
+    "accepted_botanical": "Entada africana",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 44
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -22370,6 +23690,28 @@
     "source_locator": {
       "table": "Table 1",
       "row": 39
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-okuuku-7feb587ef3",
+    "plant_id": "plant-laccosperma-secundiflorum-6baad6a145",
+    "local_name": "Okuuku",
+    "normalized_name": "okuuku",
+    "language": null,
+    "region": {
+      "country": "Nigeria",
+      "state": "Kwara",
+      "localities": []
+    },
+    "botanical_as_published": "Ancistrophyllum secundiflorum (P.Beauv.) G.Mann & H.Wendl",
+    "accepted_botanical": "Laccosperma secundiflorum",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 24
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -23235,6 +24577,28 @@
     "export_eligible": true
   },
   {
+    "id": "name-ope-oyinbo-3ab6543f8c",
+    "plant_id": "plant-ananas-comosus-e0dfdb430c",
+    "local_name": "Ọpẹ oyinbo",
+    "normalized_name": "ope oyinbo",
+    "language": null,
+    "region": {
+      "country": "Nigeria",
+      "state": "Kwara",
+      "localities": []
+    },
+    "botanical_as_published": "Ananas comosus (L.) Merr",
+    "accepted_botanical": "Ananas comosus",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 32
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-ope-oyinbo-29613de6bd",
     "plant_id": "plant-ananas-comosus-e0dfdb430c",
     "local_name": "Ope-oyinbo",
@@ -23277,6 +24641,28 @@
     "source_locator": {
       "table": "Table 1",
       "row": 30
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-opon-76a94dbe59",
+    "plant_id": "plant-tetracera-potatoria-5be3653e80",
+    "local_name": "Opon",
+    "normalized_name": "opon",
+    "language": null,
+    "region": {
+      "country": "Nigeria",
+      "state": "Kwara",
+      "localities": []
+    },
+    "botanical_as_published": "Tetracera potatoria Afzel. ex G. Don",
+    "accepted_botanical": "Tetracera potatoria",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 59
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -23562,6 +24948,28 @@
     "export_eligible": true
   },
   {
+    "id": "name-orin-ata-86b9fdafe3",
+    "plant_id": "plant-zanthoxylum-zanthoxyloides-35bfd45a11",
+    "local_name": "Orin ata",
+    "normalized_name": "orin ata",
+    "language": null,
+    "region": {
+      "country": "Nigeria",
+      "state": "Kwara",
+      "localities": []
+    },
+    "botanical_as_published": "Zanthoxylum zanthoxyloides (Lam.) Zepern. & Timler",
+    "accepted_botanical": "Zanthoxylum zanthoxyloides",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 62
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-orin-ata-d7a7bd6ae2",
     "plant_id": "plant-massularia-acuminata-85c5f13315",
     "local_name": "orin ata",
@@ -23618,6 +25026,28 @@
     "source_locator": {
       "table": "Table 1",
       "row": 43
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-orogbo-5f83cca72d",
+    "plant_id": "plant-garcinia-kola-b2da88781b",
+    "local_name": "Orogbo",
+    "normalized_name": "orogbo",
+    "language": null,
+    "region": {
+      "country": "Nigeria",
+      "state": "Kwara",
+      "localities": []
+    },
+    "botanical_as_published": "Garcinia kola Heckel",
+    "accepted_botanical": "Garcinia kola",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 47
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -23745,6 +25175,28 @@
     "export_eligible": true
   },
   {
+    "id": "name-orombo-4a87043bb4",
+    "plant_id": "plant-citrus-aurantium-6b3a87e59c",
+    "local_name": "Orombo",
+    "normalized_name": "orombo",
+    "language": null,
+    "region": {
+      "country": "Nigeria",
+      "state": "Kwara",
+      "localities": []
+    },
+    "botanical_as_published": "Citrus sinensis (L.) Osbeck",
+    "accepted_botanical": "Citrus aurantium",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 40
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-orombo-bd4fedaae9",
     "plant_id": "plant-citrus-aurantiifolia-e96354d670",
     "local_name": "orombo",
@@ -23854,6 +25306,28 @@
     "source_locator": {
       "table": "Table 1",
       "row": 162
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-oruwo-7a45185234",
+    "plant_id": "plant-morinda-lucida-a896aeef86",
+    "local_name": "Oruwo",
+    "normalized_name": "oruwo",
+    "language": null,
+    "region": {
+      "country": "Nigeria",
+      "state": "Kwara",
+      "localities": []
+    },
+    "botanical_as_published": "Morinda lucida Benth",
+    "accepted_botanical": "Morinda lucida",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 6
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -23992,6 +25466,72 @@
     "source_locator": {
       "table": "Table 1",
       "row": 11
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-osan-agan-51cdc2ba76",
+    "plant_id": "plant-citrus-limon-a0b6a074cf",
+    "local_name": "Osan agan",
+    "normalized_name": "osan agan",
+    "language": null,
+    "region": {
+      "country": "Nigeria",
+      "state": "Kwara",
+      "localities": []
+    },
+    "botanical_as_published": "Citrus limon (L.) Osbeck",
+    "accepted_botanical": "Citrus limon",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 19
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-osan-laimu-05941dfc62",
+    "plant_id": "plant-citrus-limon-a0b6a074cf",
+    "local_name": "Osan-laimu",
+    "normalized_name": "osan laimu",
+    "language": null,
+    "region": {
+      "country": "Nigeria",
+      "state": "Kwara",
+      "localities": []
+    },
+    "botanical_as_published": "Citrus limon (L.) Osbeck",
+    "accepted_botanical": "Citrus limon",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 19
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-osan-wewe-d40acedea4",
+    "plant_id": "plant-citrus-aurantiifolia-e96354d670",
+    "local_name": "Osan wewe",
+    "normalized_name": "osan wewe",
+    "language": null,
+    "region": {
+      "country": "Nigeria",
+      "state": "Kwara",
+      "localities": []
+    },
+    "botanical_as_published": "Citrus aurantifolia (Christm.) Swingle",
+    "accepted_botanical": "Citrus aurantiifolia",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 16
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -24455,6 +25995,28 @@
     "export_eligible": true
   },
   {
+    "id": "name-owu-ea57c74954",
+    "plant_id": "plant-gossypium-barbadense-65985e0c97",
+    "local_name": "Owu",
+    "normalized_name": "owu",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Kwara",
+      "localities": []
+    },
+    "botanical_as_published": "Gossypium barbadense Linn",
+    "accepted_botanical": "Gossypium barbadense",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 22
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-owu-52ea43d673",
     "plant_id": "plant-gossypium-barbadense-65985e0c97",
     "local_name": "Owu",
@@ -24499,6 +26061,28 @@
     "source_locator": {
       "table": "Table 1",
       "row": 23
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-owu-akese-403320ad9a",
+    "plant_id": "plant-gossypium-barbadense-65985e0c97",
+    "local_name": "Owu akese",
+    "normalized_name": "owu akese",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": "Kwara",
+      "localities": []
+    },
+    "botanical_as_published": "Gossypium barbadense Linn",
+    "accepted_botanical": "Gossypium barbadense",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 22
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -24608,6 +26192,28 @@
     "source_locator": {
       "table": "Table 1",
       "row": 6
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-pandoro-133a124df8",
+    "plant_id": "plant-kigelia-africana-46d315983f",
+    "local_name": "Pandoro",
+    "normalized_name": "pandoro",
+    "language": null,
+    "region": {
+      "country": "Nigeria",
+      "state": "Kwara",
+      "localities": []
+    },
+    "botanical_as_published": "Kigelia africana (Lam.) Benth",
+    "accepted_botanical": "Kigelia africana",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 28
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -24957,6 +26563,28 @@
     "export_eligible": true
   },
   {
+    "id": "name-ponhan-ff3ddd5a2e",
+    "plant_id": "plant-lophira-alata-3bf55fa2d5",
+    "local_name": "Ponhan",
+    "normalized_name": "ponhan",
+    "language": null,
+    "region": {
+      "country": "Nigeria",
+      "state": "Kwara",
+      "localities": []
+    },
+    "botanical_as_published": "Lophira alata Banks ex Gaertn",
+    "accepted_botanical": "Lophira alata",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 20
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-ponpondo-d064cc42e3",
     "plant_id": "plant-canavalia-ensiformis-774fac6c11",
     "local_name": "Ponpondo",
@@ -25003,6 +26631,28 @@
     "source_locator": {
       "table": "Table 1",
       "row": 79
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-poroporo-03423077ef",
+    "plant_id": "plant-sorghum-bicolor-43dce6dca3",
+    "local_name": "Poroporo",
+    "normalized_name": "poroporo",
+    "language": null,
+    "region": {
+      "country": "Nigeria",
+      "state": "Kwara",
+      "localities": []
+    },
+    "botanical_as_published": "Sorghum bicolor (L.) Moench",
+    "accepted_botanical": "Sorghum bicolor",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 23
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -25226,6 +26876,28 @@
     "source_locator": {
       "table": "Supplementary Table S1",
       "row": 112
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-sangi-yeko-edacedd9af",
+    "plant_id": "plant-sida-acuta-b47c40cd00",
+    "local_name": "Sàngi yèkó",
+    "normalized_name": "sangi yeko",
+    "language": "nup",
+    "region": {
+      "country": "Nigeria",
+      "state": "Kwara",
+      "localities": []
+    },
+    "botanical_as_published": "Sida acuta Burm.f",
+    "accepted_botanical": "Sida acuta",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 58
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -25750,6 +27422,28 @@
     "source_locator": {
       "table": "Table 1",
       "row": 63
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-sigo-d26571a6a1",
+    "plant_id": "plant-cussonia-arborea-43dcd745cc",
+    "local_name": "Sigo",
+    "normalized_name": "sigo",
+    "language": null,
+    "region": {
+      "country": "Nigeria",
+      "state": "Kwara",
+      "localities": []
+    },
+    "botanical_as_published": "Cussonia barteri Hochst. Ex A. Rich",
+    "accepted_botanical": "Cussonia arborea",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 55
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -26374,6 +28068,28 @@
     "source_locator": {
       "table": "Table 1",
       "row": 75
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-tude-6dccfc72c8",
+    "plant_id": "plant-calliandra-haematocephala-5564d3908b",
+    "local_name": "Tude",
+    "normalized_name": "tude",
+    "language": null,
+    "region": {
+      "country": "Nigeria",
+      "state": "Kwara",
+      "localities": []
+    },
+    "botanical_as_published": "Calliandra haematocephala Hassk",
+    "accepted_botanical": "Calliandra haematocephala",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 33
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,

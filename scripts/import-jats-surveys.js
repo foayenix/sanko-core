@@ -163,19 +163,24 @@ function extractOgbomosho(xml) {
 
 // Evbuomwan et al. 2023, Kwara. Six of the 62 rows label their names Yoruba
 // or Nupe; the other 56 carry no language, in a state where interviews were run
-// in both and Hausa names (Karandafi) and a nickname (June 12) appear unmarked.
-// Unlabelled names are kept with a null language and the table is staged.
+// in both and Hausa names (Karandafi) appear unmarked. Unlabelled names keep a
+// null language: the pages say "language not recorded" rather than guess one
+// (owner's decision, 2026-11-18). "June 12" is a nickname, not a vernacular
+// name; it stays in vernacular_as_published and does not become a mapping.
 function extractKwara(xml) {
   const languages = { yoruba: 'yo', nupe: 'nup' };
   return expectRows(tableRows(xml, 'Table 1').filter(row => /^\d+\.?$/.test(row[0]) && row.length >= 10), 62, 'Table 1 rows').map(row => {
     const published = row[1];
     const labelled = [...published.matchAll(/([^,()]+?)\s*\((Yoruba|Nupe)\)/g)];
-    const names = labelled.length
-      ? labelled.flatMap(match => splitNames(match[1], languages[match[2].toLocaleLowerCase('en')]).names)
-      : splitNames(published, null).names;
+    const nickname = /^June 12$/.test(published);
+    const names = nickname
+      ? []
+      : labelled.length
+        ? labelled.flatMap(match => splitNames(match[1], languages[match[2].toLocaleLowerCase('en')]).names)
+        : splitNames(published, null).names;
     const flags = [];
     if (!labelled.length) flags.push('language_not_stated_for_row');
-    if (/^June 12$/.test(published)) flags.push('nickname_rather_than_vernacular_name');
+    if (nickname) flags.push('nickname_rather_than_vernacular_name');
     return {
       source_id: 'evbuomwan-2023-kwara',
       source_row: Number.parseInt(row[0], 10),
@@ -184,12 +189,12 @@ function extractKwara(xml) {
       common_english_as_published: row[2],
       vernacular_as_published: published,
       vernacular_names: unique(names),
+      ...(nickname ? { vernacular_entries_excluded: [{ text: published, reason: 'nickname rather than a vernacular name' }] } : {}),
       parts_reported: splitList(row[6]),
       voucher_specimen: row[3].match(/\(\s*((?:FHI|NIPRD|UBH)[^)]*)\)\s*$/)?.[1].trim() ?? null,
       life_form_as_published: row[5],
       use_context: 'plant reported for malaria in Kwara State',
-      data_quality_flags: flags,
-      runtime_export_eligible: false
+      data_quality_flags: flags
     };
   });
 }
@@ -197,7 +202,7 @@ function extractKwara(xml) {
 const SOURCES = {
   'lawal-2020-ede-south': { pmcid: 'PMC7286022', extract: extractEdeSouth, output: ['lawal-2020-ede-south.json'] },
   'odebunmi-2022-ogbomosho': { pmcid: 'PMC9573491', extract: extractOgbomosho, output: ['staged', 'odebunmi-2022-ogbomosho.json'] },
-  'evbuomwan-2023-kwara': { pmcid: 'PMC10504731', extract: extractKwara, output: ['staged', 'evbuomwan-2023-kwara.json'] }
+  'evbuomwan-2023-kwara': { pmcid: 'PMC10504731', extract: extractKwara, output: ['evbuomwan-2023-kwara.json'] }
 };
 
 function main() {

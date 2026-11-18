@@ -350,6 +350,43 @@
     ]
   },
   {
+    "botanical_as_published": "Anogeissus leiocarpus (DC.) Guill. & Perr",
+    "published_genus": "Anogeissus",
+    "unmatched_as": {
+      "match_type": "VARIANT",
+      "confidence": 100,
+      "taxonomic_status": "SYNONYM",
+      "matched_canonical": "Anogeissus leiocarpa"
+    },
+    "decided_at": "2026-11-18",
+    "status": "corrected",
+    "rule": "gbif_variant_suggestion",
+    "corrected_query": "Anogeissus leiocarpa",
+    "accepted_botanical": "Terminalia leiocarpa",
+    "evidence": {
+      "queried": "Anogeissus leiocarpa",
+      "match_type": "EXACT",
+      "confidence": 98,
+      "taxonomic_status": "SYNONYM",
+      "matched_canonical": "Anogeissus leiocarpa",
+      "usage_key": "3699245",
+      "accepted_usage_key": "3698332",
+      "genus_changed": true,
+      "epithet_changed": true
+    },
+    "attempts": [
+      {
+        "query": "Anogeissus leiocarpa",
+        "rule": "gbif_variant_suggestion",
+        "match_type": "EXACT",
+        "confidence": 98,
+        "status": "SYNONYM",
+        "accepted": "Terminalia leiocarpa",
+        "eligible": true
+      }
+    ]
+  },
+  {
     "botanical_as_published": "Anogeissus leiocarpus (DC.) Guill. & Perr.",
     "published_genus": "Anogeissus",
     "unmatched_as": {
@@ -502,6 +539,43 @@
         "confidence": 99,
         "status": "ACCEPTED",
         "accepted": "Basella alba",
+        "eligible": true
+      }
+    ]
+  },
+  {
+    "botanical_as_published": "Citrus aurantifolia (Christm.) Swingle",
+    "published_genus": "Citrus",
+    "unmatched_as": {
+      "match_type": "VARIANT",
+      "confidence": 100,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Citrus aurantiifolia"
+    },
+    "decided_at": "2026-11-18",
+    "status": "corrected",
+    "rule": "gbif_variant_suggestion",
+    "corrected_query": "Citrus aurantiifolia",
+    "accepted_botanical": "Citrus aurantiifolia",
+    "evidence": {
+      "queried": "Citrus aurantiifolia",
+      "match_type": "EXACT",
+      "confidence": 99,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Citrus aurantiifolia",
+      "usage_key": "3190164",
+      "accepted_usage_key": "3190164",
+      "genus_changed": false,
+      "epithet_changed": true
+    },
+    "attempts": [
+      {
+        "query": "Citrus aurantiifolia",
+        "rule": "gbif_variant_suggestion",
+        "match_type": "EXACT",
+        "confidence": 99,
+        "status": "ACCEPTED",
+        "accepted": "Citrus aurantiifolia",
         "eligible": true
       }
     ]

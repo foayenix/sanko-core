@@ -1,24 +1,26 @@
 {
-  "built_at": "2026-11-17",
-  "pages_written": 1272,
-  "vernacular_rows_considered": 1124,
-  "vernacular_rows_published": 966,
-  "unique_names_published": 845,
-  "taxa_published": 409,
-  "contested_names_published": 41,
+  "built_at": "2026-11-18",
+  "pages_written": 1330,
+  "vernacular_rows_considered": 1202,
+  "vernacular_rows_published": 1044,
+  "unique_names_published": 890,
+  "taxa_published": 420,
+  "contested_names_published": 43,
   "languages_published": {
-    "yo": 504,
+    "yo": 510,
+    "und": 102,
     "ijn": 37,
-    "und": 36,
     "ha": 141,
     "ekp": 30,
     "ig": 74,
     "ikw": 83,
     "ijc": 43,
-    "ff": 18
+    "ff": 18,
+    "nup": 6
   },
   "sources_published": [
     "weli-2013-port-harcourt",
+    "evbuomwan-2023-kwara",
     "olanipekun-2022-lagos",
     "sonibare-2008-anti-asthmatic",
     "offiah-2011-plateau",
@@ -43,11 +45,6 @@
     },
     {
       "id": "odebunmi-2022-ogbomosho",
-      "ingestion_status": "staged_review",
-      "publication_status": "active"
-    },
-    {
-      "id": "evbuomwan-2023-kwara",
       "ingestion_status": "staged_review",
       "publication_status": "active"
     },

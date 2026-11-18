@@ -3288,6 +3288,1085 @@
     "evidence_scope": "ethnobotanical report; not clinical evidence"
   },
   {
+    "id": "observation-evbuomwan-2023-kwara-25981c0a8f",
+    "plant_id": "plant-mangifera-indica-4d66bda6d8",
+    "botanical_as_published": "Mangifera indica Linn",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 1
+    },
+    "parts_reported": [
+      "stem bark",
+      "root",
+      "leaf"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 109451",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-23f3338c9e",
+    "plant_id": "plant-annickia-chlorantha-a359a63074",
+    "botanical_as_published": "Enantia chlorantha Oliv",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 2
+    },
+    "parts_reported": [
+      "stem bark",
+      "root",
+      "leaf"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 109950",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-276ea78a05",
+    "plant_id": "plant-alstonia-boonei-a2b33bfa82",
+    "botanical_as_published": "Alstonia boonei De Wild",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 3
+    },
+    "parts_reported": [
+      "stem bark",
+      "root"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 107254",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-ac663ea910",
+    "plant_id": "plant-cymbopogon-citratus-d5de29a9fd",
+    "botanical_as_published": "Cymbopogon citratus (DC.) Stapf",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 4
+    },
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 605214",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-ae87536a21",
+    "plant_id": "plant-nauclea-latifolia-53fa5cb38c",
+    "botanical_as_published": "Nauclea latifolia Sm",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 5
+    },
+    "parts_reported": [
+      "stem bark",
+      "root",
+      "leaf"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 112779",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-29a0d02858",
+    "plant_id": "plant-morinda-lucida-a896aeef86",
+    "botanical_as_published": "Morinda lucida Benth",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 6
+    },
+    "parts_reported": [
+      "stem bark",
+      "root",
+      "leaf"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 106992",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-32567909ee",
+    "plant_id": "plant-carica-papaya-d45ff84fbe",
+    "botanical_as_published": "Carica papaya Linn",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 7
+    },
+    "parts_reported": [
+      "leaf",
+      "unripe fruit"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 109462",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-30cbe3df5a",
+    "plant_id": "plant-anacardium-occidentale-608216d147",
+    "botanical_as_published": "Anacardium occidentale Linn",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 8
+    },
+    "parts_reported": [
+      "stem bark",
+      "root",
+      "leaf"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 109858",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-84ac1c0260",
+    "plant_id": "plant-khaya-ivorensis-f964de1c05",
+    "botanical_as_published": "Khaya ivorensis A. Chev",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 9
+    },
+    "parts_reported": [
+      "stem bark"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 56845",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-ba3dc29226",
+    "plant_id": "plant-vachellia-nilotica-f76029b6d9",
+    "botanical_as_published": "Acacia nilotica (L.) Delile",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 10
+    },
+    "parts_reported": [
+      "stem bark",
+      "leaf"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 108425",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-a00e9a7bf4",
+    "plant_id": "plant-rourea-coccinea-coccinea-890f46f302",
+    "botanical_as_published": "Byrsocarpus coccineus Schum. & Thonn",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 11
+    },
+    "parts_reported": [
+      "stem bark"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 112950",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-1d457a7954",
+    "plant_id": "plant-waltheria-indica-aa8204fe92",
+    "botanical_as_published": "Waltheria indica Linn",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 12
+    },
+    "parts_reported": [
+      "stem bark",
+      "leaf"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 92465",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-d91dbc4c26",
+    "plant_id": "plant-theobroma-cacao-777fc47af0",
+    "botanical_as_published": "Theobroma cacao Linn",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 13
+    },
+    "parts_reported": [
+      "stem bark"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 700314",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-419ffdd4f6",
+    "plant_id": "plant-lawsonia-inermis-7ff9dfd7a9",
+    "botanical_as_published": "Lawsonia inermis Linn",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 14
+    },
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 702616",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-4ce6d0ecc2",
+    "plant_id": "plant-sphenocentrum-jollyanum-f555f22d0a",
+    "botanical_as_published": "Sphenocentrum jollyanum Pierre",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 15
+    },
+    "parts_reported": [
+      "root",
+      "leaf"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 108283",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-d8249a7d1f",
+    "plant_id": "plant-citrus-aurantiifolia-e96354d670",
+    "botanical_as_published": "Citrus aurantifolia (Christm.) Swingle",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 16
+    },
+    "parts_reported": [
+      "stem bark",
+      "leaf"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 110009",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-d91c273e0f",
+    "plant_id": "plant-terminalia-leiocarpa-9d4b38908e",
+    "botanical_as_published": "Anogeissus leiocarpus (DC.) Guill. & Perr",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 17
+    },
+    "parts_reported": [
+      "stem bark",
+      "root",
+      "leaf"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 107122",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-82a30bec91",
+    "plant_id": "plant-axonopus-compressus-1597baa325",
+    "botanical_as_published": "Axonopus compressus (Sw.) P.Beauv",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 18
+    },
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 109977",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-306efe3675",
+    "plant_id": "plant-citrus-limon-a0b6a074cf",
+    "botanical_as_published": "Citrus limon (L.) Osbeck",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 19
+    },
+    "parts_reported": [
+      "fruit"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 110008",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-59b8f83bac",
+    "plant_id": "plant-lophira-alata-3bf55fa2d5",
+    "botanical_as_published": "Lophira alata Banks ex Gaertn",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 20
+    },
+    "parts_reported": [
+      "stem bark"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 109820",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-b1e0d99e7c",
+    "plant_id": "plant-azadirachta-indica-602368d8f9",
+    "botanical_as_published": "Azadirachta indica A.Juss",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 21
+    },
+    "parts_reported": [
+      "root",
+      "leaf"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 112927",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-5d6c474be6",
+    "plant_id": "plant-gossypium-barbadense-65985e0c97",
+    "botanical_as_published": "Gossypium barbadense Linn",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 22
+    },
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 107327",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-2752d91140",
+    "plant_id": "plant-sorghum-bicolor-43dce6dca3",
+    "botanical_as_published": "Sorghum bicolor (L.) Moench",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 23
+    },
+    "parts_reported": [
+      "leaf",
+      "root"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 109659",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-6391b243b4",
+    "plant_id": "plant-laccosperma-secundiflorum-6baad6a145",
+    "botanical_as_published": "Ancistrophyllum secundiflorum (P.Beauv.) G.Mann & H.Wendl",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 24
+    },
+    "parts_reported": [
+      "stem bark"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 50908",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-30adbcb2be",
+    "plant_id": "plant-tithonia-diversifolia-92b473c089",
+    "botanical_as_published": "Tithonia diversifolia (Hemsl.) A. Gray",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 25
+    },
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 108055",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-93e09c4293",
+    "plant_id": "plant-vitellaria-paradoxa-de73616dac",
+    "botanical_as_published": "Vitellaria paradoxa C.F. Gaertn",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 26
+    },
+    "parts_reported": [
+      "root",
+      "leaf"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 107924",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-b4603fe303",
+    "plant_id": "plant-zingiber-officinale-8932efc2ae",
+    "botanical_as_published": "Zingiber officinale Roscoe",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 27
+    },
+    "parts_reported": [
+      "rhizome"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 107935",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-0dc129b522",
+    "plant_id": "plant-kigelia-africana-46d315983f",
+    "botanical_as_published": "Kigelia africana (Lam.) Benth",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 28
+    },
+    "parts_reported": [
+      "stem bark",
+      "fruit"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 107654",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-4834c8597f",
+    "plant_id": "plant-harungana-madagascariensis-210b6b89a5",
+    "botanical_as_published": "Harungana madagascariensis Lam. ex Poir",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 29
+    },
+    "parts_reported": [
+      "stem bark",
+      "leaf"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 107392",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-b29b281aa1",
+    "plant_id": "plant-psidium-guajava-ef93129072",
+    "botanical_as_published": "Psidium guajava Linn",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 30
+    },
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 110937",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-f9f5ea8364",
+    "plant_id": "plant-pseudocedrela-kotschyi-994af195f8",
+    "botanical_as_published": "Pseudocedrela kotschyi (Schweinf.) Harms",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 31
+    },
+    "parts_reported": [
+      "stem bark"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 106873",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-6aa3d37c9a",
+    "plant_id": "plant-ananas-comosus-e0dfdb430c",
+    "botanical_as_published": "Ananas comosus (L.) Merr",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 32
+    },
+    "parts_reported": [
+      "peel"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 58509",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-f52abc1726",
+    "plant_id": "plant-calliandra-haematocephala-5564d3908b",
+    "botanical_as_published": "Calliandra haematocephala Hassk",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 33
+    },
+    "parts_reported": [
+      "root"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 45788",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-47306d60cf",
+    "plant_id": "plant-ocimum-gratissimum-db8de35590",
+    "botanical_as_published": "Ocimum gratissimum Linn",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 34
+    },
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 111995",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-62ce5ce175",
+    "plant_id": "plant-gymnanthemum-amygdalinum-5dbeaea320",
+    "botanical_as_published": "Vernonia amygdalina Delile",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 35
+    },
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 112924",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-46def69c8d",
+    "plant_id": "plant-prosopis-africana-f699fc148f",
+    "botanical_as_published": "Prosopis africana (Guill. & Perr.) Taub",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 36
+    },
+    "parts_reported": [
+      "leaf",
+      "root"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 112370",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-360aa2f178",
+    "plant_id": "plant-acanthus-montanus-492ed18084",
+    "botanical_as_published": "Acanthus montanus (Nees) T. Anderson",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 37
+    },
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 107529",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-f26ec39f9a",
+    "plant_id": "plant-aristolochia-ringens-d314dc2b66",
+    "botanical_as_published": "Aristolochia ringens Vahl",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 38
+    },
+    "parts_reported": [
+      "root"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 112929",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-ed329fe231",
+    "plant_id": "plant-artocarpus-altilis-0846570e26",
+    "botanical_as_published": "Artocarpus altilis (Parkinson) Fosberg",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 39
+    },
+    "parts_reported": [
+      "root"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 110483",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-d8a27cf1a4",
+    "plant_id": "plant-citrus-aurantium-6b3a87e59c",
+    "botanical_as_published": "Citrus sinensis (L.) Osbeck",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 40
+    },
+    "parts_reported": [
+      "stem bark",
+      "leaf"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 108811",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-b94ef9bf44",
+    "plant_id": "plant-cocos-nucifera-20f1d857c6",
+    "botanical_as_published": "Cocos nucifera Linn",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 41
+    },
+    "parts_reported": [
+      "husk"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 109665",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-47cf197620",
+    "plant_id": "plant-curcuma-longa-cac6186f50",
+    "botanical_as_published": "Curcuma longa Linn",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 42
+    },
+    "parts_reported": [
+      "rhizome"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 106920",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-d7297758af",
+    "plant_id": "plant-daniellia-oliveri-fb159d05dd",
+    "botanical_as_published": "Daniellia oliveri (Rolfe) Hutch. & Dalziel",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 43
+    },
+    "parts_reported": [
+      "stem bark"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 36952",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-f9413ec869",
+    "plant_id": "plant-entada-africana-2c0624fa5e",
+    "botanical_as_published": "Entada africana Guill. & Perr",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 44
+    },
+    "parts_reported": [
+      "stem bark"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "NIPRD/H/6412",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-c9c2709139",
+    "plant_id": "plant-ficus-exasperata-718f240ae1",
+    "botanical_as_published": "Ficus exasperata Vahl",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 45
+    },
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 109550",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-3d7402460b",
+    "plant_id": "plant-ficus-platyphylla-2387ece047",
+    "botanical_as_published": "Ficus platyphylla Del. Holl",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 46
+    },
+    "parts_reported": [
+      "stem bark"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 78251",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-e0ee83145a",
+    "plant_id": "plant-garcinia-kola-b2da88781b",
+    "botanical_as_published": "Garcinia kola Heckel",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 47
+    },
+    "parts_reported": [
+      "stem bark"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 109481",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-76e1fbf172",
+    "plant_id": "plant-jatropha-curcas-b217025a04",
+    "botanical_as_published": "Jatropha curcas Linn",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 48
+    },
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 109020",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-efcc99d4e0",
+    "plant_id": "plant-margaritaria-discoidea-d6d8d4a920",
+    "botanical_as_published": "Margaritaria discoidea (Baill.) G.L. Webster",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 49
+    },
+    "parts_reported": [
+      "root"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 43971",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-fd926f028e",
+    "plant_id": "plant-musa-paradisiaca-ee9a078e9c",
+    "botanical_as_published": "Musa paradisiaca Linn",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 50
+    },
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 110122",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-51e084a9d6",
+    "plant_id": "plant-cryptolepis-nigrescens-60d6d719ed",
+    "botanical_as_published": "Parquetina nigrescens (Afzel.) Bullock",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 51
+    },
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 110044",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-f203ec40da",
+    "plant_id": "plant-persea-americana-4797acba26",
+    "botanical_as_published": "Persea americana Mill",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 52
+    },
+    "parts_reported": [
+      "stem bark"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 109444",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-5adc181285",
+    "plant_id": "plant-piliostigma-thonningii-54038cc24e",
+    "botanical_as_published": "Piliostigma thonningii (Schum.) Milne-Redh",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 53
+    },
+    "parts_reported": [
+      "stem bark"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 107815",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-b3f93f7ad2",
+    "plant_id": "plant-piper-guineense-b925235b59",
+    "botanical_as_published": "Piper guineense Schum. & Thonn",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 54
+    },
+    "parts_reported": [
+      "fruit"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 112922",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-f6582dc086",
+    "plant_id": "plant-cussonia-arborea-43dcd745cc",
+    "botanical_as_published": "Cussonia barteri Hochst. Ex A. Rich",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 55
+    },
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "UBHdt/SN/173",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-40ba237c3e",
+    "plant_id": "plant-senna-occidentalis-9d5c9f2d10",
+    "botanical_as_published": "Senna occidentalis (L.) Link",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 56
+    },
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 109866",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-38bbd46d45",
+    "plant_id": "plant-senna-podocarpa-e609bab427",
+    "botanical_as_published": "Senna podocarpa (Guill. & Perr.) Lock",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 57
+    },
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 109903",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-ca108f8773",
+    "plant_id": "plant-sida-acuta-b47c40cd00",
+    "botanical_as_published": "Sida acuta Burm.f",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 58
+    },
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 112276",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-eb4bf3108d",
+    "plant_id": "plant-tetracera-potatoria-5be3653e80",
+    "botanical_as_published": "Tetracera potatoria Afzel. ex G. Don",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 59
+    },
+    "parts_reported": [
+      "stem bark"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 105782",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-fe478324ba",
+    "plant_id": "plant-tetrapleura-tetraptera-fe165781bd",
+    "botanical_as_published": "Tetrapleura tetraptera (Schum. & Thonn.) Taub",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 60
+    },
+    "parts_reported": [
+      "fruit"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 110141",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-d90f68457c",
+    "plant_id": "plant-xylopia-aethiopica-d5773119a0",
+    "botanical_as_published": "Xylopia aethiopica (Dunal) A. Rich",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 61
+    },
+    "parts_reported": [
+      "stem bark"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 108978",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-d7a6a9f669",
+    "plant_id": "plant-zanthoxylum-zanthoxyloides-35bfd45a11",
+    "botanical_as_published": "Zanthoxylum zanthoxyloides (Lam.) Zepern. & Timler",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 62
+    },
+    "parts_reported": [
+      "stem bark"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "NIPRD/H/7101",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
     "id": "observation-lawal-2020-ede-south-8a6fb04836",
     "plant_id": "plant-abrus-precatorius-15b67329f2",
     "botanical_as_published": "Abrus precatorius L.",
