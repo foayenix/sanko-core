@@ -1925,6 +1925,17 @@
     "error": null
   },
   {
+    "search_id": "search-22973954e6c5",
+    "kind": "retrieve",
+    "taxon_id": "plant-vitellaria-paradoxa-de73616dac",
+    "provider": "europepmc",
+    "query": "(TITLE:\"Vitellaria paradoxa\" OR ABSTRACT:\"Vitellaria paradoxa\" OR TITLE:\"Butyrospermum paradoxum\" OR ABSTRACT:\"Butyrospermum paradoxum\")",
+    "executed_at": "2026-11-18",
+    "hit_count": 159,
+    "retrieved": 159,
+    "error": null
+  },
+  {
     "search_id": "search-22dbc0a8cff8",
     "kind": "count",
     "taxon_id": "plant-alchornea-laxiflora-d19e1ad26e",
@@ -2043,6 +2054,17 @@
     "executed_at": "2026-11-18",
     "hit_count": 0,
     "retrieved": 0,
+    "error": null
+  },
+  {
+    "search_id": "search-254cd1154c40",
+    "kind": "retrieve",
+    "taxon_id": "plant-garcinia-kola-b2da88781b",
+    "provider": "europepmc",
+    "query": "(TITLE:\"Garcinia kola\" OR ABSTRACT:\"Garcinia kola\")",
+    "executed_at": "2026-11-18",
+    "hit_count": 296,
+    "retrieved": 296,
     "error": null
   },
   {
@@ -2530,6 +2552,17 @@
     "error": null
   },
   {
+    "search_id": "search-2d9f5a2471a1",
+    "kind": "retrieve",
+    "taxon_id": "plant-spondias-mombin-e4158596a0",
+    "provider": "europepmc",
+    "query": "(TITLE:\"Spondias mombin\" OR ABSTRACT:\"Spondias mombin\" OR TITLE:\"Spondias mombis\" OR ABSTRACT:\"Spondias mombis\")",
+    "executed_at": "2026-11-18",
+    "hit_count": 226,
+    "retrieved": 226,
+    "error": null
+  },
+  {
     "search_id": "search-2de5e55c12b6",
     "kind": "count",
     "taxon_id": "plant-capsicum-annuum-0276c03fe6",
@@ -2560,6 +2593,17 @@
     "executed_at": "2026-11-18",
     "hit_count": 33,
     "retrieved": 0,
+    "error": null
+  },
+  {
+    "search_id": "search-2e261dd7ae52",
+    "kind": "retrieve",
+    "taxon_id": "plant-kigelia-africana-46d315983f",
+    "provider": "europepmc",
+    "query": "(TITLE:\"Kigelia africana\" OR ABSTRACT:\"Kigelia africana\")",
+    "executed_at": "2026-11-18",
+    "hit_count": 121,
+    "retrieved": 121,
     "error": null
   },
   {
@@ -3806,6 +3850,17 @@
     "error": null
   },
   {
+    "search_id": "search-436eacf9e5b3",
+    "kind": "retrieve",
+    "taxon_id": "plant-kalanchoe-pinnata-f601832f73",
+    "provider": "europepmc",
+    "query": "(TITLE:\"Kalanchoe pinnata\" OR ABSTRACT:\"Kalanchoe pinnata\" OR TITLE:\"Bryophyllum pinnatum\" OR ABSTRACT:\"Bryophyllum pinnatum\" OR TITLE:\"Kalanchoe pinnatum\" OR ABSTRACT:\"Kalanchoe pinnatum\")",
+    "executed_at": "2026-11-18",
+    "hit_count": 287,
+    "retrieved": 287,
+    "error": null
+  },
+  {
     "search_id": "search-439286a1487c",
     "kind": "count",
     "taxon_id": "plant-jatropha-multifida-a57466d05a",
@@ -4529,6 +4584,17 @@
     "executed_at": "2026-11-18",
     "hit_count": 0,
     "retrieved": 0,
+    "error": null
+  },
+  {
+    "search_id": "search-51d73129d37d",
+    "kind": "retrieve",
+    "taxon_id": "plant-citrus-aurantiifolia-e96354d670",
+    "provider": "europepmc",
+    "query": "(TITLE:\"Citrus aurantiifolia\" OR ABSTRACT:\"Citrus aurantiifolia\" OR TITLE:\"Citrus aurantifolia\" OR ABSTRACT:\"Citrus aurantifolia\")",
+    "executed_at": "2026-11-18",
+    "hit_count": 437,
+    "retrieved": 437,
     "error": null
   },
   {
@@ -6897,6 +6963,17 @@
     "error": null
   },
   {
+    "search_id": "search-7772516161d0",
+    "kind": "retrieve",
+    "taxon_id": "plant-piper-guineense-b925235b59",
+    "provider": "europepmc",
+    "query": "(TITLE:\"Piper guineense\" OR ABSTRACT:\"Piper guineense\")",
+    "executed_at": "2026-11-18",
+    "hit_count": 106,
+    "retrieved": 106,
+    "error": null
+  },
+  {
     "search_id": "search-7777c1d8afd0",
     "kind": "count",
     "taxon_id": "plant-chrysanthellum-indicum-65a9ab87a8",
@@ -7290,6 +7367,28 @@
     "executed_at": "2026-11-18",
     "hit_count": 204,
     "retrieved": 0,
+    "error": null
+  },
+  {
+    "search_id": "search-7d4b947b507d",
+    "kind": "retrieve",
+    "taxon_id": "plant-gymnanthemum-amygdalinum-5dbeaea320",
+    "provider": "europepmc",
+    "query": "(TITLE:\"Gymnanthemum amygdalinum\" OR ABSTRACT:\"Gymnanthemum amygdalinum\" OR TITLE:\"Vernonia amygdalina\" OR ABSTRACT:\"Vernonia amygdalina\")",
+    "executed_at": "2026-11-18",
+    "hit_count": 454,
+    "retrieved": 454,
+    "error": null
+  },
+  {
+    "search_id": "search-7d71c9099269",
+    "kind": "retrieve",
+    "taxon_id": "plant-origanum-majorana-b926c640ff",
+    "provider": "europepmc",
+    "query": "(TITLE:\"Origanum majorana\" OR ABSTRACT:\"Origanum majorana\")",
+    "executed_at": "2026-11-18",
+    "hit_count": 389,
+    "retrieved": 389,
     "error": null
   },
   {
@@ -8327,6 +8426,17 @@
     "error": null
   },
   {
+    "search_id": "search-8beb93f2e8b5",
+    "kind": "retrieve",
+    "taxon_id": "plant-senna-occidentalis-9d5c9f2d10",
+    "provider": "europepmc",
+    "query": "(TITLE:\"Senna occidentalis\" OR ABSTRACT:\"Senna occidentalis\" OR TITLE:\"Cassia occidentalis\" OR ABSTRACT:\"Cassia occidentalis\")",
+    "executed_at": "2026-11-18",
+    "hit_count": 283,
+    "retrieved": 283,
+    "error": null
+  },
+  {
     "search_id": "search-8c1ccfbeab8d",
     "kind": "count",
     "taxon_id": "plant-capsicum-chinense-ed18c7b524",
@@ -9317,6 +9427,17 @@
     "error": null
   },
   {
+    "search_id": "search-9ace3bfa0241",
+    "kind": "retrieve",
+    "taxon_id": "plant-nauclea-latifolia-53fa5cb38c",
+    "provider": "europepmc",
+    "query": "(TITLE:\"Nauclea latifolia\" OR ABSTRACT:\"Nauclea latifolia\" OR TITLE:\"Sarcocephalus latifolius\" OR ABSTRACT:\"Sarcocephalus latifolius\")",
+    "executed_at": "2026-11-18",
+    "hit_count": 112,
+    "retrieved": 112,
+    "error": null
+  },
+  {
     "search_id": "search-9aec6e3e87dd",
     "kind": "count",
     "taxon_id": "plant-spermacoce-verticillata-15994ebeae",
@@ -9468,6 +9589,17 @@
     "executed_at": "2026-11-18",
     "hit_count": 105,
     "retrieved": 0,
+    "error": null
+  },
+  {
+    "search_id": "search-9d7588677dc1",
+    "kind": "retrieve",
+    "taxon_id": "plant-tetrapleura-tetraptera-fe165781bd",
+    "provider": "europepmc",
+    "query": "(TITLE:\"Tetrapleura tetraptera\" OR ABSTRACT:\"Tetrapleura tetraptera\")",
+    "executed_at": "2026-11-18",
+    "hit_count": 96,
+    "retrieved": 96,
     "error": null
   },
   {
@@ -9644,6 +9776,17 @@
     "executed_at": "2026-11-18",
     "hit_count": 17,
     "retrieved": 0,
+    "error": null
+  },
+  {
+    "search_id": "search-9f2c3e0c2c37",
+    "kind": "retrieve",
+    "taxon_id": "plant-mimosa-pudica-22130774b9",
+    "provider": "europepmc",
+    "query": "(TITLE:\"Mimosa pudica\" OR ABSTRACT:\"Mimosa pudica\")",
+    "executed_at": "2026-11-18",
+    "hit_count": 434,
+    "retrieved": 434,
     "error": null
   },
   {
@@ -11033,6 +11176,17 @@
     "error": null
   },
   {
+    "search_id": "search-b378a72dc13f",
+    "kind": "retrieve",
+    "taxon_id": "plant-abrus-precatorius-15b67329f2",
+    "provider": "europepmc",
+    "query": "(TITLE:\"Abrus precatorius\" OR ABSTRACT:\"Abrus precatorius\")",
+    "executed_at": "2026-11-18",
+    "hit_count": 357,
+    "retrieved": 357,
+    "error": null
+  },
+  {
     "search_id": "search-b37cf8963ecd",
     "kind": "count",
     "taxon_id": "plant-hibiscus-rosa-sinensis-5ef6109902",
@@ -11173,6 +11327,17 @@
     "executed_at": "2026-11-18",
     "hit_count": 8,
     "retrieved": 0,
+    "error": null
+  },
+  {
+    "search_id": "search-b5c763ab0487",
+    "kind": "retrieve",
+    "taxon_id": "plant-aframomum-melegueta-5379374059",
+    "provider": "europepmc",
+    "query": "(TITLE:\"Aframomum melegueta\" OR ABSTRACT:\"Aframomum melegueta\")",
+    "executed_at": "2026-11-18",
+    "hit_count": 134,
+    "retrieved": 134,
     "error": null
   },
   {
@@ -11338,6 +11503,17 @@
     "executed_at": "2026-11-18",
     "hit_count": 5,
     "retrieved": 0,
+    "error": null
+  },
+  {
+    "search_id": "search-ba6aeae21fb2",
+    "kind": "retrieve",
+    "taxon_id": "plant-xylopia-aethiopica-d5773119a0",
+    "provider": "europepmc",
+    "query": "(TITLE:\"Xylopia aethiopica\" OR ABSTRACT:\"Xylopia aethiopica\")",
+    "executed_at": "2026-11-18",
+    "hit_count": 163,
+    "retrieved": 163,
     "error": null
   },
   {
@@ -11976,6 +12152,17 @@
     "executed_at": "2026-11-18",
     "hit_count": 5,
     "retrieved": 0,
+    "error": null
+  },
+  {
+    "search_id": "search-c52b5e104009",
+    "kind": "retrieve",
+    "taxon_id": "plant-ageratum-conyzoides-79aac7b35c",
+    "provider": "europepmc",
+    "query": "(TITLE:\"Ageratum conyzoides\" OR ABSTRACT:\"Ageratum conyzoides\")",
+    "executed_at": "2026-11-18",
+    "hit_count": 402,
+    "retrieved": 402,
     "error": null
   },
   {
@@ -14465,6 +14652,17 @@
     "error": null
   },
   {
+    "search_id": "search-ee59e5ccacfc",
+    "kind": "retrieve",
+    "taxon_id": "plant-irvingia-gabonensis-6202d9e552",
+    "provider": "europepmc",
+    "query": "(TITLE:\"Irvingia gabonensis\" OR ABSTRACT:\"Irvingia gabonensis\")",
+    "executed_at": "2026-11-18",
+    "hit_count": 130,
+    "retrieved": 130,
+    "error": null
+  },
+  {
     "search_id": "search-ee5ee13540cc",
     "kind": "count",
     "taxon_id": "plant-alchornea-laxiflora-d19e1ad26e",
@@ -14517,6 +14715,17 @@
     "executed_at": "2026-11-18",
     "hit_count": 37,
     "retrieved": 0,
+    "error": null
+  },
+  {
+    "search_id": "search-ef11a33ca50e",
+    "kind": "retrieve",
+    "taxon_id": "plant-lawsonia-inermis-7ff9dfd7a9",
+    "provider": "europepmc",
+    "query": "(TITLE:\"Lawsonia inermis\" OR ABSTRACT:\"Lawsonia inermis\")",
+    "executed_at": "2026-11-18",
+    "hit_count": 377,
+    "retrieved": 377,
     "error": null
   },
   {
@@ -14594,6 +14803,17 @@
     "executed_at": "2026-11-18",
     "hit_count": 0,
     "retrieved": 0,
+    "error": null
+  },
+  {
+    "search_id": "search-efedb29a6a1b",
+    "kind": "retrieve",
+    "taxon_id": "plant-cascabela-thevetia-40a0c1a165",
+    "provider": "europepmc",
+    "query": "(TITLE:\"Cascabela thevetia\" OR ABSTRACT:\"Cascabela thevetia\" OR TITLE:\"Thevetia peruviana\" OR ABSTRACT:\"Thevetia peruviana\")",
+    "executed_at": "2026-11-18",
+    "hit_count": 167,
+    "retrieved": 167,
     "error": null
   },
   {

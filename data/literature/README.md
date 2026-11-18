@@ -64,3 +64,20 @@ A release build needs a corrections route:
   the things the pilot measures.
 - Retraction status comes from Europe PMC publication types at retrieval time.
   The monthly status check (spec 5.4 step 5) is not built yet.
+
+## Current state (Phase A, 18 November 2026)
+
+- **Counts:** 1,416 Europe PMC count queries (3 per taxon × 472 taxa), none failed.
+- **Pilot:** 20 taxa in `pilot_selection.json` — 14 by score (Nigerian use breadth
+  weighted double, at least three sources), 3 safety-led, 3 identity-hard. Taxa
+  above 500 hits are excluded from the pilot and listed there (ginger, neem,
+  moringa, garlic, papaya and others); they need Phase B or a narrower protocol.
+- **Retrieved:** 4,894 studies and 5,010 taxon–study entries for the 20 pilot
+  taxa, every hit retrieved, no failed searches. 132 records are patents.
+- **Automated pass:** 375 entries excluded (reviews without original data,
+  errata, patents and other notices); 4,635 await human verification.
+  2,332 entries mention the plant only outside the title, so the reviewer must
+  record the printed name.
+- **Verified:** none. The public site therefore lists no studies yet; every plant
+  page shows zero counts and the number awaiting verification. That is correct
+  behaviour, not a fault.

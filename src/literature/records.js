@@ -79,6 +79,8 @@ function publicationType(source) {
     case 'HIR':
     case 'CTX':
       return 'report';
+    case 'PAT':
+      return 'patent';
     default:
       return 'unknown';
   }
@@ -129,7 +131,9 @@ function toStudy(record, { indexedAt }) {
     pmid: record.pmid || null,
     pmcid: record.pmcid || null,
     europepmc_id: `${record.source}/${record.id}`,
-    title: cleanTitle(record.title),
+    // A few index records (mostly patents) carry no title. They are kept, marked,
+    // so the exclusion stays on the record instead of the row disappearing.
+    title: cleanTitle(record.title) || `[No title in index: ${record.source}/${record.id}]`,
     authors: authors(record),
     year: record.pubYear ? Number(record.pubYear) : null,
     journal: record.journalInfo?.journal?.title || record.bookOrReportDetails?.publisher || null,

@@ -9,9 +9,12 @@
 
 const vocab = require('./vocab');
 const { effectiveEntries } = require('./store');
+const { searchNames } = require('./records');
 
-// Sanko's own wording must never frame the index as a list of benefits. Study
-// titles are the authors' words and are excluded from this check.
+// Sanko's own wording must never frame the index as a list of benefits. Cited
+// third-party text — study titles, survey titles, journal names — is the
+// authors' words, is marked with class "cited" or "study-title", and is
+// excluded from this check.
 const PROHIBITED = [/\bbenefits?\b/i, /\bused for\b/i, /\bhelps? with\b/i, /\btreats?\b/i, /\bcures?\b/i, /\bheals?\b/i, /\bboosts?\b/i];
 
 const NOTICE = 'This is an index of published research, not medical advice. The number of studies does not indicate that a plant is effective or safe.';
@@ -68,6 +71,9 @@ function buildModel({ plants, vernacularNames, sources, data }) {
         slug: slug(plant.accepted_botanical),
         accepted: plant.accepted_botanical,
         publishedNames: plant.botanical_names_as_published || [],
+        // Older names readers may know the plant by (Vernonia amygdalina for
+        // Gymnanthemum amygdalinum), from the binomials sources actually printed.
+        alsoKnownAs: searchNames(plant).slice(1),
         gbifKey: plant.taxonomy?.accepted_usage_key ?? null,
         localNames,
         counts,
@@ -153,7 +159,7 @@ function studyItem(entry, { correctionsUrl }) {
     : '';
   return `<li class="${study.source_status === 'retracted' ? 'retracted' : ''}" data-kind="${entry.evidence_kind}" data-areas="${entry.area_studied.join(' ')}">
 <span class="study-title">${escape(study.title)}</span><br>
-<span class="muted">${escape(authorsShort(study.authors))}${study.journal ? `. <i>${escape(study.journal)}</i>` : ''}${study.year ? ` (${study.year})` : ''}</span><br>
+<span class="muted">${escape(authorsShort(study.authors))}${study.journal ? `. <i class="cited">${escape(study.journal)}</i>` : ''}${study.year ? ` (${study.year})` : ''}</span><br>
 ${tags}<br><span class="muted">${details}</span><br>
 <a href="${escape(study.full_text_link)}" rel="noopener noreferrer">Read at source</a>${correction} <span class="mono muted">${escape(entry.entry_id)}</span>
 </li>`;
@@ -173,7 +179,7 @@ function renderPlant(taxon, { release, correctionsUrl, asOf }) {
   }).join('\n');
 
   const localNames = taxon.localNames.length
-    ? `<table><tr><th>Local name</th><th>Language</th><th>Source</th></tr>${taxon.localNames.map(name => `<tr><td>${escape(name.name)}</td><td>${escape(name.language ?? 'language not recorded')}</td><td class="muted">${escape(name.source)}${name.state ? `, ${escape(name.state)}` : ''}</td></tr>`).join('')}</table>`
+    ? `<table><tr><th>Local name</th><th>Language</th><th>Source</th></tr>${taxon.localNames.map(name => `<tr><td>${escape(name.name)}</td><td>${escape(name.language ?? 'language not recorded')}</td><td class="muted"><span class="cited">${escape(name.source)}</span>${name.state ? `, ${escape(name.state)}` : ''}</td></tr>`).join('')}</table>`
     : '<p class="muted">No cited local names yet.</p>';
 
   const areas = [...new Set(taxon.listed.flatMap(entry => entry.area_studied))].sort();
@@ -183,7 +189,7 @@ function renderPlant(taxon, { release, correctionsUrl, asOf }) {
     : '';
 
   const body = `<h1><i>${escape(taxon.accepted)}</i></h1>
-<p class="muted">Published studies${taxon.gbifKey ? ` · <a href="https://www.gbif.org/species/${escape(taxon.gbifKey)}" rel="noopener noreferrer">GBIF ${escape(taxon.gbifKey)}</a>` : ''}</p>
+${taxon.alsoKnownAs.length ? `<p>Also published as ${taxon.alsoKnownAs.map(name => `<i>${escape(name)}</i>`).join(', ')}</p>\n` : ''}<p class="muted">Published studies${taxon.gbifKey ? ` · <a href="https://www.gbif.org/species/${escape(taxon.gbifKey)}" rel="noopener noreferrer">GBIF ${escape(taxon.gbifKey)}</a>` : ''}</p>
 <div class="notice">${escape(NOTICE)}${taxon.mostlyPreclinical ? ` ${escape(PRECLINICAL_NOTICE)}` : ''}</div>
 
 <h2>Studies by type</h2>
@@ -207,7 +213,7 @@ ${taxon.listed.length ? `<ul class="studies all">${taxon.listed.map(entry => stu
 function renderIndex(model, { release, asOf }) {
   const items = model.taxa.map(taxon => {
     const verified = taxon.listed.length;
-    return `<li data-search="${escape(`${taxon.accepted} ${taxon.localNames.map(name => name.name).join(' ')}`.toLowerCase())}"><a href="plants/${taxon.slug}.html"><i>${escape(taxon.accepted)}</i></a><br><span class="muted">${verified} verified stud${verified === 1 ? 'y' : 'ies'} · ${taxon.awaiting} awaiting verification</span></li>`;
+    return `<li data-search="${escape(`${taxon.accepted} ${taxon.alsoKnownAs.join(' ')} ${taxon.localNames.map(name => name.name).join(' ')}`.toLowerCase())}"><a href="plants/${taxon.slug}.html"><i>${escape(taxon.accepted)}</i></a>${taxon.alsoKnownAs.length ? ` <span class="muted">(${taxon.alsoKnownAs.map(name => `<i>${escape(name)}</i>`).join(', ')})</span>` : ''}<br><span class="muted">${verified} verified stud${verified === 1 ? 'y' : 'ies'} · ${taxon.awaiting} awaiting verification</span></li>`;
   }).join('\n');
   const body = `<h1>Plant literature index</h1>
 <p>Published research on medicinal plants recorded in Nigerian ethnobotanical sources, organised by accepted botanical name. For each plant the index lists studies by type, with human studies first, and links to each study at its source.</p>
@@ -219,12 +225,14 @@ ${items}
   return page({ title: 'Plant Literature Index', body, release, prefix: '', asOf, script: SEARCH_SCRIPT });
 }
 
-function stripStudyTitles(html) {
-  return html.replace(/<span class="study-title">[\s\S]*?<\/span>/g, '');
+function stripCited(html) {
+  return html
+    .replace(/<span class="(?:study-title|cited)">[\s\S]*?<\/span>/g, '')
+    .replace(/<i class="cited">[\s\S]*?<\/i>/g, '');
 }
 
 function prohibitedPhrases(html) {
-  const text = stripStudyTitles(html).replace(/<[^>]+>/g, ' ');
+  const text = stripCited(html).replace(/<[^>]+>/g, ' ');
   return PROHIBITED.filter(pattern => pattern.test(text)).map(pattern => pattern.source);
 }
 

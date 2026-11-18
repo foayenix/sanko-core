@@ -37,7 +37,7 @@ const EVIDENCE_KIND_LABEL = {
 
 const SOURCE_STATUS = ['active', 'corrected', 'retracted', 'questioned', 'unknown'];
 
-const PUBLICATION_TYPE = ['peer_reviewed', 'preprint', 'thesis', 'book_chapter', 'report', 'unknown'];
+const PUBLICATION_TYPE = ['peer_reviewed', 'preprint', 'thesis', 'book_chapter', 'report', 'patent', 'unknown'];
 
 // How the botanical name printed in the study relates to the indexed taxon.
 // `pending` means the automated pass found the name only outside the title and

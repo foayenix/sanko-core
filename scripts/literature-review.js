@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 // Human verification of index entries (docs/SANKO_EVIDENCE_ATLAS_SPEC.md, 5.4 step 4).
 //
-//   node scripts/literature-review.js queue  [--taxa pilot|id,id] [--out file.csv]
+//   node scripts/literature-review.js queue  [--taxa pilot|id,id] [--out file.csv] [--include-excluded]
 //   node scripts/literature-review.js verify --file reviewed.csv --reviewer <id> [--date YYYY-MM-DD]
 //   node scripts/literature-review.js status [--taxa pilot|id,id]
 //
@@ -62,10 +62,12 @@ function priority(entry) {
   return entry.mention_location === 'title' ? 2 : 3;
 }
 
-function queueRows(data, taxonIds, names) {
+function queueRows(data, taxonIds, names, { includeExcluded = false } = {}) {
   const studies = new Map(data.studies.map(study => [study.study_id, study]));
   return store.effectiveEntries(data)
-    .filter(entry => !entry.verified && taxonIds.has(entry.taxon_id))
+    // Automated exclusions (reviews, errata, patents) can never become public, so
+    // reviewers only see them when asked to audit the automated screening.
+    .filter(entry => !entry.verified && taxonIds.has(entry.taxon_id) && (includeExcluded || entry.screening !== 'exclude'))
     .sort((a, b) => (names.get(a.taxon_id) < names.get(b.taxon_id) ? -1 : names.get(a.taxon_id) > names.get(b.taxon_id) ? 1 : 0)
       || priority(a) - priority(b)
       || (studies.get(b.study_id).year ?? 0) - (studies.get(a.study_id).year ?? 0)
@@ -183,7 +185,7 @@ function main(argv = process.argv.slice(2)) {
       for (const row of status(data, ids, names)) console.log(`${row.taxon.padEnd(34)} verified ${row.verified}/${row.total}  public ${row.included}`);
       return;
     }
-    const rows = queueRows(data, ids, names);
+    const rows = queueRows(data, ids, names, { includeExcluded: argv.includes('--include-excluded') });
     const out = flag('--out') || path.join(store.DEFAULT_DIRECTORY, 'review', `queue-${new Date().toISOString().slice(0, 10)}.csv`);
     fs.mkdirSync(path.dirname(out), { recursive: true });
     fs.writeFileSync(out, csv.stringify(HEADER, rows));

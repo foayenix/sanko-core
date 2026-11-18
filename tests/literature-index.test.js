@@ -280,6 +280,7 @@ describe('public site', () => {
   it('refuses benefit framing in Sanko wording but not in study titles', () => {
     assert.deepEqual(site.prohibitedPhrases('<p>Plant X <b>benefits</b></p>'), ['\\bbenefits?\\b']);
     assert.deepEqual(site.prohibitedPhrases('<span class="study-title">Health benefits of X</span>'), []);
+    assert.deepEqual(site.prohibitedPhrases('<td><span class="cited">Plants used for orthopaedic care</span></td><i class="cited">Benefits Journal</i>'), []);
   });
 
   it('requires a corrections route for a release build', () => {
