@@ -150,7 +150,8 @@
       "Baobab Tree, Judas Fruit"
     ],
     "botanical_names_as_published": [
-      "Adansonia digitata"
+      "Adansonia digitata",
+      "Adansonia digitata L."
     ],
     "taxonomy": {
       "source_id": "gbif-species-api",
@@ -422,7 +423,8 @@
     "id": "plant-allium-cepa-68b96f0db9",
     "accepted_botanical": "Allium cepa",
     "common_english": [
-      "Onion"
+      "Onion",
+      "Onions"
     ],
     "botanical_names_as_published": [
       "Allium cepa",
@@ -524,10 +526,12 @@
     "id": "plant-aloe-vera-d33e9eaef6",
     "accepted_botanical": "Aloe vera",
     "common_english": [
+      "Aloe vera",
       "Aloe Vera"
     ],
     "botanical_names_as_published": [
       "Aloe barbadensis",
+      "Aloe vera (L.) Burm.f., Aloe barbadensis Mill",
       "Aloe vera L."
     ],
     "taxonomy": {
@@ -535,9 +539,9 @@
       "usage_key": "2777724",
       "accepted_usage_key": "2777724",
       "match_type": "EXACT",
-      "confidence": 97,
+      "confidence": 100,
       "taxonomic_status": "ACCEPTED",
-      "checked_at": "2026-09-13"
+      "checked_at": "2026-11-18"
     },
     "verification_status": "taxonomy_checked"
   },
@@ -545,12 +549,14 @@
     "id": "plant-alstonia-boonei-a2b33bfa82",
     "accepted_botanical": "Alstonia boonei",
     "common_english": [
+      "Cheese wood",
       "Pattern Wood",
       "Stool wood, Pattern wood"
     ],
     "botanical_names_as_published": [
       "Alstonia boonei",
       "Alstonia boonei De Wild",
+      "Alstonia boonei De wild.",
       "Alstonia boonei De Wild.",
       "Alstonia boonei De Willd"
     ],
@@ -772,7 +778,9 @@
   {
     "id": "plant-annona-senegalensis-f12628a80c",
     "accepted_botanical": "Annona senegalensis",
-    "common_english": [],
+    "common_english": [
+      "Soursop"
+    ],
     "botanical_names_as_published": [
       "Annona senegalensis Pers."
     ],
@@ -809,7 +817,9 @@
   {
     "id": "plant-anthocleista-vogelii-5acdf5facc",
     "accepted_botanical": "Anthocleista vogelii",
-    "common_english": [],
+    "common_english": [
+      "Cabbage tree"
+    ],
     "botanical_names_as_published": [
       "Anthocleista vogelii Planch."
     ],
@@ -868,7 +878,8 @@
       "Groundnut, peanut"
     ],
     "botanical_names_as_published": [
-      "Arachis hypogaea"
+      "Arachis hypogaea",
+      "Arachis hypogea L."
     ],
     "taxonomy": {
       "source_id": "gbif-species-api",
@@ -1199,6 +1210,26 @@
     "verification_status": "taxonomy_checked"
   },
   {
+    "id": "plant-beta-vulgaris-740d268c58",
+    "accepted_botanical": "Beta vulgaris",
+    "common_english": [
+      "Beetroot"
+    ],
+    "botanical_names_as_published": [
+      "Beta vulgaris L."
+    ],
+    "taxonomy": {
+      "source_id": "gbif-species-api",
+      "usage_key": "8971274",
+      "accepted_usage_key": "8971274",
+      "match_type": "EXACT",
+      "confidence": 100,
+      "taxonomic_status": "ACCEPTED",
+      "checked_at": "2026-11-18"
+    },
+    "verification_status": "taxonomy_checked"
+  },
+  {
     "id": "plant-bidens-pilosa-76b95a4f8d",
     "accepted_botanical": "Bidens pilosa",
     "common_english": [],
@@ -1276,6 +1307,46 @@
     "verification_status": "taxonomy_checked"
   },
   {
+    "id": "plant-bombax-buonopozense-38172e7690",
+    "accepted_botanical": "Bombax buonopozense",
+    "common_english": [
+      "Red silk, cotton tree"
+    ],
+    "botanical_names_as_published": [
+      "Bombax buonopozense P. Beauv."
+    ],
+    "taxonomy": {
+      "source_id": "gbif-species-api",
+      "usage_key": "4073599",
+      "accepted_usage_key": "4073599",
+      "match_type": "EXACT",
+      "confidence": 100,
+      "taxonomic_status": "ACCEPTED",
+      "checked_at": "2026-11-18"
+    },
+    "verification_status": "taxonomy_checked"
+  },
+  {
+    "id": "plant-boscia-senegalensis-2dbb46e248",
+    "accepted_botanical": "Boscia senegalensis",
+    "common_english": [
+      "Arabic"
+    ],
+    "botanical_names_as_published": [
+      "Boscia senegalensis Lam."
+    ],
+    "taxonomy": {
+      "source_id": "gbif-species-api",
+      "usage_key": "5377842",
+      "accepted_usage_key": "5377842",
+      "match_type": "EXACT",
+      "confidence": 100,
+      "taxonomic_status": "ACCEPTED",
+      "checked_at": "2026-11-18"
+    },
+    "verification_status": "taxonomy_checked"
+  },
+  {
     "id": "plant-boswellia-dalzielii-5f7366605c",
     "accepted_botanical": "Boswellia dalzielii",
     "common_english": [
@@ -1298,8 +1369,11 @@
   {
     "id": "plant-brassica-nigra-166d2af052",
     "accepted_botanical": "Brassica nigra",
-    "common_english": [],
+    "common_english": [
+      "Black mustard seed"
+    ],
     "botanical_names_as_published": [
+      "Brassica nigra (L.) K.Koch",
       "Brassica nigra (L.) W.D.J. Koch"
     ],
     "taxonomy": {
@@ -1307,16 +1381,18 @@
       "usage_key": "3042658",
       "accepted_usage_key": "3042658",
       "match_type": "EXACT",
-      "confidence": 100,
+      "confidence": 98,
       "taxonomic_status": "ACCEPTED",
-      "checked_at": "2026-09-13"
+      "checked_at": "2026-11-18"
     },
     "verification_status": "taxonomy_checked"
   },
   {
     "id": "plant-brassica-oleracea-1fd4f3e33d",
     "accepted_botanical": "Brassica oleracea",
-    "common_english": [],
+    "common_english": [
+      "Cabbage"
+    ],
     "botanical_names_as_published": [
       "Brassica oleracea L."
     ],
@@ -1627,6 +1703,7 @@
     "accepted_botanical": "Capsicum annuum",
     "common_english": [
       "African pepper",
+      "Chili pepper, cayenne pepper",
       "Pepper, chili",
       "Pepper, Chili",
       "Red Pepper"
@@ -1645,6 +1722,26 @@
       "confidence": 100,
       "taxonomic_status": "ACCEPTED",
       "checked_at": "2026-09-13"
+    },
+    "verification_status": "taxonomy_checked"
+  },
+  {
+    "id": "plant-capsicum-chinense-ed18c7b524",
+    "accepted_botanical": "Capsicum chinense",
+    "common_english": [
+      "Adjuma, Ají Dulce"
+    ],
+    "botanical_names_as_published": [
+      "Capsicum chinense Jacq."
+    ],
+    "taxonomy": {
+      "source_id": "gbif-species-api",
+      "usage_key": "2932942",
+      "accepted_usage_key": "2932942",
+      "match_type": "EXACT",
+      "confidence": 100,
+      "taxonomic_status": "ACCEPTED",
+      "checked_at": "2026-11-18"
     },
     "verification_status": "taxonomy_checked"
   },
@@ -1907,6 +2004,24 @@
     "verification_status": "taxonomy_checked"
   },
   {
+    "id": "plant-chrozophora-senegalensis-5ebea10991",
+    "accepted_botanical": "Chrozophora senegalensis",
+    "common_english": [],
+    "botanical_names_as_published": [
+      "Chrozophora senegalensis (Lam.) A.Juss. ex Spreng."
+    ],
+    "taxonomy": {
+      "source_id": "gbif-species-api",
+      "usage_key": "3054431",
+      "accepted_usage_key": "3054431",
+      "match_type": "EXACT",
+      "confidence": 100,
+      "taxonomic_status": "ACCEPTED",
+      "checked_at": "2026-11-18"
+    },
+    "verification_status": "taxonomy_checked"
+  },
+  {
     "id": "plant-chrysanthellum-indicum-65a9ab87a8",
     "accepted_botanical": "Chrysanthellum indicum",
     "common_english": [
@@ -1933,16 +2048,17 @@
       "Cinnamon"
     ],
     "botanical_names_as_published": [
-      "Cinnamomum verum"
+      "Cinnamomum verum",
+      "Cinnamomum verum J.Presl"
     ],
     "taxonomy": {
       "source_id": "gbif-species-api",
       "usage_key": "3033987",
       "accepted_usage_key": "3033987",
       "match_type": "EXACT",
-      "confidence": 99,
+      "confidence": 100,
       "taxonomic_status": "ACCEPTED",
-      "checked_at": "2026-09-13"
+      "checked_at": "2026-11-18"
     },
     "verification_status": "taxonomy_checked"
   },
@@ -1989,6 +2105,7 @@
     "id": "plant-citrullus-colocynthis-7f7261a3c1",
     "accepted_botanical": "Citrullus colocynthis",
     "common_english": [
+      "Bitter lemon, bitter apple, egusi melon, wild gourd",
       "Colocynth, wild gourd."
     ],
     "botanical_names_as_published": [
@@ -2011,19 +2128,21 @@
     "id": "plant-citrullus-lanatus-93ead4239e",
     "accepted_botanical": "Citrullus lanatus",
     "common_english": [
+      "Watermelon",
       "Watermelon Seed"
     ],
     "botanical_names_as_published": [
-      "Citrullus lanatus"
+      "Citrullus lanatus",
+      "Citrullus lanatus (Thunb.) Matsum. & Nakai"
     ],
     "taxonomy": {
       "source_id": "gbif-species-api",
       "usage_key": "2874621",
       "accepted_usage_key": "2874621",
       "match_type": "EXACT",
-      "confidence": 97,
+      "confidence": 100,
       "taxonomic_status": "ACCEPTED",
-      "checked_at": "2026-09-13"
+      "checked_at": "2026-11-18"
     },
     "verification_status": "taxonomy_checked"
   },
@@ -2032,7 +2151,8 @@
     "accepted_botanical": "Citrus aurantiifolia",
     "common_english": [
       "Lime",
-      "Lime leave"
+      "Lime leave",
+      "Sour orange, sour lime"
     ],
     "botanical_names_as_published": [
       "Citrus aurantifolia (Christm.) Swingle",
@@ -2055,12 +2175,14 @@
     "id": "plant-citrus-aurantium-6b3a87e59c",
     "accepted_botanical": "Citrus aurantium",
     "common_english": [
+      "Grapefruit",
       "Orange",
       "Orange, Sweet",
       "Sweet orange"
     ],
     "botanical_names_as_published": [
       "Citrus aurantium L.",
+      "Citrus paradise Macfad.",
       "Citrus paradisi Macfad.",
       "Citrus sinensis",
       "Citrus sinensis (L.) Osbeck",
@@ -2085,6 +2207,7 @@
       "Lemon"
     ],
     "botanical_names_as_published": [
+      "Citrus limon (L.) Burm. f.",
       "Citrus limon (L.) Osbeck",
       "Citrus limon L."
     ],
@@ -2225,6 +2348,24 @@
       "confidence": 99,
       "taxonomic_status": "ACCEPTED",
       "checked_at": "2026-09-13"
+    },
+    "verification_status": "taxonomy_checked"
+  },
+  {
+    "id": "plant-cochlospermum-tinctorium-3ac4c9f071",
+    "accepted_botanical": "Cochlospermum tinctorium",
+    "common_english": [],
+    "botanical_names_as_published": [
+      "Cochlospermum tinctorium Perrier ex A.Rich."
+    ],
+    "taxonomy": {
+      "source_id": "gbif-species-api",
+      "usage_key": "8274949",
+      "accepted_usage_key": "8274949",
+      "match_type": "EXACT",
+      "confidence": 100,
+      "taxonomic_status": "ACCEPTED",
+      "checked_at": "2026-11-18"
     },
     "verification_status": "taxonomy_checked"
   },
@@ -2506,6 +2647,26 @@
     "verification_status": "taxonomy_checked"
   },
   {
+    "id": "plant-commiphora-africana-7ec6be0c1b",
+    "accepted_botanical": "Commiphora africana",
+    "common_english": [
+      "African silk tree"
+    ],
+    "botanical_names_as_published": [
+      "Commiphora africana (A.Rich.) Endl."
+    ],
+    "taxonomy": {
+      "source_id": "gbif-species-api",
+      "usage_key": "8299759",
+      "accepted_usage_key": "7286896",
+      "match_type": "EXACT",
+      "confidence": 100,
+      "taxonomic_status": "SYNONYM",
+      "checked_at": "2026-11-18"
+    },
+    "verification_status": "taxonomy_checked"
+  },
+  {
     "id": "plant-corchorus-olitorius-4000a735a7",
     "accepted_botanical": "Corchorus olitorius",
     "common_english": [
@@ -2642,6 +2803,24 @@
     "verification_status": "taxonomy_checked"
   },
   {
+    "id": "plant-crossopteryx-febrifuga-dffd28447e",
+    "accepted_botanical": "Crossopteryx febrifuga",
+    "common_english": [],
+    "botanical_names_as_published": [
+      "Crossopteryx febrifuga (Afzel. ex G. Don) Benth."
+    ],
+    "taxonomy": {
+      "source_id": "gbif-species-api",
+      "usage_key": "2898652",
+      "accepted_usage_key": "2898652",
+      "match_type": "EXACT",
+      "confidence": 100,
+      "taxonomic_status": "ACCEPTED",
+      "checked_at": "2026-11-18"
+    },
+    "verification_status": "taxonomy_checked"
+  },
+  {
     "id": "plant-crotalaria-retusa-5ff07c3e02",
     "accepted_botanical": "Crotalaria retusa",
     "common_english": [
@@ -2743,6 +2922,46 @@
     "verification_status": "taxonomy_checked"
   },
   {
+    "id": "plant-cucumis-sativus-68244329ee",
+    "accepted_botanical": "Cucumis sativus",
+    "common_english": [
+      "Cucumber"
+    ],
+    "botanical_names_as_published": [
+      "Cucumis sativus L."
+    ],
+    "taxonomy": {
+      "source_id": "gbif-species-api",
+      "usage_key": "2874569",
+      "accepted_usage_key": "2874569",
+      "match_type": "EXACT",
+      "confidence": 100,
+      "taxonomic_status": "ACCEPTED",
+      "checked_at": "2026-11-18"
+    },
+    "verification_status": "taxonomy_checked"
+  },
+  {
+    "id": "plant-cucurbita-ficifolia-21f4cb5eeb",
+    "accepted_botanical": "Cucurbita ficifolia",
+    "common_english": [
+      "Pumpkin"
+    ],
+    "botanical_names_as_published": [
+      "Cucurbita ficifolia Bouché"
+    ],
+    "taxonomy": {
+      "source_id": "gbif-species-api",
+      "usage_key": "2874512",
+      "accepted_usage_key": "2874512",
+      "match_type": "EXACT",
+      "confidence": 100,
+      "taxonomic_status": "ACCEPTED",
+      "checked_at": "2026-11-18"
+    },
+    "verification_status": "taxonomy_checked"
+  },
+  {
     "id": "plant-cucurbita-maxima-2d54b72ccb",
     "accepted_botanical": "Cucurbita maxima",
     "common_english": [
@@ -2760,6 +2979,26 @@
       "confidence": 97,
       "taxonomic_status": "ACCEPTED",
       "checked_at": "2026-09-13"
+    },
+    "verification_status": "taxonomy_checked"
+  },
+  {
+    "id": "plant-cucurbita-pepo-03bf5a579e",
+    "accepted_botanical": "Cucurbita pepo",
+    "common_english": [
+      "Pumpkin"
+    ],
+    "botanical_names_as_published": [
+      "Cucurbita pepo styriaca L."
+    ],
+    "taxonomy": {
+      "source_id": "gbif-species-api",
+      "usage_key": "2874508",
+      "accepted_usage_key": "2874508",
+      "match_type": "EXACT",
+      "confidence": 97,
+      "taxonomic_status": "ACCEPTED",
+      "checked_at": "2026-11-18"
     },
     "verification_status": "taxonomy_checked"
   },
@@ -2905,6 +3144,26 @@
     "verification_status": "taxonomy_checked"
   },
   {
+    "id": "plant-cyperus-esculentus-72c5beb83e",
+    "accepted_botanical": "Cyperus esculentus",
+    "common_english": [
+      "Tiger nut, yellow nutsedge"
+    ],
+    "botanical_names_as_published": [
+      "Cyperus esculentus L."
+    ],
+    "taxonomy": {
+      "source_id": "gbif-species-api",
+      "usage_key": "2716226",
+      "accepted_usage_key": "2716226",
+      "match_type": "EXACT",
+      "confidence": 100,
+      "taxonomic_status": "ACCEPTED",
+      "checked_at": "2026-11-18"
+    },
+    "verification_status": "taxonomy_checked"
+  },
+  {
     "id": "plant-cyperus-haspan-217666b992",
     "accepted_botanical": "Cyperus haspan",
     "common_english": [],
@@ -3043,10 +3302,12 @@
     "id": "plant-detarium-senegalense-f3fc183e6c",
     "accepted_botanical": "Detarium senegalense",
     "common_english": [
+      "Sweet datar, wild cassia",
       "Sweet detar"
     ],
     "botanical_names_as_published": [
-      "Detarium senegalensis"
+      "Detarium senegalensis",
+      "Detarium senegalensis J.F.Gmel."
     ],
     "taxonomy": {
       "source_id": "gbif-species-api",
@@ -3097,6 +3358,26 @@
       "confidence": 100,
       "taxonomic_status": "ACCEPTED",
       "checked_at": "2026-08-13"
+    },
+    "verification_status": "taxonomy_checked"
+  },
+  {
+    "id": "plant-dichrostachys-cinerea-africana-4741bef371",
+    "accepted_botanical": "Dichrostachys cinerea africana",
+    "common_english": [
+      "Cow thorn"
+    ],
+    "botanical_names_as_published": [
+      "Dichrostachys glomerata (Forsk.) Chiov."
+    ],
+    "taxonomy": {
+      "source_id": "gbif-species-api",
+      "usage_key": "2975892",
+      "accepted_usage_key": "2976300",
+      "match_type": "EXACT",
+      "confidence": 100,
+      "taxonomic_status": "SYNONYM",
+      "checked_at": "2026-11-18"
     },
     "verification_status": "taxonomy_checked"
   },
@@ -3335,7 +3616,8 @@
       "Splinter bean"
     ],
     "botanical_names_as_published": [
-      "Entada africana Guill. & Perr"
+      "Entada africana Guill. & Perr",
+      "Entada africana Guill. & Perr."
     ],
     "taxonomy": {
       "source_id": "gbif-species-api",
@@ -3828,6 +4110,26 @@
     "verification_status": "taxonomy_checked"
   },
   {
+    "id": "plant-fragaria-vesca-77eb0b1e0c",
+    "accepted_botanical": "Fragaria vesca",
+    "common_english": [
+      "Strawberry"
+    ],
+    "botanical_names_as_published": [
+      "Fragaria vesca L."
+    ],
+    "taxonomy": {
+      "source_id": "gbif-species-api",
+      "usage_key": "3029817",
+      "accepted_usage_key": "3029817",
+      "match_type": "EXACT",
+      "confidence": 100,
+      "taxonomic_status": "ACCEPTED",
+      "checked_at": "2026-11-18"
+    },
+    "verification_status": "taxonomy_checked"
+  },
+  {
     "id": "plant-funtumia-elastica-2b42d35433",
     "accepted_botanical": "Funtumia elastica",
     "common_english": [],
@@ -3916,6 +4218,7 @@
       "Garcinia kola",
       "Garcinia kola (Heckel.)",
       "Garcinia kola Heckel",
+      "Garcinia kola Heckel.",
       "Garcinia kola Linn."
     ],
     "taxonomy": {
@@ -3969,10 +4272,12 @@
     "id": "plant-glycine-max-ed20f6c59d",
     "accepted_botanical": "Glycine max",
     "common_english": [
-      "Soya bean"
+      "Soya bean",
+      "Soybeans"
     ],
     "botanical_names_as_published": [
       "Glycine max",
+      "Glycine max (L.) Merr.",
       "Glycine max L."
     ],
     "taxonomy": {
@@ -4021,6 +4326,24 @@
       "confidence": 100,
       "taxonomic_status": "ACCEPTED",
       "checked_at": "2026-09-13"
+    },
+    "verification_status": "taxonomy_checked"
+  },
+  {
+    "id": "plant-gnetum-africanum-a17170e15a",
+    "accepted_botanical": "Gnetum africanum",
+    "common_english": [],
+    "botanical_names_as_published": [
+      "Gnetum africanum Welw."
+    ],
+    "taxonomy": {
+      "source_id": "gbif-species-api",
+      "usage_key": "2653226",
+      "accepted_usage_key": "2653226",
+      "match_type": "EXACT",
+      "confidence": 100,
+      "taxonomic_status": "ACCEPTED",
+      "checked_at": "2026-11-18"
     },
     "verification_status": "taxonomy_checked"
   },
@@ -4141,11 +4464,32 @@
     "verification_status": "taxonomy_checked"
   },
   {
+    "id": "plant-guiera-senegalensis-3b2c389d07",
+    "accepted_botanical": "Guiera senegalensis",
+    "common_english": [
+      "Moshi medicine"
+    ],
+    "botanical_names_as_published": [
+      "Guiera senegalensis J.F.Gmel."
+    ],
+    "taxonomy": {
+      "source_id": "gbif-species-api",
+      "usage_key": "3699789",
+      "accepted_usage_key": "3699789",
+      "match_type": "EXACT",
+      "confidence": 100,
+      "taxonomic_status": "ACCEPTED",
+      "checked_at": "2026-11-18"
+    },
+    "verification_status": "taxonomy_checked"
+  },
+  {
     "id": "plant-gymnanthemum-amygdalinum-5dbeaea320",
     "accepted_botanical": "Gymnanthemum amygdalinum",
     "common_english": [
       "Bitter leaf",
-      "Bitter Leaf"
+      "Bitter Leaf",
+      "Vernonia amygdalina Del. (Asteraceae)"
     ],
     "botanical_names_as_published": [
       "Vernonia amygdalina",
@@ -4228,8 +4572,11 @@
   {
     "id": "plant-heinsia-crinita-32b86053f1",
     "accepted_botanical": "Heinsia crinita",
-    "common_english": [],
+    "common_english": [
+      "Bush apple"
+    ],
     "botanical_names_as_published": [
+      "Heinsia crinita (Afzel.) G.Taylor",
       "Heinsia crinita G. Tayl."
     ],
     "taxonomy": {
@@ -4239,7 +4586,7 @@
       "match_type": "EXACT",
       "confidence": 100,
       "taxonomic_status": "ACCEPTED",
-      "checked_at": "2026-09-13"
+      "checked_at": "2026-11-18"
     },
     "verification_status": "taxonomy_checked"
   },
@@ -4269,6 +4616,7 @@
     "accepted_botanical": "Heterotis rotundifolia",
     "common_english": [],
     "botanical_names_as_published": [
+      "Dissotis rotundifolia (Sm.) Triana",
       "Dissotis rotundifolia (Sm.) Triana (Synonym Heterotis rotundifolia (Sm.) Jacq.-Fél.)"
     ],
     "taxonomy": {
@@ -4348,16 +4696,17 @@
       "Roselle"
     ],
     "botanical_names_as_published": [
-      "Hibiscus sabdariffa"
+      "Hibiscus sabdariffa",
+      "Hibiscus sabdariffa L."
     ],
     "taxonomy": {
       "source_id": "gbif-species-api",
       "usage_key": "3152582",
       "accepted_usage_key": "3152582",
       "match_type": "EXACT",
-      "confidence": 97,
+      "confidence": 100,
       "taxonomic_status": "ACCEPTED",
-      "checked_at": "2026-09-13"
+      "checked_at": "2026-11-18"
     },
     "verification_status": "taxonomy_checked"
   },
@@ -4518,7 +4867,8 @@
     ],
     "botanical_names_as_published": [
       "Ipomoea batatas (L. Lam.)",
-      "Ipomoea batatas (L.) Lam."
+      "Ipomoea batatas (L.) Lam.",
+      "Ipomoea batatas (L.) Poir."
     ],
     "taxonomy": {
       "source_id": "gbif-species-api",
@@ -4594,11 +4944,13 @@
     "accepted_botanical": "Irvingia gabonensis",
     "common_english": [
       "African/Native/Bush mango",
-      "Bush Mango"
+      "Bush Mango",
+      "Wild mango"
     ],
     "botanical_names_as_published": [
       "Irvingia gabonensis",
-      "Irvingia gabonensis (Ambry-lecomte ex O' Rorke) Baill."
+      "Irvingia gabonensis (Ambry-lecomte ex O' Rorke) Baill.",
+      "Irvingia gabonensis (Aubry-Lecomte ex O'Rorke) Baill."
     ],
     "taxonomy": {
       "source_id": "gbif-species-api",
@@ -4781,10 +5133,14 @@
     "id": "plant-khaya-senegalensis-f69ad4fed5",
     "accepted_botanical": "Khaya senegalensis",
     "common_english": [
-      "African Mahogany"
+      "African mahogany",
+      "African Mahogany",
+      "Mahogany"
     ],
     "botanical_names_as_published": [
-      "Khaya senegalensis"
+      "Khaya senegalensis",
+      "Khaya senegalensis (Desr.) A. Juss.",
+      "Khaya senegalensis (Desv.) A.Juss."
     ],
     "taxonomy": {
       "source_id": "gbif-species-api",
@@ -4802,6 +5158,7 @@
     "accepted_botanical": "Kigelia africana",
     "common_english": [
       "Cucumber or Sausage tree",
+      "Sausage",
       "Sausage tree"
     ],
     "botanical_names_as_published": [
@@ -4961,11 +5318,13 @@
     "id": "plant-lawsonia-inermis-7ff9dfd7a9",
     "accepted_botanical": "Lawsonia inermis",
     "common_english": [
+      "Henna plant",
       "Henna tree",
       "Hennaplant"
     ],
     "botanical_names_as_published": [
       "Lawsonia inermis",
+      "Lawsonia inermis (L.) Keay",
       "Lawsonia inermis L.",
       "Lawsonia inermis Linn"
     ],
@@ -5019,6 +5378,26 @@
     "verification_status": "taxonomy_checked"
   },
   {
+    "id": "plant-lophira-lanceolata-548e1e955d",
+    "accepted_botanical": "Lophira lanceolata",
+    "common_english": [
+      "Iron wood"
+    ],
+    "botanical_names_as_published": [
+      "Lophira lanceolata Van Tiegh. ex Keay"
+    ],
+    "taxonomy": {
+      "source_id": "gbif-species-api",
+      "usage_key": "3695585",
+      "accepted_usage_key": "3695585",
+      "match_type": "EXACT",
+      "confidence": 100,
+      "taxonomic_status": "ACCEPTED",
+      "checked_at": "2026-11-18"
+    },
+    "verification_status": "taxonomy_checked"
+  },
+  {
     "id": "plant-loranthus-micranthus-597431a99a",
     "accepted_botanical": "Loranthus micranthus",
     "common_english": [
@@ -5051,8 +5430,11 @@
   {
     "id": "plant-luffa-aegyptiaca-4ec47a92a4",
     "accepted_botanical": "Luffa aegyptiaca",
-    "common_english": [],
+    "common_english": [
+      "Luffa"
+    ],
     "botanical_names_as_published": [
+      "Luffa aegyptiaca Mill.",
       "Luffa cylindrica (L.) M.J. Roem",
       "Luffa cylindrica (L.) M.Roem."
     ],
@@ -5279,6 +5661,26 @@
     "verification_status": "taxonomy_checked"
   },
   {
+    "id": "plant-mentha-pulegium-182675646e",
+    "accepted_botanical": "Mentha pulegium",
+    "common_english": [
+      "Mint leaf"
+    ],
+    "botanical_names_as_published": [
+      "Mentha pulegium L."
+    ],
+    "taxonomy": {
+      "source_id": "gbif-species-api",
+      "usage_key": "2927189",
+      "accepted_usage_key": "2927189",
+      "match_type": "EXACT",
+      "confidence": 100,
+      "taxonomic_status": "ACCEPTED",
+      "checked_at": "2026-11-18"
+    },
+    "verification_status": "taxonomy_checked"
+  },
+  {
     "id": "plant-merremia-pterygocaulos-6ee3a368fd",
     "accepted_botanical": "Merremia pterygocaulos",
     "common_english": [],
@@ -5478,6 +5880,7 @@
     ],
     "botanical_names_as_published": [
       "Mitracarpus hirtus (L.) DC.",
+      "Mitracarpus scaber Zucc. and ex Schult + Schult.f.",
       "Spermacoce villosus"
     ],
     "taxonomy": {
@@ -5516,7 +5919,9 @@
   {
     "id": "plant-momordica-balsamina-acee42927e",
     "accepted_botanical": "Momordica balsamina",
-    "common_english": [],
+    "common_english": [
+      "Balsam apple, African cucumber"
+    ],
     "botanical_names_as_published": [
       "Momordica balsamina L."
     ],
@@ -5536,6 +5941,7 @@
     "accepted_botanical": "Momordica charantia",
     "common_english": [
       "African cucumber, bitter gourd, balsam pear",
+      "Bitter melon",
       "Bitter Melon"
     ],
     "botanical_names_as_published": [
@@ -5603,7 +6009,8 @@
     "common_english": [
       "Drumstick Tree",
       "Horse radish tree, Moringa tree, “Never Die,” drumstick tree",
-      "Moringa"
+      "Moringa",
+      "Moringa, drumstick tree, miracle tree"
     ],
     "botanical_names_as_published": [
       "Moringa oleifera",
@@ -5617,6 +6024,26 @@
       "confidence": 100,
       "taxonomic_status": "ACCEPTED",
       "checked_at": "2026-08-13"
+    },
+    "verification_status": "taxonomy_checked"
+  },
+  {
+    "id": "plant-mucuna-flagellipes-7becefb79e",
+    "accepted_botanical": "Mucuna flagellipes",
+    "common_english": [
+      "Ukpo"
+    ],
+    "botanical_names_as_published": [
+      "Mucuna flagellipes Hook.f."
+    ],
+    "taxonomy": {
+      "source_id": "gbif-species-api",
+      "usage_key": "2951405",
+      "accepted_usage_key": "2951405",
+      "match_type": "EXACT",
+      "confidence": 100,
+      "taxonomic_status": "ACCEPTED",
+      "checked_at": "2026-11-18"
     },
     "verification_status": "taxonomy_checked"
   },
@@ -5658,6 +6085,26 @@
       "confidence": 99,
       "taxonomic_status": "ACCEPTED",
       "checked_at": "2026-09-13"
+    },
+    "verification_status": "taxonomy_checked"
+  },
+  {
+    "id": "plant-murraya-koenigii-9f885e4e9f",
+    "accepted_botanical": "Murraya koenigii",
+    "common_english": [
+      "Curry leaf"
+    ],
+    "botanical_names_as_published": [
+      "Murraya koenigii (L.) Spreng."
+    ],
+    "taxonomy": {
+      "source_id": "gbif-species-api",
+      "usage_key": "5421333",
+      "accepted_usage_key": "5421333",
+      "match_type": "EXACT",
+      "confidence": 100,
+      "taxonomic_status": "ACCEPTED",
+      "checked_at": "2026-11-18"
     },
     "verification_status": "taxonomy_checked"
   },
@@ -5724,9 +6171,12 @@
   {
     "id": "plant-myristica-fragrans-5fa608361f",
     "accepted_botanical": "Myristica fragrans",
-    "common_english": [],
+    "common_english": [
+      "Nutmeg"
+    ],
     "botanical_names_as_published": [
-      "Myristica fragrans Houtt"
+      "Myristica fragrans Houtt",
+      "Myristica fragrans Houtt."
     ],
     "taxonomy": {
       "source_id": "gbif-species-api",
@@ -5735,7 +6185,7 @@
       "match_type": "EXACT",
       "confidence": 100,
       "taxonomic_status": "ACCEPTED",
-      "checked_at": "2026-09-13"
+      "checked_at": "2026-11-18"
     },
     "verification_status": "taxonomy_checked"
   },
@@ -5770,6 +6220,7 @@
       "Nauclea latifolia Sm",
       "Nauclea latifolia Sm. (Synonym: Sarcocephalus latifolius (Sm.) E.A.Bruce)",
       "Sarcocephalus latifolius (Sm.) E.A.Bruce",
+      "Sarcocephalus latifolius (Sm.)Bruce",
       "Sarcocephalus latifolius (Sm) E.A. Bruce",
       "Sarcocephalus latifolius (Smith) Bruce"
     ],
@@ -5891,6 +6342,7 @@
     "id": "plant-ocimum-basilicum-aea107c25b",
     "accepted_botanical": "Ocimum basilicum",
     "common_english": [
+      "Basil",
       "Sweet Basil"
     ],
     "botanical_names_as_published": [
@@ -5913,9 +6365,11 @@
     "accepted_botanical": "Ocimum gratissimum",
     "common_english": [
       "African Basil",
+      "Basil fever plant",
       "Basil, Curry leaf",
       "Scent basil",
       "Scent leaf",
+      "Scent leaf, fever plant, fever bush",
       "Scent leaf, mint"
     ],
     "botanical_names_as_published": [
@@ -6110,13 +6564,15 @@
     "id": "plant-parkia-biglobosa-776ff1d28f",
     "accepted_botanical": "Parkia biglobosa",
     "common_english": [
+      "African locust bean",
       "African Locust Bean",
       "African Locust Bean (fermented)",
       "African locust bean; Monkey cutlass tree"
     ],
     "botanical_names_as_published": [
       "Parkia biglobosa",
-      "Parkia biglobosa (Jacq.) G.Don"
+      "Parkia biglobosa (Jacq.) G.Don",
+      "Parkia biglobosa Aubrevielle"
     ],
     "taxonomy": {
       "source_id": "gbif-species-api",
@@ -6455,12 +6911,14 @@
     "accepted_botanical": "Piliostigma thonningii",
     "common_english": [
       "camel's foot, monkey bread, Rhodesian bauhinia",
+      "Thonning's pilostigma",
       "Wild bauhinia"
     ],
     "botanical_names_as_published": [
       "Piliostigma thonningii",
       "Piliostigma thonningii (Schum.) Milne-Redh",
-      "Piliostigma thonningii (Schum.) Milne-Redh. (Synonym: Bauhinia thonningii Schum.)"
+      "Piliostigma thonningii (Schum.) Milne-Redh. (Synonym: Bauhinia thonningii Schum.)",
+      "Piliostigma thonningii (Schum.) Milne-Redhead"
     ],
     "taxonomy": {
       "source_id": "gbif-species-api",
@@ -6515,7 +6973,8 @@
     "common_english": [
       "African black pepper",
       "Ashanti Pepper",
-      "Climbing black pepper"
+      "Climbing black pepper",
+      "Uziza seeds, Ashanti pepper, Benin pepper"
     ],
     "botanical_names_as_published": [
       "Piper guineense",
@@ -6539,19 +6998,21 @@
     "id": "plant-piper-nigrum-7cc1d5929a",
     "accepted_botanical": "Piper nigrum",
     "common_english": [
+      "Black pepper",
       "Black Pepper"
     ],
     "botanical_names_as_published": [
-      "Piper nigrum"
+      "Piper nigrum",
+      "Piper nigrum L."
     ],
     "taxonomy": {
       "source_id": "gbif-species-api",
       "usage_key": "3086357",
       "accepted_usage_key": "3086357",
       "match_type": "EXACT",
-      "confidence": 97,
+      "confidence": 100,
       "taxonomic_status": "ACCEPTED",
-      "checked_at": "2026-09-13"
+      "checked_at": "2026-11-18"
     },
     "verification_status": "taxonomy_checked"
   },
@@ -6675,11 +7136,14 @@
     "accepted_botanical": "Prosopis africana",
     "common_english": [
       "African mesquite",
+      "False locust",
+      "Guava",
       "Iron wood; Axlewood"
     ],
     "botanical_names_as_published": [
       "Prosopis Africana",
-      "Prosopis africana (Guill. & Perr.) Taub"
+      "Prosopis africana (Guill. & Perr.) Taub",
+      "Prosopis africana (Guill. & Perr.) Taub."
     ],
     "taxonomy": {
       "source_id": "gbif-species-api",
@@ -6716,7 +7180,8 @@
     "id": "plant-psidium-guajava-ef93129072",
     "accepted_botanical": "Psidium guajava",
     "common_english": [
-      "Guava"
+      "Guava",
+      "Guava leaves"
     ],
     "botanical_names_as_published": [
       "Psidium guajava",
@@ -6751,6 +7216,26 @@
       "confidence": 100,
       "taxonomic_status": "ACCEPTED",
       "checked_at": "2026-09-13"
+    },
+    "verification_status": "taxonomy_checked"
+  },
+  {
+    "id": "plant-pterocarpus-mildbraedii-27f79d5ddd",
+    "accepted_botanical": "Pterocarpus mildbraedii",
+    "common_english": [
+      "Ora, Oha"
+    ],
+    "botanical_names_as_published": [
+      "Pterocarpus mildbraedii Harms"
+    ],
+    "taxonomy": {
+      "source_id": "gbif-species-api",
+      "usage_key": "5349257",
+      "accepted_usage_key": "5349257",
+      "match_type": "EXACT",
+      "confidence": 100,
+      "taxonomic_status": "ACCEPTED",
+      "checked_at": "2026-11-18"
     },
     "verification_status": "taxonomy_checked"
   },
@@ -6835,9 +7320,12 @@
   {
     "id": "plant-ricinus-communis-deda1fad54",
     "accepted_botanical": "Ricinus communis",
-    "common_english": [],
+    "common_english": [
+      "Castor oil tree"
+    ],
     "botanical_names_as_published": [
-      "Ricinus communis L."
+      "Ricinus communis L.",
+      "Ricinus communis Linn."
     ],
     "taxonomy": {
       "source_id": "gbif-species-api",
@@ -6984,6 +7472,7 @@
     "accepted_botanical": "Schwenckia americana",
     "common_english": [],
     "botanical_names_as_published": [
+      "Schwenckia americana Linn.",
       "Schwenkia americana"
     ],
     "taxonomy": {
@@ -7055,9 +7544,11 @@
     "id": "plant-senna-alata-6d79b20446",
     "accepted_botanical": "Senna alata",
     "common_english": [
-      "Ringworm Bush"
+      "Ringworm Bush",
+      "Ringworm plant, craw- craw plant"
     ],
     "botanical_names_as_published": [
+      "Senna (Cassia) alata (L.) Roxb.",
       "Senna alata",
       "Senna alata L."
     ],
@@ -7066,9 +7557,9 @@
       "usage_key": "2956947",
       "accepted_usage_key": "2956947",
       "match_type": "EXACT",
-      "confidence": 99,
+      "confidence": 100,
       "taxonomic_status": "ACCEPTED",
-      "checked_at": "2026-09-13"
+      "checked_at": "2026-11-18"
     },
     "verification_status": "taxonomy_checked"
   },
@@ -7112,10 +7603,12 @@
     "id": "plant-senna-occidentalis-9d5c9f2d10",
     "accepted_botanical": "Senna occidentalis",
     "common_english": [
+      "Coffee senna",
       "Coffee Senna",
       "Coffee senna or septic weed"
     ],
     "botanical_names_as_published": [
+      "Cassia occidentalis Linn.",
       "Senna occidentalis",
       "Senna occidentalis (L.) Link"
     ],
@@ -7223,6 +7716,26 @@
       "confidence": 100,
       "taxonomic_status": "ACCEPTED",
       "checked_at": "2026-08-13"
+    },
+    "verification_status": "taxonomy_checked"
+  },
+  {
+    "id": "plant-sesamum-sesamoides-e1b3fc287f",
+    "accepted_botanical": "Sesamum sesamoides",
+    "common_english": [
+      "False sesame"
+    ],
+    "botanical_names_as_published": [
+      "Ceratotheca sesamoides Endl."
+    ],
+    "taxonomy": {
+      "source_id": "gbif-species-api",
+      "usage_key": "5415089",
+      "accepted_usage_key": "9681047",
+      "match_type": "EXACT",
+      "confidence": 100,
+      "taxonomic_status": "SYNONYM",
+      "checked_at": "2026-11-18"
     },
     "verification_status": "taxonomy_checked"
   },
@@ -7572,6 +8085,26 @@
     "verification_status": "taxonomy_checked"
   },
   {
+    "id": "plant-spinacia-oleracea-451e093c2b",
+    "accepted_botanical": "Spinacia oleracea",
+    "common_english": [
+      "Spinach"
+    ],
+    "botanical_names_as_published": [
+      "Spinacia oleracea L."
+    ],
+    "taxonomy": {
+      "source_id": "gbif-species-api",
+      "usage_key": "3083647",
+      "accepted_usage_key": "3083647",
+      "match_type": "EXACT",
+      "confidence": 100,
+      "taxonomic_status": "ACCEPTED",
+      "checked_at": "2026-11-18"
+    },
+    "verification_status": "taxonomy_checked"
+  },
+  {
     "id": "plant-spondias-mombin-e4158596a0",
     "accepted_botanical": "Spondias mombin",
     "common_english": [
@@ -7889,16 +8422,17 @@
       "Tamarind"
     ],
     "botanical_names_as_published": [
-      "Tamarindus indica"
+      "Tamarindus indica",
+      "Tamarindus indica L."
     ],
     "taxonomy": {
       "source_id": "gbif-species-api",
       "usage_key": "2975768",
       "accepted_usage_key": "2975768",
       "match_type": "EXACT",
-      "confidence": 99,
+      "confidence": 100,
       "taxonomic_status": "ACCEPTED",
-      "checked_at": "2026-09-13"
+      "checked_at": "2026-11-18"
     },
     "verification_status": "taxonomy_checked"
   },
@@ -7943,6 +8477,26 @@
       "confidence": 99,
       "taxonomic_status": "ACCEPTED",
       "checked_at": "2026-09-13"
+    },
+    "verification_status": "taxonomy_checked"
+  },
+  {
+    "id": "plant-tephrosia-vogelii-052b63a8d8",
+    "accepted_botanical": "Tephrosia vogelii",
+    "common_english": [
+      "Fish-poison bean, Vogel's tephrosia"
+    ],
+    "botanical_names_as_published": [
+      "Tephrosia vogelii Hook.f."
+    ],
+    "taxonomy": {
+      "source_id": "gbif-species-api",
+      "usage_key": "5342354",
+      "accepted_usage_key": "5342354",
+      "match_type": "EXACT",
+      "confidence": 100,
+      "taxonomic_status": "ACCEPTED",
+      "checked_at": "2026-11-18"
     },
     "verification_status": "taxonomy_checked"
   },
@@ -8011,7 +8565,8 @@
     "accepted_botanical": "Terminalia macroptera",
     "common_english": [],
     "botanical_names_as_published": [
-      "Terminalia macroptera"
+      "Terminalia macroptera",
+      "Terminalia macroptera Guill. & Perr."
     ],
     "taxonomy": {
       "source_id": "gbif-species-api",
@@ -8122,6 +8677,7 @@
     "id": "plant-tetrapleura-tetraptera-fe165781bd",
     "accepted_botanical": "Tetrapleura tetraptera",
     "common_english": [
+      "Aiden pod",
       "Aridan",
       "Soup perfume"
     ],
@@ -8129,7 +8685,8 @@
       "Tetrapleura tetraptera",
       "Tetrapleura tetraptera (Schum. & Thonn.) Taub",
       "Tetrapleura tetraptera (Schum. & Thonn.) Taub.",
-      "Tetrapleura tetraptera (Schum. et. Thonn) Taub"
+      "Tetrapleura tetraptera (Schum. et. Thonn) Taub",
+      "Tetrapleura tetraptera (Schumach. & Thonn.) Taub."
     ],
     "taxonomy": {
       "source_id": "gbif-species-api",
@@ -8476,11 +9033,14 @@
     "id": "plant-vachellia-nilotica-f76029b6d9",
     "accepted_botanical": "Vachellia nilotica",
     "common_english": [
-      "Gum Arabic tree"
+      "Gum arabic",
+      "Gum Arabic tree",
+      "Gum arabic tree; Scorpion mimosa"
     ],
     "botanical_names_as_published": [
       "Acacia nilotica (Guill. Et. Perr.) O. Ketze",
-      "Acacia nilotica (L.) Delile"
+      "Acacia nilotica (L.) Delile",
+      "Acacia nilotica (L.) Willd ex Del."
     ],
     "taxonomy": {
       "source_id": "gbif-species-api",
@@ -8550,6 +9110,26 @@
     "verification_status": "taxonomy_checked"
   },
   {
+    "id": "plant-vigna-subterranea-614c8cd19b",
+    "accepted_botanical": "Vigna subterranea",
+    "common_english": [
+      "Bambara groundnut"
+    ],
+    "botanical_names_as_published": [
+      "Vigna subterranea (L.) Verdc."
+    ],
+    "taxonomy": {
+      "source_id": "gbif-species-api",
+      "usage_key": "2982714",
+      "accepted_usage_key": "2982714",
+      "match_type": "EXACT",
+      "confidence": 100,
+      "taxonomic_status": "ACCEPTED",
+      "checked_at": "2026-11-18"
+    },
+    "verification_status": "taxonomy_checked"
+  },
+  {
     "id": "plant-viola-tricolor-d7904d7840",
     "accepted_botanical": "Viola tricolor",
     "common_english": [],
@@ -8571,11 +9151,13 @@
     "id": "plant-vitellaria-paradoxa-de73616dac",
     "accepted_botanical": "Vitellaria paradoxa",
     "common_english": [
+      "Shea butter tree",
       "Shea Butter Tree",
       "Shea tree",
       "Sheabutter tree"
     ],
     "botanical_names_as_published": [
+      "Butyrospermum paradoxum (Gaertn.f.) Hepper",
       "Vitellaria paradoxa",
       "Vitellaria paradoxa C.F. Gaertn",
       "Vitellaria paradoxa C.F.Gaertn.",
@@ -8596,7 +9178,8 @@
     "id": "plant-vitex-doniana-a62b4d1dc8",
     "accepted_botanical": "Vitex doniana",
     "common_english": [
-      "black plum"
+      "black plum",
+      "Black plum"
     ],
     "botanical_names_as_published": [
       "Vitex doniana",
@@ -8699,12 +9282,14 @@
     "id": "plant-zanthoxylum-zanthoxyloides-35bfd45a11",
     "accepted_botanical": "Zanthoxylum zanthoxyloides",
     "common_english": [
+      "African satinwood",
       "Senegal Prickly Ash",
       "Senegal prickly-ash"
     ],
     "botanical_names_as_published": [
       "Zanthoxylum zanthoxyloides",
-      "Zanthoxylum zanthoxyloides (Lam.) Zepern. & Timler"
+      "Zanthoxylum zanthoxyloides (Lam.) Zepern. & Timler",
+      "Zanthoxylum zanthoxyloides Zepernick & Timler."
     ],
     "taxonomy": {
       "source_id": "gbif-species-api",
@@ -8764,6 +9349,7 @@
       "Zingiber officinale (Roscoe.)",
       "Zingiber officinale (Rose)",
       "Zingiber officinale Rosc.",
+      "Zingiber officinale roscoe",
       "Zingiber officinale Roscoe"
     ],
     "taxonomy": {
@@ -8774,6 +9360,46 @@
       "confidence": 99,
       "taxonomic_status": "ACCEPTED",
       "checked_at": "2026-09-13"
+    },
+    "verification_status": "taxonomy_checked"
+  },
+  {
+    "id": "plant-ziziphus-abyssinica-6f090c5897",
+    "accepted_botanical": "Ziziphus abyssinica",
+    "common_english": [
+      "Catch thorn"
+    ],
+    "botanical_names_as_published": [
+      "Ziziphus abyssinica Hochst. ex A. Rich."
+    ],
+    "taxonomy": {
+      "source_id": "gbif-species-api",
+      "usage_key": "3877223",
+      "accepted_usage_key": "3877223",
+      "match_type": "EXACT",
+      "confidence": 100,
+      "taxonomic_status": "ACCEPTED",
+      "checked_at": "2026-11-18"
+    },
+    "verification_status": "taxonomy_checked"
+  },
+  {
+    "id": "plant-ziziphus-jujuba-f3488140f0",
+    "accepted_botanical": "Ziziphus jujuba",
+    "common_english": [
+      "Jujube fruit"
+    ],
+    "botanical_names_as_published": [
+      "Ziziphus jujube Mill."
+    ],
+    "taxonomy": {
+      "source_id": "gbif-species-api",
+      "usage_key": "3039423",
+      "accepted_usage_key": "3039423",
+      "match_type": "EXACT",
+      "confidence": 97,
+      "taxonomic_status": "ACCEPTED",
+      "checked_at": "2026-11-18"
     },
     "verification_status": "taxonomy_checked"
   }

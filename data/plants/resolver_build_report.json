@@ -1,22 +1,24 @@
 {
   "built_at": "2026-11-18",
-  "pages_written": 1330,
-  "vernacular_rows_considered": 1202,
-  "vernacular_rows_published": 1044,
-  "unique_names_published": 890,
-  "taxa_published": 420,
-  "contested_names_published": 43,
+  "pages_written": 1513,
+  "vernacular_rows_considered": 1382,
+  "vernacular_rows_published": 1223,
+  "unique_names_published": 1042,
+  "taxa_published": 447,
+  "contested_names_published": 45,
   "languages_published": {
-    "yo": 510,
+    "yo": 521,
     "und": 102,
     "ijn": 37,
-    "ha": 141,
+    "ha": 231,
     "ekp": 30,
-    "ig": 74,
+    "ig": 87,
     "ikw": 83,
     "ijc": 43,
-    "ff": 18,
-    "nup": 6
+    "efi": 1,
+    "ff": 45,
+    "nup": 40,
+    "tiv": 3
   },
   "sources_published": [
     "weli-2013-port-harcourt",
@@ -25,12 +27,14 @@
     "sonibare-2008-anti-asthmatic",
     "offiah-2011-plateau",
     "ajibesin-2012-rivers",
+    "anyanwu-2025-north-central",
     "lawal-2020-ede-south",
-    "olatokunbo-2022-bayelsa"
+    "olatokunbo-2022-bayelsa",
+    "alhaji-2015-niger-fulani"
   ],
   "rows_withheld": {
     "source legacy_unverified": 152,
-    "taxonomy_unresolved": 6
+    "taxonomy_unresolved": 7
   },
   "sources_withheld": [
     {

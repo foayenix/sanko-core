@@ -699,12 +699,79 @@
     ]
   },
   {
+    "normalized_name": "barkono",
+    "contest_upheld": false,
+    "source_spellings": [
+      "Barkono"
+    ],
+    "candidates": [
+      {
+        "botanical_as_published": "Piper nigrum L.",
+        "accepted_botanical": "Piper nigrum",
+        "language": "ha",
+        "region": {
+          "country": "Nigeria",
+          "state": null,
+          "localities": [
+            "Benue State",
+            "Federal Capital Territory",
+            "Kogi State",
+            "Kwara State",
+            "Nasarawa State",
+            "Niger State",
+            "Plateau State"
+          ]
+        },
+        "source_id": "anyanwu-2025-north-central",
+        "source_locator": {
+          "table": "Table 2",
+          "row": 59
+        },
+        "verification_status": "taxonomy_checked"
+      },
+      {
+        "botanical_as_published": "Capsicum annuum L.",
+        "accepted_botanical": "Capsicum annuum",
+        "language": "ha",
+        "region": {
+          "country": "Nigeria",
+          "state": "Rivers",
+          "localities": [
+            "Port Harcourt"
+          ]
+        },
+        "source_id": "weli-2013-port-harcourt",
+        "source_locator": {
+          "table": "Table 1",
+          "row": 60
+        },
+        "verification_status": "taxonomy_checked"
+      }
+    ]
+  },
+  {
     "normalized_name": "baushe",
     "contest_upheld": false,
     "source_spellings": [
       "Baushe"
     ],
     "candidates": [
+      {
+        "botanical_as_published": "Terminalia macroptera Guill. & Perr.",
+        "accepted_botanical": "Terminalia macroptera",
+        "language": "ha",
+        "region": {
+          "country": "Nigeria",
+          "state": "Niger",
+          "localities": []
+        },
+        "source_id": "alhaji-2015-niger-fulani",
+        "source_locator": {
+          "table": "Table 2",
+          "row": 29
+        },
+        "verification_status": "taxonomy_checked"
+      },
       {
         "botanical_as_published": "Combretum glutinosum",
         "accepted_botanical": "Combretum glutinosum",
@@ -891,6 +958,69 @@
         "source_locator": {
           "table": "Table 1",
           "row": 10
+        },
+        "verification_status": "taxonomy_checked"
+      }
+    ]
+  },
+  {
+    "normalized_name": "efirin",
+    "contest_upheld": false,
+    "source_spellings": [
+      "efirin",
+      "Efirin"
+    ],
+    "candidates": [
+      {
+        "botanical_as_published": "Ocimum gratissimum",
+        "accepted_botanical": "Ocimum gratissimum",
+        "language": null,
+        "region": {
+          "country": "Nigeria",
+          "state": null,
+          "localities": []
+        },
+        "source_id": "legacy-lookup-v1",
+        "source_locator": null,
+        "verification_status": "legacy_unverified"
+      },
+      {
+        "botanical_as_published": "Ocimum basilicum L.",
+        "accepted_botanical": "Ocimum basilicum",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": null,
+          "localities": [
+            "Benue State",
+            "Federal Capital Territory",
+            "Kogi State",
+            "Kwara State",
+            "Nasarawa State",
+            "Niger State",
+            "Plateau State"
+          ]
+        },
+        "source_id": "anyanwu-2025-north-central",
+        "source_locator": {
+          "table": "Table 2",
+          "row": 55
+        },
+        "verification_status": "taxonomy_checked"
+      },
+      {
+        "botanical_as_published": "Ocimum gratissimum Linn",
+        "accepted_botanical": "Ocimum gratissimum",
+        "language": null,
+        "region": {
+          "country": "Nigeria",
+          "state": "Kwara",
+          "localities": []
+        },
+        "source_id": "evbuomwan-2023-kwara",
+        "source_locator": {
+          "table": "Table 1",
+          "row": 34
         },
         "verification_status": "taxonomy_checked"
       }
@@ -1746,6 +1876,22 @@
       "Kalgo"
     ],
     "candidates": [
+      {
+        "botanical_as_published": "Piliostigma thonningii (Schum.) Milne-Redhead",
+        "accepted_botanical": "Piliostigma thonningii",
+        "language": "ha",
+        "region": {
+          "country": "Nigeria",
+          "state": "Niger",
+          "localities": []
+        },
+        "source_id": "alhaji-2015-niger-fulani",
+        "source_locator": {
+          "table": "Table 2",
+          "row": 20
+        },
+        "verification_status": "taxonomy_checked"
+      },
       {
         "botanical_as_published": "Piliostigma reticulatum",
         "accepted_botanical": "Piliostigma reticulatum",
@@ -2696,6 +2842,30 @@
     ],
     "candidates": [
       {
+        "botanical_as_published": "Anthocleista vogelii Planch.",
+        "accepted_botanical": "Anthocleista vogelii",
+        "language": "yo",
+        "region": {
+          "country": "Nigeria",
+          "state": null,
+          "localities": [
+            "Benue State",
+            "Federal Capital Territory",
+            "Kogi State",
+            "Kwara State",
+            "Nasarawa State",
+            "Niger State",
+            "Plateau State"
+          ]
+        },
+        "source_id": "anyanwu-2025-north-central",
+        "source_locator": {
+          "table": "Table 2",
+          "row": 8
+        },
+        "verification_status": "taxonomy_checked"
+      },
+      {
         "botanical_as_published": "Anthocleista djalonensis A.Chev.",
         "accepted_botanical": "Anthocleista djalonensis",
         "language": "yo",
@@ -2993,6 +3163,30 @@
           "row": 22
         },
         "verification_status": "taxonomy_checked"
+      },
+      {
+        "botanical_as_published": "Gongronema latifolium Benth.",
+        "accepted_botanical": "Gongronemopsis latifolia",
+        "language": "ig",
+        "region": {
+          "country": "Nigeria",
+          "state": null,
+          "localities": [
+            "Benue State",
+            "Federal Capital Territory",
+            "Kogi State",
+            "Kwara State",
+            "Nasarawa State",
+            "Niger State",
+            "Plateau State"
+          ]
+        },
+        "source_id": "anyanwu-2025-north-central",
+        "source_locator": {
+          "table": "Table 2",
+          "row": 36
+        },
+        "verification_status": "taxonomy_checked"
       }
     ]
   },
@@ -3050,6 +3244,30 @@
         "source_locator": {
           "table": "Table 1",
           "row": 139
+        },
+        "verification_status": "taxonomy_checked"
+      },
+      {
+        "botanical_as_published": "Piper guineense Schumach. & Thonn.",
+        "accepted_botanical": "Piper guineense",
+        "language": "ig",
+        "region": {
+          "country": "Nigeria",
+          "state": null,
+          "localities": [
+            "Benue State",
+            "Federal Capital Territory",
+            "Kogi State",
+            "Kwara State",
+            "Nasarawa State",
+            "Niger State",
+            "Plateau State"
+          ]
+        },
+        "source_id": "anyanwu-2025-north-central",
+        "source_locator": {
+          "table": "Table 2",
+          "row": 58
         },
         "verification_status": "taxonomy_checked"
       },

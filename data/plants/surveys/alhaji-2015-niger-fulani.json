@@ -1,0 +1,885 @@
+[
+  {
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_row": 1,
+    "botanical_as_published": "Acacia nilotica (L.) Willd ex Del.",
+    "family_as_published": "Fabaceae",
+    "common_english_as_published": "Gum arabic",
+    "vernacular_as_published": "Bagaruwa (H) Gabdi (F) , Gabaruwa (N)",
+    "vernacular_names": [
+      {
+        "local_name": "Bagaruwa",
+        "language": "ha"
+      },
+      {
+        "local_name": "Gabdi",
+        "language": "ff"
+      },
+      {
+        "local_name": "Gabaruwa",
+        "language": "nup"
+      }
+    ],
+    "parts_reported": [],
+    "preparation_as_published": "Pound fresh bark, soak in water, and add red potash. Drench or wash affected areas",
+    "voucher_specimen": null,
+    "use_context": "plant reported in ethnoveterinary use on cattle by Fulani pastoralists in Niger State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_row": 2,
+    "botanical_as_published": "Allium sativum L.",
+    "family_as_published": "Liliaceae",
+    "common_english_as_published": "Garlic",
+    "vernacular_as_published": "Tafarnuwa (H) Albasa badejo (F) Tafarnuwa (N)",
+    "vernacular_names": [
+      {
+        "local_name": "Tafarnuwa",
+        "language": "ha"
+      },
+      {
+        "local_name": "Albasa badejo",
+        "language": "ff"
+      },
+      {
+        "local_name": "Tafarnuwa",
+        "language": "nup"
+      }
+    ],
+    "parts_reported": [],
+    "preparation_as_published": "Mix crushed rhizomes with maize bran and feed as ration",
+    "voucher_specimen": null,
+    "use_context": "plant reported in ethnoveterinary use on cattle by Fulani pastoralists in Niger State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_row": 3,
+    "botanical_as_published": "Annona senegalensis Pers.",
+    "family_as_published": "Annonaceae",
+    "common_english_as_published": "Soursop",
+    "vernacular_as_published": "Gwandar daji (H) Dukkuhi (F) Nungberechi (N)",
+    "vernacular_names": [
+      {
+        "local_name": "Gwandar daji",
+        "language": "ha"
+      },
+      {
+        "local_name": "Dukkuhi",
+        "language": "ff"
+      },
+      {
+        "local_name": "Nungberechi",
+        "language": "nup"
+      }
+    ],
+    "parts_reported": [],
+    "preparation_as_published": "Boil crushed fresh leaves. Wash the wound with warm decoction",
+    "voucher_specimen": null,
+    "use_context": "plant reported in ethnoveterinary use on cattle by Fulani pastoralists in Niger State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_row": 4,
+    "botanical_as_published": "Arachis hypogea L.",
+    "family_as_published": "Papilionaceae",
+    "common_english_as_published": "Groundnut",
+    "vernacular_as_published": "Gyada (H) , Biriji (F) , Guzhia (N)",
+    "vernacular_names": [
+      {
+        "local_name": "Gyada",
+        "language": "ha"
+      },
+      {
+        "local_name": "Biriji",
+        "language": "ff"
+      },
+      {
+        "local_name": "Guzhia",
+        "language": "nup"
+      }
+    ],
+    "parts_reported": [],
+    "preparation_as_published": "Oil extract from seeds. Drench",
+    "voucher_specimen": null,
+    "use_context": "plant reported in ethnoveterinary use on cattle by Fulani pastoralists in Niger State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_row": 5,
+    "botanical_as_published": "Azadirachta indica A. Juss.",
+    "family_as_published": "Meliaceae",
+    "common_english_as_published": "Neem tree",
+    "vernacular_as_published": "Dogonyaro (H) Debchi (F) , Nimu (N)",
+    "vernacular_names": [
+      {
+        "local_name": "Dogonyaro",
+        "language": "ha"
+      },
+      {
+        "local_name": "Debchi",
+        "language": "ff"
+      },
+      {
+        "local_name": "Nimu",
+        "language": "nup"
+      }
+    ],
+    "parts_reported": [],
+    "preparation_as_published": "Boil fresh leaves, drench, bath, or wash appropriately",
+    "voucher_specimen": null,
+    "use_context": "plant reported in ethnoveterinary use on cattle by Fulani pastoralists in Niger State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_row": 6,
+    "botanical_as_published": "Bombax buonopozense P. Beauv.",
+    "family_as_published": "Bombacaceae",
+    "common_english_as_published": "Red silk, cotton tree",
+    "vernacular_as_published": "Gurjiya (H) Bududi (F) Kutukpachi (N)",
+    "vernacular_names": [
+      {
+        "local_name": "Gurjiya",
+        "language": "ha"
+      },
+      {
+        "local_name": "Bududi",
+        "language": "ff"
+      },
+      {
+        "local_name": "Kutukpachi",
+        "language": "nup"
+      }
+    ],
+    "parts_reported": [],
+    "preparation_as_published": "Soak ground dried barks in warm water and drench",
+    "voucher_specimen": null,
+    "use_context": "plant reported in ethnoveterinary use on cattle by Fulani pastoralists in Niger State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_row": 7,
+    "botanical_as_published": "Butyrospermum paradoxum (Gaertn.f.) Hepper",
+    "family_as_published": "Sapotaceae",
+    "common_english_as_published": "Shea butter tree",
+    "vernacular_as_published": "Kadanya (H) Kochi (N) Karaji (F)",
+    "vernacular_names": [
+      {
+        "local_name": "Kadanya",
+        "language": "ha"
+      },
+      {
+        "local_name": "Kochi",
+        "language": "nup"
+      },
+      {
+        "local_name": "Karaji",
+        "language": "ff"
+      }
+    ],
+    "parts_reported": [],
+    "preparation_as_published": "Crush seeds, extract oil, and apply topically",
+    "voucher_specimen": null,
+    "use_context": "plant reported in ethnoveterinary use on cattle by Fulani pastoralists in Niger State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_row": 8,
+    "botanical_as_published": "Cassia occidentalis Linn.",
+    "family_as_published": "Caesalpiniaceae",
+    "common_english_as_published": "Coffee senna",
+    "vernacular_as_published": "Tafasar masar (H) Tapasa (F) , Gaya (N)",
+    "vernacular_names": [
+      {
+        "local_name": "Tafasar masar",
+        "language": "ha"
+      },
+      {
+        "local_name": "Tapasa",
+        "language": "ff"
+      },
+      {
+        "local_name": "Gaya",
+        "language": "nup"
+      }
+    ],
+    "parts_reported": [],
+    "preparation_as_published": "Boil fresh leaves, add salt, and drench the concoction",
+    "voucher_specimen": null,
+    "use_context": "plant reported in ethnoveterinary use on cattle by Fulani pastoralists in Niger State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_row": 9,
+    "botanical_as_published": "Citrus aurantifolia (Christm.) Swingle",
+    "family_as_published": "Rutaceae",
+    "common_english_as_published": "Sour orange, sour lime",
+    "vernacular_as_published": "Lemun tsami (H) Lammude (F) Lemu bakagi (N)",
+    "vernacular_names": [
+      {
+        "local_name": "Lemun tsami",
+        "language": "ha"
+      },
+      {
+        "local_name": "Lammude",
+        "language": "ff"
+      },
+      {
+        "local_name": "Lemu bakagi",
+        "language": "nup"
+      }
+    ],
+    "parts_reported": [],
+    "preparation_as_published": "Add red potash and the juice to water. Mix and drench with the concoction",
+    "voucher_specimen": null,
+    "use_context": "plant reported in ethnoveterinary use on cattle by Fulani pastoralists in Niger State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_row": 10,
+    "botanical_as_published": "Crossopteryx febrifuga (Afzel. ex G. Don) Benth.",
+    "family_as_published": "Rubiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Kasfiya (H) Nambi susun (N)",
+    "vernacular_names": [
+      {
+        "local_name": "Kasfiya",
+        "language": "ha"
+      },
+      {
+        "local_name": "Nambi susun",
+        "language": "nup"
+      }
+    ],
+    "parts_reported": [],
+    "preparation_as_published": "Boil crushed fresh leaves and barks. Add potash and drench",
+    "voucher_specimen": null,
+    "use_context": "plant reported in ethnoveterinary use on cattle by Fulani pastoralists in Niger State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_row": 11,
+    "botanical_as_published": "Dichrostachys glomerata (Forsk.) Chiov.",
+    "family_as_published": "Fabaceae",
+    "common_english_as_published": "Cow thorn",
+    "vernacular_as_published": "Dundu (H) , Burli (F) Ekan-nanko (N)",
+    "vernacular_names": [
+      {
+        "local_name": "Dundu",
+        "language": "ha"
+      },
+      {
+        "local_name": "Burli",
+        "language": "ff"
+      },
+      {
+        "local_name": "Ekan-nanko",
+        "language": "nup"
+      }
+    ],
+    "parts_reported": [],
+    "preparation_as_published": "Boil fresh leaves and wash the wound with warm solution",
+    "voucher_specimen": null,
+    "use_context": "plant reported in ethnoveterinary use on cattle by Fulani pastoralists in Niger State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_row": 12,
+    "botanical_as_published": "Dissotis rotundifolia (Sm.) Triana",
+    "family_as_published": "Melastomataceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Edingi-bata (N)",
+    "vernacular_names": [
+      {
+        "local_name": "Edingi-bata",
+        "language": "nup"
+      }
+    ],
+    "parts_reported": [],
+    "preparation_as_published": "Boil fresh leaves and drench",
+    "voucher_specimen": null,
+    "use_context": "plant reported in ethnoveterinary use on cattle by Fulani pastoralists in Niger State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_row": 13,
+    "botanical_as_published": "Entada africana Guill. & Perr.",
+    "family_as_published": "Fabaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Tawatsa (H) Peluwahi (F) Kawo-nuwanchi (N)",
+    "vernacular_names": [
+      {
+        "local_name": "Tawatsa",
+        "language": "ha"
+      },
+      {
+        "local_name": "Peluwahi",
+        "language": "ff"
+      },
+      {
+        "local_name": "Kawo-nuwanchi",
+        "language": "nup"
+      }
+    ],
+    "parts_reported": [],
+    "preparation_as_published": "Boil crushed barks. Drench and also apply topically. Boil crushed barks. Drench and also apply topically",
+    "voucher_specimen": null,
+    "use_context": "plant reported in ethnoveterinary use on cattle by Fulani pastoralists in Niger State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_row": 14,
+    "botanical_as_published": "Khaya senegalensis (Desr.) A. Juss.",
+    "family_as_published": "Meliaceae",
+    "common_english_as_published": "Mahogany",
+    "vernacular_as_published": "Khaya senegalensis (Desr.) A. Juss. (Meliaceae)",
+    "vernacular_names": [],
+    "vernacular_entries_excluded": [
+      {
+        "text": "Khaya senegalensis (Desr.) A. Juss. (Meliaceae)",
+        "reason": "botanical name repeated in the local-name column"
+      }
+    ],
+    "parts_reported": [],
+    "preparation_as_published": "Boil dried barks, add potash, and drench. Crush fresh bark to paste and apply topically",
+    "voucher_specimen": null,
+    "use_context": "plant reported in ethnoveterinary use on cattle by Fulani pastoralists in Niger State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_row": 15,
+    "botanical_as_published": "Kigelia africana (Lam.) Benth.",
+    "family_as_published": "Bignoniaceae",
+    "common_english_as_published": "Sausage",
+    "vernacular_as_published": "Rawuya (H) Jillarehi (F) , Bechi (N)",
+    "vernacular_names": [
+      {
+        "local_name": "Rawuya",
+        "language": "ha"
+      },
+      {
+        "local_name": "Jillarehi",
+        "language": "ff"
+      },
+      {
+        "local_name": "Bechi",
+        "language": "nup"
+      }
+    ],
+    "parts_reported": [],
+    "preparation_as_published": "Boil crushed dried barks and cool. Add salt and drench",
+    "voucher_specimen": null,
+    "use_context": "plant reported in ethnoveterinary use on cattle by Fulani pastoralists in Niger State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_row": 16,
+    "botanical_as_published": "Lawsonia inermis (L.) Keay",
+    "family_as_published": "Lythraceae",
+    "common_english_as_published": "Henna plant",
+    "vernacular_as_published": "Lalle (H) Poldi (F) , Lali (N)",
+    "vernacular_names": [
+      {
+        "local_name": "Lalle",
+        "language": "ha"
+      },
+      {
+        "local_name": "Poldi",
+        "language": "ff"
+      },
+      {
+        "local_name": "Lali",
+        "language": "nup"
+      }
+    ],
+    "parts_reported": [],
+    "preparation_as_published": "Boil fresh leaves and drench",
+    "voucher_specimen": null,
+    "use_context": "plant reported in ethnoveterinary use on cattle by Fulani pastoralists in Niger State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_row": 17,
+    "botanical_as_published": "Mitracarpus scaber Zucc. and ex Schult + Schult.f.",
+    "family_as_published": "Rubiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Harwatsi (H) , Yikunu-kparagi (N)",
+    "vernacular_names": [
+      {
+        "local_name": "Harwatsi",
+        "language": "ha"
+      },
+      {
+        "local_name": "Yikunu-kparagi",
+        "language": "nup"
+      }
+    ],
+    "parts_reported": [],
+    "preparation_as_published": "Grind dried leaves. Mix powder with cow butter oil and apply topically",
+    "voucher_specimen": null,
+    "use_context": "plant reported in ethnoveterinary use on cattle by Fulani pastoralists in Niger State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_row": 18,
+    "botanical_as_published": "Ocimum gratissimum L.",
+    "family_as_published": "Lamiaceae",
+    "common_english_as_published": "Basil fever plant",
+    "vernacular_as_published": "Daidoya ta gida (H) Tanmotswagi (N)",
+    "vernacular_names": [
+      {
+        "local_name": "Daidoya ta gida",
+        "language": "ha"
+      },
+      {
+        "local_name": "Tanmotswagi",
+        "language": "nup"
+      }
+    ],
+    "parts_reported": [],
+    "preparation_as_published": "Pound fresh leaves into paste and apply on affected areas topically",
+    "voucher_specimen": null,
+    "use_context": "plant reported in ethnoveterinary use on cattle by Fulani pastoralists in Niger State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_row": 19,
+    "botanical_as_published": "Parkia biglobosa Aubrevielle",
+    "family_as_published": "Fabaceae",
+    "common_english_as_published": "African locust bean",
+    "vernacular_as_published": "Dorowa (H) Narehe (F) , Lonchi (N)",
+    "vernacular_names": [
+      {
+        "local_name": "Dorowa",
+        "language": "ha"
+      },
+      {
+        "local_name": "Narehe",
+        "language": "ff"
+      },
+      {
+        "local_name": "Lonchi",
+        "language": "nup"
+      }
+    ],
+    "parts_reported": [],
+    "preparation_as_published": "Grind dried roots, soak, and administer decoction orally",
+    "voucher_specimen": null,
+    "use_context": "plant reported in ethnoveterinary use on cattle by Fulani pastoralists in Niger State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_row": 20,
+    "botanical_as_published": "Piliostigma thonningii (Schum.) Milne-Redhead",
+    "family_as_published": "Caesalpiniaceae",
+    "common_english_as_published": "Thonning's pilostigma",
+    "vernacular_as_published": "Kalgo (H) Bartehi (F) , Bafin (N)",
+    "vernacular_names": [
+      {
+        "local_name": "Kalgo",
+        "language": "ha"
+      },
+      {
+        "local_name": "Bartehi",
+        "language": "ff"
+      },
+      {
+        "local_name": "Bafin",
+        "language": "nup"
+      }
+    ],
+    "parts_reported": [],
+    "preparation_as_published": "Grind fresh or dried bark, mix with any type of bran, and feed as ration",
+    "voucher_specimen": null,
+    "use_context": "plant reported in ethnoveterinary use on cattle by Fulani pastoralists in Niger State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_row": 21,
+    "botanical_as_published": "Prosopis africana (Guill. & Perr.) Taub.",
+    "family_as_published": "Fabaceae",
+    "common_english_as_published": "Guava",
+    "vernacular_as_published": "Kirya (H) , Kohi (F) Sanchi (N)",
+    "vernacular_names": [
+      {
+        "local_name": "Kirya",
+        "language": "ha"
+      },
+      {
+        "local_name": "Kohi",
+        "language": "ff"
+      },
+      {
+        "local_name": "Sanchi",
+        "language": "nup"
+      }
+    ],
+    "parts_reported": [],
+    "preparation_as_published": "Boil fresh leaves and stems, add potash, and drench",
+    "voucher_specimen": null,
+    "use_context": "plant reported in ethnoveterinary use on cattle by Fulani pastoralists in Niger State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_row": 22,
+    "botanical_as_published": "Psidium guajava L.",
+    "family_as_published": "Myrtaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Goiba (H) Goyiba (N) Kwashi (F)",
+    "vernacular_names": [
+      {
+        "local_name": "Goiba",
+        "language": "ha"
+      },
+      {
+        "local_name": "Goyiba",
+        "language": "nup"
+      },
+      {
+        "local_name": "Kwashi",
+        "language": "ff"
+      }
+    ],
+    "parts_reported": [],
+    "preparation_as_published": "Soak ground leaves in water. Add red potash and drench",
+    "voucher_specimen": null,
+    "use_context": "plant reported in ethnoveterinary use on cattle by Fulani pastoralists in Niger State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_row": 23,
+    "botanical_as_published": "Lophira lanceolata Van Tiegh. ex Keay",
+    "family_as_published": "Ochnaceae",
+    "common_english_as_published": "Iron wood",
+    "vernacular_as_published": "Namijin-kade (H) Maganci (N) Kochi-kere (N) Karereshi-yolde (F)",
+    "vernacular_names": [
+      {
+        "local_name": "Namijin-kade",
+        "language": "ha"
+      },
+      {
+        "local_name": "Maganci",
+        "language": "nup"
+      },
+      {
+        "local_name": "Kochi-kere",
+        "language": "nup"
+      },
+      {
+        "local_name": "Karereshi-yolde",
+        "language": "ff"
+      }
+    ],
+    "parts_reported": [],
+    "preparation_as_published": "Crush dried barks and mill into powder with shea butter. Apply topically",
+    "voucher_specimen": null,
+    "use_context": "plant reported in ethnoveterinary use on cattle by Fulani pastoralists in Niger State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_row": 24,
+    "botanical_as_published": "Ricinus communis Linn.",
+    "family_as_published": "Euphorbiaceae",
+    "common_english_as_published": "Castor oil tree",
+    "vernacular_as_published": "Dan kwasare (H) Kolakolahi (F) Kpanfiniko-gulu (N)",
+    "vernacular_names": [
+      {
+        "local_name": "Dan kwasare",
+        "language": "ha"
+      },
+      {
+        "local_name": "Kolakolahi",
+        "language": "ff"
+      },
+      {
+        "local_name": "Kpanfiniko-gulu",
+        "language": "nup"
+      }
+    ],
+    "parts_reported": [],
+    "preparation_as_published": "Crush fresh leaves to paste. Apply paste on affected areas topically",
+    "voucher_specimen": null,
+    "use_context": "plant reported in ethnoveterinary use on cattle by Fulani pastoralists in Niger State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_row": 25,
+    "botanical_as_published": "Sarcocephalus latifolius (Sm.)Bruce",
+    "family_as_published": "Rubiaceae",
+    "common_english_as_published": "African peach",
+    "vernacular_as_published": "Tafashiya (H) Gbashi (N) Bakureshi (F)",
+    "vernacular_names": [
+      {
+        "local_name": "Tafashiya",
+        "language": "ha"
+      },
+      {
+        "local_name": "Gbashi",
+        "language": "nup"
+      },
+      {
+        "local_name": "Bakureshi",
+        "language": "ff"
+      }
+    ],
+    "parts_reported": [],
+    "preparation_as_published": "Boil fresh roots. Add one tea spoonful salt and drench",
+    "voucher_specimen": null,
+    "use_context": "plant reported in ethnoveterinary use on cattle by Fulani pastoralists in Niger State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_row": 26,
+    "botanical_as_published": "Schwenckia americana Linn.",
+    "family_as_published": "Solanaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Dandan (H) Dandana (F) Kabi-malam (N)",
+    "vernacular_names": [
+      {
+        "local_name": "Dandan",
+        "language": "ha"
+      },
+      {
+        "local_name": "Dandana",
+        "language": "ff"
+      },
+      {
+        "local_name": "Kabi-malam",
+        "language": "nup"
+      }
+    ],
+    "parts_reported": [],
+    "preparation_as_published": "Boil crushed dried barks and add potash. Drench",
+    "voucher_specimen": null,
+    "use_context": "plant reported in ethnoveterinary use on cattle by Fulani pastoralists in Niger State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_row": 27,
+    "botanical_as_published": "Senna (Cassia) alata (L.) Roxb.",
+    "family_as_published": "Caesalpiniaceae",
+    "common_english_as_published": "Ringworm plant, craw- craw plant",
+    "vernacular_as_published": "Gungoroko (N)",
+    "vernacular_names": [
+      {
+        "local_name": "Gungoroko",
+        "language": "nup"
+      }
+    ],
+    "parts_reported": [],
+    "preparation_as_published": "Grind dried leaves into powder. Mix with cow butter oil and apply topically",
+    "voucher_specimen": null,
+    "use_context": "plant reported in ethnoveterinary use on cattle by Fulani pastoralists in Niger State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_row": 28,
+    "botanical_as_published": "Tephrosia vogelii Hook.f.",
+    "family_as_published": "Fabaceae",
+    "common_english_as_published": "Fish-poison bean, Vogel's tephrosia",
+    "vernacular_as_published": "Magamun (H) Yomji (F) Egga (N)",
+    "vernacular_names": [
+      {
+        "local_name": "Magamun",
+        "language": "ha"
+      },
+      {
+        "local_name": "Yomji",
+        "language": "ff"
+      },
+      {
+        "local_name": "Egga",
+        "language": "nup"
+      }
+    ],
+    "parts_reported": [],
+    "preparation_as_published": "Grind dried leaves and stems. Dissolve powder in water and bath the affected cattle",
+    "voucher_specimen": null,
+    "use_context": "plant reported in ethnoveterinary use on cattle by Fulani pastoralists in Niger State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_row": 29,
+    "botanical_as_published": "Terminalia macroptera Guill. & Perr.",
+    "family_as_published": "Combretaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Baushe (H) Bodihi (F) , Kpace (N)",
+    "vernacular_names": [
+      {
+        "local_name": "Baushe",
+        "language": "ha"
+      },
+      {
+        "local_name": "Bodihi",
+        "language": "ff"
+      },
+      {
+        "local_name": "Kpace",
+        "language": "nup"
+      }
+    ],
+    "parts_reported": [],
+    "preparation_as_published": "Crush dried roots and boil. Add potash and drench",
+    "voucher_specimen": null,
+    "use_context": "plant reported in ethnoveterinary use on cattle by Fulani pastoralists in Niger State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_row": 30,
+    "botanical_as_published": "Vernonia amygdalina Del.",
+    "family_as_published": "Asteraceae",
+    "common_english_as_published": "Vernonia amygdalina Del. (Asteraceae)",
+    "vernacular_as_published": "Shiwaka (H) Shuwaka (F) Tsula (N)",
+    "vernacular_names": [
+      {
+        "local_name": "Shiwaka",
+        "language": "ha"
+      },
+      {
+        "local_name": "Shuwaka",
+        "language": "ff"
+      },
+      {
+        "local_name": "Tsula",
+        "language": "nup"
+      }
+    ],
+    "parts_reported": [],
+    "preparation_as_published": "Soak crushed fresh leaves. Add potash and drench",
+    "voucher_specimen": null,
+    "use_context": "plant reported in ethnoveterinary use on cattle by Fulani pastoralists in Niger State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_row": 31,
+    "botanical_as_published": "Vitex doniana Sweet",
+    "family_as_published": "Verbenaceae",
+    "common_english_as_published": "Black plum",
+    "vernacular_as_published": "Dinya (H) Bodilohi (F) Dinchi (N)",
+    "vernacular_names": [
+      {
+        "local_name": "Dinya",
+        "language": "ha"
+      },
+      {
+        "local_name": "Bodilohi",
+        "language": "ff"
+      },
+      {
+        "local_name": "Dinchi",
+        "language": "nup"
+      }
+    ],
+    "parts_reported": [],
+    "preparation_as_published": "Crush fresh barks, soak in water, and drench",
+    "voucher_specimen": null,
+    "use_context": "plant reported in ethnoveterinary use on cattle by Fulani pastoralists in Niger State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_row": 32,
+    "botanical_as_published": "Zanthoxylum zanthoxyloides Zepernick & Timler.",
+    "family_as_published": "Rutaceae",
+    "common_english_as_published": "African satinwood",
+    "vernacular_as_published": "Fasakuwari (H) Fasakwabri (F) Kosonkori (N)",
+    "vernacular_names": [
+      {
+        "local_name": "Fasakuwari",
+        "language": "ha"
+      },
+      {
+        "local_name": "Fasakwabri",
+        "language": "ff"
+      },
+      {
+        "local_name": "Kosonkori",
+        "language": "nup"
+      }
+    ],
+    "parts_reported": [],
+    "preparation_as_published": "Boil dried barks and drench",
+    "voucher_specimen": null,
+    "use_context": "plant reported in ethnoveterinary use on cattle by Fulani pastoralists in Niger State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_row": 33,
+    "botanical_as_published": "Zingiber officinale Rosc.",
+    "family_as_published": "Zingiberaceae",
+    "common_english_as_published": "Ginger",
+    "vernacular_as_published": "Tsita mai yatsu (H) , Tsutafu (N)",
+    "vernacular_names": [
+      {
+        "local_name": "Tsita mai yatsu",
+        "language": "ha"
+      },
+      {
+        "local_name": "Tsutafu",
+        "language": "nup"
+      }
+    ],
+    "parts_reported": [],
+    "preparation_as_published": "Crush dried rhizomes, mix with maize bran, and feed as ration",
+    "voucher_specimen": null,
+    "use_context": "plant reported in ethnoveterinary use on cattle by Fulani pastoralists in Niger State",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_row": 34,
+    "botanical_as_published": "Ziziphus abyssinica Hochst. ex A. Rich.",
+    "family_as_published": "Rhamnaceae",
+    "common_english_as_published": "Catch thorn",
+    "vernacular_as_published": "Magariya kura (H) Jabe puri (F) Dangodi (N)",
+    "vernacular_names": [
+      {
+        "local_name": "Magariya kura",
+        "language": "ha"
+      },
+      {
+        "local_name": "Jabe puri",
+        "language": "ff"
+      },
+      {
+        "local_name": "Dangodi",
+        "language": "nup"
+      }
+    ],
+    "parts_reported": [],
+    "preparation_as_published": "Boil crushed fresh leaves and drench or wash wound surface",
+    "voucher_specimen": null,
+    "use_context": "plant reported in ethnoveterinary use on cattle by Fulani pastoralists in Niger State",
+    "data_quality_flags": []
+  }
+]

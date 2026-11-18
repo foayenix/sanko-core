@@ -51,6 +51,9 @@ const LANGUAGE_NAMES = {
   ijc: 'Ijaw (Izon)',
   ijn: 'Kalabari',
   ekp: 'Ekpeye',
+  nup: 'Nupe',
+  tiv: 'Tiv',
+  efi: 'Efik',
   // No single language: the source printed none, or printed a group such as
   // "Ogoni" that covers several languages.
   und: 'Language not identified',
@@ -916,6 +919,15 @@ for (const record of vernacularNames) {
 if (published.length === 0) {
   console.warn('Skipped resolver build: no vernacular names met the publication conditions.');
   process.exit(0);
+}
+
+// A code with no display name would reach readers as "a nup name". Fail the build
+// instead, so a new source's language is named before its pages are written.
+const unnamedLanguages = [
+  ...new Set(published.map((record) => record.language).filter((code) => code && !Object.hasOwn(LANGUAGE_NAMES, code))),
+];
+if (unnamedLanguages.length) {
+  throw new Error(`Add a display name to LANGUAGE_NAMES for: ${unnamedLanguages.join(', ')}`);
 }
 
 const byName = new Map();

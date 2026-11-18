@@ -63,7 +63,7 @@ Entries in `practitioner_confirmations.json` are the one export path whose evide
 
 The transcripts that motivated a confirmation stay out of this directory entirely. They live only in the gitignored `review_queue.json` that `npm run plants:pull` writes.
 
-The current primary build combines the Plateau State, Lagos State, southwestern anti-asthmatic, Port Harcourt, Bayelsa, Rivers State, Ede South (Osun State) and Kwara State surveys. The Ogbomosho (Oyo State) tables are staged because several of their determinations disagree with the other sources for the same Yoruba name under a different spelling, which the ambiguity rule cannot see. In the Kwara table, 56 of the 62 rows do not say which language their names are in; by the owner's decision of 2026-11-18 those names keep a null language and the pages say the language was not recorded, rather than guessing one from the state or the spelling. The Ile-Ife tables are quarantined because the publisher retracted the article. The 2025 review contributes a catalogue of 79 original studies to acquire, but its secondary mappings do not feed production.
+The current primary build combines the Plateau State, Lagos State, southwestern anti-asthmatic, Port Harcourt, Bayelsa, Rivers State, Ede South (Osun State) and Kwara State surveys, the North Central zone obesity survey (Anyanwu et al. 2025: Hausa, Yoruba, Igbo, Tiv and Efik names) and the Niger State Fulani ethnoveterinary survey (Alhaji and Babalobi 2015: Hausa, Fulfulde and Nupe names). The Ogbomosho (Oyo State) tables are staged because several of their determinations disagree with the other sources for the same Yoruba name under a different spelling, which the ambiguity rule cannot see. In the Kwara table, 56 of the 62 rows do not say which language their names are in; by the owner's decision of 2026-11-18 those names keep a null language and the pages say the language was not recorded, rather than guessing one from the state or the spelling. The Ile-Ife tables are quarantined because the publisher retracted the article. The 2025 review contributes a catalogue of 79 original studies to acquire, but its secondary mappings do not feed production.
 
 ### Rivers State: a source that had to be transcribed
 
@@ -218,13 +218,18 @@ To reproduce the Plateau source-table extraction from an open-access Europe PMC 
 node scripts/import-plateau-survey.js /path/to/PMC3162497.xml
 ```
 
-To reproduce the Ede South, Ogbomosho, and Kwara tables from their Europe PMC full-text XML (`https://www.ebi.ac.uk/europepmc/webservices/rest/<PMCID>/fullTextXML`):
+To reproduce the Ede South, Ogbomosho, Kwara, North Central and Niger State tables from their Europe PMC full-text XML (`https://www.ebi.ac.uk/europepmc/webservices/rest/<PMCID>/fullTextXML`):
 
 ```sh
 node scripts/import-jats-surveys.js lawal-2020-ede-south /path/to/PMC7286022.xml
 node scripts/import-jats-surveys.js odebunmi-2022-ogbomosho /path/to/PMC9573491.xml   # writes to surveys/staged/
 node scripts/import-jats-surveys.js evbuomwan-2023-kwara /path/to/PMC10504731.xml
+node scripts/import-jats-surveys.js anyanwu-2025-north-central /path/to/PMC11870763.xml
+node scripts/import-jats-surveys.js alhaji-2015-niger-fulani /path/to/PMC4590846.xml
 ```
+
+A new language code also needs a display name in `LANGUAGE_NAMES` in
+`sanko-landing page/scripts/build-resolver.mjs`; the resolver build fails until it has one.
 
 Adding a source can remove resolved names as well as add them: where it gives a different taxon for a name the index already had, export rule 4 turns that name ambiguous. Compare `resolved_runtime_mappings` and `ambiguities.json` before and after, and read the names that dropped out.
 

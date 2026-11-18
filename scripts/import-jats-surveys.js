@@ -74,6 +74,30 @@ function splitNames(published, language) {
   return { names, excluded };
 }
 
+// A cell whose names each carry a language label after them: "Kwari (H), Sapo (Y)",
+// "Cida goro (H) Orogbo (Y)", or superscripts the caller has turned into markers.
+// Each label closes the names printed since the previous one. A label the source does
+// not define stops the import; text left after the last label carries no language and
+// is kept as published rather than mapped.
+function splitLabelledNames(published, labelPattern, codes) {
+  const names = [];
+  const excluded = [];
+  let start = 0;
+  for (const match of published.matchAll(labelPattern)) {
+    const language = codes[match[1]];
+    if (!language) throw new Error(`Undefined language label "${match[1]}" in "${published}"`);
+    const chunk = published.slice(start, match.index).replace(/^[\s,;]+|[\s,;]+$/g, '');
+    start = match.index + match[0].length;
+    if (!chunk) continue;
+    const split = splitNames(chunk, language);
+    names.push(...split.names);
+    excluded.push(...split.excluded);
+  }
+  const rest = published.slice(start).replace(/^[\s,;]+|[\s,;]+$/g, '');
+  if (rest) excluded.push({ text: rest, reason: 'printed without a language label' });
+  return { names, excluded };
+}
+
 function unique(names) {
   return [...new Map(names.map(name => [`${name.language}:${name.local_name.toLocaleLowerCase('en')}`, name])).values()];
 }
@@ -199,10 +223,118 @@ function extractKwara(xml) {
   });
 }
 
+// Anyanwu et al. 2025, North Central zone (Journal of Obesity, CC BY 4.0). Table 2
+// labels each local name with its language in brackets, defined in the table's
+// footnote: H Hausa, Y Yoruba, I Ibo, T Tiv; one cell also uses "(Efik)". Three cells
+// carry no label and are English or botanical text (Sponge soap, Curry), and one
+// labelled entry is the botanical name (Aloe vera); none of these becomes a mapping.
+// Local names a few rows print in the Common name column (Ukpo; Ora, Oha) are not
+// labelled there and are not harvested.
+const ANYANWU_LANGUAGES = { H: 'ha', Y: 'yo', I: 'ig', T: 'tiv', Efik: 'efi' };
+const ANYANWU_PARTS = {
+  B: 'bulb', Br: 'branch', C: 'clove', F: 'fruit', Fw: 'flower', L: 'leaf', P: 'pod',
+  R: 'root', S: 'seed', Sb: 'stem bark', St: 'stem', W: 'whole plant'
+};
+const ANYANWU_PREPARATIONS = { D: 'decoction', J: 'juice', M: 'maceration', P: 'powder' };
+const ANYANWU_NOT_VERNACULAR = { 'aloe vera': 'botanical name printed as the Hausa name' };
+
+function expandCodes(value, codes, what, row) {
+  return [...new Set((value ?? '').split(/\s*,\s*/).filter(Boolean).map(code => {
+    if (!codes[code]) throw new Error(`Undefined ${what} code "${code}" in row ${row}`);
+    return codes[code];
+  }))];
+}
+
+function extractAnyanwu(xml) {
+  const rows = expectRows(tableRows(xml, 'Table 2').filter(row => /^\d+$/.test(row[0])), 70, 'Table 2 rows');
+  return rows.map(row => {
+    const sourceRow = Number(row[0]);
+    const published = row[2];
+    const split = published
+      ? splitLabelledNames(published, /\s*[([]([A-Za-z]+)[)\]]/g, ANYANWU_LANGUAGES)
+      : { names: [], excluded: [] };
+    const names = [];
+    const excluded = [...split.excluded];
+    for (const name of split.names) {
+      const reason = ANYANWU_NOT_VERNACULAR[name.local_name.toLocaleLowerCase('en')];
+      if (reason) excluded.push({ text: name.local_name, reason });
+      else names.push(name);
+    }
+    return {
+      source_id: 'anyanwu-2025-north-central',
+      source_row: sourceRow,
+      botanical_as_published: row[1],
+      family_as_published: row[4],
+      common_english_as_published: row[3] || null,
+      vernacular_as_published: published || null,
+      vernacular_names: unique(names),
+      ...(excluded.length ? { vernacular_entries_excluded: excluded } : {}),
+      parts_reported: expandCodes(row[8], ANYANWU_PARTS, 'part', sourceRow),
+      preparations_reported: expandCodes(row[9], ANYANWU_PREPARATIONS, 'preparation', sourceRow),
+      voucher_specimen: row[5] || null,
+      life_form_as_published: row[6],
+      use_context: 'plant reported for obesity management by herb sellers and practitioners in the North Central zone',
+      data_quality_flags: published ? [] : ['no_local_name_published']
+    };
+  });
+}
+
+// Alhaji and Babalobi 2015, Niger State (Journal of Veterinary Medicine, CC BY).
+// Table 2 lists plants Fulani pastoralists use on cattle. Each local name is
+// followed by a superscript H, F or N — Hausa, Fulani (Fulfulde) and Nupe, per the
+// table footnote — so the superscripts are read from the XML before the text is
+// flattened. Table 1 has no local names; Table 3 lists non-plant materials.
+// Parts and preparations are given only as prose, so no parts are claimed.
+const ALHAJI_LANGUAGES = { H: 'ha', F: 'ff', N: 'nup' };
+
+function extractAlhaji(xml) {
+  for (const [wrap] of xml.matchAll(/<table-wrap[\s>][\s\S]*?<\/table-wrap>/gi)) {
+    const found = wrap.match(/<label>([\s\S]*?)<\/label>/i);
+    if (!found || decodeXml(found[1]) !== 'Table 2') continue;
+    const cells = [...wrap.matchAll(/<tr[^>]*>([\s\S]*?)<\/tr>/gi)].map(([, tr]) =>
+      [...tr.matchAll(/<(?:td|th)[^>]*>([\s\S]*?)<\/(?:td|th)>/gi)].map(([, cell]) => cell)
+    );
+    const rows = expectRows(cells.filter(row => /^\s*\d+\s*$/.test(decodeXml(row[0]))), 34, 'Table 2 rows');
+    return rows.map(row => {
+      // Inline italics would otherwise split "Edingi-bata" around its hyphen.
+      const nameCell = decodeXml(
+        row[3]
+          .replace(/<sup>([\s\S]*?)<\/sup>/gi, (_, label) => ` [[${decodeXml(label)}]] `)
+          .replace(/<\/?italic>/gi, '')
+      );
+      const identity = decodeXml(row[1].replace(/<\/?italic>/gi, ''));
+      // Row 14 (Khaya senegalensis) repeats the botanical name in the local-name column.
+      const split = nameCell === identity
+        ? { names: [], excluded: [{ text: nameCell, reason: 'botanical name repeated in the local-name column' }] }
+        : splitLabelledNames(nameCell, /\s*\[\[([A-Za-z]+)\]\]/g, ALHAJI_LANGUAGES);
+      const family = identity.match(/\s*\(([A-Z][a-z]+aceae)\)\s*$/);
+      if (!family) throw new Error(`No family in Table 2 row ${decodeXml(row[0])}: ${identity}`);
+      return {
+        source_id: 'alhaji-2015-niger-fulani',
+        source_row: Number(decodeXml(row[0])),
+        botanical_as_published: identity.slice(0, family.index).trim(),
+        family_as_published: family[1],
+        common_english_as_published: decodeXml(row[2]) || null,
+        vernacular_as_published: nameCell.replace(/\s*\[\[([A-Za-z]+)\]\]/g, ' ($1)').replace(/\s+/g, ' ').trim(),
+        vernacular_names: unique(split.names),
+        ...(split.excluded.length ? { vernacular_entries_excluded: split.excluded } : {}),
+        parts_reported: [],
+        preparation_as_published: decodeXml(row[4]),
+        voucher_specimen: null,
+        use_context: 'plant reported in ethnoveterinary use on cattle by Fulani pastoralists in Niger State',
+        data_quality_flags: []
+      };
+    });
+  }
+  throw new Error('Could not find Table 2');
+}
+
 const SOURCES = {
   'lawal-2020-ede-south': { pmcid: 'PMC7286022', extract: extractEdeSouth, output: ['lawal-2020-ede-south.json'] },
   'odebunmi-2022-ogbomosho': { pmcid: 'PMC9573491', extract: extractOgbomosho, output: ['staged', 'odebunmi-2022-ogbomosho.json'] },
-  'evbuomwan-2023-kwara': { pmcid: 'PMC10504731', extract: extractKwara, output: ['evbuomwan-2023-kwara.json'] }
+  'evbuomwan-2023-kwara': { pmcid: 'PMC10504731', extract: extractKwara, output: ['evbuomwan-2023-kwara.json'] },
+  'anyanwu-2025-north-central': { pmcid: 'PMC11870763', extract: extractAnyanwu, output: ['anyanwu-2025-north-central.json'] },
+  'alhaji-2015-niger-fulani': { pmcid: 'PMC4590846', extract: extractAlhaji, output: ['alhaji-2015-niger-fulani.json'] }
 };
 
 function main() {
@@ -219,4 +351,4 @@ function main() {
 
 if (require.main === module) main();
 
-module.exports = { SOURCES, extractEdeSouth, extractOgbomosho, extractKwara, splitNames };
+module.exports = { SOURCES, extractEdeSouth, extractOgbomosho, extractKwara, extractAnyanwu, extractAlhaji, splitNames, splitLabelledNames };

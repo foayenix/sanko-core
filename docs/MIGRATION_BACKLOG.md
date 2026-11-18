@@ -47,7 +47,10 @@ index, provenance files and all 1,200 resolver pages byte for byte (905 names /
 857 resolved; 793 published names). With the Ede South survey (Lawal et al. 2020)
 added on top, the index stands at 950 names / 898 resolved and the resolver at 845
 published names. With the Kwara survey (Evbuomwan et al. 2023) included on
-2026-11-18, it stands at 990 names / 933 resolved and the resolver at 890. Eval cases 08, 10, 11 and 13 still expect the
+2026-11-18, it stood at 990 names / 933 resolved and the resolver at 890. With the
+North Central (Anyanwu et al. 2025) and Niger State Fulani (Alhaji and Babalobi
+2015) surveys added the same day, it stands at 1,137 names / 1,078 resolved and
+the resolver at 1,042. Eval cases 08, 10, 11 and 13 still expect the
 older botanical names (or a single species for utazi and uziza, which are now
 contested) and need review before their expectations change.
 

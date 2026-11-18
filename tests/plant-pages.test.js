@@ -34,6 +34,11 @@ describe('published plant pages', () => {
     assert.deepEqual(offenders(/(is an?|across) Language not identified/), []);
   });
 
+  it('never show a bare language code where a language name belongs', () => {
+    // "Gbere — nup name for ..." shipped once, before Nupe had a display name.
+    assert.deepEqual(offenders(/(?:<title>|class="eyebrow">)[^<]*\b(?:und|[a-z]{2,3}) (?:plant )?name\b/), []);
+  });
+
   it('never print a state twice in a location', () => {
     assert.deepEqual(offenders(/\b(\w+) State, \1 State\b/), []);
   });

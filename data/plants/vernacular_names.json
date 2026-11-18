@@ -230,6 +230,36 @@
     "export_eligible": true
   },
   {
+    "id": "name-abarba-c80f35d620",
+    "plant_id": "plant-ananas-comosus-e0dfdb430c",
+    "local_name": "Abarba",
+    "normalized_name": "abarba",
+    "language": "ha",
+    "region": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": [
+        "Benue State",
+        "Federal Capital Territory",
+        "Kogi State",
+        "Kwara State",
+        "Nasarawa State",
+        "Niger State",
+        "Plateau State"
+      ]
+    },
+    "botanical_as_published": "Ananas comosus (L.) Merr.",
+    "accepted_botanical": "Ananas comosus",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 7
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-abayin-23a8f37408",
     "plant_id": "plant-hexasepalum-sarmentosum-5b68682a4c",
     "local_name": "Abayin",
@@ -751,6 +781,36 @@
     "source_locator": {
       "table": "Table 1",
       "row": 29
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-afang-af600b503b",
+    "plant_id": "plant-gnetum-africanum-a17170e15a",
+    "local_name": "Afang",
+    "normalized_name": "afang",
+    "language": "efi",
+    "region": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": [
+        "Benue State",
+        "Federal Capital Territory",
+        "Kogi State",
+        "Kwara State",
+        "Nasarawa State",
+        "Niger State",
+        "Plateau State"
+      ]
+    },
+    "botanical_as_published": "Gnetum africanum Welw.",
+    "accepted_botanical": "Gnetum africanum",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 39
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -1848,6 +1908,66 @@
     "export_eligible": true
   },
   {
+    "id": "name-ahon-erin-eb80daa69c",
+    "plant_id": "plant-aloe-vera-d33e9eaef6",
+    "local_name": "Ahon erin",
+    "normalized_name": "ahon erin",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": [
+        "Benue State",
+        "Federal Capital Territory",
+        "Kogi State",
+        "Kwara State",
+        "Nasarawa State",
+        "Niger State",
+        "Plateau State"
+      ]
+    },
+    "botanical_as_published": "Aloe vera (L.) Burm.f., Aloe barbadensis Mill",
+    "accepted_botanical": "Aloe vera",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 5
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-ahun-18b72eaf45",
+    "plant_id": "plant-alstonia-boonei-a2b33bfa82",
+    "local_name": "Ahun",
+    "normalized_name": "ahun",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": [
+        "Benue State",
+        "Federal Capital Territory",
+        "Kogi State",
+        "Kwara State",
+        "Nasarawa State",
+        "Niger State",
+        "Plateau State"
+      ]
+    },
+    "botanical_as_published": "Alstonia boonei De wild.",
+    "accepted_botanical": "Alstonia boonei",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 6
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-ahun-2c0d562c0e",
     "plant_id": "plant-alstonia-boonei-a2b33bfa82",
     "local_name": "Ahun",
@@ -2091,6 +2211,36 @@
     "source_locator": {
       "table": "Supplementary Table S1",
       "row": 145
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-ajaabale-bdb8f16cf3",
+    "plant_id": "plant-gnetum-africanum-a17170e15a",
+    "local_name": "àjáàbalè",
+    "normalized_name": "ajaabale",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": [
+        "Benue State",
+        "Federal Capital Territory",
+        "Kogi State",
+        "Kwara State",
+        "Nasarawa State",
+        "Niger State",
+        "Plateau State"
+      ]
+    },
+    "botanical_as_published": "Gnetum africanum Welw.",
+    "accepted_botanical": "Gnetum africanum",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 39
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -3170,6 +3320,66 @@
     "export_eligible": true
   },
   {
+    "id": "name-alayyahu-d687b76485",
+    "plant_id": "plant-spinacia-oleracea-451e093c2b",
+    "local_name": "Alayyahu",
+    "normalized_name": "alayyahu",
+    "language": "ha",
+    "region": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": [
+        "Benue State",
+        "Federal Capital Territory",
+        "Kogi State",
+        "Kwara State",
+        "Nasarawa State",
+        "Niger State",
+        "Plateau State"
+      ]
+    },
+    "botanical_as_published": "Spinacia oleracea L.",
+    "accepted_botanical": "Spinacia oleracea",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 64
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-albasa-26440acd30",
+    "plant_id": "plant-allium-cepa-68b96f0db9",
+    "local_name": "Albasa",
+    "normalized_name": "albasa",
+    "language": "ha",
+    "region": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": [
+        "Benue State",
+        "Federal Capital Territory",
+        "Kogi State",
+        "Kwara State",
+        "Nasarawa State",
+        "Niger State",
+        "Plateau State"
+      ]
+    },
+    "botanical_as_published": "Allium cepa L.",
+    "accepted_botanical": "Allium cepa",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 3
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-albasa-9dfc7a9b3d",
     "plant_id": "plant-allium-cepa-68b96f0db9",
     "local_name": "albasa",
@@ -3185,6 +3395,28 @@
     "source_id": "legacy-lookup-v1",
     "source_locator": null,
     "verification_status": "legacy_unverified",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-albasa-badejo-b1fa526ff0",
+    "plant_id": "plant-allium-sativum-49429a58d8",
+    "local_name": "Albasa badejo",
+    "normalized_name": "albasa badejo",
+    "language": "ff",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Allium sativum L.",
+    "accepted_botanical": "Allium sativum",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 2
+    },
+    "verification_status": "taxonomy_checked",
     "reviewed_by": null,
     "export_eligible": true
   },
@@ -3255,6 +3487,36 @@
     "source_locator": {
       "table": "Table 1",
       "row": 59
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-alewo-23b86943e8",
+    "plant_id": "plant-spinacia-oleracea-451e093c2b",
+    "local_name": "Alewo",
+    "normalized_name": "alewo",
+    "language": "ha",
+    "region": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": [
+        "Benue State",
+        "Federal Capital Territory",
+        "Kogi State",
+        "Kwara State",
+        "Nasarawa State",
+        "Niger State",
+        "Plateau State"
+      ]
+    },
+    "botanical_as_published": "Spinacia oleracea L.",
+    "accepted_botanical": "Spinacia oleracea",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 64
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -3935,6 +4197,36 @@
     "source_locator": {
       "table": "Table 1",
       "row": 144
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-anza-2c046c2da0",
+    "plant_id": "plant-boscia-senegalensis-2dbb46e248",
+    "local_name": "Anza",
+    "normalized_name": "anza",
+    "language": "ha",
+    "region": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": [
+        "Benue State",
+        "Federal Capital Territory",
+        "Kogi State",
+        "Kwara State",
+        "Nasarawa State",
+        "Niger State",
+        "Plateau State"
+      ]
+    },
+    "botanical_as_published": "Boscia senegalensis Lam.",
+    "accepted_botanical": "Boscia senegalensis",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 11
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -5082,6 +5374,36 @@
     "export_eligible": true
   },
   {
+    "id": "name-ata-ile-d284033b28",
+    "plant_id": "plant-zingiber-officinale-8932efc2ae",
+    "local_name": "Ata-ile",
+    "normalized_name": "ata ile",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": [
+        "Benue State",
+        "Federal Capital Territory",
+        "Kogi State",
+        "Kwara State",
+        "Nasarawa State",
+        "Niger State",
+        "Plateau State"
+      ]
+    },
+    "botanical_as_published": "Zingiber officinale roscoe",
+    "accepted_botanical": "Zingiber officinale",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 69
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-ata-ile-a8ddda5073",
     "plant_id": "plant-zingiber-officinale-8932efc2ae",
     "local_name": "ata ile",
@@ -5443,6 +5765,36 @@
     "source_locator": {
       "table": "Table 1",
       "row": 3
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-atarigu-dee35ca805",
+    "plant_id": "plant-capsicum-chinense-ed18c7b524",
+    "local_name": "Atarigu",
+    "normalized_name": "atarigu",
+    "language": "ha",
+    "region": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": [
+        "Benue State",
+        "Federal Capital Territory",
+        "Kogi State",
+        "Kwara State",
+        "Nasarawa State",
+        "Niger State",
+        "Plateau State"
+      ]
+    },
+    "botanical_as_published": "Capsicum chinense Jacq.",
+    "accepted_botanical": "Capsicum chinense",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 15
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -6026,6 +6378,36 @@
     "export_eligible": true
   },
   {
+    "id": "name-aya-275accec89",
+    "plant_id": "plant-cyperus-esculentus-72c5beb83e",
+    "local_name": "Aya",
+    "normalized_name": "aya",
+    "language": "ha",
+    "region": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": [
+        "Benue State",
+        "Federal Capital Territory",
+        "Kogi State",
+        "Kwara State",
+        "Nasarawa State",
+        "Niger State",
+        "Plateau State"
+      ]
+    },
+    "botanical_as_published": "Cyperus esculentus L.",
+    "accepted_botanical": "Cyperus esculentus",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 33
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-aya-oyinbo-dc33f1f39d",
     "plant_id": "plant-luffa-aegyptiaca-4ec47a92a4",
     "local_name": "Aya oyinbo",
@@ -6584,6 +6966,58 @@
     "export_eligible": true
   },
   {
+    "id": "name-baban-lemun-tsami-6bfc47c727",
+    "plant_id": "plant-citrus-limon-a0b6a074cf",
+    "local_name": "Baban lemun tsami",
+    "normalized_name": "baban lemun tsami",
+    "language": "ha",
+    "region": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": [
+        "Benue State",
+        "Federal Capital Territory",
+        "Kogi State",
+        "Kwara State",
+        "Nasarawa State",
+        "Niger State",
+        "Plateau State"
+      ]
+    },
+    "botanical_as_published": "Citrus limon (L.) Burm. f.",
+    "accepted_botanical": "Citrus limon",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 23
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-bafin-70bddccd6a",
+    "plant_id": "plant-piliostigma-thonningii-54038cc24e",
+    "local_name": "Bafin",
+    "normalized_name": "bafin",
+    "language": "nup",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Piliostigma thonningii (Schum.) Milne-Redhead",
+    "accepted_botanical": "Piliostigma thonningii",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 20
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-bagaaruwar-makka-ea8a120e85",
     "plant_id": "plant-moringa-oleifera-6a8b6f1fb2",
     "local_name": "Bagaaruwar makka",
@@ -6602,6 +7036,58 @@
     "source_locator": {
       "table": "Table 1",
       "row": 49
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-bagaruwa-9bc896c690",
+    "plant_id": "plant-vachellia-nilotica-f76029b6d9",
+    "local_name": "Bagaruwa",
+    "normalized_name": "bagaruwa",
+    "language": "ha",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Acacia nilotica (L.) Willd ex Del.",
+    "accepted_botanical": "Vachellia nilotica",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 1
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-bagaruwa-dcbfb322db",
+    "plant_id": "plant-vachellia-nilotica-f76029b6d9",
+    "local_name": "Bagaruwa",
+    "normalized_name": "bagaruwa",
+    "language": "ha",
+    "region": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": [
+        "Benue State",
+        "Federal Capital Territory",
+        "Kogi State",
+        "Kwara State",
+        "Nasarawa State",
+        "Niger State",
+        "Plateau State"
+      ]
+    },
+    "botanical_as_published": "Acacia nilotica (L.) Delile",
+    "accepted_botanical": "Vachellia nilotica",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 1
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -6674,6 +7160,28 @@
     "export_eligible": true
   },
   {
+    "id": "name-bakureshi-f32e633fa7",
+    "plant_id": "plant-nauclea-latifolia-53fa5cb38c",
+    "local_name": "Bakureshi",
+    "normalized_name": "bakureshi",
+    "language": "ff",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Sarcocephalus latifolius (Sm.)Bruce",
+    "accepted_botanical": "Nauclea latifolia",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 25
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-baobab-a9f29345d3",
     "plant_id": "plant-adansonia-digitata-de5778c4db",
     "local_name": "baobab",
@@ -6689,6 +7197,66 @@
     "source_id": "legacy-lookup-v1",
     "source_locator": null,
     "verification_status": "legacy_unverified",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-bara-2ac59e842b",
+    "plant_id": "plant-citrullus-colocynthis-7f7261a3c1",
+    "local_name": "Bara",
+    "normalized_name": "bara",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": [
+        "Benue State",
+        "Federal Capital Territory",
+        "Kogi State",
+        "Kwara State",
+        "Nasarawa State",
+        "Niger State",
+        "Plateau State"
+      ]
+    },
+    "botanical_as_published": "Citrullus colocynthis (L.) Schrad.",
+    "accepted_botanical": "Citrullus colocynthis",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 20
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-barkono-9ce3e47b93",
+    "plant_id": "plant-piper-nigrum-7cc1d5929a",
+    "local_name": "Barkono",
+    "normalized_name": "barkono",
+    "language": "ha",
+    "region": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": [
+        "Benue State",
+        "Federal Capital Territory",
+        "Kogi State",
+        "Kwara State",
+        "Nasarawa State",
+        "Niger State",
+        "Plateau State"
+      ]
+    },
+    "botanical_as_published": "Piper nigrum L.",
+    "accepted_botanical": "Piper nigrum",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 59
+    },
+    "verification_status": "taxonomy_checked",
     "reviewed_by": null,
     "export_eligible": true
   },
@@ -6711,6 +7279,28 @@
     "source_locator": {
       "table": "Table 1",
       "row": 60
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-bartehi-4f7e5ff9f7",
+    "plant_id": "plant-piliostigma-thonningii-54038cc24e",
+    "local_name": "Bartehi",
+    "normalized_name": "bartehi",
+    "language": "ff",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Piliostigma thonningii (Schum.) Milne-Redhead",
+    "accepted_botanical": "Piliostigma thonningii",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 20
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -6816,6 +7406,28 @@
     "export_eligible": true
   },
   {
+    "id": "name-baushe-d5f13a4cb7",
+    "plant_id": "plant-terminalia-macroptera-95bc93c88f",
+    "local_name": "Baushe",
+    "normalized_name": "baushe",
+    "language": "ha",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Terminalia macroptera Guill. & Perr.",
+    "accepted_botanical": "Terminalia macroptera",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 29
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-baushe-4832144c4e",
     "plant_id": "plant-combretum-glutinosum-87aa708dd8",
     "local_name": "Baushe",
@@ -6909,6 +7521,28 @@
     "source_locator": {
       "table": "Table 1",
       "row": 52
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-bechi-2c65634a84",
+    "plant_id": "plant-kigelia-africana-46d315983f",
+    "local_name": "Bechi",
+    "normalized_name": "bechi",
+    "language": "nup",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Kigelia africana (Lam.) Benth.",
+    "accepted_botanical": "Kigelia africana",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 15
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -7048,6 +7682,28 @@
     "export_eligible": true
   },
   {
+    "id": "name-biriji-e0652ab6f2",
+    "plant_id": "plant-arachis-hypogaea-6c43bcbd7f",
+    "local_name": "Biriji",
+    "normalized_name": "biriji",
+    "language": "ff",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Arachis hypogea L.",
+    "accepted_botanical": "Arachis hypogaea",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 4
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-biringbe-ea7be5e8eb",
     "plant_id": "plant-costus-afer-bef24de478",
     "local_name": "Biringbe",
@@ -7175,6 +7831,50 @@
     "source_locator": {
       "table": "Table 1",
       "row": 52
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-bodihi-6d1ed79e54",
+    "plant_id": "plant-terminalia-macroptera-95bc93c88f",
+    "local_name": "Bodihi",
+    "normalized_name": "bodihi",
+    "language": "ff",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Terminalia macroptera Guill. & Perr.",
+    "accepted_botanical": "Terminalia macroptera",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 29
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-bodilohi-2cf95fda93",
+    "plant_id": "plant-vitex-doniana-a62b4d1dc8",
+    "local_name": "Bodilohi",
+    "normalized_name": "bodilohi",
+    "language": "ff",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Vitex doniana Sweet",
+    "accepted_botanical": "Vitex doniana",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 31
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -7485,6 +8185,28 @@
     "export_eligible": true
   },
   {
+    "id": "name-bududi-7462486573",
+    "plant_id": "plant-bombax-buonopozense-38172e7690",
+    "local_name": "Bududi",
+    "normalized_name": "bududi",
+    "language": "ff",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Bombax buonopozense P. Beauv.",
+    "accepted_botanical": "Bombax buonopozense",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 6
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-bunyga-6996bd65ba",
     "plant_id": "plant-cydonia-oblonga-23cadf402b",
     "local_name": "Bunyga",
@@ -7503,6 +8225,28 @@
     "source_locator": {
       "table": "Table 1",
       "row": 147
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-burli-4c9102e1f7",
+    "plant_id": "plant-dichrostachys-cinerea-africana-4741bef371",
+    "local_name": "Burli",
+    "normalized_name": "burli",
+    "language": "ff",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Dichrostachys glomerata (Forsk.) Chiov.",
+    "accepted_botanical": "Dichrostachys cinerea africana",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 11
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -7585,6 +8329,36 @@
     "export_eligible": true
   },
   {
+    "id": "name-chetah-80b0ff3675",
+    "plant_id": "plant-zingiber-officinale-8932efc2ae",
+    "local_name": "Chetah",
+    "normalized_name": "chetah",
+    "language": "ha",
+    "region": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": [
+        "Benue State",
+        "Federal Capital Territory",
+        "Kogi State",
+        "Kwara State",
+        "Nasarawa State",
+        "Niger State",
+        "Plateau State"
+      ]
+    },
+    "botanical_as_published": "Zingiber officinale roscoe",
+    "accepted_botanical": "Zingiber officinale",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 69
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-chita-2b1ef9745e",
     "plant_id": "plant-zingiber-officinale-8932efc2ae",
     "local_name": "Chita",
@@ -7609,6 +8383,36 @@
     "export_eligible": true
   },
   {
+    "id": "name-cida-goro-19e6d11259",
+    "plant_id": "plant-garcinia-kola-b2da88781b",
+    "local_name": "Cida goro",
+    "normalized_name": "cida goro",
+    "language": "ha",
+    "region": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": [
+        "Benue State",
+        "Federal Capital Territory",
+        "Kogi State",
+        "Kwara State",
+        "Nasarawa State",
+        "Niger State",
+        "Plateau State"
+      ]
+    },
+    "botanical_as_published": "Garcinia kola Heckel.",
+    "accepted_botanical": "Garcinia kola",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 37
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-cinnamon-b487700fa6",
     "plant_id": "plant-cinnamomum-verum-9e3f7aeb97",
     "local_name": "cinnamon",
@@ -7624,6 +8428,36 @@
     "source_id": "legacy-lookup-v1",
     "source_locator": null,
     "verification_status": "legacy_unverified",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-cittaa-mai-ƙwaayaa-c120969ab3",
+    "plant_id": "plant-zingiber-officinale-8932efc2ae",
+    "local_name": "Cìttáá mài ƙwààyáá",
+    "normalized_name": "cittaa mai ƙwaayaa",
+    "language": "ha",
+    "region": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": [
+        "Benue State",
+        "Federal Capital Territory",
+        "Kogi State",
+        "Kwara State",
+        "Nasarawa State",
+        "Niger State",
+        "Plateau State"
+      ]
+    },
+    "botanical_as_published": "Zingiber officinale roscoe",
+    "accepted_botanical": "Zingiber officinale",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 69
+    },
+    "verification_status": "taxonomy_checked",
     "reviewed_by": null,
     "export_eligible": true
   },
@@ -7708,6 +8542,36 @@
     "source_locator": {
       "table": "Table 2",
       "row": 27
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-daddegu-5a0b98c6c8",
+    "plant_id": "plant-momordica-charantia-2e38e78d6e",
+    "local_name": "Daddegu",
+    "normalized_name": "daddegu",
+    "language": "ha",
+    "region": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": [
+        "Benue State",
+        "Federal Capital Territory",
+        "Kogi State",
+        "Kwara State",
+        "Nasarawa State",
+        "Niger State",
+        "Plateau State"
+      ]
+    },
+    "botanical_as_published": "Momordica charantia L.",
+    "accepted_botanical": "Momordica charantia",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 50
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -7875,6 +8739,124 @@
     "export_eligible": true
   },
   {
+    "id": "name-daidoya-ta-gida-3750e31b86",
+    "plant_id": "plant-ocimum-gratissimum-db8de35590",
+    "local_name": "Daidoya ta gida",
+    "normalized_name": "daidoya ta gida",
+    "language": "ha",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Ocimum gratissimum L.",
+    "accepted_botanical": "Ocimum gratissimum",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 18
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-damagi-3d9891e71c",
+    "plant_id": "plant-chrozophora-senegalensis-5ebea10991",
+    "local_name": "dàmágì",
+    "normalized_name": "damagi",
+    "language": "ha",
+    "region": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": [
+        "Benue State",
+        "Federal Capital Territory",
+        "Kogi State",
+        "Kwara State",
+        "Nasarawa State",
+        "Niger State",
+        "Plateau State"
+      ]
+    },
+    "botanical_as_published": "Chrozophora senegalensis (Lam.) A.Juss. ex Spreng.",
+    "accepted_botanical": "Chrozophora senegalensis",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 18
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-dan-kwasare-80ee1be7c4",
+    "plant_id": "plant-ricinus-communis-deda1fad54",
+    "local_name": "Dan kwasare",
+    "normalized_name": "dan kwasare",
+    "language": "ha",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Ricinus communis Linn.",
+    "accepted_botanical": "Ricinus communis",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 24
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-dandan-8a8cc79b8c",
+    "plant_id": "plant-schwenckia-americana-9db4a121c1",
+    "local_name": "Dandan",
+    "normalized_name": "dandan",
+    "language": "ha",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Schwenckia americana Linn.",
+    "accepted_botanical": "Schwenckia americana",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 26
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-dandana-9d1016ba7c",
+    "plant_id": "plant-schwenckia-americana-9db4a121c1",
+    "local_name": "Dandana",
+    "normalized_name": "dandana",
+    "language": "ff",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Schwenckia americana Linn.",
+    "accepted_botanical": "Schwenckia americana",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 26
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-dandana-2392ac3edb",
     "plant_id": "plant-schwenckia-americana-9db4a121c1",
     "local_name": "Dandana",
@@ -7908,6 +8890,58 @@
     "export_eligible": true
   },
   {
+    "id": "name-dangodi-0b11e7562f",
+    "plant_id": "plant-ziziphus-abyssinica-6f090c5897",
+    "local_name": "Dangodi",
+    "normalized_name": "dangodi",
+    "language": "nup",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Ziziphus abyssinica Hochst. ex A. Rich.",
+    "accepted_botanical": "Ziziphus abyssinica",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 34
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-dankali-87fc8f03c5",
+    "plant_id": "plant-ipomoea-batatas-0854e36722",
+    "local_name": "Dankali",
+    "normalized_name": "dankali",
+    "language": "ha",
+    "region": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": [
+        "Benue State",
+        "Federal Capital Territory",
+        "Kogi State",
+        "Kwara State",
+        "Nasarawa State",
+        "Niger State",
+        "Plateau State"
+      ]
+    },
+    "botanical_as_published": "Ipomoea batatas (L.) Poir.",
+    "accepted_botanical": "Ipomoea batatas",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 43
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-darbegiya-7c91d5d2d4",
     "plant_id": "plant-azadirachta-indica-602368d8f9",
     "local_name": "Darbegiya",
@@ -7935,6 +8969,72 @@
     "source_locator": {
       "table": "Table 1",
       "row": 7
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-debchi-05b5c79ed9",
+    "plant_id": "plant-azadirachta-indica-602368d8f9",
+    "local_name": "Debchi",
+    "normalized_name": "debchi",
+    "language": "ff",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Azadirachta indica A. Juss.",
+    "accepted_botanical": "Azadirachta indica",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 5
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-dinchi-ec9abbc3f8",
+    "plant_id": "plant-vitex-doniana-a62b4d1dc8",
+    "local_name": "Dinchi",
+    "normalized_name": "dinchi",
+    "language": "nup",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Vitex doniana Sweet",
+    "accepted_botanical": "Vitex doniana",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 31
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-dinya-2463891e22",
+    "plant_id": "plant-vitex-doniana-a62b4d1dc8",
+    "local_name": "Dinya",
+    "normalized_name": "dinya",
+    "language": "ha",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Vitex doniana Sweet",
+    "accepted_botanical": "Vitex doniana",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 31
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -7998,6 +9098,66 @@
     "export_eligible": true
   },
   {
+    "id": "name-doddoya-8ba8ec8306",
+    "plant_id": "plant-ocimum-gratissimum-db8de35590",
+    "local_name": "Doddoya",
+    "normalized_name": "doddoya",
+    "language": "ha",
+    "region": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": [
+        "Benue State",
+        "Federal Capital Territory",
+        "Kogi State",
+        "Kwara State",
+        "Nasarawa State",
+        "Niger State",
+        "Plateau State"
+      ]
+    },
+    "botanical_as_published": "Ocimum gratissimum L.",
+    "accepted_botanical": "Ocimum gratissimum",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 56
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-dogon-yaro-da074aba52",
+    "plant_id": "plant-azadirachta-indica-602368d8f9",
+    "local_name": "Dogon yaro",
+    "normalized_name": "dogon yaro",
+    "language": "ha",
+    "region": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": [
+        "Benue State",
+        "Federal Capital Territory",
+        "Kogi State",
+        "Kwara State",
+        "Nasarawa State",
+        "Niger State",
+        "Plateau State"
+      ]
+    },
+    "botanical_as_published": "Azadirachta indica A.Juss.",
+    "accepted_botanical": "Azadirachta indica",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 9
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-dogon-yaro-e53e9ab44f",
     "plant_id": "plant-azadirachta-indica-602368d8f9",
     "local_name": "Dogon Yaro",
@@ -8025,6 +9185,28 @@
     "source_locator": {
       "table": "Table 1",
       "row": 7
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-dogonyaro-87347943ae",
+    "plant_id": "plant-azadirachta-indica-602368d8f9",
+    "local_name": "Dogonyaro",
+    "normalized_name": "dogonyaro",
+    "language": "ha",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Azadirachta indica A. Juss.",
+    "accepted_botanical": "Azadirachta indica",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 5
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -8237,6 +9419,28 @@
     "export_eligible": true
   },
   {
+    "id": "name-dorowa-452c8d5041",
+    "plant_id": "plant-parkia-biglobosa-776ff1d28f",
+    "local_name": "Dorowa",
+    "normalized_name": "dorowa",
+    "language": "ha",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Parkia biglobosa Aubrevielle",
+    "accepted_botanical": "Parkia biglobosa",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 19
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-doruwa-281c73e665",
     "plant_id": "plant-parkia-biglobosa-776ff1d28f",
     "local_name": "Doruwa",
@@ -8294,6 +9498,28 @@
     "export_eligible": true
   },
   {
+    "id": "name-dukkuhi-45f35b8a37",
+    "plant_id": "plant-annona-senegalensis-f12628a80c",
+    "local_name": "Dukkuhi",
+    "normalized_name": "dukkuhi",
+    "language": "ff",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Annona senegalensis Pers.",
+    "accepted_botanical": "Annona senegalensis",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 3
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-duku-08b354aa32",
     "plant_id": "plant-zanthoxylum-gilletii-3749a9eb45",
     "local_name": "Duku",
@@ -8345,6 +9571,28 @@
     "source_locator": {
       "table": "Table 1",
       "row": 24
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-dundu-dd40cdf40c",
+    "plant_id": "plant-dichrostachys-cinerea-africana-4741bef371",
+    "local_name": "Dundu",
+    "normalized_name": "dundu",
+    "language": "ha",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Dichrostachys glomerata (Forsk.) Chiov.",
+    "accepted_botanical": "Dichrostachys cinerea africana",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 11
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -8572,6 +9820,28 @@
     "source_locator": {
       "table": "Table 1",
       "row": 41
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-edingi-bata-f21d3525f3",
+    "plant_id": "plant-heterotis-rotundifolia-aaed7d4bb7",
+    "local_name": "Edingi-bata",
+    "normalized_name": "edingi bata",
+    "language": "nup",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Dissotis rotundifolia (Sm.) Triana",
+    "accepted_botanical": "Heterotis rotundifolia",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 12
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -8920,6 +10190,36 @@
     "export_eligible": true
   },
   {
+    "id": "name-efirin-d689eb2fb9",
+    "plant_id": "plant-ocimum-basilicum-aea107c25b",
+    "local_name": "Efirin",
+    "normalized_name": "efirin",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": [
+        "Benue State",
+        "Federal Capital Territory",
+        "Kogi State",
+        "Kwara State",
+        "Nasarawa State",
+        "Niger State",
+        "Plateau State"
+      ]
+    },
+    "botanical_as_published": "Ocimum basilicum L.",
+    "accepted_botanical": "Ocimum basilicum",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 55
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-efirin-18ea08ae08",
     "plant_id": "plant-ocimum-gratissimum-db8de35590",
     "local_name": "Efirin",
@@ -9261,6 +10561,36 @@
     "export_eligible": true
   },
   {
+    "id": "name-egbun-d5b8d40e50",
+    "plant_id": "plant-alstonia-boonei-a2b33bfa82",
+    "local_name": "Egbun",
+    "normalized_name": "egbun",
+    "language": "ig",
+    "region": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": [
+        "Benue State",
+        "Federal Capital Territory",
+        "Kogi State",
+        "Kwara State",
+        "Nasarawa State",
+        "Niger State",
+        "Plateau State"
+      ]
+    },
+    "botanical_as_published": "Alstonia boonei De wild.",
+    "accepted_botanical": "Alstonia boonei",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 6
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-egele-d88c34ac27",
     "plant_id": "plant-euphorbia-heterophylla-e1fd31cb69",
     "local_name": "Egele",
@@ -9283,6 +10613,28 @@
     "source_locator": {
       "table": "Supplementary Table S1",
       "row": 78
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-egga-c643ac761d",
+    "plant_id": "plant-tephrosia-vogelii-052b63a8d8",
+    "local_name": "Egga",
+    "normalized_name": "egga",
+    "language": "nup",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Tephrosia vogelii Hook.f.",
+    "accepted_botanical": "Tephrosia vogelii",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 28
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -9422,6 +10774,36 @@
     "source_locator": {
       "table": "Table 2",
       "row": 25
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-egusi-elili-775eb8375b",
+    "plant_id": "plant-citrullus-colocynthis-7f7261a3c1",
+    "local_name": "egusi elili",
+    "normalized_name": "egusi elili",
+    "language": "ig",
+    "region": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": [
+        "Benue State",
+        "Federal Capital Territory",
+        "Kogi State",
+        "Kwara State",
+        "Nasarawa State",
+        "Niger State",
+        "Plateau State"
+      ]
+    },
+    "botanical_as_published": "Citrullus colocynthis (L.) Schrad.",
+    "accepted_botanical": "Citrullus colocynthis",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 20
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -9673,6 +11055,28 @@
     "source_locator": {
       "table": "Table 1",
       "row": 39
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-ekan-nanko-d77f426542",
+    "plant_id": "plant-dichrostachys-cinerea-africana-4741bef371",
+    "local_name": "Ekan-nanko",
+    "normalized_name": "ekan nanko",
+    "language": "nup",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Dichrostachys glomerata (Forsk.) Chiov.",
+    "accepted_botanical": "Dichrostachys cinerea africana",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 11
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -11815,6 +13219,36 @@
     "export_eligible": true
   },
   {
+    "id": "name-ewuro-8b0623220c",
+    "plant_id": "plant-gymnanthemum-amygdalinum-5dbeaea320",
+    "local_name": "Ewuro",
+    "normalized_name": "ewuro",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": [
+        "Benue State",
+        "Federal Capital Territory",
+        "Kogi State",
+        "Kwara State",
+        "Nasarawa State",
+        "Niger State",
+        "Plateau State"
+      ]
+    },
+    "botanical_as_published": "Vernonia amygdalina Delile",
+    "accepted_botanical": "Gymnanthemum amygdalinum",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 67
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-ewuro-2fd4af7566",
     "plant_id": "plant-gymnanthemum-amygdalinum-5dbeaea320",
     "local_name": "Ewuro",
@@ -12121,6 +13555,50 @@
     "export_eligible": true
   },
   {
+    "id": "name-fasakuwari-71849b1c12",
+    "plant_id": "plant-zanthoxylum-zanthoxyloides-35bfd45a11",
+    "local_name": "Fasakuwari",
+    "normalized_name": "fasakuwari",
+    "language": "ha",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Zanthoxylum zanthoxyloides Zepernick & Timler.",
+    "accepted_botanical": "Zanthoxylum zanthoxyloides",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 32
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-fasakwabri-6e46e7178d",
+    "plant_id": "plant-zanthoxylum-zanthoxyloides-35bfd45a11",
+    "local_name": "Fasakwabri",
+    "normalized_name": "fasakwabri",
+    "language": "ff",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Zanthoxylum zanthoxyloides Zepernick & Timler.",
+    "accepted_botanical": "Zanthoxylum zanthoxyloides",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 32
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-fatumi-98fe386002",
     "plant_id": "plant-ouret-lanata-a3d295d882",
     "local_name": "fatumi",
@@ -12283,6 +13761,50 @@
     "export_eligible": true
   },
   {
+    "id": "name-gabaruwa-b55e2d34ce",
+    "plant_id": "plant-vachellia-nilotica-f76029b6d9",
+    "local_name": "Gabaruwa",
+    "normalized_name": "gabaruwa",
+    "language": "nup",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Acacia nilotica (L.) Willd ex Del.",
+    "accepted_botanical": "Vachellia nilotica",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 1
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-gabdi-65adaee181",
+    "plant_id": "plant-vachellia-nilotica-f76029b6d9",
+    "local_name": "Gabdi",
+    "normalized_name": "gabdi",
+    "language": "ff",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Acacia nilotica (L.) Willd ex Del.",
+    "accepted_botanical": "Vachellia nilotica",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 1
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-gaingain-76d13abae5",
     "plant_id": "plant-citrus-aurantiifolia-e96354d670",
     "local_name": "Gaingain",
@@ -12344,6 +13866,126 @@
     "export_eligible": true
   },
   {
+    "id": "name-gangamau-9c31b75be1",
+    "plant_id": "plant-curcuma-longa-cac6186f50",
+    "local_name": "Gangamau",
+    "normalized_name": "gangamau",
+    "language": "ha",
+    "region": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": [
+        "Benue State",
+        "Federal Capital Territory",
+        "Kogi State",
+        "Kwara State",
+        "Nasarawa State",
+        "Niger State",
+        "Plateau State"
+      ]
+    },
+    "botanical_as_published": "Curcuma longa L.",
+    "accepted_botanical": "Curcuma longa",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 31
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-ganyen-gwava-e340e3ea67",
+    "plant_id": "plant-psidium-guajava-ef93129072",
+    "local_name": "Ganyen gwava",
+    "normalized_name": "ganyen gwava",
+    "language": "ha",
+    "region": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": [
+        "Benue State",
+        "Federal Capital Territory",
+        "Kogi State",
+        "Kwara State",
+        "Nasarawa State",
+        "Niger State",
+        "Plateau State"
+      ]
+    },
+    "botanical_as_published": "Psidium guajava L.",
+    "accepted_botanical": "Psidium guajava",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 61
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-garaguni-c7a7209590",
+    "plant_id": "plant-momordica-balsamina-acee42927e",
+    "local_name": "Garaguni",
+    "normalized_name": "garaguni",
+    "language": "ha",
+    "region": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": [
+        "Benue State",
+        "Federal Capital Territory",
+        "Kogi State",
+        "Kwara State",
+        "Nasarawa State",
+        "Niger State",
+        "Plateau State"
+      ]
+    },
+    "botanical_as_published": "Momordica balsamina L.",
+    "accepted_botanical": "Momordica balsamina",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 49
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-garahuni-792f2c63a8",
+    "plant_id": "plant-momordica-balsamina-acee42927e",
+    "local_name": "Garahuni",
+    "normalized_name": "garahuni",
+    "language": "ha",
+    "region": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": [
+        "Benue State",
+        "Federal Capital Territory",
+        "Kogi State",
+        "Kwara State",
+        "Nasarawa State",
+        "Niger State",
+        "Plateau State"
+      ]
+    },
+    "botanical_as_published": "Momordica balsamina L.",
+    "accepted_botanical": "Momordica balsamina",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 49
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-garahunu-8575d7c709",
     "plant_id": null,
     "local_name": "Garahunu",
@@ -12375,6 +14017,66 @@
     "verification_status": "taxonomy_unresolved",
     "reviewed_by": null,
     "export_eligible": false
+  },
+  {
+    "id": "name-garehul-a1cd9d6b0d",
+    "plant_id": "plant-citrus-aurantium-6b3a87e59c",
+    "local_name": "Garehul",
+    "normalized_name": "garehul",
+    "language": "ha",
+    "region": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": [
+        "Benue State",
+        "Federal Capital Territory",
+        "Kogi State",
+        "Kwara State",
+        "Nasarawa State",
+        "Niger State",
+        "Plateau State"
+      ]
+    },
+    "botanical_as_published": "Citrus paradise Macfad.",
+    "accepted_botanical": "Citrus aurantium",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 24
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-garin-bambaro-772252579c",
+    "plant_id": "plant-fragaria-vesca-77eb0b1e0c",
+    "local_name": "Garin bambaro",
+    "normalized_name": "garin bambaro",
+    "language": "ha",
+    "region": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": [
+        "Benue State",
+        "Federal Capital Territory",
+        "Kogi State",
+        "Kwara State",
+        "Nasarawa State",
+        "Niger State",
+        "Plateau State"
+      ]
+    },
+    "botanical_as_published": "Fragaria vesca L.",
+    "accepted_botanical": "Fragaria vesca",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 35
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
   },
   {
     "id": "name-garlic-40e3be11a9",
@@ -12462,6 +14164,28 @@
     "export_eligible": true
   },
   {
+    "id": "name-gaya-0d23ee54ff",
+    "plant_id": "plant-senna-occidentalis-9d5c9f2d10",
+    "local_name": "Gaya",
+    "normalized_name": "gaya",
+    "language": "nup",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Cassia occidentalis Linn.",
+    "accepted_botanical": "Senna occidentalis",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 8
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-gaya-eba-5d1b850890",
     "plant_id": "plant-senna-occidentalis-9d5c9f2d10",
     "local_name": "Gayà ebá",
@@ -12506,6 +14230,28 @@
     "source_locator": {
       "table": "Supplementary Table S1",
       "row": 54
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-gbashi-788291899e",
+    "plant_id": "plant-nauclea-latifolia-53fa5cb38c",
+    "local_name": "Gbashi",
+    "normalized_name": "gbashi",
+    "language": "nup",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Sarcocephalus latifolius (Sm.)Bruce",
+    "accepted_botanical": "Nauclea latifolia",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 25
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -13037,6 +14783,28 @@
     "export_eligible": true
   },
   {
+    "id": "name-goiba-c0c8f20b23",
+    "plant_id": "plant-psidium-guajava-ef93129072",
+    "local_name": "Goiba",
+    "normalized_name": "goiba",
+    "language": "ha",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Psidium guajava L.",
+    "accepted_botanical": "Psidium guajava",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 22
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-goska-880cdc6288",
     "plant_id": "plant-erythrophleum-africanum-631688e601",
     "local_name": "Goska",
@@ -13088,6 +14856,28 @@
     "source_locator": {
       "table": "Table 1",
       "row": 52
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-goyiba-95bbe10efd",
+    "plant_id": "plant-psidium-guajava-ef93129072",
+    "local_name": "Goyiba",
+    "normalized_name": "goyiba",
+    "language": "nup",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Psidium guajava L.",
+    "accepted_botanical": "Psidium guajava",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 22
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -13175,6 +14965,88 @@
     "export_eligible": true
   },
   {
+    "id": "name-gujiya-d1e5b4c79f",
+    "plant_id": "plant-vigna-subterranea-614c8cd19b",
+    "local_name": "Gujiya",
+    "normalized_name": "gujiya",
+    "language": "ha",
+    "region": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": [
+        "Benue State",
+        "Federal Capital Territory",
+        "Kogi State",
+        "Kwara State",
+        "Nasarawa State",
+        "Niger State",
+        "Plateau State"
+      ]
+    },
+    "botanical_as_published": "Vigna subterranea (L.) Verdc.",
+    "accepted_botanical": "Vigna subterranea",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 68
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-guna-0fda28178d",
+    "plant_id": "plant-citrullus-colocynthis-7f7261a3c1",
+    "local_name": "Guna",
+    "normalized_name": "guna",
+    "language": "ha",
+    "region": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": [
+        "Benue State",
+        "Federal Capital Territory",
+        "Kogi State",
+        "Kwara State",
+        "Nasarawa State",
+        "Niger State",
+        "Plateau State"
+      ]
+    },
+    "botanical_as_published": "Citrullus colocynthis (L.) Schrad.",
+    "accepted_botanical": "Citrullus colocynthis",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 20
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-gungoroko-b0b43ea020",
+    "plant_id": "plant-senna-alata-6d79b20446",
+    "local_name": "Gungoroko",
+    "normalized_name": "gungoroko",
+    "language": "nup",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Senna (Cassia) alata (L.) Roxb.",
+    "accepted_botanical": "Senna alata",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 27
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-gure-469b2cd637",
     "plant_id": "plant-talinum-fruticosum-35add5c378",
     "local_name": "Gure",
@@ -13197,6 +15069,28 @@
     "source_locator": {
       "table": "Supplementary Table S1",
       "row": 166
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-gurjiya-8878558d95",
+    "plant_id": "plant-bombax-buonopozense-38172e7690",
+    "local_name": "Gurjiya",
+    "normalized_name": "gurjiya",
+    "language": "ha",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Bombax buonopozense P. Beauv.",
+    "accepted_botanical": "Bombax buonopozense",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 6
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -13243,6 +15137,28 @@
     "source_locator": {
       "table": "Table 1",
       "row": 52
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-guzhia-237ef135b5",
+    "plant_id": "plant-arachis-hypogaea-6c43bcbd7f",
+    "local_name": "Guzhia",
+    "normalized_name": "guzhia",
+    "language": "nup",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Arachis hypogea L.",
+    "accepted_botanical": "Arachis hypogaea",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 4
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -13387,6 +15303,28 @@
     "export_eligible": true
   },
   {
+    "id": "name-gwandar-daji-c464141536",
+    "plant_id": "plant-annona-senegalensis-f12628a80c",
+    "local_name": "Gwandar daji",
+    "normalized_name": "gwandar daji",
+    "language": "ha",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Annona senegalensis Pers.",
+    "accepted_botanical": "Annona senegalensis",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 3
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-gwaska-fd86aec83a",
     "plant_id": "plant-erythrophleum-suaveolens-f9140c6ab0",
     "local_name": "Gwaska",
@@ -13447,6 +15385,88 @@
     "source_locator": {
       "table": "Table 1",
       "row": 10
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-gyada-7aa1147f6d",
+    "plant_id": "plant-arachis-hypogaea-6c43bcbd7f",
+    "local_name": "Gyada",
+    "normalized_name": "gyada",
+    "language": "ha",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Arachis hypogea L.",
+    "accepted_botanical": "Arachis hypogaea",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 4
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-gyadar-kamshi-ec9d2a9eed",
+    "plant_id": "plant-myristica-fragrans-5fa608361f",
+    "local_name": "Gyadar Kamshi",
+    "normalized_name": "gyadar kamshi",
+    "language": "ha",
+    "region": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": [
+        "Benue State",
+        "Federal Capital Territory",
+        "Kogi State",
+        "Kwara State",
+        "Nasarawa State",
+        "Niger State",
+        "Plateau State"
+      ]
+    },
+    "botanical_as_published": "Myristica fragrans Houtt.",
+    "accepted_botanical": "Myristica fragrans",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 54
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-haa-43e83a7d92",
+    "plant_id": "plant-khaya-senegalensis-f69ad4fed5",
+    "local_name": "Haa",
+    "normalized_name": "haa",
+    "language": "tiv",
+    "region": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": [
+        "Benue State",
+        "Federal Capital Territory",
+        "Kogi State",
+        "Kwara State",
+        "Nasarawa State",
+        "Niger State",
+        "Plateau State"
+      ]
+    },
+    "botanical_as_published": "Khaya senegalensis (Desv.) A.Juss.",
+    "accepted_botanical": "Khaya senegalensis",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 45
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -13532,6 +15552,58 @@
     "source_locator": {
       "table": "Table 1",
       "row": 9
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-hanza-39f44def8e",
+    "plant_id": "plant-boscia-senegalensis-2dbb46e248",
+    "local_name": "hanza",
+    "normalized_name": "hanza",
+    "language": "ha",
+    "region": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": [
+        "Benue State",
+        "Federal Capital Territory",
+        "Kogi State",
+        "Kwara State",
+        "Nasarawa State",
+        "Niger State",
+        "Plateau State"
+      ]
+    },
+    "botanical_as_published": "Boscia senegalensis Lam.",
+    "accepted_botanical": "Boscia senegalensis",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 11
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-harwatsi-de2a171a27",
+    "plant_id": "plant-mitracarpus-hirtus-153212d7cc",
+    "local_name": "Harwatsi",
+    "normalized_name": "harwatsi",
+    "language": "ha",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Mitracarpus scaber Zucc. and ex Schult + Schult.f.",
+    "accepted_botanical": "Mitracarpus hirtus",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 17
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -13658,6 +15730,36 @@
     "source_id": "legacy-lookup-v1",
     "source_locator": null,
     "verification_status": "legacy_unverified",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-ibepe-c5db2f2536",
+    "plant_id": "plant-carica-papaya-d45ff84fbe",
+    "local_name": "Ibepe",
+    "normalized_name": "ibepe",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": [
+        "Benue State",
+        "Federal Capital Territory",
+        "Kogi State",
+        "Kwara State",
+        "Nasarawa State",
+        "Niger State",
+        "Plateau State"
+      ]
+    },
+    "botanical_as_published": "Carica papaya L.",
+    "accepted_botanical": "Carica papaya",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 16
+    },
+    "verification_status": "taxonomy_checked",
     "reviewed_by": null,
     "export_eligible": true
   },
@@ -16371,6 +18473,28 @@
     "export_eligible": true
   },
   {
+    "id": "name-jabe-puri-c2a657cd6f",
+    "plant_id": "plant-ziziphus-abyssinica-6f090c5897",
+    "local_name": "Jabe puri",
+    "normalized_name": "jabe puri",
+    "language": "ff",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Ziziphus abyssinica Hochst. ex A. Rich.",
+    "accepted_botanical": "Ziziphus abyssinica",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 34
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-jaloke-f505a68889",
     "plant_id": "plant-artocarpus-altilis-0846570e26",
     "local_name": "Jaloke",
@@ -16638,6 +18762,28 @@
     "export_eligible": true
   },
   {
+    "id": "name-jillarehi-a48a6dfecc",
+    "plant_id": "plant-kigelia-africana-46d315983f",
+    "local_name": "Jillarehi",
+    "normalized_name": "jillarehi",
+    "language": "ff",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Kigelia africana (Lam.) Benth.",
+    "accepted_botanical": "Kigelia africana",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 15
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-jillarehi-0fb7d1e52f",
     "plant_id": "plant-kigelia-africana-46d315983f",
     "local_name": "Jillarehi",
@@ -16689,6 +18835,36 @@
     "source_locator": {
       "table": "Table 1",
       "row": 1
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-jinja-a45d0934f2",
+    "plant_id": "plant-zingiber-officinale-8932efc2ae",
+    "local_name": "Jinja",
+    "normalized_name": "jinja",
+    "language": "ig",
+    "region": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": [
+        "Benue State",
+        "Federal Capital Territory",
+        "Kogi State",
+        "Kwara State",
+        "Nasarawa State",
+        "Niger State",
+        "Plateau State"
+      ]
+    },
+    "botanical_as_published": "Zingiber officinale roscoe",
+    "accepted_botanical": "Zingiber officinale",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 69
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -16841,6 +19017,80 @@
     "source_locator": {
       "table": "Table 1",
       "row": 83
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-kabeji-e14cbc5b08",
+    "plant_id": "plant-brassica-oleracea-1fd4f3e33d",
+    "local_name": "Kabeji",
+    "normalized_name": "kabeji",
+    "language": "ha",
+    "region": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": [
+        "Benue State",
+        "Federal Capital Territory",
+        "Kogi State",
+        "Kwara State",
+        "Nasarawa State",
+        "Niger State",
+        "Plateau State"
+      ]
+    },
+    "botanical_as_published": "Brassica oleracea L.",
+    "accepted_botanical": "Brassica oleracea",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 12
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-kabi-malam-66f1ca71ee",
+    "plant_id": "plant-schwenckia-americana-9db4a121c1",
+    "local_name": "Kabi-malam",
+    "normalized_name": "kabi malam",
+    "language": "nup",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Schwenckia americana Linn.",
+    "accepted_botanical": "Schwenckia americana",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 26
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-kadanya-40692abba9",
+    "plant_id": "plant-vitellaria-paradoxa-de73616dac",
+    "local_name": "Kadanya",
+    "normalized_name": "kadanya",
+    "language": "ha",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Butyrospermum paradoxum (Gaertn.f.) Hepper",
+    "accepted_botanical": "Vitellaria paradoxa",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 7
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -17182,6 +19432,28 @@
     "export_eligible": true
   },
   {
+    "id": "name-kalgo-47671b9a68",
+    "plant_id": "plant-piliostigma-thonningii-54038cc24e",
+    "local_name": "Kalgo",
+    "normalized_name": "kalgo",
+    "language": "ha",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Piliostigma thonningii (Schum.) Milne-Redhead",
+    "accepted_botanical": "Piliostigma thonningii",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 20
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-kalgo-dc92a2cc26",
     "plant_id": "plant-piliostigma-reticulatum-7e096874c2",
     "local_name": "kalgo",
@@ -17450,6 +19722,36 @@
     "export_eligible": true
   },
   {
+    "id": "name-kankana-f33d28d3d6",
+    "plant_id": "plant-citrullus-lanatus-93ead4239e",
+    "local_name": "Kankana",
+    "normalized_name": "kankana",
+    "language": "ha",
+    "region": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": [
+        "Benue State",
+        "Federal Capital Territory",
+        "Kogi State",
+        "Kwara State",
+        "Nasarawa State",
+        "Niger State",
+        "Plateau State"
+      ]
+    },
+    "botanical_as_published": "Citrullus lanatus (Thunb.) Matsum. & Nakai",
+    "accepted_botanical": "Citrullus lanatus",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 21
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-kanminko-7940a568f9",
     "plant_id": "plant-cascabela-thevetia-40a0c1a165",
     "local_name": "Kanminko",
@@ -17585,6 +19887,28 @@
     "export_eligible": true
   },
   {
+    "id": "name-karaji-b159e5cf5d",
+    "plant_id": "plant-vitellaria-paradoxa-de73616dac",
+    "local_name": "Karaji",
+    "normalized_name": "karaji",
+    "language": "ff",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Butyrospermum paradoxum (Gaertn.f.) Hepper",
+    "accepted_botanical": "Vitellaria paradoxa",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 7
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-karandafi-80d51f0465",
     "plant_id": "plant-sorghum-bicolor-43dce6dca3",
     "local_name": "Karandafi",
@@ -17600,6 +19924,28 @@
     "source_id": "evbuomwan-2023-kwara",
     "source_locator": {
       "table": "Table 1",
+      "row": 23
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-karereshi-yolde-b797426196",
+    "plant_id": "plant-lophira-lanceolata-548e1e955d",
+    "local_name": "Karereshi-yolde",
+    "normalized_name": "karereshi yolde",
+    "language": "ff",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Lophira lanceolata Van Tiegh. ex Keay",
+    "accepted_botanical": "Lophira lanceolata",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
       "row": 23
     },
     "verification_status": "taxonomy_checked",
@@ -17634,6 +19980,28 @@
     "source_locator": {
       "table": "Table 1",
       "row": 40
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-kasfiya-2ecb4ec818",
+    "plant_id": "plant-crossopteryx-febrifuga-dffd28447e",
+    "local_name": "Kasfiya",
+    "normalized_name": "kasfiya",
+    "language": "ha",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Crossopteryx febrifuga (Afzel. ex G. Don) Benth.",
+    "accepted_botanical": "Crossopteryx febrifuga",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 10
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -17833,6 +20201,28 @@
     "export_eligible": true
   },
   {
+    "id": "name-kawo-nuwanchi-8013af32c7",
+    "plant_id": "plant-entada-africana-2c0624fa5e",
+    "local_name": "Kawo-nuwanchi",
+    "normalized_name": "kawo nuwanchi",
+    "language": "nup",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Entada africana Guill. & Perr.",
+    "accepted_botanical": "Entada africana",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 13
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-kawuri-5a30a17b92",
     "plant_id": "plant-ficus-ingens-6f81ea1403",
     "local_name": "Kawuri",
@@ -17890,6 +20280,36 @@
     "export_eligible": true
   },
   {
+    "id": "name-kirfa-fbbda894cc",
+    "plant_id": "plant-cinnamomum-verum-9e3f7aeb97",
+    "local_name": "Kirfa",
+    "normalized_name": "kirfa",
+    "language": "ha",
+    "region": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": [
+        "Benue State",
+        "Federal Capital Territory",
+        "Kogi State",
+        "Kwara State",
+        "Nasarawa State",
+        "Niger State",
+        "Plateau State"
+      ]
+    },
+    "botanical_as_published": "Cinnamomum verum J.Presl",
+    "accepted_botanical": "Cinnamomum verum",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 19
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-kirfa-37073a319c",
     "plant_id": "plant-cinnamomum-verum-9e3f7aeb97",
     "local_name": "kirfa",
@@ -17927,6 +20347,58 @@
     "source_locator": {
       "table": "Table 2",
       "row": 37
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-kirya-4d87644b6d",
+    "plant_id": "plant-prosopis-africana-f699fc148f",
+    "local_name": "Kirya",
+    "normalized_name": "kirya",
+    "language": "ha",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Prosopis africana (Guill. & Perr.) Taub.",
+    "accepted_botanical": "Prosopis africana",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 21
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-kirya-642041ded8",
+    "plant_id": "plant-prosopis-africana-f699fc148f",
+    "local_name": "Kirya",
+    "normalized_name": "kirya",
+    "language": "ha",
+    "region": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": [
+        "Benue State",
+        "Federal Capital Territory",
+        "Kogi State",
+        "Kwara State",
+        "Nasarawa State",
+        "Niger State",
+        "Plateau State"
+      ]
+    },
+    "botanical_as_published": "Prosopis africana (Guill. & Perr.) Taub.",
+    "accepted_botanical": "Prosopis africana",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 60
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -17984,6 +20456,72 @@
     "source_locator": {
       "table": "Table 2",
       "row": 1
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-kochi-8786ce6cc3",
+    "plant_id": "plant-vitellaria-paradoxa-de73616dac",
+    "local_name": "Kochi",
+    "normalized_name": "kochi",
+    "language": "nup",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Butyrospermum paradoxum (Gaertn.f.) Hepper",
+    "accepted_botanical": "Vitellaria paradoxa",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 7
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-kochi-kere-45475beb4c",
+    "plant_id": "plant-lophira-lanceolata-548e1e955d",
+    "local_name": "Kochi-kere",
+    "normalized_name": "kochi kere",
+    "language": "nup",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Lophira lanceolata Van Tiegh. ex Keay",
+    "accepted_botanical": "Lophira lanceolata",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 23
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-kohi-ba1c7ea3d4",
+    "plant_id": "plant-prosopis-africana-f699fc148f",
+    "local_name": "Kohi",
+    "normalized_name": "kohi",
+    "language": "ff",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Prosopis africana (Guill. & Perr.) Taub.",
+    "accepted_botanical": "Prosopis africana",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 21
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -18108,6 +20646,36 @@
     "export_eligible": true
   },
   {
+    "id": "name-kokwamba-85b3650fdd",
+    "plant_id": "plant-cucumis-sativus-68244329ee",
+    "local_name": "Kokwamba",
+    "normalized_name": "kokwamba",
+    "language": "ha",
+    "region": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": [
+        "Benue State",
+        "Federal Capital Territory",
+        "Kogi State",
+        "Kwara State",
+        "Nasarawa State",
+        "Niger State",
+        "Plateau State"
+      ]
+    },
+    "botanical_as_published": "Cucumis sativus L.",
+    "accepted_botanical": "Cucumis sativus",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 28
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-kola-nut-a560c3a13c",
     "plant_id": "plant-cola-nitida-2dfbb7b2a9",
     "local_name": "kola nut",
@@ -18123,6 +20691,28 @@
     "source_id": "legacy-lookup-v1",
     "source_locator": null,
     "verification_status": "legacy_unverified",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-kolakolahi-ec0b77c8d0",
+    "plant_id": "plant-ricinus-communis-deda1fad54",
+    "local_name": "Kolakolahi",
+    "normalized_name": "kolakolahi",
+    "language": "ff",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Ricinus communis Linn.",
+    "accepted_botanical": "Ricinus communis",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 24
+    },
+    "verification_status": "taxonomy_checked",
     "reviewed_by": null,
     "export_eligible": true
   },
@@ -18154,6 +20744,36 @@
     "source_locator": {
       "table": "Table 1",
       "row": 34
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-komayya-1b20809925",
+    "plant_id": "plant-brassica-nigra-166d2af052",
+    "local_name": "Kõmayya",
+    "normalized_name": "komayya",
+    "language": "ha",
+    "region": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": [
+        "Benue State",
+        "Federal Capital Territory",
+        "Kogi State",
+        "Kwara State",
+        "Nasarawa State",
+        "Niger State",
+        "Plateau State"
+      ]
+    },
+    "botanical_as_published": "Brassica nigra (L.) K.Koch",
+    "accepted_botanical": "Brassica nigra",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 13
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -18331,6 +20951,72 @@
     "export_eligible": true
   },
   {
+    "id": "name-kosonkori-4a27e147bc",
+    "plant_id": "plant-zanthoxylum-zanthoxyloides-35bfd45a11",
+    "local_name": "Kosonkori",
+    "normalized_name": "kosonkori",
+    "language": "nup",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Zanthoxylum zanthoxyloides Zepernick & Timler.",
+    "accepted_botanical": "Zanthoxylum zanthoxyloides",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 32
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-kpace-fb0293207e",
+    "plant_id": "plant-terminalia-macroptera-95bc93c88f",
+    "local_name": "Kpace",
+    "normalized_name": "kpace",
+    "language": "nup",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Terminalia macroptera Guill. & Perr.",
+    "accepted_botanical": "Terminalia macroptera",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 29
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-kpanfiniko-gulu-f7a598dcf5",
+    "plant_id": "plant-ricinus-communis-deda1fad54",
+    "local_name": "Kpanfiniko-gulu",
+    "normalized_name": "kpanfiniko gulu",
+    "language": "nup",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Ricinus communis Linn.",
+    "accepted_botanical": "Ricinus communis",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 24
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-kpulibo-ef7ce3e4cb",
     "plant_id": "plant-ipomoea-quamoclit-7b2a9d1240",
     "local_name": "Kpulibo",
@@ -18349,6 +21035,36 @@
     "source_locator": {
       "table": "Table 1",
       "row": 57
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-kuka-1ac56b8a27",
+    "plant_id": "plant-adansonia-digitata-de5778c4db",
+    "local_name": "Kuka",
+    "normalized_name": "kuka",
+    "language": "ha",
+    "region": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": [
+        "Benue State",
+        "Federal Capital Territory",
+        "Kogi State",
+        "Kwara State",
+        "Nasarawa State",
+        "Niger State",
+        "Plateau State"
+      ]
+    },
+    "botanical_as_published": "Adansonia digitata L.",
+    "accepted_botanical": "Adansonia digitata",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 2
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -18406,6 +21122,36 @@
     "source_locator": {
       "table": "Table 1",
       "row": 64
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-kukumba-195470c186",
+    "plant_id": "plant-cucumis-sativus-68244329ee",
+    "local_name": "Kukumba",
+    "normalized_name": "kukumba",
+    "language": "ig",
+    "region": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": [
+        "Benue State",
+        "Federal Capital Territory",
+        "Kogi State",
+        "Kwara State",
+        "Nasarawa State",
+        "Niger State",
+        "Plateau State"
+      ]
+    },
+    "botanical_as_published": "Cucumis sativus L.",
+    "accepted_botanical": "Cucumis sativus",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 28
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -18488,6 +21234,58 @@
     "export_eligible": true
   },
   {
+    "id": "name-kurkur-08aaaf7cc7",
+    "plant_id": "plant-curcuma-longa-cac6186f50",
+    "local_name": "Kurkur",
+    "normalized_name": "kurkur",
+    "language": "ha",
+    "region": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": [
+        "Benue State",
+        "Federal Capital Territory",
+        "Kogi State",
+        "Kwara State",
+        "Nasarawa State",
+        "Niger State",
+        "Plateau State"
+      ]
+    },
+    "botanical_as_published": "Curcuma longa L.",
+    "accepted_botanical": "Curcuma longa",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 31
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-kutukpachi-18c16a4909",
+    "plant_id": "plant-bombax-buonopozense-38172e7690",
+    "local_name": "Kutukpachi",
+    "normalized_name": "kutukpachi",
+    "language": "nup",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Bombax buonopozense P. Beauv.",
+    "accepted_botanical": "Bombax buonopozense",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 6
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-kwagugi-0f79b4494f",
     "plant_id": "plant-aristolochia-ringens-d314dc2b66",
     "local_name": "Kwagũ̀gi",
@@ -18537,6 +21335,118 @@
     "source_locator": {
       "table": "Table 1",
       "row": 41
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-kwakwa-91a9e4e093",
+    "plant_id": "plant-cocos-nucifera-20f1d857c6",
+    "local_name": "Kwakwa",
+    "normalized_name": "kwakwa",
+    "language": "ha",
+    "region": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": [
+        "Benue State",
+        "Federal Capital Territory",
+        "Kogi State",
+        "Kwara State",
+        "Nasarawa State",
+        "Niger State",
+        "Plateau State"
+      ]
+    },
+    "botanical_as_published": "Cocos nucifera L.",
+    "accepted_botanical": "Cocos nucifera",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 26
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-kwari-2d29a3b876",
+    "plant_id": "plant-anthocleista-vogelii-5acdf5facc",
+    "local_name": "Kwari",
+    "normalized_name": "kwari",
+    "language": "ha",
+    "region": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": [
+        "Benue State",
+        "Federal Capital Territory",
+        "Kogi State",
+        "Kwara State",
+        "Nasarawa State",
+        "Niger State",
+        "Plateau State"
+      ]
+    },
+    "botanical_as_published": "Anthocleista vogelii Planch.",
+    "accepted_botanical": "Anthocleista vogelii",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 8
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-kwashi-5c04814a3d",
+    "plant_id": "plant-psidium-guajava-ef93129072",
+    "local_name": "Kwashi",
+    "normalized_name": "kwashi",
+    "language": "ff",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Psidium guajava L.",
+    "accepted_botanical": "Psidium guajava",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 22
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-kyambas-67792755f7",
+    "plant_id": "plant-cochlospermum-tinctorium-3ac4c9f071",
+    "local_name": "Kyambas",
+    "normalized_name": "kyambas",
+    "language": "ha",
+    "region": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": [
+        "Benue State",
+        "Federal Capital Territory",
+        "Kogi State",
+        "Kwara State",
+        "Nasarawa State",
+        "Niger State",
+        "Plateau State"
+      ]
+    },
+    "botanical_as_published": "Cochlospermum tinctorium Perrier ex A.Rich.",
+    "accepted_botanical": "Cochlospermum tinctorium",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 25
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -18665,6 +21575,28 @@
     "export_eligible": false
   },
   {
+    "id": "name-lali-4848c07870",
+    "plant_id": "plant-lawsonia-inermis-7ff9dfd7a9",
+    "local_name": "Lali",
+    "normalized_name": "lali",
+    "language": "nup",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Lawsonia inermis (L.) Keay",
+    "accepted_botanical": "Lawsonia inermis",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 16
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-lali-573106934d",
     "plant_id": "plant-lawsonia-inermis-7ff9dfd7a9",
     "local_name": "Lǎli",
@@ -18705,6 +21637,28 @@
     "source_locator": {
       "table": "Table 1",
       "row": 69
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-lalle-e3a80ed021",
+    "plant_id": "plant-lawsonia-inermis-7ff9dfd7a9",
+    "local_name": "Lalle",
+    "normalized_name": "lalle",
+    "language": "ha",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Lawsonia inermis (L.) Keay",
+    "accepted_botanical": "Lawsonia inermis",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 16
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -18753,6 +21707,28 @@
     "source_locator": {
       "table": "Table 1",
       "row": 5
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-lammude-ef606e0b58",
+    "plant_id": "plant-citrus-aurantiifolia-e96354d670",
+    "local_name": "Lammude",
+    "normalized_name": "lammude",
+    "language": "ff",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Citrus aurantifolia (Christm.) Swingle",
+    "accepted_botanical": "Citrus aurantiifolia",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 9
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -18966,6 +21942,110 @@
     "export_eligible": true
   },
   {
+    "id": "name-lemu-bakagi-ff68a060ee",
+    "plant_id": "plant-citrus-aurantiifolia-e96354d670",
+    "local_name": "Lemu bakagi",
+    "normalized_name": "lemu bakagi",
+    "language": "nup",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Citrus aurantifolia (Christm.) Swingle",
+    "accepted_botanical": "Citrus aurantiifolia",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 9
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-lemu-tsami-544c6211b3",
+    "plant_id": "plant-citrus-aurantiifolia-e96354d670",
+    "local_name": "Lemu tsami",
+    "normalized_name": "lemu tsami",
+    "language": "ha",
+    "region": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": [
+        "Benue State",
+        "Federal Capital Territory",
+        "Kogi State",
+        "Kwara State",
+        "Nasarawa State",
+        "Niger State",
+        "Plateau State"
+      ]
+    },
+    "botanical_as_published": "Citrus aurantifolia (Christm.) Swingle",
+    "accepted_botanical": "Citrus aurantiifolia",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 22
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-lemun-tsami-2592e1cb05",
+    "plant_id": "plant-citrus-aurantiifolia-e96354d670",
+    "local_name": "Lemun tsami",
+    "normalized_name": "lemun tsami",
+    "language": "ha",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Citrus aurantifolia (Christm.) Swingle",
+    "accepted_botanical": "Citrus aurantiifolia",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 9
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-lemun-tsami-ciyawa-ea8b566d63",
+    "plant_id": "plant-cymbopogon-citratus-d5de29a9fd",
+    "local_name": "Lemun tsami ciyawa",
+    "normalized_name": "lemun tsami ciyawa",
+    "language": "ha",
+    "region": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": [
+        "Benue State",
+        "Federal Capital Territory",
+        "Kogi State",
+        "Kwara State",
+        "Nasarawa State",
+        "Niger State",
+        "Plateau State"
+      ]
+    },
+    "botanical_as_published": "Cymbopogon citratus (DC.) Stapf",
+    "accepted_botanical": "Cymbopogon citratus",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 32
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-lime-2ce854a534",
     "plant_id": "plant-citrus-aurantiifolia-e96354d670",
     "local_name": "lime",
@@ -19104,6 +22184,28 @@
     "source_id": "legacy-lookup-v1",
     "source_locator": null,
     "verification_status": "legacy_unverified",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-lonchi-ae02cadce3",
+    "plant_id": "plant-parkia-biglobosa-776ff1d28f",
+    "local_name": "Lonchi",
+    "normalized_name": "lonchi",
+    "language": "nup",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Parkia biglobosa Aubrevielle",
+    "accepted_botanical": "Parkia biglobosa",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 19
+    },
+    "verification_status": "taxonomy_checked",
     "reviewed_by": null,
     "export_eligible": true
   },
@@ -19290,6 +22392,102 @@
     "source_locator": {
       "table": "Table 1",
       "row": 37
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-magamun-b6835e155e",
+    "plant_id": "plant-tephrosia-vogelii-052b63a8d8",
+    "local_name": "Magamun",
+    "normalized_name": "magamun",
+    "language": "ha",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Tephrosia vogelii Hook.f.",
+    "accepted_botanical": "Tephrosia vogelii",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 28
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-maganci-50023d25b9",
+    "plant_id": "plant-lophira-lanceolata-548e1e955d",
+    "local_name": "Maganci",
+    "normalized_name": "maganci",
+    "language": "nup",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Lophira lanceolata Van Tiegh. ex Keay",
+    "accepted_botanical": "Lophira lanceolata",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 23
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-magariya-kura-1447b759de",
+    "plant_id": "plant-ziziphus-abyssinica-6f090c5897",
+    "local_name": "Magariya kura",
+    "normalized_name": "magariya kura",
+    "language": "ha",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Ziziphus abyssinica Hochst. ex A. Rich.",
+    "accepted_botanical": "Ziziphus abyssinica",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 34
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-magarya-ec2081cc30",
+    "plant_id": "plant-ziziphus-jujuba-f3488140f0",
+    "local_name": "Magarya",
+    "normalized_name": "magarya",
+    "language": "ha",
+    "region": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": [
+        "Benue State",
+        "Federal Capital Territory",
+        "Kogi State",
+        "Kwara State",
+        "Nasarawa State",
+        "Niger State",
+        "Plateau State"
+      ]
+    },
+    "botanical_as_published": "Ziziphus jujube Mill.",
+    "accepted_botanical": "Ziziphus jujuba",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 70
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -19910,6 +23108,36 @@
     "export_eligible": true
   },
   {
+    "id": "name-mingirya-14d1c8a342",
+    "plant_id": "plant-chrozophora-senegalensis-5ebea10991",
+    "local_name": "Mingirya",
+    "normalized_name": "mingirya",
+    "language": "ha",
+    "region": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": [
+        "Benue State",
+        "Federal Capital Territory",
+        "Kogi State",
+        "Kwara State",
+        "Nasarawa State",
+        "Niger State",
+        "Plateau State"
+      ]
+    },
+    "botanical_as_published": "Chrozophora senegalensis (Lam.) A.Juss. ex Spreng.",
+    "accepted_botanical": "Chrozophora senegalensis",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 18
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-mini-eme-f565dbb52d",
     "plant_id": "plant-funtumia-elastica-2b42d35433",
     "local_name": "Mini-eme",
@@ -20314,6 +23542,66 @@
     "export_eligible": true
   },
   {
+    "id": "name-mpoto-b06a895940",
+    "plant_id": "plant-anthocleista-vogelii-5acdf5facc",
+    "local_name": "Mpoto",
+    "normalized_name": "mpoto",
+    "language": "ig",
+    "region": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": [
+        "Benue State",
+        "Federal Capital Territory",
+        "Kogi State",
+        "Kwara State",
+        "Nasarawa State",
+        "Niger State",
+        "Plateau State"
+      ]
+    },
+    "botanical_as_published": "Anthocleista vogelii Planch.",
+    "accepted_botanical": "Anthocleista vogelii",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 8
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-na-a-na-a-ee5752a981",
+    "plant_id": "plant-mentha-pulegium-182675646e",
+    "local_name": "Na'a na'a",
+    "normalized_name": "na a na a",
+    "language": "ha",
+    "region": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": [
+        "Benue State",
+        "Federal Capital Territory",
+        "Kogi State",
+        "Kwara State",
+        "Nasarawa State",
+        "Niger State",
+        "Plateau State"
+      ]
+    },
+    "botanical_as_published": "Mentha pulegium L.",
+    "accepted_botanical": "Mentha pulegium",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 48
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-nalele-74654fdf8d",
     "plant_id": "plant-vitex-doniana-a62b4d1dc8",
     "local_name": "Nalele",
@@ -20332,6 +23620,50 @@
     "source_locator": {
       "table": "Table 1",
       "row": 184
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-nambi-susun-8be21827d7",
+    "plant_id": "plant-crossopteryx-febrifuga-dffd28447e",
+    "local_name": "Nambi susun",
+    "normalized_name": "nambi susun",
+    "language": "nup",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Crossopteryx febrifuga (Afzel. ex G. Don) Benth.",
+    "accepted_botanical": "Crossopteryx febrifuga",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 10
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-namijin-kade-71abfbfaf8",
+    "plant_id": "plant-lophira-lanceolata-548e1e955d",
+    "local_name": "Namijin-kade",
+    "normalized_name": "namijin kade",
+    "language": "ha",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Lophira lanceolata Van Tiegh. ex Keay",
+    "accepted_botanical": "Lophira lanceolata",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 23
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -20389,6 +23721,28 @@
     "source_locator": {
       "table": "Table 1",
       "row": 8
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-narehe-daa3df581b",
+    "plant_id": "plant-parkia-biglobosa-776ff1d28f",
+    "local_name": "Narehe",
+    "normalized_name": "narehe",
+    "language": "ff",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Parkia biglobosa Aubrevielle",
+    "accepted_botanical": "Parkia biglobosa",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 19
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -20657,6 +24011,28 @@
     "source_locator": {
       "table": "Table 1",
       "row": 136
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-nimu-dd7683df0c",
+    "plant_id": "plant-azadirachta-indica-602368d8f9",
+    "local_name": "Nimu",
+    "normalized_name": "nimu",
+    "language": "nup",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Azadirachta indica A. Juss.",
+    "accepted_botanical": "Azadirachta indica",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 5
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -21214,6 +24590,28 @@
     "source_locator": {
       "table": "Table 1",
       "row": 23
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-nungberechi-5ae860e2f7",
+    "plant_id": "plant-annona-senegalensis-f12628a80c",
+    "local_name": "Nungberechi",
+    "normalized_name": "nungberechi",
+    "language": "nup",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Annona senegalensis Pers.",
+    "accepted_botanical": "Annona senegalensis",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 3
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -22578,6 +25976,36 @@
     "export_eligible": true
   },
   {
+    "id": "name-ogbono-ae624a40aa",
+    "plant_id": "plant-irvingia-gabonensis-6202d9e552",
+    "local_name": "Ogbono",
+    "normalized_name": "ogbono",
+    "language": "ig",
+    "region": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": [
+        "Benue State",
+        "Federal Capital Territory",
+        "Kogi State",
+        "Kwara State",
+        "Nasarawa State",
+        "Niger State",
+        "Plateau State"
+      ]
+    },
+    "botanical_as_published": "Irvingia gabonensis (Aubry-Lecomte ex O'Rorke) Baill.",
+    "accepted_botanical": "Irvingia gabonensis",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 44
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-ogbono-57d55ed33a",
     "plant_id": "plant-irvingia-gabonensis-6202d9e552",
     "local_name": "ogbono",
@@ -23029,6 +26457,36 @@
     "export_eligible": true
   },
   {
+    "id": "name-ogu-be4beb75d0",
+    "plant_id": "plant-cucurbita-pepo-03bf5a579e",
+    "local_name": "Ogu",
+    "normalized_name": "ogu",
+    "language": "ig",
+    "region": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": [
+        "Benue State",
+        "Federal Capital Territory",
+        "Kogi State",
+        "Kwara State",
+        "Nasarawa State",
+        "Niger State",
+        "Plateau State"
+      ]
+    },
+    "botanical_as_published": "Cucurbita pepo styriaca L.",
+    "accepted_botanical": "Cucurbita pepo",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 30
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-ogundu-48b605df1c",
     "plant_id": "plant-dalbergia-saxatilis-cb9cc49dfa",
     "local_name": "Ogundu",
@@ -23193,6 +26651,36 @@
     "source_locator": {
       "table": "Table 1",
       "row": 83
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-ohio-2d0313b325",
+    "plant_id": "plant-cinnamomum-verum-9e3f7aeb97",
+    "local_name": "Ohio",
+    "normalized_name": "ohio",
+    "language": "ig",
+    "region": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": [
+        "Benue State",
+        "Federal Capital Territory",
+        "Kogi State",
+        "Kwara State",
+        "Nasarawa State",
+        "Niger State",
+        "Plateau State"
+      ]
+    },
+    "botanical_as_published": "Cinnamomum verum J.Presl",
+    "accepted_botanical": "Cinnamomum verum",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 19
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -23505,6 +26993,36 @@
     "source_locator": {
       "table": "Table 1",
       "row": 51
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-okazi-9aa7a8c778",
+    "plant_id": "plant-gnetum-africanum-a17170e15a",
+    "local_name": "Okazi",
+    "normalized_name": "okazi",
+    "language": "ig",
+    "region": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": [
+        "Benue State",
+        "Federal Capital Territory",
+        "Kogi State",
+        "Kwara State",
+        "Nasarawa State",
+        "Niger State",
+        "Plateau State"
+      ]
+    },
+    "botanical_as_published": "Gnetum africanum Welw.",
+    "accepted_botanical": "Gnetum africanum",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 39
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -24328,6 +27846,36 @@
     "export_eligible": true
   },
   {
+    "id": "name-onugbu-b5917f7311",
+    "plant_id": "plant-gymnanthemum-amygdalinum-5dbeaea320",
+    "local_name": "Onugbu",
+    "normalized_name": "onugbu",
+    "language": "ig",
+    "region": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": [
+        "Benue State",
+        "Federal Capital Territory",
+        "Kogi State",
+        "Kwara State",
+        "Nasarawa State",
+        "Niger State",
+        "Plateau State"
+      ]
+    },
+    "botanical_as_published": "Vernonia amygdalina Delile",
+    "accepted_botanical": "Gymnanthemum amygdalinum",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 67
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-onwueke-bbdcef57bd",
     "plant_id": "plant-mimosa-pudica-22130774b9",
     "local_name": "Onwueke",
@@ -25032,6 +28580,36 @@
     "export_eligible": true
   },
   {
+    "id": "name-orogbo-f3636dfd99",
+    "plant_id": "plant-garcinia-kola-b2da88781b",
+    "local_name": "Orogbo",
+    "normalized_name": "orogbo",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": [
+        "Benue State",
+        "Federal Capital Territory",
+        "Kogi State",
+        "Kwara State",
+        "Nasarawa State",
+        "Niger State",
+        "Plateau State"
+      ]
+    },
+    "botanical_as_published": "Garcinia kola Heckel.",
+    "accepted_botanical": "Garcinia kola",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 37
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-orogbo-5f83cca72d",
     "plant_id": "plant-garcinia-kola-b2da88781b",
     "local_name": "Orogbo",
@@ -25169,6 +28747,36 @@
     "source_locator": {
       "table": "Table 1",
       "row": 159
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-oroma-nkirisi-c9a1fead9b",
+    "plant_id": "plant-citrus-limon-a0b6a074cf",
+    "local_name": "Oroma nkirisi",
+    "normalized_name": "oroma nkirisi",
+    "language": "ig",
+    "region": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": [
+        "Benue State",
+        "Federal Capital Territory",
+        "Kogi State",
+        "Kwara State",
+        "Nasarawa State",
+        "Niger State",
+        "Plateau State"
+      ]
+    },
+    "botanical_as_published": "Citrus limon (L.) Burm. f.",
+    "accepted_botanical": "Citrus limon",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 23
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -26436,6 +30044,28 @@
     "export_eligible": true
   },
   {
+    "id": "name-peluwahi-b4fdba9f24",
+    "plant_id": "plant-entada-africana-2c0624fa5e",
+    "local_name": "Peluwahi",
+    "normalized_name": "peluwahi",
+    "language": "ff",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Entada africana Guill. & Perr.",
+    "accepted_botanical": "Entada africana",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 13
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-perotis-043d770e3d",
     "plant_id": "plant-perotis-indica-450d54c820",
     "local_name": "Perotis",
@@ -26520,6 +30150,36 @@
     "export_eligible": true
   },
   {
+    "id": "name-piya-bbc634d127",
+    "plant_id": "plant-persea-americana-4797acba26",
+    "local_name": "Piya",
+    "normalized_name": "piya",
+    "language": "ha",
+    "region": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": [
+        "Benue State",
+        "Federal Capital Territory",
+        "Kogi State",
+        "Kwara State",
+        "Nasarawa State",
+        "Niger State",
+        "Plateau State"
+      ]
+    },
+    "botanical_as_published": "Persea americana Mill.",
+    "accepted_botanical": "Persea americana",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 57
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-plantain-43caf43f09",
     "plant_id": "plant-musa-paradisiaca-ee9a078e9c",
     "local_name": "plantain",
@@ -26557,6 +30217,28 @@
     "source_locator": {
       "table": "Table 2",
       "row": 22
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-poldi-4fb173bf0a",
+    "plant_id": "plant-lawsonia-inermis-7ff9dfd7a9",
+    "local_name": "Poldi",
+    "normalized_name": "poldi",
+    "language": "ff",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Lawsonia inermis (L.) Keay",
+    "accepted_botanical": "Lawsonia inermis",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 16
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -26683,6 +30365,118 @@
     "export_eligible": true
   },
   {
+    "id": "name-rai-daure-451546c07d",
+    "plant_id": "plant-senna-occidentalis-9d5c9f2d10",
+    "local_name": "Rai daure",
+    "normalized_name": "rai daure",
+    "language": "ha",
+    "region": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": [
+        "Benue State",
+        "Federal Capital Territory",
+        "Kogi State",
+        "Kwara State",
+        "Nasarawa State",
+        "Niger State",
+        "Plateau State"
+      ]
+    },
+    "botanical_as_published": "Senna occidentalis (L.) Link",
+    "accepted_botanical": "Senna occidentalis",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 63
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-rai-ɗoore-66f67f569e",
+    "plant_id": "plant-senna-occidentalis-9d5c9f2d10",
+    "local_name": "Râi ɗòòré",
+    "normalized_name": "rai ɗoore",
+    "language": "ha",
+    "region": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": [
+        "Benue State",
+        "Federal Capital Territory",
+        "Kogi State",
+        "Kwara State",
+        "Nasarawa State",
+        "Niger State",
+        "Plateau State"
+      ]
+    },
+    "botanical_as_published": "Senna occidentalis (L.) Link",
+    "accepted_botanical": "Senna occidentalis",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 63
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-rawaya-8ca925a668",
+    "plant_id": "plant-cochlospermum-tinctorium-3ac4c9f071",
+    "local_name": "Rawaya",
+    "normalized_name": "rawaya",
+    "language": "ha",
+    "region": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": [
+        "Benue State",
+        "Federal Capital Territory",
+        "Kogi State",
+        "Kwara State",
+        "Nasarawa State",
+        "Niger State",
+        "Plateau State"
+      ]
+    },
+    "botanical_as_published": "Cochlospermum tinctorium Perrier ex A.Rich.",
+    "accepted_botanical": "Cochlospermum tinctorium",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 25
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-rawuya-fb09f64964",
+    "plant_id": "plant-kigelia-africana-46d315983f",
+    "local_name": "Rawuya",
+    "normalized_name": "rawuya",
+    "language": "ha",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Kigelia africana (Lam.) Benth.",
+    "accepted_botanical": "Kigelia africana",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 15
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-rekureku-223810e6cb",
     "plant_id": "plant-alternanthera-sessilis-733109d64b",
     "local_name": "Rekureku",
@@ -26761,6 +30555,66 @@
     "source_locator": {
       "table": "Supplementary Table S1",
       "row": 6
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-runhu-0c0a4293b9",
+    "plant_id": "plant-detarium-senegalense-f3fc183e6c",
+    "local_name": "Runhu",
+    "normalized_name": "runhu",
+    "language": "ha",
+    "region": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": [
+        "Benue State",
+        "Federal Capital Territory",
+        "Kogi State",
+        "Kwara State",
+        "Nasarawa State",
+        "Niger State",
+        "Plateau State"
+      ]
+    },
+    "botanical_as_published": "Detarium senegalensis J.F.Gmel.",
+    "accepted_botanical": "Detarium senegalense",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 34
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-sabara-1d5daa1e08",
+    "plant_id": "plant-guiera-senegalensis-3b2c389d07",
+    "local_name": "Sabara",
+    "normalized_name": "sabara",
+    "language": "ha",
+    "region": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": [
+        "Benue State",
+        "Federal Capital Territory",
+        "Kogi State",
+        "Kwara State",
+        "Nasarawa State",
+        "Niger State",
+        "Plateau State"
+      ]
+    },
+    "botanical_as_published": "Guiera senegalensis J.F.Gmel.",
+    "accepted_botanical": "Guiera senegalensis",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 40
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -26882,6 +30736,28 @@
     "export_eligible": true
   },
   {
+    "id": "name-sanchi-a147eb932c",
+    "plant_id": "plant-prosopis-africana-f699fc148f",
+    "local_name": "Sanchi",
+    "normalized_name": "sanchi",
+    "language": "nup",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Prosopis africana (Guill. & Perr.) Taub.",
+    "accepted_botanical": "Prosopis africana",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 21
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-sangi-yeko-edacedd9af",
     "plant_id": "plant-sida-acuta-b47c40cd00",
     "local_name": "Sàngi yèkó",
@@ -26946,6 +30822,36 @@
     "source_locator": {
       "table": "Table 1",
       "row": 80
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-sapo-79984d2ba3",
+    "plant_id": "plant-anthocleista-vogelii-5acdf5facc",
+    "local_name": "Sapo",
+    "normalized_name": "sapo",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": [
+        "Benue State",
+        "Federal Capital Territory",
+        "Kogi State",
+        "Kwara State",
+        "Nasarawa State",
+        "Niger State",
+        "Plateau State"
+      ]
+    },
+    "botanical_as_published": "Anthocleista vogelii Planch.",
+    "accepted_botanical": "Anthocleista vogelii",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 8
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -27380,6 +31286,28 @@
     "export_eligible": true
   },
   {
+    "id": "name-shiwaka-0f1797b90c",
+    "plant_id": "plant-gymnanthemum-amygdalinum-5dbeaea320",
+    "local_name": "Shiwaka",
+    "normalized_name": "shiwaka",
+    "language": "ha",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Vernonia amygdalina Del.",
+    "accepted_botanical": "Gymnanthemum amygdalinum",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 30
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-shiwaka-d178db3374",
     "plant_id": "plant-gymnanthemum-amygdalinum-5dbeaea320",
     "local_name": "Shiwaka",
@@ -27398,6 +31326,118 @@
     "source_locator": {
       "table": "Table 1",
       "row": 21
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-shombo-3ae2e02079",
+    "plant_id": "plant-capsicum-annuum-0276c03fe6",
+    "local_name": "Shombo",
+    "normalized_name": "shombo",
+    "language": "ha",
+    "region": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": [
+        "Benue State",
+        "Federal Capital Territory",
+        "Kogi State",
+        "Kwara State",
+        "Nasarawa State",
+        "Niger State",
+        "Plateau State"
+      ]
+    },
+    "botanical_as_published": "Capsicum annuum L.",
+    "accepted_botanical": "Capsicum annuum",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 14
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-shomo-dogo-dogo-6a5e8fda68",
+    "plant_id": "plant-capsicum-annuum-0276c03fe6",
+    "local_name": "Shomo Dogo dogo",
+    "normalized_name": "shomo dogo dogo",
+    "language": "ha",
+    "region": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": [
+        "Benue State",
+        "Federal Capital Territory",
+        "Kogi State",
+        "Kwara State",
+        "Nasarawa State",
+        "Niger State",
+        "Plateau State"
+      ]
+    },
+    "botanical_as_published": "Capsicum annuum L.",
+    "accepted_botanical": "Capsicum annuum",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 14
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-shuwaka-70aacf218a",
+    "plant_id": "plant-gymnanthemum-amygdalinum-5dbeaea320",
+    "local_name": "Shuwaka",
+    "normalized_name": "shuwaka",
+    "language": "ff",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Vernonia amygdalina Del.",
+    "accepted_botanical": "Gymnanthemum amygdalinum",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 30
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-shuwaka-ada1ebf033",
+    "plant_id": "plant-gymnanthemum-amygdalinum-5dbeaea320",
+    "local_name": "Shuwaka",
+    "normalized_name": "shuwaka",
+    "language": "ha",
+    "region": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": [
+        "Benue State",
+        "Federal Capital Territory",
+        "Kogi State",
+        "Kwara State",
+        "Nasarawa State",
+        "Niger State",
+        "Plateau State"
+      ]
+    },
+    "botanical_as_published": "Vernonia amygdalina Delile",
+    "accepted_botanical": "Gymnanthemum amygdalinum",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 67
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -27590,6 +31630,80 @@
     "export_eligible": true
   },
   {
+    "id": "name-tafarnuwa-7abb1d62fd",
+    "plant_id": "plant-allium-sativum-49429a58d8",
+    "local_name": "Tafarnuwa",
+    "normalized_name": "tafarnuwa",
+    "language": "ha",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Allium sativum L.",
+    "accepted_botanical": "Allium sativum",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 2
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-tafarnuwa-47c383ce4d",
+    "plant_id": "plant-allium-sativum-49429a58d8",
+    "local_name": "Tafarnuwa",
+    "normalized_name": "tafarnuwa",
+    "language": "nup",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Allium sativum L.",
+    "accepted_botanical": "Allium sativum",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 2
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-tafarnuwa-c3fa30c503",
+    "plant_id": "plant-allium-sativum-49429a58d8",
+    "local_name": "Tafarnuwa",
+    "normalized_name": "tafarnuwa",
+    "language": "ha",
+    "region": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": [
+        "Benue State",
+        "Federal Capital Territory",
+        "Kogi State",
+        "Kwara State",
+        "Nasarawa State",
+        "Niger State",
+        "Plateau State"
+      ]
+    },
+    "botanical_as_published": "Allium sativum L.",
+    "accepted_botanical": "Allium sativum",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 4
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-tafarnuwa-6b18446d34",
     "plant_id": "plant-allium-sativum-49429a58d8",
     "local_name": "tafarnuwa",
@@ -27633,6 +31747,28 @@
     "export_eligible": true
   },
   {
+    "id": "name-tafasar-masar-86263572a2",
+    "plant_id": "plant-senna-occidentalis-9d5c9f2d10",
+    "local_name": "Tafasar masar",
+    "normalized_name": "tafasar masar",
+    "language": "ha",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Cassia occidentalis Linn.",
+    "accepted_botanical": "Senna occidentalis",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 8
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-tafashi-129e50efcf",
     "plant_id": "plant-nauclea-latifolia-53fa5cb38c",
     "local_name": "Tafashi",
@@ -27660,6 +31796,28 @@
     "source_locator": {
       "table": "Table 1",
       "row": 43
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-tafashiya-eff67763a2",
+    "plant_id": "plant-nauclea-latifolia-53fa5cb38c",
+    "local_name": "Tafashiya",
+    "normalized_name": "tafashiya",
+    "language": "ha",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Sarcocephalus latifolius (Sm.)Bruce",
+    "accepted_botanical": "Nauclea latifolia",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 25
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -27742,6 +31900,28 @@
     "export_eligible": true
   },
   {
+    "id": "name-tanmotswagi-16b401ecf0",
+    "plant_id": "plant-ocimum-gratissimum-db8de35590",
+    "local_name": "Tanmotswagi",
+    "normalized_name": "tanmotswagi",
+    "language": "nup",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Ocimum gratissimum L.",
+    "accepted_botanical": "Ocimum gratissimum",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 18
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-tanpopo-15b6a7b932",
     "plant_id": "plant-ipomoea-mauritiana-ea4de5147a",
     "local_name": "Tanpopo",
@@ -27766,6 +31946,28 @@
     "export_eligible": true
   },
   {
+    "id": "name-tapasa-134aa9c494",
+    "plant_id": "plant-senna-occidentalis-9d5c9f2d10",
+    "local_name": "Tapasa",
+    "normalized_name": "tapasa",
+    "language": "ff",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Cassia occidentalis Linn.",
+    "accepted_botanical": "Senna occidentalis",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 8
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-tatashi-d63749bffd",
     "plant_id": "plant-capsicum-annuum-0276c03fe6",
     "local_name": "Tatashi",
@@ -27784,6 +31986,28 @@
     "source_locator": {
       "table": "Table 1",
       "row": 9
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-tawatsa-3d2c6310aa",
+    "plant_id": "plant-entada-africana-2c0624fa5e",
+    "local_name": "Tawatsa",
+    "normalized_name": "tawatsa",
+    "language": "ha",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Entada africana Guill. & Perr.",
+    "accepted_botanical": "Entada africana",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 13
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -27921,6 +32145,36 @@
     "export_eligible": true
   },
   {
+    "id": "name-toho-gile-75fe94f7d2",
+    "plant_id": "plant-cymbopogon-citratus-d5de29a9fd",
+    "local_name": "Toho-gile",
+    "normalized_name": "toho gile",
+    "language": "tiv",
+    "region": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": [
+        "Benue State",
+        "Federal Capital Territory",
+        "Kogi State",
+        "Kwara State",
+        "Nasarawa State",
+        "Niger State",
+        "Plateau State"
+      ]
+    },
+    "botanical_as_published": "Cymbopogon citratus (DC.) Stapf",
+    "accepted_botanical": "Cymbopogon citratus",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 32
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-tomati-f1aa3e6c0b",
     "plant_id": "plant-solanum-lycopersicum-fa2a0683a3",
     "local_name": "Tomati",
@@ -27993,6 +32247,66 @@
     "export_eligible": true
   },
   {
+    "id": "name-tomatur-bec9a3ebc4",
+    "plant_id": null,
+    "local_name": "Tomatur",
+    "normalized_name": "tomatur",
+    "language": "ha",
+    "region": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": [
+        "Benue State",
+        "Federal Capital Territory",
+        "Kogi State",
+        "Kwara State",
+        "Nasarawa State",
+        "Niger State",
+        "Plateau State"
+      ]
+    },
+    "botanical_as_published": "Lycopersicon esculentum Mill.",
+    "accepted_botanical": null,
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 47
+    },
+    "verification_status": "taxonomy_unresolved",
+    "reviewed_by": null,
+    "export_eligible": false
+  },
+  {
+    "id": "name-tsamiya-5706214df5",
+    "plant_id": "plant-tamarindus-indica-47fff9bcb1",
+    "local_name": "Tsamiya",
+    "normalized_name": "tsamiya",
+    "language": "ha",
+    "region": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": [
+        "Benue State",
+        "Federal Capital Territory",
+        "Kogi State",
+        "Kwara State",
+        "Nasarawa State",
+        "Niger State",
+        "Plateau State"
+      ]
+    },
+    "botanical_as_published": "Tamarindus indica L.",
+    "accepted_botanical": "Tamarindus indica",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 65
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-tsamiyar-kurmi-48d40a6953",
     "plant_id": "plant-dialium-guineense-2d704aeaf1",
     "local_name": "Tsamiyar kurmi",
@@ -28044,6 +32358,72 @@
     "source_locator": {
       "table": "Table 1",
       "row": 47
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-tsita-mai-yatsu-6e98142fa0",
+    "plant_id": "plant-zingiber-officinale-8932efc2ae",
+    "local_name": "Tsita mai yatsu",
+    "normalized_name": "tsita mai yatsu",
+    "language": "ha",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Zingiber officinale Rosc.",
+    "accepted_botanical": "Zingiber officinale",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 33
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-tsula-46093c85d4",
+    "plant_id": "plant-gymnanthemum-amygdalinum-5dbeaea320",
+    "local_name": "Tsula",
+    "normalized_name": "tsula",
+    "language": "nup",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Vernonia amygdalina Del.",
+    "accepted_botanical": "Gymnanthemum amygdalinum",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 30
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-tsutafu-7694d0cc89",
+    "plant_id": "plant-zingiber-officinale-8932efc2ae",
+    "local_name": "Tsutafu",
+    "normalized_name": "tsutafu",
+    "language": "nup",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Zingiber officinale Rosc.",
+    "accepted_botanical": "Zingiber officinale",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 33
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -28330,6 +32710,36 @@
     "source_locator": {
       "table": "Table 1",
       "row": 84
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-tyuna-7f7e52cf6a",
+    "plant_id": "plant-gymnanthemum-amygdalinum-5dbeaea320",
+    "local_name": "Tyuna",
+    "normalized_name": "tyuna",
+    "language": "tiv",
+    "region": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": [
+        "Benue State",
+        "Federal Capital Territory",
+        "Kogi State",
+        "Kwara State",
+        "Nasarawa State",
+        "Niger State",
+        "Plateau State"
+      ]
+    },
+    "botanical_as_published": "Vernonia amygdalina Delile",
+    "accepted_botanical": "Gymnanthemum amygdalinum",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 67
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -29174,6 +33584,36 @@
     "export_eligible": true
   },
   {
+    "id": "name-utazi-4b70df4593",
+    "plant_id": "plant-gongronemopsis-latifolia-5a28c814ce",
+    "local_name": "Utazi",
+    "normalized_name": "utazi",
+    "language": "ig",
+    "region": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": [
+        "Benue State",
+        "Federal Capital Territory",
+        "Kogi State",
+        "Kwara State",
+        "Nasarawa State",
+        "Niger State",
+        "Plateau State"
+      ]
+    },
+    "botanical_as_published": "Gongronema latifolium Benth.",
+    "accepted_botanical": "Gongronemopsis latifolia",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 36
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-utazi-ac0db012ad",
     "plant_id": "plant-gongronemopsis-latifolia-5a28c814ce",
     "local_name": "utazi",
@@ -29265,6 +33705,36 @@
     "export_eligible": true
   },
   {
+    "id": "name-uziza-56c8e858a6",
+    "plant_id": "plant-piper-guineense-b925235b59",
+    "local_name": "Uziza",
+    "normalized_name": "uziza",
+    "language": "ig",
+    "region": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": [
+        "Benue State",
+        "Federal Capital Territory",
+        "Kogi State",
+        "Kwara State",
+        "Nasarawa State",
+        "Niger State",
+        "Plateau State"
+      ]
+    },
+    "botanical_as_published": "Piper guineense Schumach. & Thonn.",
+    "accepted_botanical": "Piper guineense",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 58
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-uziza-6412db3e5c",
     "plant_id": "plant-piper-guineense-b925235b59",
     "local_name": "uziza",
@@ -29330,6 +33800,36 @@
     "source_locator": {
       "table": "Supplementary Table S1",
       "row": 61
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-waken-soya-0a1c456777",
+    "plant_id": "plant-glycine-max-ed20f6c59d",
+    "local_name": "Waken soya",
+    "normalized_name": "waken soya",
+    "language": "ha",
+    "region": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": [
+        "Benue State",
+        "Federal Capital Territory",
+        "Kogi State",
+        "Kwara State",
+        "Nasarawa State",
+        "Niger State",
+        "Plateau State"
+      ]
+    },
+    "botanical_as_published": "Glycine max (L.) Merr.",
+    "accepted_botanical": "Glycine max",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 38
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -29406,6 +33906,36 @@
     "source_locator": {
       "table": "Supplementary Table S1",
       "row": 34
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-wurishi-3753e70824",
+    "plant_id": "plant-commiphora-africana-7ec6be0c1b",
+    "local_name": "Wurishi",
+    "normalized_name": "wurishi",
+    "language": "ha",
+    "region": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": [
+        "Benue State",
+        "Federal Capital Territory",
+        "Kogi State",
+        "Kwara State",
+        "Nasarawa State",
+        "Niger State",
+        "Plateau State"
+      ]
+    },
+    "botanical_as_published": "Commiphora africana (A.Rich.) Endl.",
+    "accepted_botanical": "Commiphora africana",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 27
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -29672,6 +34202,58 @@
     "export_eligible": true
   },
   {
+    "id": "name-yikunu-kparagi-c72591594a",
+    "plant_id": "plant-mitracarpus-hirtus-153212d7cc",
+    "local_name": "Yikunu-kparagi",
+    "normalized_name": "yikunu kparagi",
+    "language": "nup",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Mitracarpus scaber Zucc. and ex Schult + Schult.f.",
+    "accepted_botanical": "Mitracarpus hirtus",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 17
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-yiye-bcf5430e6f",
+    "plant_id": "plant-piper-nigrum-7cc1d5929a",
+    "local_name": "Yiye",
+    "normalized_name": "yiye",
+    "language": "yo",
+    "region": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": [
+        "Benue State",
+        "Federal Capital Territory",
+        "Kogi State",
+        "Kwara State",
+        "Nasarawa State",
+        "Niger State",
+        "Plateau State"
+      ]
+    },
+    "botanical_as_published": "Piper nigrum L.",
+    "accepted_botanical": "Piper nigrum",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 59
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-yogboro-d44b5eba8d",
     "plant_id": "plant-triumfetta-cordifolia-ff9125fc4e",
     "local_name": "Yogboro",
@@ -29694,6 +34276,28 @@
     "source_locator": {
       "table": "Supplementary Table S1",
       "row": 176
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-yomji-52e26d55f4",
+    "plant_id": "plant-tephrosia-vogelii-052b63a8d8",
+    "local_name": "Yomji",
+    "normalized_name": "yomji",
+    "language": "ff",
+    "region": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "botanical_as_published": "Tephrosia vogelii Hook.f.",
+    "accepted_botanical": "Tephrosia vogelii",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 28
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
@@ -29851,6 +34455,36 @@
     "export_eligible": true
   },
   {
+    "id": "name-zobo-8632dcf796",
+    "plant_id": "plant-hibiscus-sabdariffa-868f3a61df",
+    "local_name": "Zobo",
+    "normalized_name": "zobo",
+    "language": "ha",
+    "region": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": [
+        "Benue State",
+        "Federal Capital Territory",
+        "Kogi State",
+        "Kwara State",
+        "Nasarawa State",
+        "Niger State",
+        "Plateau State"
+      ]
+    },
+    "botanical_as_published": "Hibiscus sabdariffa L.",
+    "accepted_botanical": "Hibiscus sabdariffa",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 42
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
     "id": "name-zobo-a1972882fd",
     "plant_id": "plant-hibiscus-sabdariffa-868f3a61df",
     "local_name": "zobo",
@@ -29940,6 +34574,36 @@
     "source_locator": {
       "table": "Table 1",
       "row": 49
+    },
+    "verification_status": "taxonomy_checked",
+    "reviewed_by": null,
+    "export_eligible": true
+  },
+  {
+    "id": "name-zogole-5a6281d8e3",
+    "plant_id": "plant-moringa-oleifera-6a8b6f1fb2",
+    "local_name": "Zogole",
+    "normalized_name": "zogole",
+    "language": "ha",
+    "region": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": [
+        "Benue State",
+        "Federal Capital Territory",
+        "Kogi State",
+        "Kwara State",
+        "Nasarawa State",
+        "Niger State",
+        "Plateau State"
+      ]
+    },
+    "botanical_as_published": "Moringa oleifera Lam.",
+    "accepted_botanical": "Moringa oleifera",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 51
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
