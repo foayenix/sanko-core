@@ -1,0 +1,1824 @@
+[
+  {
+    "source_id": "anyanwu-2025-north-central",
+    "source_row": 1,
+    "botanical_as_published": "Acacia nilotica (L.) Delile",
+    "family_as_published": "Leguminosae",
+    "common_english_as_published": "Gum arabic tree; Scorpion mimosa",
+    "vernacular_as_published": "Bagaruwa (H)",
+    "vernacular_names": [
+      {
+        "local_name": "Bagaruwa",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "seed",
+      "fruit"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "B03709",
+    "life_form_as_published": "T",
+    "use_context": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "anyanwu-2025-north-central",
+    "source_row": 2,
+    "botanical_as_published": "Adansonia digitata L.",
+    "family_as_published": "Malvaceae",
+    "common_english_as_published": "Baobab",
+    "vernacular_as_published": "Kuka (H)",
+    "vernacular_names": [
+      {
+        "local_name": "Kuka",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [
+      "decoction",
+      "maceration"
+    ],
+    "voucher_specimen": "M02512",
+    "life_form_as_published": "T",
+    "use_context": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "anyanwu-2025-north-central",
+    "source_row": 3,
+    "botanical_as_published": "Allium cepa L.",
+    "family_as_published": "Amaryllidaceae",
+    "common_english_as_published": "Onions",
+    "vernacular_as_published": "Albasa (H)",
+    "vernacular_names": [
+      {
+        "local_name": "Albasa",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "bulb"
+    ],
+    "preparations_reported": [
+      "decoction",
+      "maceration"
+    ],
+    "voucher_specimen": "GA135-3621",
+    "life_form_as_published": "H",
+    "use_context": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "anyanwu-2025-north-central",
+    "source_row": 4,
+    "botanical_as_published": "Allium sativum L.",
+    "family_as_published": "Amaryllidaceae",
+    "common_english_as_published": "Garlic",
+    "vernacular_as_published": "Tafarnuwa (H)",
+    "vernacular_names": [
+      {
+        "local_name": "Tafarnuwa",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "clove"
+    ],
+    "preparations_reported": [
+      "decoction",
+      "maceration"
+    ],
+    "voucher_specimen": "GA135-3622",
+    "life_form_as_published": "H",
+    "use_context": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "anyanwu-2025-north-central",
+    "source_row": 5,
+    "botanical_as_published": "Aloe vera (L.) Burm.f., Aloe barbadensis Mill",
+    "family_as_published": "Xanthorrhoeaceae",
+    "common_english_as_published": "Aloe vera",
+    "vernacular_as_published": "Aloe vera (H), Ahon erin (Y)",
+    "vernacular_names": [
+      {
+        "local_name": "Ahon erin",
+        "language": "yo"
+      }
+    ],
+    "vernacular_entries_excluded": [
+      {
+        "text": "Aloe vera",
+        "reason": "botanical name printed as the Hausa name"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [
+      "juice"
+    ],
+    "voucher_specimen": "UAM/FH/314",
+    "life_form_as_published": "H",
+    "use_context": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "anyanwu-2025-north-central",
+    "source_row": 6,
+    "botanical_as_published": "Alstonia boonei De wild.",
+    "family_as_published": "Apocynaceae",
+    "common_english_as_published": "Cheese wood",
+    "vernacular_as_published": "Ahun (Y), Egbun (I)",
+    "vernacular_names": [
+      {
+        "local_name": "Ahun",
+        "language": "yo"
+      },
+      {
+        "local_name": "Egbun",
+        "language": "ig"
+      }
+    ],
+    "parts_reported": [
+      "stem bark"
+    ],
+    "preparations_reported": [
+      "maceration"
+    ],
+    "voucher_specimen": "GA133-2752",
+    "life_form_as_published": "T",
+    "use_context": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "anyanwu-2025-north-central",
+    "source_row": 7,
+    "botanical_as_published": "Ananas comosus (L.) Merr.",
+    "family_as_published": "Bromeliaceae",
+    "common_english_as_published": "Pineapple",
+    "vernacular_as_published": "Abarba (H)",
+    "vernacular_names": [
+      {
+        "local_name": "Abarba",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "fruit"
+    ],
+    "preparations_reported": [
+      "maceration"
+    ],
+    "voucher_specimen": "B03560",
+    "life_form_as_published": "H",
+    "use_context": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "anyanwu-2025-north-central",
+    "source_row": 8,
+    "botanical_as_published": "Anthocleista vogelii Planch.",
+    "family_as_published": "Gentianaceae",
+    "common_english_as_published": "Cabbage tree",
+    "vernacular_as_published": "Kwari (H), Sapo (Y), Mpoto (I)",
+    "vernacular_names": [
+      {
+        "local_name": "Kwari",
+        "language": "ha"
+      },
+      {
+        "local_name": "Sapo",
+        "language": "yo"
+      },
+      {
+        "local_name": "Mpoto",
+        "language": "ig"
+      }
+    ],
+    "parts_reported": [
+      "root"
+    ],
+    "preparations_reported": [
+      "maceration"
+    ],
+    "voucher_specimen": "GA134-7421",
+    "life_form_as_published": "T",
+    "use_context": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "anyanwu-2025-north-central",
+    "source_row": 9,
+    "botanical_as_published": "Azadirachta indica A.Juss.",
+    "family_as_published": "Meliaceae",
+    "common_english_as_published": "Neem tree",
+    "vernacular_as_published": "Dogon yaro (H)",
+    "vernacular_names": [
+      {
+        "local_name": "Dogon yaro",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "UAM/FH/0315",
+    "life_form_as_published": "T",
+    "use_context": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "anyanwu-2025-north-central",
+    "source_row": 10,
+    "botanical_as_published": "Beta vulgaris L.",
+    "family_as_published": "Maranthaceae",
+    "common_english_as_published": "Beetroot",
+    "vernacular_as_published": null,
+    "vernacular_names": [],
+    "parts_reported": [
+      "root"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "B03510",
+    "life_form_as_published": "H",
+    "use_context": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "data_quality_flags": [
+      "no_local_name_published"
+    ]
+  },
+  {
+    "source_id": "anyanwu-2025-north-central",
+    "source_row": 11,
+    "botanical_as_published": "Boscia senegalensis Lam.",
+    "family_as_published": "Capparaceae",
+    "common_english_as_published": "Arabic",
+    "vernacular_as_published": "Anza, hanza (H)",
+    "vernacular_names": [
+      {
+        "local_name": "Anza",
+        "language": "ha"
+      },
+      {
+        "local_name": "hanza",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "stem",
+      "branch"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "B03520",
+    "life_form_as_published": "S",
+    "use_context": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "anyanwu-2025-north-central",
+    "source_row": 12,
+    "botanical_as_published": "Brassica oleracea L.",
+    "family_as_published": "Brassicaceae",
+    "common_english_as_published": "Cabbage",
+    "vernacular_as_published": "Kabeji (H)",
+    "vernacular_names": [
+      {
+        "local_name": "Kabeji",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "B03530",
+    "life_form_as_published": "H",
+    "use_context": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "anyanwu-2025-north-central",
+    "source_row": 13,
+    "botanical_as_published": "Brassica nigra (L.) K.Koch",
+    "family_as_published": "Brassicaceae",
+    "common_english_as_published": "Black mustard seed",
+    "vernacular_as_published": "Kõmayya (H)",
+    "vernacular_names": [
+      {
+        "local_name": "Kõmayya",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "seed"
+    ],
+    "preparations_reported": [
+      "powder"
+    ],
+    "voucher_specimen": "B03531",
+    "life_form_as_published": "H",
+    "use_context": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "anyanwu-2025-north-central",
+    "source_row": 14,
+    "botanical_as_published": "Capsicum annuum L.",
+    "family_as_published": "Solanaceae",
+    "common_english_as_published": "Chili pepper, cayenne pepper",
+    "vernacular_as_published": "Shombo/Shomo Dogo dogo (H)",
+    "vernacular_names": [
+      {
+        "local_name": "Shombo",
+        "language": "ha"
+      },
+      {
+        "local_name": "Shomo Dogo dogo",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "fruit"
+    ],
+    "preparations_reported": [
+      "powder",
+      "decoction"
+    ],
+    "voucher_specimen": "B03540",
+    "life_form_as_published": "H",
+    "use_context": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "anyanwu-2025-north-central",
+    "source_row": 15,
+    "botanical_as_published": "Capsicum chinense Jacq.",
+    "family_as_published": "Solanaceae",
+    "common_english_as_published": "Adjuma, Ají Dulce",
+    "vernacular_as_published": "Atarigu (H)",
+    "vernacular_names": [
+      {
+        "local_name": "Atarigu",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "fruit"
+    ],
+    "preparations_reported": [
+      "juice"
+    ],
+    "voucher_specimen": "B03541",
+    "life_form_as_published": "H",
+    "use_context": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "anyanwu-2025-north-central",
+    "source_row": 16,
+    "botanical_as_published": "Carica papaya L.",
+    "family_as_published": "Caricaceae",
+    "common_english_as_published": "Pawpaw",
+    "vernacular_as_published": "Ibepe (Y)",
+    "vernacular_names": [
+      {
+        "local_name": "Ibepe",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "fruit"
+    ],
+    "preparations_reported": [
+      "juice"
+    ],
+    "voucher_specimen": "UAM/FH/0311",
+    "life_form_as_published": "T",
+    "use_context": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "anyanwu-2025-north-central",
+    "source_row": 17,
+    "botanical_as_published": "Ceratotheca sesamoides Endl.",
+    "family_as_published": "Pedaliaceae",
+    "common_english_as_published": "False sesame",
+    "vernacular_as_published": null,
+    "vernacular_names": [],
+    "parts_reported": [
+      "seed",
+      "leaf"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "B03601",
+    "life_form_as_published": "H",
+    "use_context": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "data_quality_flags": [
+      "no_local_name_published"
+    ]
+  },
+  {
+    "source_id": "anyanwu-2025-north-central",
+    "source_row": 18,
+    "botanical_as_published": "Chrozophora senegalensis (Lam.) A.Juss. ex Spreng.",
+    "family_as_published": "Euphorbiaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Mingirya, dàmágì (H)",
+    "vernacular_names": [
+      {
+        "local_name": "Mingirya",
+        "language": "ha"
+      },
+      {
+        "local_name": "dàmágì",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "stem bark"
+    ],
+    "preparations_reported": [
+      "powder",
+      "decoction"
+    ],
+    "voucher_specimen": "B03611",
+    "life_form_as_published": "S",
+    "use_context": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "anyanwu-2025-north-central",
+    "source_row": 19,
+    "botanical_as_published": "Cinnamomum verum J.Presl",
+    "family_as_published": "Lauraceae",
+    "common_english_as_published": "Cinnamon",
+    "vernacular_as_published": "Kirfa [H], Ohio (I)",
+    "vernacular_names": [
+      {
+        "local_name": "Kirfa",
+        "language": "ha"
+      },
+      {
+        "local_name": "Ohio",
+        "language": "ig"
+      }
+    ],
+    "parts_reported": [
+      "fruit"
+    ],
+    "preparations_reported": [
+      "powder",
+      "decoction",
+      "maceration"
+    ],
+    "voucher_specimen": "B03620",
+    "life_form_as_published": "T",
+    "use_context": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "anyanwu-2025-north-central",
+    "source_row": 20,
+    "botanical_as_published": "Citrullus colocynthis (L.) Schrad.",
+    "family_as_published": "Cucurbitaceae",
+    "common_english_as_published": "Bitter lemon, bitter apple, egusi melon, wild gourd",
+    "vernacular_as_published": "Bara (Y), Guna (H), egusi elili (I)",
+    "vernacular_names": [
+      {
+        "local_name": "Bara",
+        "language": "yo"
+      },
+      {
+        "local_name": "Guna",
+        "language": "ha"
+      },
+      {
+        "local_name": "egusi elili",
+        "language": "ig"
+      }
+    ],
+    "parts_reported": [
+      "whole plant"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "UAM/FH/0312",
+    "life_form_as_published": "H",
+    "use_context": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "anyanwu-2025-north-central",
+    "source_row": 21,
+    "botanical_as_published": "Citrullus lanatus (Thunb.) Matsum. & Nakai",
+    "family_as_published": "Cucurbitaceae",
+    "common_english_as_published": "Watermelon",
+    "vernacular_as_published": "Kankana (H)",
+    "vernacular_names": [
+      {
+        "local_name": "Kankana",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "seed"
+    ],
+    "preparations_reported": [
+      "juice"
+    ],
+    "voucher_specimen": "B03630",
+    "life_form_as_published": "H",
+    "use_context": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "anyanwu-2025-north-central",
+    "source_row": 22,
+    "botanical_as_published": "Citrus aurantifolia (Christm.) Swingle",
+    "family_as_published": "Rutaceae",
+    "common_english_as_published": "Lime",
+    "vernacular_as_published": "Lemu tsami (H)",
+    "vernacular_names": [
+      {
+        "local_name": "Lemu tsami",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "fruit"
+    ],
+    "preparations_reported": [
+      "juice"
+    ],
+    "voucher_specimen": "B03640",
+    "life_form_as_published": "T",
+    "use_context": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "anyanwu-2025-north-central",
+    "source_row": 23,
+    "botanical_as_published": "Citrus limon (L.) Burm. f.",
+    "family_as_published": "Rutaceae",
+    "common_english_as_published": "Lemon",
+    "vernacular_as_published": "Baban lemun tsami (H), Oroma nkirisi (I)",
+    "vernacular_names": [
+      {
+        "local_name": "Baban lemun tsami",
+        "language": "ha"
+      },
+      {
+        "local_name": "Oroma nkirisi",
+        "language": "ig"
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "stem",
+      "root",
+      "fruit",
+      "flower"
+    ],
+    "preparations_reported": [
+      "decoction",
+      "juice",
+      "maceration"
+    ],
+    "voucher_specimen": "B03641",
+    "life_form_as_published": "T",
+    "use_context": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "anyanwu-2025-north-central",
+    "source_row": 24,
+    "botanical_as_published": "Citrus paradise Macfad.",
+    "family_as_published": "Rutaceae",
+    "common_english_as_published": "Grapefruit",
+    "vernacular_as_published": "Garehul (H)",
+    "vernacular_names": [
+      {
+        "local_name": "Garehul",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "fruit"
+    ],
+    "preparations_reported": [
+      "juice"
+    ],
+    "voucher_specimen": "B03642",
+    "life_form_as_published": "T",
+    "use_context": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "anyanwu-2025-north-central",
+    "source_row": 25,
+    "botanical_as_published": "Cochlospermum tinctorium Perrier ex A.Rich.",
+    "family_as_published": "Bixaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Rawaya, Kyambas (H)",
+    "vernacular_names": [
+      {
+        "local_name": "Rawaya",
+        "language": "ha"
+      },
+      {
+        "local_name": "Kyambas",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "stem",
+      "root"
+    ],
+    "preparations_reported": [
+      "decoction",
+      "maceration"
+    ],
+    "voucher_specimen": "B03651",
+    "life_form_as_published": "H",
+    "use_context": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "anyanwu-2025-north-central",
+    "source_row": 26,
+    "botanical_as_published": "Cocos nucifera L.",
+    "family_as_published": "Arecaceae",
+    "common_english_as_published": "Coconut",
+    "vernacular_as_published": "Kwakwa (H)",
+    "vernacular_names": [
+      {
+        "local_name": "Kwakwa",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "fruit"
+    ],
+    "preparations_reported": [
+      "juice"
+    ],
+    "voucher_specimen": "UAM/FH/0316",
+    "life_form_as_published": "T",
+    "use_context": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "anyanwu-2025-north-central",
+    "source_row": 27,
+    "botanical_as_published": "Commiphora africana (A.Rich.) Endl.",
+    "family_as_published": "Burseraceae",
+    "common_english_as_published": "African silk tree",
+    "vernacular_as_published": "Wurishi (H)",
+    "vernacular_names": [
+      {
+        "local_name": "Wurishi",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "stem bark"
+    ],
+    "preparations_reported": [
+      "decoction",
+      "maceration"
+    ],
+    "voucher_specimen": "B03660",
+    "life_form_as_published": "T",
+    "use_context": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "anyanwu-2025-north-central",
+    "source_row": 28,
+    "botanical_as_published": "Cucumis sativus L.",
+    "family_as_published": "Cucurbitaceae",
+    "common_english_as_published": "Cucumber",
+    "vernacular_as_published": "Kukumba (I), Kokwamba (H)",
+    "vernacular_names": [
+      {
+        "local_name": "Kukumba",
+        "language": "ig"
+      },
+      {
+        "local_name": "Kokwamba",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "fruit"
+    ],
+    "preparations_reported": [
+      "juice"
+    ],
+    "voucher_specimen": "B03631",
+    "life_form_as_published": "H",
+    "use_context": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "anyanwu-2025-north-central",
+    "source_row": 29,
+    "botanical_as_published": "Cucurbita ficifolia Bouché",
+    "family_as_published": "Cucurbitaceae",
+    "common_english_as_published": "Pumpkin",
+    "vernacular_as_published": null,
+    "vernacular_names": [],
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "B03632",
+    "life_form_as_published": "H",
+    "use_context": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "data_quality_flags": [
+      "no_local_name_published"
+    ]
+  },
+  {
+    "source_id": "anyanwu-2025-north-central",
+    "source_row": 30,
+    "botanical_as_published": "Cucurbita pepo styriaca L.",
+    "family_as_published": "Cucurbitaceae",
+    "common_english_as_published": "Pumpkin",
+    "vernacular_as_published": "Ogu (I)",
+    "vernacular_names": [
+      {
+        "local_name": "Ogu",
+        "language": "ig"
+      }
+    ],
+    "parts_reported": [
+      "seed"
+    ],
+    "preparations_reported": [
+      "juice",
+      "decoction"
+    ],
+    "voucher_specimen": "B03633",
+    "life_form_as_published": "H",
+    "use_context": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "anyanwu-2025-north-central",
+    "source_row": 31,
+    "botanical_as_published": "Curcuma longa L.",
+    "family_as_published": "Zingiberaceae",
+    "common_english_as_published": "Turmeric",
+    "vernacular_as_published": "Gangamau (H), Kurkur (H)",
+    "vernacular_names": [
+      {
+        "local_name": "Gangamau",
+        "language": "ha"
+      },
+      {
+        "local_name": "Kurkur",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "root"
+    ],
+    "preparations_reported": [
+      "powder",
+      "decoction"
+    ],
+    "voucher_specimen": "B03670",
+    "life_form_as_published": "H",
+    "use_context": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "anyanwu-2025-north-central",
+    "source_row": 32,
+    "botanical_as_published": "Cymbopogon citratus (DC.) Stapf",
+    "family_as_published": "Poaceae",
+    "common_english_as_published": "Lemon grass",
+    "vernacular_as_published": "Lemun tsami ciyawa (H), Toho-gile (T)",
+    "vernacular_names": [
+      {
+        "local_name": "Lemun tsami ciyawa",
+        "language": "ha"
+      },
+      {
+        "local_name": "Toho-gile",
+        "language": "tiv"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [
+      "juice",
+      "decoction"
+    ],
+    "voucher_specimen": "UAM/FH/0310",
+    "life_form_as_published": "H",
+    "use_context": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "anyanwu-2025-north-central",
+    "source_row": 33,
+    "botanical_as_published": "Cyperus esculentus L.",
+    "family_as_published": "Cyperaceae",
+    "common_english_as_published": "Tiger nut, yellow nutsedge",
+    "vernacular_as_published": "Aya (H)",
+    "vernacular_names": [
+      {
+        "local_name": "Aya",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "fruit"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "B03690",
+    "life_form_as_published": "H",
+    "use_context": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "anyanwu-2025-north-central",
+    "source_row": 34,
+    "botanical_as_published": "Detarium senegalensis J.F.Gmel.",
+    "family_as_published": "Leguminosae",
+    "common_english_as_published": "Sweet datar, wild cassia",
+    "vernacular_as_published": "Runhu (H)",
+    "vernacular_names": [
+      {
+        "local_name": "Runhu",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "seed"
+    ],
+    "preparations_reported": [
+      "powder"
+    ],
+    "voucher_specimen": "B03700",
+    "life_form_as_published": "T",
+    "use_context": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "anyanwu-2025-north-central",
+    "source_row": 35,
+    "botanical_as_published": "Fragaria vesca L.",
+    "family_as_published": "Rosaceae",
+    "common_english_as_published": "Strawberry",
+    "vernacular_as_published": "Garin bambaro (H)",
+    "vernacular_names": [
+      {
+        "local_name": "Garin bambaro",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "fruit"
+    ],
+    "preparations_reported": [
+      "juice"
+    ],
+    "voucher_specimen": "B03711",
+    "life_form_as_published": "H",
+    "use_context": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "anyanwu-2025-north-central",
+    "source_row": 36,
+    "botanical_as_published": "Gongronema latifolium Benth.",
+    "family_as_published": "Apocynaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Utazi (I)",
+    "vernacular_names": [
+      {
+        "local_name": "Utazi",
+        "language": "ig"
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "seed"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "GA133-2754",
+    "life_form_as_published": "H",
+    "use_context": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "anyanwu-2025-north-central",
+    "source_row": 37,
+    "botanical_as_published": "Garcinia kola Heckel.",
+    "family_as_published": "Clusiaceae",
+    "common_english_as_published": "Bitter kola",
+    "vernacular_as_published": "Cida goro (H) Orogbo (Y)",
+    "vernacular_names": [
+      {
+        "local_name": "Cida goro",
+        "language": "ha"
+      },
+      {
+        "local_name": "Orogbo",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "fruit"
+    ],
+    "preparations_reported": [
+      "maceration"
+    ],
+    "voucher_specimen": "B03720",
+    "life_form_as_published": "H",
+    "use_context": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "anyanwu-2025-north-central",
+    "source_row": 38,
+    "botanical_as_published": "Glycine max (L.) Merr.",
+    "family_as_published": "Leguminosae",
+    "common_english_as_published": "Soybeans",
+    "vernacular_as_published": "Waken soya (H)",
+    "vernacular_names": [
+      {
+        "local_name": "Waken soya",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "seed"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "B03701",
+    "life_form_as_published": "H",
+    "use_context": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "anyanwu-2025-north-central",
+    "source_row": 39,
+    "botanical_as_published": "Gnetum africanum Welw.",
+    "family_as_published": "Gnetaceae",
+    "common_english_as_published": null,
+    "vernacular_as_published": "Okazi (I), Afang (Efik), àjáàbalè (Y)",
+    "vernacular_names": [
+      {
+        "local_name": "Okazi",
+        "language": "ig"
+      },
+      {
+        "local_name": "Afang",
+        "language": "efi"
+      },
+      {
+        "local_name": "àjáàbalè",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [
+      "decoction",
+      "maceration"
+    ],
+    "voucher_specimen": "B03740",
+    "life_form_as_published": "H",
+    "use_context": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "anyanwu-2025-north-central",
+    "source_row": 40,
+    "botanical_as_published": "Guiera senegalensis J.F.Gmel.",
+    "family_as_published": "Combretaceae",
+    "common_english_as_published": "Moshi medicine",
+    "vernacular_as_published": "Sabara (H)",
+    "vernacular_names": [
+      {
+        "local_name": "Sabara",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "stem"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "B03571",
+    "life_form_as_published": "S",
+    "use_context": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "anyanwu-2025-north-central",
+    "source_row": 41,
+    "botanical_as_published": "Heinsia crinita (Afzel.) G.Taylor",
+    "family_as_published": "Rubiaceae",
+    "common_english_as_published": "Bush apple",
+    "vernacular_as_published": null,
+    "vernacular_names": [],
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "B03731",
+    "life_form_as_published": "S",
+    "use_context": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "data_quality_flags": [
+      "no_local_name_published"
+    ]
+  },
+  {
+    "source_id": "anyanwu-2025-north-central",
+    "source_row": 42,
+    "botanical_as_published": "Hibiscus sabdariffa L.",
+    "family_as_published": "Malvaceae",
+    "common_english_as_published": "Roselle",
+    "vernacular_as_published": "Zobo (H)",
+    "vernacular_names": [
+      {
+        "local_name": "Zobo",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "fruit"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "UAM/FH/0308",
+    "life_form_as_published": "H",
+    "use_context": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "anyanwu-2025-north-central",
+    "source_row": 43,
+    "botanical_as_published": "Ipomoea batatas (L.) Poir.",
+    "family_as_published": "Convolvulaceae",
+    "common_english_as_published": "Sweet potato",
+    "vernacular_as_published": "Dankali (H)",
+    "vernacular_names": [
+      {
+        "local_name": "Dankali",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "root"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "UAM/FH/0321",
+    "life_form_as_published": "H",
+    "use_context": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "anyanwu-2025-north-central",
+    "source_row": 44,
+    "botanical_as_published": "Irvingia gabonensis (Aubry-Lecomte ex O'Rorke) Baill.",
+    "family_as_published": "Irvingiaceae",
+    "common_english_as_published": "Wild mango",
+    "vernacular_as_published": "Ogbono (I)",
+    "vernacular_names": [
+      {
+        "local_name": "Ogbono",
+        "language": "ig"
+      }
+    ],
+    "parts_reported": [
+      "seed"
+    ],
+    "preparations_reported": [
+      "decoction",
+      "maceration"
+    ],
+    "voucher_specimen": "A06926",
+    "life_form_as_published": "T",
+    "use_context": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "anyanwu-2025-north-central",
+    "source_row": 45,
+    "botanical_as_published": "Khaya senegalensis (Desv.) A.Juss.",
+    "family_as_published": "Meliaceae",
+    "common_english_as_published": "African mahogany",
+    "vernacular_as_published": "Haa (T)",
+    "vernacular_names": [
+      {
+        "local_name": "Haa",
+        "language": "tiv"
+      }
+    ],
+    "parts_reported": [
+      "stem bark"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "UAM/FH/0322",
+    "life_form_as_published": "T",
+    "use_context": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "anyanwu-2025-north-central",
+    "source_row": 46,
+    "botanical_as_published": "Luffa aegyptiaca Mill.",
+    "family_as_published": "Cucurbitaceae",
+    "common_english_as_published": "Luffa",
+    "vernacular_as_published": "Sponge soap",
+    "vernacular_names": [],
+    "vernacular_entries_excluded": [
+      {
+        "text": "Sponge soap",
+        "reason": "printed without a language label"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [
+      "juice",
+      "decoction"
+    ],
+    "voucher_specimen": "B03634",
+    "life_form_as_published": "H",
+    "use_context": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "anyanwu-2025-north-central",
+    "source_row": 47,
+    "botanical_as_published": "Lycopersicon esculentum Mill.",
+    "family_as_published": "Solanaceae",
+    "common_english_as_published": "Tomato",
+    "vernacular_as_published": "Tomatur (H)",
+    "vernacular_names": [
+      {
+        "local_name": "Tomatur",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "fruit"
+    ],
+    "preparations_reported": [
+      "juice"
+    ],
+    "voucher_specimen": "UAM/FH/0307",
+    "life_form_as_published": "H",
+    "use_context": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "anyanwu-2025-north-central",
+    "source_row": 48,
+    "botanical_as_published": "Mentha pulegium L.",
+    "family_as_published": "Lamiaceae",
+    "common_english_as_published": "Mint leaf",
+    "vernacular_as_published": "Na'a na'a (H)",
+    "vernacular_names": [
+      {
+        "local_name": "Na'a na'a",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "B03760",
+    "life_form_as_published": "H",
+    "use_context": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "anyanwu-2025-north-central",
+    "source_row": 49,
+    "botanical_as_published": "Momordica balsamina L.",
+    "family_as_published": "Cucurbitaceae",
+    "common_english_as_published": "Balsam apple, African cucumber",
+    "vernacular_as_published": "Garaguni, Garahuni (H)",
+    "vernacular_names": [
+      {
+        "local_name": "Garaguni",
+        "language": "ha"
+      },
+      {
+        "local_name": "Garahuni",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "B03635",
+    "life_form_as_published": "H",
+    "use_context": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "anyanwu-2025-north-central",
+    "source_row": 50,
+    "botanical_as_published": "Momordica charantia L.",
+    "family_as_published": "Cucurbitaceae",
+    "common_english_as_published": "Bitter melon",
+    "vernacular_as_published": "Daddegu (H)",
+    "vernacular_names": [
+      {
+        "local_name": "Daddegu",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "fruit"
+    ],
+    "preparations_reported": [
+      "juice",
+      "decoction"
+    ],
+    "voucher_specimen": "B03636",
+    "life_form_as_published": "H",
+    "use_context": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "anyanwu-2025-north-central",
+    "source_row": 51,
+    "botanical_as_published": "Moringa oleifera Lam.",
+    "family_as_published": "Moringaceae",
+    "common_english_as_published": "Moringa, drumstick tree, miracle tree",
+    "vernacular_as_published": "Zogole (H)",
+    "vernacular_names": [
+      {
+        "local_name": "Zogole",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "stem",
+      "seed",
+      "root"
+    ],
+    "preparations_reported": [
+      "decoction",
+      "powder",
+      "maceration"
+    ],
+    "voucher_specimen": "UAM/FH/0313",
+    "life_form_as_published": "H",
+    "use_context": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "anyanwu-2025-north-central",
+    "source_row": 52,
+    "botanical_as_published": "Mucuna flagellipes Hook.f.",
+    "family_as_published": "Leguminosae",
+    "common_english_as_published": "Ukpo",
+    "vernacular_as_published": null,
+    "vernacular_names": [],
+    "parts_reported": [
+      "seed"
+    ],
+    "preparations_reported": [
+      "decoction",
+      "maceration"
+    ],
+    "voucher_specimen": "B03702",
+    "life_form_as_published": "T",
+    "use_context": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "data_quality_flags": [
+      "no_local_name_published"
+    ]
+  },
+  {
+    "source_id": "anyanwu-2025-north-central",
+    "source_row": 53,
+    "botanical_as_published": "Murraya koenigii (L.) Spreng.",
+    "family_as_published": "Rutaceae",
+    "common_english_as_published": "Curry leaf",
+    "vernacular_as_published": "Curry",
+    "vernacular_names": [],
+    "vernacular_entries_excluded": [
+      {
+        "text": "Curry",
+        "reason": "printed without a language label"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "B03643",
+    "life_form_as_published": "T",
+    "use_context": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "anyanwu-2025-north-central",
+    "source_row": 54,
+    "botanical_as_published": "Myristica fragrans Houtt.",
+    "family_as_published": "Myristicaceae",
+    "common_english_as_published": "Nutmeg",
+    "vernacular_as_published": "Gyadar Kamshi (H)",
+    "vernacular_names": [
+      {
+        "local_name": "Gyadar Kamshi",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "fruit",
+      "seed"
+    ],
+    "preparations_reported": [
+      "powder"
+    ],
+    "voucher_specimen": "B03770",
+    "life_form_as_published": "T",
+    "use_context": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "anyanwu-2025-north-central",
+    "source_row": 55,
+    "botanical_as_published": "Ocimum basilicum L.",
+    "family_as_published": "Lamiaceae",
+    "common_english_as_published": "Basil",
+    "vernacular_as_published": "Efirin (Y)",
+    "vernacular_names": [
+      {
+        "local_name": "Efirin",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [
+      "juice"
+    ],
+    "voucher_specimen": "B03761",
+    "life_form_as_published": "H",
+    "use_context": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "anyanwu-2025-north-central",
+    "source_row": 56,
+    "botanical_as_published": "Ocimum gratissimum L.",
+    "family_as_published": "Lamiaceae",
+    "common_english_as_published": "Scent leaf, fever plant, fever bush",
+    "vernacular_as_published": "Doddoya (H)",
+    "vernacular_names": [
+      {
+        "local_name": "Doddoya",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "B03762",
+    "life_form_as_published": "H",
+    "use_context": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "anyanwu-2025-north-central",
+    "source_row": 57,
+    "botanical_as_published": "Persea americana Mill.",
+    "family_as_published": "Lauraceae",
+    "common_english_as_published": "Avocado pear",
+    "vernacular_as_published": "Piya (H)",
+    "vernacular_names": [
+      {
+        "local_name": "Piya",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "leaf",
+      "fruit"
+    ],
+    "preparations_reported": [
+      "juice"
+    ],
+    "voucher_specimen": "B03621",
+    "life_form_as_published": "T",
+    "use_context": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "anyanwu-2025-north-central",
+    "source_row": 58,
+    "botanical_as_published": "Piper guineense Schumach. & Thonn.",
+    "family_as_published": "Piperaceae",
+    "common_english_as_published": "Uziza seeds, Ashanti pepper, Benin pepper",
+    "vernacular_as_published": "Uziza (I)",
+    "vernacular_names": [
+      {
+        "local_name": "Uziza",
+        "language": "ig"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "B03780",
+    "life_form_as_published": "H",
+    "use_context": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "anyanwu-2025-north-central",
+    "source_row": 59,
+    "botanical_as_published": "Piper nigrum L.",
+    "family_as_published": "Piperaceae",
+    "common_english_as_published": "Black pepper",
+    "vernacular_as_published": "Barkono (H), Yiye (Y)",
+    "vernacular_names": [
+      {
+        "local_name": "Barkono",
+        "language": "ha"
+      },
+      {
+        "local_name": "Yiye",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "fruit"
+    ],
+    "preparations_reported": [
+      "decoction",
+      "juice"
+    ],
+    "voucher_specimen": "B03781",
+    "life_form_as_published": "H",
+    "use_context": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "anyanwu-2025-north-central",
+    "source_row": 60,
+    "botanical_as_published": "Prosopis africana (Guill. & Perr.) Taub.",
+    "family_as_published": "Leguminosae",
+    "common_english_as_published": "False locust",
+    "vernacular_as_published": "Kirya (H)",
+    "vernacular_names": [
+      {
+        "local_name": "Kirya",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "stem bark"
+    ],
+    "preparations_reported": [
+      "decoction",
+      "maceration"
+    ],
+    "voucher_specimen": "UAM/FH/0309",
+    "life_form_as_published": "T",
+    "use_context": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "anyanwu-2025-north-central",
+    "source_row": 61,
+    "botanical_as_published": "Psidium guajava L.",
+    "family_as_published": "Myrtaceae",
+    "common_english_as_published": "Guava leaves",
+    "vernacular_as_published": "Ganyen gwava (H)",
+    "vernacular_names": [
+      {
+        "local_name": "Ganyen gwava",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "UAM/FH/0320",
+    "life_form_as_published": "T",
+    "use_context": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "anyanwu-2025-north-central",
+    "source_row": 62,
+    "botanical_as_published": "Pterocarpus mildbraedii Harms",
+    "family_as_published": "Leguminosae",
+    "common_english_as_published": "Ora, Oha",
+    "vernacular_as_published": null,
+    "vernacular_names": [],
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [
+      "decoction",
+      "maceration"
+    ],
+    "voucher_specimen": "B03704",
+    "life_form_as_published": "T",
+    "use_context": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "data_quality_flags": [
+      "no_local_name_published"
+    ]
+  },
+  {
+    "source_id": "anyanwu-2025-north-central",
+    "source_row": 63,
+    "botanical_as_published": "Senna occidentalis (L.) Link",
+    "family_as_published": "Leguminosae",
+    "common_english_as_published": "Coffee senna",
+    "vernacular_as_published": "Rai daure/Râi ɗòòré (H)",
+    "vernacular_names": [
+      {
+        "local_name": "Rai daure",
+        "language": "ha"
+      },
+      {
+        "local_name": "Râi ɗòòré",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "B03705",
+    "life_form_as_published": "H",
+    "use_context": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "anyanwu-2025-north-central",
+    "source_row": 64,
+    "botanical_as_published": "Spinacia oleracea L.",
+    "family_as_published": "Amaranthaceae",
+    "common_english_as_published": "Spinach",
+    "vernacular_as_published": "Alewo, Alayyahu (H)",
+    "vernacular_names": [
+      {
+        "local_name": "Alewo",
+        "language": "ha"
+      },
+      {
+        "local_name": "Alayyahu",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [
+      "decoction",
+      "juice"
+    ],
+    "voucher_specimen": "B03800",
+    "life_form_as_published": "H",
+    "use_context": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "anyanwu-2025-north-central",
+    "source_row": 65,
+    "botanical_as_published": "Tamarindus indica L.",
+    "family_as_published": "Leguminosae",
+    "common_english_as_published": "Tamarind",
+    "vernacular_as_published": "Tsamiya (H)",
+    "vernacular_names": [
+      {
+        "local_name": "Tsamiya",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "seed",
+      "fruit"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "B03706",
+    "life_form_as_published": "T",
+    "use_context": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "anyanwu-2025-north-central",
+    "source_row": 66,
+    "botanical_as_published": "Tetrapleura tetraptera (Schumach. & Thonn.) Taub.",
+    "family_as_published": "Leguminosae",
+    "common_english_as_published": "Aiden pod",
+    "vernacular_as_published": null,
+    "vernacular_names": [],
+    "parts_reported": [
+      "pod"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "B03707",
+    "life_form_as_published": "T",
+    "use_context": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "data_quality_flags": [
+      "no_local_name_published"
+    ]
+  },
+  {
+    "source_id": "anyanwu-2025-north-central",
+    "source_row": 67,
+    "botanical_as_published": "Vernonia amygdalina Delile",
+    "family_as_published": "Compositae",
+    "common_english_as_published": "Bitter leaf",
+    "vernacular_as_published": "Tyuna (T), Shuwaka (H), Ewuro (Y), Onugbu (I)",
+    "vernacular_names": [
+      {
+        "local_name": "Tyuna",
+        "language": "tiv"
+      },
+      {
+        "local_name": "Shuwaka",
+        "language": "ha"
+      },
+      {
+        "local_name": "Ewuro",
+        "language": "yo"
+      },
+      {
+        "local_name": "Onugbu",
+        "language": "ig"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [
+      "juice",
+      "decoction",
+      "maceration"
+    ],
+    "voucher_specimen": "B03820",
+    "life_form_as_published": "S",
+    "use_context": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "anyanwu-2025-north-central",
+    "source_row": 68,
+    "botanical_as_published": "Vigna subterranea (L.) Verdc.",
+    "family_as_published": "Leguminosae",
+    "common_english_as_published": "Bambara groundnut",
+    "vernacular_as_published": "Gujiya (H)",
+    "vernacular_names": [
+      {
+        "local_name": "Gujiya",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "seed"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "B03708",
+    "life_form_as_published": "H",
+    "use_context": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "anyanwu-2025-north-central",
+    "source_row": 69,
+    "botanical_as_published": "Zingiber officinale roscoe",
+    "family_as_published": "Zingiberaceae",
+    "common_english_as_published": "Ginger",
+    "vernacular_as_published": "Chetah/Cìttáá mài ƙwààyáá (H), Jinja (I), Ata-ile (Y)",
+    "vernacular_names": [
+      {
+        "local_name": "Chetah",
+        "language": "ha"
+      },
+      {
+        "local_name": "Cìttáá mài ƙwààyáá",
+        "language": "ha"
+      },
+      {
+        "local_name": "Jinja",
+        "language": "ig"
+      },
+      {
+        "local_name": "Ata-ile",
+        "language": "yo"
+      }
+    ],
+    "parts_reported": [
+      "root"
+    ],
+    "preparations_reported": [
+      "decoction",
+      "juice",
+      "maceration"
+    ],
+    "voucher_specimen": "UAM/FH/0317",
+    "life_form_as_published": "H",
+    "use_context": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "data_quality_flags": []
+  },
+  {
+    "source_id": "anyanwu-2025-north-central",
+    "source_row": 70,
+    "botanical_as_published": "Ziziphus jujube Mill.",
+    "family_as_published": "Rhamnaceae",
+    "common_english_as_published": "Jujube fruit",
+    "vernacular_as_published": "Magarya (H)",
+    "vernacular_names": [
+      {
+        "local_name": "Magarya",
+        "language": "ha"
+      }
+    ],
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [
+      "powder"
+    ],
+    "voucher_specimen": "B03830",
+    "life_form_as_published": "S",
+    "use_context": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "data_quality_flags": []
+  }
+]

@@ -218,9 +218,65 @@
     "table": "Table 1",
     "licence": "CC BY 4.0",
     "publication_status": "active",
-    "ingestion_status": "staged_review",
+    "ingestion_status": "included",
     "checked_at": "2026-11-09",
-    "notes": "All 62 rows are preserved, but production export is blocked pending language review. Only six rows label their names Yoruba or Nupe; the other 56 state no language, interviews were conducted in both, and at least one unlabelled name is Hausa (Karandafi) and one is a nickname (June 12). Unlabelled names are staged with a null language."
+    "notes": "Included by the owner's decision of 2026-11-18. Six of the 62 rows label their names Yoruba or Nupe; the other 56 state no language (interviews were conducted in both, and at least one unlabelled name, Karandafi, is Hausa). Unlabelled names keep a null language and are published as language not recorded rather than assigned one. June 12 is a nickname; it is kept as published text and is not a mapping."
+  },
+  {
+    "id": "anyanwu-2025-north-central",
+    "type": "journal_article",
+    "title": "An Ethnobotanical Survey and Pharmacological and Toxicity Review of Medicinal Plants Used in the Management of Obesity in the North Central Zone of Nigeria",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11870763/",
+    "doi": "10.1155/jobe/5568216",
+    "location": {
+      "country": "Nigeria",
+      "state": null,
+      "localities": [
+        "Benue State",
+        "Federal Capital Territory",
+        "Kogi State",
+        "Kwara State",
+        "Nasarawa State",
+        "Niger State",
+        "Plateau State"
+      ]
+    },
+    "languages": [
+      "ha",
+      "yo",
+      "ig",
+      "tiv",
+      "efi"
+    ],
+    "table": "Table 2",
+    "licence": "CC BY 4.0",
+    "publication_status": "active",
+    "ingestion_status": "included",
+    "checked_at": "2026-11-18",
+    "notes": "Survey of 700 herb sellers and practitioners (100 per state) in the North Central zone, 2018-2019; voucher numbers for most species. Table 2 labels every local name with its language: H Hausa, Y Yoruba, I Ibo, T Tiv per the footnote, and one cell (Efik). Excluded as published text: Aloe vera, printed as the Hausa name, and two unlabelled English entries (Sponge soap, Curry). Local names some rows print in the Common name column (Ukpo; Ora, Oha) carry no label and are not used. The pharmacology and toxicity review tables are not used. Not retracted (Europe PMC is-retracted: no); licence confirmed in Crossref."
+  },
+  {
+    "id": "alhaji-2015-niger-fulani",
+    "type": "journal_article",
+    "title": "Participatory Epidemiology of Ethnoveterinary Practices Fulani Pastoralists Used to Manage Contagious Bovine Pleuropneumonia and Other Cattle Ailments in Niger State, Nigeria",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4590846/",
+    "doi": "10.1155/2015/460408",
+    "location": {
+      "country": "Nigeria",
+      "state": "Niger",
+      "localities": []
+    },
+    "languages": [
+      "ha",
+      "ff",
+      "nup"
+    ],
+    "table": "Table 2",
+    "licence": "CC BY",
+    "publication_status": "active",
+    "ingestion_status": "included",
+    "checked_at": "2026-11-18",
+    "notes": "Fulani pastoralists in nine pastoral communities across Niger State. Table 2 marks each local name with a superscript H, F or N (Hausa, Fulani, Nupe per the footnote); F is recorded as Fulfulde (ff). The use reported is ethnoveterinary, on cattle; only the name mappings are used, not the disease indications or the preparations. Row 14 (Khaya senegalensis) repeats the botanical name in the local-name column and yields no mapping. No voucher specimens are reported."
   },
   {
     "id": "anumudu-2025-nigeria-review",

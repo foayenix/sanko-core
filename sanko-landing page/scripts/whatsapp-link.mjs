@@ -14,9 +14,11 @@ export const normaliseNumber = (value) => String(value ?? '').replace(/[^0-9]/g,
 // and the URL is how the practitioner side tells a website visitor from a practitioner
 // who opened the conversation themselves.
 export function whatsappPrefill({ display, languageLabel, slug, contested, site }) {
+  // A name with no identified language gets no empty "()" after it.
+  const language = languageLabel ? ` (${languageLabel})` : '';
   const question = contested
-    ? `Sanko, published sources disagree about the plant name "${display}" (${languageLabel}). What does each of them say?`
-    : `Sanko, what plant is "${display}" (${languageLabel})?`;
+    ? `Sanko, published sources disagree about the plant name "${display}"${language}. What does each of them say?`
+    : `Sanko, what plant is "${display}"${language}?`;
 
   return `${question}\n\nAsked from ${site}/plants/${slug}/`;
 }

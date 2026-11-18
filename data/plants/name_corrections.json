@@ -350,6 +350,43 @@
     ]
   },
   {
+    "botanical_as_published": "Anogeissus leiocarpus (DC.) Guill. & Perr",
+    "published_genus": "Anogeissus",
+    "unmatched_as": {
+      "match_type": "VARIANT",
+      "confidence": 100,
+      "taxonomic_status": "SYNONYM",
+      "matched_canonical": "Anogeissus leiocarpa"
+    },
+    "decided_at": "2026-11-18",
+    "status": "corrected",
+    "rule": "gbif_variant_suggestion",
+    "corrected_query": "Anogeissus leiocarpa",
+    "accepted_botanical": "Terminalia leiocarpa",
+    "evidence": {
+      "queried": "Anogeissus leiocarpa",
+      "match_type": "EXACT",
+      "confidence": 98,
+      "taxonomic_status": "SYNONYM",
+      "matched_canonical": "Anogeissus leiocarpa",
+      "usage_key": "3699245",
+      "accepted_usage_key": "3698332",
+      "genus_changed": true,
+      "epithet_changed": true
+    },
+    "attempts": [
+      {
+        "query": "Anogeissus leiocarpa",
+        "rule": "gbif_variant_suggestion",
+        "match_type": "EXACT",
+        "confidence": 98,
+        "status": "SYNONYM",
+        "accepted": "Terminalia leiocarpa",
+        "eligible": true
+      }
+    ]
+  },
+  {
     "botanical_as_published": "Anogeissus leiocarpus (DC.) Guill. & Perr.",
     "published_genus": "Anogeissus",
     "unmatched_as": {
@@ -507,6 +544,80 @@
     ]
   },
   {
+    "botanical_as_published": "Brassica nigra (L.) K.Koch",
+    "published_genus": "Brassica",
+    "unmatched_as": {
+      "match_type": "EXACT",
+      "confidence": 100,
+      "taxonomic_status": "PROVISIONALLY_ACCEPTED",
+      "matched_canonical": "Brassica nigra"
+    },
+    "decided_at": "2026-11-18",
+    "status": "corrected",
+    "rule": "gbif_variant_suggestion",
+    "corrected_query": "Brassica nigra",
+    "accepted_botanical": "Brassica nigra",
+    "evidence": {
+      "queried": "Brassica nigra",
+      "match_type": "EXACT",
+      "confidence": 98,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Brassica nigra",
+      "usage_key": "3042658",
+      "accepted_usage_key": "3042658",
+      "genus_changed": false,
+      "epithet_changed": false
+    },
+    "attempts": [
+      {
+        "query": "Brassica nigra",
+        "rule": "gbif_variant_suggestion",
+        "match_type": "EXACT",
+        "confidence": 98,
+        "status": "ACCEPTED",
+        "accepted": "Brassica nigra",
+        "eligible": true
+      }
+    ]
+  },
+  {
+    "botanical_as_published": "Citrus aurantifolia (Christm.) Swingle",
+    "published_genus": "Citrus",
+    "unmatched_as": {
+      "match_type": "VARIANT",
+      "confidence": 100,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Citrus aurantiifolia"
+    },
+    "decided_at": "2026-11-18",
+    "status": "corrected",
+    "rule": "gbif_variant_suggestion",
+    "corrected_query": "Citrus aurantiifolia",
+    "accepted_botanical": "Citrus aurantiifolia",
+    "evidence": {
+      "queried": "Citrus aurantiifolia",
+      "match_type": "EXACT",
+      "confidence": 99,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Citrus aurantiifolia",
+      "usage_key": "3190164",
+      "accepted_usage_key": "3190164",
+      "genus_changed": false,
+      "epithet_changed": true
+    },
+    "attempts": [
+      {
+        "query": "Citrus aurantiifolia",
+        "rule": "gbif_variant_suggestion",
+        "match_type": "EXACT",
+        "confidence": 99,
+        "status": "ACCEPTED",
+        "accepted": "Citrus aurantiifolia",
+        "eligible": true
+      }
+    ]
+  },
+  {
     "botanical_as_published": "Citrus aurantifolia (Christm) Swingle",
     "published_genus": "Citrus",
     "unmatched_as": {
@@ -576,6 +687,43 @@
         "confidence": 98,
         "status": "SYNONYM",
         "accepted": "Citrus limon",
+        "eligible": true
+      }
+    ]
+  },
+  {
+    "botanical_as_published": "Citrus paradise Macfad.",
+    "published_genus": "Citrus",
+    "unmatched_as": {
+      "match_type": "VARIANT",
+      "confidence": 100,
+      "taxonomic_status": "SYNONYM",
+      "matched_canonical": "Citrus paradisi"
+    },
+    "decided_at": "2026-11-18",
+    "status": "corrected",
+    "rule": "gbif_variant_suggestion",
+    "corrected_query": "Citrus paradisi",
+    "accepted_botanical": "Citrus aurantium",
+    "evidence": {
+      "queried": "Citrus paradisi",
+      "match_type": "EXACT",
+      "confidence": 98,
+      "taxonomic_status": "SYNONYM",
+      "matched_canonical": "Citrus paradisi",
+      "usage_key": "7469645",
+      "accepted_usage_key": "8077391",
+      "genus_changed": false,
+      "epithet_changed": true
+    },
+    "attempts": [
+      {
+        "query": "Citrus paradisi",
+        "rule": "gbif_variant_suggestion",
+        "match_type": "EXACT",
+        "confidence": 98,
+        "status": "SYNONYM",
+        "accepted": "Citrus aurantium",
         "eligible": true
       }
     ]
@@ -673,6 +821,52 @@
     ]
   },
   {
+    "botanical_as_published": "Cucurbita pepo styriaca L.",
+    "published_genus": "Cucurbita",
+    "unmatched_as": {
+      "match_type": "EXACT",
+      "confidence": 82,
+      "taxonomic_status": "SYNONYM",
+      "matched_canonical": "Cucurbita pepo styriaca"
+    },
+    "decided_at": "2026-11-18",
+    "status": "corrected",
+    "rule": "authority_removed",
+    "corrected_query": "Cucurbita pepo",
+    "accepted_botanical": "Cucurbita pepo",
+    "evidence": {
+      "queried": "Cucurbita pepo",
+      "match_type": "EXACT",
+      "confidence": 97,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Cucurbita pepo",
+      "usage_key": "2874508",
+      "accepted_usage_key": "2874508",
+      "genus_changed": false,
+      "epithet_changed": false
+    },
+    "attempts": [
+      {
+        "query": "Cucurbita pepo styriaca",
+        "rule": "gbif_variant_suggestion",
+        "match_type": "EXACT",
+        "confidence": 98,
+        "status": "SYNONYM",
+        "accepted": "Cucurbita pepo pepo",
+        "eligible": false
+      },
+      {
+        "query": "Cucurbita pepo",
+        "rule": "authority_removed",
+        "match_type": "EXACT",
+        "confidence": 97,
+        "status": "ACCEPTED",
+        "accepted": "Cucurbita pepo",
+        "eligible": true
+      }
+    ]
+  },
+  {
     "botanical_as_published": "Cyperus haspans L.",
     "published_genus": "Cyperus",
     "unmatched_as": {
@@ -719,6 +913,43 @@
       "matched_canonical": "Detarium senegalense"
     },
     "decided_at": "2026-09-13",
+    "status": "corrected",
+    "rule": "gbif_variant_suggestion",
+    "corrected_query": "Detarium senegalense",
+    "accepted_botanical": "Detarium senegalense",
+    "evidence": {
+      "queried": "Detarium senegalense",
+      "match_type": "EXACT",
+      "confidence": 99,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Detarium senegalense",
+      "usage_key": "2961177",
+      "accepted_usage_key": "2961177",
+      "genus_changed": false,
+      "epithet_changed": true
+    },
+    "attempts": [
+      {
+        "query": "Detarium senegalense",
+        "rule": "gbif_variant_suggestion",
+        "match_type": "EXACT",
+        "confidence": 99,
+        "status": "ACCEPTED",
+        "accepted": "Detarium senegalense",
+        "eligible": true
+      }
+    ]
+  },
+  {
+    "botanical_as_published": "Detarium senegalensis J.F.Gmel.",
+    "published_genus": "Detarium",
+    "unmatched_as": {
+      "match_type": "VARIANT",
+      "confidence": 100,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Detarium senegalense"
+    },
+    "decided_at": "2026-11-18",
     "status": "corrected",
     "rule": "gbif_variant_suggestion",
     "corrected_query": "Detarium senegalense",
@@ -1767,6 +1998,43 @@
     ]
   },
   {
+    "botanical_as_published": "Lycopersicon esculentum Mill.",
+    "published_genus": "Lycopersicon",
+    "unmatched_as": {
+      "match_type": "HIGHERRANK",
+      "confidence": 100,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Solanum"
+    },
+    "decided_at": "2026-11-18",
+    "status": "deferred",
+    "competing_accepted_names": [
+      "Solanum lycopersicoides",
+      "Solanum lycopersicum"
+    ],
+    "attempts": [
+      {
+        "query": "Solanum",
+        "rule": "gbif_variant_suggestion",
+        "match_type": "HIGHERRANK",
+        "confidence": 92,
+        "status": "ACCEPTED",
+        "accepted": "Solanum",
+        "eligible": false
+      },
+      {
+        "query": "Lycopersicon esculentum",
+        "rule": "authority_removed",
+        "match_type": "HIGHERRANK",
+        "confidence": 97,
+        "status": "ACCEPTED",
+        "accepted": "Solanum",
+        "eligible": false
+      }
+    ],
+    "reason": "GBIF offers more than one accepted species for this name and none is distinguished by the published genus or epithet. A botanist has to choose; the rows stay withheld until one does."
+  },
+  {
     "botanical_as_published": "Milletia thonningii",
     "published_genus": "Milletia",
     "unmatched_as": {
@@ -1799,6 +2067,43 @@
         "confidence": 99,
         "status": "ACCEPTED",
         "accepted": "Millettia thonningii",
+        "eligible": true
+      }
+    ]
+  },
+  {
+    "botanical_as_published": "Mitracarpus scaber Zucc. and ex Schult + Schult.f.",
+    "published_genus": "Mitracarpus",
+    "unmatched_as": {
+      "match_type": "NONE",
+      "confidence": null,
+      "taxonomic_status": null,
+      "matched_canonical": null
+    },
+    "decided_at": "2026-11-18",
+    "status": "corrected",
+    "rule": "authority_removed",
+    "corrected_query": "Mitracarpus scaber",
+    "accepted_botanical": "Mitracarpus hirtus",
+    "evidence": {
+      "queried": "Mitracarpus scaber",
+      "match_type": "EXACT",
+      "confidence": 97,
+      "taxonomic_status": "SYNONYM",
+      "matched_canonical": "Mitracarpus scaber",
+      "usage_key": "2912996",
+      "accepted_usage_key": "2912993",
+      "genus_changed": false,
+      "epithet_changed": true
+    },
+    "attempts": [
+      {
+        "query": "Mitracarpus scaber",
+        "rule": "authority_removed",
+        "match_type": "EXACT",
+        "confidence": 97,
+        "status": "SYNONYM",
+        "accepted": "Mitracarpus hirtus",
         "eligible": true
       }
     ]
@@ -1882,6 +2187,43 @@
         "confidence": 97,
         "status": "ACCEPTED",
         "accepted": "Newbouldia laevis",
+        "eligible": true
+      }
+    ]
+  },
+  {
+    "botanical_as_published": "Parkia biglobosa Aubrevielle",
+    "published_genus": "Parkia",
+    "unmatched_as": {
+      "match_type": "NONE",
+      "confidence": null,
+      "taxonomic_status": null,
+      "matched_canonical": null
+    },
+    "decided_at": "2026-11-18",
+    "status": "corrected",
+    "rule": "authority_removed",
+    "corrected_query": "Parkia biglobosa",
+    "accepted_botanical": "Parkia biglobosa",
+    "evidence": {
+      "queried": "Parkia biglobosa",
+      "match_type": "EXACT",
+      "confidence": 97,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Parkia biglobosa",
+      "usage_key": "5348812",
+      "accepted_usage_key": "5348812",
+      "genus_changed": false,
+      "epithet_changed": false
+    },
+    "attempts": [
+      {
+        "query": "Parkia biglobosa",
+        "rule": "authority_removed",
+        "match_type": "EXACT",
+        "confidence": 97,
+        "status": "ACCEPTED",
+        "accepted": "Parkia biglobosa",
         "eligible": true
       }
     ]
@@ -2571,6 +2913,80 @@
         "confidence": 99,
         "status": "ACCEPTED",
         "accepted": "Vitellaria paradoxa",
+        "eligible": true
+      }
+    ]
+  },
+  {
+    "botanical_as_published": "Zingiber officinale roscoe",
+    "published_genus": "Zingiber",
+    "unmatched_as": {
+      "match_type": "HIGHERRANK",
+      "confidence": 99,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Zingiber officinale"
+    },
+    "decided_at": "2026-11-18",
+    "status": "corrected",
+    "rule": "gbif_variant_suggestion",
+    "corrected_query": "Zingiber officinale",
+    "accepted_botanical": "Zingiber officinale",
+    "evidence": {
+      "queried": "Zingiber officinale",
+      "match_type": "EXACT",
+      "confidence": 99,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Zingiber officinale",
+      "usage_key": "2757280",
+      "accepted_usage_key": "2757280",
+      "genus_changed": false,
+      "epithet_changed": false
+    },
+    "attempts": [
+      {
+        "query": "Zingiber officinale",
+        "rule": "gbif_variant_suggestion",
+        "match_type": "EXACT",
+        "confidence": 99,
+        "status": "ACCEPTED",
+        "accepted": "Zingiber officinale",
+        "eligible": true
+      }
+    ]
+  },
+  {
+    "botanical_as_published": "Ziziphus jujube Mill.",
+    "published_genus": "Ziziphus",
+    "unmatched_as": {
+      "match_type": "VARIANT",
+      "confidence": 100,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Ziziphus jujuba"
+    },
+    "decided_at": "2026-11-18",
+    "status": "corrected",
+    "rule": "gbif_variant_suggestion",
+    "corrected_query": "Ziziphus jujuba",
+    "accepted_botanical": "Ziziphus jujuba",
+    "evidence": {
+      "queried": "Ziziphus jujuba",
+      "match_type": "EXACT",
+      "confidence": 97,
+      "taxonomic_status": "ACCEPTED",
+      "matched_canonical": "Ziziphus jujuba",
+      "usage_key": "3039423",
+      "accepted_usage_key": "3039423",
+      "genus_changed": false,
+      "epithet_changed": true
+    },
+    "attempts": [
+      {
+        "query": "Ziziphus jujuba",
+        "rule": "gbif_variant_suggestion",
+        "match_type": "EXACT",
+        "confidence": 97,
+        "status": "ACCEPTED",
+        "accepted": "Ziziphus jujuba",
         "eligible": true
       }
     ]

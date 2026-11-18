@@ -3288,6 +3288,2972 @@
     "evidence_scope": "ethnobotanical report; not clinical evidence"
   },
   {
+    "id": "observation-alhaji-2015-niger-fulani-07ea68bf67",
+    "plant_id": "plant-vachellia-nilotica-f76029b6d9",
+    "botanical_as_published": "Acacia nilotica (L.) Willd ex Del.",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 1
+    },
+    "parts_reported": [],
+    "preparations_reported": [],
+    "voucher_specimen": null,
+    "traditional_use_reported": "plant reported in ethnoveterinary use on cattle by Fulani pastoralists in Niger State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-alhaji-2015-niger-fulani-93afbdb438",
+    "plant_id": "plant-allium-sativum-49429a58d8",
+    "botanical_as_published": "Allium sativum L.",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 2
+    },
+    "parts_reported": [],
+    "preparations_reported": [],
+    "voucher_specimen": null,
+    "traditional_use_reported": "plant reported in ethnoveterinary use on cattle by Fulani pastoralists in Niger State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-alhaji-2015-niger-fulani-0f940e8b14",
+    "plant_id": "plant-annona-senegalensis-f12628a80c",
+    "botanical_as_published": "Annona senegalensis Pers.",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 3
+    },
+    "parts_reported": [],
+    "preparations_reported": [],
+    "voucher_specimen": null,
+    "traditional_use_reported": "plant reported in ethnoveterinary use on cattle by Fulani pastoralists in Niger State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-alhaji-2015-niger-fulani-41cc972f36",
+    "plant_id": "plant-arachis-hypogaea-6c43bcbd7f",
+    "botanical_as_published": "Arachis hypogea L.",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 4
+    },
+    "parts_reported": [],
+    "preparations_reported": [],
+    "voucher_specimen": null,
+    "traditional_use_reported": "plant reported in ethnoveterinary use on cattle by Fulani pastoralists in Niger State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-alhaji-2015-niger-fulani-40eb751e40",
+    "plant_id": "plant-azadirachta-indica-602368d8f9",
+    "botanical_as_published": "Azadirachta indica A. Juss.",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 5
+    },
+    "parts_reported": [],
+    "preparations_reported": [],
+    "voucher_specimen": null,
+    "traditional_use_reported": "plant reported in ethnoveterinary use on cattle by Fulani pastoralists in Niger State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-alhaji-2015-niger-fulani-4773299dc6",
+    "plant_id": "plant-bombax-buonopozense-38172e7690",
+    "botanical_as_published": "Bombax buonopozense P. Beauv.",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 6
+    },
+    "parts_reported": [],
+    "preparations_reported": [],
+    "voucher_specimen": null,
+    "traditional_use_reported": "plant reported in ethnoveterinary use on cattle by Fulani pastoralists in Niger State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-alhaji-2015-niger-fulani-6d855ec1a8",
+    "plant_id": "plant-vitellaria-paradoxa-de73616dac",
+    "botanical_as_published": "Butyrospermum paradoxum (Gaertn.f.) Hepper",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 7
+    },
+    "parts_reported": [],
+    "preparations_reported": [],
+    "voucher_specimen": null,
+    "traditional_use_reported": "plant reported in ethnoveterinary use on cattle by Fulani pastoralists in Niger State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-alhaji-2015-niger-fulani-0c52454182",
+    "plant_id": "plant-senna-occidentalis-9d5c9f2d10",
+    "botanical_as_published": "Cassia occidentalis Linn.",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 8
+    },
+    "parts_reported": [],
+    "preparations_reported": [],
+    "voucher_specimen": null,
+    "traditional_use_reported": "plant reported in ethnoveterinary use on cattle by Fulani pastoralists in Niger State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-alhaji-2015-niger-fulani-3d5e8866f3",
+    "plant_id": "plant-citrus-aurantiifolia-e96354d670",
+    "botanical_as_published": "Citrus aurantifolia (Christm.) Swingle",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 9
+    },
+    "parts_reported": [],
+    "preparations_reported": [],
+    "voucher_specimen": null,
+    "traditional_use_reported": "plant reported in ethnoveterinary use on cattle by Fulani pastoralists in Niger State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-alhaji-2015-niger-fulani-5443871642",
+    "plant_id": "plant-crossopteryx-febrifuga-dffd28447e",
+    "botanical_as_published": "Crossopteryx febrifuga (Afzel. ex G. Don) Benth.",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 10
+    },
+    "parts_reported": [],
+    "preparations_reported": [],
+    "voucher_specimen": null,
+    "traditional_use_reported": "plant reported in ethnoveterinary use on cattle by Fulani pastoralists in Niger State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-alhaji-2015-niger-fulani-6fc2a8fadd",
+    "plant_id": "plant-dichrostachys-cinerea-africana-4741bef371",
+    "botanical_as_published": "Dichrostachys glomerata (Forsk.) Chiov.",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 11
+    },
+    "parts_reported": [],
+    "preparations_reported": [],
+    "voucher_specimen": null,
+    "traditional_use_reported": "plant reported in ethnoveterinary use on cattle by Fulani pastoralists in Niger State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-alhaji-2015-niger-fulani-e491d604fe",
+    "plant_id": "plant-heterotis-rotundifolia-aaed7d4bb7",
+    "botanical_as_published": "Dissotis rotundifolia (Sm.) Triana",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 12
+    },
+    "parts_reported": [],
+    "preparations_reported": [],
+    "voucher_specimen": null,
+    "traditional_use_reported": "plant reported in ethnoveterinary use on cattle by Fulani pastoralists in Niger State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-alhaji-2015-niger-fulani-42194f3f9c",
+    "plant_id": "plant-entada-africana-2c0624fa5e",
+    "botanical_as_published": "Entada africana Guill. & Perr.",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 13
+    },
+    "parts_reported": [],
+    "preparations_reported": [],
+    "voucher_specimen": null,
+    "traditional_use_reported": "plant reported in ethnoveterinary use on cattle by Fulani pastoralists in Niger State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-alhaji-2015-niger-fulani-9eb14aa094",
+    "plant_id": "plant-khaya-senegalensis-f69ad4fed5",
+    "botanical_as_published": "Khaya senegalensis (Desr.) A. Juss.",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 14
+    },
+    "parts_reported": [],
+    "preparations_reported": [],
+    "voucher_specimen": null,
+    "traditional_use_reported": "plant reported in ethnoveterinary use on cattle by Fulani pastoralists in Niger State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-alhaji-2015-niger-fulani-abb6bc28e8",
+    "plant_id": "plant-kigelia-africana-46d315983f",
+    "botanical_as_published": "Kigelia africana (Lam.) Benth.",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 15
+    },
+    "parts_reported": [],
+    "preparations_reported": [],
+    "voucher_specimen": null,
+    "traditional_use_reported": "plant reported in ethnoveterinary use on cattle by Fulani pastoralists in Niger State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-alhaji-2015-niger-fulani-fc55a9e3df",
+    "plant_id": "plant-lawsonia-inermis-7ff9dfd7a9",
+    "botanical_as_published": "Lawsonia inermis (L.) Keay",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 16
+    },
+    "parts_reported": [],
+    "preparations_reported": [],
+    "voucher_specimen": null,
+    "traditional_use_reported": "plant reported in ethnoveterinary use on cattle by Fulani pastoralists in Niger State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-alhaji-2015-niger-fulani-57125acba8",
+    "plant_id": "plant-mitracarpus-hirtus-153212d7cc",
+    "botanical_as_published": "Mitracarpus scaber Zucc. and ex Schult + Schult.f.",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 17
+    },
+    "parts_reported": [],
+    "preparations_reported": [],
+    "voucher_specimen": null,
+    "traditional_use_reported": "plant reported in ethnoveterinary use on cattle by Fulani pastoralists in Niger State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-alhaji-2015-niger-fulani-9f99db668b",
+    "plant_id": "plant-ocimum-gratissimum-db8de35590",
+    "botanical_as_published": "Ocimum gratissimum L.",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 18
+    },
+    "parts_reported": [],
+    "preparations_reported": [],
+    "voucher_specimen": null,
+    "traditional_use_reported": "plant reported in ethnoveterinary use on cattle by Fulani pastoralists in Niger State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-alhaji-2015-niger-fulani-266b0ec29f",
+    "plant_id": "plant-parkia-biglobosa-776ff1d28f",
+    "botanical_as_published": "Parkia biglobosa Aubrevielle",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 19
+    },
+    "parts_reported": [],
+    "preparations_reported": [],
+    "voucher_specimen": null,
+    "traditional_use_reported": "plant reported in ethnoveterinary use on cattle by Fulani pastoralists in Niger State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-alhaji-2015-niger-fulani-a13889490d",
+    "plant_id": "plant-piliostigma-thonningii-54038cc24e",
+    "botanical_as_published": "Piliostigma thonningii (Schum.) Milne-Redhead",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 20
+    },
+    "parts_reported": [],
+    "preparations_reported": [],
+    "voucher_specimen": null,
+    "traditional_use_reported": "plant reported in ethnoveterinary use on cattle by Fulani pastoralists in Niger State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-alhaji-2015-niger-fulani-139c77acc6",
+    "plant_id": "plant-prosopis-africana-f699fc148f",
+    "botanical_as_published": "Prosopis africana (Guill. & Perr.) Taub.",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 21
+    },
+    "parts_reported": [],
+    "preparations_reported": [],
+    "voucher_specimen": null,
+    "traditional_use_reported": "plant reported in ethnoveterinary use on cattle by Fulani pastoralists in Niger State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-alhaji-2015-niger-fulani-40f1ccc1c1",
+    "plant_id": "plant-psidium-guajava-ef93129072",
+    "botanical_as_published": "Psidium guajava L.",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 22
+    },
+    "parts_reported": [],
+    "preparations_reported": [],
+    "voucher_specimen": null,
+    "traditional_use_reported": "plant reported in ethnoveterinary use on cattle by Fulani pastoralists in Niger State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-alhaji-2015-niger-fulani-7dabbd3237",
+    "plant_id": "plant-lophira-lanceolata-548e1e955d",
+    "botanical_as_published": "Lophira lanceolata Van Tiegh. ex Keay",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 23
+    },
+    "parts_reported": [],
+    "preparations_reported": [],
+    "voucher_specimen": null,
+    "traditional_use_reported": "plant reported in ethnoveterinary use on cattle by Fulani pastoralists in Niger State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-alhaji-2015-niger-fulani-05d166c195",
+    "plant_id": "plant-ricinus-communis-deda1fad54",
+    "botanical_as_published": "Ricinus communis Linn.",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 24
+    },
+    "parts_reported": [],
+    "preparations_reported": [],
+    "voucher_specimen": null,
+    "traditional_use_reported": "plant reported in ethnoveterinary use on cattle by Fulani pastoralists in Niger State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-alhaji-2015-niger-fulani-0ff0b71fec",
+    "plant_id": "plant-nauclea-latifolia-53fa5cb38c",
+    "botanical_as_published": "Sarcocephalus latifolius (Sm.)Bruce",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 25
+    },
+    "parts_reported": [],
+    "preparations_reported": [],
+    "voucher_specimen": null,
+    "traditional_use_reported": "plant reported in ethnoveterinary use on cattle by Fulani pastoralists in Niger State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-alhaji-2015-niger-fulani-9c3def5bfa",
+    "plant_id": "plant-schwenckia-americana-9db4a121c1",
+    "botanical_as_published": "Schwenckia americana Linn.",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 26
+    },
+    "parts_reported": [],
+    "preparations_reported": [],
+    "voucher_specimen": null,
+    "traditional_use_reported": "plant reported in ethnoveterinary use on cattle by Fulani pastoralists in Niger State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-alhaji-2015-niger-fulani-8a22852d59",
+    "plant_id": "plant-senna-alata-6d79b20446",
+    "botanical_as_published": "Senna (Cassia) alata (L.) Roxb.",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 27
+    },
+    "parts_reported": [],
+    "preparations_reported": [],
+    "voucher_specimen": null,
+    "traditional_use_reported": "plant reported in ethnoveterinary use on cattle by Fulani pastoralists in Niger State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-alhaji-2015-niger-fulani-9a07ec27fa",
+    "plant_id": "plant-tephrosia-vogelii-052b63a8d8",
+    "botanical_as_published": "Tephrosia vogelii Hook.f.",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 28
+    },
+    "parts_reported": [],
+    "preparations_reported": [],
+    "voucher_specimen": null,
+    "traditional_use_reported": "plant reported in ethnoveterinary use on cattle by Fulani pastoralists in Niger State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-alhaji-2015-niger-fulani-8267b15475",
+    "plant_id": "plant-terminalia-macroptera-95bc93c88f",
+    "botanical_as_published": "Terminalia macroptera Guill. & Perr.",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 29
+    },
+    "parts_reported": [],
+    "preparations_reported": [],
+    "voucher_specimen": null,
+    "traditional_use_reported": "plant reported in ethnoveterinary use on cattle by Fulani pastoralists in Niger State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-alhaji-2015-niger-fulani-30b3450654",
+    "plant_id": "plant-gymnanthemum-amygdalinum-5dbeaea320",
+    "botanical_as_published": "Vernonia amygdalina Del.",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 30
+    },
+    "parts_reported": [],
+    "preparations_reported": [],
+    "voucher_specimen": null,
+    "traditional_use_reported": "plant reported in ethnoveterinary use on cattle by Fulani pastoralists in Niger State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-alhaji-2015-niger-fulani-ef1cc914a7",
+    "plant_id": "plant-vitex-doniana-a62b4d1dc8",
+    "botanical_as_published": "Vitex doniana Sweet",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 31
+    },
+    "parts_reported": [],
+    "preparations_reported": [],
+    "voucher_specimen": null,
+    "traditional_use_reported": "plant reported in ethnoveterinary use on cattle by Fulani pastoralists in Niger State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-alhaji-2015-niger-fulani-02aa43fb9f",
+    "plant_id": "plant-zanthoxylum-zanthoxyloides-35bfd45a11",
+    "botanical_as_published": "Zanthoxylum zanthoxyloides Zepernick & Timler.",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 32
+    },
+    "parts_reported": [],
+    "preparations_reported": [],
+    "voucher_specimen": null,
+    "traditional_use_reported": "plant reported in ethnoveterinary use on cattle by Fulani pastoralists in Niger State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-alhaji-2015-niger-fulani-9b1d06764e",
+    "plant_id": "plant-zingiber-officinale-8932efc2ae",
+    "botanical_as_published": "Zingiber officinale Rosc.",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 33
+    },
+    "parts_reported": [],
+    "preparations_reported": [],
+    "voucher_specimen": null,
+    "traditional_use_reported": "plant reported in ethnoveterinary use on cattle by Fulani pastoralists in Niger State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-alhaji-2015-niger-fulani-d73b08366b",
+    "plant_id": "plant-ziziphus-abyssinica-6f090c5897",
+    "botanical_as_published": "Ziziphus abyssinica Hochst. ex A. Rich.",
+    "source_id": "alhaji-2015-niger-fulani",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 34
+    },
+    "parts_reported": [],
+    "preparations_reported": [],
+    "voucher_specimen": null,
+    "traditional_use_reported": "plant reported in ethnoveterinary use on cattle by Fulani pastoralists in Niger State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-anyanwu-2025-north-central-e2d6943768",
+    "plant_id": "plant-vachellia-nilotica-f76029b6d9",
+    "botanical_as_published": "Acacia nilotica (L.) Delile",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 1
+    },
+    "parts_reported": [
+      "seed",
+      "fruit"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "B03709",
+    "traditional_use_reported": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-anyanwu-2025-north-central-1f08c4e601",
+    "plant_id": "plant-adansonia-digitata-de5778c4db",
+    "botanical_as_published": "Adansonia digitata L.",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 2
+    },
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [
+      "decoction",
+      "maceration"
+    ],
+    "voucher_specimen": "M02512",
+    "traditional_use_reported": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-anyanwu-2025-north-central-3ab6096a09",
+    "plant_id": "plant-allium-cepa-68b96f0db9",
+    "botanical_as_published": "Allium cepa L.",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 3
+    },
+    "parts_reported": [
+      "leaf",
+      "bulb"
+    ],
+    "preparations_reported": [
+      "decoction",
+      "maceration"
+    ],
+    "voucher_specimen": "GA135-3621",
+    "traditional_use_reported": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-anyanwu-2025-north-central-228b2968bf",
+    "plant_id": "plant-allium-sativum-49429a58d8",
+    "botanical_as_published": "Allium sativum L.",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 4
+    },
+    "parts_reported": [
+      "clove"
+    ],
+    "preparations_reported": [
+      "decoction",
+      "maceration"
+    ],
+    "voucher_specimen": "GA135-3622",
+    "traditional_use_reported": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-anyanwu-2025-north-central-c1e3f08800",
+    "plant_id": "plant-aloe-vera-d33e9eaef6",
+    "botanical_as_published": "Aloe vera (L.) Burm.f., Aloe barbadensis Mill",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 5
+    },
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [
+      "juice"
+    ],
+    "voucher_specimen": "UAM/FH/314",
+    "traditional_use_reported": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-anyanwu-2025-north-central-09117b461c",
+    "plant_id": "plant-alstonia-boonei-a2b33bfa82",
+    "botanical_as_published": "Alstonia boonei De wild.",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 6
+    },
+    "parts_reported": [
+      "stem bark"
+    ],
+    "preparations_reported": [
+      "maceration"
+    ],
+    "voucher_specimen": "GA133-2752",
+    "traditional_use_reported": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-anyanwu-2025-north-central-2493b31a53",
+    "plant_id": "plant-ananas-comosus-e0dfdb430c",
+    "botanical_as_published": "Ananas comosus (L.) Merr.",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 7
+    },
+    "parts_reported": [
+      "fruit"
+    ],
+    "preparations_reported": [
+      "maceration"
+    ],
+    "voucher_specimen": "B03560",
+    "traditional_use_reported": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-anyanwu-2025-north-central-2866ee1a02",
+    "plant_id": "plant-anthocleista-vogelii-5acdf5facc",
+    "botanical_as_published": "Anthocleista vogelii Planch.",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 8
+    },
+    "parts_reported": [
+      "root"
+    ],
+    "preparations_reported": [
+      "maceration"
+    ],
+    "voucher_specimen": "GA134-7421",
+    "traditional_use_reported": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-anyanwu-2025-north-central-9349ae9f2a",
+    "plant_id": "plant-azadirachta-indica-602368d8f9",
+    "botanical_as_published": "Azadirachta indica A.Juss.",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 9
+    },
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "UAM/FH/0315",
+    "traditional_use_reported": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-anyanwu-2025-north-central-ce40d1ad3b",
+    "plant_id": "plant-beta-vulgaris-740d268c58",
+    "botanical_as_published": "Beta vulgaris L.",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 10
+    },
+    "parts_reported": [
+      "root"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "B03510",
+    "traditional_use_reported": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-anyanwu-2025-north-central-cbe6fdd996",
+    "plant_id": "plant-boscia-senegalensis-2dbb46e248",
+    "botanical_as_published": "Boscia senegalensis Lam.",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 11
+    },
+    "parts_reported": [
+      "stem",
+      "branch"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "B03520",
+    "traditional_use_reported": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-anyanwu-2025-north-central-0248d35164",
+    "plant_id": "plant-brassica-oleracea-1fd4f3e33d",
+    "botanical_as_published": "Brassica oleracea L.",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 12
+    },
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "B03530",
+    "traditional_use_reported": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-anyanwu-2025-north-central-17a9328fd9",
+    "plant_id": "plant-brassica-nigra-166d2af052",
+    "botanical_as_published": "Brassica nigra (L.) K.Koch",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 13
+    },
+    "parts_reported": [
+      "seed"
+    ],
+    "preparations_reported": [
+      "powder"
+    ],
+    "voucher_specimen": "B03531",
+    "traditional_use_reported": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-anyanwu-2025-north-central-cc7403bdf1",
+    "plant_id": "plant-capsicum-annuum-0276c03fe6",
+    "botanical_as_published": "Capsicum annuum L.",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 14
+    },
+    "parts_reported": [
+      "fruit"
+    ],
+    "preparations_reported": [
+      "powder",
+      "decoction"
+    ],
+    "voucher_specimen": "B03540",
+    "traditional_use_reported": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-anyanwu-2025-north-central-27be01be14",
+    "plant_id": "plant-capsicum-chinense-ed18c7b524",
+    "botanical_as_published": "Capsicum chinense Jacq.",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 15
+    },
+    "parts_reported": [
+      "fruit"
+    ],
+    "preparations_reported": [
+      "juice"
+    ],
+    "voucher_specimen": "B03541",
+    "traditional_use_reported": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-anyanwu-2025-north-central-97885a1e14",
+    "plant_id": "plant-carica-papaya-d45ff84fbe",
+    "botanical_as_published": "Carica papaya L.",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 16
+    },
+    "parts_reported": [
+      "fruit"
+    ],
+    "preparations_reported": [
+      "juice"
+    ],
+    "voucher_specimen": "UAM/FH/0311",
+    "traditional_use_reported": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-anyanwu-2025-north-central-67a96e7cbd",
+    "plant_id": "plant-sesamum-sesamoides-e1b3fc287f",
+    "botanical_as_published": "Ceratotheca sesamoides Endl.",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 17
+    },
+    "parts_reported": [
+      "seed",
+      "leaf"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "B03601",
+    "traditional_use_reported": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-anyanwu-2025-north-central-df35025ec3",
+    "plant_id": "plant-chrozophora-senegalensis-5ebea10991",
+    "botanical_as_published": "Chrozophora senegalensis (Lam.) A.Juss. ex Spreng.",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 18
+    },
+    "parts_reported": [
+      "stem bark"
+    ],
+    "preparations_reported": [
+      "powder",
+      "decoction"
+    ],
+    "voucher_specimen": "B03611",
+    "traditional_use_reported": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-anyanwu-2025-north-central-8821530387",
+    "plant_id": "plant-cinnamomum-verum-9e3f7aeb97",
+    "botanical_as_published": "Cinnamomum verum J.Presl",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 19
+    },
+    "parts_reported": [
+      "fruit"
+    ],
+    "preparations_reported": [
+      "powder",
+      "decoction",
+      "maceration"
+    ],
+    "voucher_specimen": "B03620",
+    "traditional_use_reported": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-anyanwu-2025-north-central-94a00f4762",
+    "plant_id": "plant-citrullus-colocynthis-7f7261a3c1",
+    "botanical_as_published": "Citrullus colocynthis (L.) Schrad.",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 20
+    },
+    "parts_reported": [
+      "whole plant"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "UAM/FH/0312",
+    "traditional_use_reported": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-anyanwu-2025-north-central-78a8e87567",
+    "plant_id": "plant-citrullus-lanatus-93ead4239e",
+    "botanical_as_published": "Citrullus lanatus (Thunb.) Matsum. & Nakai",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 21
+    },
+    "parts_reported": [
+      "seed"
+    ],
+    "preparations_reported": [
+      "juice"
+    ],
+    "voucher_specimen": "B03630",
+    "traditional_use_reported": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-anyanwu-2025-north-central-1bc4a1f96a",
+    "plant_id": "plant-citrus-aurantiifolia-e96354d670",
+    "botanical_as_published": "Citrus aurantifolia (Christm.) Swingle",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 22
+    },
+    "parts_reported": [
+      "fruit"
+    ],
+    "preparations_reported": [
+      "juice"
+    ],
+    "voucher_specimen": "B03640",
+    "traditional_use_reported": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-anyanwu-2025-north-central-526cae9b84",
+    "plant_id": "plant-citrus-limon-a0b6a074cf",
+    "botanical_as_published": "Citrus limon (L.) Burm. f.",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 23
+    },
+    "parts_reported": [
+      "leaf",
+      "stem",
+      "root",
+      "fruit",
+      "flower"
+    ],
+    "preparations_reported": [
+      "decoction",
+      "juice",
+      "maceration"
+    ],
+    "voucher_specimen": "B03641",
+    "traditional_use_reported": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-anyanwu-2025-north-central-e1c5f5dce1",
+    "plant_id": "plant-citrus-aurantium-6b3a87e59c",
+    "botanical_as_published": "Citrus paradise Macfad.",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 24
+    },
+    "parts_reported": [
+      "fruit"
+    ],
+    "preparations_reported": [
+      "juice"
+    ],
+    "voucher_specimen": "B03642",
+    "traditional_use_reported": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-anyanwu-2025-north-central-3a371dc1f3",
+    "plant_id": "plant-cochlospermum-tinctorium-3ac4c9f071",
+    "botanical_as_published": "Cochlospermum tinctorium Perrier ex A.Rich.",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 25
+    },
+    "parts_reported": [
+      "stem",
+      "root"
+    ],
+    "preparations_reported": [
+      "decoction",
+      "maceration"
+    ],
+    "voucher_specimen": "B03651",
+    "traditional_use_reported": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-anyanwu-2025-north-central-4fd5400050",
+    "plant_id": "plant-cocos-nucifera-20f1d857c6",
+    "botanical_as_published": "Cocos nucifera L.",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 26
+    },
+    "parts_reported": [
+      "fruit"
+    ],
+    "preparations_reported": [
+      "juice"
+    ],
+    "voucher_specimen": "UAM/FH/0316",
+    "traditional_use_reported": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-anyanwu-2025-north-central-7c239ff566",
+    "plant_id": "plant-commiphora-africana-7ec6be0c1b",
+    "botanical_as_published": "Commiphora africana (A.Rich.) Endl.",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 27
+    },
+    "parts_reported": [
+      "stem bark"
+    ],
+    "preparations_reported": [
+      "decoction",
+      "maceration"
+    ],
+    "voucher_specimen": "B03660",
+    "traditional_use_reported": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-anyanwu-2025-north-central-c21b0f9c75",
+    "plant_id": "plant-cucumis-sativus-68244329ee",
+    "botanical_as_published": "Cucumis sativus L.",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 28
+    },
+    "parts_reported": [
+      "fruit"
+    ],
+    "preparations_reported": [
+      "juice"
+    ],
+    "voucher_specimen": "B03631",
+    "traditional_use_reported": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-anyanwu-2025-north-central-3200f03ae6",
+    "plant_id": "plant-cucurbita-ficifolia-21f4cb5eeb",
+    "botanical_as_published": "Cucurbita ficifolia Bouché",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 29
+    },
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "B03632",
+    "traditional_use_reported": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-anyanwu-2025-north-central-8078fabb64",
+    "plant_id": "plant-cucurbita-pepo-03bf5a579e",
+    "botanical_as_published": "Cucurbita pepo styriaca L.",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 30
+    },
+    "parts_reported": [
+      "seed"
+    ],
+    "preparations_reported": [
+      "juice",
+      "decoction"
+    ],
+    "voucher_specimen": "B03633",
+    "traditional_use_reported": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-anyanwu-2025-north-central-2b24c54462",
+    "plant_id": "plant-curcuma-longa-cac6186f50",
+    "botanical_as_published": "Curcuma longa L.",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 31
+    },
+    "parts_reported": [
+      "root"
+    ],
+    "preparations_reported": [
+      "powder",
+      "decoction"
+    ],
+    "voucher_specimen": "B03670",
+    "traditional_use_reported": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-anyanwu-2025-north-central-fe7e317eb9",
+    "plant_id": "plant-cymbopogon-citratus-d5de29a9fd",
+    "botanical_as_published": "Cymbopogon citratus (DC.) Stapf",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 32
+    },
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [
+      "juice",
+      "decoction"
+    ],
+    "voucher_specimen": "UAM/FH/0310",
+    "traditional_use_reported": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-anyanwu-2025-north-central-7cfadaf21c",
+    "plant_id": "plant-cyperus-esculentus-72c5beb83e",
+    "botanical_as_published": "Cyperus esculentus L.",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 33
+    },
+    "parts_reported": [
+      "fruit"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "B03690",
+    "traditional_use_reported": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-anyanwu-2025-north-central-0e9d5fc381",
+    "plant_id": "plant-detarium-senegalense-f3fc183e6c",
+    "botanical_as_published": "Detarium senegalensis J.F.Gmel.",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 34
+    },
+    "parts_reported": [
+      "seed"
+    ],
+    "preparations_reported": [
+      "powder"
+    ],
+    "voucher_specimen": "B03700",
+    "traditional_use_reported": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-anyanwu-2025-north-central-ea402e6735",
+    "plant_id": "plant-fragaria-vesca-77eb0b1e0c",
+    "botanical_as_published": "Fragaria vesca L.",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 35
+    },
+    "parts_reported": [
+      "fruit"
+    ],
+    "preparations_reported": [
+      "juice"
+    ],
+    "voucher_specimen": "B03711",
+    "traditional_use_reported": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-anyanwu-2025-north-central-0485877280",
+    "plant_id": "plant-gongronemopsis-latifolia-5a28c814ce",
+    "botanical_as_published": "Gongronema latifolium Benth.",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 36
+    },
+    "parts_reported": [
+      "leaf",
+      "seed"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "GA133-2754",
+    "traditional_use_reported": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-anyanwu-2025-north-central-5d671f2406",
+    "plant_id": "plant-garcinia-kola-b2da88781b",
+    "botanical_as_published": "Garcinia kola Heckel.",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 37
+    },
+    "parts_reported": [
+      "fruit"
+    ],
+    "preparations_reported": [
+      "maceration"
+    ],
+    "voucher_specimen": "B03720",
+    "traditional_use_reported": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-anyanwu-2025-north-central-f523138517",
+    "plant_id": "plant-glycine-max-ed20f6c59d",
+    "botanical_as_published": "Glycine max (L.) Merr.",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 38
+    },
+    "parts_reported": [
+      "seed"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "B03701",
+    "traditional_use_reported": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-anyanwu-2025-north-central-7218a1c927",
+    "plant_id": "plant-gnetum-africanum-a17170e15a",
+    "botanical_as_published": "Gnetum africanum Welw.",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 39
+    },
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [
+      "decoction",
+      "maceration"
+    ],
+    "voucher_specimen": "B03740",
+    "traditional_use_reported": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-anyanwu-2025-north-central-4f27b243d0",
+    "plant_id": "plant-guiera-senegalensis-3b2c389d07",
+    "botanical_as_published": "Guiera senegalensis J.F.Gmel.",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 40
+    },
+    "parts_reported": [
+      "leaf",
+      "stem"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "B03571",
+    "traditional_use_reported": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-anyanwu-2025-north-central-f9f9590c76",
+    "plant_id": "plant-heinsia-crinita-32b86053f1",
+    "botanical_as_published": "Heinsia crinita (Afzel.) G.Taylor",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 41
+    },
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "B03731",
+    "traditional_use_reported": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-anyanwu-2025-north-central-649a70d4e3",
+    "plant_id": "plant-hibiscus-sabdariffa-868f3a61df",
+    "botanical_as_published": "Hibiscus sabdariffa L.",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 42
+    },
+    "parts_reported": [
+      "leaf",
+      "fruit"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "UAM/FH/0308",
+    "traditional_use_reported": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-anyanwu-2025-north-central-752d74dd93",
+    "plant_id": "plant-ipomoea-batatas-0854e36722",
+    "botanical_as_published": "Ipomoea batatas (L.) Poir.",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 43
+    },
+    "parts_reported": [
+      "root"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "UAM/FH/0321",
+    "traditional_use_reported": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-anyanwu-2025-north-central-5cba823c31",
+    "plant_id": "plant-irvingia-gabonensis-6202d9e552",
+    "botanical_as_published": "Irvingia gabonensis (Aubry-Lecomte ex O'Rorke) Baill.",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 44
+    },
+    "parts_reported": [
+      "seed"
+    ],
+    "preparations_reported": [
+      "decoction",
+      "maceration"
+    ],
+    "voucher_specimen": "A06926",
+    "traditional_use_reported": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-anyanwu-2025-north-central-4587ac7573",
+    "plant_id": "plant-khaya-senegalensis-f69ad4fed5",
+    "botanical_as_published": "Khaya senegalensis (Desv.) A.Juss.",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 45
+    },
+    "parts_reported": [
+      "stem bark"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "UAM/FH/0322",
+    "traditional_use_reported": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-anyanwu-2025-north-central-939319b21d",
+    "plant_id": "plant-luffa-aegyptiaca-4ec47a92a4",
+    "botanical_as_published": "Luffa aegyptiaca Mill.",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 46
+    },
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [
+      "juice",
+      "decoction"
+    ],
+    "voucher_specimen": "B03634",
+    "traditional_use_reported": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-anyanwu-2025-north-central-655f843218",
+    "plant_id": null,
+    "botanical_as_published": "Lycopersicon esculentum Mill.",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 47
+    },
+    "parts_reported": [
+      "fruit"
+    ],
+    "preparations_reported": [
+      "juice"
+    ],
+    "voucher_specimen": "UAM/FH/0307",
+    "traditional_use_reported": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-anyanwu-2025-north-central-89551a989f",
+    "plant_id": "plant-mentha-pulegium-182675646e",
+    "botanical_as_published": "Mentha pulegium L.",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 48
+    },
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "B03760",
+    "traditional_use_reported": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-anyanwu-2025-north-central-7da2b3b7c7",
+    "plant_id": "plant-momordica-balsamina-acee42927e",
+    "botanical_as_published": "Momordica balsamina L.",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 49
+    },
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "B03635",
+    "traditional_use_reported": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-anyanwu-2025-north-central-c3a032d36f",
+    "plant_id": "plant-momordica-charantia-2e38e78d6e",
+    "botanical_as_published": "Momordica charantia L.",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 50
+    },
+    "parts_reported": [
+      "fruit"
+    ],
+    "preparations_reported": [
+      "juice",
+      "decoction"
+    ],
+    "voucher_specimen": "B03636",
+    "traditional_use_reported": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-anyanwu-2025-north-central-f132ff4118",
+    "plant_id": "plant-moringa-oleifera-6a8b6f1fb2",
+    "botanical_as_published": "Moringa oleifera Lam.",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 51
+    },
+    "parts_reported": [
+      "leaf",
+      "stem",
+      "seed",
+      "root"
+    ],
+    "preparations_reported": [
+      "decoction",
+      "powder",
+      "maceration"
+    ],
+    "voucher_specimen": "UAM/FH/0313",
+    "traditional_use_reported": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-anyanwu-2025-north-central-e6958d5974",
+    "plant_id": "plant-mucuna-flagellipes-7becefb79e",
+    "botanical_as_published": "Mucuna flagellipes Hook.f.",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 52
+    },
+    "parts_reported": [
+      "seed"
+    ],
+    "preparations_reported": [
+      "decoction",
+      "maceration"
+    ],
+    "voucher_specimen": "B03702",
+    "traditional_use_reported": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-anyanwu-2025-north-central-cd215418ef",
+    "plant_id": "plant-murraya-koenigii-9f885e4e9f",
+    "botanical_as_published": "Murraya koenigii (L.) Spreng.",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 53
+    },
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "B03643",
+    "traditional_use_reported": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-anyanwu-2025-north-central-b9fde9ed0d",
+    "plant_id": "plant-myristica-fragrans-5fa608361f",
+    "botanical_as_published": "Myristica fragrans Houtt.",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 54
+    },
+    "parts_reported": [
+      "fruit",
+      "seed"
+    ],
+    "preparations_reported": [
+      "powder"
+    ],
+    "voucher_specimen": "B03770",
+    "traditional_use_reported": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-anyanwu-2025-north-central-5e4790755d",
+    "plant_id": "plant-ocimum-basilicum-aea107c25b",
+    "botanical_as_published": "Ocimum basilicum L.",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 55
+    },
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [
+      "juice"
+    ],
+    "voucher_specimen": "B03761",
+    "traditional_use_reported": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-anyanwu-2025-north-central-434b8710fd",
+    "plant_id": "plant-ocimum-gratissimum-db8de35590",
+    "botanical_as_published": "Ocimum gratissimum L.",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 56
+    },
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "B03762",
+    "traditional_use_reported": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-anyanwu-2025-north-central-a930abd138",
+    "plant_id": "plant-persea-americana-4797acba26",
+    "botanical_as_published": "Persea americana Mill.",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 57
+    },
+    "parts_reported": [
+      "leaf",
+      "fruit"
+    ],
+    "preparations_reported": [
+      "juice"
+    ],
+    "voucher_specimen": "B03621",
+    "traditional_use_reported": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-anyanwu-2025-north-central-6786d2aaf5",
+    "plant_id": "plant-piper-guineense-b925235b59",
+    "botanical_as_published": "Piper guineense Schumach. & Thonn.",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 58
+    },
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "B03780",
+    "traditional_use_reported": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-anyanwu-2025-north-central-98b8b07832",
+    "plant_id": "plant-piper-nigrum-7cc1d5929a",
+    "botanical_as_published": "Piper nigrum L.",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 59
+    },
+    "parts_reported": [
+      "fruit"
+    ],
+    "preparations_reported": [
+      "decoction",
+      "juice"
+    ],
+    "voucher_specimen": "B03781",
+    "traditional_use_reported": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-anyanwu-2025-north-central-612d606c21",
+    "plant_id": "plant-prosopis-africana-f699fc148f",
+    "botanical_as_published": "Prosopis africana (Guill. & Perr.) Taub.",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 60
+    },
+    "parts_reported": [
+      "stem bark"
+    ],
+    "preparations_reported": [
+      "decoction",
+      "maceration"
+    ],
+    "voucher_specimen": "UAM/FH/0309",
+    "traditional_use_reported": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-anyanwu-2025-north-central-6e1f76cc0a",
+    "plant_id": "plant-psidium-guajava-ef93129072",
+    "botanical_as_published": "Psidium guajava L.",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 61
+    },
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "UAM/FH/0320",
+    "traditional_use_reported": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-anyanwu-2025-north-central-4245e12f2a",
+    "plant_id": "plant-pterocarpus-mildbraedii-27f79d5ddd",
+    "botanical_as_published": "Pterocarpus mildbraedii Harms",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 62
+    },
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [
+      "decoction",
+      "maceration"
+    ],
+    "voucher_specimen": "B03704",
+    "traditional_use_reported": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-anyanwu-2025-north-central-534586bb2c",
+    "plant_id": "plant-senna-occidentalis-9d5c9f2d10",
+    "botanical_as_published": "Senna occidentalis (L.) Link",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 63
+    },
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "B03705",
+    "traditional_use_reported": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-anyanwu-2025-north-central-3b9ce67eb8",
+    "plant_id": "plant-spinacia-oleracea-451e093c2b",
+    "botanical_as_published": "Spinacia oleracea L.",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 64
+    },
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [
+      "decoction",
+      "juice"
+    ],
+    "voucher_specimen": "B03800",
+    "traditional_use_reported": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-anyanwu-2025-north-central-9d4d90f7c2",
+    "plant_id": "plant-tamarindus-indica-47fff9bcb1",
+    "botanical_as_published": "Tamarindus indica L.",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 65
+    },
+    "parts_reported": [
+      "seed",
+      "fruit"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "B03706",
+    "traditional_use_reported": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-anyanwu-2025-north-central-baba97e754",
+    "plant_id": "plant-tetrapleura-tetraptera-fe165781bd",
+    "botanical_as_published": "Tetrapleura tetraptera (Schumach. & Thonn.) Taub.",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 66
+    },
+    "parts_reported": [
+      "pod"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "B03707",
+    "traditional_use_reported": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-anyanwu-2025-north-central-5b8c76ec04",
+    "plant_id": "plant-gymnanthemum-amygdalinum-5dbeaea320",
+    "botanical_as_published": "Vernonia amygdalina Delile",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 67
+    },
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [
+      "juice",
+      "decoction",
+      "maceration"
+    ],
+    "voucher_specimen": "B03820",
+    "traditional_use_reported": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-anyanwu-2025-north-central-9abeb123f5",
+    "plant_id": "plant-vigna-subterranea-614c8cd19b",
+    "botanical_as_published": "Vigna subterranea (L.) Verdc.",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 68
+    },
+    "parts_reported": [
+      "seed"
+    ],
+    "preparations_reported": [
+      "decoction"
+    ],
+    "voucher_specimen": "B03708",
+    "traditional_use_reported": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-anyanwu-2025-north-central-b23141fe75",
+    "plant_id": "plant-zingiber-officinale-8932efc2ae",
+    "botanical_as_published": "Zingiber officinale roscoe",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 69
+    },
+    "parts_reported": [
+      "root"
+    ],
+    "preparations_reported": [
+      "decoction",
+      "juice",
+      "maceration"
+    ],
+    "voucher_specimen": "UAM/FH/0317",
+    "traditional_use_reported": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-anyanwu-2025-north-central-e34fa210a4",
+    "plant_id": "plant-ziziphus-jujuba-f3488140f0",
+    "botanical_as_published": "Ziziphus jujube Mill.",
+    "source_id": "anyanwu-2025-north-central",
+    "source_locator": {
+      "table": "Table 2",
+      "row": 70
+    },
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [
+      "powder"
+    ],
+    "voucher_specimen": "B03830",
+    "traditional_use_reported": "plant reported for obesity management by herb sellers and practitioners in the North Central zone",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-25981c0a8f",
+    "plant_id": "plant-mangifera-indica-4d66bda6d8",
+    "botanical_as_published": "Mangifera indica Linn",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 1
+    },
+    "parts_reported": [
+      "stem bark",
+      "root",
+      "leaf"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 109451",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-23f3338c9e",
+    "plant_id": "plant-annickia-chlorantha-a359a63074",
+    "botanical_as_published": "Enantia chlorantha Oliv",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 2
+    },
+    "parts_reported": [
+      "stem bark",
+      "root",
+      "leaf"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 109950",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-276ea78a05",
+    "plant_id": "plant-alstonia-boonei-a2b33bfa82",
+    "botanical_as_published": "Alstonia boonei De Wild",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 3
+    },
+    "parts_reported": [
+      "stem bark",
+      "root"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 107254",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-ac663ea910",
+    "plant_id": "plant-cymbopogon-citratus-d5de29a9fd",
+    "botanical_as_published": "Cymbopogon citratus (DC.) Stapf",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 4
+    },
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 605214",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-ae87536a21",
+    "plant_id": "plant-nauclea-latifolia-53fa5cb38c",
+    "botanical_as_published": "Nauclea latifolia Sm",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 5
+    },
+    "parts_reported": [
+      "stem bark",
+      "root",
+      "leaf"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 112779",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-29a0d02858",
+    "plant_id": "plant-morinda-lucida-a896aeef86",
+    "botanical_as_published": "Morinda lucida Benth",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 6
+    },
+    "parts_reported": [
+      "stem bark",
+      "root",
+      "leaf"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 106992",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-32567909ee",
+    "plant_id": "plant-carica-papaya-d45ff84fbe",
+    "botanical_as_published": "Carica papaya Linn",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 7
+    },
+    "parts_reported": [
+      "leaf",
+      "unripe fruit"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 109462",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-30cbe3df5a",
+    "plant_id": "plant-anacardium-occidentale-608216d147",
+    "botanical_as_published": "Anacardium occidentale Linn",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 8
+    },
+    "parts_reported": [
+      "stem bark",
+      "root",
+      "leaf"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 109858",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-84ac1c0260",
+    "plant_id": "plant-khaya-ivorensis-f964de1c05",
+    "botanical_as_published": "Khaya ivorensis A. Chev",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 9
+    },
+    "parts_reported": [
+      "stem bark"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 56845",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-ba3dc29226",
+    "plant_id": "plant-vachellia-nilotica-f76029b6d9",
+    "botanical_as_published": "Acacia nilotica (L.) Delile",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 10
+    },
+    "parts_reported": [
+      "stem bark",
+      "leaf"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 108425",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-a00e9a7bf4",
+    "plant_id": "plant-rourea-coccinea-coccinea-890f46f302",
+    "botanical_as_published": "Byrsocarpus coccineus Schum. & Thonn",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 11
+    },
+    "parts_reported": [
+      "stem bark"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 112950",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-1d457a7954",
+    "plant_id": "plant-waltheria-indica-aa8204fe92",
+    "botanical_as_published": "Waltheria indica Linn",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 12
+    },
+    "parts_reported": [
+      "stem bark",
+      "leaf"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 92465",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-d91dbc4c26",
+    "plant_id": "plant-theobroma-cacao-777fc47af0",
+    "botanical_as_published": "Theobroma cacao Linn",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 13
+    },
+    "parts_reported": [
+      "stem bark"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 700314",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-419ffdd4f6",
+    "plant_id": "plant-lawsonia-inermis-7ff9dfd7a9",
+    "botanical_as_published": "Lawsonia inermis Linn",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 14
+    },
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 702616",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-4ce6d0ecc2",
+    "plant_id": "plant-sphenocentrum-jollyanum-f555f22d0a",
+    "botanical_as_published": "Sphenocentrum jollyanum Pierre",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 15
+    },
+    "parts_reported": [
+      "root",
+      "leaf"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 108283",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-d8249a7d1f",
+    "plant_id": "plant-citrus-aurantiifolia-e96354d670",
+    "botanical_as_published": "Citrus aurantifolia (Christm.) Swingle",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 16
+    },
+    "parts_reported": [
+      "stem bark",
+      "leaf"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 110009",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-d91c273e0f",
+    "plant_id": "plant-terminalia-leiocarpa-9d4b38908e",
+    "botanical_as_published": "Anogeissus leiocarpus (DC.) Guill. & Perr",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 17
+    },
+    "parts_reported": [
+      "stem bark",
+      "root",
+      "leaf"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 107122",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-82a30bec91",
+    "plant_id": "plant-axonopus-compressus-1597baa325",
+    "botanical_as_published": "Axonopus compressus (Sw.) P.Beauv",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 18
+    },
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 109977",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-306efe3675",
+    "plant_id": "plant-citrus-limon-a0b6a074cf",
+    "botanical_as_published": "Citrus limon (L.) Osbeck",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 19
+    },
+    "parts_reported": [
+      "fruit"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 110008",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-59b8f83bac",
+    "plant_id": "plant-lophira-alata-3bf55fa2d5",
+    "botanical_as_published": "Lophira alata Banks ex Gaertn",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 20
+    },
+    "parts_reported": [
+      "stem bark"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 109820",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-b1e0d99e7c",
+    "plant_id": "plant-azadirachta-indica-602368d8f9",
+    "botanical_as_published": "Azadirachta indica A.Juss",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 21
+    },
+    "parts_reported": [
+      "root",
+      "leaf"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 112927",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-5d6c474be6",
+    "plant_id": "plant-gossypium-barbadense-65985e0c97",
+    "botanical_as_published": "Gossypium barbadense Linn",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 22
+    },
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 107327",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-2752d91140",
+    "plant_id": "plant-sorghum-bicolor-43dce6dca3",
+    "botanical_as_published": "Sorghum bicolor (L.) Moench",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 23
+    },
+    "parts_reported": [
+      "leaf",
+      "root"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 109659",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-6391b243b4",
+    "plant_id": "plant-laccosperma-secundiflorum-6baad6a145",
+    "botanical_as_published": "Ancistrophyllum secundiflorum (P.Beauv.) G.Mann & H.Wendl",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 24
+    },
+    "parts_reported": [
+      "stem bark"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 50908",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-30adbcb2be",
+    "plant_id": "plant-tithonia-diversifolia-92b473c089",
+    "botanical_as_published": "Tithonia diversifolia (Hemsl.) A. Gray",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 25
+    },
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 108055",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-93e09c4293",
+    "plant_id": "plant-vitellaria-paradoxa-de73616dac",
+    "botanical_as_published": "Vitellaria paradoxa C.F. Gaertn",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 26
+    },
+    "parts_reported": [
+      "root",
+      "leaf"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 107924",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-b4603fe303",
+    "plant_id": "plant-zingiber-officinale-8932efc2ae",
+    "botanical_as_published": "Zingiber officinale Roscoe",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 27
+    },
+    "parts_reported": [
+      "rhizome"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 107935",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-0dc129b522",
+    "plant_id": "plant-kigelia-africana-46d315983f",
+    "botanical_as_published": "Kigelia africana (Lam.) Benth",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 28
+    },
+    "parts_reported": [
+      "stem bark",
+      "fruit"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 107654",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-4834c8597f",
+    "plant_id": "plant-harungana-madagascariensis-210b6b89a5",
+    "botanical_as_published": "Harungana madagascariensis Lam. ex Poir",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 29
+    },
+    "parts_reported": [
+      "stem bark",
+      "leaf"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 107392",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-b29b281aa1",
+    "plant_id": "plant-psidium-guajava-ef93129072",
+    "botanical_as_published": "Psidium guajava Linn",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 30
+    },
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 110937",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-f9f5ea8364",
+    "plant_id": "plant-pseudocedrela-kotschyi-994af195f8",
+    "botanical_as_published": "Pseudocedrela kotschyi (Schweinf.) Harms",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 31
+    },
+    "parts_reported": [
+      "stem bark"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 106873",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-6aa3d37c9a",
+    "plant_id": "plant-ananas-comosus-e0dfdb430c",
+    "botanical_as_published": "Ananas comosus (L.) Merr",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 32
+    },
+    "parts_reported": [
+      "peel"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 58509",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-f52abc1726",
+    "plant_id": "plant-calliandra-haematocephala-5564d3908b",
+    "botanical_as_published": "Calliandra haematocephala Hassk",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 33
+    },
+    "parts_reported": [
+      "root"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 45788",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-47306d60cf",
+    "plant_id": "plant-ocimum-gratissimum-db8de35590",
+    "botanical_as_published": "Ocimum gratissimum Linn",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 34
+    },
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 111995",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-62ce5ce175",
+    "plant_id": "plant-gymnanthemum-amygdalinum-5dbeaea320",
+    "botanical_as_published": "Vernonia amygdalina Delile",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 35
+    },
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 112924",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-46def69c8d",
+    "plant_id": "plant-prosopis-africana-f699fc148f",
+    "botanical_as_published": "Prosopis africana (Guill. & Perr.) Taub",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 36
+    },
+    "parts_reported": [
+      "leaf",
+      "root"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 112370",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-360aa2f178",
+    "plant_id": "plant-acanthus-montanus-492ed18084",
+    "botanical_as_published": "Acanthus montanus (Nees) T. Anderson",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 37
+    },
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 107529",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-f26ec39f9a",
+    "plant_id": "plant-aristolochia-ringens-d314dc2b66",
+    "botanical_as_published": "Aristolochia ringens Vahl",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 38
+    },
+    "parts_reported": [
+      "root"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 112929",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-ed329fe231",
+    "plant_id": "plant-artocarpus-altilis-0846570e26",
+    "botanical_as_published": "Artocarpus altilis (Parkinson) Fosberg",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 39
+    },
+    "parts_reported": [
+      "root"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 110483",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-d8a27cf1a4",
+    "plant_id": "plant-citrus-aurantium-6b3a87e59c",
+    "botanical_as_published": "Citrus sinensis (L.) Osbeck",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 40
+    },
+    "parts_reported": [
+      "stem bark",
+      "leaf"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 108811",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-b94ef9bf44",
+    "plant_id": "plant-cocos-nucifera-20f1d857c6",
+    "botanical_as_published": "Cocos nucifera Linn",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 41
+    },
+    "parts_reported": [
+      "husk"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 109665",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-47cf197620",
+    "plant_id": "plant-curcuma-longa-cac6186f50",
+    "botanical_as_published": "Curcuma longa Linn",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 42
+    },
+    "parts_reported": [
+      "rhizome"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 106920",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-d7297758af",
+    "plant_id": "plant-daniellia-oliveri-fb159d05dd",
+    "botanical_as_published": "Daniellia oliveri (Rolfe) Hutch. & Dalziel",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 43
+    },
+    "parts_reported": [
+      "stem bark"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 36952",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-f9413ec869",
+    "plant_id": "plant-entada-africana-2c0624fa5e",
+    "botanical_as_published": "Entada africana Guill. & Perr",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 44
+    },
+    "parts_reported": [
+      "stem bark"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "NIPRD/H/6412",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-c9c2709139",
+    "plant_id": "plant-ficus-exasperata-718f240ae1",
+    "botanical_as_published": "Ficus exasperata Vahl",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 45
+    },
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 109550",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-3d7402460b",
+    "plant_id": "plant-ficus-platyphylla-2387ece047",
+    "botanical_as_published": "Ficus platyphylla Del. Holl",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 46
+    },
+    "parts_reported": [
+      "stem bark"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 78251",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-e0ee83145a",
+    "plant_id": "plant-garcinia-kola-b2da88781b",
+    "botanical_as_published": "Garcinia kola Heckel",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 47
+    },
+    "parts_reported": [
+      "stem bark"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 109481",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-76e1fbf172",
+    "plant_id": "plant-jatropha-curcas-b217025a04",
+    "botanical_as_published": "Jatropha curcas Linn",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 48
+    },
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 109020",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-efcc99d4e0",
+    "plant_id": "plant-margaritaria-discoidea-d6d8d4a920",
+    "botanical_as_published": "Margaritaria discoidea (Baill.) G.L. Webster",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 49
+    },
+    "parts_reported": [
+      "root"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 43971",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-fd926f028e",
+    "plant_id": "plant-musa-paradisiaca-ee9a078e9c",
+    "botanical_as_published": "Musa paradisiaca Linn",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 50
+    },
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 110122",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-51e084a9d6",
+    "plant_id": "plant-cryptolepis-nigrescens-60d6d719ed",
+    "botanical_as_published": "Parquetina nigrescens (Afzel.) Bullock",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 51
+    },
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 110044",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-f203ec40da",
+    "plant_id": "plant-persea-americana-4797acba26",
+    "botanical_as_published": "Persea americana Mill",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 52
+    },
+    "parts_reported": [
+      "stem bark"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 109444",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-5adc181285",
+    "plant_id": "plant-piliostigma-thonningii-54038cc24e",
+    "botanical_as_published": "Piliostigma thonningii (Schum.) Milne-Redh",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 53
+    },
+    "parts_reported": [
+      "stem bark"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 107815",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-b3f93f7ad2",
+    "plant_id": "plant-piper-guineense-b925235b59",
+    "botanical_as_published": "Piper guineense Schum. & Thonn",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 54
+    },
+    "parts_reported": [
+      "fruit"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 112922",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-f6582dc086",
+    "plant_id": "plant-cussonia-arborea-43dcd745cc",
+    "botanical_as_published": "Cussonia barteri Hochst. Ex A. Rich",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 55
+    },
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "UBHdt/SN/173",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-40ba237c3e",
+    "plant_id": "plant-senna-occidentalis-9d5c9f2d10",
+    "botanical_as_published": "Senna occidentalis (L.) Link",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 56
+    },
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 109866",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-38bbd46d45",
+    "plant_id": "plant-senna-podocarpa-e609bab427",
+    "botanical_as_published": "Senna podocarpa (Guill. & Perr.) Lock",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 57
+    },
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 109903",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-ca108f8773",
+    "plant_id": "plant-sida-acuta-b47c40cd00",
+    "botanical_as_published": "Sida acuta Burm.f",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 58
+    },
+    "parts_reported": [
+      "leaf"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 112276",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-eb4bf3108d",
+    "plant_id": "plant-tetracera-potatoria-5be3653e80",
+    "botanical_as_published": "Tetracera potatoria Afzel. ex G. Don",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 59
+    },
+    "parts_reported": [
+      "stem bark"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 105782",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-fe478324ba",
+    "plant_id": "plant-tetrapleura-tetraptera-fe165781bd",
+    "botanical_as_published": "Tetrapleura tetraptera (Schum. & Thonn.) Taub",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 60
+    },
+    "parts_reported": [
+      "fruit"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 110141",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-d90f68457c",
+    "plant_id": "plant-xylopia-aethiopica-d5773119a0",
+    "botanical_as_published": "Xylopia aethiopica (Dunal) A. Rich",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 61
+    },
+    "parts_reported": [
+      "stem bark"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "FHI 108978",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
+    "id": "observation-evbuomwan-2023-kwara-d7a6a9f669",
+    "plant_id": "plant-zanthoxylum-zanthoxyloides-35bfd45a11",
+    "botanical_as_published": "Zanthoxylum zanthoxyloides (Lam.) Zepern. & Timler",
+    "source_id": "evbuomwan-2023-kwara",
+    "source_locator": {
+      "table": "Table 1",
+      "row": 62
+    },
+    "parts_reported": [
+      "stem bark"
+    ],
+    "preparations_reported": [],
+    "voucher_specimen": "NIPRD/H/7101",
+    "traditional_use_reported": "plant reported for malaria in Kwara State",
+    "evidence_scope": "ethnobotanical report; not clinical evidence"
+  },
+  {
     "id": "observation-lawal-2020-ede-south-8a6fb04836",
     "plant_id": "plant-abrus-precatorius-15b67329f2",
     "botanical_as_published": "Abrus precatorius L.",

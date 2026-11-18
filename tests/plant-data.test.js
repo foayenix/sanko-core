@@ -20,7 +20,7 @@ describe('provenance-rich plant mapping data', () => {
     assert.equal(report.legacy_runtime_rows, 152);
     assert.equal(runtime.length, report.runtime_mappings);
     assert.ok(runtime.length > report.legacy_runtime_rows);
-    assert.equal(report.resolved_runtime_mappings, 898);
+    assert.equal(report.resolved_runtime_mappings, 1078);
     assert.deepEqual(report.source_rows_by_source, {
       'offiah-2011-plateau': 57,
       'olanipekun-2022-lagos': 183,
@@ -28,7 +28,10 @@ describe('provenance-rich plant mapping data', () => {
       'weli-2013-port-harcourt': 84,
       'lawal-2020-ede-south': 87,
       'olatokunbo-2022-bayelsa': 39,
-      'ajibesin-2012-rivers': 188
+      'ajibesin-2012-rivers': 188,
+      'evbuomwan-2023-kwara': 62,
+      'anyanwu-2025-north-central': 70,
+      'alhaji-2015-niger-fulani': 34
     });
   });
 
@@ -81,23 +84,80 @@ describe('provenance-rich plant mapping data', () => {
     const awopa = ambiguities.find(item => item.normalized_name === 'awopa');
     assert.deepEqual(
       [...new Set(awopa.candidates.map(candidate => candidate.source_id))].sort(),
-      ['lawal-2020-ede-south', 'legacy-lookup-v1']
+      ['evbuomwan-2023-kwara', 'lawal-2020-ede-south', 'legacy-lookup-v1']
     );
     assert.equal(runtime.find(row => row.local_name === 'awopa').botanical, null);
   });
 
-  it('stages the Kwara and Ogbomosho tables without exporting a name from either', () => {
-    for (const [id, rows] of [['evbuomwan-2023-kwara', 62], ['odebunmi-2022-ogbomosho', 86]]) {
-      const staged = readJson('data', 'plants', 'surveys', 'staged', `${id}.json`);
-      assert.equal(sources.find(source => source.id === id).ingestion_status, 'staged_review');
-      assert.equal(staged.length, rows);
-      assert.ok(staged.every(row => row.runtime_export_eligible === false));
-      assert.equal(names.some(name => name.source_id === id), false);
-      assert.equal(Object.hasOwn(report.source_rows_by_source, id), false);
-    }
-    const kwara = readJson('data', 'plants', 'surveys', 'staged', 'evbuomwan-2023-kwara.json');
+  it('stages the Ogbomosho table without exporting a name from it', () => {
+    const staged = readJson('data', 'plants', 'surveys', 'staged', 'odebunmi-2022-ogbomosho.json');
+    assert.equal(sources.find(source => source.id === 'odebunmi-2022-ogbomosho').ingestion_status, 'staged_review');
+    assert.equal(staged.length, 86);
+    assert.ok(staged.every(row => row.runtime_export_eligible === false));
+    assert.equal(names.some(name => name.source_id === 'odebunmi-2022-ogbomosho'), false);
+    assert.equal(Object.hasOwn(report.source_rows_by_source, 'odebunmi-2022-ogbomosho'), false);
+  });
+
+  it('includes the Kwara table with unlabelled names left as language not recorded', () => {
+    // Owner's decision of 2026-11-18: a name the survey does not label keeps a null
+    // language rather than one inferred from the state or the spelling.
+    const kwara = readJson('data', 'plants', 'surveys', 'evbuomwan-2023-kwara.json');
+    assert.equal(sources.find(source => source.id === 'evbuomwan-2023-kwara').ingestion_status, 'included');
+    assert.equal(kwara.length, 62);
     assert.equal(kwara.filter(row => row.data_quality_flags.includes('language_not_stated_for_row')).length, 56);
     assert.deepEqual(kwara.find(row => row.source_row === 39).vernacular_names, [{ local_name: 'Gbere', language: 'nup' }]);
+
+    const karandafi = names.find(name => name.normalized_name === 'karandafi');
+    assert.equal(karandafi.source_id, 'evbuomwan-2023-kwara');
+    assert.equal(karandafi.language, null);
+    assert.equal(karandafi.accepted_botanical, 'Sorghum bicolor');
+  });
+
+  it('keeps the Kwara nickname as published text, not as a name', () => {
+    const kwara = readJson('data', 'plants', 'surveys', 'evbuomwan-2023-kwara.json');
+    const row = kwara.find(entry => entry.vernacular_as_published === 'June 12');
+    assert.deepEqual(row.vernacular_names, []);
+    assert.ok(row.data_quality_flags.includes('nickname_rather_than_vernacular_name'));
+    assert.equal(names.some(name => name.normalized_name === 'june 12'), false);
+  });
+
+  it('reads each North Central name with the language label printed after it', () => {
+    const rows = readJson('data', 'plants', 'surveys', 'anyanwu-2025-north-central.json');
+    assert.equal(rows.length, 70);
+    assert.deepEqual(rows.find(row => row.source_row === 67).vernacular_names, [
+      { local_name: 'Tyuna', language: 'tiv' },
+      { local_name: 'Shuwaka', language: 'ha' },
+      { local_name: 'Ewuro', language: 'yo' },
+      { local_name: 'Onugbu', language: 'ig' }
+    ]);
+    // No comma between the two names; the labels still separate them.
+    assert.deepEqual(rows.find(row => row.source_row === 37).vernacular_names, [
+      { local_name: 'Cida goro', language: 'ha' },
+      { local_name: 'Orogbo', language: 'yo' }
+    ]);
+    // The botanical name printed as a Hausa name, and unlabelled English, are kept as text only.
+    assert.deepEqual(rows.find(row => row.source_row === 5).vernacular_names, [{ local_name: 'Ahon erin', language: 'yo' }]);
+    assert.deepEqual(rows.find(row => row.source_row === 46).vernacular_names, []);
+    assert.deepEqual(rows.find(row => row.source_row === 5).parts_reported, ['leaf']);
+
+    const onugbu = names.find(name => name.normalized_name === 'onugbu' && name.source_id === 'anyanwu-2025-north-central');
+    assert.equal(onugbu.accepted_botanical, 'Gymnanthemum amygdalinum'); // GBIF's accepted name for Vernonia amygdalina
+    assert.equal(onugbu.language, 'ig');
+  });
+
+  it('reads the Fulani survey superscripts as Hausa, Fulfulde and Nupe', () => {
+    const rows = readJson('data', 'plants', 'surveys', 'alhaji-2015-niger-fulani.json');
+    assert.equal(rows.length, 34);
+    assert.deepEqual(rows.find(row => row.source_row === 1).vernacular_names, [
+      { local_name: 'Bagaruwa', language: 'ha' },
+      { local_name: 'Gabdi', language: 'ff' },
+      { local_name: 'Gabaruwa', language: 'nup' }
+    ]);
+    // Italic runs either side of a hyphen stay one name.
+    assert.deepEqual(rows.find(row => row.source_row === 12).vernacular_names, [{ local_name: 'Edingi-bata', language: 'nup' }]);
+    // The publisher repeated the botanical name in the local-name column.
+    assert.deepEqual(rows.find(row => row.source_row === 14).vernacular_names, []);
+    assert.ok(rows.every(row => row.parts_reported.length === 0), 'parts are prose in this table and are not claimed');
   });
 
   it('preserves provenance, language, region, and verification state for new names', () => {
