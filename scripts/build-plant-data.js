@@ -46,6 +46,48 @@ function uniqueSorted(values) {
   return [...new Set(values.filter(Boolean))].sort((a, b) => a.localeCompare(b));
 }
 
+// A survey that prints a name without its language leaves `language` null, and it stays
+// null: that is what the source says. Where other surveys print the same name for the
+// same accepted species and all of them give one language, the record gains a
+// suggestion beside it — never in place of it. Spelling alone is not evidence: the
+// same name for the same species is labelled Ikwerre in one survey and Yoruba in
+// another (dongoyaro), Hausa and Nupe (tafarnuwa). So a suggestion also needs every
+// labelled record to agree, and the language has to be one the survey itself says it
+// recorded; a survey that lists no languages gets none.
+function inferLanguages(vernacularNames, sources) {
+  const declared = new Map(sources.map(source => [source.id, new Set(source.languages ?? [])]));
+  const usable = name => name.export_eligible && !name.adjudicated_out && name.accepted_botanical;
+  const labelled = new Map();
+  for (const name of vernacularNames) {
+    if (!usable(name) || !name.language || name.language === 'und') continue;
+    const key = `${name.normalized_name}|${name.accepted_botanical}`;
+    labelled.set(key, [...(labelled.get(key) ?? []), name]);
+  }
+  for (const name of vernacularNames) {
+    if (!usable(name) || name.language) continue;
+    const evidence = (labelled.get(`${name.normalized_name}|${name.accepted_botanical}`) ?? [])
+      .filter(other => other.source_id !== name.source_id);
+    if (!evidence.length) continue;
+    const candidates = uniqueSorted(evidence.map(other => other.language));
+    const supporting = evidence
+      .map(other => ({ source_id: other.source_id, source_locator: other.source_locator, language: other.language }))
+      .sort((a, b) => a.source_id.localeCompare(b.source_id));
+    const recorded = declared.get(name.source_id) ?? new Set();
+    let refused = null;
+    if (candidates.length > 1) refused = 'other surveys label this name for this species in different languages';
+    else if (!recorded.has(candidates[0])) refused = 'not a language this survey says it recorded';
+    const supportingSources = new Set(supporting.map(entry => entry.source_id)).size;
+    name.language_inference = refused
+      ? { language: null, reason: refused, candidates, supporting }
+      : {
+          language: candidates[0],
+          basis: 'same name for the same accepted species, labelled in other surveys',
+          strength: supportingSources > 1 ? 'multiple_sources' : 'single_source',
+          supporting
+        };
+  }
+}
+
 function loadIncludedSurveys(sources, plantsDir) {
   const included = new Set(
     sources
@@ -453,6 +495,8 @@ function build({ plantsDir = plantsDirectory, runtimeFile = path.join(root, 'dat
     });
   }
 
+  inferLanguages(vernacularNames, sources);
+
   const plants = [...plantByBotanical.values()].sort((a, b) => a.accepted_botanical.localeCompare(b.accepted_botanical));
   vernacularNames.sort((a, b) => a.normalized_name.localeCompare(b.normalized_name) || a.source_id.localeCompare(b.source_id));
   observations.sort((a, b) => a.source_id.localeCompare(b.source_id) || String(a.source_locator?.row ?? '').localeCompare(String(b.source_locator?.row ?? ''), undefined, { numeric: true }));
@@ -501,7 +545,9 @@ function build({ plantsDir = plantsDirectory, runtimeFile = path.join(root, 'dat
     contested_names_adjudicated: adjudications.length,
     contested_names_resolved_by_striking_a_row: adjudications.filter(entry => entry.decision === 'source_row_error').length,
     contested_names_upheld: upheldNames.size,
-    staged_unresolved_names: vernacularNames.filter(name => !name.export_eligible).length
+    staged_unresolved_names: vernacularNames.filter(name => !name.export_eligible).length,
+    languages_inferred: vernacularNames.filter(name => name.language_inference?.language).length,
+    language_inferences_refused: vernacularNames.filter(name => name.language_inference && !name.language_inference.language).length
   };
   writeJson(plantsDir, 'build_report.json', report);
   console.log(report);
@@ -510,4 +556,4 @@ function build({ plantsDir = plantsDirectory, runtimeFile = path.join(root, 'dat
 
 if (require.main === module) build();
 
-module.exports = { build, normalizeLocalName };
+module.exports = { build, normalizeLocalName, inferLanguages };

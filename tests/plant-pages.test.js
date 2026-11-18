@@ -50,6 +50,12 @@ describe('published plant pages', () => {
     assert.match(html, /Garcinia kola is recorded under 5 local names/);
   });
 
+  it('mark a suggested language as inferred and explain it', () => {
+    const html = fs.readFileSync(path.join(plantsDirectory, 'botanical', 'garcinia-kola', 'index.html'), 'utf8');
+    assert.match(html, /<td>Yoruba <span class="inferred">\(inferred\)<\/span><\/td>/);
+    assert.match(html, /Inferred: the survey did not record this name's language/);
+  });
+
   it('never print a state twice in a location', () => {
     assert.deepEqual(offenders(/\b(\w+) State, \1 State\b/), []);
   });

@@ -16,6 +16,7 @@ a{color:inherit;text-underline-offset:.22em}
 .crumbs{font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.06em;color:var(--band-muted)}
 .crumbs .sep{padding:0 8px}
 main{width:min(860px,calc(100% - 44px));margin:0 auto;padding:44px 0 24px}
+.inferred{color:var(--muted);font-size:.9em}
 .eyebrow{margin:0;font-family:"IBM Plex Mono",monospace;font-size:11px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
 h1{margin:10px 0 0;font-size:clamp(34px,5.5vw,54px);font-weight:900;line-height:1.02;letter-spacing:-.03em;color:var(--heading);text-wrap:balance}
 h1 em{font-style:italic}

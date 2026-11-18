@@ -80,6 +80,27 @@ const slugify = (value) =>
 // label everywhere it appears: table cells, the language index and the "und" page.
 const languageName = (code) => (code == null ? LANGUAGE_NAMES.und : LANGUAGE_NAMES[code] ?? code);
 
+// A record whose survey printed no language may carry a suggestion from
+// build-plant-data.js (language_inference). It is shown as inferred, never as what the
+// survey said, and prose never uses it.
+const inferredLanguage = (row) => (row.language == null ? row.language_inference?.language ?? null : null);
+
+const INFERRED_NOTE =
+  'Inferred: the survey did not record this name\'s language. Every other survey that records the same name for the same species gives that language, and it is one this survey says it recorded.';
+
+function languageCell(row, { explain = false } = {}) {
+  const inferred = inferredLanguage(row);
+  if (!inferred) return escapeHtml(languageName(row.language));
+  if (!explain) return `${escapeHtml(languageName(inferred))} <span class="inferred">(inferred)</span>`;
+  const surveys = new Set(row.language_inference.supporting.map((entry) => entry.source_id)).size;
+  return `${escapeHtml(languageName(inferred))} <span class="inferred">(inferred: not recorded by this survey; ${
+    surveys === 1 ? 'one other survey records' : `${surveys} other surveys record`
+  } this name for this species in ${escapeHtml(languageName(inferred))})</span>`;
+}
+
+const inferredNote = (rows) =>
+  rows.some((row) => inferredLanguage(row)) ? `<p class="scope">${escapeHtml(INFERRED_NOTE)}</p>\n` : '';
+
 // Running prose ("a Yoruba name for ...") names only identified languages. A record
 // with no language, or the "und" group, contributes nothing, so a page reads "a local
 // name" instead of "a  name" or "a Language not identified name".
@@ -282,7 +303,7 @@ function vernacularPage({ name, attestations, sourcesById, partsByTaxon }) {
   <p class="candidate-taxon"><a href="/plants/botanical/${slugify(row.accepted_botanical)}/"><em>${escapeHtml(row.accepted_botanical)}</em></a></p>
   ${definitionList([
     ['Name as published', escapeHtml(row.local_name)],
-    ['Language', escapeHtml(languageName(row.language))],
+    ['Language', languageCell(row, { explain: true })],
     ['Botanical name as published', escapeHtml(row.botanical_as_published)],
     ['Parts reported', parts.length ? escapeHtml(sentenceList(parts)) : ''],
     ['Where recorded', escapeHtml(regionLabel(row.region))],
@@ -354,7 +375,7 @@ function taxonPage({ taxon, attestations, plant, sourcesById, partsByTaxon }) {
       const source = sourcesById.get(row.source_id);
       return `<tr>
   <th scope="row"><a href="/plants/${slugify(row.normalized_name)}/">${escapeHtml(titleCase(row.local_name))}</a></th>
-  <td>${escapeHtml(languageName(row.language))}</td>
+  <td>${languageCell(row)}</td>
   <td>${escapeHtml(regionLabel(row.region))}</td>
   <td>${sourceCitation(source, row.source_locator)}</td>
 </tr>`;
@@ -394,7 +415,7 @@ ${rows}
 </tbody>
 </table>
 </div>
-</article>`;
+${inferredNote(names)}</article>`;
 
   return {
     url: `/plants/botanical/${slugify(taxon)}/`,
@@ -475,7 +496,7 @@ function sourcePage({ source, attestations }) {
     .map(
       (row) => `<tr>
   <th scope="row"><a href="/plants/${slugify(row.normalized_name)}/">${escapeHtml(titleCase(row.local_name))}</a></th>
-  <td>${escapeHtml(languageName(row.language))}</td>
+  <td>${languageCell(row)}</td>
   <td><a href="/plants/botanical/${slugify(row.accepted_botanical)}/"><em>${escapeHtml(row.accepted_botanical)}</em></a></td>
   <td class="num">${escapeHtml(row.source_locator?.row ?? '')}</td>
 </tr>`,
@@ -523,7 +544,7 @@ ${rows}
 </tbody>
 </table>
 </div>
-</article>`,
+${inferredNote(attestations)}</article>`,
     }),
   };
 }
@@ -718,6 +739,7 @@ a{color:inherit;text-underline-offset:.22em}
 .crumbs{font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.06em;color:var(--band-muted)}
 .crumbs .sep{padding:0 8px}
 main{width:min(860px,calc(100% - 44px));margin:0 auto;padding:44px 0 24px}
+.inferred{color:var(--muted);font-size:.9em}
 .eyebrow{margin:0;font-family:"IBM Plex Mono",monospace;font-size:11px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
 h1{margin:10px 0 0;font-size:clamp(34px,5.5vw,54px);font-weight:900;line-height:1.02;letter-spacing:-.03em;color:var(--heading);text-wrap:balance}
 h1 em{font-style:italic}
