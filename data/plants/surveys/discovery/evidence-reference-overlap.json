@@ -1,0 +1,3133 @@
+{
+  "source_ids": [
+    "anpdb-african-natural-products",
+    "anses-2019-sa-0155-herbal-supplements"
+  ],
+  "runtime_export_eligible": false,
+  "purpose": "Evidence-analyst lookup for formulation evidence work. Not vernacular evidence, not a safety or efficacy conclusion, and not for patient-facing or practitioner-facing interaction advice.",
+  "generated_at": "2026-11-18",
+  "matching": "Exact binomial match against accepted and as-published names in data/plants/plants.json. GBIF synonyms are not followed, so counts are a lower bound.",
+  "inputs": {
+    "anpdb": {
+      "url": "https://phabidb.vm.uni-freiburg.de/static/anpdb/download/ANPDB_species.csv",
+      "licence": "CC BY-NC 4.0",
+      "version": "not published by ANPDB; identify by retrieval date and checksum",
+      "retrieved_at": "2026-11-18",
+      "sha256": "00b420d8bf6518d5a7d98c481f9566377042e1ee344c730391b65aa179c2985e",
+      "species_rows": 1882,
+      "omitted_fields": [
+        "species_known_use (uncited prose)",
+        "species_wiki_link",
+        "molecule_ids (count kept)"
+      ]
+    },
+    "anses": {
+      "primary_url": "https://www.anses.fr/system/files//Tableau-recapitulatif-plantes-complements-alimentaires-juin-2023.xlsx",
+      "primary_sha256_as_reported": "d50d2741ae7a91b5135b009af45e42e5645bfbdbb6a4500fc4a0dccc09e3dc6d",
+      "primary_checksum_verified": false,
+      "extraction_via": {
+        "repository": "https://github.com/vitagram-co/vitagram-drug-herb-supplement-interactions",
+        "commit": "f83a13c00878fed89cc9c36dc42ab0333eeaf2c5",
+        "file": "data/plants.jsonl",
+        "url": "https://raw.githubusercontent.com/vitagram-co/vitagram-drug-herb-supplement-interactions/f83a13c00878fed89cc9c36dc42ab0333eeaf2c5/data/plants.jsonl",
+        "sha256": "402a6dfa978052fb0134cf773fb77d35b2a92e38260a66c850cb96351577af07"
+      },
+      "source_rows": 136,
+      "omitted_fields": [
+        "all French statement text; read it from the ANSES workbook"
+      ]
+    }
+  },
+  "summary": {
+    "index_taxa": 473,
+    "taxa_with_any_reference": 145,
+    "taxa_in_anpdb": 130,
+    "taxa_in_anses": 26,
+    "runtime_taxa_in_anpdb": 117,
+    "runtime_taxa_in_anses": 24,
+    "anses_rows_with_interaction_statement": 4
+  },
+  "taxa": [
+    {
+      "plant_id": "plant-acanthospermum-hispidum-b89fb1d865",
+      "accepted_botanical": "Acanthospermum hispidum",
+      "in_runtime_index": false,
+      "anpdb": [
+        {
+          "species_id": "966",
+          "name_as_listed": "Acanthospermum hispidum",
+          "most_recent_name": "Acanthospermum hispidum",
+          "ncbi_taxonomy_id": "182999",
+          "molecule_count": 18,
+          "references": [
+            "http://chemistryjournal.kypublications.com/1.1.15/55-64.pdf"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-achyranthes-aspera-b42153cc68",
+      "accepted_botanical": "Achyranthes aspera",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "894",
+          "name_as_listed": "Achyranthes aspera",
+          "most_recent_name": "Achyranthes aspera",
+          "ncbi_taxonomy_id": "240005",
+          "molecule_count": 16,
+          "references": [
+            "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4655238/pdf/fphar-06-00274.pdf"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-ageratum-conyzoides-79aac7b35c",
+      "accepted_botanical": "Ageratum conyzoides",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "1283",
+          "name_as_listed": "Ageratum conyzoides",
+          "most_recent_name": "Ageratum conyzoides",
+          "ncbi_taxonomy_id": "68299",
+          "molecule_count": 5,
+          "references": [
+            "10.35248/2329-6836.20.8.370"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-albizia-lebbeck-cc32872686",
+      "accepted_botanical": "Albizia lebbeck",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "1154",
+          "name_as_listed": "Albizia lebbeck",
+          "most_recent_name": "Albizia lebbeck",
+          "ncbi_taxonomy_id": "371650",
+          "molecule_count": 3,
+          "references": [
+            "10.1016/j.carres.2014.12.004",
+            "10.1080/14786419.2018.1440231"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-albizia-zygia-4a9ee7035e",
+      "accepted_botanical": "Albizia zygia",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "1155",
+          "name_as_listed": "Albizia zygia",
+          "most_recent_name": "Albizia zygia",
+          "ncbi_taxonomy_id": "1179219",
+          "molecule_count": 8,
+          "references": [
+            "10.1186/s12906-019-2792-1",
+            "10.1080/14786419.2018.1440228"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-alchornea-cordifolia-0433b4b043",
+      "accepted_botanical": "Alchornea cordifolia",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "1040",
+          "name_as_listed": "Alchornea cordifolia",
+          "most_recent_name": "Alchornea cordifolia",
+          "ncbi_taxonomy_id": "316697",
+          "molecule_count": 7,
+          "references": [
+            "10.1038/s41598-019-41403-x"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-alchornea-laxiflora-d19e1ad26e",
+      "accepted_botanical": "Alchornea laxiflora",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "1272",
+          "name_as_listed": "Alchornea laxiflora",
+          "most_recent_name": "Alchornea laxiflora",
+          "ncbi_taxonomy_id": "316698",
+          "molecule_count": 5,
+          "references": [
+            "10.1016/j.sajb.2018.08.010"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-allium-cepa-68b96f0db9",
+      "accepted_botanical": "Allium cepa",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "31",
+          "name_as_listed": "Allium cepa",
+          "most_recent_name": "Allium cepa",
+          "ncbi_taxonomy_id": "4679",
+          "molecule_count": 1,
+          "references": [
+            "10.1021/np50035a003"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-allium-sativum-49429a58d8",
+      "accepted_botanical": "Allium sativum",
+      "in_runtime_index": true,
+      "anpdb": [],
+      "anses": [
+        {
+          "record_id": "anses_allium_sativum_l_bulbe",
+          "source_sheet": "Recos EMA synthèse",
+          "source_row": 14,
+          "scientific_name_as_published": "Allium sativum L.",
+          "plant_part": "Bulbe",
+          "statements_present": {
+            "contraindication": true,
+            "interaction": true,
+            "pregnancy_lactation": true,
+            "paediatric": true
+          }
+        }
+      ]
+    },
+    {
+      "plant_id": "plant-aloe-vera-d33e9eaef6",
+      "accepted_botanical": "Aloe vera",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "676",
+          "name_as_listed": "Aloe barbadensis",
+          "most_recent_name": "Aloe vera",
+          "ncbi_taxonomy_id": "34199",
+          "molecule_count": 7,
+          "references": [
+            "https://www.ajol.info/index.php/bcse/article/view/73954"
+          ]
+        }
+      ],
+      "anses": [
+        {
+          "record_id": "anses_aloe_vera_l_burm_f_syn_aloe_barbadensis_mill_suc",
+          "source_sheet": "Recos EMA synthèse",
+          "source_row": 15,
+          "scientific_name_as_published": "Aloe vera (L.) Burm. f. (syn. Aloe barbadensis Mill.)",
+          "plant_part": "Suc",
+          "statements_present": {
+            "contraindication": true,
+            "interaction": true,
+            "pregnancy_lactation": true,
+            "paediatric": true
+          }
+        }
+      ]
+    },
+    {
+      "plant_id": "plant-anacardium-occidentale-608216d147",
+      "accepted_botanical": "Anacardium occidentale",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "1736",
+          "name_as_listed": "Anacardium occidentale",
+          "most_recent_name": "Anacardium occidentale",
+          "ncbi_taxonomy_id": "171929",
+          "molecule_count": 5,
+          "references": [
+            "10.1016/j.bmc.2017.02.040",
+            "10.1186/s12906-020-03075-3",
+            "10.1016/j.fitote.2018.11.006"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-annickia-chlorantha-a359a63074",
+      "accepted_botanical": "Annickia chlorantha",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "941",
+          "name_as_listed": "Enantia chlorantha",
+          "most_recent_name": "Annickia chlorantha",
+          "ncbi_taxonomy_id": "306909",
+          "molecule_count": 11,
+          "references": [
+            "10.4314/jcas.v14i3.1",
+            "10.1080/14786410902726241",
+            "10.1016/j.fitote.2014.01.003"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-anthocleista-vogelii-5acdf5facc",
+      "accepted_botanical": "Anthocleista vogelii",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "1120",
+          "name_as_listed": "Anthocleista vogelii",
+          "most_recent_name": "Anthocleista vogelii",
+          "ncbi_taxonomy_id": "84938",
+          "molecule_count": 1,
+          "references": [
+            "10.1155/2014/172096"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-artemisia-dracunculus-4028b012ec",
+      "accepted_botanical": "Artemisia dracunculus",
+      "in_runtime_index": false,
+      "anpdb": [
+        {
+          "species_id": "162",
+          "name_as_listed": "Artemisia dracunculus",
+          "most_recent_name": "Artemisia dracunculus",
+          "ncbi_taxonomy_id": "72341",
+          "molecule_count": 7,
+          "references": [
+            "10.1080/10286020.2016.1158708",
+            "10.1016/S0031-9422(01)00347-8"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-artocarpus-altilis-0846570e26",
+      "accepted_botanical": "Artocarpus altilis",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "1160",
+          "name_as_listed": "Artocarpus communis",
+          "most_recent_name": "Artocarpus altilis",
+          "ncbi_taxonomy_id": "194251",
+          "molecule_count": 5,
+          "references": [
+            "10.1186/1472-6882-11-42"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-asparagus-africanus-a109029ec9",
+      "accepted_botanical": "Asparagus africanus",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "807",
+          "name_as_listed": "Asparagus africanus",
+          "most_recent_name": "Asparagus africanus",
+          "ncbi_taxonomy_id": "983933",
+          "molecule_count": 3,
+          "references": [
+            "10.1016/S0031-9422(99)00051-5"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-baccharoides-guineensis-cfc537b49a",
+      "accepted_botanical": "Baccharoides guineensis",
+      "in_runtime_index": false,
+      "anpdb": [
+        {
+          "species_id": "973",
+          "name_as_listed": "Vernonia guineensis",
+          "most_recent_name": null,
+          "ncbi_taxonomy_id": "3032568",
+          "molecule_count": 4,
+          "references": [
+            "10.1016/j.phytol.2012.06.002",
+            "10.1016/j.jep.2013.09.028",
+            "10.1016/j.jep.2012.03.021"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-bidens-pilosa-76b95a4f8d",
+      "accepted_botanical": "Bidens pilosa",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "726",
+          "name_as_listed": "Bidens pilosa",
+          "most_recent_name": "Bidens pilosa",
+          "ncbi_taxonomy_id": "42337",
+          "molecule_count": 3,
+          "references": [
+            "10.1016/S0305-1978(99)00091-5"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-boscia-senegalensis-2dbb46e248",
+      "accepted_botanical": "Boscia senegalensis",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "118",
+          "name_as_listed": "Boscia senegalensis",
+          "most_recent_name": "Boscia senegalensis",
+          "ncbi_taxonomy_id": "1198336",
+          "molecule_count": 9,
+          "references": [
+            "10.1016/j.bse.2015.01.020"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-boswellia-dalzielii-5f7366605c",
+      "accepted_botanical": "Boswellia dalzielii",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "987",
+          "name_as_listed": "Boswellia dalzielii",
+          "most_recent_name": "Boswellia dalzielii",
+          "ncbi_taxonomy_id": "2303552",
+          "molecule_count": 8,
+          "references": [
+            "10.1080/14786419.2020.1794863"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-brassica-oleracea-1fd4f3e33d",
+      "accepted_botanical": "Brassica oleracea",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "1365",
+          "name_as_listed": "Brassica oleracea",
+          "most_recent_name": "Brassica oleracea",
+          "ncbi_taxonomy_id": "3712",
+          "molecule_count": 14,
+          "references": [
+            "10.1080/14786419.2021.1940177"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-calendula-officinalis-b6e7ab2de9",
+      "accepted_botanical": "Calendula officinalis",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "458",
+          "name_as_listed": "Calendula officinalis",
+          "most_recent_name": "Calendula officinalis",
+          "ncbi_taxonomy_id": "41496",
+          "molecule_count": 17,
+          "references": [
+            "10.1080/14786419.2020.1747457",
+            "10.1021/np068016b"
+          ]
+        }
+      ],
+      "anses": [
+        {
+          "record_id": "anses_calendula_officinalis_l_fleur_capitule",
+          "source_sheet": "Recos EMA synthèse",
+          "source_row": 22,
+          "scientific_name_as_published": "Calendula officinalis L.",
+          "plant_part": "Fleur (capitule)",
+          "statements_present": {
+            "contraindication": false,
+            "interaction": false,
+            "pregnancy_lactation": false,
+            "paediatric": false
+          }
+        }
+      ]
+    },
+    {
+      "plant_id": "plant-calophyllum-inophyllum-f4e06c4f4a",
+      "accepted_botanical": "Calophyllum inophyllum",
+      "in_runtime_index": false,
+      "anpdb": [
+        {
+          "species_id": "990",
+          "name_as_listed": "Calophyllum inophyllum",
+          "most_recent_name": "Calophyllum inophyllum",
+          "ncbi_taxonomy_id": "158927",
+          "molecule_count": 2,
+          "references": [
+            "10.1016/j.leukres.2008.05.017"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-calotropis-procera-0e4f7994f4",
+      "accepted_botanical": "Calotropis procera",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "57",
+          "name_as_listed": "Calotropis procera",
+          "most_recent_name": "Calotropis procera",
+          "ncbi_taxonomy_id": "141467",
+          "molecule_count": 24,
+          "references": [
+            "10.1016/j.phytol.2012.04.012",
+            "10.1016/j.phytol.2010.07.009",
+            "10.1016/j.bmcl.2015.08.044"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-capsicum-annuum-0276c03fe6",
+      "accepted_botanical": "Capsicum annuum",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "1619",
+          "name_as_listed": "Capsicum annum",
+          "most_recent_name": "Capsicum annuum",
+          "ncbi_taxonomy_id": "4072",
+          "molecule_count": 6,
+          "references": [
+            "10.1016/j.fitote.2021.104903"
+          ]
+        }
+      ],
+      "anses": [
+        {
+          "record_id": "anses_capsicum_annuum_l_fruit",
+          "source_sheet": "Recos EMA synthèse",
+          "source_row": 25,
+          "scientific_name_as_published": "Capsicum annuum L.",
+          "plant_part": "Fruit",
+          "statements_present": {
+            "contraindication": false,
+            "interaction": false,
+            "pregnancy_lactation": false,
+            "paediatric": false
+          }
+        }
+      ]
+    },
+    {
+      "plant_id": "plant-ceiba-pentandra-40364fdcb2",
+      "accepted_botanical": "Ceiba pentandra",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "1359",
+          "name_as_listed": "Ceiba pentandra",
+          "most_recent_name": "Ceiba pentandra",
+          "ncbi_taxonomy_id": "193163",
+          "molecule_count": 3,
+          "references": [
+            "10.1016/j.fitote.2020.104541"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-cinnamomum-verum-9e3f7aeb97",
+      "accepted_botanical": "Cinnamomum verum",
+      "in_runtime_index": true,
+      "anpdb": [],
+      "anses": [
+        {
+          "record_id": "anses_cinnamomum_verum_jpresl_ecorce",
+          "source_sheet": "Recos EMA synthèse",
+          "source_row": 32,
+          "scientific_name_as_published": "Cinnamomum verum J.Presl.",
+          "plant_part": "Ecorce",
+          "statements_present": {
+            "contraindication": true,
+            "interaction": false,
+            "pregnancy_lactation": true,
+            "paediatric": true
+          }
+        },
+        {
+          "record_id": "anses_cinnamomum_verum_jpresl_huile_essentielle_de_lecorce",
+          "source_sheet": "Recos EMA synthèse",
+          "source_row": 33,
+          "scientific_name_as_published": "Cinnamomum verum J.Presl.",
+          "plant_part": "Huile essentielle de l’écorce",
+          "statements_present": {
+            "contraindication": true,
+            "interaction": false,
+            "pregnancy_lactation": true,
+            "paediatric": true
+          }
+        }
+      ]
+    },
+    {
+      "plant_id": "plant-citrullus-colocynthis-7f7261a3c1",
+      "accepted_botanical": "Citrullus colocynthis",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "1420",
+          "name_as_listed": "Citrullus colocynthis",
+          "most_recent_name": "Citrullus colocynthis",
+          "ncbi_taxonomy_id": "252529",
+          "molecule_count": 16,
+          "references": [
+            "10.1248/cpb.55.428"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-citrullus-lanatus-93ead4239e",
+      "accepted_botanical": "Citrullus lanatus",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "1287",
+          "name_as_listed": "Citrullus lanatus",
+          "most_recent_name": null,
+          "ncbi_taxonomy_id": "3654",
+          "molecule_count": 3,
+          "references": [
+            "10.1155/2012/490136",
+            "10.5539/jps.v1n2p61"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-citrus-aurantium-6b3a87e59c",
+      "accepted_botanical": "Citrus aurantium",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "1223",
+          "name_as_listed": "Citrus aurantium",
+          "most_recent_name": "Citrus x aurantium",
+          "ncbi_taxonomy_id": "43166",
+          "molecule_count": 14,
+          "references": [
+            "10.1016/j.phytol.2018.12.010"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-cocos-nucifera-20f1d857c6",
+      "accepted_botanical": "Cocos nucifera",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "1340",
+          "name_as_listed": "Cocos nucifera",
+          "most_recent_name": "Cocos nucifera",
+          "ncbi_taxonomy_id": "13894",
+          "molecule_count": 2,
+          "references": [
+            "10.1016/j.tetlet.2019.150948"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-cola-acuminata-0e4353fc78",
+      "accepted_botanical": "Cola acuminata",
+      "in_runtime_index": true,
+      "anpdb": [],
+      "anses": [
+        {
+          "record_id": "anses_cola_acuminata_pbeauv_schott_et_endl_graine",
+          "source_sheet": "Recos EMA synthèse",
+          "source_row": 34,
+          "scientific_name_as_published": "Cola acuminata (P.Beauv.) Schott et Endl.",
+          "plant_part": "Graine",
+          "statements_present": {
+            "contraindication": true,
+            "interaction": true,
+            "pregnancy_lactation": true,
+            "paediatric": true
+          }
+        }
+      ]
+    },
+    {
+      "plant_id": "plant-combretum-glutinosum-87aa708dd8",
+      "accepted_botanical": "Combretum glutinosum",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "1007",
+          "name_as_listed": "Combretum glutinosum",
+          "most_recent_name": "Combretum glutinosum",
+          "ncbi_taxonomy_id": "578539",
+          "molecule_count": 4,
+          "references": [
+            "10.1107/S2053229621007841"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-combretum-molle-b8fae6ff53",
+      "accepted_botanical": "Combretum molle",
+      "in_runtime_index": false,
+      "anpdb": [
+        {
+          "species_id": "712",
+          "name_as_listed": "Combretum molle",
+          "most_recent_name": "Combretum molle",
+          "ncbi_taxonomy_id": "507414",
+          "molecule_count": 5,
+          "references": [
+            "10.1002/ptr.897/full",
+            "10.1002/ptr.724/full"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-combretum-racemosum-b002e80498",
+      "accepted_botanical": "Combretum racemosum",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "1740",
+          "name_as_listed": "Combretum racemosum",
+          "most_recent_name": "Combretum racemosum",
+          "ncbi_taxonomy_id": "2998935",
+          "molecule_count": 2,
+          "references": [
+            "10.1016/j.jep.2021.113992"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-crateva-adansonii-5d14c0c473",
+      "accepted_botanical": "Crateva adansonii",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "991",
+          "name_as_listed": "Crateva adansonii",
+          "most_recent_name": "Crateva adansonii",
+          "ncbi_taxonomy_id": "190806",
+          "molecule_count": 1,
+          "references": [
+            "10.1016/j.jep.2019.112251"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-crossopteryx-febrifuga-dffd28447e",
+      "accepted_botanical": "Crossopteryx febrifuga",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "1213",
+          "name_as_listed": "Crossopteryx febrifuga",
+          "most_recent_name": "Crossopteryx febrifuga",
+          "ncbi_taxonomy_id": "170354",
+          "molecule_count": 2,
+          "references": [
+            "10.1515/znc-2014-4168"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-croton-gratissimus-gratissimus-dadb71467d",
+      "accepted_botanical": "Croton gratissimus gratissimus",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "1030",
+          "name_as_listed": "Croton zambesicus",
+          "most_recent_name": "Croton zambesicus",
+          "ncbi_taxonomy_id": "323089",
+          "molecule_count": 26,
+          "references": [
+            "10.1016/S0031-9422(02)00034-1",
+            "10.1016/j.apjtm.2016.06.009",
+            "10.1080/14786419.2010.532499"
+          ]
+        },
+        {
+          "species_id": "1693",
+          "name_as_listed": "Croton gratissimus",
+          "most_recent_name": "Croton gratissimus",
+          "ncbi_taxonomy_id": "316784",
+          "molecule_count": 4,
+          "references": [
+            "10.1016/j.phytochem.2010.05.014"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-cucurbita-pepo-03bf5a579e",
+      "accepted_botanical": "Cucurbita pepo",
+      "in_runtime_index": true,
+      "anpdb": [],
+      "anses": [
+        {
+          "record_id": "anses_cucurbita_pepo_l_graine",
+          "source_sheet": "Recos EMA synthèse",
+          "source_row": 36,
+          "scientific_name_as_published": "Cucurbita pepo L.",
+          "plant_part": "Graine",
+          "statements_present": {
+            "contraindication": false,
+            "interaction": false,
+            "pregnancy_lactation": true,
+            "paediatric": true
+          }
+        }
+      ]
+    },
+    {
+      "plant_id": "plant-curcuma-longa-cac6186f50",
+      "accepted_botanical": "Curcuma longa",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "429",
+          "name_as_listed": "Curcuma longa",
+          "most_recent_name": "Curcuma longa",
+          "ncbi_taxonomy_id": "136217",
+          "molecule_count": 4,
+          "references": [
+            "http://link.springer.com/article/10.1007%2Fs10600-012-0333-y"
+          ]
+        }
+      ],
+      "anses": [
+        {
+          "record_id": "anses_curcuma_longa_l_rhizome",
+          "source_sheet": "Recos EMA synthèse",
+          "source_row": 37,
+          "scientific_name_as_published": "Curcuma longa L.",
+          "plant_part": "Rhizome",
+          "statements_present": {
+            "contraindication": true,
+            "interaction": false,
+            "pregnancy_lactation": true,
+            "paediatric": true
+          }
+        }
+      ]
+    },
+    {
+      "plant_id": "plant-datura-metel-bb3c133ce7",
+      "accepted_botanical": "Datura metel",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "348",
+          "name_as_listed": "Datura metel",
+          "most_recent_name": "Datura metel",
+          "ncbi_taxonomy_id": "35625",
+          "molecule_count": 8,
+          "references": [
+            "10.1016/j.phytochem.2011.07.009"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-daucus-carota-58a61f368b",
+      "accepted_botanical": "Daucus carota",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "391",
+          "name_as_listed": "Daucus carota var. boissieri",
+          "most_recent_name": "Daucus carota subsp. carota",
+          "ncbi_taxonomy_id": "79196",
+          "molecule_count": 5,
+          "references": [
+            "10.1016/0305-1978(94)90062-0"
+          ]
+        },
+        {
+          "species_id": "402",
+          "name_as_listed": "Daucus carota subsp. carota",
+          "most_recent_name": null,
+          "ncbi_taxonomy_id": null,
+          "molecule_count": 12,
+          "references": [
+            "http://www.ncbi.nlm.nih.gov/pubmed/21299130",
+            "10.1016/j.phytochem.2005.05.010"
+          ]
+        },
+        {
+          "species_id": "405",
+          "name_as_listed": "Daucus carota subsp. maritimus",
+          "most_recent_name": "Daucus carota subsp. maritimus",
+          "ncbi_taxonomy_id": "126355",
+          "molecule_count": 4,
+          "references": [
+            "10.1002/cbdv.200800144/"
+          ]
+        },
+        {
+          "species_id": "1329",
+          "name_as_listed": "Daucus carota",
+          "most_recent_name": "Daucus carota",
+          "ncbi_taxonomy_id": "4039",
+          "molecule_count": 7,
+          "references": [
+            "10.1016/j.phytochem.2020.112632"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-dichrostachys-cinerea-9b29a4536d",
+      "accepted_botanical": "Dichrostachys cinerea",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "1053",
+          "name_as_listed": "Dichrostachys cinerea",
+          "most_recent_name": "Dichrostachys cinerea",
+          "ncbi_taxonomy_id": "196665",
+          "molecule_count": 3,
+          "references": [
+            "10.1155/2019/8450158"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-entandrophragma-angolense-3c981d229e",
+      "accepted_botanical": "Entandrophragma angolense",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "1132",
+          "name_as_listed": "Entandrophragma angolense",
+          "most_recent_name": "Entandrophragma angolense",
+          "ncbi_taxonomy_id": "587577",
+          "molecule_count": 9,
+          "references": [
+            "10.1016/j.steroids.2020.108584",
+            "10.1016/j.phytochem.2005.07.017"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-equisetum-arvense-bb7e4a7d37",
+      "accepted_botanical": "Equisetum arvense",
+      "in_runtime_index": true,
+      "anpdb": [],
+      "anses": [
+        {
+          "record_id": "anses_equisetum_arvense_l_parties_aeriennes",
+          "source_sheet": "Recos EMA synthèse",
+          "source_row": 46,
+          "scientific_name_as_published": "Equisetum arvense L.",
+          "plant_part": "Parties aériennes",
+          "statements_present": {
+            "contraindication": true,
+            "interaction": false,
+            "pregnancy_lactation": true,
+            "paediatric": true
+          }
+        }
+      ]
+    },
+    {
+      "plant_id": "plant-erigeron-floribundus-1f54647f52",
+      "accepted_botanical": "Erigeron floribundus",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "969",
+          "name_as_listed": "Erigeron floribundus",
+          "most_recent_name": "Erigeron floribundus",
+          "ncbi_taxonomy_id": "91244",
+          "molecule_count": 23,
+          "references": [
+            "10.1177/1934578X1400901207"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-erythrina-senegalensis-1cdd79dd96",
+      "accepted_botanical": "Erythrina senegalensis",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "1110",
+          "name_as_listed": "Erythrina senegalensis",
+          "most_recent_name": "Erythrina senegalensis",
+          "ncbi_taxonomy_id": "157649",
+          "molecule_count": 6,
+          "references": [
+            "10.1007/s12272-009-1116-2",
+            "10.1055/s-0028-1088395"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-faidherbia-albida-2d917220af",
+      "accepted_botanical": "Faidherbia albida",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "1147",
+          "name_as_listed": "Acacia albida",
+          "most_recent_name": "Faidherbia albida",
+          "ncbi_taxonomy_id": "138055",
+          "molecule_count": 7,
+          "references": [
+            "10.1016/j.phytochem.2016.12.019"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-ficus-benjamina-f9e1afbebf",
+      "accepted_botanical": "Ficus benjamina",
+      "in_runtime_index": false,
+      "anpdb": [
+        {
+          "species_id": "1166",
+          "name_as_listed": "Ficus benjamina",
+          "most_recent_name": "Ficus benjamina",
+          "ncbi_taxonomy_id": "182105",
+          "molecule_count": 1,
+          "references": [
+            "10.1016/j.bse.2007.08.014"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-ficus-carica-b1bdd0a7eb",
+      "accepted_botanical": "Ficus carica",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "1527",
+          "name_as_listed": "Ficus carica",
+          "most_recent_name": "Ficus carica",
+          "ncbi_taxonomy_id": "3494",
+          "molecule_count": 1,
+          "references": [
+            "10.1016/S0031-9422(00)82968-4"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-ficus-exasperata-718f240ae1",
+      "accepted_botanical": "Ficus exasperata",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "823",
+          "name_as_listed": "Ficus exasperata",
+          "most_recent_name": "Ficus exasperata",
+          "ncbi_taxonomy_id": "459060",
+          "molecule_count": 13,
+          "references": [
+            "10.1248/cpb.c12-00279",
+            "10.1016/j.bse.2006.07.006"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-ficus-polita-8cd794e103",
+      "accepted_botanical": "Ficus polita",
+      "in_runtime_index": false,
+      "anpdb": [
+        {
+          "species_id": "832",
+          "name_as_listed": "Ficus polita",
+          "most_recent_name": "Ficus polita",
+          "ncbi_taxonomy_id": "378027",
+          "molecule_count": 5,
+          "references": [
+            "10.1016/j.bse.2006.07.006"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-ficus-sur-7df96d2df3",
+      "accepted_botanical": "Ficus sur",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "825",
+          "name_as_listed": "Ficus sur",
+          "most_recent_name": "Ficus sur",
+          "ncbi_taxonomy_id": "100575",
+          "molecule_count": 9,
+          "references": [
+            "10.1016/j.bse.2006.07.006",
+            "https://www.ajol.info/index.php/bcse/article/download/21137/18891"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-ficus-sycomorus-750402904b",
+      "accepted_botanical": "Ficus sycomorus",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "1170",
+          "name_as_listed": "Ficus gnaphalocarpa",
+          "most_recent_name": "Ficus sycomorus",
+          "ncbi_taxonomy_id": "182129",
+          "molecule_count": 1,
+          "references": [
+            "10.1590/S0103-50532012000300015"
+          ]
+        },
+        {
+          "species_id": "1529",
+          "name_as_listed": "Ficus sycomorus",
+          "most_recent_name": null,
+          "ncbi_taxonomy_id": null,
+          "molecule_count": 1,
+          "references": [
+            "10.1016/S0031-9422(00)82968-4"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-ficus-thonningii-adcebe0b49",
+      "accepted_botanical": "Ficus thonningii",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "835",
+          "name_as_listed": "Ficus thonningii",
+          "most_recent_name": "Ficus thonningii",
+          "ncbi_taxonomy_id": "309310",
+          "molecule_count": 26,
+          "references": [
+            "10.1016/j.phytol.2014.11.012",
+            "10.1515/znc-2015-0147",
+            "10.1016/j.bse.2006.07.006"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-foeniculum-vulgare-996fdef83f",
+      "accepted_botanical": "Foeniculum vulgare",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "400",
+          "name_as_listed": "Foeniculum vulgare",
+          "most_recent_name": "Anethum foeniculum",
+          "ncbi_taxonomy_id": "2849586",
+          "molecule_count": 23,
+          "references": [
+            "http://www.scielo.cl/scielo.php?pid=S0717-97072011000300008&script=sci_arttext&tlng=e",
+            "10.1016/j.arabjc.2010.11.006"
+          ]
+        }
+      ],
+      "anses": [
+        {
+          "record_id": "anses_foeniculum_vulgare_mill_subsp_vulgare_var_dulce_mill_batt_trab_row51",
+          "source_sheet": "Recos EMA synthèse",
+          "source_row": 51,
+          "scientific_name_as_published": "Foeniculum vulgare Mill. subsp. vulgare var. dulce (Mill.) Batt. & Trab",
+          "plant_part": null,
+          "statements_present": {
+            "contraindication": true,
+            "interaction": false,
+            "pregnancy_lactation": true,
+            "paediatric": true
+          }
+        },
+        {
+          "record_id": "anses_foeniculum_vulgare_miller_subsp_vulgare_var_vulgare_fruit",
+          "source_sheet": "Recos EMA synthèse",
+          "source_row": 52,
+          "scientific_name_as_published": "Foeniculum vulgare Miller subsp. vulgare var. vulgare",
+          "plant_part": "Fruit",
+          "statements_present": {
+            "contraindication": true,
+            "interaction": false,
+            "pregnancy_lactation": true,
+            "paediatric": true
+          }
+        }
+      ]
+    },
+    {
+      "plant_id": "plant-funtumia-elastica-2b42d35433",
+      "accepted_botanical": "Funtumia elastica",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "949",
+          "name_as_listed": "Funtumia elastica",
+          "most_recent_name": "Funtumia elastica",
+          "ncbi_taxonomy_id": "69379",
+          "molecule_count": 7,
+          "references": [
+            "10.1016/j.fitote.2021.104869"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-gambeya-albida-99898dfcc8",
+      "accepted_botanical": "Gambeya albida",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "1754",
+          "name_as_listed": "Chrysophyllum albidum",
+          "most_recent_name": "Gambeya albida",
+          "ncbi_taxonomy_id": "1220070",
+          "molecule_count": 2,
+          "references": [
+            "10.21010/ajtcam.v13i5.24"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-glycyrrhiza-glabra-1972260a05",
+      "accepted_botanical": "Glycyrrhiza glabra",
+      "in_runtime_index": false,
+      "anpdb": [
+        {
+          "species_id": "1451",
+          "name_as_listed": "Glycyrrhiza glabra",
+          "most_recent_name": "Glycyrrhiza glabra",
+          "ncbi_taxonomy_id": "49827",
+          "molecule_count": 14,
+          "references": [
+            "10.1080/14786419.2018.1462177"
+          ]
+        }
+      ],
+      "anses": [
+        {
+          "record_id": "anses_glycyrrhiza_glabra_l_et_glycyrrhiza_uralensis_fisch_racine",
+          "source_sheet": "Recos EMA synthèse",
+          "source_row": 60,
+          "scientific_name_as_published": "Glycyrrhiza glabra L. et Glycyrrhiza uralensis Fisch",
+          "plant_part": "Racine",
+          "statements_present": {
+            "contraindication": true,
+            "interaction": true,
+            "pregnancy_lactation": true,
+            "paediatric": true
+          }
+        }
+      ]
+    },
+    {
+      "plant_id": "plant-glyphaea-brevis-1200ccc8ac",
+      "accepted_botanical": "Glyphaea brevis",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "1259",
+          "name_as_listed": "Glyphaea brevis",
+          "most_recent_name": "Glyphaea brevis",
+          "ncbi_taxonomy_id": "93769",
+          "molecule_count": 7,
+          "references": [
+            "10.1002/cbdv.201100378"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-gnidia-kraussiana-644bed08de",
+      "accepted_botanical": "Gnidia kraussiana",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "1257",
+          "name_as_listed": "Gnidia kraussiana",
+          "most_recent_name": "Lasiosiphon kraussianus",
+          "ncbi_taxonomy_id": "142746",
+          "molecule_count": 5,
+          "references": [
+            "10.1021/np50032a006"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-gossypium-barbadense-65985e0c97",
+      "accepted_botanical": "Gossypium barbadense",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "1520",
+          "name_as_listed": "Gossypium barbadense",
+          "most_recent_name": "Gossypium barbadense",
+          "ncbi_taxonomy_id": "3634",
+          "molecule_count": 13,
+          "references": [
+            "10.1016/s0031-9422(00)88415-0"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-guiera-senegalensis-3b2c389d07",
+      "accepted_botanical": "Guiera senegalensis",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "153",
+          "name_as_listed": "Guiera senegalensis",
+          "most_recent_name": null,
+          "ncbi_taxonomy_id": "578546",
+          "molecule_count": 1,
+          "references": [
+            "10.1016/S0031-9422(97)00098-8"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-gymnanthemum-amygdalinum-5dbeaea320",
+      "accepted_botanical": "Gymnanthemum amygdalinum",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "727",
+          "name_as_listed": "Vernonia amygdalina",
+          "most_recent_name": "Gymnanthemum amygdalinum",
+          "ncbi_taxonomy_id": "82755",
+          "molecule_count": 2,
+          "references": [
+            "10.1186/s12936-015-0812-2"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-hamamelis-virginiana-028abad914",
+      "accepted_botanical": "Hamamelis virginiana",
+      "in_runtime_index": true,
+      "anpdb": [],
+      "anses": [
+        {
+          "record_id": "anses_hamamelis_virginiana_l_feuille",
+          "source_sheet": "Recos EMA synthèse",
+          "source_row": 62,
+          "scientific_name_as_published": "Hamamelis virginiana L.",
+          "plant_part": "Feuille",
+          "statements_present": {
+            "contraindication": false,
+            "interaction": false,
+            "pregnancy_lactation": true,
+            "paediatric": true
+          }
+        }
+      ]
+    },
+    {
+      "plant_id": "plant-harungana-madagascariensis-210b6b89a5",
+      "accepted_botanical": "Harungana madagascariensis",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "1087",
+          "name_as_listed": "Harungana madagascariensis",
+          "most_recent_name": "Harungana madagascariensis",
+          "ncbi_taxonomy_id": "198768",
+          "molecule_count": 16,
+          "references": [
+            "10.1016/j.phytochem.2005.03.022",
+            "10.1021/np050407n",
+            "10.1021/np060556l",
+            "10.1016/j.jep.2016.06.005"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-hibiscus-sabdariffa-868f3a61df",
+      "accepted_botanical": "Hibiscus sabdariffa",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "1518",
+          "name_as_listed": "Hibiscus sabdariffa",
+          "most_recent_name": "Hibiscus sabdariffa",
+          "ncbi_taxonomy_id": "183260",
+          "molecule_count": 1,
+          "references": [
+            "10.1016/0031-9422(75)83056-1"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-hoslundia-opposita-19739cc93b",
+      "accepted_botanical": "Hoslundia opposita",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "889",
+          "name_as_listed": "Hoslundia opposita",
+          "most_recent_name": "Hoslundia opposita",
+          "ncbi_taxonomy_id": "204228",
+          "molecule_count": 6,
+          "references": [
+            "10.1016/S0031-9422(00)97526-5"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-humulus-lupulus-8b6b0bf667",
+      "accepted_botanical": "Humulus lupulus",
+      "in_runtime_index": true,
+      "anpdb": [],
+      "anses": [
+        {
+          "record_id": "anses_humulus_lupulus_l_fleur_strobile",
+          "source_sheet": "Recos EMA synthèse",
+          "source_row": 67,
+          "scientific_name_as_published": "Humulus lupulus L.",
+          "plant_part": "Fleur (strobile)",
+          "statements_present": {
+            "contraindication": false,
+            "interaction": false,
+            "pregnancy_lactation": true,
+            "paediatric": true
+          }
+        }
+      ]
+    },
+    {
+      "plant_id": "plant-ixora-coccinea-6caa364af8",
+      "accepted_botanical": "Ixora coccinea",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "1751",
+          "name_as_listed": "Ixora coccinea",
+          "most_recent_name": "Ixora coccinea",
+          "ncbi_taxonomy_id": "43503",
+          "molecule_count": 7,
+          "references": [
+            "10.1016/j.phytochem.2010.08.018"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-jatropha-multifida-a57466d05a",
+      "accepted_botanical": "Jatropha multifida",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "213",
+          "name_as_listed": "Jatropha multifida",
+          "most_recent_name": "Jatropha multifida",
+          "ncbi_taxonomy_id": "3996",
+          "molecule_count": 9,
+          "references": [
+            "http://link.springer.com/article/10.1007/s10600-012-0377-z"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-khaya-ivorensis-f964de1c05",
+      "accepted_botanical": "Khaya ivorensis",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "1136",
+          "name_as_listed": "Khaya ivorensis",
+          "most_recent_name": "Khaya ivorensis",
+          "ncbi_taxonomy_id": "486173",
+          "molecule_count": 6,
+          "references": [
+            "https://www.researchgate.net/profile/Samir_Abdelgaleil2/publication/266884464_Antifeedant_and_Growth_Inhibitory_Effects_of_Tetranortriterpenoids_Isolated_from_Three_Meliaceous_Species_on_the_Cotton_Leafworm_Spodoptera_littoralis_Boisd/links/547a232a0cf205d1687fac46/Antifeedant-and-Growth-Inhibitory-Effects-of-Tetranortriterpenoids-Isolated-from-Three-Meliaceous-Species-on-the-Cotton-Leafworm-Spodoptera-littoralis-Boisd.pdf"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-khaya-senegalensis-f69ad4fed5",
+      "accepted_botanical": "Khaya senegalensis",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "276",
+          "name_as_listed": "Khaya senegalensis",
+          "most_recent_name": "Khaya senegalensis",
+          "ncbi_taxonomy_id": "587579",
+          "molecule_count": 21,
+          "references": [
+            "10.1016/S0031-9422(98)00284-2",
+            "10.1016/S0040-4039(00)01080-7",
+            "10.1021/np020067v",
+            "10.1021/np010082k",
+            "10.1016/S0040-4020(00)00994-7"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-kigelia-africana-46d315983f",
+      "accepted_botanical": "Kigelia africana",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "88",
+          "name_as_listed": "Kigelia pinnata",
+          "most_recent_name": "Kigelia africana",
+          "ncbi_taxonomy_id": "70070",
+          "molecule_count": 16,
+          "references": [
+            "10.1016/S0031-9422(03)00262-0",
+            "10.1055/s-2006-957900"
+          ]
+        },
+        {
+          "species_id": "977",
+          "name_as_listed": "Kigelia africana",
+          "most_recent_name": null,
+          "ncbi_taxonomy_id": null,
+          "molecule_count": 6,
+          "references": [
+            "10.7324/JAPS.2015.58.S1"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-lantana-camara-a4c6f19b37",
+      "accepted_botanical": "Lantana camara",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "1264",
+          "name_as_listed": "Lantana camara",
+          "most_recent_name": "Lantana camara",
+          "ncbi_taxonomy_id": "126435",
+          "molecule_count": 2,
+          "references": [
+            "10.1016/j.fitote.2016.03.012"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-lawsonia-inermis-7ff9dfd7a9",
+      "accepted_botanical": "Lawsonia inermis",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "1515",
+          "name_as_listed": "Lawsonia inermis",
+          "most_recent_name": "Lawsonia inermis",
+          "ncbi_taxonomy_id": "141191",
+          "molecule_count": 1,
+          "references": [
+            "10.1080/14786419.2017.1419229"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-lophira-lanceolata-548e1e955d",
+      "accepted_botanical": "Lophira lanceolata",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "1190",
+          "name_as_listed": "Lophira lanceolata",
+          "most_recent_name": "Lophira lanceolata",
+          "ncbi_taxonomy_id": "670087",
+          "molecule_count": 4,
+          "references": [
+            "10.1080/13880209.2018.1476559"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-macropsychanthus-comosus-28666ab8d0",
+      "accepted_botanical": "Macropsychanthus comosus",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "1744",
+          "name_as_listed": "Dioclea reflexa",
+          "most_recent_name": "Macropsychanthus comosus",
+          "ncbi_taxonomy_id": "2986840",
+          "molecule_count": 3,
+          "references": [
+            "10.4314/bcse.v29i3.12"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-mallotus-oppositifolius-1fb198eab3",
+      "accepted_botanical": "Mallotus oppositifolius",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "1036",
+          "name_as_listed": "Mallotus oppositifolius",
+          "most_recent_name": "Mallotus oppositifolius",
+          "ncbi_taxonomy_id": "396489",
+          "molecule_count": 10,
+          "references": [
+            "10.1016/j.fitote.2020.104527"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-mangifera-indica-4d66bda6d8",
+      "accepted_botanical": "Mangifera indica",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "42",
+          "name_as_listed": "Mangifera indica",
+          "most_recent_name": "Mangifera indica",
+          "ncbi_taxonomy_id": "29780",
+          "molecule_count": 12,
+          "references": [
+            "10.1016/j.bmc.2014.02.014"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-margaritaria-discoidea-d6d8d4a920",
+      "accepted_botanical": "Margaritaria discoidea",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "913",
+          "name_as_listed": "Margaritaria discoidea",
+          "most_recent_name": "Margaritaria discoidea",
+          "ncbi_taxonomy_id": "319151",
+          "molecule_count": 1,
+          "references": [
+            "10.1055/s-2006-960985"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-marrubium-vulgare-08489f05d7",
+      "accepted_botanical": "Marrubium vulgare",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "266",
+          "name_as_listed": "Marrubium vulgare",
+          "most_recent_name": "Marrubium vulgare",
+          "ncbi_taxonomy_id": "41230",
+          "molecule_count": 8,
+          "references": [
+            "10.1055/s-2003-37042",
+            "10.1016/0031-9422(89)80307-3"
+          ]
+        },
+        {
+          "species_id": "1478",
+          "name_as_listed": "Marrubium vulgare",
+          "most_recent_name": "Marrubium vulgare",
+          "ncbi_taxonomy_id": "41230",
+          "molecule_count": 6,
+          "references": [
+            "10.1016/0031-9422(89)80307-3"
+          ]
+        },
+        {
+          "species_id": "1806",
+          "name_as_listed": "Marrubium vulgare",
+          "most_recent_name": null,
+          "ncbi_taxonomy_id": null,
+          "molecule_count": 22,
+          "references": [
+            "10.1016/0031-9422(89)80307-3",
+            "10.1016/j.fitote.2011.11.005"
+          ]
+        }
+      ],
+      "anses": [
+        {
+          "record_id": "anses_marrubium_vulgare_l_parties_aeriennes",
+          "source_sheet": "Recos EMA synthèse",
+          "source_row": 77,
+          "scientific_name_as_published": "Marrubium vulgare L.",
+          "plant_part": "Parties aériennes",
+          "statements_present": {
+            "contraindication": true,
+            "interaction": false,
+            "pregnancy_lactation": true,
+            "paediatric": true
+          }
+        }
+      ]
+    },
+    {
+      "plant_id": "plant-mentha-pulegium-182675646e",
+      "accepted_botanical": "Mentha pulegium",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "1810",
+          "name_as_listed": "Mentha pulegium",
+          "most_recent_name": null,
+          "ncbi_taxonomy_id": null,
+          "molecule_count": 45,
+          "references": [
+            "10.1016/S0031-9422(97)01042-X",
+            "10.1016/j.phytol.2014.03.007"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-mesosphaerum-suaveolens-290130fed4",
+      "accepted_botanical": "Mesosphaerum suaveolens",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "1747",
+          "name_as_listed": "Hyptis suaveolens",
+          "most_recent_name": "Mesosphaerum suaveolens",
+          "ncbi_taxonomy_id": "204129",
+          "molecule_count": 1,
+          "references": [
+            "10.1016/j.jep.2005.08.018"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-milicia-excelsa-113df15e5a",
+      "accepted_botanical": "Milicia excelsa",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "1171",
+          "name_as_listed": "Milicia excelsa",
+          "most_recent_name": "Milicia excelsa",
+          "ncbi_taxonomy_id": "58664",
+          "molecule_count": 3,
+          "references": [
+            "10.5560/ZNC.2014-0087"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-mitragyna-inermis-f48a7ec9b9",
+      "accepted_botanical": "Mitragyna inermis",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "1208",
+          "name_as_listed": "Mitragyna inermis",
+          "most_recent_name": "Mitragyna inermis",
+          "ncbi_taxonomy_id": "170023",
+          "molecule_count": 17,
+          "references": [
+            "10.5560/znb.2012-0115",
+            "10.1016/j.heliyon.2023.e16448"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-morinda-lucida-a896aeef86",
+      "accepted_botanical": "Morinda lucida",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "1215",
+          "name_as_listed": "Morinda lucida",
+          "most_recent_name": "Morinda lucida",
+          "ncbi_taxonomy_id": "339305",
+          "molecule_count": 18,
+          "references": [
+            "10.1007/s11696-020-01460-3",
+            "10.1016/j.phytol.2020.06.010"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-moringa-oleifera-6a8b6f1fb2",
+      "accepted_botanical": "Moringa oleifera",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "837",
+          "name_as_listed": "Moringa oleifera",
+          "most_recent_name": "Moringa oleifera",
+          "ncbi_taxonomy_id": "3735",
+          "molecule_count": 16,
+          "references": [
+            "10.1080/14786410601035811",
+            "10.1016/j.sajb.2021.08.017"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-myrianthus-arboreus-9e695982c1",
+      "accepted_botanical": "Myrianthus arboreus",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "993",
+          "name_as_listed": "Myrianthus arboreus",
+          "most_recent_name": "Myrianthus arboreus",
+          "ncbi_taxonomy_id": "1781621",
+          "molecule_count": 11,
+          "references": [
+            "10.1021/acs.jnatprod.8b00079",
+            "10.1055/s-2006-960932"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-myristica-fragrans-5fa608361f",
+      "accepted_botanical": "Myristica fragrans",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "1176",
+          "name_as_listed": "Myristica fragrans Houtt.",
+          "most_recent_name": "Myristica",
+          "ncbi_taxonomy_id": "51088",
+          "molecule_count": 1,
+          "references": [
+            "10.1186/s12906-018-2084-1"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-nauclea-latifolia-53fa5cb38c",
+      "accepted_botanical": "Nauclea latifolia",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "1209",
+          "name_as_listed": "Nauclea latifolia",
+          "most_recent_name": "Sarcocephalus latifolius",
+          "ncbi_taxonomy_id": "43573",
+          "molecule_count": 21,
+          "references": [
+            "10.1021/acs.jnatprod.9b00463",
+            "10.4314/bcse.v17i2.61669"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-newbouldia-laevis-d699306785",
+      "accepted_botanical": "Newbouldia laevis",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "980",
+          "name_as_listed": "Newbouldia laevis",
+          "most_recent_name": "Newbouldia laevis",
+          "ncbi_taxonomy_id": "211924",
+          "molecule_count": 12,
+          "references": [
+            "10.1016/j.phytochem.2005.12.019",
+            "10.1248/cpb.53.616",
+            "10.1691/ph.2007.7.6757"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-nicotiana-tabacum-5f371f4c17",
+      "accepted_botanical": "Nicotiana tabacum",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "1625",
+          "name_as_listed": "Nicotiana tabacum",
+          "most_recent_name": "Nicotiana tabacum",
+          "ncbi_taxonomy_id": "4097",
+          "molecule_count": 6,
+          "references": [
+            "10.1515/znc-2008-5-615"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-ocimum-americanum-b6e22dbe1a",
+      "accepted_botanical": "Ocimum americanum",
+      "in_runtime_index": false,
+      "anpdb": [
+        {
+          "species_id": "1862",
+          "name_as_listed": "Ocimum americanum",
+          "most_recent_name": null,
+          "ncbi_taxonomy_id": null,
+          "molecule_count": 1,
+          "references": [
+            "10.1016/j.fitote.2005.04.001"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-oenothera-biennis-de18b60f3d",
+      "accepted_botanical": "Oenothera biennis",
+      "in_runtime_index": true,
+      "anpdb": [],
+      "anses": [
+        {
+          "record_id": "anses_oenothera_biennis_l_huile_de_la_graine",
+          "source_sheet": "Recos EMA synthèse",
+          "source_row": 84,
+          "scientific_name_as_published": "Oenothera biennis L.",
+          "plant_part": "Huile de la graine",
+          "statements_present": {
+            "contraindication": false,
+            "interaction": false,
+            "pregnancy_lactation": true,
+            "paediatric": true
+          }
+        }
+      ]
+    },
+    {
+      "plant_id": "plant-olea-europaea-5ab7d0e369",
+      "accepted_botanical": "Olea europaea",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "297",
+          "name_as_listed": "Olea europaea",
+          "most_recent_name": "Olea europaea",
+          "ncbi_taxonomy_id": "4146",
+          "molecule_count": 8,
+          "references": [
+            "10.1021/acs.jafc.5b00353"
+          ]
+        }
+      ],
+      "anses": [
+        {
+          "record_id": "anses_olea_europaea_l_feuille",
+          "source_sheet": "Recos EMA synthèse",
+          "source_row": 85,
+          "scientific_name_as_published": "Olea europaea L.",
+          "plant_part": "Feuille",
+          "statements_present": {
+            "contraindication": true,
+            "interaction": false,
+            "pregnancy_lactation": true,
+            "paediatric": true
+          }
+        }
+      ]
+    },
+    {
+      "plant_id": "plant-origanum-majorana-b926c640ff",
+      "accepted_botanical": "Origanum majorana",
+      "in_runtime_index": true,
+      "anpdb": [],
+      "anses": [
+        {
+          "record_id": "anses_origanum_majorana_l_parties_aeriennes",
+          "source_sheet": "Recos EMA synthèse",
+          "source_row": 88,
+          "scientific_name_as_published": "Origanum majorana L.",
+          "plant_part": "Parties aériennes",
+          "statements_present": {
+            "contraindication": true,
+            "interaction": false,
+            "pregnancy_lactation": true,
+            "paediatric": true
+          }
+        }
+      ]
+    },
+    {
+      "plant_id": "plant-pachylobus-edulis-5b5e4fdfab",
+      "accepted_botanical": "Pachylobus edulis",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "988",
+          "name_as_listed": "Dacryodes edulis",
+          "most_recent_name": "Dacryodes edulis",
+          "ncbi_taxonomy_id": "246365",
+          "molecule_count": 11,
+          "references": [
+            "10.1186/s12906-023-03957-2"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-parkia-biglobosa-776ff1d28f",
+      "accepted_botanical": "Parkia biglobosa",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "1065",
+          "name_as_listed": "Parkia biglobosa",
+          "most_recent_name": "Parkia biglobosa",
+          "ncbi_taxonomy_id": "889930",
+          "molecule_count": 3,
+          "references": [
+            "10.3390/molecules18032803",
+            "https://www.investchempharma.com/wp-content/uploads/2018/05/investchempharma.com-imcp02-kuete-et-al-pdf.pdf"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-paullinia-pinnata-59253250f8",
+      "accepted_botanical": "Paullinia pinnata",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "1242",
+          "name_as_listed": "Paullinia pinnata",
+          "most_recent_name": "Paullinia pinnata",
+          "ncbi_taxonomy_id": "290984",
+          "molecule_count": 10,
+          "references": [
+            "10.1186/2193-1801-3-302",
+            "10.1186/1472-6882-14-369",
+            "10.1080/14786419.2014.996756"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-pergularia-daemia-c48e5f4c77",
+      "accepted_botanical": "Pergularia daemia",
+      "in_runtime_index": false,
+      "anpdb": [
+        {
+          "species_id": "55",
+          "name_as_listed": "Pergularia daemia",
+          "most_recent_name": "Pergularia daemia",
+          "ncbi_taxonomy_id": "63483",
+          "molecule_count": 1,
+          "references": [
+            "http://www.sciencedirect.com/science/article/pii/S0305197806000743"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-phyllanthus-emblica-e50ad00f92",
+      "accepted_botanical": "Phyllanthus emblica",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "219",
+          "name_as_listed": "Phyllanthus emblica",
+          "most_recent_name": "Emblica officinalis",
+          "ncbi_taxonomy_id": "296036",
+          "molecule_count": 6,
+          "references": [
+            "http://ci.nii.ac.jp/naid/110003631530/"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-piliostigma-thonningii-54038cc24e",
+      "accepted_botanical": "Piliostigma thonningii",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "805",
+          "name_as_listed": "Piliostigma thonningii",
+          "most_recent_name": null,
+          "ncbi_taxonomy_id": "653098",
+          "molecule_count": 4,
+          "references": [
+            "https://www.ajol.info/index.php/bcse/article/viewFile/79249/69556"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-piper-guineense-b925235b59",
+      "accepted_botanical": "Piper guineense",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "1200",
+          "name_as_listed": "Piper guineense",
+          "most_recent_name": "Piper guineense",
+          "ncbi_taxonomy_id": "511543",
+          "molecule_count": 1,
+          "references": [
+            "10.1016/j.carres.2021.108374"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-polyalthia-suaveolens-583867bca4",
+      "accepted_botanical": "Polyalthia suaveolens",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "944",
+          "name_as_listed": "Polyalthia suaveolens",
+          "most_recent_name": "Greenwayodendron suaveolens",
+          "ncbi_taxonomy_id": "235734",
+          "molecule_count": 5,
+          "references": [
+            "10.1016/j.bmcl.2010.04.145",
+            "10.1080/14786410600661377"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-portulaca-oleracea-5f30eeb357",
+      "accepted_botanical": "Portulaca oleracea",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "1565",
+          "name_as_listed": "Portulaca oleracea",
+          "most_recent_name": "Portulaca oleracea",
+          "ncbi_taxonomy_id": "46147",
+          "molecule_count": 2,
+          "references": [
+            "10.1080/14786419.2017.1353507",
+            "10.1080/10286020802320590"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-pseudocedrela-kotschyi-994af195f8",
+      "accepted_botanical": "Pseudocedrela kotschyi",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "1138",
+          "name_as_listed": "Pseudocedrela kotschyi",
+          "most_recent_name": "Pseudocedrela kotschyi",
+          "ncbi_taxonomy_id": "356281",
+          "molecule_count": 11,
+          "references": [
+            "10.1515/znc-2017-0102"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-psidium-guajava-ef93129072",
+      "accepted_botanical": "Psidium guajava",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "286",
+          "name_as_listed": "Psidium guajava",
+          "most_recent_name": null,
+          "ncbi_taxonomy_id": "120290",
+          "molecule_count": 11,
+          "references": [
+            "10.1016/j.phytochem.2004.06.009",
+            "10.1016/s0031-9422(02)00190-5"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-punica-granatum-9805b363cf",
+      "accepted_botanical": "Punica granatum",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "1568",
+          "name_as_listed": "Punica granatum",
+          "most_recent_name": "Punica granatum",
+          "ncbi_taxonomy_id": "22663",
+          "molecule_count": 2,
+          "references": [
+            "10.1080/14786419.2019.1655411"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-ricinus-communis-deda1fad54",
+      "accepted_botanical": "Ricinus communis",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "1444",
+          "name_as_listed": "Ricinus communis",
+          "most_recent_name": "Ricinus communis",
+          "ncbi_taxonomy_id": "3988",
+          "molecule_count": 7,
+          "references": [
+            "10.1080/14786419.2017.1423306"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-rosa-canina-7bbe818632",
+      "accepted_botanical": "Rosa canina",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "1588",
+          "name_as_listed": "Rosa canina",
+          "most_recent_name": "Rosa canina",
+          "ncbi_taxonomy_id": "74635",
+          "molecule_count": 13,
+          "references": [
+            "10.1016/j.arabjc.2017.09.013"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-rubus-idaeus-047cd63767",
+      "accepted_botanical": "Rubus idaeus",
+      "in_runtime_index": true,
+      "anpdb": [],
+      "anses": [
+        {
+          "record_id": "anses_rubus_idaeus_l_feuille",
+          "source_sheet": "Recos EMA synthèse",
+          "source_row": 112,
+          "scientific_name_as_published": "Rubus idaeus L.",
+          "plant_part": "Feuille",
+          "statements_present": {
+            "contraindication": false,
+            "interaction": false,
+            "pregnancy_lactation": true,
+            "paediatric": true
+          }
+        }
+      ]
+    },
+    {
+      "plant_id": "plant-salvia-officinalis-35cedcdf53",
+      "accepted_botanical": "Salvia officinalis",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "1493",
+          "name_as_listed": "Salvia officinalis",
+          "most_recent_name": "Salvia officinalis",
+          "ncbi_taxonomy_id": "38868",
+          "molecule_count": 6,
+          "references": [
+            "10.1016/j.phymed.2016.06.014"
+          ]
+        }
+      ],
+      "anses": [
+        {
+          "record_id": "anses_salvia_officinalis_subsp_lavandulifolia_vahl_gams_syn_salvia_lavandulifolia_vahl_feuille",
+          "source_sheet": "Recos EMA synthèse",
+          "source_row": 115,
+          "scientific_name_as_published": "Salvia officinalis subsp. lavandulifolia (Vahl) Gams (syn. Salvia lavandulifolia Vahl)",
+          "plant_part": "Feuille",
+          "statements_present": {
+            "contraindication": false,
+            "interaction": false,
+            "pregnancy_lactation": true,
+            "paediatric": true
+          }
+        }
+      ]
+    },
+    {
+      "plant_id": "plant-salvia-rosmarinus-4f80c27bed",
+      "accepted_botanical": "Salvia rosmarinus",
+      "in_runtime_index": true,
+      "anpdb": [],
+      "anses": [
+        {
+          "record_id": "anses_rosmarinus_officinalis_l_feuille",
+          "source_sheet": "Recos EMA synthèse",
+          "source_row": 110,
+          "scientific_name_as_published": "Rosmarinus officinalis L.",
+          "plant_part": "Feuille",
+          "statements_present": {
+            "contraindication": true,
+            "interaction": false,
+            "pregnancy_lactation": true,
+            "paediatric": true
+          }
+        },
+        {
+          "record_id": "anses_rosmarinus_officinalis_l_huile_essentielle_de_parties_aeriennes_fleuries",
+          "source_sheet": "Recos EMA synthèse",
+          "source_row": 111,
+          "scientific_name_as_published": "Rosmarinus officinalis L.",
+          "plant_part": "Huile essentielle de parties aériennes fleuries",
+          "statements_present": {
+            "contraindication": true,
+            "interaction": false,
+            "pregnancy_lactation": true,
+            "paediatric": true
+          }
+        }
+      ]
+    },
+    {
+      "plant_id": "plant-securidaca-longepedunculata-adc8155d91",
+      "accepted_botanical": "Securidaca longepedunculata",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "844",
+          "name_as_listed": "Securidaca longepedunculata",
+          "most_recent_name": null,
+          "ncbi_taxonomy_id": "690845",
+          "molecule_count": 4,
+          "references": [
+            "http://www.bioline.org.br/pdf?tc06040"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-senna-alata-6d79b20446",
+      "accepted_botanical": "Senna alata",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "1117",
+          "name_as_listed": "Senna alata",
+          "most_recent_name": "Senna alata",
+          "ncbi_taxonomy_id": "53923",
+          "molecule_count": 7,
+          "references": [
+            "10.30495/tpr.2021.680494"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-senna-obtusifolia-07bfdf80af",
+      "accepted_botanical": "Senna obtusifolia",
+      "in_runtime_index": false,
+      "anpdb": [
+        {
+          "species_id": "1106",
+          "name_as_listed": "Cassia obtusifolia",
+          "most_recent_name": "Senna obtusifolia",
+          "ncbi_taxonomy_id": "346985",
+          "molecule_count": 16,
+          "references": [
+            "10.1016/j.bse.2010.02.002"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-sesamum-indicum-1bfebea0d6",
+      "accepted_botanical": "Sesamum indicum",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "1198",
+          "name_as_listed": "Sesamum indicum",
+          "most_recent_name": "Sesamum indicum",
+          "ncbi_taxonomy_id": "4182",
+          "molecule_count": 2,
+          "references": [
+            "10.1080/14786419.2020.1793147"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-sida-acuta-b47c40cd00",
+      "accepted_botanical": "Sida acuta",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "1126",
+          "name_as_listed": "Sida acuta",
+          "most_recent_name": "Sida acuta",
+          "ncbi_taxonomy_id": "108357",
+          "molecule_count": 5,
+          "references": [
+            "10.1080/14786419.2021.1937156",
+            "10.1155/2022/7281144"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-solanum-nigrum-40e84f0f17",
+      "accepted_botanical": "Solanum nigrum",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "1626",
+          "name_as_listed": "Solanum nigrum",
+          "most_recent_name": "Solanum nigrum",
+          "ncbi_taxonomy_id": "4112",
+          "molecule_count": 16,
+          "references": [
+            "10.1080/14786419.2017.1327859.",
+            "10.1016/S0367-326X(99)00069-6",
+            "10.1016/S0031-9422(00)97839-7"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-solanum-tuberosum-b2574c34d7",
+      "accepted_botanical": "Solanum tuberosum",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "352",
+          "name_as_listed": "Solanum tuberosum",
+          "most_recent_name": "Solanum tuberosum",
+          "ncbi_taxonomy_id": "4113",
+          "molecule_count": 3,
+          "references": [
+            "10.1016/j.fitote.2010.03.001"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-spathodea-campanulata-75974a3121",
+      "accepted_botanical": "Spathodea campanulata",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "691",
+          "name_as_listed": "Spathodea campanulata",
+          "most_recent_name": "Spathodea campanulata",
+          "ncbi_taxonomy_id": "211926",
+          "molecule_count": 2,
+          "references": [
+            "10.1016/S0944-7113(99)80034-8"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-spinacia-oleracea-451e093c2b",
+      "accepted_botanical": "Spinacia oleracea",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "144",
+          "name_as_listed": "Spinacia oleracea",
+          "most_recent_name": "Spinacia oleracea",
+          "ncbi_taxonomy_id": "3562",
+          "molecule_count": 1,
+          "references": [
+            "10.1016/0031-9422(73)85043-5"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-syzygium-aromaticum-6c0a708906",
+      "accepted_botanical": "Syzygium aromaticum",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "1181",
+          "name_as_listed": "Syzygium aromaticum",
+          "most_recent_name": "Syzygium aromaticum",
+          "ncbi_taxonomy_id": "219868",
+          "molecule_count": 3,
+          "references": [
+            "10.30574/gscbps.2023.22.1.0414",
+            "10.1007/s10600-014-1060-3"
+          ]
+        }
+      ],
+      "anses": [
+        {
+          "record_id": "anses_syzygium_aromaticum_l_merill_et_lm_perry_huile_essentielle_de_bouton_floral",
+          "source_sheet": "Recos EMA synthèse",
+          "source_row": 125,
+          "scientific_name_as_published": "Syzygium aromaticum (L.) Merill et L.M. Perry",
+          "plant_part": "Huile essentielle de bouton floral",
+          "statements_present": {
+            "contraindication": true,
+            "interaction": false,
+            "pregnancy_lactation": true,
+            "paediatric": true
+          }
+        }
+      ]
+    },
+    {
+      "plant_id": "plant-syzygium-guineense-2b1c42dc6b",
+      "accepted_botanical": "Syzygium guineense",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "1182",
+          "name_as_listed": "Syzygium guineense",
+          "most_recent_name": "Syzygium guineense",
+          "ncbi_taxonomy_id": "334482",
+          "molecule_count": 3,
+          "references": [
+            "10.1177/1934578X0700200307"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-tephrosia-vogelii-052b63a8d8",
+      "accepted_botanical": "Tephrosia vogelii",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "774",
+          "name_as_listed": "Tephrosia vogelii",
+          "most_recent_name": "Tephrosia vogelii",
+          "ncbi_taxonomy_id": "1157238",
+          "molecule_count": 24,
+          "references": [
+            "http://www.sciencedirect.com/science/article/pii/S0031942212001057"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-terminalia-ivorensis-46ae37bf19",
+      "accepted_botanical": "Terminalia ivorensis",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "1008",
+          "name_as_listed": "Terminalia ivorensis",
+          "most_recent_name": "Terminalia ivorensis",
+          "ncbi_taxonomy_id": "578550",
+          "molecule_count": 6,
+          "references": [
+            "10.1002/cbdv.201000145",
+            "10.1016/j.phytochem.2010.08.020"
+          ]
+        },
+        {
+          "species_id": "1230",
+          "name_as_listed": "Terminalia ivorensis",
+          "most_recent_name": "Terminalia ivorensis",
+          "ncbi_taxonomy_id": "578550",
+          "molecule_count": 2,
+          "references": [
+            "10.1002/ptr.2894"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-tetracera-potatoria-5be3653e80",
+      "accepted_botanical": "Tetracera potatoria",
+      "in_runtime_index": false,
+      "anpdb": [
+        {
+          "species_id": "1016",
+          "name_as_listed": "Tetracera potatoria",
+          "most_recent_name": "Tetracera",
+          "ncbi_taxonomy_id": "85284",
+          "molecule_count": 4,
+          "references": [
+            "10.1016/j.jep.2016.11.027"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-tetrapleura-tetraptera-fe165781bd",
+      "accepted_botanical": "Tetrapleura tetraptera",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "1748",
+          "name_as_listed": "Tetrapleura tetraptera",
+          "most_recent_name": "Tetrapleura tetraptera",
+          "ncbi_taxonomy_id": "148728",
+          "molecule_count": 4,
+          "references": [
+            "10.1016/j.compbiolchem.2018.09.011"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-thymus-vulgaris-fdce8967e1",
+      "accepted_botanical": "Thymus vulgaris",
+      "in_runtime_index": true,
+      "anpdb": [],
+      "anses": [
+        {
+          "record_id": "anses_thymus_vulgaris_l_parties_aeriennes",
+          "source_sheet": "Recos EMA synthèse",
+          "source_row": 130,
+          "scientific_name_as_published": "Thymus vulgaris L.",
+          "plant_part": "Parties aériennes",
+          "statements_present": {
+            "contraindication": true,
+            "interaction": false,
+            "pregnancy_lactation": true,
+            "paediatric": true
+          }
+        }
+      ]
+    },
+    {
+      "plant_id": "plant-tithonia-diversifolia-92b473c089",
+      "accepted_botanical": "Tithonia diversifolia",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "972",
+          "name_as_listed": "Tithonia diversifolia",
+          "most_recent_name": "Tithonia diversifolia",
+          "ncbi_taxonomy_id": "684020",
+          "molecule_count": 1,
+          "references": [
+            "10.1055/s-2002-32552"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-trichilia-monadelpha-3da07709b7",
+      "accepted_botanical": "Trichilia monadelpha",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "1144",
+          "name_as_listed": "Trichilia monadelpha",
+          "most_recent_name": "Trichilia monadelpha",
+          "ncbi_taxonomy_id": "1640473",
+          "molecule_count": 9,
+          "references": [
+            "10.3390/metabo13020298"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-trigonella-foenum-graecum-60ff2fafb6",
+      "accepted_botanical": "Trigonella foenum-graecum",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "1462",
+          "name_as_listed": "Trigonella foenum-graecum",
+          "most_recent_name": "Trigonella foenum-graecum",
+          "ncbi_taxonomy_id": "78534",
+          "molecule_count": 5,
+          "references": [
+            "10.1016/S0305-1978(96)00101-9"
+          ]
+        },
+        {
+          "species_id": "1888",
+          "name_as_listed": "Trigonella foenum-graecum",
+          "most_recent_name": null,
+          "ncbi_taxonomy_id": null,
+          "molecule_count": 11,
+          "references": [
+            "10.1248/cpb.48.994"
+          ]
+        }
+      ],
+      "anses": [
+        {
+          "record_id": "anses_trigonella_foenumgraecum_l_graine",
+          "source_sheet": "Recos EMA synthèse",
+          "source_row": 133,
+          "scientific_name_as_published": "Trigonella foenum-graecum L.",
+          "plant_part": "Graine",
+          "statements_present": {
+            "contraindication": false,
+            "interaction": false,
+            "pregnancy_lactation": true,
+            "paediatric": true
+          }
+        }
+      ]
+    },
+    {
+      "plant_id": "plant-vaccinium-myrtillus-6958820a9e",
+      "accepted_botanical": "Vaccinium myrtillus",
+      "in_runtime_index": true,
+      "anpdb": [],
+      "anses": [
+        {
+          "record_id": "anses_vaccinium_myrtillus_l_fruit_frais",
+          "source_sheet": "Recos EMA synthèse",
+          "source_row": 137,
+          "scientific_name_as_published": "Vaccinium myrtillus L.",
+          "plant_part": "Fruit frais",
+          "statements_present": {
+            "contraindication": false,
+            "interaction": false,
+            "pregnancy_lactation": true,
+            "paediatric": true
+          }
+        },
+        {
+          "record_id": "anses_vaccinium_myrtillus_l_fruit_sec",
+          "source_sheet": "Recos EMA synthèse",
+          "source_row": 138,
+          "scientific_name_as_published": "Vaccinium myrtillus L.",
+          "plant_part": "Fruit sec",
+          "statements_present": {
+            "contraindication": false,
+            "interaction": false,
+            "pregnancy_lactation": true,
+            "paediatric": true
+          }
+        }
+      ]
+    },
+    {
+      "plant_id": "plant-vachellia-nilotica-f76029b6d9",
+      "accepted_botanical": "Vachellia nilotica",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "1446",
+          "name_as_listed": "Acacia nilotica",
+          "most_recent_name": "Vachellia nilotica",
+          "ncbi_taxonomy_id": "138033",
+          "molecule_count": 4,
+          "references": [
+            "10.1016/j.phymed.2012.07.006",
+            "10.1055/s-0043-122397"
+          ]
+        },
+        {
+          "species_id": "1750",
+          "name_as_listed": "Acacia nilotica",
+          "most_recent_name": "Vachellia nilotica",
+          "ncbi_taxonomy_id": "138033",
+          "molecule_count": 5,
+          "references": [
+            "10.3389/fchem.2021.624741"
+          ]
+        },
+        {
+          "species_id": "1761",
+          "name_as_listed": "Acacia nilotica subsp. tomentosa",
+          "most_recent_name": null,
+          "ncbi_taxonomy_id": null,
+          "molecule_count": 5,
+          "references": [
+            "10.1055/s-2006-962094"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-vachellia-sieberiana-9e9d74a39d",
+      "accepted_botanical": "Vachellia sieberiana",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "1042",
+          "name_as_listed": "Acacia sieberiana",
+          "most_recent_name": "Vachellia sieberiana",
+          "ncbi_taxonomy_id": "546664",
+          "molecule_count": 6,
+          "references": [
+            "10.1016/j.heliyon.2020.e05412"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-valeriana-officinalis-d57bcdb940",
+      "accepted_botanical": "Valeriana officinalis",
+      "in_runtime_index": false,
+      "anpdb": [],
+      "anses": [
+        {
+          "record_id": "anses_valeriana_officinalis_l_racine",
+          "source_sheet": "Recos EMA synthèse",
+          "source_row": 139,
+          "scientific_name_as_published": "Valeriana officinalis L.",
+          "plant_part": "Racine",
+          "statements_present": {
+            "contraindication": false,
+            "interaction": false,
+            "pregnancy_lactation": true,
+            "paediatric": true
+          }
+        },
+        {
+          "record_id": "anses_valeriana_officinalis_l_huile_essentielle_de_racine",
+          "source_sheet": "Recos EMA synthèse",
+          "source_row": 140,
+          "scientific_name_as_published": "Valeriana officinalis L.",
+          "plant_part": "Huile essentielle de racine",
+          "statements_present": {
+            "contraindication": false,
+            "interaction": false,
+            "pregnancy_lactation": true,
+            "paediatric": true
+          }
+        }
+      ]
+    },
+    {
+      "plant_id": "plant-verbena-officinalis-d4a1fba7f3",
+      "accepted_botanical": "Verbena officinalis",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "419",
+          "name_as_listed": "Verbena officinalis",
+          "most_recent_name": "Verbena officinalis",
+          "ncbi_taxonomy_id": "79772",
+          "molecule_count": 9,
+          "references": [
+            "http://etd.aau.edu.et/handle/123456789/488",
+            "10.1016/S0305-1978(99)00114-3"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-vitellaria-paradoxa-de73616dac",
+      "accepted_botanical": "Vitellaria paradoxa",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "1250",
+          "name_as_listed": "Vitellaria paradoxa",
+          "most_recent_name": "Vitellaria paradoxa",
+          "ncbi_taxonomy_id": "292385",
+          "molecule_count": 5,
+          "references": [
+            "10.1016/j.jep.2015.08.014"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-xylopia-aethiopica-d5773119a0",
+      "accepted_botanical": "Xylopia aethiopica",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "945",
+          "name_as_listed": "Xylopia aethiopica",
+          "most_recent_name": "Xylopia aethiopica",
+          "ncbi_taxonomy_id": "1317910",
+          "molecule_count": 3,
+          "references": [
+            "10.1021/np970172i",
+            "10.1080/14786419.2021.1876045"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-zanthoxylum-gilletii-3749a9eb45",
+      "accepted_botanical": "Zanthoxylum gilletii",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "912",
+          "name_as_listed": "Zanthoxylum gilletii",
+          "most_recent_name": "Zanthoxylum gilletii",
+          "ncbi_taxonomy_id": "1291627",
+          "molecule_count": 8,
+          "references": [
+            "10.1055/s-2006-960985",
+            "https://www.investchempharma.com/cytotoxicity-of-lupeol-from-the-stem-bark-of-zanthoxylum-gilletii-against-multi-factorial-drug-resistant-cancer-cell-lines-2/"
+          ]
+        },
+        {
+          "species_id": "1229",
+          "name_as_listed": "Fagara tessmannii",
+          "most_recent_name": "Zanthoxylum gilletii",
+          "ncbi_taxonomy_id": "1291627",
+          "molecule_count": 2,
+          "references": [
+            "10.1016/j.bmcl.2015.12.028"
+          ]
+        },
+        {
+          "species_id": "1235",
+          "name_as_listed": "Zanthoxylum tessmannii",
+          "most_recent_name": "Zanthoxylum gilletii",
+          "ncbi_taxonomy_id": "1291627",
+          "molecule_count": 6,
+          "references": [
+            "10.1002/cbdv.201800590"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-zanthoxylum-zanthoxyloides-35bfd45a11",
+      "accepted_botanical": "Zanthoxylum zanthoxyloides",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "1305",
+          "name_as_listed": "Zanthoxylum zanthoxyloides",
+          "most_recent_name": "Zanthoxylum zanthoxyloides",
+          "ncbi_taxonomy_id": "2099548",
+          "molecule_count": 1,
+          "references": [
+            "10.5530/pc.2020.1.8"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-zapoteca-portoricensis-a5489693a1",
+      "accepted_botanical": "Zapoteca portoricensis",
+      "in_runtime_index": false,
+      "anpdb": [
+        {
+          "species_id": "1743",
+          "name_as_listed": "Calliandra portoricensis",
+          "most_recent_name": "Zapoteca portoricensis",
+          "ncbi_taxonomy_id": "1465380",
+          "molecule_count": 1,
+          "references": [
+            "10.3389/fchem.2020.574103"
+          ]
+        },
+        {
+          "species_id": "1746",
+          "name_as_listed": "Zapoteca portoricensis",
+          "most_recent_name": null,
+          "ncbi_taxonomy_id": null,
+          "molecule_count": 2,
+          "references": [
+            "10.3390/molecules19055470"
+          ]
+        }
+      ],
+      "anses": []
+    },
+    {
+      "plant_id": "plant-zingiber-officinale-8932efc2ae",
+      "accepted_botanical": "Zingiber officinale",
+      "in_runtime_index": true,
+      "anpdb": [],
+      "anses": [
+        {
+          "record_id": "anses_zingiber_officinale_roscoe_rhizome",
+          "source_sheet": "Recos EMA synthèse",
+          "source_row": 145,
+          "scientific_name_as_published": "Zingiber officinale Roscoe",
+          "plant_part": "Rhizome",
+          "statements_present": {
+            "contraindication": false,
+            "interaction": false,
+            "pregnancy_lactation": true,
+            "paediatric": true
+          }
+        }
+      ]
+    },
+    {
+      "plant_id": "plant-ziziphus-jujuba-f3488140f0",
+      "accepted_botanical": "Ziziphus jujuba",
+      "in_runtime_index": true,
+      "anpdb": [
+        {
+          "species_id": "1576",
+          "name_as_listed": "Ziziphus jujuba",
+          "most_recent_name": "Ziziphus jujuba",
+          "ncbi_taxonomy_id": "326968",
+          "molecule_count": 2,
+          "references": [
+            "10.1016/j.sajb.2021.08.017"
+          ]
+        }
+      ],
+      "anses": []
+    }
+  ]
+}

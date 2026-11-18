@@ -151,6 +151,18 @@ With `--queue`, new candidates join the gitignored review queue below every name
 
 One caveat the candidate rows carry themselves. Normalisation folds diacritics by decomposing them, which works for ẹ, ọ, ụ and ì and does nothing for ɓ, ɗ, ƴ and ŋ — those are distinct letters with no decomposition. A Fulfulde name such as *Ɓowre* will therefore only match a practitioner who types the hook letter. Rows say so in `ascii_after_normalisation`; folding them would mean changing the shared normaliser and rewriting the committed runtime index.
 
+## Evidence references
+
+`evidence-reference-overlap.json` (`npm run plants:evidence-refs`) is not about names at all. It points each taxon already in `plants.json` at two `reference_only` sources for formulation evidence work: the African Natural Products Database (phytochemistry, CC BY-NC 4.0) and ANSES Opinion 2019-SA-0155 (European regulatory safety wording for herbal supplements, derived from EMA monographs). Neither records a Nigerian local name, so the build ignores both and neither can produce a mapping.
+
+What it keeps is deliberately thin. From ANPDB: species id, the names it lists, NCBI id, compound count and reference links, not its uncited `species_known_use` prose. From ANSES: which rows exist for a taxon and which kinds of statement each makes, not the French statements themselves. ANSES serves its workbook behind a bot challenge, so rows are located through a pinned third-party extraction and the workbook checksum is recorded as unverified; an analyst reads the statement from the workbook. Matching is exact on the binomial and does not follow GBIF synonyms, so the counts are a lower bound. None of this is a safety or efficacy conclusion, and it must not become practitioner- or patient-facing interaction advice.
+
+```sh
+npm run plants:evidence-refs                     # fetch the pinned inputs and write the overlap
+node scripts/stage-evidence-references.js --dry-run
+node scripts/stage-evidence-references.js --anpdb species.csv --anses plants.jsonl  # local copies
+```
+
 ## Contested names
 
 A name reported for more than one taxon is exported with `botanical: null`. The build does not choose between sources, and that rule is what keeps a guess out of the index — but for a long time it was also the end of the matter. Forty-five names sat there with nothing able to move them, including `uziza`, where three sources say *Piper guineense* and one row of a fourth says liquorice.

@@ -47,6 +47,7 @@
     "plants:legacy-taxonomy": "node scripts/resolve-legacy-taxonomy.js",
     "plants:discover": "node scripts/discover-sources.js",
     "plants:wikidata": "node scripts/import-wikidata-vernaculars.js",
+    "plants:evidence-refs": "node scripts/stage-evidence-references.js",
     "whisper:server": "whisper-server --host 127.0.0.1 --port 8080 -m models/ggml-large-v3.bin --convert --inference-path /v1/audio/transcriptions",
     "plants:resolver": "node \"sanko-landing page/scripts/build-resolver.mjs\"",
     "privacy:build": "node \"sanko-landing page/scripts/build-privacy.mjs\"",

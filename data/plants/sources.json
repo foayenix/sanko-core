@@ -508,5 +508,48 @@
     "checked_at": "2026-09-13",
     "extraction_method": "transcribed from page scans in two passes (the species table, then the plant-part column); the PDF has no text layer and no OCR was used",
     "notes": "188 species from 460 households across every local government area of Rivers State, and the largest South-South source in the index. Local names are printed with the language in brackets, in the four languages the paper names: Ikwerre (83 names), Kalabari (38), Ekpeye (31) and Ogoni (32). Ikwerre, Kalabari and Ekpeye map onto ISO 639-3 as ikw, ijn and ekp. Ogoni does not: it names a cluster - Khana, Gokana, Eleme, Baan, Tee - so those rows keep the published label in language_as_published and carry no language code, rather than this file choosing one the paper does not state. Four rows print no language at all, and one repeats the botanical name in the local-name column ('Aloe vera') and so yields no mapping. Two pairs of specimens share a merged cell (PNM 24/25 and 44/45) and are paired in the printed order; all four are flagged. The article is a scan with no text layer, so Table 1 was transcribed from the page images and the transcription is committed at surveys/transcriptions/ as the form this repository rebuilds from. Botanical names are checked by GBIF downstream, where a misreading surfaces as an unresolved name; a misreading in a local name cannot be checked by anything, which is the cost of using a scan. The plant-part column was transcribed in a second pass and parsed against a vocabulary of part terms; all 188 cells parse with no leftover text. Ingested on the same terms as sonibare-2008-anti-asthmatic and olatokunbo-2022-bayelsa: freely readable, reuse terms unstated, only the published name mappings used."
+  },
+  {
+    "id": "anpdb-african-natural-products",
+    "type": "natural_products_database",
+    "title": "African Natural Products Database (ANPDB)",
+    "url": "https://phabidb.vm.uni-freiburg.de/anpdb/",
+    "doi": "10.1093/nar/gkaf1186",
+    "citation": "Betow JY et al. African Natural Products Database (ANPDB): a resource for exploring the therapeutic potential of natural compounds from Africa. Nucleic Acids Research 2026;54(D1):D1336-D1344.",
+    "location": {
+      "country": null,
+      "state": null,
+      "localities": [
+        "Africa"
+      ]
+    },
+    "languages": [],
+    "licence": "CC BY-NC 4.0; commercial use requires a separate licence from the maintainers (University of Freiburg), whose contact on the licence page is an unfilled placeholder",
+    "publication_status": "active",
+    "ingestion_status": "reference_only",
+    "checked_at": "2026-11-18",
+    "notes": "Compound-level phytochemistry for African species (1,882 species, 11,448 compounds at retrieval), with literature links. Retained as a starting point for the chemistry section of formulation evidence work, never as vernacular evidence: it records no Nigerian local names and has no country field. scripts/stage-evidence-references.js writes surveys/discovery/evidence-reference-overlap.json, which keeps species ids, NCBI ids, compound counts and reference links for taxa already in the index, and omits the uncited species_known_use prose. Evidence reports should cite the primary papers ANPDB links to. ANPDB publishes no version number, so the overlap file records retrieval date and checksum; redistribution must state both."
+  },
+  {
+    "id": "anses-2019-sa-0155-herbal-supplements",
+    "type": "regulatory_assessment",
+    "title": "ANSES Opinion 2019-SA-0155: relevance of applying the warnings and recommendations in EMA herbal monographs to herbal food supplements containing the same plants",
+    "publisher": "Agence nationale de sécurité sanitaire de l'alimentation, de l'environnement et du travail (ANSES)",
+    "publication_year": 2023,
+    "url": "https://www.anses.fr/en/content/improving-consumer-information-herbal-food-supplements",
+    "doi": null,
+    "location": {
+      "country": "France",
+      "state": null,
+      "localities": []
+    },
+    "languages": [
+      "fr"
+    ],
+    "licence": "French public-sector information; reuse terms not confirmed (the ANSES site blocked automated access). The Vitagram extraction states attribution to ANSES and EMA, integrity, the 2023-06-08 date and a no-endorsement disclaimer as conditions",
+    "publication_status": "active",
+    "ingestion_status": "reference_only",
+    "checked_at": "2026-11-18",
+    "notes": "Regulatory safety guidance (contraindications, interactions, pregnancy/lactation and paediatric restrictions) derived from EMA herbal monographs for 136 plant-part rows. It is European regulatory wording for food supplements, not clinical outcome evidence and not specific to Nigerian preparations. Retained for the safety section of formulation evidence work only; it must not drive practitioner- or patient-facing interaction advice. The workbook sits behind a bot challenge, so rows are located through the Vitagram extraction pinned to commit f83a13c00878fed89cc9c36dc42ab0333eeaf2c5; the workbook checksum it reports (d50d2741...) is unverified here. Download the workbook in a browser, verify that checksum, and read statements from it, not from the extraction. Only 4 index taxa carry an interaction statement."
   }
 ]
