@@ -87,7 +87,7 @@ can consume layer 1 without translation.
 | `entry_id` | Stable id |
 | `taxon_id` | `plants.json` id |
 | `botanical_name_as_published` | Exactly as printed; never rewritten |
-| `name_resolution` | `exact`, `synonym`, `curated_correction`, `unresolved` (unresolved entries are not public) |
+| `name_resolution` | `exact`, `synonym`, `curated_correction`, `unresolved`, `pending` (name not in the title; a reviewer must record it). Unresolved and pending entries are not public |
 | `study_id` | Stable id shared across taxa (one study can cover many plants) |
 | `doi`, `pmid`, `pmcid` | Any available identifiers |
 | `title`, `authors`, `year`, `journal` | Bibliographic facts |
@@ -99,10 +99,10 @@ can consume layer 1 without translation.
 | `model` | Cell line, animal species, or human population descriptor, or `not_reported` |
 | `area_studied` | Controlled vocabulary of body systems/outcome areas (e.g. `metabolic`, `infection`, `hepatic_safety`); labelled "studied for", never "used for" |
 | `is_safety_study` | Toxicity, adverse effect or interaction focus |
-| `voucher_reported` | `yes`, `no`, `not_stated` — whether a voucher specimen backs the identity |
+| `voucher_reported` | `yes`, `no`, `not_stated` — whether a voucher specimen backs the identity; null until a reviewer answers |
 | `collection_country`, `study_country` | ISO 3166 codes or `not_reported` |
 | `full_text_link` | Publisher, PMC or Europe PMC link; never a Sanko-hosted copy |
-| `classified_by` | `model`, `human` |
+| `classified_by` | `automated`, `human` (automated covers rules or a model) |
 | `verified_by`, `verified_at` | Pseudonymous reviewer id and date; null until human-verified |
 | `indexed_at`, `last_status_check_at` | Dates |
 
@@ -132,7 +132,7 @@ ratings, ranking plants by study count, advertising, product links, and any
 practitioner, Vault or Sanko-user signal (e.g. "popular with practitioners").
 
 Retracted studies remain listed, struck through with the retraction notice. Preprints
-are labelled. Model-classified entries are counted in a separate "not yet verified"
+are labelled. Automatically classified entries are counted in a separate "not yet verified"
 bucket and excluded from the study-type breakdown until a human verifies them.
 
 Pages may be indexed by search engines. Titles are bibliographic
@@ -149,9 +149,9 @@ Pages may be indexed by search engines. Titles are bibliographic
 3. **Screening.** Include/exclude with a reason code (`wrong_taxon`,
    `no_original_data`, `name_only_mention`, `duplicate`, `not_retrievable`).
    Exclusions are kept, not deleted.
-4. **Classification.** Model-assisted classification of `evidence_kind`, `model`,
+4. **Classification.** Automated classification of `evidence_kind`, `model`,
    `plant_part`, `area_studied` and `is_safety_study` from title and metadata is
-   allowed, marked `classified_by: model`. A human verifies against the
+   allowed, marked `classified_by: automated`. A human verifies against the
    source before the entry enters public counts.
 5. **Status monitoring.** Monthly check of `source_status` against Crossref
    update metadata and the Retraction Watch data, recorded in
@@ -165,10 +165,9 @@ Following the plant-data pattern ("plant data must reproduce from committed
 sources"):
 
 - `data/literature/studies.json` — one record per study.
-- `data/literature/index_entries.json` — taxon ↔ study links and classifications.
+- `data/literature/index_entries.json` — taxon ↔ study links with automated screening and classification.
 - `data/literature/searches.json` — executed queries and outcomes.
-- `data/literature/screening.json` — include/exclude decisions with reasons.
-- `data/literature/verifications.json` — human verification events.
+- `data/literature/verifications.json` — append-only human verification events (include/exclude with reason, corrected fields).
 - `data/literature/README.md` — rules, as `data/plants/README.md` does for names.
 
 Bibliographic metadata is factual and may be committed. Downloaded PDFs or
@@ -308,7 +307,7 @@ script and its output are committed so the choice is auditable.
 | Phase | Scope | Exit criteria |
 | --- | --- | --- |
 | A. Index tooling | Schema, discovery per taxon, screening, classification, build, separation test | Acceptance criteria 5.8 on the 20 pilot taxa, all human-verified |
-| B. Index coverage | All 472 `taxonomy_checked` taxa; model-classified entries allowed with verification queue | Public site live with the 20 verified taxa; others shown with "not yet verified" counts |
+| B. Index coverage | All 472 `taxonomy_checked` taxa; automatically classified entries counted as awaiting verification | Public site live with the 20 verified taxa; others shown with "not yet verified" counts |
 | C. Profiles | 20 profiles through analyst → clinical + scientific (+ botanical) sign-off | Measured outcomes in 7.3 recorded per profile |
 
 B and C run in parallel once A exits.
@@ -339,18 +338,19 @@ founder decision covering audience, legal review per market and correction polic
 | Atlas name and domain (separate from the landing site or a subpath) | Phase B launch |
 | Reviewer fee schedule and contract form | Phase C |
 | Accepted credential list for `atlas_reader` | Phase C release |
-| Whether model-classified entries appear publicly at all, or only verified ones | Phase B launch (spec default: shown separately as "not yet verified") |
+| Whether automatically classified entries appear publicly at all, or only verified ones | Phase B launch (spec default: shown separately as "not yet verified") |
 | Whether plants outside the Nigerian survey taxonomy are added | After pilot |
 | Per-profile DOI deposit (e.g. Zenodo) for citability | After first releases — this is publication and needs its own decision |
 
 ## 10. Engineering plan
 
 - `data/literature/` and its README (5.5).
-- `scripts/discover-sources.js`: per-taxon mode; `npm run literature:discover`.
-- `scripts/build-literature-index.js`: validate, dedupe, build public dataset;
-  `npm run literature:build`.
-- `scripts/check-literature-status.js`: retraction/correction monitoring.
-- `scripts/select-atlas-pilot.js`: section 7.1 scoring, committed output.
+- `scripts/literature-discover.js`: per-taxon counts and retrieval (a separate script rather than a mode of `discover-sources.js`, so the Atlas import graph stays isolated); `npm run literature:discover`. **Built (Phase A).**
+- `scripts/literature-select-pilot.js`: section 7.1 scoring, committed output; `npm run literature:select-pilot`. **Built.**
+- `scripts/literature-review.js`: reviewer spreadsheet queue and verification import; `npm run literature:review`. **Built.**
+- `scripts/literature-build.js`: validate and build the public site and dataset; `npm run literature:build`, `npm run literature:check`. **Built.**
+- `src/literature/`: vocabularies, classification, records, store/validation, site rendering. **Built.**
+- `scripts/check-literature-status.js`: monthly retraction/correction monitoring. Not built.
 - Static site package (location decided with the domain); separation and
   prohibited-phrase tests on generated output.
 - Evidence workflow: `atlas_profile` request type without owner/snapshot, profile

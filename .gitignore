@@ -69,3 +69,9 @@ logs/
 
 # Vercel
 .vercel
+
+# Plant literature index: generated site output, and reviewers' working
+# spreadsheets. Decisions are committed only once imported into
+# data/literature/verifications.json by `npm run literature:review -- verify`.
+build/
+data/literature/review/
