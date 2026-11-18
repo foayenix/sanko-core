@@ -43,7 +43,22 @@
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
-    "export_eligible": true
+    "export_eligible": true,
+    "language_inference": {
+      "language": "yo",
+      "basis": "same name for the same accepted species, labelled in other surveys",
+      "strength": "single_source",
+      "supporting": [
+        {
+          "source_id": "olanipekun-2022-lagos",
+          "source_locator": {
+            "table": "Supplementary Table S1",
+            "row": 132
+          },
+          "language": "yo"
+        }
+      ]
+    }
   },
   {
     "id": "name-abafe-66e17af309",
@@ -199,7 +214,24 @@
     "source_locator": null,
     "verification_status": "legacy_unverified",
     "reviewed_by": null,
-    "export_eligible": true
+    "export_eligible": true,
+    "language_inference": {
+      "language": null,
+      "reason": "not a language this survey says it recorded",
+      "candidates": [
+        "yo"
+      ],
+      "supporting": [
+        {
+          "source_id": "olanipekun-2022-lagos",
+          "source_locator": {
+            "table": "Supplementary Table S1",
+            "row": 31
+          },
+          "language": "yo"
+        }
+      ]
+    }
   },
   {
     "id": "name-abamoda-c37a98e73d",
@@ -1225,7 +1257,41 @@
     "source_locator": null,
     "verification_status": "legacy_unverified",
     "reviewed_by": null,
-    "export_eligible": true
+    "export_eligible": true,
+    "language_inference": {
+      "language": null,
+      "reason": "other surveys label this name for this species in different languages",
+      "candidates": [
+        "ig",
+        "yo"
+      ],
+      "supporting": [
+        {
+          "source_id": "lawal-2020-ede-south",
+          "source_locator": {
+            "table": "Table 2",
+            "row": 23
+          },
+          "language": "yo"
+        },
+        {
+          "source_id": "sonibare-2008-anti-asthmatic",
+          "source_locator": {
+            "table": "Table 1",
+            "row": 13
+          },
+          "language": "yo"
+        },
+        {
+          "source_id": "weli-2013-port-harcourt",
+          "source_locator": {
+            "table": "Table 1",
+            "row": 6
+          },
+          "language": "ig"
+        }
+      ]
+    }
   },
   {
     "id": "name-agbalumo-121cd707e3",
@@ -1390,7 +1456,38 @@
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
-    "export_eligible": true
+    "export_eligible": true,
+    "language_inference": {
+      "language": "yo",
+      "basis": "same name for the same accepted species, labelled in other surveys",
+      "strength": "multiple_sources",
+      "supporting": [
+        {
+          "source_id": "lawal-2020-ede-south",
+          "source_locator": {
+            "table": "Table 2",
+            "row": 27
+          },
+          "language": "yo"
+        },
+        {
+          "source_id": "sonibare-2008-anti-asthmatic",
+          "source_locator": {
+            "table": "Table 1",
+            "row": 14
+          },
+          "language": "yo"
+        },
+        {
+          "source_id": "weli-2013-port-harcourt",
+          "source_locator": {
+            "table": "Table 1",
+            "row": 24
+          },
+          "language": "yo"
+        }
+      ]
+    }
   },
   {
     "id": "name-agbon-8b1af6f964",
@@ -1433,7 +1530,40 @@
     "source_locator": null,
     "verification_status": "legacy_unverified",
     "reviewed_by": null,
-    "export_eligible": true
+    "export_eligible": true,
+    "language_inference": {
+      "language": null,
+      "reason": "not a language this survey says it recorded",
+      "candidates": [
+        "yo"
+      ],
+      "supporting": [
+        {
+          "source_id": "lawal-2020-ede-south",
+          "source_locator": {
+            "table": "Table 2",
+            "row": 27
+          },
+          "language": "yo"
+        },
+        {
+          "source_id": "sonibare-2008-anti-asthmatic",
+          "source_locator": {
+            "table": "Table 1",
+            "row": 14
+          },
+          "language": "yo"
+        },
+        {
+          "source_id": "weli-2013-port-harcourt",
+          "source_locator": {
+            "table": "Table 1",
+            "row": 24
+          },
+          "language": "yo"
+        }
+      ]
+    }
   },
   {
     "id": "name-agbon-bd9c1071c9",
@@ -1881,7 +2011,22 @@
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
-    "export_eligible": true
+    "export_eligible": true,
+    "language_inference": {
+      "language": "yo",
+      "basis": "same name for the same accepted species, labelled in other surveys",
+      "strength": "single_source",
+      "supporting": [
+        {
+          "source_id": "weli-2013-port-harcourt",
+          "source_locator": {
+            "table": "Table 1",
+            "row": 26
+          },
+          "language": "yo"
+        }
+      ]
+    }
   },
   {
     "id": "name-ahon-ekun-87e089536b",
@@ -1987,7 +2132,30 @@
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
-    "export_eligible": true
+    "export_eligible": true,
+    "language_inference": {
+      "language": "yo",
+      "basis": "same name for the same accepted species, labelled in other surveys",
+      "strength": "multiple_sources",
+      "supporting": [
+        {
+          "source_id": "anyanwu-2025-north-central",
+          "source_locator": {
+            "table": "Table 2",
+            "row": 6
+          },
+          "language": "yo"
+        },
+        {
+          "source_id": "lawal-2020-ede-south",
+          "source_locator": {
+            "table": "Table 2",
+            "row": 6
+          },
+          "language": "yo"
+        }
+      ]
+    }
   },
   {
     "id": "name-ahun-5c8cf0bfbc",
@@ -2030,7 +2198,32 @@
     "source_locator": null,
     "verification_status": "legacy_unverified",
     "reviewed_by": null,
-    "export_eligible": true
+    "export_eligible": true,
+    "language_inference": {
+      "language": null,
+      "reason": "not a language this survey says it recorded",
+      "candidates": [
+        "yo"
+      ],
+      "supporting": [
+        {
+          "source_id": "anyanwu-2025-north-central",
+          "source_locator": {
+            "table": "Table 2",
+            "row": 6
+          },
+          "language": "yo"
+        },
+        {
+          "source_id": "lawal-2020-ede-south",
+          "source_locator": {
+            "table": "Table 2",
+            "row": 6
+          },
+          "language": "yo"
+        }
+      ]
+    }
   },
   {
     "id": "name-aidan-88e7a738b8",
@@ -2052,7 +2245,22 @@
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
-    "export_eligible": true
+    "export_eligible": true,
+    "language_inference": {
+      "language": "yo",
+      "basis": "same name for the same accepted species, labelled in other surveys",
+      "strength": "single_source",
+      "supporting": [
+        {
+          "source_id": "sonibare-2008-anti-asthmatic",
+          "source_locator": {
+            "table": "Table 1",
+            "row": 42
+          },
+          "language": "yo"
+        }
+      ]
+    }
   },
   {
     "id": "name-aidan-c4133fbccb",
@@ -3108,7 +3316,32 @@
     "source_locator": null,
     "verification_status": "legacy_unverified",
     "reviewed_by": null,
-    "export_eligible": true
+    "export_eligible": true,
+    "language_inference": {
+      "language": null,
+      "reason": "not a language this survey says it recorded",
+      "candidates": [
+        "yo"
+      ],
+      "supporting": [
+        {
+          "source_id": "olanipekun-2022-lagos",
+          "source_locator": {
+            "table": "Supplementary Table S1",
+            "row": 121
+          },
+          "language": "yo"
+        },
+        {
+          "source_id": "weli-2013-port-harcourt",
+          "source_locator": {
+            "table": "Table 1",
+            "row": 28
+          },
+          "language": "yo"
+        }
+      ]
+    }
   },
   {
     "id": "name-akoko-8d3df0dcb0",
@@ -3396,7 +3629,24 @@
     "source_locator": null,
     "verification_status": "legacy_unverified",
     "reviewed_by": null,
-    "export_eligible": true
+    "export_eligible": true,
+    "language_inference": {
+      "language": null,
+      "reason": "not a language this survey says it recorded",
+      "candidates": [
+        "ha"
+      ],
+      "supporting": [
+        {
+          "source_id": "anyanwu-2025-north-central",
+          "source_locator": {
+            "table": "Table 2",
+            "row": 3
+          },
+          "language": "ha"
+        }
+      ]
+    }
   },
   {
     "id": "name-albasa-badejo-b1fa526ff0",
@@ -3568,7 +3818,24 @@
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
-    "export_eligible": true
+    "export_eligible": true,
+    "language_inference": {
+      "language": null,
+      "reason": "not a language this survey says it recorded",
+      "candidates": [
+        "ig"
+      ],
+      "supporting": [
+        {
+          "source_id": "weli-2013-port-harcourt",
+          "source_locator": {
+            "table": "Table 1",
+            "row": 32
+          },
+          "language": "ig"
+        }
+      ]
+    }
   },
   {
     "id": "name-alo-ose-327c1ab5aa",
@@ -3678,7 +3945,24 @@
     "source_locator": null,
     "verification_status": "legacy_unverified",
     "reviewed_by": null,
-    "export_eligible": true
+    "export_eligible": true,
+    "language_inference": {
+      "language": null,
+      "reason": "not a language this survey says it recorded",
+      "candidates": [
+        "yo"
+      ],
+      "supporting": [
+        {
+          "source_id": "weli-2013-port-harcourt",
+          "source_locator": {
+            "table": "Table 1",
+            "row": 45
+          },
+          "language": "yo"
+        }
+      ]
+    }
   },
   {
     "id": "name-alubosa-786a00195e",
@@ -4758,7 +5042,22 @@
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
-    "export_eligible": true
+    "export_eligible": true,
+    "language_inference": {
+      "language": "yo",
+      "basis": "same name for the same accepted species, labelled in other surveys",
+      "strength": "single_source",
+      "supporting": [
+        {
+          "source_id": "lawal-2020-ede-south",
+          "source_locator": {
+            "table": "Table 2",
+            "row": 82
+          },
+          "language": "yo"
+        }
+      ]
+    }
   },
   {
     "id": "name-aridan-39a5f16e8c",
@@ -4801,7 +5100,24 @@
     "source_locator": null,
     "verification_status": "legacy_unverified",
     "reviewed_by": null,
-    "export_eligible": true
+    "export_eligible": true,
+    "language_inference": {
+      "language": null,
+      "reason": "not a language this survey says it recorded",
+      "candidates": [
+        "yo"
+      ],
+      "supporting": [
+        {
+          "source_id": "lawal-2020-ede-south",
+          "source_locator": {
+            "table": "Table 2",
+            "row": 82
+          },
+          "language": "yo"
+        }
+      ]
+    }
   },
   {
     "id": "name-arilu-4613f75f8c",
@@ -5106,7 +5422,24 @@
     "source_locator": null,
     "verification_status": "legacy_unverified",
     "reviewed_by": null,
-    "export_eligible": true
+    "export_eligible": true,
+    "language_inference": {
+      "language": null,
+      "reason": "not a language this survey says it recorded",
+      "candidates": [
+        "yo"
+      ],
+      "supporting": [
+        {
+          "source_id": "lawal-2020-ede-south",
+          "source_locator": {
+            "table": "Table 2",
+            "row": 69
+          },
+          "language": "yo"
+        }
+      ]
+    }
   },
   {
     "id": "name-asatie-178106f4b3",
@@ -5225,7 +5558,24 @@
     "source_locator": null,
     "verification_status": "legacy_unverified",
     "reviewed_by": null,
-    "export_eligible": true
+    "export_eligible": true,
+    "language_inference": {
+      "language": null,
+      "reason": "not a language this survey says it recorded",
+      "candidates": [
+        "yo"
+      ],
+      "supporting": [
+        {
+          "source_id": "olanipekun-2022-lagos",
+          "source_locator": {
+            "table": "Supplementary Table S1",
+            "row": 138
+          },
+          "language": "yo"
+        }
+      ]
+    }
   },
   {
     "id": "name-asofeyeje-28983a263a",
@@ -5420,7 +5770,33 @@
     "source_locator": null,
     "verification_status": "legacy_unverified",
     "reviewed_by": null,
-    "export_eligible": true
+    "export_eligible": true,
+    "language_inference": {
+      "language": null,
+      "reason": "other surveys label this name for this species in different languages",
+      "candidates": [
+        "ha",
+        "yo"
+      ],
+      "supporting": [
+        {
+          "source_id": "anyanwu-2025-north-central",
+          "source_locator": {
+            "table": "Table 2",
+            "row": 69
+          },
+          "language": "yo"
+        },
+        {
+          "source_id": "weli-2013-port-harcourt",
+          "source_locator": {
+            "table": "Table 1",
+            "row": 1
+          },
+          "language": "ha"
+        }
+      ]
+    }
   },
   {
     "id": "name-ata-ile-583b489ba6",
@@ -5581,7 +5957,22 @@
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
-    "export_eligible": true
+    "export_eligible": true,
+    "language_inference": {
+      "language": "yo",
+      "basis": "same name for the same accepted species, labelled in other surveys",
+      "strength": "single_source",
+      "supporting": [
+        {
+          "source_id": "sonibare-2008-anti-asthmatic",
+          "source_locator": {
+            "table": "Table 1",
+            "row": 46
+          },
+          "language": "yo"
+        }
+      ]
+    }
   },
   {
     "id": "name-ataile-2a693a78ed",
@@ -5648,7 +6039,24 @@
     "source_locator": null,
     "verification_status": "legacy_unverified",
     "reviewed_by": null,
-    "export_eligible": true
+    "export_eligible": true,
+    "language_inference": {
+      "language": null,
+      "reason": "not a language this survey says it recorded",
+      "candidates": [
+        "yo"
+      ],
+      "supporting": [
+        {
+          "source_id": "olanipekun-2022-lagos",
+          "source_locator": {
+            "table": "Supplementary Table S1",
+            "row": 183
+          },
+          "language": "yo"
+        }
+      ]
+    }
   },
   {
     "id": "name-atale-2f8f15f73a",
@@ -5742,7 +6150,24 @@
     "source_locator": null,
     "verification_status": "legacy_unverified",
     "reviewed_by": null,
-    "export_eligible": true
+    "export_eligible": true,
+    "language_inference": {
+      "language": null,
+      "reason": "not a language this survey says it recorded",
+      "candidates": [
+        "yo"
+      ],
+      "supporting": [
+        {
+          "source_id": "sonibare-2008-anti-asthmatic",
+          "source_locator": {
+            "table": "Table 1",
+            "row": 3
+          },
+          "language": "yo"
+        }
+      ]
+    }
   },
   {
     "id": "name-atare-6f16a4b4c0",
@@ -6139,7 +6564,24 @@
     "source_locator": null,
     "verification_status": "legacy_unverified",
     "reviewed_by": null,
-    "export_eligible": true
+    "export_eligible": true,
+    "language_inference": {
+      "language": null,
+      "reason": "not a language this survey says it recorded",
+      "candidates": [
+        "yo"
+      ],
+      "supporting": [
+        {
+          "source_id": "weli-2013-port-harcourt",
+          "source_locator": {
+            "table": "Table 1",
+            "row": 36
+          },
+          "language": "yo"
+        }
+      ]
+    }
   },
   {
     "id": "name-awin-483ca2a835",
@@ -6209,7 +6651,22 @@
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
-    "export_eligible": true
+    "export_eligible": true,
+    "language_inference": {
+      "language": "yo",
+      "basis": "same name for the same accepted species, labelled in other surveys",
+      "strength": "single_source",
+      "supporting": [
+        {
+          "source_id": "lawal-2020-ede-south",
+          "source_locator": {
+            "table": "Table 2",
+            "row": 10
+          },
+          "language": "yo"
+        }
+      ]
+    }
   },
   {
     "id": "name-awopa-c59355d93e",
@@ -6351,7 +6808,32 @@
     "source_locator": null,
     "verification_status": "legacy_unverified",
     "reviewed_by": null,
-    "export_eligible": true
+    "export_eligible": true,
+    "language_inference": {
+      "language": null,
+      "reason": "not a language this survey says it recorded",
+      "candidates": [
+        "yo"
+      ],
+      "supporting": [
+        {
+          "source_id": "lawal-2020-ede-south",
+          "source_locator": {
+            "table": "Table 2",
+            "row": 69
+          },
+          "language": "yo"
+        },
+        {
+          "source_id": "weli-2013-port-harcourt",
+          "source_locator": {
+            "table": "Table 1",
+            "row": 40
+          },
+          "language": "yo"
+        }
+      ]
+    }
   },
   {
     "id": "name-awusa-3c28bdc5fe",
@@ -6533,7 +7015,30 @@
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
-    "export_eligible": true
+    "export_eligible": true,
+    "language_inference": {
+      "language": "yo",
+      "basis": "same name for the same accepted species, labelled in other surveys",
+      "strength": "multiple_sources",
+      "supporting": [
+        {
+          "source_id": "offiah-2011-plateau",
+          "source_locator": {
+            "table": "Table 1",
+            "row": 6
+          },
+          "language": "yo"
+        },
+        {
+          "source_id": "sonibare-2008-anti-asthmatic",
+          "source_locator": {
+            "table": "Table 1",
+            "row": 7
+          },
+          "language": "yo"
+        }
+      ]
+    }
   },
   {
     "id": "name-ayin-e9236f9a0d",
@@ -6755,7 +7260,24 @@
     "source_locator": null,
     "verification_status": "legacy_unverified",
     "reviewed_by": null,
-    "export_eligible": true
+    "export_eligible": true,
+    "language_inference": {
+      "language": null,
+      "reason": "not a language this survey says it recorded",
+      "candidates": [
+        "yo"
+      ],
+      "supporting": [
+        {
+          "source_id": "lawal-2020-ede-south",
+          "source_locator": {
+            "table": "Table 2",
+            "row": 5
+          },
+          "language": "yo"
+        }
+      ]
+    }
   },
   {
     "id": "name-ayunre-e35c6d8662",
@@ -9330,7 +9852,33 @@
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
-    "export_eligible": true
+    "export_eligible": true,
+    "language_inference": {
+      "language": null,
+      "reason": "other surveys label this name for this species in different languages",
+      "candidates": [
+        "ikw",
+        "yo"
+      ],
+      "supporting": [
+        {
+          "source_id": "ajibesin-2012-rivers",
+          "source_locator": {
+            "table": "Table 1",
+            "row": 113
+          },
+          "language": "ikw"
+        },
+        {
+          "source_id": "weli-2013-port-harcourt",
+          "source_locator": {
+            "table": "Table 1",
+            "row": 48
+          },
+          "language": "yo"
+        }
+      ]
+    }
   },
   {
     "id": "name-dongoyaro-c20688a22f",
@@ -9349,7 +9897,33 @@
     "source_locator": null,
     "verification_status": "legacy_unverified",
     "reviewed_by": null,
-    "export_eligible": true
+    "export_eligible": true,
+    "language_inference": {
+      "language": null,
+      "reason": "other surveys label this name for this species in different languages",
+      "candidates": [
+        "ikw",
+        "yo"
+      ],
+      "supporting": [
+        {
+          "source_id": "ajibesin-2012-rivers",
+          "source_locator": {
+            "table": "Table 1",
+            "row": 113
+          },
+          "language": "ikw"
+        },
+        {
+          "source_id": "weli-2013-port-harcourt",
+          "source_locator": {
+            "table": "Table 1",
+            "row": 48
+          },
+          "language": "yo"
+        }
+      ]
+    }
   },
   {
     "id": "name-dongoyaro-6de46081cd",
@@ -10163,7 +10737,24 @@
     "source_locator": null,
     "verification_status": "legacy_unverified",
     "reviewed_by": null,
-    "export_eligible": true
+    "export_eligible": true,
+    "language_inference": {
+      "language": null,
+      "reason": "not a language this survey says it recorded",
+      "candidates": [
+        "yo"
+      ],
+      "supporting": [
+        {
+          "source_id": "lawal-2020-ede-south",
+          "source_locator": {
+            "table": "Table 2",
+            "row": 62
+          },
+          "language": "yo"
+        }
+      ]
+    }
   },
   {
     "id": "name-efinrin-wewe-9c841fabb7",
@@ -10423,7 +11014,30 @@
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
-    "export_eligible": true
+    "export_eligible": true,
+    "language_inference": {
+      "language": "yo",
+      "basis": "same name for the same accepted species, labelled in other surveys",
+      "strength": "multiple_sources",
+      "supporting": [
+        {
+          "source_id": "lawal-2020-ede-south",
+          "source_locator": {
+            "table": "Table 2",
+            "row": 72
+          },
+          "language": "yo"
+        },
+        {
+          "source_id": "olanipekun-2022-lagos",
+          "source_locator": {
+            "table": "Supplementary Table S1",
+            "row": 120
+          },
+          "language": "yo"
+        }
+      ]
+    }
   },
   {
     "id": "name-egbesi-0f05f1128a",
@@ -12524,7 +13138,24 @@
     "source_locator": null,
     "verification_status": "legacy_unverified",
     "reviewed_by": null,
-    "export_eligible": true
+    "export_eligible": true,
+    "language_inference": {
+      "language": null,
+      "reason": "not a language this survey says it recorded",
+      "candidates": [
+        "yo"
+      ],
+      "supporting": [
+        {
+          "source_id": "weli-2013-port-harcourt",
+          "source_locator": {
+            "table": "Table 1",
+            "row": 49
+          },
+          "language": "yo"
+        }
+      ]
+    }
   },
   {
     "id": "name-ewe-ile-db7558ac49",
@@ -13268,7 +13899,46 @@
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
-    "export_eligible": true
+    "export_eligible": true,
+    "language_inference": {
+      "language": "yo",
+      "basis": "same name for the same accepted species, labelled in other surveys",
+      "strength": "multiple_sources",
+      "supporting": [
+        {
+          "source_id": "anyanwu-2025-north-central",
+          "source_locator": {
+            "table": "Table 2",
+            "row": 67
+          },
+          "language": "yo"
+        },
+        {
+          "source_id": "lawal-2020-ede-south",
+          "source_locator": {
+            "table": "Table 2",
+            "row": 85
+          },
+          "language": "yo"
+        },
+        {
+          "source_id": "olanipekun-2022-lagos",
+          "source_locator": {
+            "table": "Supplementary Table S1",
+            "row": 179
+          },
+          "language": "yo"
+        },
+        {
+          "source_id": "weli-2013-port-harcourt",
+          "source_locator": {
+            "table": "Table 1",
+            "row": 21
+          },
+          "language": "yo"
+        }
+      ]
+    }
   },
   {
     "id": "name-ewuro-ef406f0646",
@@ -13311,7 +13981,48 @@
     "source_locator": null,
     "verification_status": "legacy_unverified",
     "reviewed_by": null,
-    "export_eligible": true
+    "export_eligible": true,
+    "language_inference": {
+      "language": null,
+      "reason": "not a language this survey says it recorded",
+      "candidates": [
+        "yo"
+      ],
+      "supporting": [
+        {
+          "source_id": "anyanwu-2025-north-central",
+          "source_locator": {
+            "table": "Table 2",
+            "row": 67
+          },
+          "language": "yo"
+        },
+        {
+          "source_id": "lawal-2020-ede-south",
+          "source_locator": {
+            "table": "Table 2",
+            "row": 85
+          },
+          "language": "yo"
+        },
+        {
+          "source_id": "olanipekun-2022-lagos",
+          "source_locator": {
+            "table": "Supplementary Table S1",
+            "row": 179
+          },
+          "language": "yo"
+        },
+        {
+          "source_id": "weli-2013-port-harcourt",
+          "source_locator": {
+            "table": "Table 1",
+            "row": 21
+          },
+          "language": "yo"
+        }
+      ]
+    }
   },
   {
     "id": "name-ewuro-7fed88d831",
@@ -14525,7 +15236,40 @@
     "source_locator": null,
     "verification_status": "legacy_unverified",
     "reviewed_by": null,
-    "export_eligible": true
+    "export_eligible": true,
+    "language_inference": {
+      "language": null,
+      "reason": "not a language this survey says it recorded",
+      "candidates": [
+        "yo"
+      ],
+      "supporting": [
+        {
+          "source_id": "lawal-2020-ede-south",
+          "source_locator": {
+            "table": "Table 2",
+            "row": 80
+          },
+          "language": "yo"
+        },
+        {
+          "source_id": "weli-2013-port-harcourt",
+          "source_locator": {
+            "table": "Table 1",
+            "row": 14
+          },
+          "language": "yo"
+        },
+        {
+          "source_id": "weli-2013-port-harcourt",
+          "source_locator": {
+            "table": "Table 1",
+            "row": 59
+          },
+          "language": "yo"
+        }
+      ]
+    }
   },
   {
     "id": "name-gbure-dc2b7adcba",
@@ -14619,7 +15363,22 @@
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
-    "export_eligible": true
+    "export_eligible": true,
+    "language_inference": {
+      "language": "yo",
+      "basis": "same name for the same accepted species, labelled in other surveys",
+      "strength": "single_source",
+      "supporting": [
+        {
+          "source_id": "lawal-2020-ede-south",
+          "source_locator": {
+            "table": "Table 2",
+            "row": 70
+          },
+          "language": "yo"
+        }
+      ]
+    }
   },
   {
     "id": "name-gilofa-02e1b69fba",
@@ -15116,7 +15875,22 @@
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
-    "export_eligible": true
+    "export_eligible": true,
+    "language_inference": {
+      "language": "yo",
+      "basis": "same name for the same accepted species, labelled in other surveys",
+      "strength": "single_source",
+      "supporting": [
+        {
+          "source_id": "weli-2013-port-harcourt",
+          "source_locator": {
+            "table": "Table 1",
+            "row": 52
+          },
+          "language": "yo"
+        }
+      ]
+    }
   },
   {
     "id": "name-gurofa-2d0cf2b451",
@@ -15783,7 +16557,38 @@
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
-    "export_eligible": true
+    "export_eligible": true,
+    "language_inference": {
+      "language": "yo",
+      "basis": "same name for the same accepted species, labelled in other surveys",
+      "strength": "multiple_sources",
+      "supporting": [
+        {
+          "source_id": "anyanwu-2025-north-central",
+          "source_locator": {
+            "table": "Table 2",
+            "row": 16
+          },
+          "language": "yo"
+        },
+        {
+          "source_id": "lawal-2020-ede-south",
+          "source_locator": {
+            "table": "Table 2",
+            "row": 20
+          },
+          "language": "yo"
+        },
+        {
+          "source_id": "weli-2013-port-harcourt",
+          "source_locator": {
+            "table": "Table 1",
+            "row": 35
+          },
+          "language": "yo"
+        }
+      ]
+    }
   },
   {
     "id": "name-ibepe-7a9cf9a445",
@@ -15826,7 +16631,40 @@
     "source_locator": null,
     "verification_status": "legacy_unverified",
     "reviewed_by": null,
-    "export_eligible": true
+    "export_eligible": true,
+    "language_inference": {
+      "language": null,
+      "reason": "not a language this survey says it recorded",
+      "candidates": [
+        "yo"
+      ],
+      "supporting": [
+        {
+          "source_id": "anyanwu-2025-north-central",
+          "source_locator": {
+            "table": "Table 2",
+            "row": 16
+          },
+          "language": "yo"
+        },
+        {
+          "source_id": "lawal-2020-ede-south",
+          "source_locator": {
+            "table": "Table 2",
+            "row": 20
+          },
+          "language": "yo"
+        },
+        {
+          "source_id": "weli-2013-port-harcourt",
+          "source_locator": {
+            "table": "Table 1",
+            "row": 35
+          },
+          "language": "yo"
+        }
+      ]
+    }
   },
   {
     "id": "name-ibepe-ba6a1c32eb",
@@ -18196,7 +19034,22 @@
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
-    "export_eligible": true
+    "export_eligible": true,
+    "language_inference": {
+      "language": "yo",
+      "basis": "same name for the same accepted species, labelled in other surveys",
+      "strength": "single_source",
+      "supporting": [
+        {
+          "source_id": "weli-2013-port-harcourt",
+          "source_locator": {
+            "table": "Table 1",
+            "row": 13
+          },
+          "language": "yo"
+        }
+      ]
+    }
   },
   {
     "id": "name-iya-f3a07bd7ea",
@@ -18294,7 +19147,22 @@
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
-    "export_eligible": true
+    "export_eligible": true,
+    "language_inference": {
+      "language": "yo",
+      "basis": "same name for the same accepted species, labelled in other surveys",
+      "strength": "single_source",
+      "supporting": [
+        {
+          "source_id": "lawal-2020-ede-south",
+          "source_locator": {
+            "table": "Table 2",
+            "row": 68
+          },
+          "language": "yo"
+        }
+      ]
+    }
   },
   {
     "id": "name-iyere-58f899cb82",
@@ -18337,7 +19205,24 @@
     "source_locator": null,
     "verification_status": "legacy_unverified",
     "reviewed_by": null,
-    "export_eligible": true
+    "export_eligible": true,
+    "language_inference": {
+      "language": null,
+      "reason": "not a language this survey says it recorded",
+      "candidates": [
+        "yo"
+      ],
+      "supporting": [
+        {
+          "source_id": "lawal-2020-ede-south",
+          "source_locator": {
+            "table": "Table 2",
+            "row": 68
+          },
+          "language": "yo"
+        }
+      ]
+    }
   },
   {
     "id": "name-iyere-dudu-7068acb024",
@@ -18418,7 +19303,40 @@
     "source_locator": null,
     "verification_status": "legacy_unverified",
     "reviewed_by": null,
-    "export_eligible": true
+    "export_eligible": true,
+    "language_inference": {
+      "language": null,
+      "reason": "not a language this survey says it recorded",
+      "candidates": [
+        "yo"
+      ],
+      "supporting": [
+        {
+          "source_id": "lawal-2020-ede-south",
+          "source_locator": {
+            "table": "Table 2",
+            "row": 76
+          },
+          "language": "yo"
+        },
+        {
+          "source_id": "olanipekun-2022-lagos",
+          "source_locator": {
+            "table": "Supplementary Table S1",
+            "row": 160
+          },
+          "language": "yo"
+        },
+        {
+          "source_id": "weli-2013-port-harcourt",
+          "source_locator": {
+            "table": "Table 1",
+            "row": 16
+          },
+          "language": "yo"
+        }
+      ]
+    }
   },
   {
     "id": "name-iyeye-ecb711be86",
@@ -19593,7 +20511,24 @@
     "source_locator": null,
     "verification_status": "legacy_unverified",
     "reviewed_by": null,
-    "export_eligible": true
+    "export_eligible": true,
+    "language_inference": {
+      "language": null,
+      "reason": "not a language this survey says it recorded",
+      "candidates": [
+        "yo"
+      ],
+      "supporting": [
+        {
+          "source_id": "sonibare-2008-anti-asthmatic",
+          "source_locator": {
+            "table": "Table 1",
+            "row": 17
+          },
+          "language": "yo"
+        }
+      ]
+    }
   },
   {
     "id": "name-kanafuru-96aa63317b",
@@ -20108,7 +21043,22 @@
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
-    "export_eligible": true
+    "export_eligible": true,
+    "language_inference": {
+      "language": "yo",
+      "basis": "same name for the same accepted species, labelled in other surveys",
+      "strength": "single_source",
+      "supporting": [
+        {
+          "source_id": "lawal-2020-ede-south",
+          "source_locator": {
+            "table": "Table 2",
+            "row": 8
+          },
+          "language": "yo"
+        }
+      ]
+    }
   },
   {
     "id": "name-kasu-8ad4adce39",
@@ -20326,7 +21276,24 @@
     "source_locator": null,
     "verification_status": "legacy_unverified",
     "reviewed_by": null,
-    "export_eligible": true
+    "export_eligible": true,
+    "language_inference": {
+      "language": null,
+      "reason": "not a language this survey says it recorded",
+      "candidates": [
+        "ha"
+      ],
+      "supporting": [
+        {
+          "source_id": "anyanwu-2025-north-central",
+          "source_locator": {
+            "table": "Table 2",
+            "row": 19
+          },
+          "language": "ha"
+        }
+      ]
+    }
   },
   {
     "id": "name-kiriorugbo-0df0abf2e1",
@@ -20547,7 +21514,22 @@
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
-    "export_eligible": true
+    "export_eligible": true,
+    "language_inference": {
+      "language": "yo",
+      "basis": "same name for the same accepted species, labelled in other surveys",
+      "strength": "single_source",
+      "supporting": [
+        {
+          "source_id": "lawal-2020-ede-south",
+          "source_locator": {
+            "table": "Table 2",
+            "row": 83
+          },
+          "language": "yo"
+        }
+      ]
+    }
   },
   {
     "id": "name-koko-32401eb709",
@@ -21751,7 +22733,33 @@
     "source_locator": null,
     "verification_status": "legacy_unverified",
     "reviewed_by": null,
-    "export_eligible": true
+    "export_eligible": true,
+    "language_inference": {
+      "language": null,
+      "reason": "other surveys label this name for this species in different languages",
+      "candidates": [
+        "ha",
+        "yo"
+      ],
+      "supporting": [
+        {
+          "source_id": "olanipekun-2022-lagos",
+          "source_locator": {
+            "table": "Supplementary Table S1",
+            "row": 99
+          },
+          "language": "yo"
+        },
+        {
+          "source_id": "weli-2013-port-harcourt",
+          "source_locator": {
+            "table": "Table 1",
+            "row": 38
+          },
+          "language": "ha"
+        }
+      ]
+    }
   },
   {
     "id": "name-lapalapa-4201751cac",
@@ -21825,7 +22833,22 @@
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
-    "export_eligible": true
+    "export_eligible": true,
+    "language_inference": {
+      "language": "yo",
+      "basis": "same name for the same accepted species, labelled in other surveys",
+      "strength": "single_source",
+      "supporting": [
+        {
+          "source_id": "lawal-2020-ede-south",
+          "source_locator": {
+            "table": "Table 2",
+            "row": 46
+          },
+          "language": "yo"
+        }
+      ]
+    }
   },
   {
     "id": "name-lapalapa-funfun-3abdd97612",
@@ -23416,7 +24439,30 @@
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
-    "export_eligible": true
+    "export_eligible": true,
+    "language_inference": {
+      "language": "yo",
+      "basis": "same name for the same accepted species, labelled in other surveys",
+      "strength": "multiple_sources",
+      "supporting": [
+        {
+          "source_id": "lawal-2020-ede-south",
+          "source_locator": {
+            "table": "Table 2",
+            "row": 55
+          },
+          "language": "yo"
+        },
+        {
+          "source_id": "olanipekun-2022-lagos",
+          "source_locator": {
+            "table": "Supplementary Table S1",
+            "row": 110
+          },
+          "language": "yo"
+        }
+      ]
+    }
   },
   {
     "id": "name-mongoro-3294c04f6b",
@@ -23846,7 +24892,24 @@
     "source_locator": null,
     "verification_status": "legacy_unverified",
     "reviewed_by": null,
-    "export_eligible": true
+    "export_eligible": true,
+    "language_inference": {
+      "language": null,
+      "reason": "not a language this survey says it recorded",
+      "candidates": [
+        "ig"
+      ],
+      "supporting": [
+        {
+          "source_id": "weli-2013-port-harcourt",
+          "source_locator": {
+            "table": "Table 1",
+            "row": 47
+          },
+          "language": "ig"
+        }
+      ]
+    }
   },
   {
     "id": "name-nchanwu-4e023a137d",
@@ -25588,7 +26651,22 @@
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
-    "export_eligible": true
+    "export_eligible": true,
+    "language_inference": {
+      "language": "yo",
+      "basis": "same name for the same accepted species, labelled in other surveys",
+      "strength": "single_source",
+      "supporting": [
+        {
+          "source_id": "sonibare-2008-anti-asthmatic",
+          "source_locator": {
+            "table": "Table 1",
+            "row": 25
+          },
+          "language": "yo"
+        }
+      ]
+    }
   },
   {
     "id": "name-oganwo-d17d0b7a1c",
@@ -26022,7 +27100,24 @@
     "source_locator": null,
     "verification_status": "legacy_unverified",
     "reviewed_by": null,
-    "export_eligible": true
+    "export_eligible": true,
+    "language_inference": {
+      "language": null,
+      "reason": "not a language this survey says it recorded",
+      "candidates": [
+        "ig"
+      ],
+      "supporting": [
+        {
+          "source_id": "anyanwu-2025-north-central",
+          "source_locator": {
+            "table": "Table 2",
+            "row": 44
+          },
+          "language": "ig"
+        }
+      ]
+    }
   },
   {
     "id": "name-ogbun-8f7a58bab7",
@@ -26092,7 +27187,22 @@
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
-    "export_eligible": true
+    "export_eligible": true,
+    "language_inference": {
+      "language": "yo",
+      "basis": "same name for the same accepted species, labelled in other surveys",
+      "strength": "single_source",
+      "supporting": [
+        {
+          "source_id": "lawal-2020-ede-south",
+          "source_locator": {
+            "table": "Table 2",
+            "row": 60
+          },
+          "language": "yo"
+        }
+      ]
+    }
   },
   {
     "id": "name-ogede-agbagba-a464421bc9",
@@ -27598,7 +28708,24 @@
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
-    "export_eligible": true
+    "export_eligible": true,
+    "language_inference": {
+      "language": null,
+      "reason": "not a language this survey says it recorded",
+      "candidates": [
+        "ig"
+      ],
+      "supporting": [
+        {
+          "source_id": "weli-2013-port-harcourt",
+          "source_locator": {
+            "table": "Table 1",
+            "row": 38
+          },
+          "language": "ig"
+        }
+      ]
+    }
   },
   {
     "id": "name-olulu-idu-1f0c0d7238",
@@ -28144,7 +29271,30 @@
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
-    "export_eligible": true
+    "export_eligible": true,
+    "language_inference": {
+      "language": "yo",
+      "basis": "same name for the same accepted species, labelled in other surveys",
+      "strength": "multiple_sources",
+      "supporting": [
+        {
+          "source_id": "lawal-2020-ede-south",
+          "source_locator": {
+            "table": "Table 2",
+            "row": 9
+          },
+          "language": "yo"
+        },
+        {
+          "source_id": "weli-2013-port-harcourt",
+          "source_locator": {
+            "table": "Table 1",
+            "row": 30
+          },
+          "language": "yo"
+        }
+      ]
+    }
   },
   {
     "id": "name-ope-oyinbo-29613de6bd",
@@ -28432,7 +29582,24 @@
     "source_locator": null,
     "verification_status": "legacy_unverified",
     "reviewed_by": null,
-    "export_eligible": true
+    "export_eligible": true,
+    "language_inference": {
+      "language": null,
+      "reason": "not a language this survey says it recorded",
+      "candidates": [
+        "yo"
+      ],
+      "supporting": [
+        {
+          "source_id": "lawal-2020-ede-south",
+          "source_locator": {
+            "table": "Table 2",
+            "row": 86
+          },
+          "language": "yo"
+        }
+      ]
+    }
   },
   {
     "id": "name-ori-nla-65171e28a6",
@@ -28629,7 +29796,38 @@
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
-    "export_eligible": true
+    "export_eligible": true,
+    "language_inference": {
+      "language": "yo",
+      "basis": "same name for the same accepted species, labelled in other surveys",
+      "strength": "multiple_sources",
+      "supporting": [
+        {
+          "source_id": "anyanwu-2025-north-central",
+          "source_locator": {
+            "table": "Table 2",
+            "row": 37
+          },
+          "language": "yo"
+        },
+        {
+          "source_id": "lawal-2020-ede-south",
+          "source_locator": {
+            "table": "Table 2",
+            "row": 42
+          },
+          "language": "yo"
+        },
+        {
+          "source_id": "sonibare-2008-anti-asthmatic",
+          "source_locator": {
+            "table": "Table 1",
+            "row": 21
+          },
+          "language": "yo"
+        }
+      ]
+    }
   },
   {
     "id": "name-orogbo-1ebda72648",
@@ -28672,7 +29870,40 @@
     "source_locator": null,
     "verification_status": "legacy_unverified",
     "reviewed_by": null,
-    "export_eligible": true
+    "export_eligible": true,
+    "language_inference": {
+      "language": null,
+      "reason": "not a language this survey says it recorded",
+      "candidates": [
+        "yo"
+      ],
+      "supporting": [
+        {
+          "source_id": "anyanwu-2025-north-central",
+          "source_locator": {
+            "table": "Table 2",
+            "row": 37
+          },
+          "language": "yo"
+        },
+        {
+          "source_id": "lawal-2020-ede-south",
+          "source_locator": {
+            "table": "Table 2",
+            "row": 42
+          },
+          "language": "yo"
+        },
+        {
+          "source_id": "sonibare-2008-anti-asthmatic",
+          "source_locator": {
+            "table": "Table 1",
+            "row": 21
+          },
+          "language": "yo"
+        }
+      ]
+    }
   },
   {
     "id": "name-orogbo-3812937f80",
@@ -28939,7 +30170,38 @@
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
-    "export_eligible": true
+    "export_eligible": true,
+    "language_inference": {
+      "language": "yo",
+      "basis": "same name for the same accepted species, labelled in other surveys",
+      "strength": "multiple_sources",
+      "supporting": [
+        {
+          "source_id": "lawal-2020-ede-south",
+          "source_locator": {
+            "table": "Table 2",
+            "row": 58
+          },
+          "language": "yo"
+        },
+        {
+          "source_id": "olanipekun-2022-lagos",
+          "source_locator": {
+            "table": "Supplementary Table S1",
+            "row": 117
+          },
+          "language": "yo"
+        },
+        {
+          "source_id": "weli-2013-port-harcourt",
+          "source_locator": {
+            "table": "Table 1",
+            "row": 12
+          },
+          "language": "yo"
+        }
+      ]
+    }
   },
   {
     "id": "name-oruwo-fd24b4dc4c",
@@ -28982,7 +30244,40 @@
     "source_locator": null,
     "verification_status": "legacy_unverified",
     "reviewed_by": null,
-    "export_eligible": true
+    "export_eligible": true,
+    "language_inference": {
+      "language": null,
+      "reason": "not a language this survey says it recorded",
+      "candidates": [
+        "yo"
+      ],
+      "supporting": [
+        {
+          "source_id": "lawal-2020-ede-south",
+          "source_locator": {
+            "table": "Table 2",
+            "row": 58
+          },
+          "language": "yo"
+        },
+        {
+          "source_id": "olanipekun-2022-lagos",
+          "source_locator": {
+            "table": "Supplementary Table S1",
+            "row": 117
+          },
+          "language": "yo"
+        },
+        {
+          "source_id": "weli-2013-port-harcourt",
+          "source_locator": {
+            "table": "Table 1",
+            "row": 12
+          },
+          "language": "yo"
+        }
+      ]
+    }
   },
   {
     "id": "name-oruwo-1dc1fbd1a6",
@@ -29053,7 +30348,24 @@
     "source_locator": null,
     "verification_status": "legacy_unverified",
     "reviewed_by": null,
-    "export_eligible": true
+    "export_eligible": true,
+    "language_inference": {
+      "language": null,
+      "reason": "not a language this survey says it recorded",
+      "candidates": [
+        "yo"
+      ],
+      "supporting": [
+        {
+          "source_id": "weli-2013-port-harcourt",
+          "source_locator": {
+            "table": "Table 1",
+            "row": 11
+          },
+          "language": "yo"
+        }
+      ]
+    }
   },
   {
     "id": "name-osan-45e43353a6",
@@ -29143,7 +30455,22 @@
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
-    "export_eligible": true
+    "export_eligible": true,
+    "language_inference": {
+      "language": "yo",
+      "basis": "same name for the same accepted species, labelled in other surveys",
+      "strength": "single_source",
+      "supporting": [
+        {
+          "source_id": "lawal-2020-ede-south",
+          "source_locator": {
+            "table": "Table 2",
+            "row": 26
+          },
+          "language": "yo"
+        }
+      ]
+    }
   },
   {
     "id": "name-osan-wewe-3559b2717d",
@@ -29210,7 +30537,24 @@
     "source_locator": null,
     "verification_status": "legacy_unverified",
     "reviewed_by": null,
-    "export_eligible": true
+    "export_eligible": true,
+    "language_inference": {
+      "language": null,
+      "reason": "not a language this survey says it recorded",
+      "candidates": [
+        "yo"
+      ],
+      "supporting": [
+        {
+          "source_id": "weli-2013-port-harcourt",
+          "source_locator": {
+            "table": "Table 1",
+            "row": 64
+          },
+          "language": "yo"
+        }
+      ]
+    }
   },
   {
     "id": "name-ose-048a35bc69",
@@ -29825,7 +31169,38 @@
     },
     "verification_status": "taxonomy_checked",
     "reviewed_by": null,
-    "export_eligible": true
+    "export_eligible": true,
+    "language_inference": {
+      "language": "yo",
+      "basis": "same name for the same accepted species, labelled in other surveys",
+      "strength": "multiple_sources",
+      "supporting": [
+        {
+          "source_id": "lawal-2020-ede-south",
+          "source_locator": {
+            "table": "Table 2",
+            "row": 50
+          },
+          "language": "yo"
+        },
+        {
+          "source_id": "olanipekun-2022-lagos",
+          "source_locator": {
+            "table": "Supplementary Table S1",
+            "row": 101
+          },
+          "language": "yo"
+        },
+        {
+          "source_id": "sonibare-2008-anti-asthmatic",
+          "source_locator": {
+            "table": "Table 1",
+            "row": 26
+          },
+          "language": "yo"
+        }
+      ]
+    }
   },
   {
     "id": "name-pandoro-205a9ed637",
@@ -31720,7 +33095,41 @@
     "source_locator": null,
     "verification_status": "legacy_unverified",
     "reviewed_by": null,
-    "export_eligible": true
+    "export_eligible": true,
+    "language_inference": {
+      "language": null,
+      "reason": "other surveys label this name for this species in different languages",
+      "candidates": [
+        "ha",
+        "nup"
+      ],
+      "supporting": [
+        {
+          "source_id": "alhaji-2015-niger-fulani",
+          "source_locator": {
+            "table": "Table 2",
+            "row": 2
+          },
+          "language": "ha"
+        },
+        {
+          "source_id": "alhaji-2015-niger-fulani",
+          "source_locator": {
+            "table": "Table 2",
+            "row": 2
+          },
+          "language": "nup"
+        },
+        {
+          "source_id": "anyanwu-2025-north-central",
+          "source_locator": {
+            "table": "Table 2",
+            "row": 4
+          },
+          "language": "ha"
+        }
+      ]
+    }
   },
   {
     "id": "name-tafarunua-11dbef1088",
@@ -33112,7 +34521,24 @@
     "source_locator": null,
     "verification_status": "legacy_unverified",
     "reviewed_by": null,
-    "export_eligible": true
+    "export_eligible": true,
+    "language_inference": {
+      "language": null,
+      "reason": "not a language this survey says it recorded",
+      "candidates": [
+        "yo"
+      ],
+      "supporting": [
+        {
+          "source_id": "olanipekun-2022-lagos",
+          "source_locator": {
+            "table": "Supplementary Table S1",
+            "row": 168
+          },
+          "language": "yo"
+        }
+      ]
+    }
   },
   {
     "id": "name-ugwu-a0250b2ffe",
@@ -33630,7 +35056,33 @@
     "source_locator": null,
     "verification_status": "legacy_unverified",
     "reviewed_by": null,
-    "export_eligible": true
+    "export_eligible": true,
+    "language_inference": {
+      "language": null,
+      "reason": "other surveys label this name for this species in different languages",
+      "candidates": [
+        "ig",
+        "ikw"
+      ],
+      "supporting": [
+        {
+          "source_id": "ajibesin-2012-rivers",
+          "source_locator": {
+            "table": "Table 1",
+            "row": 21
+          },
+          "language": "ikw"
+        },
+        {
+          "source_id": "anyanwu-2025-north-central",
+          "source_locator": {
+            "table": "Table 2",
+            "row": 36
+          },
+          "language": "ig"
+        }
+      ]
+    }
   },
   {
     "id": "name-uzi-924e1024a3",
@@ -33751,7 +35203,42 @@
     "source_locator": null,
     "verification_status": "legacy_unverified",
     "reviewed_by": null,
-    "export_eligible": true
+    "export_eligible": true,
+    "language_inference": {
+      "language": null,
+      "reason": "other surveys label this name for this species in different languages",
+      "candidates": [
+        "ig",
+        "ijc",
+        "ikw"
+      ],
+      "supporting": [
+        {
+          "source_id": "ajibesin-2012-rivers",
+          "source_locator": {
+            "table": "Table 1",
+            "row": 139
+          },
+          "language": "ikw"
+        },
+        {
+          "source_id": "anyanwu-2025-north-central",
+          "source_locator": {
+            "table": "Table 2",
+            "row": 58
+          },
+          "language": "ig"
+        },
+        {
+          "source_id": "olatokunbo-2022-bayelsa",
+          "source_locator": {
+            "table": "Table 2",
+            "row": 31
+          },
+          "language": "ijc"
+        }
+      ]
+    }
   },
   {
     "id": "name-uziza-7b6045a645",
@@ -34501,7 +35988,24 @@
     "source_locator": null,
     "verification_status": "legacy_unverified",
     "reviewed_by": null,
-    "export_eligible": true
+    "export_eligible": true,
+    "language_inference": {
+      "language": null,
+      "reason": "not a language this survey says it recorded",
+      "candidates": [
+        "ha"
+      ],
+      "supporting": [
+        {
+          "source_id": "anyanwu-2025-north-central",
+          "source_locator": {
+            "table": "Table 2",
+            "row": 42
+          },
+          "language": "ha"
+        }
+      ]
+    }
   },
   {
     "id": "name-zogale-f035568616",
@@ -34520,7 +36024,32 @@
     "source_locator": null,
     "verification_status": "legacy_unverified",
     "reviewed_by": null,
-    "export_eligible": true
+    "export_eligible": true,
+    "language_inference": {
+      "language": null,
+      "reason": "not a language this survey says it recorded",
+      "candidates": [
+        "ha"
+      ],
+      "supporting": [
+        {
+          "source_id": "offiah-2011-plateau",
+          "source_locator": {
+            "table": "Table 1",
+            "row": 35
+          },
+          "language": "ha"
+        },
+        {
+          "source_id": "weli-2013-port-harcourt",
+          "source_locator": {
+            "table": "Table 1",
+            "row": 49
+          },
+          "language": "ha"
+        }
+      ]
+    }
   },
   {
     "id": "name-zogale-a88eea2f13",

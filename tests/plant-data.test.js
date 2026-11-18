@@ -113,6 +113,14 @@ describe('provenance-rich plant mapping data', () => {
     assert.equal(karandafi.accepted_botanical, 'Sorghum bicolor');
   });
 
+  it('suggests Yoruba for the Kwara Orogbo without changing what the survey printed', () => {
+    const orogbo = names.find(name => name.normalized_name === 'orogbo' && name.source_id === 'evbuomwan-2023-kwara');
+    assert.equal(orogbo.language, null);
+    assert.equal(orogbo.language_inference.language, 'yo');
+    assert.equal(orogbo.language_inference.strength, 'multiple_sources');
+    assert.equal(names.filter(name => name.language_inference?.language).length, 27);
+  });
+
   it('keeps the Kwara nickname as published text, not as a name', () => {
     const kwara = readJson('data', 'plants', 'surveys', 'evbuomwan-2023-kwara.json');
     const row = kwara.find(entry => entry.vernacular_as_published === 'June 12');

@@ -104,6 +104,34 @@ Two species are listed twice by the authors, with differing vernacular spellings
 
 Two supplied textbooks are also registered. Iwu's *Handbook of African Medicinal Plants* contributed concise staging records from 168 Chapter 3 monographs, with language labels and exact PDF/printed-page locators. Oliver-Bever's *Medicinal Plants in Tropical West Africa* is retained as a botanical and pharmacological reference; its botanical/general index is not a language-labelled vernacular index, so the importer creates no local-name mappings from it. Both works are copyrighted, and no redistribution permission was identified.
 
+## The name web
+
+`/plants/web/`, and a section on every botanical and name page, shows languages,
+local names and botanical names with the links between them; selecting any of them
+re-centres the web on it. The resolver build writes its data to
+`public/plants/web.json` (one edge per name, species and language, with the number
+of survey records behind it) and copies `scripts/plant-web.client.js` to
+`public/plants/web.js`. The section starts hidden, so a reader without JavaScript
+sees the tables, which carry the same facts.
+
+## Suggested languages for unlabelled names
+
+Where a survey prints a name without its language, the record's `language` stays
+`null`: that is what the source says. `scripts/build-plant-data.js` may add a
+`language_inference` beside it, never in its place, when all of these hold:
+
+- other surveys record the same name for the same accepted species;
+- every one of them labels it with the same language;
+- that language is one the unlabelled survey lists in `sources.json` (a survey
+  listing none gets no suggestion).
+
+Spelling alone is not evidence: the same name for the same species is labelled
+Ikwerre and Yoruba (dongoyaro), Hausa and Nupe (tafarnuwa) by different surveys.
+Each suggestion carries its supporting records and a strength (`single_source` or
+`multiple_sources`); a refused one records why. Pages show a suggestion as
+"(inferred)" with an explanation, and running prose never uses one. The runtime
+index does not read it.
+
 ## Sources with no stated reuse licence
 
 Owner's decision of 2026-11-18, extending the case-by-case decisions for Sonibare
