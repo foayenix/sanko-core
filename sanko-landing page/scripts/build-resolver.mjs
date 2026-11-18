@@ -188,7 +188,7 @@ const DISCLAIMER =
   'Sanko publishes plant name mappings and the parts reported in the source literature. ' +
   'It does not publish therapeutic claims, and nothing here is medical guidance.';
 
-function layout({ title, description, canonical, jsonLd, breadcrumb, body, script = false }) {
+function layout({ title, description, canonical, jsonLd, breadcrumb, body, script = false, web = false }) {
   const crumbs = breadcrumb
     .map((crumb, index) =>
       index === breadcrumb.length - 1
@@ -234,8 +234,30 @@ ${body}
   <p>${escapeHtml(DISCLAIMER)}</p>
   <p><a href="/plants/">Plant name resolver</a> · <a href="/plants/sources/">Sources</a> · <a href="/">Sanko</a></p>
 </footer>
-${script ? '<script src="/plants/resolver.js" defer></script>\n' : ''}</body>
+${script ? '<script src="/plants/resolver.js" defer></script>\n' : ''}${web ? '<script src="/plants/web.js" defer></script>\n' : ''}</body>
 </html>
+`;
+}
+
+// The interactive web of languages, names and species (scripts/plant-web.client.js).
+// It starts hidden: without JavaScript the page's tables say the same thing, and an
+// empty box would say nothing.
+function webSection({ kind, slug, about, explorer = false }) {
+  const search = explorer
+    ? `<div class="web-search">
+  <label for="web-query">Find a local name, botanical name or language</label>
+  <input id="web-query" type="search" autocomplete="off" spellcheck="false">
+  <div class="web-suggestions"></div>
+</div>
+`
+    : '';
+  return `<section class="plant-web" data-plant-web data-focus-kind="${kind}" data-focus="${escapeHtml(slug)}"${explorer ? ' data-follow-hash' : ''} hidden aria-labelledby="web-title">
+<h2 id="web-title">${explorer ? 'Follow a name' : 'How the names connect'}</h2>
+<p class="scope">${escapeHtml(about)} Select any name, species or language to follow its connections; hover to light up its links.</p>
+${search}<p class="web-summary" aria-live="polite"></p>
+<div class="web-stage"></div>
+<p class="web-foot"><a class="web-open" href="/plants/">Plant names</a></p>
+</section>
 `;
 }
 
@@ -328,12 +350,13 @@ ${whatsappLink({ display, languageLabel, slug: slugify(name), contested })}<h2>$
 <ul class="candidates">
 ${candidates}
 </ul>
-<p class="backlink"><a href="/plants/">${languageLabel ? `All ${escapeHtml(languageLabel)} and other local plant names` : 'All local plant names'} →</a></p>
+${webSection({ kind: 'name', slug: slugify(name), about: `The species ${display} is recorded for, and the languages it is recorded in.` })}<p class="backlink"><a href="/plants/">${languageLabel ? `All ${escapeHtml(languageLabel)} and other local plant names` : 'All local plant names'} →</a></p>
 </article>`;
 
   return {
     url: `/plants/${slugify(name)}/`,
     html: layout({
+      web: true,
       title: `${title} | Sanko`,
       description: lead,
       canonical: `${SITE}/plants/${slugify(name)}/`,
@@ -405,7 +428,7 @@ ${definitionList([
       : '',
   ],
 ])}
-<h2>Local names recorded for <em>${escapeHtml(taxon)}</em></h2>
+${webSection({ kind: 'species', slug: slugify(taxon), about: `The local names recorded for ${taxon} and the languages they are recorded in.` })}<h2>Local names recorded for <em>${escapeHtml(taxon)}</em></h2>
 <p class="scope">${escapeHtml(SOURCE_SCOPE)}</p>
 <div class="table-scroll">
 <table>
@@ -420,6 +443,7 @@ ${inferredNote(names)}</article>`;
   return {
     url: `/plants/botanical/${slugify(taxon)}/`,
     html: layout({
+      web: true,
       title: `${taxon} — local names and sources | Sanko`,
       description: lead,
       canonical: `${SITE}/plants/botanical/${slugify(taxon)}/`,
@@ -608,6 +632,38 @@ ${excluded}
   };
 }
 
+function webPage({ example }) {
+  const lead =
+    'Every local name Sanko publishes, linked to the languages it is recorded in and the species published sources map it to. Start from any of them and follow the links.';
+  return {
+    url: '/plants/web/',
+    html: layout({
+      web: true,
+      title: 'Plant name web — local names, languages and species | Sanko',
+      description: lead,
+      canonical: `${SITE}/plants/web/`,
+      breadcrumb: [
+        { label: 'Sanko', href: '/' },
+        { label: 'Plant names', href: '/plants/' },
+        { label: 'Name web' },
+      ],
+      jsonLd: {
+        '@context': 'https://schema.org',
+        '@type': 'WebPage',
+        name: 'Plant name web',
+        description: lead,
+        url: `${SITE}/plants/web/`,
+      },
+      body: `<article>
+<p class="eyebrow">Explore</p>
+<h1>Plant name web</h1>
+<p class="lead">${escapeHtml(lead)}</p>
+${webSection({ kind: 'species', slug: slugify(example), about: 'Languages on the left, local names in the middle, botanical names on the right.', explorer: true })}<noscript><p class="scope">The name web needs JavaScript. Every connection it shows is also listed on the <a href="/plants/">plant name pages</a>.</p></noscript>
+</article>`,
+    }),
+  };
+}
+
 function hubPage({ names, taxaCount, languageCounts, sources, contestedCount }) {
   const lead = `Sanko maps ${names.length} local plant names from Nigerian ethnobotanical surveys to ${taxaCount} accepted botanical names, each verified against the GBIF taxonomy backbone and traceable to a named published source.`;
 
@@ -690,6 +746,8 @@ ${rows
 surveys disagree about which species a local name refers to, Sanko shows the disagreement
 rather than picking a winner. <a href="/plants/sources/">See the sources →</a></p>
 
+<p><a href="/plants/web/">Explore how local names, languages and species connect →</a></p>
+
 <h2>By language</h2>
 <ul class="language-list">
 ${languageLinks}
@@ -740,6 +798,39 @@ a{color:inherit;text-underline-offset:.22em}
 .crumbs .sep{padding:0 8px}
 main{width:min(860px,calc(100% - 44px));margin:0 auto;padding:44px 0 24px}
 .inferred{color:var(--muted);font-size:.9em}
+.plant-web{margin-top:44px}
+.web-summary{margin:14px 0 0;font-family:"IBM Plex Mono",monospace;font-size:12.5px;color:var(--muted);min-height:1.4em}
+.web-stage{position:relative;margin-top:12px;padding:14px 0;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule)}
+.web-links{position:absolute;inset:0;pointer-events:none;overflow:visible}
+.web-link{fill:none;stroke:var(--rule);stroke-linecap:round;transition:stroke .15s,opacity .15s}
+.web-link.is-other{stroke:var(--accent);opacity:.45}
+.web-link.is-lit{stroke:var(--accent);opacity:1}
+.web-link.is-dim{opacity:.18}
+.web-headings{display:grid;grid-template-columns:minmax(min-content,1fr) minmax(min-content,1.15fr) minmax(min-content,1.15fr);column-gap:clamp(28px,8vw,96px);margin-bottom:10px}
+.web-headings .web-heading:nth-child(1){text-align:right}
+.web-headings .web-heading:nth-child(2){text-align:center}
+.web-columns{position:relative;display:grid;grid-template-columns:minmax(min-content,1fr) minmax(min-content,1.15fr) minmax(min-content,1.15fr);column-gap:clamp(28px,8vw,96px);align-items:center}
+.web-column{display:flex;flex-direction:column;gap:6px;min-width:0}
+.web-column-language{align-items:flex-end;text-align:right}
+.web-column-name{align-items:center;text-align:center}
+.web-column-species{align-items:flex-start;text-align:left}
+.web-heading{margin:0;font-family:"IBM Plex Mono",monospace;font-size:10.5px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.web-node{appearance:none;max-width:100%;margin:0;padding:5px 9px;border:1px solid var(--rule);border-radius:2px;background:var(--ground);color:var(--text);font:inherit;font-size:13.5px;line-height:1.3;text-align:inherit;overflow-wrap:break-word;hyphens:manual;cursor:pointer;transition:opacity .15s,border-color .15s}
+.web-node:hover,.web-node:focus-visible{border-color:var(--accent)}
+.web-node:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.web-node.is-species{font-style:italic}
+.web-node.is-other{color:var(--muted)}
+.web-node.is-focus{background:var(--heading);border-color:var(--heading);color:var(--ground);font-weight:700}
+.web-node.is-dim{opacity:.35}
+.web-more{font-size:12.5px;color:var(--muted)}
+.web-foot{margin:12px 0 0;font-size:14px}
+.web-search{margin-top:18px}
+.web-search label{display:block;font-size:13px;color:var(--muted)}
+.web-search input{width:100%;margin-top:6px;padding:10px 12px;border:1px solid var(--rule);border-radius:2px;background:var(--surface);color:var(--text);font:inherit;font-size:16px}
+.web-suggestions{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.web-suggestion{appearance:none;padding:5px 9px;border:1px solid var(--rule);border-radius:2px;background:var(--surface);color:var(--text);font:inherit;font-size:13px;cursor:pointer}
+@media(max-width:560px){.web-columns,.web-headings{column-gap:18px}.web-node{padding:4px 6px;font-size:12.5px}}
+@media(prefers-reduced-motion:reduce){.web-link,.web-node{transition:none}}
 .eyebrow{margin:0;font-family:"IBM Plex Mono",monospace;font-size:11px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
 h1{margin:10px 0 0;font-size:clamp(34px,5.5vw,54px);font-weight:900;line-height:1.02;letter-spacing:-.03em;color:var(--heading);text-wrap:balance}
 h1 em{font-style:italic}
@@ -987,6 +1078,43 @@ await rm(outputDirectory, { recursive: true, force: true });
 await mkdir(outputDirectory, { recursive: true });
 await writeFile(path.resolve(outputDirectory, 'resolver.css'), STYLESHEET, 'utf8');
 await writeFile(path.resolve(outputDirectory, 'resolver.js'), SEARCH_SCRIPT, 'utf8');
+await writeFile(
+  path.resolve(outputDirectory, 'web.js'),
+  await readFile(path.resolve(scriptDirectory, 'plant-web.client.js'), 'utf8'),
+  'utf8',
+);
+
+// The name web's data: one edge per name, species and language, counting the survey
+// records behind it. An inferred language travels in its own slot so the web can draw it
+// differently; a record with neither has no language edge at all.
+{
+  const speciesList = [...byTaxon.keys()].sort((a, b) => a.localeCompare(b));
+  const speciesIndex = new Map(speciesList.map((taxon, i) => [taxon, i]));
+  const nameList = [...byName.keys()].sort((a, b) => a.localeCompare(b));
+  const nameIndex = new Map(nameList.map((name, i) => [name, i]));
+  const edges = new Map();
+  for (const record of published) {
+    const inferred = inferredLanguage(record);
+    const key = [nameIndex.get(record.normalized_name), speciesIndex.get(record.accepted_botanical), record.language ?? '', inferred ?? ''].join('|');
+    const edge = edges.get(key) ?? [
+      nameIndex.get(record.normalized_name),
+      speciesIndex.get(record.accepted_botanical),
+      record.language ?? '',
+      inferred ?? '',
+      0,
+    ];
+    edge[4] += 1;
+    edges.set(key, edge);
+  }
+  const codes = unique(published.flatMap((record) => [record.language, inferredLanguage(record)])).sort();
+  const web = {
+    languages: Object.fromEntries(codes.map((code) => [code, languageName(code)])),
+    species: speciesList.map((taxon) => [slugify(taxon), taxon]),
+    names: nameList.map((name) => [slugify(name), titleCase(byName.get(name)[0].local_name ?? name)]),
+    edges: [...edges.values()].sort((a, b) => a[0] - b[0] || a[1] - b[1] || a[2].localeCompare(b[2])),
+  };
+  await writeFile(path.resolve(outputDirectory, 'web.json'), `${JSON.stringify(web)}\n`, 'utf8');
+}
 
 const pages = [];
 
@@ -1055,6 +1183,8 @@ const hubNames = [...byName.entries()].map(([name, attestations]) => {
 });
 
 const contestedCount = hubNames.filter((row) => row.contested).length;
+
+pages.push(webPage({ example: byTaxon.has('Garcinia kola') ? 'Garcinia kola' : [...byTaxon.keys()].sort()[0] }));
 
 pages.push(
   hubPage({
