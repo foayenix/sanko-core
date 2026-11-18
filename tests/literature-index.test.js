@@ -316,7 +316,9 @@ describe('pilot selection', () => {
   it('applies the volume cap, reports what it excluded, and is deterministic', () => {
     const plants = Array.from({ length: 30 }, (_, index) => plant(`p${String(index).padStart(2, '0')}`, `Genus species${index}`));
     const hits = Object.fromEntries(plants.map((item, index) => [item.id, { total: 20 + index * 40, human: index % 5, safety: index % 7 }]));
-    const observations = plants.map((item, index) => ({ plant_id: item.id, source_id: `s${index % 4}` }));
+    // Every plant has four Nigerian sources except p05, which has one.
+    const observations = plants.flatMap((item, index) => (index === 5 ? [0] : [0, 1, 2, 3 + (index % 4)])
+      .map(source => ({ plant_id: item.id, source_id: `s${source}` })));
     const ambiguities = [{ candidates: [{ accepted_botanical: plants[1].accepted_botanical }, { accepted_botanical: plants[2].accepted_botanical }] }];
     const input = { plants, observations, ambiguities, searches: countSearches(plants, hits), cap: 900 };
     const result = select(input);
@@ -325,5 +327,6 @@ describe('pilot selection', () => {
     assert.ok(result.excluded_by_cap.length > 0);
     assert.equal(result.selected.filter(pick => pick.slot === 'identity').length, 2);
     assert.equal(new Set(result.selected.map(pick => pick.taxon_id)).size, result.selected.length);
+    assert.ok(!result.selected.some(pick => pick.slot === 'score' && pick.use_breadth < 3), 'score slots need three Nigerian sources');
   });
 });

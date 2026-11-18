@@ -10,7 +10,8 @@
 // records or practitioner activity is read, so the choice cannot leak private
 // knowledge.
 //
-// Slots: 14 by combined score, 3 safety-led, 3 identity-hard. A cap on total
+// Slots: 14 by combined score (Nigerian use weighted double, at least 3 sources),
+// 3 safety-led, 3 identity-hard. A cap on total
 // hits keeps the pilot's verification workload bounded; taxa it excludes are
 // reported, not hidden, so the trade-off is visible to whoever approves it.
 // Output is deterministic for the same inputs.
@@ -23,6 +24,11 @@ const { countQueries } = require('../src/literature/records');
 const root = path.join(__dirname, '..');
 const SLOTS = { score: 14, safety: 3, identity: 3 };
 const MIN_TOTAL_HITS = 10;
+// The 14 score slots are for plants with established Nigerian use. Without this
+// floor, plants with large worldwide literatures but a single Nigerian source
+// (dill, dog rose) outrank locally important ones. Safety slots keep no floor:
+// a toxic plant matters even if few surveys record it.
+const MIN_USE_BREADTH_FOR_SCORE = 3;
 
 function readPlants(name) {
   return JSON.parse(fs.readFileSync(path.join(root, 'data', 'plants', name), 'utf8'));
@@ -94,7 +100,7 @@ function select({ plants, observations, ambiguities, searches, cap = 500 }) {
   const maxHuman = Math.log1p(max('human_hits'));
   const maxTotal = Math.log1p(max('total_hits'));
   for (const row of rows) {
-    row.score = Number((row.use_breadth / maxUse + Math.log1p(row.human_hits) / maxHuman + 0.5 * Math.log1p(row.total_hits) / maxTotal).toFixed(4));
+    row.score = Number((2 * row.use_breadth / maxUse + Math.log1p(row.human_hits) / maxHuman + 0.5 * Math.log1p(row.total_hits) / maxTotal).toFixed(4));
   }
 
   const byScore = (a, b) => b.score - a.score || (a.taxon_id < b.taxon_id ? -1 : 1);
@@ -110,7 +116,7 @@ function select({ plants, observations, ambiguities, searches, cap = 500 }) {
     }
   };
 
-  take(withinCap.filter(row => !row.ambiguous).sort(byScore), 'score', SLOTS.score, 'highest combined use breadth and literature volume');
+  take(withinCap.filter(row => !row.ambiguous && row.use_breadth >= MIN_USE_BREADTH_FOR_SCORE).sort(byScore), 'score', SLOTS.score, 'highest combined use breadth and literature volume');
   take([...withinCap].sort((a, b) => b.safety_hits - a.safety_hits || byScore(a, b)), 'safety', SLOTS.safety, 'most safety-titled studies among remaining taxa');
   take(withinCap.filter(row => row.ambiguous).sort((a, b) => b.use_breadth - a.use_breadth || byScore(a, b)), 'identity', SLOTS.identity, 'local names contested between taxa; tests the identity section');
 
@@ -123,7 +129,8 @@ function select({ plants, observations, ambiguities, searches, cap = 500 }) {
       slots: SLOTS,
       cap_total_hits: cap,
       min_total_hits: MIN_TOTAL_HITS,
-      score: 'use_breadth/max + ln(1+human_hits)/ln(1+max) + 0.5*ln(1+total_hits)/ln(1+max)',
+      min_use_breadth_for_score_slots: MIN_USE_BREADTH_FOR_SCORE,
+      score: '2*use_breadth/max + ln(1+human_hits)/ln(1+max) + 0.5*ln(1+total_hits)/ln(1+max)',
       inputs: ['data/plants/plants.json', 'data/plants/observations.json', 'data/plants/ambiguities.json', 'data/literature/searches.json (count queries)'],
       note: 'Hit counts are Europe PMC query results, not verified study counts.',
     },
