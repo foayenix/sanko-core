@@ -365,24 +365,20 @@ summary:focus-visible{
 
 .test-grid,.chat-grid{ display:grid; gap:clamp(2rem,6vw,3.5rem); align-items:start }
 
-.chat{ border:1px solid var(--rule-light); background:#fff; padding:1rem }
-.chat-top{
-  display:flex; align-items:center; gap:.625rem;
-  padding-bottom:.875rem; border-bottom:1px solid var(--rule-hair);
-  color:var(--ink-muted);
+.after-apply{ border-top:1px solid var(--rule-light); padding-top:1.5rem }
+.steps{ margin-top:1.5rem; display:grid; gap:0; counter-reset:step }
+.steps li{
+  counter-increment:step; position:relative;
+  padding:1.25rem 0 1.25rem 2.75rem; border-top:1px solid var(--rule-hair);
 }
-.chat-top .tag{ margin-left:auto }
-.chat-top .who{ font-family:var(--font-display); font-size:.9375rem; font-weight:700; color:var(--ink); letter-spacing:-.01em }
-.chat-log{ display:grid; gap:.625rem; padding-block:1rem }
-.bubble{
-  padding:.6875rem .875rem; font-size:.9375rem; line-height:1.45; max-width:88%;
-  border:1px solid var(--rule-hair);
+.steps li:first-child{ border-top:0; padding-top:0 }
+.steps li::before{
+  content:counter(step,decimal-leading-zero); position:absolute; left:0; top:1.4375rem;
+  font-family:var(--font-data); font-size:var(--t-data); letter-spacing:.02em; color:var(--ink-muted);
 }
-.bubble.them{ background:var(--wash); justify-self:start }
-.bubble.you{ background:var(--indigo-brand); color:var(--mineral); border-color:var(--indigo-brand); justify-self:end }
-.bubble .voice{ display:flex; align-items:center; gap:.625rem }
-.bubble .wave{ display:flex; align-items:center; gap:2px; height:1.125rem }
-.bubble .wave i{ display:block; width:2px; background:var(--chartreuse) }
+.steps li:first-child::before{ top:.1875rem }
+.step-title{ margin:0; font-size:1.0625rem; font-weight:700; line-height:1.3; letter-spacing:-.01em; color:var(--ink) }
+.steps p{ margin-top:.375rem; color:var(--ink-muted); max-width:44ch }
 
 .follow-demo{ margin-top:clamp(2.5rem,6vw,4.5rem) }
 .follow-copy{ margin-top:.75rem; color:var(--ink-muted); max-width:46ch; line-height:1.55 }
