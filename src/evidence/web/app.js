@@ -489,6 +489,19 @@ async function open(id, metadata = null) {
     steps.append(el('span', title(step), step === item.status ? 'current' : ''));
   panel.append(steps);
   panel.append(el('p', item.purpose), el('p', item.currency, 'muted'));
+  // The triage decision's reason. The server returns it to the owner only when
+  // it explains a waitlist or a decline; staff see it whatever the outcome.
+  if (item.triage_reason) {
+    const section = el('section', null, 'panel');
+    const heading =
+      item.status === 'declined'
+        ? 'Why this request was declined'
+        : item.status === 'waitlisted'
+          ? 'Why this request is waitlisted'
+          : 'Triage reason';
+    readable(section, heading, item.triage_reason);
+    panel.append(section);
+  }
   const snapshot = group(panel, 'The formulation being reviewed', item.status === 'draft');
   const content = item.snapshot?.content ?? item.recipe;
   if (content) for (const [key, value] of Object.entries(content)) readable(snapshot, key, value);
@@ -709,6 +722,14 @@ async function admin(id, metadata = null) {
   if (['submitted', 'waitlisted'].includes(row.status)) {
     const state = field(panel, 'status', 'accepted', ['accepted', 'waitlisted', 'declined']);
     const reason = field(panel, 'reason', '', null, true);
+    panel.append(
+      el(
+        'p',
+        'The owner sees this reason if the request is waitlisted or declined. A reason for ' +
+          'accepting it is shown only to the assigned staff.',
+        'muted',
+      ),
+    );
     button(
       'Record triage',
       () => mutate('triage', { status: state.value, reason: reason.value }),
