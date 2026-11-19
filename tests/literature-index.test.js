@@ -331,3 +331,82 @@ describe('pilot selection', () => {
     assert.ok(!result.selected.some(pick => pick.slot === 'score' && pick.use_breadth < 3), 'score slots need three Nigerian sources');
   });
 });
+
+describe('reviewer calibration', () => {
+  const calibration = require('../src/literature/calibration');
+
+  function seeded() {
+    const data = emptyStore();
+    const titles = [
+      'Subacute toxicity of Vernonia amygdalina in rats',
+      'A randomized trial of Vernonia amygdalina in adults',
+      'Antibacterial activity of Vernonia amygdalina leaves',
+      'Vernonia amygdalina leaf extract in diabetic Wistar rats',
+      'GC-MS profile of Vernonia amygdalina',
+    ];
+    titles.forEach((title, index) => addRecord(data, epmc({ id: `${index}`, pmid: `${index}`, doi: `10.1/${index}`, pmcid: null, title })));
+    return data;
+  }
+
+  it('scopes the review queue to safety and human studies by default', () => {
+    const data = seeded();
+    const ids = new Set([PLANT.id]);
+    const names = new Map([[PLANT.id, PLANT.accepted_botanical]]);
+    const priority = review.queueRows(data, ids, names);
+    assert.deepEqual(priority.map(row => row.title).sort(), [
+      'A randomized trial of Vernonia amygdalina in adults',
+      'Subacute toxicity of Vernonia amygdalina in rats',
+    ]);
+    assert.equal(review.queueRows(data, ids, names, { scope: 'all' }).length, 5);
+    assert.throws(() => review.queueRows(data, ids, names, { scope: 'some' }), /--scope/);
+  });
+
+  it('draws a deterministic, stratified sample', () => {
+    const entries = store.effectiveEntries(seeded());
+    const first = calibration.drawSample(entries, { size: 4, seed: 'test-seed' });
+    assert.deepEqual(calibration.drawSample(entries, { size: 4, seed: 'test-seed' }), first);
+    assert.equal(first.filter(item => item.stratum === 'priority').length, 2);
+    assert.equal(first.filter(item => item.stratum === 'other').length, 2);
+    assert.ok(first.every(item => item.stratum === (calibration.isPriority(item.entry) ? 'priority' : 'other')));
+  });
+
+  it('computes agreement, kappa, automated accuracy and priority-scope misses', () => {
+    assert.equal(calibration.kappa([['a', 'a'], ['b', 'b']]), 1);
+    assert.equal(calibration.kappa([['a', 'a'], ['a', 'a']]), null);
+    const entries = store.effectiveEntries(seeded());
+    const sample = calibration.drawSample(entries, { size: 5, seed: 'test-seed' });
+    const other = sample.find(item => item.stratum === 'other').entry;
+    const row = (entry, overrides = {}) => ({
+      entry_id: entry.entry_id, decision: 'include', evidence_kind: entry.evidence_kind ?? 'in_vitro',
+      is_safety_study: entry.is_safety_study ? 'yes' : 'no', voucher_reported: 'yes', model: 'rat',
+      plant_part: 'leaf', area_studied: 'other', name_resolution: 'exact', minutes_spent: '3', ...overrides,
+    });
+    const rowsA = sample.map(({ entry }) => row(entry));
+    // Reviewer B finds that one non-priority study is really a safety study.
+    const rowsB = sample.map(({ entry }) => row(entry, entry === other ? { is_safety_study: 'yes' } : { minutes_spent: '5' }));
+    const report = calibration.compare({ rowsA, rowsB, sample, reviewerA: 'rev-a', reviewerB: 'rev-b' });
+    assert.equal(report.decided_by_both, 5);
+    assert.equal(report.inter_reviewer.decision.agreement, 1);
+    assert.equal(report.inter_reviewer.is_safety_study.agreement, 0.8);
+    assert.equal(report.priority_scope_misses.found_safety_or_human, 1);
+    assert.deepEqual(report.priority_scope_misses.entry_ids, [other.entry_id]);
+    assert.deepEqual(report.disagreements.map(item => item.field), ['is_safety_study']);
+    assert.equal(report.median_minutes_per_entry['rev-a'], 3);
+  });
+
+  it('refuses incomplete blind sheets and rows outside the sample', () => {
+    const data = seeded();
+    const sample = calibration.drawSample(store.effectiveEntries(data), { size: 2, seed: 'test-seed' });
+    const manifest = { seed: 'test-seed', entries: sample.map(({ entry, stratum }) => ({ entry_id: entry.entry_id, stratum })) };
+    const incomplete = [{ entry_id: sample[0].entry.entry_id, decision: 'include', evidence_kind: 'animal' }];
+    assert.throws(() => review.calibrationReport({ data, manifest, rowsA: incomplete, rowsB: [], reviewerA: 'a1', reviewerB: 'b1' }), /missing is_safety_study/);
+    const stranger = [{ entry_id: 'entry-not-in-sample', decision: 'exclude', exclusion_reason: 'wrong_taxon' }];
+    assert.throws(() => review.calibrationReport({ data, manifest, rowsA: stranger, rowsB: [], reviewerA: 'a1', reviewerB: 'b1' }), /not in sample/);
+  });
+
+  it('gives the blind calibration sheet no automated guesses', () => {
+    assert.ok(!review.CALIBRATION_HEADER.some(column => column.startsWith('auto_')));
+    assert.ok(review.CALIBRATION_HEADER.includes('minutes_spent'));
+    assert.match(review.allowedValues(), /voucher_reported,yes; no; not_stated/);
+  });
+});

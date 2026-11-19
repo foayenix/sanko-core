@@ -16,6 +16,7 @@ quotations or Sanko's summary of what a study found.
 | `index_entries.json` | `literature:discover` | One record per taxon–study link, with the automated first-pass screening and classification (`classified_by: automated`). Re-derived on every discovery run. |
 | `verifications.json` | `literature:review -- verify` | Append-only human verification events. The latest event for an entry overrides its automated fields. Never edited by hand. |
 | `pilot_selection.json` | `literature:select-pilot` | The 20 pilot taxa, the scores and reasons that chose them, and the taxa the volume cap excluded. |
+| `calibration/` | `literature:review -- calibration-sample`, `calibration-report` | Calibration sample manifests and agreement reports (entry ids, pseudonyms, agreement statistics). Committed. |
 | `review/` | `literature:review -- queue` | Reviewers' working spreadsheets. **Gitignored.** |
 
 Every file is validated against a closed schema (`src/literature/store.js`):
@@ -39,11 +40,15 @@ or email addresses.
 
 ## Workflow
 
+Reviewers follow `docs/LITERATURE_REVIEWER_GUIDE.md`.
+
 ```
 npm run literature:discover -- --counts --concurrency 12   # hit counts for every taxon
 npm run literature:select-pilot                            # choose the 20 pilot taxa
 npm run literature:discover -- --retrieve --taxa pilot     # full records for the pilot
-npm run literature:review -- queue                         # spreadsheet for reviewers
+npm run literature:review -- calibration-sample            # blind 50-entry sheet for two reviewers
+npm run literature:review -- calibration-report -- …       # agreement report (see the reviewer guide)
+npm run literature:review -- queue                         # safety and human studies first; --scope all for everything
 npm run literature:review -- verify --file <csv> --reviewer <id>
 npm run literature:review -- status
 npm run literature:check                                   # validate only

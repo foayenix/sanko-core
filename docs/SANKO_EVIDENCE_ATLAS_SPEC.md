@@ -23,6 +23,11 @@ Recorded 18 November 2026:
    and does not host them.
 5. **The index comes first.** The 20-plant evidence-profile pilot draws its
    sources from the index.
+6. **Safety and human studies are verified first** (19 November 2026). The
+   review queue defaults to entries the automated pass flagged as safety or
+   human studies; laboratory and animal studies follow. A two-reviewer
+   calibration round measures what that flag misses. Reviewer instructions:
+   `docs/LITERATURE_REVIEWER_GUIDE.md`.
 
 ## 2. Purpose
 
