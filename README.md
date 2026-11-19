@@ -928,5 +928,5 @@ Use `npm run test:evidence` with a dedicated local `EVIDENCE_TEST_DB_URL`, or
 `npm run preview:evidence` for the fictional browser flow. Both create isolated
 throwaway databases; neither invokes live Auth, WhatsApp or a model.
 `EVIDENCE_TEST_DB_URL` must be a loopback Postgres 16 where you can create
-databases; the preview creates the Supabase roles (`anon`, `authenticated`,
-`service_role`) if missing, the test suite expects them to exist (see the doc).
+databases; both create the Supabase roles (`anon`, `authenticated`,
+`service_role`) if they are missing.

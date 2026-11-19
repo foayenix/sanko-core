@@ -12,6 +12,7 @@ const name = `sanko_evidence_${crypto.randomBytes(6).toString('hex')}`;
 const target = new URL(base);
 target.pathname = `/${name}`;
 const env = { ...process.env, EVIDENCE_TEST_DB_URL: target.href, SUPABASE_DB_URL: target.href };
+require('../tests/helpers/postgres').ensureSupabaseRoles(base.href);
 execFileSync('psql', [base.href, '-X', '-v', 'ON_ERROR_STOP=1', '-c', `create database ${name}`], {
   stdio: 'pipe',
 });
