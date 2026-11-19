@@ -13,9 +13,21 @@ if (process.env.NODE_ENV === 'production' || !['127.0.0.1', 'localhost'].include
 const name = `sanko_evidence_preview_${crypto.randomBytes(6).toString('hex')}`;
 const target = new URL(base);
 target.pathname = '/' + name;
-execFileSync('psql', [base.href, '-X', '-v', 'ON_ERROR_STOP=1', '-c', `create database ${name}`], {
-  stdio: 'pipe',
-});
+// Migrations grant to Supabase's roles. Roles are cluster-wide, so create any
+// that are missing (as CI does) instead of requiring manual local setup.
+const supabaseRoles = `do $$ begin\n${[
+  ['anon', ''],
+  ['authenticated', ''],
+  ['service_role', ' bypassrls'],
+]
+  .map(
+    ([role, opts]) =>
+      `if not exists (select 1 from pg_roles where rolname = '${role}') ` +
+      `then create role ${role}${opts}; end if;`,
+  )
+  .join('\n')}\nend $$`;
+for (const sql of [supabaseRoles, `create database ${name}`])
+  execFileSync('psql', [base.href, '-X', '-v', 'ON_ERROR_STOP=1', '-c', sql], { stdio: 'pipe' });
 const port = Number(process.env.EVIDENCE_PREVIEW_PORT || 3042);
 Object.assign(process.env, {
   EVIDENCE_TEST_DB_URL: target.href,
