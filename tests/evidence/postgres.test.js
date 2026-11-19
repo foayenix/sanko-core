@@ -630,6 +630,55 @@ test('Evidence PostgreSQL acceptance — synthetic manual workflow', async t => 
     },
   );
   await t.test(
+    'F07 triage reasons are stored apart from owner questions and shown only for ' +
+      'waitlist or decline',
+    async () => {
+      // Accepted through release: the acceptance note is internal, never a question.
+      let r = await released();
+      let owner = await act('owner', 'get', {}, r);
+      assert.equal(owner.status, 'released');
+      assert.equal(owner.question, null);
+      assert.equal(owner.triage_reason, null);
+      assert.equal(
+        await sql(`select triage_reason from evidence_requests where id='${r.id}'`),
+        'Fictional capacity and qualified test identities',
+      );
+
+      // An analyst question after acceptance is the only thing under question.
+      r = await accepted();
+      r = await write('analyst', 'ask', { question: 'Which plant part was used?' }, r);
+      owner = await act('owner', 'get', {}, r);
+      assert.equal(owner.question, 'Which plant part was used?');
+      assert.equal(owner.triage_reason, null);
+
+      // Waitlist and decline reasons explain the current state to the owner.
+      r = await submitted();
+      r = await write('admin', 'triage', { status: 'waitlisted', reason: 'No capacity yet' }, r);
+      owner = await act('owner', 'get', {}, r);
+      assert.equal(owner.triage_reason, 'No capacity yet');
+      assert.equal(owner.question, null);
+      r = await write('admin', 'triage', { status: 'declined', reason: 'Outside scope' }, r);
+      owner = await act('owner', 'get', {}, r);
+      assert.equal(owner.triage_reason, 'Outside scope');
+      assert.equal(owner.question, null);
+
+      // Triage never overwrites an existing question or answer.
+      r = await submitted();
+      await sql(
+        `update evidence_requests set question='Earlier question',answer='Earlier answer' ` +
+          `where id='${r.id}'`,
+      );
+      r = await write('admin', 'triage', { status: 'declined', reason: 'Not eligible' }, r);
+      assert.equal(
+        await sql(
+          `select concat_ws('|',question,answer,triage_reason) from evidence_requests ` +
+            `where id='${r.id}'`,
+        ),
+        'Earlier question|Earlier answer|Not eligible',
+      );
+    },
+  );
+  await t.test(
     'AT21 portal evidence erasure revokes sessions without deleting Vault formulations',
     async () => {
       const previous = fixture;
