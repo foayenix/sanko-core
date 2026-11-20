@@ -503,6 +503,16 @@ async function open(id, metadata = null) {
       true,
     );
   }
+  // Returned only while it explains the current state (waitlisted or declined).
+  if (item.triage_reason) {
+    const section = el('section', null, 'panel');
+    readable(
+      section,
+      item.status === 'declined' ? 'Reason for declining' : 'Reason for waitlisting',
+      item.triage_reason,
+    );
+    panel.append(section);
+  }
   if (item.question) {
     const section = el('section', null, 'panel');
     readable(section, 'Requested information', item.question);

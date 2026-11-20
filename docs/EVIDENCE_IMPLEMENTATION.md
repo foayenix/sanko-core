@@ -35,7 +35,9 @@ operational approvals, or later releases.
   between preview and submission conflict.
 - Capacity/triage, explicit analyst/reviewer assignments and revocation, waitlist,
   decline, focused questions and attributed owner replies. Replies do not edit
-  the Vault or rewrite confirmed composition. Recipe changes require a new request.
+  the Vault or rewrite confirmed composition. Recipe changes require a new request. Triage
+  reasons are stored apart from owner questions (`027_evidence_triage_reason.sql`) and
+  shown to the owner only while the request is waitlisted or declined.
 - Manual search protocol, executed queries/dates, coverage failures, source
   metadata/access/licence/status/screening, extraction/locator/applicability,
   study quality, finding direction and claim provenance. No external fetching,
