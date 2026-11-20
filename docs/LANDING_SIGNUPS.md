@@ -1,4 +1,4 @@
-# Landing sign-ups: switching them on and reviewing them
+# Landing sign-ups and visits: switching them on and reviewing them
 
 The landing page has two forms: test-access applications and partnership
 enquiries. They post straight to Supabase with the public anon key
@@ -45,3 +45,36 @@ under **Sign-ups** at `/admin`.
 - **Retention:** PRIVACY.md says an application is deleted within 12 months of
   its decision. The view shows that date, but nothing deletes rows
   automatically yet.
+
+## Website visits (Vercel Web Analytics)
+
+Every page on the site loads `/_vercel/insights/script.js`: the landing pages,
+the privacy page (from `templates/privacy.html`) and every plant page (from
+`scripts/build-resolver.mjs`). The script sets no cookies; PRIVACY.md says what
+it collects.
+
+1. **Turn it on in Vercel.** Open the project that serves sanko.africa, go to the
+   Analytics tab and enable Web Analytics. Until then the script path returns
+   404 and nothing is counted. On a local preview it always returns 404; that is
+   expected.
+2. **Show it in the control room (optional).** Set these on the backend server:
+
+   | Variable | Value |
+   |---|---|
+   | `VERCEL_ANALYTICS_TOKEN` | A Vercel access token |
+   | `VERCEL_ANALYTICS_PROJECT` | The project ID (`prj_…`) or name |
+   | `VERCEL_TEAM_ID` | The team ID (`team_…`), if the project is under a team |
+
+   Vercel has no read-only tokens. Anyone holding this token can change the
+   website, not just read its numbers. Create it scoped to the one team, give
+   it an expiry, and keep it only in the server environment, never in the
+   landing page.
+
+The Sign-ups view then shows:
+- page views over the last 7 and 30 days;
+- the five most viewed paths;
+- applications per page view.
+
+Results are cached in memory for ten minutes. The numbers are page views, not
+people. Vercel counts production traffic only, from the day analytics was
+enabled.

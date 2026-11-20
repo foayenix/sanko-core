@@ -1,6 +1,6 @@
 # Sanko Vault — Privacy & Security Notice
 
-**Version 1.4 · October 2026 · Applicable to MVP v1**
+**Version 1.5 · November 2026 · Applicable to MVP v1**
 
 ---
 
@@ -21,8 +21,9 @@ When you use Sanko Vault via WhatsApp, the following data is stored:
 
 ### The website forms
 
-The two forms on sanko.africa are the only data Sanko collects from people who are
-not using the Vault. Submitting one does not create a Vault account.
+The two forms on sanko.africa are the only personal data Sanko collects from people
+who are not using the Vault. Submitting one does not create a Vault account. Page
+visits are counted in aggregate; see "Website visit counts" below.
 
 | Data | Why it is stored |
 |---|---|
@@ -38,6 +39,16 @@ readable only with the operator's service-role key.
 
 The notification the operator receives when a form is submitted carries a name and
 which form it was. The phone number is deliberately not copied into email.
+
+### Website visit counts
+
+sanko.africa uses Vercel Web Analytics to count page views. It sets no cookies and
+does not store your IP address. Vercel tells a visit apart from another by a hash of
+the request, which it discards after 24 hours, so a visitor cannot be followed from
+one day to the next. Sanko sees only totals: how many views each page had, which
+site sent the visitor, and the country, device type and browser in aggregate.
+Those totals are shown to the operator next to the number of form submissions, to
+judge whether the site is reaching the people it is meant for.
 
 ### Patient records
 

@@ -14,6 +14,8 @@ const { requireAuth } = require('./utils/basicAuth');
 // destructured reference would keep pointing at the real one.
 const db = require('./services/supabase');
 const { renderAdminPage } = require('./adminPage');
+// Namespace, like db: tests swap getSiteTraffic to stay offline.
+const siteAnalytics = require('./services/siteAnalytics');
 const governance = require('./services/governance');
 const { BACKUP_DIR } = require('../scripts/backup');
 const { promptVersion } = require('./agent/prompt');
@@ -48,10 +50,14 @@ router.get('/', auth, async (req, res) => {
     ]);
     // Separate from the batch above so a missing 016 costs the Sign-ups view
     // and nothing else.
-    const signups = await db.adminGetSignups().catch(err => {
-      log.warn('admin.signups_unavailable', { error: err.message, hint: 'apply supabase/016 and 028' });
-      return null;
-    });
+    const [signups, traffic] = await Promise.all([
+      db.adminGetSignups().catch(err => {
+        log.warn('admin.signups_unavailable', { error: err.message, hint: 'apply supabase/016 and 028' });
+        return null;
+      }),
+      // Never throws; an unconfigured or failing Vercel call says so on the page.
+      siteAnalytics.getSiteTraffic(),
+    ]);
 
     res.setHeader('Content-Type', 'text/html; charset=utf-8');
     res.setHeader('Cache-Control', 'no-store');
@@ -65,6 +71,7 @@ router.get('/', auth, async (req, res) => {
       quality,
       transcripts,
       signups,
+      traffic,
       evaluation: latestEvalResult(),
       backup: backupStatus(),
       governance: await governanceStatus(),

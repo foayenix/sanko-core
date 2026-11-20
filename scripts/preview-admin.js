@@ -117,6 +117,13 @@ fixture.signups = {
   limit: 500,
   attribution: true,
 };
+fixture.traffic = {
+  configured: true, ok: true, last7: 412, last30: 1_870, fetched_at: ago(3),
+  topPaths: [
+    { path: '/', views: 1_104 }, { path: '/plants/', views: 233 }, { path: '/plants/dongoyaro/', views: 61 },
+    { path: '/privacy/', views: 22 }, { path: '/about/', views: 19 },
+  ],
+};
 
 app.use('/admin/assets', express.static(path.join(__dirname, '..', 'sanko-landing page', 'public', 'fonts')));
 app.get('/admin', (_req, res) => res.type('html').send(renderAdminPage(fixture)));

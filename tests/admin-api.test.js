@@ -247,6 +247,28 @@ describe('landing sign-ups', () => {
     assert.match(html, /&lt;script&gt;alert\(1\)&lt;\/script&gt;/);
   });
 
+  it('puts website page views next to applications, and says when they are not connected', async () => {
+    const analytics = require('../src/services/siteAnalytics');
+    const original = analytics.getSiteTraffic;
+    fake.store.seedApplication();
+    fake.store.seedApplication();
+    try {
+      const page = async () => (await fetch(`${base}/admin`, { headers: { Authorization: AUTH } })).text();
+
+      analytics.getSiteTraffic = async () => ({ configured: false });
+      assert.match(await page(), /Not connected\. Set <code>VERCEL_ANALYTICS_TOKEN<\/code>/);
+
+      analytics.getSiteTraffic = async () => ({ configured: true, ok: true, last7: 50, last30: 200, topPaths: [{ path: '/<b>', views: 9 }], fetched_at: new Date().toISOString() });
+      const html = await page();
+      assert.match(html, /Page views · 30 days<\/span><strong>200</);
+      // 2 applications in 30 days over 200 views.
+      assert.match(html, /Applications per view<\/span><strong>1\.0%</);
+      assert.match(html, /\/&lt;b&gt;/);
+    } finally {
+      analytics.getSiteTraffic = original;
+    }
+  });
+
   it('keeps the rest of the control room when the sign-up tables are missing', async () => {
     db.adminGetSignups = async () => { throw new Error('relation "test_applications" does not exist'); };
 
