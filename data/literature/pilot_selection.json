@@ -1,0 +1,356 @@
+{
+  "generated_from_counts_dated": "2026-11-18",
+  "method": {
+    "slots": {
+      "score": 14,
+      "safety": 3,
+      "identity": 3
+    },
+    "cap_total_hits": 500,
+    "min_total_hits": 10,
+    "min_use_breadth_for_score_slots": 3,
+    "score": "2*use_breadth/max + ln(1+human_hits)/ln(1+max) + 0.5*ln(1+total_hits)/ln(1+max)",
+    "inputs": [
+      "data/plants/plants.json",
+      "data/plants/observations.json",
+      "data/plants/ambiguities.json",
+      "data/literature/searches.json (count queries)"
+    ],
+    "note": "Hit counts are Europe PMC query results, not verified study counts."
+  },
+  "verification_workload_total_hits": 5130,
+  "selected": [
+    {
+      "slot": "score",
+      "reason": "highest combined use breadth and literature volume",
+      "taxon_id": "plant-gymnanthemum-amygdalinum-5dbeaea320",
+      "accepted_botanical": "Gymnanthemum amygdalinum",
+      "use_breadth": 9,
+      "total_hits": 454,
+      "human_hits": 9,
+      "safety_hits": 25,
+      "ambiguous": false,
+      "score": 2.4956
+    },
+    {
+      "slot": "score",
+      "reason": "highest combined use breadth and literature volume",
+      "taxon_id": "plant-lawsonia-inermis-7ff9dfd7a9",
+      "accepted_botanical": "Lawsonia inermis",
+      "use_breadth": 5,
+      "total_hits": 377,
+      "human_hits": 30,
+      "safety_hits": 13,
+      "ambiguous": false,
+      "score": 1.8798
+    },
+    {
+      "slot": "score",
+      "reason": "highest combined use breadth and literature volume",
+      "taxon_id": "plant-kalanchoe-pinnata-f601832f73",
+      "accepted_botanical": "Kalanchoe pinnata",
+      "use_breadth": 6,
+      "total_hits": 287,
+      "human_hits": 9,
+      "safety_hits": 8,
+      "ambiguous": false,
+      "score": 1.873
+    },
+    {
+      "slot": "score",
+      "reason": "highest combined use breadth and literature volume",
+      "taxon_id": "plant-abrus-precatorius-15b67329f2",
+      "accepted_botanical": "Abrus precatorius",
+      "use_breadth": 5,
+      "total_hits": 357,
+      "human_hits": 22,
+      "safety_hits": 53,
+      "ambiguous": false,
+      "score": 1.8261
+    },
+    {
+      "slot": "score",
+      "reason": "highest combined use breadth and literature volume",
+      "taxon_id": "plant-senna-occidentalis-9d5c9f2d10",
+      "accepted_botanical": "Senna occidentalis",
+      "use_breadth": 5,
+      "total_hits": 283,
+      "human_hits": 8,
+      "safety_hits": 32,
+      "ambiguous": false,
+      "score": 1.6543
+    },
+    {
+      "slot": "score",
+      "reason": "highest combined use breadth and literature volume",
+      "taxon_id": "plant-mimosa-pudica-22130774b9",
+      "accepted_botanical": "Mimosa pudica",
+      "use_breadth": 5,
+      "total_hits": 434,
+      "human_hits": 6,
+      "safety_hits": 8,
+      "ambiguous": false,
+      "score": 1.6324
+    },
+    {
+      "slot": "score",
+      "reason": "highest combined use breadth and literature volume",
+      "taxon_id": "plant-aframomum-melegueta-5379374059",
+      "accepted_botanical": "Aframomum melegueta",
+      "use_breadth": 5,
+      "total_hits": 134,
+      "human_hits": 6,
+      "safety_hits": 5,
+      "ambiguous": false,
+      "score": 1.5747
+    },
+    {
+      "slot": "score",
+      "reason": "highest combined use breadth and literature volume",
+      "taxon_id": "plant-vitellaria-paradoxa-de73616dac",
+      "accepted_botanical": "Vitellaria paradoxa",
+      "use_breadth": 5,
+      "total_hits": 159,
+      "human_hits": 4,
+      "safety_hits": 6,
+      "ambiguous": false,
+      "score": 1.5256
+    },
+    {
+      "slot": "score",
+      "reason": "highest combined use breadth and literature volume",
+      "taxon_id": "plant-spondias-mombin-e4158596a0",
+      "accepted_botanical": "Spondias mombin",
+      "use_breadth": 6,
+      "total_hits": 226,
+      "human_hits": 0,
+      "safety_hits": 9,
+      "ambiguous": false,
+      "score": 1.4678
+    },
+    {
+      "slot": "score",
+      "reason": "highest combined use breadth and literature volume",
+      "taxon_id": "plant-kigelia-africana-46d315983f",
+      "accepted_botanical": "Kigelia africana",
+      "use_breadth": 6,
+      "total_hits": 121,
+      "human_hits": 0,
+      "safety_hits": 5,
+      "ambiguous": false,
+      "score": 1.4372
+    },
+    {
+      "slot": "score",
+      "reason": "highest combined use breadth and literature volume",
+      "taxon_id": "plant-irvingia-gabonensis-6202d9e552",
+      "accepted_botanical": "Irvingia gabonensis",
+      "use_breadth": 4,
+      "total_hits": 130,
+      "human_hits": 9,
+      "safety_hits": 3,
+      "ambiguous": false,
+      "score": 1.4341
+    },
+    {
+      "slot": "score",
+      "reason": "highest combined use breadth and literature volume",
+      "taxon_id": "plant-ageratum-conyzoides-79aac7b35c",
+      "accepted_botanical": "Ageratum conyzoides",
+      "use_breadth": 4,
+      "total_hits": 402,
+      "human_hits": 4,
+      "safety_hits": 13,
+      "ambiguous": false,
+      "score": 1.3712
+    },
+    {
+      "slot": "score",
+      "reason": "highest combined use breadth and literature volume",
+      "taxon_id": "plant-xylopia-aethiopica-d5773119a0",
+      "accepted_botanical": "Xylopia aethiopica",
+      "use_breadth": 5,
+      "total_hits": 163,
+      "human_hits": 1,
+      "safety_hits": 12,
+      "ambiguous": false,
+      "score": 1.3702
+    },
+    {
+      "slot": "score",
+      "reason": "highest combined use breadth and literature volume",
+      "taxon_id": "plant-tetrapleura-tetraptera-fe165781bd",
+      "accepted_botanical": "Tetrapleura tetraptera",
+      "use_breadth": 5,
+      "total_hits": 96,
+      "human_hits": 1,
+      "safety_hits": 6,
+      "ambiguous": false,
+      "score": 1.3443
+    },
+    {
+      "slot": "safety",
+      "reason": "most safety-titled studies among remaining taxa",
+      "taxon_id": "plant-cascabela-thevetia-40a0c1a165",
+      "accepted_botanical": "Cascabela thevetia",
+      "use_breadth": 1,
+      "total_hits": 167,
+      "human_hits": 21,
+      "safety_hits": 38,
+      "ambiguous": false,
+      "score": 0.9811
+    },
+    {
+      "slot": "safety",
+      "reason": "most safety-titled studies among remaining taxa",
+      "taxon_id": "plant-garcinia-kola-b2da88781b",
+      "accepted_botanical": "Garcinia kola",
+      "use_breadth": 7,
+      "total_hits": 296,
+      "human_hits": 5,
+      "safety_hits": 24,
+      "ambiguous": true,
+      "score": 1.9873
+    },
+    {
+      "slot": "safety",
+      "reason": "most safety-titled studies among remaining taxa",
+      "taxon_id": "plant-origanum-majorana-b926c640ff",
+      "accepted_botanical": "Origanum majorana",
+      "use_breadth": 1,
+      "total_hits": 389,
+      "human_hits": 14,
+      "safety_hits": 23,
+      "ambiguous": false,
+      "score": 0.9573
+    },
+    {
+      "slot": "identity",
+      "reason": "local names contested between taxa; tests the identity section",
+      "taxon_id": "plant-citrus-aurantiifolia-e96354d670",
+      "accepted_botanical": "Citrus aurantiifolia",
+      "use_breadth": 7,
+      "total_hits": 437,
+      "human_hits": 5,
+      "safety_hits": 13,
+      "ambiguous": true,
+      "score": 2.0064
+    },
+    {
+      "slot": "identity",
+      "reason": "local names contested between taxa; tests the identity section",
+      "taxon_id": "plant-piper-guineense-b925235b59",
+      "accepted_botanical": "Piper guineense",
+      "use_breadth": 6,
+      "total_hits": 106,
+      "human_hits": 1,
+      "safety_hits": 7,
+      "ambiguous": true,
+      "score": 1.5491
+    },
+    {
+      "slot": "identity",
+      "reason": "local names contested between taxa; tests the identity section",
+      "taxon_id": "plant-nauclea-latifolia-53fa5cb38c",
+      "accepted_botanical": "Nauclea latifolia",
+      "use_breadth": 6,
+      "total_hits": 112,
+      "human_hits": 0,
+      "safety_hits": 5,
+      "ambiguous": true,
+      "score": 1.4334
+    }
+  ],
+  "excluded_by_cap": [
+    {
+      "taxon_id": "plant-zingiber-officinale-8932efc2ae",
+      "accepted_botanical": "Zingiber officinale",
+      "total_hits": 2877,
+      "score": 3.0539
+    },
+    {
+      "taxon_id": "plant-azadirachta-indica-602368d8f9",
+      "accepted_botanical": "Azadirachta indica",
+      "total_hits": 2598,
+      "score": 2.8729
+    },
+    {
+      "taxon_id": "plant-psidium-guajava-ef93129072",
+      "accepted_botanical": "Psidium guajava",
+      "total_hits": 1485,
+      "score": 2.7852
+    },
+    {
+      "taxon_id": "plant-ocimum-gratissimum-db8de35590",
+      "accepted_botanical": "Ocimum gratissimum",
+      "total_hits": 540,
+      "score": 2.6861
+    },
+    {
+      "taxon_id": "plant-carica-papaya-d45ff84fbe",
+      "accepted_botanical": "Carica papaya",
+      "total_hits": 1886,
+      "score": 2.6374
+    },
+    {
+      "taxon_id": "plant-allium-sativum-49429a58d8",
+      "accepted_botanical": "Allium sativum",
+      "total_hits": 3038,
+      "score": 2.5911
+    },
+    {
+      "taxon_id": "plant-cymbopogon-citratus-d5de29a9fd",
+      "accepted_botanical": "Cymbopogon citratus",
+      "total_hits": 898,
+      "score": 2.3741
+    },
+    {
+      "taxon_id": "plant-jatropha-curcas-b217025a04",
+      "accepted_botanical": "Jatropha curcas",
+      "total_hits": 1477,
+      "score": 2.2113
+    },
+    {
+      "taxon_id": "plant-citrus-aurantium-6b3a87e59c",
+      "accepted_botanical": "Citrus aurantium",
+      "total_hits": 3751,
+      "score": 2.1949
+    },
+    {
+      "taxon_id": "plant-moringa-oleifera-6a8b6f1fb2",
+      "accepted_botanical": "Moringa oleifera",
+      "total_hits": 3555,
+      "score": 2.1923
+    },
+    {
+      "taxon_id": "plant-curcuma-longa-cac6186f50",
+      "accepted_botanical": "Curcuma longa",
+      "total_hits": 4872,
+      "score": 2.1271
+    },
+    {
+      "taxon_id": "plant-mangifera-indica-4d66bda6d8",
+      "accepted_botanical": "Mangifera indica",
+      "total_hits": 2314,
+      "score": 2.1255
+    },
+    {
+      "taxon_id": "plant-momordica-charantia-2e38e78d6e",
+      "accepted_botanical": "Momordica charantia",
+      "total_hits": 1752,
+      "score": 2.0406
+    },
+    {
+      "taxon_id": "plant-cocos-nucifera-20f1d857c6",
+      "accepted_botanical": "Cocos nucifera",
+      "total_hits": 979,
+      "score": 2.0339
+    },
+    {
+      "taxon_id": "plant-persea-americana-4797acba26",
+      "accepted_botanical": "Persea americana",
+      "total_hits": 1212,
+      "score": 2.0133
+    }
+  ]
+}

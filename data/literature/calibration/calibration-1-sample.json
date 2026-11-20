@@ -1,0 +1,206 @@
+{
+  "seed": "calibration-1",
+  "drawn_at": "2026-11-19",
+  "entries": [
+    {
+      "entry_id": "entry-469cc7a94583",
+      "stratum": "priority"
+    },
+    {
+      "entry_id": "entry-b23c4cd23d28",
+      "stratum": "priority"
+    },
+    {
+      "entry_id": "entry-117afa93c152",
+      "stratum": "priority"
+    },
+    {
+      "entry_id": "entry-e1277af20631",
+      "stratum": "priority"
+    },
+    {
+      "entry_id": "entry-5c19cb003b9c",
+      "stratum": "priority"
+    },
+    {
+      "entry_id": "entry-62c5b91377d1",
+      "stratum": "priority"
+    },
+    {
+      "entry_id": "entry-437db439e822",
+      "stratum": "priority"
+    },
+    {
+      "entry_id": "entry-e9c865e30109",
+      "stratum": "priority"
+    },
+    {
+      "entry_id": "entry-fc4e41746cc5",
+      "stratum": "priority"
+    },
+    {
+      "entry_id": "entry-00cb745cbf88",
+      "stratum": "priority"
+    },
+    {
+      "entry_id": "entry-b7aedfbec6d2",
+      "stratum": "priority"
+    },
+    {
+      "entry_id": "entry-7c2bc0650c0e",
+      "stratum": "priority"
+    },
+    {
+      "entry_id": "entry-14fb94f0b44d",
+      "stratum": "priority"
+    },
+    {
+      "entry_id": "entry-279ae6459c52",
+      "stratum": "priority"
+    },
+    {
+      "entry_id": "entry-374d20af0279",
+      "stratum": "priority"
+    },
+    {
+      "entry_id": "entry-5ab1602918bb",
+      "stratum": "priority"
+    },
+    {
+      "entry_id": "entry-567ce4fd4e9c",
+      "stratum": "priority"
+    },
+    {
+      "entry_id": "entry-4b0583640d3f",
+      "stratum": "priority"
+    },
+    {
+      "entry_id": "entry-27192b05f320",
+      "stratum": "priority"
+    },
+    {
+      "entry_id": "entry-0854e76928cb",
+      "stratum": "priority"
+    },
+    {
+      "entry_id": "entry-7aae940c4302",
+      "stratum": "priority"
+    },
+    {
+      "entry_id": "entry-9f573424dc34",
+      "stratum": "priority"
+    },
+    {
+      "entry_id": "entry-d96252650b9b",
+      "stratum": "priority"
+    },
+    {
+      "entry_id": "entry-cea350c99606",
+      "stratum": "priority"
+    },
+    {
+      "entry_id": "entry-2de438b93636",
+      "stratum": "priority"
+    },
+    {
+      "entry_id": "entry-c305cbf7220c",
+      "stratum": "priority"
+    },
+    {
+      "entry_id": "entry-d767bb0784a1",
+      "stratum": "priority"
+    },
+    {
+      "entry_id": "entry-83031d41edbc",
+      "stratum": "priority"
+    },
+    {
+      "entry_id": "entry-eb24537596d5",
+      "stratum": "priority"
+    },
+    {
+      "entry_id": "entry-f5a747731c07",
+      "stratum": "priority"
+    },
+    {
+      "entry_id": "entry-58538b24db31",
+      "stratum": "other"
+    },
+    {
+      "entry_id": "entry-4f928cfadc2c",
+      "stratum": "other"
+    },
+    {
+      "entry_id": "entry-f12a9172922b",
+      "stratum": "other"
+    },
+    {
+      "entry_id": "entry-d5b3503aee88",
+      "stratum": "other"
+    },
+    {
+      "entry_id": "entry-fc6339201b15",
+      "stratum": "other"
+    },
+    {
+      "entry_id": "entry-11a8cf339691",
+      "stratum": "other"
+    },
+    {
+      "entry_id": "entry-495de59b5d00",
+      "stratum": "other"
+    },
+    {
+      "entry_id": "entry-cb9a1c93cd2f",
+      "stratum": "other"
+    },
+    {
+      "entry_id": "entry-27181a2fc5cc",
+      "stratum": "other"
+    },
+    {
+      "entry_id": "entry-69da9012cb79",
+      "stratum": "other"
+    },
+    {
+      "entry_id": "entry-7d461fdcc67f",
+      "stratum": "other"
+    },
+    {
+      "entry_id": "entry-d9d2a99b7851",
+      "stratum": "other"
+    },
+    {
+      "entry_id": "entry-02e55a37b947",
+      "stratum": "other"
+    },
+    {
+      "entry_id": "entry-020d1ef90430",
+      "stratum": "other"
+    },
+    {
+      "entry_id": "entry-b093369f0df0",
+      "stratum": "other"
+    },
+    {
+      "entry_id": "entry-cd4605104d47",
+      "stratum": "other"
+    },
+    {
+      "entry_id": "entry-81560c7c232e",
+      "stratum": "other"
+    },
+    {
+      "entry_id": "entry-01a1435f9dd0",
+      "stratum": "other"
+    },
+    {
+      "entry_id": "entry-ac14b5865279",
+      "stratum": "other"
+    },
+    {
+      "entry_id": "entry-893cd5d50bb9",
+      "stratum": "other"
+    }
+  ]
+}

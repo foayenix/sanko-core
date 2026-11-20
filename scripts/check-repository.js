@@ -12,7 +12,7 @@ const errors = [];
 for (const file of files) {
   if (/(^|\/)(node_modules|dist|backups|logs|models|\.baileys-auth|\.git)(\/|$)/.test(file) ||
       /(^|\/)\.env(?:\.|$)/.test(file) && file !== '.env.example' ||
-      /^(tmp\/|evals\/cases\/drafts\/|data\/plants\/references\/staged\/)/.test(file) ||
+      /^(tmp\/|build\/|evals\/cases\/drafts\/|data\/plants\/references\/staged\/|data\/literature\/review\/)/.test(file) ||
       file === 'data/plants/review_queue.json') errors.push(`Private/generated file tracked: ${file}`);
   if (!fs.existsSync(path.join(root, file))) errors.push(`Missing tracked file: ${file}`);
 }

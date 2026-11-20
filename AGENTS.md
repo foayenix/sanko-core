@@ -20,3 +20,12 @@ Patient continuity work: read `SANKO_SOURCE_OF_TRUTH.md`,
 `docs/SANKO_PATIENT_CONTINUITY_IMPLEMENTATION_PLAN.md` and
 `docs/CARE_IMPLEMENTATION.md`. The last document records the implemented synthetic
 slice and unresolved release gates; roadmap intent is not production evidence.
+
+Evidence Atlas work (open literature index, gated evidence profiles): read
+`docs/SANKO_EVIDENCE_ATLAS_SPEC.md`. The Atlas never reads Vault, care or
+formulation data, and consumer health publishing is not approved.
+
+Reviewer sheets for the literature index: when the founder brings spreadsheets
+from reviewers, or asks for review status or new sheets, follow
+`docs/LITERATURE_COORDINATOR_RUNBOOK.md`. Never fill or correct a reviewer's
+decisions, and never commit their sheets.
