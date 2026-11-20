@@ -46,6 +46,12 @@ router.get('/', auth, async (req, res) => {
         return [];
       }),
     ]);
+    // Separate from the batch above so a missing 016 costs the Sign-ups view
+    // and nothing else.
+    const signups = await db.adminGetSignups().catch(err => {
+      log.warn('admin.signups_unavailable', { error: err.message, hint: 'apply supabase/016 and 028' });
+      return null;
+    });
 
     res.setHeader('Content-Type', 'text/html; charset=utf-8');
     res.setHeader('Cache-Control', 'no-store');
@@ -58,6 +64,7 @@ router.get('/', auth, async (req, res) => {
       corrections,
       quality,
       transcripts,
+      signups,
       evaluation: latestEvalResult(),
       backup: backupStatus(),
       governance: await governanceStatus(),
@@ -134,6 +141,44 @@ router.post('/api/review/transcript', auth, json, guard, async (req, res) => {
   } catch (err) {
     log.warn('admin.transcript_review_rejected', { error: err.message });
     res.status(400).json({ error: err.message });
+  }
+});
+
+// ─── landing sign-ups ─────────────────────────────────────────────────────────
+//
+// Decisions on what the landing forms collected. Same guards as every other
+// write: Basic Auth, the custom header, and attribution from the account.
+
+function signupError(res, err, event) {
+  if (err.code === 'SIGNUP_CONFLICT') return res.status(409).json({ error: err.message });
+  log.warn(event, { error: err.message });
+  return res.status(400).json({ error: 'The decision was not saved. Check that migration 028 is applied, then try again.' });
+}
+
+router.post('/api/signups/applications/:id/decision', auth, json, guard, async (req, res) => {
+  const { decision, note } = req.body ?? {};
+  if (!['approve', 'decline'].includes(decision)) {
+    return res.status(400).json({ error: "decision must be 'approve' or 'decline'." });
+  }
+  if (note != null && (typeof note !== 'string' || note.length > 1000)) {
+    return res.status(400).json({ error: 'note must be text of at most 1,000 characters.' });
+  }
+  try {
+    const result = await db.recordApplicationDecision({
+      id: req.params.id, decision, reviewer_ref: req.operator.ref, note: note?.trim() || null,
+    });
+    res.json({ ok: true, ...result });
+  } catch (err) {
+    signupError(res, err, 'admin.application_decision_rejected');
+  }
+});
+
+router.post('/api/signups/enquiries/:id/responded', auth, json, guard, async (req, res) => {
+  try {
+    const result = await db.recordEnquiryResponse({ id: req.params.id, reviewer_ref: req.operator.ref });
+    res.json({ ok: true, ...result });
+  } catch (err) {
+    signupError(res, err, 'admin.enquiry_response_rejected');
   }
 });
 
