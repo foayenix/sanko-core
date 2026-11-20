@@ -5,9 +5,11 @@
 //   node scripts/literature-review.js verify --file reviewed.csv --reviewer <id> [--date YYYY-MM-DD]
 //   node scripts/literature-review.js status [--taxa pilot|id,id]
 //   node scripts/literature-review.js calibration-sample [--seed calibration-1] [--size 50]
+//   node scripts/literature-review.js calibration-sheet  --seed <seed>     # re-export a blank sheet from a committed sample
 //   node scripts/literature-review.js calibration-report --seed <seed> --a a.csv --reviewer-a <id> --b b.csv --reviewer-b <id>
 //
-// The reviewer guide is docs/LITERATURE_REVIEWER_GUIDE.md.
+// The reviewer guide is docs/LITERATURE_REVIEWER_GUIDE.md; the session
+// procedure for running these commands is docs/LITERATURE_COORDINATOR_RUNBOOK.md.
 //
 // `queue` defaults to --scope priority: entries the automated pass flagged as
 // safety studies or human studies (founder decision, 19 November 2026). The
@@ -78,7 +80,7 @@ function allowedValues() {
     ['collection_country', 'two-letter ISO code (NG, GH, CM…) or not_reported', 'Where the plant material was collected.'],
     ['study_country', 'two-letter ISO code or not_reported', 'Where the experiment or study took place.'],
     ['voucher_reported', vocab.VOUCHER.join('; '), 'Required for every include. See the guide.'],
-    ['notes', 'free text', 'Your own words only. Never paste abstract or article text.'],
+    ['notes', 'free text, at most 280 characters', 'Your own words only. Never paste abstract or article text.'],
     ['minutes_spent', 'number', 'Calibration sheets only: minutes spent on this entry.'],
   ];
   return csv.stringify(['column', 'allowed_values', 'notes'], rows.map(([column, allowed_values, notes]) => ({ column, allowed_values, notes })));
@@ -234,6 +236,7 @@ function calibrationReport({ data, manifest, rowsA, rowsB, reviewerA, reviewerB 
       const decision = (row.decision || '').toLowerCase();
       if (row.decision && !['include', 'exclude'].includes(decision)) problems.push(`${reviewer}: ${row.entry_id} decision must be include or exclude`);
       if (decision === 'exclude' && !vocab.EXCLUSION_REASON.includes(row.exclusion_reason)) problems.push(`${reviewer}: ${row.entry_id} exclusion needs a reason`);
+      if ((row.notes || '').length > store.NOTES_MAX) problems.push(`${reviewer}: ${row.entry_id} notes longer than ${store.NOTES_MAX} characters`);
       if (decision === 'include') {
         const missing = CALIBRATION_REQUIRED.filter(field => !row[field]);
         if (missing.length) problems.push(`${reviewer}: ${row.entry_id} missing ${missing.join(', ')}`);
@@ -311,6 +314,22 @@ function main(argv = process.argv.slice(2)) {
     writeSheet(out, CALIBRATION_HEADER, rows);
     console.log(`Wrote ${rows.length} entries to ${path.relative(root, out)} (blind; give each reviewer their own copy)`);
     console.log(`Sample manifest: ${path.relative(root, manifestFile)} (commit it)`);
+    return;
+  }
+
+  if (command === 'calibration-sheet') {
+    // Sheets are gitignored and a new container has none; the committed manifest
+    // is enough to regenerate the identical blank sheet.
+    const seed = flag('--seed');
+    const manifestFile = path.join(store.DEFAULT_DIRECTORY, 'calibration', `${seed}-sample.json`);
+    if (!seed || !fs.existsSync(manifestFile)) throw new Error('--seed must name an existing calibration sample');
+    const manifest = JSON.parse(fs.readFileSync(manifestFile, 'utf8'));
+    const entries = new Map(data.entries.map(entry => [entry.entry_id, entry]));
+    const sample = manifest.entries.map(({ entry_id, stratum }) => ({ entry: entries.get(entry_id), stratum }));
+    if (sample.some(item => !item.entry)) throw new Error('the sample names entries that no longer exist');
+    const out = path.join(store.DEFAULT_DIRECTORY, 'review', `${seed}.csv`);
+    writeSheet(out, CALIBRATION_HEADER, calibrationRows(data, sample, names));
+    console.log(`Wrote ${sample.length} entries to ${path.relative(root, out)}`);
     return;
   }
 

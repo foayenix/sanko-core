@@ -410,3 +410,16 @@ describe('reviewer calibration', () => {
     assert.match(review.allowedValues(), /voucher_reported,yes; no; not_stated/);
   });
 });
+
+describe('reviewer notes', () => {
+  it('rejects notes long enough to hold a pasted passage', () => {
+    const data = emptyStore();
+    const entry = addRecord(data, epmc());
+    const long = 'x'.repeat(store.NOTES_MAX + 1);
+    assert.throws(() => review.verify(data, [{ entry_id: entry.entry_id, decision: 'include', voucher_reported: 'yes', notes: long }],
+      { reviewer: 'reviewer-a', date: '2026-11-20' }), /notes longer than 280/);
+    const ok = review.verify(data, [{ entry_id: entry.entry_id, decision: 'include', voucher_reported: 'yes', notes: 'polyherbal; commercial source' }],
+      { reviewer: 'reviewer-a', date: '2026-11-20' });
+    assert.equal(ok.added, 1);
+  });
+});

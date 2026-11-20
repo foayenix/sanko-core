@@ -121,6 +121,7 @@ const SEARCH_FIELDS = ['search_id', 'kind', 'taxon_id', 'provider', 'query', 'ex
 const EVENT_FIELDS = ['event_id', 'entry_id', 'reviewer', 'verified_at', 'decision', 'exclusion_reason', 'fields', 'notes'];
 
 const DATE = /^\d{4}-\d{2}-\d{2}$/;
+const NOTES_MAX = 280;
 const COUNTRY = /^[A-Z]{2}$/;
 
 function checkValue(value, rule) {
@@ -187,6 +188,9 @@ function validate(store, { taxonIds = null } = {}) {
     if (event.decision === 'exclude' && !vocab.EXCLUSION_REASON.includes(event.exclusion_reason)) errors.push(`${where}: exclusion requires a reason`);
     if (event.decision === 'include' && event.exclusion_reason !== null) errors.push(`${where}: an include has no exclusion_reason`);
     if (event.notes !== null && typeof event.notes !== 'string') errors.push(`${where}: notes`);
+    // Notes are the reviewer's own brief words. The cap keeps them that way and
+    // stops a pasted abstract or passage from being committed.
+    if (typeof event.notes === 'string' && event.notes.length > NOTES_MAX) errors.push(`${where}: notes longer than ${NOTES_MAX} characters`);
     for (const [field, value] of Object.entries(event.fields || {})) {
       if (!(field in VERIFIABLE)) errors.push(`${where}: field "${field}" is not verifiable`);
       else if (!checkValue(value, VERIFIABLE[field])) errors.push(`${where}: ${field}`);
@@ -239,6 +243,7 @@ function effectiveEntries(store) {
 
 module.exports = {
   DEFAULT_DIRECTORY,
+  NOTES_MAX,
   FILES,
   VERIFIABLE,
   effectiveEntries,

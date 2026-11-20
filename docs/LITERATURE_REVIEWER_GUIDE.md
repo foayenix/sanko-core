@@ -25,7 +25,8 @@ human studies first**. Your sheets will mostly contain those.
 
 1. **Never copy text from a study** into any cell — not the abstract, not a
    sentence, not a table. The index stores bibliographic facts and your
-   classification only. Write notes in your own words.
+   classification only. Write notes in your own words, at most 280
+   characters; a longer note is rejected.
 2. **Classify what the study reports, not what you believe.** If the paper says
    it is about *Vernonia amygdalina*, you record that, even if you doubt the
    identification. Doubts go in `notes`.
@@ -192,11 +193,19 @@ they measure what that priority misses.
 
 ## 9. Coordinator commands
 
+A Claude Code session runs these on the founder's behalf, following
+`docs/LITERATURE_COORDINATOR_RUNBOOK.md`. Reviewers only need sections 1–8.
 Run from the repository root. Sheets are written to `data/literature/review/`,
 which is not committed; send them to reviewers from there.
 
 ```bash
 npm run literature:review -- calibration-sample --seed calibration-1
+```
+
+A blank copy of an existing sample can be regenerated at any time:
+
+```bash
+npm run literature:review -- calibration-sheet --seed calibration-1
 ```
 
 ```bash
