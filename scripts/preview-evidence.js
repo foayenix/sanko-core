@@ -13,6 +13,7 @@ if (process.env.NODE_ENV === 'production' || !['127.0.0.1', 'localhost'].include
 const name = `sanko_evidence_preview_${crypto.randomBytes(6).toString('hex')}`;
 const target = new URL(base);
 target.pathname = '/' + name;
+require('../tests/helpers/postgres').ensureSupabaseRoles(base.href);
 execFileSync('psql', [base.href, '-X', '-v', 'ON_ERROR_STOP=1', '-c', `create database ${name}`], {
   stdio: 'pipe',
 });

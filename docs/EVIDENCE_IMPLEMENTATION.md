@@ -130,8 +130,14 @@ fictional principals, a synthetic formulation enrolment, a programme with capaci
 a reviewer profile explicitly covering `ingredient_overview`, and assignments.
 Do not use fixture strings to provision real people or demonstrate qualification.
 
-Use PostgreSQL 16 tools on PATH and a dedicated loopback test cluster with `anon`,
-`authenticated`, and `service_role BYPASSRLS` roles. No production credentials:
+Use PostgreSQL 16 tools on PATH and a dedicated loopback test cluster.
+`EVIDENCE_TEST_DB_URL` must point at a local (`127.0.0.1`/`localhost`) Postgres
+as a user allowed to create databases (and roles, on first run). The migrations
+need Supabase's `anon`, `authenticated` and `service_role BYPASSRLS` roles; the
+preview and the `test:care`, `test:evidence` and `test:channel` runners create any
+that are missing, as CI does, so no manual role setup is needed.
+
+No production credentials:
 
 ```sh
 EVIDENCE_TEST_DB_URL=postgresql://postgres@127.0.0.1:55441/postgres npm run test:evidence
