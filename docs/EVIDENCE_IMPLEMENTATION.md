@@ -36,6 +36,8 @@ operational approvals, or later releases.
 - Capacity/triage, explicit analyst/reviewer assignments and revocation, waitlist,
   decline, focused questions and attributed owner replies. Replies do not edit
   the Vault or rewrite confirmed composition. Recipe changes require a new request.
+  The triage reason is kept apart from the analyst's question (`027`); the owner
+  sees it only for a waitlist or decline, never as a question addressed to them.
 - Manual search protocol, executed queries/dates, coverage failures, source
   metadata/access/licence/status/screening, extraction/locator/applicability,
   study quality, finding direction and claim provenance. No external fetching,

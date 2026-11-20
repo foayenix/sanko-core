@@ -630,6 +630,34 @@ test('Evidence PostgreSQL acceptance — synthetic manual workflow', async t => 
     },
   );
   await t.test(
+    'F07 the triage reason is not an owner question and survives a later one',
+    async () => {
+      let r = await accepted();
+      let owner = await act('owner', 'get', {}, r);
+      assert.equal(owner.question, null, 'a triage reason must not read as a question');
+      assert.equal(owner.triage_reason, null, 'an acceptance note stays with staff');
+      assert.equal(
+        (await act('analyst', 'get', {}, r)).triage_reason,
+        'Fictional capacity and qualified test identities',
+      );
+      r = await write('analyst', 'ask', { question: 'Which plant part was reported?' }, r);
+      owner = await act('owner', 'get', {}, r);
+      assert.equal(owner.question, 'Which plant part was reported?');
+      assert.equal(
+        (await act('analyst', 'get', {}, r)).triage_reason,
+        'Fictional capacity and qualified test identities',
+      );
+
+      for (const status of ['waitlisted', 'declined']) {
+        let s = await submitted();
+        s = await write('admin', 'triage', { status, reason: `Fictional ${status} reason` }, s);
+        owner = await act('owner', 'get', {}, s);
+        assert.equal(owner.triage_reason, `Fictional ${status} reason`);
+        assert.equal(owner.question, null);
+      }
+    },
+  );
+  await t.test(
     'AT21 portal evidence erasure revokes sessions without deleting Vault formulations',
     async () => {
       const previous = fixture;
