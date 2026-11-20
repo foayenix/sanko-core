@@ -167,3 +167,116 @@ describe('admin write endpoints', () => {
     assert.equal(response.status, 401);
   });
 });
+
+describe('landing sign-ups', () => {
+  const decide = (id, body, options) => post(`/admin/api/signups/applications/${id}/decision`, body, options);
+
+  it('approves a pending application and attributes it to the signed-in operator', async () => {
+    const application = fake.store.seedApplication();
+
+    const response = await decide(application.id, { decision: 'approve' });
+
+    assert.equal(response.status, 200);
+    const body = await response.json();
+    assert.equal(body.ok, true);
+    assert.ok(body.approved_at);
+    assert.equal(fake.store.testApplications[0].decided_by, OPERATOR_REF);
+    assert.equal(fake.store.testApplications[0].declined_at, null);
+  });
+
+  it('declines with an internal note', async () => {
+    const application = fake.store.seedApplication();
+
+    const response = await decide(application.id, { decision: 'decline', note: '  Not a practitioner  ' });
+
+    assert.equal(response.status, 200);
+    assert.ok(fake.store.testApplications[0].declined_at);
+    assert.equal(fake.store.testApplications[0].decision_note, 'Not a practitioner');
+  });
+
+  it('refuses to overturn a decision that has already been made', async () => {
+    const application = fake.store.seedApplication();
+    await decide(application.id, { decision: 'decline' });
+
+    const response = await decide(application.id, { decision: 'approve' });
+
+    assert.equal(response.status, 409);
+    assert.equal(fake.store.testApplications[0].approved_at, null);
+  });
+
+  it('refuses an unknown decision, an oversized note, a missing header and no credentials', async () => {
+    const application = fake.store.seedApplication();
+
+    assert.equal((await decide(application.id, { decision: 'delete' })).status, 400);
+    assert.equal((await decide(application.id, { decision: 'decline', note: 'x'.repeat(1001) })).status, 400);
+    assert.equal((await decide(application.id, { decision: 'approve' }, { csrf: false })).status, 400);
+    assert.equal((await decide(application.id, { decision: 'approve' }, { auth: null })).status, 401);
+    assert.equal(fake.store.testApplications[0].approved_at, null);
+  });
+
+  it('refuses a reviewer reference typed into the request', async () => {
+    const application = fake.store.seedApplication();
+    const response = await decide(application.id, { decision: 'approve', reviewer_ref: 'OP-FAKE1' });
+    assert.equal(response.status, 400);
+    assert.equal(fake.store.testApplications[0].approved_at, null);
+  });
+
+  it('marks an enquiry answered once', async () => {
+    const enquiry = fake.store.seedEnquiry();
+
+    const first = await post(`/admin/api/signups/enquiries/${enquiry.id}/responded`, {});
+    const second = await post(`/admin/api/signups/enquiries/${enquiry.id}/responded`, {});
+
+    assert.equal(first.status, 200);
+    assert.equal(second.status, 409);
+    assert.equal(fake.store.partnershipEnquiries[0].responded_by, OPERATOR_REF);
+  });
+
+  it('lists sign-ups in the control room with what strangers typed escaped', async () => {
+    fake.store.seedApplication({ name: '<script>alert(1)</script>', phone_number: '+2348099990000' });
+    fake.store.seedEnquiry({ message: '<img src=x onerror=alert(1)>' });
+
+    const response = await fetch(`${base}/admin`, { headers: { Authorization: AUTH } });
+    const html = await response.text();
+
+    assert.equal(response.status, 200);
+    assert.match(html, /data-view="signups"/);
+    assert.match(html, /\+2348099990000/);
+    assert.ok(!html.includes('<script>alert(1)</script>'));
+    assert.ok(!html.includes('<img src=x'));
+    assert.match(html, /&lt;script&gt;alert\(1\)&lt;\/script&gt;/);
+  });
+
+  it('puts website page views next to applications, and says when they are not connected', async () => {
+    const analytics = require('../src/services/siteAnalytics');
+    const original = analytics.getSiteTraffic;
+    fake.store.seedApplication();
+    fake.store.seedApplication();
+    try {
+      const page = async () => (await fetch(`${base}/admin`, { headers: { Authorization: AUTH } })).text();
+
+      analytics.getSiteTraffic = async () => ({ configured: false });
+      assert.match(await page(), /Not connected\. Set <code>VERCEL_ANALYTICS_TOKEN<\/code>/);
+
+      analytics.getSiteTraffic = async () => ({ configured: true, ok: true, last7: 50, last30: 200, topPaths: [{ path: '/<b>', views: 9 }], fetched_at: new Date().toISOString() });
+      const html = await page();
+      assert.match(html, /Page views · 30 days<\/span><strong>200</);
+      // 2 applications in 30 days over 200 views.
+      assert.match(html, /Applications per view<\/span><strong>1\.0%</);
+      assert.match(html, /\/&lt;b&gt;/);
+    } finally {
+      analytics.getSiteTraffic = original;
+    }
+  });
+
+  it('keeps the rest of the control room when the sign-up tables are missing', async () => {
+    db.adminGetSignups = async () => { throw new Error('relation "test_applications" does not exist'); };
+
+    const response = await fetch(`${base}/admin`, { headers: { Authorization: AUTH } });
+    const html = await response.text();
+
+    assert.equal(response.status, 200);
+    assert.match(html, /Sign-ups could not be loaded/);
+    assert.match(html, /data-view="practitioners"/);
+  });
+});

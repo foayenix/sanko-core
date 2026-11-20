@@ -27,6 +27,8 @@ function installFakeDb() {
     turnLocks: new Map(),
     knowledgeUse: [],
     knowledgeUseContributors: [],
+    testApplications: [],
+    partnershipEnquiries: [],
   };
   const seq = { fm: 0, pt: 0, tx: 0, sp: 0, id: 0 };
   const uid = () => `id-${++seq.id}`;
@@ -624,6 +626,35 @@ function installFakeDb() {
         .reverse()
         .slice(0, limit);
     },
+    // ── landing sign-ups (016, 028) ──
+    async adminGetSignups() {
+      const newest = rows => rows.slice().sort((a, b) => b.created_at.localeCompare(a.created_at));
+      return {
+        applications: newest(store.testApplications),
+        enquiries: newest(store.partnershipEnquiries),
+        counts: {
+          applications: store.testApplications.length,
+          pending: store.testApplications.filter(r => !r.approved_at && !r.declined_at).length,
+          enquiries: store.partnershipEnquiries.length,
+          unanswered: store.partnershipEnquiries.filter(r => !r.responded_at).length,
+        },
+        limit: 500,
+        attribution: true,
+      };
+    },
+    async recordApplicationDecision({ id, decision, reviewer_ref, note = null }) {
+      if (!['approve', 'decline'].includes(decision)) throw new Error("decision must be 'approve' or 'decline'.");
+      const row = store.testApplications.find(r => r.id === id && !r.approved_at && !r.declined_at);
+      if (!row) throw Object.assign(new Error('That application was not found or has already been decided.'), { code: 'SIGNUP_CONFLICT' });
+      Object.assign(row, { decided_by: reviewer_ref, decision_note: note, [decision === 'approve' ? 'approved_at' : 'declined_at']: now() });
+      return { ...row };
+    },
+    async recordEnquiryResponse({ id, reviewer_ref }) {
+      const row = store.partnershipEnquiries.find(r => r.id === id && !r.responded_at);
+      if (!row) throw Object.assign(new Error('That enquiry was not found or is already marked answered.'), { code: 'SIGNUP_CONFLICT' });
+      Object.assign(row, { responded_at: now(), responded_by: reviewer_ref });
+      return { id: row.id, responded_at: row.responded_at, responded_by: row.responded_by };
+    },
     async uploadPhoto(practitioner_id, buffer, mimeType) {
       const path = `photos/${practitioner_id}/${store.uploads.length}.jpg`;
       store.uploads.push({ path, bytes: buffer.length, mimeType });
@@ -655,6 +686,24 @@ function installFakeDb() {
       row.registered_at = row.display_name && row.region ? now() : null;
     }
     store.practitioners.push(row);
+    return row;
+  };
+  store.seedApplication = (overrides = {}) => {
+    const row = {
+      id: uid(), created_at: now(), name: 'Iya Agba', phone_number: '+2348011112222',
+      intended_use: 'Documenting family remedies', approved_at: null, declined_at: null,
+      decided_by: null, decision_note: null, ...overrides,
+    };
+    store.testApplications.push(row);
+    return row;
+  };
+  store.seedEnquiry = (overrides = {}) => {
+    const row = {
+      id: uid(), created_at: now(), name: 'Dr. Example', email: 'partner@example.org',
+      organisation: 'Example Institute', message: 'We would like to talk.',
+      responded_at: null, responded_by: null, ...overrides,
+    };
+    store.partnershipEnquiries.push(row);
     return row;
   };
   store.eventsOfType = type => store.events.filter(e => e.event_type === type);

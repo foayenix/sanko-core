@@ -102,8 +102,40 @@ fixture.governance = {
 };
 fixture.operator = { username: 'felix', ref: 'OP-4C21', legacy: false };
 
+// Landing sign-ups: one of each state, synthetic people only.
+fixture.signups = {
+  applications: [
+    { id: 'a-3', created_at: ago(35), name: 'Iya Funmi', phone_number: '+234 801 000 0003', intended_use: 'Herbalist in Abeokuta, documenting agbo recipes', approved_at: null, declined_at: null, decided_by: null, decision_note: null },
+    { id: 'a-2', created_at: ago(2_900), name: 'Chidi N.', phone_number: '+2348010000002', intended_use: null, approved_at: ago(1_400), declined_at: null, decided_by: 'OP-4C21', decision_note: null },
+    { id: 'a-1', created_at: ago(9_000), name: 'Test Bot', phone_number: '00000', intended_use: 'asdf', approved_at: null, declined_at: ago(8_000), decided_by: 'OP-4C21', decision_note: 'Spam' },
+  ],
+  enquiries: [
+    { id: 'q-2', created_at: ago(300), name: 'Dr. A. Example', email: 'a.example@example.org', organisation: 'Example University, Pharmacognosy', message: 'We run a medicinal-plant survey in Kwara and would like to discuss sharing vernacular names.', responded_at: null, responded_by: null },
+    { id: 'q-1', created_at: ago(20_000), name: 'B. Sample', email: 'b@example.com', organisation: null, message: null, responded_at: ago(19_000), responded_by: 'OP-4C21' },
+  ],
+  counts: { applications: 3, pending: 1, enquiries: 2, unanswered: 1 },
+  limit: 500,
+  attribution: true,
+};
+fixture.traffic = {
+  configured: true, ok: true, last7: 412, last30: 1_870, fetched_at: ago(3),
+  topPaths: [
+    { path: '/', views: 1_104 }, { path: '/plants/', views: 233 }, { path: '/plants/dongoyaro/', views: 61 },
+    { path: '/privacy/', views: 22 }, { path: '/about/', views: 19 },
+  ],
+};
+
 app.use('/admin/assets', express.static(path.join(__dirname, '..', 'sanko-landing page', 'public', 'fonts')));
 app.get('/admin', (_req, res) => res.type('html').send(renderAdminPage(fixture)));
+
+// Decisions in the preview change nothing durable; they echo what the server would.
+app.post('/admin/api/signups/applications/:id/decision', express.json(), (req, res) => {
+  const at = new Date().toISOString();
+  res.json({ ok: true, id: req.params.id, decided_by: fixture.operator.ref, approved_at: req.body.decision === 'approve' ? at : null, declined_at: req.body.decision === 'decline' ? at : null });
+});
+app.post('/admin/api/signups/enquiries/:id/responded', (req, res) => {
+  res.json({ ok: true, id: req.params.id, responded_at: new Date().toISOString(), responded_by: fixture.operator.ref });
+});
 
 // The reading editor asks for the archived source. In the preview there is no
 // bucket, so it gets a drawn stand-in — a page-shaped image is the point of the

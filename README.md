@@ -643,6 +643,8 @@ Run the migrations in order in the Supabase SQL editor:
 016_landing_enquiries.sql                   ← public form submissions
 018_specimens.sql                           ← practitioner-named plant photographs
 019_inbound_message_recovery.sql            ← inbound payloads + recovery of unfinished turns
+…
+028_landing_enquiry_decisions.sql           ← attributed sign-up decisions; narrower anon insert
 ```
 
 `npm run migrate:status` shows what is applied and what is not. Migration 017 is

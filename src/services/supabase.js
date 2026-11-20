@@ -1557,6 +1557,91 @@ async function adminGetUsageStats() {
   return { last7: tally(last7), last30: tally(rows), byDay };
 }
 
+// ─── landing sign-ups (016, 028) ─────────────────────────────────────────────
+//
+// What strangers typed into the two landing forms. Read with the service role
+// because 016 gives anon no SELECT — the public key can submit and never read.
+
+const SIGNUP_LIMIT = 500;
+
+async function adminGetSignups() {
+  const client = getClient();
+  const head = { count: 'exact', head: true };
+  const [apps, enquiries, pending, totalApps, unanswered, totalEnquiries] = await Promise.all([
+    client.from('test_applications').select('*').order('created_at', { ascending: false }).limit(SIGNUP_LIMIT),
+    client.from('partnership_enquiries').select('*').order('created_at', { ascending: false }).limit(SIGNUP_LIMIT),
+    client.from('test_applications').select('*', head).is('approved_at', null).is('declined_at', null),
+    client.from('test_applications').select('*', head),
+    // responded_at arrives with 028. Without it the room can still list
+    // enquiries; it just cannot say which have been answered.
+    client.from('partnership_enquiries').select('*', head).is('responded_at', null),
+    client.from('partnership_enquiries').select('*', head),
+  ]);
+  // 016 missing is the whole panel missing — say so rather than print zeros.
+  for (const result of [apps, enquiries, pending, totalApps, totalEnquiries]) {
+    if (result.error) throw new Error(result.error.message);
+  }
+  const attribution = !unanswered.error;
+  if (!attribution) log.warn('db.signup_attribution_unavailable', { error: unanswered.error.message, hint: 'apply supabase/028' });
+
+  return {
+    applications: apps.data ?? [],
+    enquiries: enquiries.data ?? [],
+    counts: {
+      applications: totalApps.count ?? 0,
+      pending: pending.count ?? 0,
+      enquiries: totalEnquiries.count ?? 0,
+      unanswered: attribution ? unanswered.count ?? 0 : null,
+    },
+    limit: SIGNUP_LIMIT,
+    attribution,
+  };
+}
+
+function signupConflict(message) {
+  const err = new Error(message);
+  err.code = 'SIGNUP_CONFLICT';
+  return err;
+}
+
+// Approve or decline a test application. Only a pending application can be
+// decided, and the filter is part of the UPDATE, so two operators pressing at
+// once cannot both win — the second gets a conflict instead of overwriting.
+//
+// Approval records the decision only. The agent's allowlist is configuration
+// (BAILEYS_ALLOWED_NUMBERS, or the Meta number's own test list), so letting the
+// number in remains a separate, deliberate step.
+async function recordApplicationDecision({ id, decision, reviewer_ref, note = null }) {
+  if (!['approve', 'decline'].includes(decision)) throw new Error("decision must be 'approve' or 'decline'.");
+  const patch = {
+    decided_by: reviewer_ref,
+    decision_note: note,
+    [decision === 'approve' ? 'approved_at' : 'declined_at']: new Date().toISOString(),
+  };
+  const { data, error } = await getClient()
+    .from('test_applications')
+    .update(patch)
+    .eq('id', id)
+    .is('approved_at', null)
+    .is('declined_at', null)
+    .select('id, name, phone_number, approved_at, declined_at, decided_by');
+  if (error) throw new Error(error.message);
+  if (!data?.length) throw signupConflict('That application was not found or has already been decided.');
+  return data[0];
+}
+
+async function recordEnquiryResponse({ id, reviewer_ref }) {
+  const { data, error } = await getClient()
+    .from('partnership_enquiries')
+    .update({ responded_at: new Date().toISOString(), responded_by: reviewer_ref })
+    .eq('id', id)
+    .is('responded_at', null)
+    .select('id, responded_at, responded_by');
+  if (error) throw new Error(error.message);
+  if (!data?.length) throw signupConflict('That enquiry was not found or is already marked answered.');
+  return data[0];
+}
+
 async function uploadPhoto(practitioner_id, buffer, mimeType) {
   const ext = mimeType.includes('png') ? 'png' : mimeType.includes('webp') ? 'webp' : 'jpg';
   const storagePath = `photos/${practitioner_id}/${Date.now()}.${ext}`;
@@ -1649,6 +1734,9 @@ module.exports = {
   adminGetFlagged,
   adminGetCounts,
   adminGetUsageStats,
+  adminGetSignups,
+  recordApplicationDecision,
+  recordEnquiryResponse,
   dashboardGetStats,
   _throwOnDashboardQueryError,
 };

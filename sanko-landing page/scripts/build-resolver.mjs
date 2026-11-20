@@ -195,6 +195,7 @@ function layout({ title, description, canonical, jsonLd, breadcrumb, body, scrip
 <script type="application/ld+json">
 ${JSON.stringify(jsonLd, null, 2)}
 </script>
+<script defer src="/_vercel/insights/script.js"></script>
 </head>
 <body>
 <header class="masthead">
